@@ -1,3 +1,13 @@
-mod
-.claude
-.idea
+# Mod source lives in project-titan-core repo
+mod/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code session data
+.claude/
