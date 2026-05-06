@@ -1,0 +1,13 @@
+name = "[DEPRECATED]Create: Apothic Enchanting"
+filename = "create-apothic-enchanting-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dyTHNPGi/versions/CY9sBvr8/create-apothic-enchanting-0.1.0.jar"
+hash-format = "sha512"
+hash = "3aa358b3b3169534d6d732578a23ad7b836836aa6335912879002394d5e130bdcff4af17a4e17bc76b680cc7a606a5551fc34365dd816e262c58b7095896e726"
+
+[update]
+[update.modrinth]
+mod-id = "dyTHNPGi"
+version = "CY9sBvr8"

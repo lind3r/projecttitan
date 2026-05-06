@@ -1,0 +1,13 @@
+name = "Our Story: FTB Mods Theme"
+filename = "OurStory FTB Theme - 2.0 - 1.21.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yk32G5xJ/versions/EXUth5it/OurStory%20FTB%20Theme%20-%202.0%20-%201.21.1.zip"
+hash-format = "sha512"
+hash = "79700b52e7a6c85ed0c58d1ba546b034f45312d4010c92c17f731b75be80e49ea167cebd9b6b19a61f9002af648b6af5b84fe77bf45fffa090d04f6e9bcfab17"
+
+[update]
+[update.modrinth]
+mod-id = "yk32G5xJ"
+version = "EXUth5it"

@@ -1,0 +1,4 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"enderio:conduit","components":{"enderio:conduit":"enderio:ender_energy"}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

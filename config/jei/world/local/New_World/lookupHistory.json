@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"projecttitancore:trophy_tier_2"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"projecttitancore:trophy_tier_1"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"projecttitancore:trophy_tier_3"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:soul_vial","components":{"enderio:soul":{"entity_type":"minecraft:tropical_fish","entity_tag":{}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:water"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:dirt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"projecttitancore:titan_core"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

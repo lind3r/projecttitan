@@ -1,0 +1,24 @@
+# Meta / IDE / dev tooling — never part of the player-facing pack
+.git/
+.gitignore
+.idea/
+.vscode/
+.claude/
+
+# Dev-only docs and helpers
+scripts/
+docs/
+CLAUDE.md
+*.md
+
+# JARs are tracked through .pw.toml metadata files, never as raw binaries
+*.jar
+
+# Runtime junk that leaks through the config/ junction during play
+logs/
+crash-reports/
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini

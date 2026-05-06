@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_titan_core"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "projecttitancore:block/titan_core_active"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7F19CC172476E599"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "1FCD148E2DA620F0"
+		rewards: [{
+			count: 64
+			id: "36039636A99356CC"
+			item: {
+				count: 1
+				id: "minecraft:iron_block"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "30BBF8E56FFBD9BB"
+			item: { count: 1, id: "projecttitancore:trophy_tier_1" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

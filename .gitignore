@@ -1,6 +1,3 @@
-# Mod source lives in project-titan-core repo
-mod/
-
 # IDE
 .idea/
 .vscode/
@@ -8,6 +5,24 @@ mod/
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Claude Code session data
 .claude/
+
+# packwiz tracks mods through .pw.toml metadata; raw JARs never belong in the repo
+*.jar
+
+# packwiz local cache (separate from the global cache dir, defensive)
+.packwiz-cache/
+
+# Embeddium regenerates this on launch and tracks local class state
+config/embeddium-fingerprint.json
+
+# Per-launch logs / crash dumps that can leak in via the live config junction
+logs/
+crash-reports/
+*.log
+
+# Backups created by mods or editors
+*.bak

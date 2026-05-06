@@ -1,0 +1,16 @@
+name = "Project Titan"
+author = "lind3r"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "656a4112efcd932a8543da585d41d684f62bf4742ef31d034c51ae2869d44404"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.228"
+
+[options]
+acceptable-game-versions = ["1.21"]
