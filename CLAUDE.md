@@ -71,6 +71,40 @@ Only **Project Titan Core** (`projecttitancore-*.jar`) — our own mod, no publi
 
 The other 81 mods all have 1-to-1 packwiz tracking matching the live install exactly, verified by JAR hash (Modrinth) or exact filename (CurseForge).
 
+## Mods Backlog (To Add)
+
+Queued for the next sync round — install in Prism first, then run the packwiz sync workflow below.
+
+- Almost Unified
+- Chisel Modern
+- Crafting Station: J/EMI Edition Updated
+- Crafting Tweaks
+- Cosmetic Armor Reworked
+- Draconic Evolution
+- Enchantment Descriptions
+- ExtendedAE
+- FindMe
+- Flux Networks
+- Functional Storage
+- Gateways to Eternity
+- GuideME
+- Hostile Neural Networks
+- Industrial Foregoing
+- Inventory Essentials
+- Inventory Sorter
+- Item Collectors
+- ME Requester
+- Metal Barrels
+- Mining Gadgets
+- Mob Grinding Utils
+- Oritech
+- Overflowing Bars
+- Pick Up Notifier
+- Simple Magnets
+- Spice of Life: Carrot Edition
+- Tool Belt
+- Trash Cans
+
 ## Syncing packwiz to the Prism Install
 
 **Workflow is one-directional.** The user adds/removes mods through Prism first (mod browser, manual JAR drops, etc.), then asks Claude to make packwiz reflect the new state. Don't drive it the other way — packwiz operations don't auto-update the dev instance's `mods/` folder.
