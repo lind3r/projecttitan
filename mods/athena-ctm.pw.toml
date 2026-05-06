@@ -1,6 +1,6 @@
 name = "Athena"
 filename = "athena-neoforge-1.21.1-4.0.5.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/HV2wsFB9/athena-neoforge-1.21.1-4.0.5.jar"

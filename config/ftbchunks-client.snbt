@@ -138,29 +138,29 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:sheep": true
-			"alexsmobs:flying_fish": true
-			"quark:toretoise": true
-			"minecraft:zombie": true
+			"alexsmobs:centipede_body": true
+			"minecraft:enderman": true
+			"alexsmobs:centipede_tail": true
 			"minecraft:squid": true
+			"minecraft:pig": true
+			"alexsmobs:flying_fish": true
+			"minecraft:cod": false
+			"alexsmobs:centipede_head": true
+			"minecraft:zombie": true
+			"minecraft:witch": true
+			"quark:toretoise": true
+			"minecraft:creeper": true
+			"minecraft:glow_squid": true
+			"ars_nouveau:whirlisprig": true
+			"quark:stoneling": true
+			"minecraft:bat": true
+			"alexsmobs:cockroach": true
+			"minecraft:chicken": true
+			"minecraft:dolphin": true
 			"minecraft:spider": true
 			"minecraft:skeleton": true
-			"minecraft:enderman": true
-			"minecraft:pig": true
-			"ars_nouveau:whirlisprig": true
-			"minecraft:cod": false
-			"alexsmobs:cockroach": true
-			"quark:stoneling": true
-			"alexsmobs:centipede_body": true
-			"alexsmobs:centipede_head": true
-			"minecraft:chicken": true
-			"alexsmobs:centipede_tail": true
-			"minecraft:bat": true
-			"minecraft:creeper": true
-			"minecraft:dolphin": true
+			"minecraft:sheep": true
 			"minecraft:bee": true
-			"minecraft:glow_squid": true
-			"minecraft:witch": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

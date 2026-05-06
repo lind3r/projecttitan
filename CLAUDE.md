@@ -67,14 +67,19 @@ packwiz settings acceptable-versions --add 1.21   # already added; lets us pick 
 
 ## Mods Not Yet in packwiz
 
-Two mods didn't have a 1.21.1 NeoForge build discoverable on either Modrinth or CurseForge under the obvious slugs:
+Only **Project Titan Core** (`projecttitancore-*.jar`) — our own mod, no published release artifact yet. Will be added via `packwiz url add` once a release is cut.
 
-- **Alex's Mobs** (`alexsmobs-1.22.17.jar`) — slug `alexs-mobs`. The MC 1.21 NeoForge build may exist under a different slug or be unpublished on those platforms; revisit when we can search interactively.
-- **FTB Ultimine** (`ftb-ultimine-neoforge-2101.1.13.jar`) — slug `ftb-ultimine`. Other FTB mods (chunks/library/quests/teams) added cleanly; ultimine alone failed.
+The other 81 mods all have 1-to-1 packwiz tracking that matches the live install exactly (verified by hash via Modrinth + by exact filename for CurseForge entries).
 
-Plus our own mod **Project Titan Core** (`projecttitancore-*.jar`) — not on Modrinth/CurseForge yet; deferred until we publish a release artifact, then add via `packwiz url add`.
+## Adding a Mod That Wasn't Picked Up Cleanly
 
-These three live in the Prism `mods/` folder but are **not tracked by packwiz**, so they will be missing from any export. Fix before any public release.
+`packwiz mr add <slug> -y` does a fuzzy search and `-y` will silently take the top result. Bad slugs land on lookalike addons rather than the real mod. If you ever bulk-add, *audit afterward* with the diff in `scripts/rebuild-pw-from-hashes.py`:
+
+```bash
+python scripts/rebuild-pw-from-hashes.py    # rebuild from JAR hashes (Modrinth)
+```
+
+For CurseForge mods, paste the full project URL into `packwiz cf add <url>` instead of guessing a slug. URLs are deterministic; slugs are not.
 
 ## World Testing Workflow
 
