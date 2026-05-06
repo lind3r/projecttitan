@@ -67,19 +67,40 @@ packwiz settings acceptable-versions --add 1.21   # already added; lets us pick 
 
 ## Mods Not Yet in packwiz
 
-Only **Project Titan Core** (`projecttitancore-*.jar`) — our own mod, no published release artifact yet. Will be added via `packwiz url add` once a release is cut.
+Only **Project Titan Core** (`projecttitancore-*.jar`) — our own mod, no published release artifact yet. Add via `packwiz url add` once a release is cut.
 
-The other 81 mods all have 1-to-1 packwiz tracking that matches the live install exactly (verified by hash via Modrinth + by exact filename for CurseForge entries).
+The other 81 mods all have 1-to-1 packwiz tracking matching the live install exactly, verified by JAR hash (Modrinth) or exact filename (CurseForge).
 
-## Adding a Mod That Wasn't Picked Up Cleanly
+## Syncing packwiz to the Prism Install
 
-`packwiz mr add <slug> -y` does a fuzzy search and `-y` will silently take the top result. Bad slugs land on lookalike addons rather than the real mod. If you ever bulk-add, *audit afterward* with the diff in `scripts/rebuild-pw-from-hashes.py`:
+**Workflow is one-directional.** The user adds/removes mods through Prism first (mod browser, manual JAR drops, etc.), then asks Claude to make packwiz reflect the new state. Don't drive it the other way — packwiz operations don't auto-update the dev instance's `mods/` folder.
+
+**Audit is the first step. Always run this before adding or removing anything:**
 
 ```bash
-python scripts/rebuild-pw-from-hashes.py    # rebuild from JAR hashes (Modrinth)
+PRISM=/c/Users/lind3/AppData/Roaming/PrismLauncher/instances/projecttitan/minecraft/mods
+PACKWIZ=/c/Users/lind3/clones/project-titan/mods
+ls "$PRISM" | grep -v projecttitancore | sort > /tmp/installed.txt
+grep -h '^filename = ' "$PACKWIZ"/*.pw.toml | sed 's/filename = //;s/"//g' | sort > /tmp/tracked.txt
+comm -23 /tmp/installed.txt /tmp/tracked.txt   # newly added (need to track)
+comm -13 /tmp/installed.txt /tmp/tracked.txt   # removed/replaced (need to drop or fix)
 ```
 
-For CurseForge mods, paste the full project URL into `packwiz cf add <url>` instead of guessing a slug. URLs are deterministic; slugs are not.
+**To track newly-installed mods:** run `python scripts/rebuild-pw-from-hashes.py` first — it hashes every JAR and pulls exact project+version from Modrinth. Safe to re-run anytime; it overwrites all `.pw.toml` from current ground truth. For JARs Modrinth doesn't know (CurseForge-only), ask the user for the project URL and use `packwiz cf add <url>` — URLs, not slugs, since `-y` on a guessed slug silently takes wrong matches (lesson hard-earned 2026-05-06; full reasoning in `feedback_packwiz_add.md` memory). The `vanilla-loot-addon-for-loot-integrations` slug is the existence proof that slug guessing fails for non-obvious names.
+
+**To drop a removed mod:** `packwiz remove <name>` where `<name>` is the `.pw.toml` basename (e.g. `alexs-mobs(1.21.1)`). After, `packwiz refresh` and commit.
+
+**After any sync:** `packwiz refresh` to re-hash the index, then commit and push. Standing authorization applies.
+
+## Bumping Mod Versions
+
+`packwiz update --all` checks Modrinth/CF for newer versions of every tracked mod (within the acceptable-versions filter) and updates `.pw.toml` files in place.
+
+Caveat: this is the one operation that *creates* drift between packwiz tracking and the dev `mods/` folder, since the dev instance won't auto-fetch new JARs. After bumping, either spin up a `.mrpack` test instance to verify new versions, or manually drop new JARs into the dev instance's `mods/`.
+
+## .mrpack Round-Trip Test
+
+`packwiz mr export` produces `Project Titan-<version>.mrpack` at the repo root (gitignored). Importing into a fresh Prism instance via **Add Instance → Import** is the canonical end-to-end test before publishing — confirms all download URLs resolve, hashes match, and overrides land correctly. Verified working 2026-05-06; the imported instance will be missing `projecttitancore` (deferred) and won't have repo junctions, so treat it as a disposable player-simulation, not a parallel dev instance.
 
 ## World Testing Workflow
 
