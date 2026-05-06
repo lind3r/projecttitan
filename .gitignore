@@ -26,3 +26,7 @@ crash-reports/
 
 # Backups created by mods or editors
 *.bak
+
+# packwiz export artifacts (ship via GitHub Releases, not git)
+*.mrpack
+*.zip
