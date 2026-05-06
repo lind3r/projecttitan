@@ -1,0 +1,308 @@
+{
+  "_schema_version": 1,
+  "_doc": "Curated source of truth for energy generation balance. See energy.md for design principles. Re-derive draft data with: python scripts/audit-energy.py (writes energy-discovered.json). Update this file by hand when discovery finds new data or a config value changes.",
+  "tier_targets_fe_per_tick": {
+    "T1": 1000,
+    "T2": 4000,
+    "T3": 16000,
+    "T4": 60000,
+    "T5": 250000,
+    "T6": 1000000,
+    "T7": 4000000,
+    "T8": 15000000,
+    "T9": 60000000,
+    "T10": 200000000
+  },
+  "_tier_note": "10 tiers locked 2026-05-07; ~4× geometric spacing from T1=1k (starter generator) to T10=200M (Fusion peak). Replaced earlier 5-tier scheme. Trophy-item gating is gone.",
+  "unit_conversions": {
+    "mekanism_joules_per_fe": 2.5,
+    "enderio_ui_per_fe": 1.0,
+    "ae2_fe_per_ae": 2.0,
+    "createaddition_fe_per_fe": 1.0,
+    "_note": "Mekanism Joules→FE: divide J by 2.5. EnderIO uI is 1:1 with FE. AE2's AE→FE default conversion is 2 FE per AE."
+  },
+  "generators": [
+    {
+      "id": "mekanism.solar_basic",
+      "mod": "mekanism",
+      "name": "Solar Generator",
+      "category": "solar",
+      "config_file": "config/Mekanism/generators.toml",
+      "config_keys": ["solar_generator.solarGeneration"],
+      "native_unit": "J/t",
+      "native_value": 50,
+      "fe_per_block": 20,
+      "fe_max_realistic": 20,
+      "scaling": "tile-array; sky access; ~50-70% of peak averaged across day",
+      "ceiling_tier": "T2",
+      "notes": "Entry-tier generator. ~50 panels = T1 (1k); ~200 panels = T2 (4k). Cannot meaningfully scale beyond T2."
+    },
+    {
+      "id": "mekanism.solar_advanced",
+      "mod": "mekanism",
+      "name": "Advanced Solar Generator",
+      "category": "solar",
+      "config_file": "config/Mekanism/generators.toml",
+      "config_keys": ["solar_generator.advancedSolarGeneration"],
+      "native_unit": "J/t",
+      "native_value": 300,
+      "fe_per_block": 120,
+      "fe_max_realistic": 120,
+      "scaling": "tile-array; sky required",
+      "ceiling_tier": "T3",
+      "notes": "Higher entry-tier. ~9 panels = T1; ~34 = T2; ~134 = T3. Beyond T3 is impractical at 120 FE/t/block."
+    },
+    {
+      "id": "mekanism.bio_generator",
+      "mod": "mekanism",
+      "name": "Bio Generator",
+      "category": "biofuel",
+      "config_file": "config/Mekanism/generators.toml",
+      "config_keys": ["bio_generator.bioGeneration"],
+      "native_unit": "J/t",
+      "native_value": 350,
+      "fe_per_block": 140,
+      "fe_max_realistic": 140,
+      "scaling": "needs Bio Fuel feed; small-tile-array friendly",
+      "ceiling_tier": "T3",
+      "notes": "Best per-block early option among Mekanism fuel-fed gens. ~8 = T1; ~30 = T2; ~115 = T3."
+    },
+    {
+      "id": "mekanism.heat_generator",
+      "mod": "mekanism",
+      "name": "Heat Generator",
+      "category": "thermal",
+      "config_file": "config/Mekanism/generators.toml",
+      "config_keys": [
+        "heat_generator.heatGeneration",
+        "heat_generator.heatGenerationLava",
+        "heat_generator.heatGenerationNether"
+      ],
+      "native_unit": "J/t",
+      "native_value": 200,
+      "fe_per_block": 80,
+      "fe_max_realistic": 204,
+      "scaling": "fe = (200 + 30*lavaSides + 100*ifNether) / 2.5; max 7 lava sides + nether",
+      "ceiling_tier": "T2",
+      "notes": "Peak ~204 FE/t per gen (7 lava sides in nether). ~5-13 = T1; ~20-50 = T2; T3+ impractical."
+    },
+    {
+      "id": "mekanism.wind_generator",
+      "mod": "mekanism",
+      "name": "Wind Generator",
+      "category": "wind",
+      "config_file": "config/Mekanism/generators.toml",
+      "config_keys": ["wind_generator.generationMin", "wind_generator.generationMax"],
+      "native_unit": "J/t",
+      "native_value": 480,
+      "fe_per_block": 110,
+      "fe_max_realistic": 192,
+      "scaling": "60–480 J/t Y-dependent (linear minY=24 to maxY=2031); ~average 110 FE/t at Y=128",
+      "ceiling_tier": "T2",
+      "notes": "Tower-mounted tiles. Easy spam but low ceiling per-block. ~10 high towers = T1; ~37 = T2."
+    },
+    {
+      "id": "mekanism.gas_burning_generator",
+      "mod": "mekanism",
+      "name": "Gas-Burning Generator",
+      "category": "fuel",
+      "config_file": "config/Mekanism/generators.toml",
+      "config_keys": ["gas_generator.tankCapacity"],
+      "native_unit": "J/t (peak)",
+      "native_value": 180480,
+      "fe_per_block": 72192,
+      "fe_max_realistic": 72192,
+      "scaling": "per generator at max burn with Ethene; output = energyDensity × burnRate, max 6.4 mB/t consumption; scaling is by adding more generators",
+      "ceiling_tier": "T6",
+      "notes": "Verified 2026-05-06 via Mekanism Wiki + JEI value reported by user. Ethene energyDensity = 11,280 FE/mB (28,200 J/mB), base burn 40 ticks/mB, max 6.4 mB/t → 72,192 FE/t per gen. ~1 gen = T4 (60k); ~4 gens = T5 (250k); ~14 gens = T6 (1M). T7+ at this rate (56+ gens) is impractical. Other gases far weaker (Hydrogen ~80 FE/t).",
+      "fuel_data": {
+        "ethene": {
+          "energy_density_fe_per_mb": 11280,
+          "energy_density_j_per_mb": 28200,
+          "base_burn_time_ticks_per_mb": 40,
+          "max_burn_rate_mb_per_t": 6.4,
+          "peak_fe_per_t": 72192
+        }
+      }
+    },
+    {
+      "id": "mekanism.industrial_turbine",
+      "mod": "mekanism",
+      "name": "Industrial Turbine",
+      "category": "steam_multiblock",
+      "config_file": "config/Mekanism/generators.toml",
+      "config_keys": [
+        "turbine.bladesPerCoil",
+        "turbine.disperserChemicalFlow",
+        "turbine.energyCapacityPerVolume"
+      ],
+      "native_unit": "J/t",
+      "native_value": null,
+      "fe_per_block": null,
+      "fe_max_realistic": 25000000,
+      "scaling": "multiblock; output ∝ steam flow ∝ blade count × disperser flow (1280 mB/t per disperser); 9×9 max-coil build with full Fission steam feed → ~25M FE/t",
+      "ceiling_tier": "T8",
+      "notes": "Required pair for any Mekanism nuclear path; numbers depend on Boiler/Fission feed. ~25M ceiling lands cleanly in T8."
+    },
+    {
+      "id": "mekanism.fission_reactor",
+      "mod": "mekanism",
+      "name": "Fission Reactor",
+      "category": "nuclear",
+      "config_file": "config/Mekanism/generators.toml",
+      "config_keys": [
+        "fission_reactor.energyPerFissionFuel",
+        "fission_reactor.defaultBurnRate",
+        "fission_reactor.burnPerAssembly",
+        "fission_reactor.maxFuelPerAssembly"
+      ],
+      "native_unit": "J/t (heat)",
+      "native_value": 1000000,
+      "fe_per_block": null,
+      "fe_max_realistic": 10000000,
+      "scaling": "heat = 1M J × burnRate (mB/t); burnRate scales 0.1 → fuelAssemblies × 1; ~64-79 assemblies max realistic = 6.4M-7.9M J/t direct heat → ~10M FE/t through Turbine",
+      "ceiling_tier": "T7",
+      "notes": "Heat must convert to power via boiler+turbine pipeline. ~80% pipeline efficiency. T7 (4M) easy; T8 (15M) requires near-max assemblies and pristine Turbine."
+    },
+    {
+      "id": "mekanism.fusion_reactor",
+      "mod": "mekanism",
+      "name": "Fusion Reactor",
+      "category": "nuclear",
+      "config_file": "config/Mekanism/generators.toml",
+      "config_keys": [
+        "fusion_reactor.fuelEnergy",
+        "fusion_reactor.thermocoupleEfficiency",
+        "fusion_reactor.casingThermalConductivity"
+      ],
+      "native_unit": "J/t",
+      "native_value": 10000000,
+      "fe_per_block": null,
+      "fe_max_realistic": 200000000,
+      "scaling": "fuelEnergy 10M J/mB × injection rate; max realistic injection rate puts output in 100M-300M FE/t range with steam-cooled designs",
+      "ceiling_tier": "T10",
+      "notes": "End-game multiblock; ignition requires Hohlraum-fed D-T fuel. Sub-peak injection lands in T9 (60M); peak ~200M = T10."
+    },
+    {
+      "id": "createaddition.alternator",
+      "mod": "createaddition",
+      "name": "Alternator",
+      "category": "kinetic_to_fe",
+      "config_file": "config/createaddition-common.toml",
+      "config_keys": [
+        "general.fe_at_max_rpm",
+        "alternator.generator_efficiency",
+        "alternator.generator_max_output"
+      ],
+      "native_unit": "FE/t",
+      "native_value": 360,
+      "fe_per_block": 360,
+      "fe_max_realistic": 360,
+      "scaling": "per alternator at 256 RPM; needs 8 SU/RPM kinetic input = 2048 SU per alternator at peak; output transfer capped at 5000 FE/t",
+      "ceiling_tier": "T3",
+      "notes": "Practical scale ~30-100 alternators feasible with Steam Engine farm. ~3 = T1; ~12 = T2; ~45 = T3 (peak Steam Engine farm). T4+ unrealistic."
+    },
+    {
+      "id": "enderio.stirling_generator",
+      "mod": "enderio",
+      "name": "Stirling Generator",
+      "category": "fuel",
+      "config_file": "config/enderio/machines-common.toml",
+      "config_keys": [
+        "energy.stirlingGenerator.generation",
+        "energy.stirlingGenerator.fuelEfficiencyBase",
+        "energy.stirlingGenerator.fuelEfficiencyStep"
+      ],
+      "native_unit": "uI/t",
+      "native_value": 40,
+      "fe_per_block": 40,
+      "fe_max_realistic": 120,
+      "scaling": "base 40 FE/t, capacitor tier multiplies (Octadic ≈ ×3 = 120 FE/t)",
+      "ceiling_tier": "T2",
+      "notes": "Per-block ceiling ~120 FE/t (Octadic). ~9-25 = T1; ~34 (Octadic) = T2; T3 needs ~134 blocks, impractical."
+    },
+    {
+      "id": "enderio.photovoltaic_energetic",
+      "mod": "enderio",
+      "name": "Energetic Photovoltaic Module",
+      "category": "solar",
+      "config_file": "config/enderio/machines-common.toml",
+      "config_keys": ["energy.photovoltaicCellRates.energetic"],
+      "native_unit": "uI/t",
+      "native_value": 4,
+      "fe_per_block": 4,
+      "fe_max_realistic": 4,
+      "scaling": "tile-array; midday clear-sky peak",
+      "ceiling_tier": "T1",
+      "notes": "Lowest-tier solar. ~250 panels = T1; T2 (4k = 1000 panels) is absurd."
+    },
+    {
+      "id": "enderio.photovoltaic_pulsating",
+      "mod": "enderio",
+      "name": "Pulsating Photovoltaic Module",
+      "category": "solar",
+      "config_file": "config/enderio/machines-common.toml",
+      "config_keys": ["energy.photovoltaicCellRates.pulsating"],
+      "native_unit": "uI/t",
+      "native_value": 16,
+      "fe_per_block": 16,
+      "fe_max_realistic": 16,
+      "scaling": "tile-array",
+      "ceiling_tier": "T2",
+      "notes": "Mid solar tier. ~63 = T1; ~250 = T2 (marginal)."
+    },
+    {
+      "id": "enderio.photovoltaic_vibrant",
+      "mod": "enderio",
+      "name": "Vibrant Photovoltaic Module",
+      "category": "solar",
+      "config_file": "config/enderio/machines-common.toml",
+      "config_keys": ["energy.photovoltaicCellRates.vibrant"],
+      "native_unit": "uI/t",
+      "native_value": 64,
+      "fe_per_block": 64,
+      "fe_max_realistic": 64,
+      "scaling": "tile-array",
+      "ceiling_tier": "T3",
+      "notes": "Top solar tier in EnderIO. ~16 = T1; ~63 = T2; ~250 = T3 (impractical). T4+ infeasible."
+    },
+    {
+      "id": "enderio.soul_engine",
+      "mod": "enderio",
+      "name": "Soul Engine",
+      "category": "soul",
+      "config_file": "config/enderio/machines-common.toml",
+      "config_keys": ["energy.soulEngine.burnSpeed", "energy.soulEngine.generation"],
+      "native_unit": "uI/t",
+      "native_value": null,
+      "fe_per_block": null,
+      "fe_max_realistic": null,
+      "scaling": "rate scales by soul vial mob's energy value; not in TOML",
+      "ceiling_tier": "TBD",
+      "notes": "TBD: per-mob energy values are hardcoded. Verify via in-game JEI/EMI for highest-yield mobs (Ender Dragon, Wither, etc.)."
+    },
+    {
+      "id": "ae2.vibration_chamber",
+      "mod": "ae2",
+      "name": "Vibration Chamber",
+      "category": "fuel",
+      "config_file": "config/ae2-common.toml",
+      "config_keys": ["vibrationChamber.baseEnergyPerFuelTick", "vibrationChamber.baseMaxEnergyPerGameTick"],
+      "native_unit": "AE/t",
+      "native_value": 40,
+      "fe_per_block": 80,
+      "fe_max_realistic": 80,
+      "scaling": "burns furnace-style fuel; outputs in AE2 native AE (default 2 FE per AE)",
+      "ceiling_tier": "T2",
+      "notes": "Niche; designed for AE network bootstrap, not bulk power. ~13 = T1; ~50 = T2."
+    }
+  ],
+  "tbd_verifications": [
+    {
+      "id": "enderio.soul_engine",
+      "what": "FE/t output range across mob souls",
+      "method": "in-game JEI lookup; mod typically displays per-soul value in tooltip",
+      "status": "deferred (user) — skip until/unless Soul Engine becomes a candidate path"
+    }
+  ]
+}

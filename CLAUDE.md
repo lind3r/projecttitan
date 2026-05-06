@@ -173,9 +173,10 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - **Don't use `forge_energy` tasks** to gate quests on FE generation — Titan Core crafting recipes already require energy, the gate is redundant. (Stripped from the energy chapter for this reason.)
 
 **Main questline (`the_titan_core` chapter):**
-- Strictly linear: Tier 1 → Tier 2 → Tier 3 → ...
-- Costs scale aggressively (current Tier 1 reward is 64×9 iron blocks — that level of expense is intentional, not a bug).
-- **Future direction:** replace trophy-item gating with events emitted by the Titan Core block on tier transitions. When that exists, trophy items become unnecessary, and tier-ups can also trigger world changes. Defer wiring this until `projecttitancore` exposes the event hook.
+- Strictly linear: T1 → T2 → ... → T10 (10 tiers, locked 2026-05-07).
+- Demand targets and ceiling coverage per tier live in `balance/energy.md`. Reward scaling tracks that demand curve.
+- Costs scale aggressively (T1 reward is 64×9 iron blocks — that level of expense is intentional, not a bug).
+- **Trophy items are gone.** The mod no longer ships `projecttitancore:trophy_tier_X`, so the `the_titan_core.snbt` quests still gating on those items are broken until re-tasked. Plan: replace with events emitted by the Titan Core block on tier transitions; tier-ups can also trigger world changes. Defer wiring this until `projecttitancore` exposes the event hook.
 
 **Side chapters (`energy_generation`, `resource_generation`, `magic`, `gearing_up`, `strong_foes`, `travel_the_world`, `other`):**
 - Hub-and-spoke: one entry quest (checkmark task, hexagon shape) fans out to multiple mod-specific paths.
@@ -271,10 +272,24 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [ ] Curios — equip any curio item
 
 #### the_titan_core (main spine)
-- [x] Tier 1 — obtain trophy_tier_1 (placeholder; current reward 64×9 iron blocks)
-- [x] Tier 2 — obtain trophy_tier_2 (current reward 16 gold blocks)
-- [x] Tier 3 — obtain trophy_tier_3 (current reward 16 diamond blocks)
-- [ ] Tier 4+ — define when mod content exists. Replace trophy gating with core-emitted tier events when mod hook lands.
+
+**10 tiers locked 2026-05-07.** Demand targets per tier in `balance/energy.md`. Trophies are gone — the existing T1-T3 quest SNBT still references `projecttitancore:trophy_tier_X` items that the mod no longer exposes, so all three are broken until re-tasked once the tier-transition event hook lands.
+
+| Tier | Demand FE/t | Existing reward (re-task pending) |
+|---|---:|---|
+| T1  |        1,000 | 64×9 iron blocks (was trophy_tier_1) |
+| T2  |        4,000 | 16 gold blocks (was trophy_tier_2)   |
+| T3  |       16,000 | 16 diamond blocks (was trophy_tier_3) |
+| T4  |       60,000 | TBD                                   |
+| T5  |      250,000 | TBD                                   |
+| T6  |    1,000,000 | TBD                                   |
+| T7  |    4,000,000 | TBD                                   |
+| T8  |   15,000,000 | TBD                                   |
+| T9  |   60,000,000 | TBD                                   |
+| T10 |  200,000,000 | TBD (Fusion-class endgame)            |
+
+- [ ] Re-task T1-T3 quests once `projecttitancore` ships the tier-transition event hook.
+- [ ] Author T4-T10 quests as the mod content for each tier becomes available.
 
 ## Distribution
 
