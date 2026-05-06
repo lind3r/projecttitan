@@ -1,0 +1,14 @@
+{
+	id: "1EEE9EFF1C6E4016"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "56DB72B8CFAC1188", item: { count: 1, id: "minecraft:white_wool" } }
+		{ id: "404BFA7A24C31C2D", item: { count: 1, id: "createaddition:electric_motor" } }
+		{
+			id: "73D01802304BEA3C"
+			type: "xp_levels"
+			xp_levels: 5
+		}
+	]
+}

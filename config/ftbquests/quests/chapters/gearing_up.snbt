@@ -1,0 +1,218 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gearing_up"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:item/diamond_sword"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "50B4EC78A642E6CC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7D5EC061B28F9D40"
+			rewards: [{
+				count: 4
+				id: "7D5EC061B28F9D41"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7D5EC061B28F9D42"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "8E6FD172C390AE50"
+			rewards: [
+				{
+					count: 4
+					id: "8E6FD172C390AE51"
+					item: { count: 1, id: "apotheosis:gem" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8E6FD172C390AE52"
+					item: { count: 1, id: "apotheosis:gem_dust" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8E6FD172C390AE53"
+					item: { count: 1, id: "apotheosis:gem_cutting_table" }
+					type: "item"
+				}
+				{
+					id: "8E6FD172C390AE54"
+					item: { count: 1, id: "apotheosis:gem" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "39B1C4D5E6F70801"
+			rewards: [
+				{
+					id: "39B1C4D5E6F70802"
+					item: { count: 1, id: "apotheosis:sigil_of_enhancement" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "39B1C4D5E6F70803"
+					item: { count: 1, id: "apotheosis:epic_material" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "39B1C4D5E6F70804"
+					item: { count: 1, id: "apotheosis:rare_material" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39B1C4D5E6F70805"
+					item: { count: 1, id: "apotheosis:reforging_table" }
+					type: "item"
+				}
+				{
+					id: "39B1C4D5E6F70806"
+					item: { count: 1, id: "apotheosis:rare_material" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "39B1C4D5E6F70810"
+			rewards: [
+				{
+					id: "39B1C4D5E6F70811"
+					item: { count: 1, id: "quark:ancient_tome" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "39B1C4D5E6F70812"
+					item: { count: 1, id: "minecraft:lapis_block" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "39B1C4D5E6F70813"
+					item: { count: 1, id: "minecraft:enchanted_book" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39B1C4D5E6F70814"
+					item: { count: 1, id: "apothic_enchanting:hellshelf" }
+					type: "item"
+				}
+				{
+					id: "39B1C4D5E6F70815"
+					item: { count: 1, id: "apothic_enchanting:endshelf" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "9F70E283D4A1BF60"
+			rewards: [
+				{
+					id: "9F70E283D4A1BF61"
+					item: { count: 1, id: "mekanism:energy_tablet" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "9F70E283D4A1BF62"
+					item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "9F70E283D4A1BF63"
+				item: { count: 1, id: "mekanism:jetpack" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "39B1C4D5E6F70820"
+			rewards: [
+				{
+					id: "39B1C4D5E6F70821"
+					item: { count: 1, id: "mekanismtools:refined_obsidian_paxel" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "39B1C4D5E6F70822"
+					item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39B1C4D5E6F70823"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "A081F394E5B2C070"
+			rewards: [
+				{
+					count: 2
+					id: "A081F394E5B2C071"
+					item: { count: 1, id: "sophisticatedbackpacks:advanced_pickup_upgrade" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "A081F394E5B2C072"
+					item: { count: 1, id: "sophisticatedbackpacks:advanced_magnet_upgrade" }
+					type: "item"
+				}
+				{
+					id: "A081F394E5B2C073"
+					item: { count: 1, id: "sophisticatedbackpacks:advanced_filter_upgrade" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "A081F394E5B2C074"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+	]
+}

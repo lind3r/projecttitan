@@ -1,0 +1,187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "energy_generation"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "jade:textures/gui/sprites/energy.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "50BFBF5154F162BF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5A1B7C3E4F2D6890"
+			rewards: [{
+				count: 16
+				id: "7C3D9E5A6F4B8092"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6B2C8D4F5E3A7081"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "53A654BDD709AEBB"
+			rewards: [
+				{
+					id: "6DFFA0BCA42CA394"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0BBC2C33C02C0B44"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11467B31CDDF7134"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "420C49B55F5DA985"
+			rewards: [
+				{
+					id: "05C627E3F4D41821"
+					item: {
+						count: 1
+						id: "mekanism:basic_energy_cube"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "16D738F405E52932"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "27E84905168A3A43"
+					item: {
+						count: 1
+						id: "mekanism:advanced_control_circuit"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5264A5D95CC5772C"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "38F95A1627AB4B54"
+			rewards: [
+				{
+					count: 4
+					id: "6BC28D495ADE7E87"
+					item: {
+						count: 1
+						id: "enderio:pulsating_alloy_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7CD39E5A6BEF8F98"
+					item: {
+						count: 1
+						id: "enderio:energetic_alloy_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49A06B2738BC5C65"
+				item: { count: 1, id: "enderio:stirling_generator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "5BD3E6F708192A01"
+			rewards: [
+				{
+					count: 2
+					id: "5BD3E6F708192A02"
+					item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5BD3E6F708192A03"
+					item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BD3E6F708192A04"
+				item: { count: 1, id: "mekanismgenerators:solar_generator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "5BD3E6F708192A10"
+			rewards: [
+				{
+					count: 2
+					id: "5BD3E6F708192A11"
+					item: { count: 1, id: "enderio:vibrant_photovoltaic_module" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5BD3E6F708192A12"
+					item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BD3E6F708192A13"
+				item: { count: 1, id: "enderio:energetic_photovoltaic_module" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+	]
+}

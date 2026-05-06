@@ -1,0 +1,217 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "ars_nouveau:item/dominion_wand"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "39758E3565B2F8E8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "B192FA05F6C3D180"
+			rewards: [{
+				count: 4
+				id: "B192FA05F6C3D182"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "B192FA05F6C3D181"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B192FA05F6C3D180"]
+			id: "C2A30B16A7D4E290"
+			rewards: [
+				{
+					count: 16
+					id: "C2A30B16A7D4E293"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+				{
+					id: "C2A30B16A7D4E294"
+					item: { count: 1, id: "ars_nouveau:wand" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "C2A30B16A7D4E291"
+					item: { count: 1, id: "ars_nouveau:scribes_table" }
+					type: "item"
+				}
+				{
+					id: "C2A30B16A7D4E292"
+					item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["B192FA05F6C3D180"]
+			id: "D3B41C27B8E5F3A0"
+			rewards: [
+				{
+					count: 8
+					id: "D3B41C27B8E5F3A3"
+					item: { count: 1, id: "ars_nouveau:abjuration_essence" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "D3B41C27B8E5F3A4"
+					item: { count: 1, id: "ars_nouveau:conjuration_essence" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "D3B41C27B8E5F3A5"
+					item: { count: 1, id: "ars_nouveau:manipulation_essence" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "D3B41C27B8E5F3A1"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					id: "D3B41C27B8E5F3A2"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["B192FA05F6C3D180"]
+			id: "E4C52D38C9F604B0"
+			rewards: [
+				{
+					count: 64
+					id: "E4C52D38C9F604B4"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "E4C52D38C9F604B5"
+					item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "E4C52D38C9F604B1"
+					item: { count: 1, id: "ars_nouveau:source_jar" }
+					type: "item"
+				}
+				{
+					id: "E4C52D38C9F604B2"
+					item: { count: 1, id: "ars_nouveau:relay" }
+					type: "item"
+				}
+				{
+					id: "E4C52D38C9F604B3"
+					item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B192FA05F6C3D180"]
+			id: "F5D63E49DA071506"
+			rewards: [
+				{
+					count: 4
+					id: "F5D63E49DA071509"
+					item: { count: 1, id: "ars_nouveau:wilden_horn" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "F5D63E49DA07150A"
+					item: { count: 1, id: "ars_nouveau:wilden_wing" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "F5D63E49DA07150B"
+					item: { count: 1, id: "ars_nouveau:wilden_spike" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "F5D63E49DA071507"
+					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+					type: "item"
+				}
+				{
+					id: "F5D63E49DA071508"
+					item: { count: 1, id: "ars_nouveau:ritual_awakening" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["B192FA05F6C3D180"]
+			id: "06E74F5AEB182610"
+			rewards: [
+				{
+					count: 32
+					id: "06E74F5AEB182613"
+					item: { count: 1, id: "ars_nouveau:magebloom" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "06E74F5AEB182614"
+					item: { count: 1, id: "ars_nouveau:magebloom_fiber" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "06E74F5AEB182615"
+					item: { count: 1, id: "ars_nouveau:magebloom_block" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "06E74F5AEB182611"
+					item: { count: 1, id: "ars_nouveau:magebloom_crop" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "06E74F5AEB182612"
+					item: { count: 1, id: "ars_nouveau:magebloom" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+}

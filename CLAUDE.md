@@ -128,6 +128,120 @@ Quest data lives at `config\ftbquests\quests\` (junctioned, so versioned). Two e
 
 Hot-reload exists: `/ftbquests reload` re-reads the SNBT files without a restart.
 
+### Quest Design Vision
+
+The pack targets experienced modded MC players who expect to scale heavily. First-time-modded-MC accessibility is **not** a goal.
+
+**Quest philosophy:**
+- Few quests, high signal. Quests are *directions to go*, not exhaustive checklists.
+- Every reward must be substantial enough to justify building the machine and engaging with the mod.
+- "Introduce a mod" quests require both *building* the machine AND *using* it (e.g., obtain a sample of its output) — proving the system is live, not just crafted.
+- **Don't use `forge_energy` tasks** to gate quests on FE generation — Titan Core crafting recipes already require energy, the gate is redundant. (Stripped from the energy chapter for this reason.)
+
+**Main questline (`the_titan_core` chapter):**
+- Strictly linear: Tier 1 → Tier 2 → Tier 3 → ...
+- Costs scale aggressively (current Tier 1 reward is 64×9 iron blocks — that level of expense is intentional, not a bug).
+- **Future direction:** replace trophy-item gating with events emitted by the Titan Core block on tier transitions. When that exists, trophy items become unnecessary, and tier-ups can also trigger world changes. Defer wiring this until `projecttitancore` exposes the event hook.
+
+**Side chapters (`energy_generation`, `resource_generation`, `magic`, `gearing_up`, `strong_foes`, `travel_the_world`, `other`):**
+- Hub-and-spoke: one entry quest (checkmark task, hexagon shape) fans out to multiple mod-specific paths.
+- Paths are independent (OR-style) — players can do one, several, or all to stack rewards.
+- Spokes are positioned at x=4, y=−5 to +5 in increments of 2.
+- Energy generation example: hub → Create alternator path → Mekanism heat-gen path → Ender IO Stirling path.
+
+**Authoring conventions:**
+- User does visual layout polish in the in-game editor (faster visually) — Claude matches SNBT to whatever the editor produces.
+- Claude does bulk SNBT/lang edits, dependency wiring, mass rebalances, and content authoring.
+- Loop: Claude edits SNBT → user runs `/ftbquests reload` → user reports issues → Claude fixes.
+- **Verify item IDs against the live JAR before writing SNBT.** Pattern: `unzip -p <mods/MyMod.jar> assets/<modid>/lang/en_us.json | grep -oE '"item\.<modid>\.[a-z_]+":\s*"[^"]*"'`. The `Bash(unzip *)` permission is allowed in `.claude/settings.local.json` so peeking is unrestricted.
+- Quest IDs are 16 hex characters. Generate fresh ones when writing new quests; never reuse. **Watch out:** the in-game editor may regenerate Claude-authored IDs on next save — re-read SNBT after the user has touched a chapter, and update lang keys to match.
+- All titles, subtitles, and descriptions live in `config/ftbquests/quests/lang/en_us.snbt`, not inline in chapter SNBT. Multi-line descriptions use `quest.<id>.description.0`, `.description.1`, etc.
+
+### Quest Backlog
+
+**Status snapshot (2026-05-06):** 7 chapters, 38 quests shipped. All major mods have at least one starter quest. Iteration phase from here — user testing in-game, Claude patching IDs/balance/layout based on feedback.
+
+#### energy_generation
+- [x] Hub — Spark of Industry
+- [x] Create — Kinetic Conversion (Alternator)
+- [x] Mekanism — Industrial Heat (Heat Generator)
+- [x] EnderIO — Stirling Cycle (Stirling Generator)
+- [x] Mekanism — Solar Array (Solar Generator)
+- [x] EnderIO — Photovoltaic (Energetic Photovoltaic Module)
+- [ ] Mekanism — Gas-Burning Generator (mid-tier, requires Ethene)
+- [ ] Create — Steam Engine (1.21+ Create's mid-game power)
+
+#### resource_generation
+- [x] Hub — Productive Earth
+- [x] Mekanism — Strip Without the Strip (Digital Miner)
+- [x] Mekanism — Quintuple Down (5x ore chain)
+- [x] Create — Pressing Matters (Press + Mixer)
+- [x] AE2 — Bootstrapping AE2 (Inscriber)
+- [ ] Create — Crushing Wheels (ore doubling alternative)
+- [ ] Mekanism — Quantum Entangloporter (item shuttling)
+- [ ] AE2 — first ME network (Controller + Drive + Crafting Terminal as separate quest)
+
+#### gearing_up
+- [x] Hub — Sharpen Up
+- [x] Apotheosis — First Cut (Gem Cutting Table)
+- [x] Apotheosis — Forge & Reforge (Reforging Table)
+- [x] Apothic Enchanting — Beyond Vanilla (Hellshelf + Endshelf)
+- [x] Mekanism — Take Flight (Jetpack)
+- [x] Mekanism — Atomic Disassembler
+- [x] Sophisticated Backpacks — Pack Mule (Iron Backpack)
+- [ ] Apotheosis — Salvaging Table
+- [ ] Mekanism — MekaSuit Helmet (start of MekaSuit progression)
+- [ ] Create — Copper Backtank + Diving Helmet
+
+#### magic
+- [x] Hub — Mana Spring
+- [x] Inscribe & Cast — Scribe's Table + Mage's Spell Book
+- [x] The Workshop — Enchanting Apparatus + Imbuement Chamber
+- [x] Mana on Tap — Source Jar + Relay + Volcanic Sourcelink
+- [x] First Ritual — Ritual Brazier + Ritual of Awakening
+- [x] Cultivate — Magebloom seed + harvest
+- [ ] Ars Nouveau — Drygmy Charm / familiar pet (mob loot automation)
+- [ ] Ars Nouveau — Mage Robes set (full curio loadout)
+
+#### strong_foes
+- [x] Hub — Worthy Adversary
+- [x] Apotheosis — Summon a Boss (Boss Summoner)
+- [x] Apothic Spawners — Spawner Husbandry
+- [x] Cataclysm — Slay the Harbinger
+- [x] Cataclysm — Slay the Leviathan
+- [x] Alex's Mobs — Hunt the Bone Serpent
+- [ ] Cataclysm — Slay the Ender Guardian
+- [ ] Cataclysm — Slay the Netherite Monstrosity / Ignis
+- [ ] Apotheosis — Kill an affixed mob (any rare-tier)
+
+#### travel_the_world
+- [x] Hub — Distant Horizons
+- [x] Visit the Nether
+- [x] Visit the End
+- [x] Find a Stronghold (Yung's Better Strongholds)
+- [x] Amethyst Rainforest (Terralith biome)
+- [x] Craft a Globe (Supplementaries)
+- [ ] Towns and Towers — find a populated town
+- [ ] When Dungeons Arise — find a dungeon structure
+- [ ] Tectonic — visit a Tectonic-only biome
+
+#### other (QoL/utility)
+- [x] Hub — Quality of Life
+- [x] Farmers Delight — Hot Kitchen (Cooking Pot + Skillet)
+- [x] Supplementaries — Worldly Trinkets (Sack + Globe)
+- [x] Quark — Pocket Tools (Backpack + Trowel)
+- [x] Sophisticated Storage — Tier Up Storage (Iron Barrel)
+- [x] Pipez — Pipework (Item Pipe + Improved Upgrade)
+- [ ] Chipped — decorative blocks intro
+- [ ] Macaws (doors/windows/roofs/etc.) — building blocks
+- [ ] Curios — equip any curio item
+
+#### the_titan_core (main spine)
+- [x] Tier 1 — obtain trophy_tier_1 (placeholder; current reward 64×9 iron blocks)
+- [x] Tier 2 — obtain trophy_tier_2 (current reward 16 gold blocks)
+- [x] Tier 3 — obtain trophy_tier_3 (current reward 16 diamond blocks)
+- [ ] Tier 4+ — define when mod content exists. Replace trophy gating with core-emitted tier events when mod hook lands.
+
 ## Distribution
 
 - **Primary:** Modrinth (`.mrpack`) — open API, no third-party-distribution toggle, broader launcher compat.

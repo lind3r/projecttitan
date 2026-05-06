@@ -1,0 +1,196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resource_generation"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:item/iron_ingot"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "534DB81C9CA27B8D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F1A8C2D7E4B5906"
+			rewards: [{
+				count: 8
+				id: "3F1A8C2D7E4B5907"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3F1A8C2D7E4B5908"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F1A8C2D7E4B5906"]
+			id: "4A2B9D3E8F5C6A10"
+			rewards: [
+				{
+					count: 32
+					id: "4A2B9D3E8F5C6A11"
+					item: { count: 1, id: "mekanism:ingot_osmium" }
+					type: "item"
+				}
+				{
+					id: "4A2B9D3E8F5C6A12"
+					item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A2B9D3E8F5C6A13"
+					item: { count: 1, id: "mekanism:digital_miner" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4A2B9D3E8F5C6A14"
+					item: { count: 1, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F1A8C2D7E4B5906"]
+			id: "5B3CAE4F906D7B20"
+			rewards: [
+				{
+					count: 4
+					id: "5B3CAE4F906D7B21"
+					item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5B3CAE4F906D7B22"
+					item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5B3CAE4F906D7B23"
+					item: { count: 1, id: "mekanism:alloy_reinforced" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5B3CAE4F906D7B24"
+					item: { count: 1, id: "mekanism:enrichment_chamber" }
+					type: "item"
+				}
+				{
+					id: "5B3CAE4F906D7B25"
+					item: { count: 1, id: "mekanism:crusher" }
+					type: "item"
+				}
+				{
+					id: "5B3CAE4F906D7B26"
+					item: { count: 1, id: "mekanism:purification_chamber" }
+					type: "item"
+				}
+				{
+					id: "5B3CAE4F906D7B27"
+					item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F1A8C2D7E4B5906"]
+			id: "6C4DBF50A17E8C30"
+			rewards: [
+				{
+					count: 4
+					id: "6C4DBF50A17E8C31"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6C4DBF50A17E8C32"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6C4DBF50A17E8C33"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6C4DBF50A17E8C34"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+				{
+					id: "6C4DBF50A17E8C35"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6C4DBF50A17E8C36"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F1A8C2D7E4B5906"]
+			id: "4AC2D5E6F708A901"
+			rewards: [
+				{
+					id: "4AC2D5E6F708A902"
+					item: { count: 1, id: "ae2:crafting_terminal" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4AC2D5E6F708A903"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4AC2D5E6F708A904"
+					item: { count: 1, id: "ae2:fluix_block" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4AC2D5E6F708A905"
+					item: { count: 1, id: "ae2:inscriber" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4AC2D5E6F708A906"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+	]
+}
