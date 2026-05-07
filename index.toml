@@ -10,7 +10,7 @@ hash = "2db4affc21ddd6fc33ac2edf87b00bb4645011a59dde57c89ed2223ac2d88b8e"
 
 [[files]]
 file = "balance/resources.json"
-hash = "4466172300113d4fed104b64691d4a1a37b1169cdd3c3fd5f8b9cd74f42d3a7e"
+hash = "f907e94e2a20cb8308b21451274371e0c96f1eb794feeb0f20267ffe20864395"
 
 [[files]]
 file = "config/Mekanism/additions-client.toml"
@@ -869,20 +869,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_g.cfe"
-hash = "b3b0e2abda1f4bf455852201aa6dfcf49a4694087cf409880c86ab6ef9f48f05"
+file = "config/ars_nouveau/search_index/_h.cfe"
+hash = "ecbee740d40d102251a001569d8425d765a66cb483ab5276fb45e940748ec4fc"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_g.cfs"
-hash = "3ebf04db740212e2e590da22c555daa068f5aab75a641232a60dd29831030150"
+file = "config/ars_nouveau/search_index/_h.cfs"
+hash = "d724d38e8f63d4f9e4c4a313ef63986520d32ae74867709b0dcfe1cf54d61f85"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_g.si"
-hash = "314b421869d16c23ca915efb9e82626f660787666fbd956e71b913693d5fb790"
+file = "config/ars_nouveau/search_index/_h.si"
+hash = "71c630754bd14ba8502b3c0aade0afd9ce2f2d5f0a6ef7275b4e6e95263e4c79"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_h"
-hash = "984614ae813884047b21c44b62f1b89c9bc51c8feada04d65b17d61134990437"
+file = "config/ars_nouveau/search_index/segments_i"
+hash = "cbccbad7cddf06f10ccb8f258caad93eb5dfdc951d10b247aa571ee5a3f3a4e5"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1027,6 +1027,14 @@ hash = "9485e5c6af295149862138200f7fddb50eda85f89175f97fe257ad7b1353d8bb"
 [[files]]
 file = "config/citadel-common.toml"
 hash = "6cade6912a3873af0b297eb2da7ffa4bf5bac23f5ccfe9511aea9f5755745758"
+
+[[files]]
+file = "config/computercraft-client.toml"
+hash = "db7bbdc89ab05070b2a4c22f6348b0c80aca4a3c449d92cdc6bc56b5af25ff7b"
+
+[[files]]
+file = "config/computercraft-server.toml"
+hash = "d4995da449d5c96d24245c7108b339b729cc088b012170b3445f7f4fc1e20b3d"
 
 [[files]]
 file = "config/cosmeticarmorreworked-client.toml"
@@ -1274,7 +1282,7 @@ hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "6007e9c59a6835f16127838e0c901316f73c3d28ded63ccb2237254fd6421345"
+hash = "7cba55e723b640cba83892e2bc19f5e9c8adcd1b5f4ad7a249c51cbc975dee41"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1306,7 +1314,7 @@ hash = "e282934db0f14e3ae8eac33e610d361a0b533c4670906a763fd78e2f19f3c67e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/other.snbt"
-hash = "d8f6689b153e7dd3f4abe9b07691cc1ee9e3cde0753405c7facb62b7e984517d"
+hash = "bda156bab242ac828bc54c433109c16347d3b633a145f4970e850f52e42f2934"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_generation.snbt"
@@ -1330,7 +1338,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "8c21b92eaaef455e8442e78db2d678153e7885cc7f7df722f42d11bc20015a7c"
+hash = "4ad509c88c0542d1de983f6a52b50671eb454138fc15d0eb4ccdf80d43ff9f68"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -1446,7 +1454,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "71f079695f4f7c37e5e3b6cbbab90f183d09c9ce42b11d231f0fe3b8543e195d"
+hash = "833b432d594a20482d0d9d39154b3a451f07ed9040e8d9704ee7aad2b16deb74"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1474,7 +1482,7 @@ hash = "b5a9a4224f9cd006b7689c5ed6fcc674c7a6550c23292ec73bab490d948f8d77"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.json"
-hash = "aec7144625e640470bce13769977429fd5ec517cafe7acb6924c2289b6ed96fb"
+hash = "9f60a577dafea6446800b32c93fdbfc5d13885163a5d09c6df88d23338334a47"
 
 [[files]]
 file = "config/jei/world/local/New_World__1/lookupHistory.json"

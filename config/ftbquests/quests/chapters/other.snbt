@@ -236,5 +236,118 @@
 			x: 4.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["18A2F4B6C7D8E9F1"]
+			id: "6CE4F5061728395A"
+			rewards: [
+				{
+					id: "6CE4F5061728395B"
+					item: {
+						count: 1
+						id: "functionalstorage:linking_tool"
+					}
+					type: "item"
+				}
+				{
+					id: "6CE4F5061728395C"
+					item: {
+						count: 1
+						id: "functionalstorage:storage_controller"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6CE4F5061728395D"
+					item: {
+						count: 1
+						id: "functionalstorage:copper_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CE4F5061728395E"
+				item: { count: 1, id: "functionalstorage:oak_1" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18A2F4B6C7D8E9F1"]
+			id: "6CE4F5061728396A"
+			rewards: [
+				{
+					id: "6CE4F5061728396B"
+					item: {
+						count: 1
+						id: "simplemagnets:advancedmagnet"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6CE4F5061728396C"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CE4F5061728396D"
+				item: { count: 1, id: "simplemagnets:basicmagnet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["18A2F4B6C7D8E9F1"]
+			id: "6CE4F5061728397A"
+			rewards: [
+				{
+					id: "6CE4F5061728397B"
+					item: {
+						count: 1
+						id: "computercraft:computer_advanced"
+					}
+					type: "item"
+				}
+				{
+					id: "6CE4F5061728397C"
+					item: {
+						count: 1
+						id: "computercraft:wireless_modem_normal"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6CE4F5061728397D"
+					item: {
+						count: 1
+						id: "computercraft:disk"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6CE4F5061728397E"
+					item: { count: 1, id: "computercraft:computer_normal" }
+					type: "item"
+				}
+				{
+					id: "6CE4F5061728397F"
+					item: { count: 1, id: "computercraft:turtle_normal" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
 	]
 }

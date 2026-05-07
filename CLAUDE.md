@@ -168,7 +168,7 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 
 ### Quest Backlog
 
-**Status snapshot (2026-05-07):** 7 chapters, 38 quests shipped. 38 new mods installed in this sync round (see `## Mods` above) — backlog below expanded with starter quests for the ones that warrant the "build + use" loop. Library/UI mods (Almost Unified, Crafting Tweaks, Enchantment Descriptions, FindMe, GuideME, Inventory Essentials, Inventory Sorter, Overflowing Bars, Pick Up Notifier) are intentionally questless.
+**Status snapshot (2026-05-07):** 7 chapters, 52 quests shipped (38 originally + 14 added 2026-05-07: 2 each in energy/resource/gearing/magic/foes/travel/other). 38 new mods installed in this sync round (see `## Mods` above) — backlog below expanded with starter quests for the ones that warrant the "build + use" loop. Library/UI mods (Almost Unified, Crafting Tweaks, Enchantment Descriptions, FindMe, GuideME, Inventory Essentials, Inventory Sorter, Overflowing Bars, Pick Up Notifier) are intentionally questless.
 
 **TODO — new chapter: `storage`.** Pull the storage-progression spokes out of `other` and into a dedicated chapter. Candidates to migrate/author: Sophisticated Storage tiers, Functional Storage drawers, Metal Barrels, AE2 ME network, ExtendedAE pattern providers, Sophisticated Backpacks tiering, Item Collectors. Hub idea: "Pack It Away". Decide order before authoring (likely vanilla → drawers → barrels → AE2 → ExtendedAE).
 
@@ -179,8 +179,8 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [x] EnderIO — Stirling Cycle (Stirling Generator)
 - [x] Mekanism — Solar Array (Solar Generator)
 - [x] EnderIO — Photovoltaic (Energetic Photovoltaic Module)
-- [ ] Mekanism — Gas-Burning Generator (mid-tier, requires Ethene)
-- [ ] Create — Steam Engine (1.21+ Create's mid-game power)
+- [x] Mekanism — Gas-Burning Generator (mid-tier, requires Ethene)
+- [x] Create — Steam Engine (1.21+ Create's mid-game power)
 - [ ] Industrial Foregoing — Bioreactor + Biofuel Generator (alt biofuel path)
 - [ ] Oritech — Generator (Oritech's own tech tree entry)
 - [ ] Draconic Evolution — Draconium Capacitor (mid-tier Draconic power storage)
@@ -192,12 +192,12 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [x] Mekanism — Quintuple Down (5x ore chain)
 - [x] Create — Pressing Matters (Press + Mixer)
 - [x] AE2 — Bootstrapping AE2 (Inscriber)
-- [ ] Create — Crushing Wheels (ore doubling alternative)
+- [x] Create — Crushing Wheels (ore doubling alternative)
 - [ ] Mekanism — Quantum Entangloporter (item shuttling)
 - [ ] AE2 — first ME network (Controller + Drive + Crafting Terminal as separate quest)
 - [ ] ExtendedAE — Ex Pattern Provider (high-throughput AE2 autocraft)
 - [ ] ME Requester — Auto-restock requester terminal
-- [ ] Industrial Foregoing — Plant Sower + Plant Gatherer (auto crop loop)
+- [x] Industrial Foregoing — Plant Sower + Plant Gatherer (auto crop loop)
 - [ ] Mob Grinding Utils — Mob Masher farm (spawner-fed loot)
 - [ ] Hostile Neural Networks — Deep Learner + Predictor (mob essence automation)
 
@@ -212,8 +212,8 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [ ] Apotheosis — Salvaging Table
 - [ ] Mekanism — MekaSuit Helmet (start of MekaSuit progression)
 - [ ] Create — Copper Backtank + Diving Helmet
-- [ ] Tool Belt — Equip a Tool Belt
-- [ ] Mining Gadgets — Build & fire a Mining Gadget
+- [x] Tool Belt — Equip a Tool Belt
+- [x] Mining Gadgets — Build & fire a Mining Gadget
 - [ ] Draconic Evolution — Wyvern-tier gear (chestplate or sword)
 - [ ] Cosmetic Armor Reworked — Equip a cosmetic over real armor
 
@@ -224,8 +224,8 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [x] Mana on Tap — Source Jar + Relay + Volcanic Sourcelink
 - [x] First Ritual — Ritual Brazier + Ritual of Awakening
 - [x] Cultivate — Magebloom seed + harvest
-- [ ] Ars Nouveau — Drygmy Charm / familiar pet (mob loot automation)
-- [ ] Ars Nouveau — Mage Robes set (full curio loadout)
+- [x] Ars Nouveau — Drygmy Charm / familiar pet (mob loot automation)
+- [x] Ars Nouveau — Mage Robes set (Sorcerer tier — entry loadout)
 
 #### strong_foes
 - [x] Hub — Worthy Adversary
@@ -234,8 +234,8 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [x] Cataclysm — Slay the Harbinger
 - [x] Cataclysm — Slay the Leviathan
 - [x] Alex's Mobs — Hunt the Bone Serpent
-- [ ] Cataclysm — Slay the Ender Guardian
-- [ ] Cataclysm — Slay the Netherite Monstrosity / Ignis
+- [x] Cataclysm — Slay the Ender Guardian
+- [x] Cataclysm — Slay Ignis (Netherite Monstrosity still open)
 - [ ] Apotheosis — Kill an affixed mob (any rare-tier)
 - [ ] Gateways to Eternity — Open & clear a Gateway pylon
 - [ ] Draconic Evolution — Slay the Chaos Guardian (endgame boss)
@@ -247,8 +247,8 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [x] Find a Stronghold (Yung's Better Strongholds)
 - [x] Amethyst Rainforest (Terralith biome)
 - [x] Craft a Globe (Supplementaries)
-- [ ] Towns and Towers — find a populated town
-- [ ] When Dungeons Arise — find a dungeon structure
+- [x] Towns and Towers — find a populated town
+- [x] When Dungeons Arise — find a dungeon structure (Bandit Towers as the canonical pick)
 - [ ] Tectonic — visit a Tectonic-only biome
 
 #### other (QoL/utility)
@@ -261,10 +261,11 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [ ] Macaws (doors/windows/roofs/etc.) — building blocks
 - [ ] Curios — equip any curio item
 - [ ] Chisel Modern — chisel a block variant (decorative)
-- [ ] Functional Storage — Storage Drawer (compact storage tier)
+- [x] Functional Storage — Storage Drawer (compact storage tier)
 - [ ] Metal Barrels — Iron Barrel (mid-tier vanilla-style storage)
 - [ ] Item Collectors — Place an Item Collector over a farm
-- [ ] Simple Magnets — Equip a magnet
+- [x] Simple Magnets — Equip a magnet
+- [x] CC: Tweaked — Boot a Computer (Computer + Turtle)
 - [ ] Spice of Life: Carrot Edition — Eat 10 distinct foods (diet variety)
 - [ ] Crafting Station — Place & use a Crafting Station
 - [ ] Trash Cans — Configure a filtered trash can
@@ -303,6 +304,7 @@ Don't pick one exclusively at the source level. The pack is built once; we choos
 - Never run anything that mutates the Prism instance without remembering the junctions go both ways.
 - After any change here, **boot the Prism instance once** to confirm the pack still loads — junctions can be silently broken by launcher operations.
 - Standing commit/push authorization granted in the sibling `project-titan-core` repo applies here too unless the user says otherwise.
+- TODO: Investigate why `Bash(grep ...)` and `Bash(... | head ...)` calls still trigger permission prompts even though they look like they should be auto-allowed. User asked 2026-05-07; suspects a stale CLI session and plans to restart. If prompts persist after restart, broaden the allow list in `.claude/settings.local.json` (e.g. `Bash(grep *)`, `Bash(* | head *)`).
 
 ## Diagnosing Crashes
 
