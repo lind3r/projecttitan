@@ -2,6 +2,31 @@
 
 Append entries top-down (newest first). Each entry: date, scope, change, reason.
 
+## 2026-05-07 — Added Industrial Foregoing, Oritech, Draconic Evolution; Flux Networks (transport-only)
+
+- Four new energy-related mods landed in the install. Audited each, added curated entries to `energy.json`, refreshed Coverage Table.
+- **Industrial Foregoing** — 2 generators added:
+  - `industrialforegoing.pitiful_generator` — 30 FE/t (furnace fuel). Ceiling **T1**.
+  - `industrialforegoing.biofuel_generator` — 160 FE/t, fed by Bioreactor + farm loop. Ceiling **T2** (T3 reachable but ~100 gens is impractical).
+- **Oritech** — 6 generator entries added; primary tech-tree path:
+  - `basic_generator` 32 FE/t (T1), `bio_generator` 64 FE/t (T2), `lava_generator` 64 FE/t (T2), `fuel_generator` 256 FE/t (T3), `solar_generator` 32 FE/t (T1).
+  - `steam_engine` listed as conversion device (50k FE/t transfer cap, 1 FE per mB steam) — excluded from coverage table because it's a transport/routing block, not a primary generator. Marked ceiling_tier `TBD`.
+- **Draconic Evolution** — `draconicevolution.reactor` added with `fe_max_realistic = 15M`, ceiling **T8**.
+  - Base output values are hardcoded in mod (only multipliers in `config/brandon3055/DraconicEvolution.cfg`); `reactorOutputMultiplier = 1.0` default.
+  - Stable late-game tunings (~8000°C, full coil cluster) sit in 5M-15M RF/t. Higher tunings (T9+) exist but the failure mode (multi-chunk explosion) makes them impractical without containment automation, so ceiling stays T8.
+  - `draconicevolution.energy_core` added as a storage-reference entry only (T1-T8 multiblock capacitor); `ceiling_tier: null`, excluded from coverage table.
+- **Flux Networks** — installed but transport-only (Plug/Point/Controller/Storage). No generation. Not added to `energy.json`.
+- **Coverage Table impact (the big one):**
+  - T1 went from 4 → **7 mods** of coverage.
+  - T2 went from 4 → **7 mods**.
+  - T3 went from 3 → **5 mods**.
+  - **T4-T8 went from 1 (Mekanism-only) → 2 mods** — Draconic Reactor closes the long single-mod stretch. ⚠ markers removed for T4-T8.
+  - T9-T10 remain Mekanism Fusion-only ⚠. Design accepts Fusion as the literal endgame anchor.
+- Recommended-mods-to-add list trimmed: Powah and Industrial Foregoing dropped (gap they targeted is now filled or installed). Bigger Reactors / NuclearCraft / Create: New Age remain as optional T9-T10 alternates.
+- **No mod-config or recipe changes applied.** This is data ingestion + table refresh, not balance tuning.
+- Re-ran `python scripts/audit-energy.py` afterwards: 122 files / 15 hits / 135 entries (up from 82 / 8 / 87). Discovery surfaced **Oritech Reactor** (multiblock, 25k FE/t output cap) which the manual sweep missed — added as `oritech.reactor`, ceiling **T3**. Updated Coverage Table T3 row to use Reactor as the realistic Oritech path instead of a 62-fuel-gen array.
+- Discovery script gap noted: it globs `*.toml` only, so Draconic Evolution's legacy `.cfg` config doesn't appear in `energy-discovered.json`. Curation already handled DE manually.
+
 ## 2026-05-07 — Re-tiered to 10 tiers; trophy gating removed
 
 - Tier scheme decided: **10 tiers**, replacing the prior 5-tier scaffold.

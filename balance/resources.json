@@ -1,0 +1,458 @@
+{
+  "_schema_version": 1,
+  "_doc": "Curated source of truth for resource (mineral / mob loot / structure / world-gen) acquisition. See resources.md for narrative + categories. Sister doc to energy.json. Update by hand when discovery finds new data or a config value changes.",
+  "categories": {
+    "multiplier": "Machines that turn 1 mined ore into N ingots/dust. Finite per ore mined.",
+    "automated_mining": "Machines that auto-mine an area. Finite per chunk.",
+    "renewable_ore": "Infinite ore generation with no mining. Power in, ore out.",
+    "renewable_mob_loot": "Infinite mob loot via spawner farms. Energy + spawner setup.",
+    "synthetic_mob_loot": "Loot fabricated from data; no spawning required.",
+    "non_violent_loot": "Mob drops produced without killing.",
+    "renewable_crystal": "Self-growing crystal blocks (e.g. AE2 budding).",
+    "structure_loot": "One-time-per-chunk loot from generated structures.",
+    "boss_loot": "Per-summon boss drops.",
+    "wave_loot": "Per-activation wave-spawn farms (Gateways).",
+    "transmutation": "Convert one resource to another (e.g. Mekanism Solar Neutron Activator).",
+    "crop_biomass": "Renewable crop / food / biomass loops.",
+    "world_gen_ore": "Ores added to world generation.",
+    "mining_qol": "Throughput multipliers (vein-mine, AOE pickaxes).",
+    "item_collection_qol": "Auto-pickup magnets / collectors."
+  },
+  "renewable_watchlist": [
+    {
+      "id": "industrialforegoing.laser_drill",
+      "severity": "tier_0",
+      "summary": "Infinite ore generation; the single most disruptive renewable in the pack.",
+      "disable_levers": [
+        {"smallest": true, "method": "KubeJS recipe removal of Ore Laser Base", "effect": "fully disable the multiblock"},
+        {"smallest": false, "method": "Raise LaserDrillConfig.powerPerOperation to 50000+ FE", "effect": "throttles to late-game viability"},
+        {"smallest": false, "method": "Set OreLaserBaseConfig.catalystModifier from 8 to 1", "effect": "weakens lens-targeting; player needs many lenses"}
+      ],
+      "recommendation": "Remove via KubeJS. Loses one machine; rest of IF stays useful.",
+      "user_decision": {
+        "date": "2026-05-07",
+        "applied_lever": "KubeJS recipe removal",
+        "files": ["kubejs/server_scripts/balance_resources.js"],
+        "details": "Removed recipes for industrialforegoing:laser_drill and industrialforegoing:ore_laser_base. Lenses left craftable (inert without base). fluid_laser_base NOT touched — separate decision.",
+        "notes": "See resources-CHANGELOG.md 2026-05-07 entry."
+      }
+    },
+    {
+      "id": "hostilenetworks.loot_fabricator",
+      "severity": "tier_0",
+      "summary": "Synthetic mob loot at 256 FE/t — trivializes any mob-drop scarcity.",
+      "disable_levers": [
+        {"smallest": true, "method": "Raise Loot Fab Power Cost from 256 to 5000-10000 FE/t", "effect": "pushes Fabricator to endgame convenience"},
+        {"smallest": false, "method": "Set Right Click To Attune = false", "effect": "forces kill-based model training; still synthetic loot after"},
+        {"smallest": false, "method": "Remove the mod", "effect": "fully disable; mod is single-feature"}
+      ],
+      "recommendation": "Bump Loot Fab Power Cost ~20x to 5000 FE/t. Keeps the mod alive but non-trivializing.",
+      "user_decision": {
+        "date": "2026-05-07",
+        "applied_lever": "Loot Fab Power Cost 256 -> 25600 FE/t (100x)",
+        "files": ["config/hostilenetworks.cfg"],
+        "details": "User chose 100x rather than the 20x recommendation — clearer 'endgame convenience' signal. Sim Chamber cost left default; Right Click To Attune left true.",
+        "notes": "See resources-CHANGELOG.md 2026-05-07 entry."
+      }
+    },
+    {
+      "id": "apothic_spawners.silk_capture",
+      "severity": "tier_0",
+      "summary": "Silk-touched vanilla spawners + GUI mob/condition swap = infinite mob spawning from one dungeon find.",
+      "disable_levers": [
+        {"smallest": true, "method": "Set Spawner Silk Level = -1 in apothic_spawners.cfg", "effect": "disables silk-touch capture; players use modded spawner alternatives instead"},
+        {"smallest": false, "method": "Set Capturing Drop Chance = 0", "effect": "removes the secondary spawn-egg capture path"}
+      ],
+      "recommendation": "Set Spawner Silk Level = -1. Pushes players toward EnderIO Powered Spawner / IF Mob Duplicator (which have their own costs and proximity caps).",
+      "user_decision": {
+        "date": "2026-05-07",
+        "applied_lever": "Spawner Silk Level 1 -> -1",
+        "files": ["config/apothic_spawners.cfg"],
+        "details": "Silk capture disabled. In-place modifier UI on naturally-placed spawners still works. Capturing Drop Chance (0.005) left default — separate, less-direct path; revisit if it becomes a problem.",
+        "notes": "See resources-CHANGELOG.md 2026-05-07 entry."
+      }
+    },
+    {
+      "id": "industrialforegoing.duplicator_crusher_loop",
+      "severity": "tier_1",
+      "summary": "Mob Duplicator + Mob Crusher closed essence loop. Renewable but requires an initial mob capture.",
+      "disable_levers": [
+        {"smallest": true, "method": "Raise MobDuplicatorConfig.essenceNeeded from 12 to 100", "effect": "8x essence cost per spawn"},
+        {"smallest": false, "method": "Raise powerPerOperation from 5000 to 50000 FE", "effect": "10x power cost per spawn"}
+      ],
+      "recommendation": "Leave default. The pack's energy curve already governs throughput. Reconsider only if it shows up as a problem in playthrough.",
+      "user_decision": null
+    },
+    {
+      "id": "enderio.powered_spawner",
+      "severity": "tier_1",
+      "summary": "Soul Vial + Powered Spawner. Renewable but proximity-throttled by config defaults.",
+      "disable_levers": [
+        {"smallest": true, "method": "Tighten maxSpawners from 10 to 1 in enderio/machines-common.toml", "effect": "kills megafarm stacking"},
+        {"smallest": false, "method": "Raise energy.poweredSpawner.usage", "effect": "energy throttle"}
+      ],
+      "recommendation": "Leave default. The maxSpawners=10 + maxEntities=2 caps already prevent megafarms.",
+      "user_decision": null
+    },
+    {
+      "id": "gateways.pylons",
+      "severity": "tier_1",
+      "summary": "Gateway Pylons spawn loot waves; reactivatable indefinitely with summoning materials.",
+      "disable_levers": [
+        {"smallest": true, "method": "Adjust per-pylon recipe costs in datapack/KubeJS", "effect": "increases per-wave investment"}
+      ],
+      "recommendation": "Leave default. Acts more like a boss arena than a passive farm.",
+      "user_decision": null
+    }
+  ],
+  "multipliers": [
+    {
+      "id": "vanilla.furnace",
+      "mod": "vanilla",
+      "machine": "Furnace / Blast Furnace",
+      "multiplier_per_ore_block": 1.0,
+      "multiplier_per_raw_drop": 1.0,
+      "config_file": null,
+      "config_keys": [],
+      "renewable": false,
+      "category": "multiplier",
+      "notes": "Baseline."
+    },
+    {
+      "id": "mekanism.tier2_enrichment",
+      "mod": "mekanism",
+      "machine": "Enrichment Chamber (T2 chain)",
+      "multiplier_per_ore_block": 2.0,
+      "multiplier_per_raw_drop": 2.0,
+      "config_file": null,
+      "config_keys": [],
+      "renewable": false,
+      "category": "multiplier",
+      "notes": "Recipe-verified 2026-05-07: data/mekanism/recipe/processing/iron/dust/from_ore.json → 1 ore → 2 dust. Same for raw_ore."
+    },
+    {
+      "id": "mekanism.tier3_purification",
+      "mod": "mekanism",
+      "machine": "Purification Chamber → Crusher → Enrichment (T3 chain)",
+      "multiplier_per_ore_block": 3.0,
+      "multiplier_per_raw_drop": 2.0,
+      "config_file": null,
+      "config_keys": [],
+      "renewable": false,
+      "category": "multiplier",
+      "notes": "Recipe-verified: clump/from_ore = 3, clump/from_raw_ore = 2. Raw-drop path drops one tier of multiplier vs. ore-block path. Needs Oxygen feed."
+    },
+    {
+      "id": "mekanism.tier4_injection",
+      "mod": "mekanism",
+      "machine": "Chemical Injection Chamber → T3 chain (T4)",
+      "multiplier_per_ore_block": 4.0,
+      "multiplier_per_raw_drop": 2.667,
+      "config_file": null,
+      "config_keys": [],
+      "renewable": false,
+      "category": "multiplier",
+      "notes": "Recipe-verified: shard/from_ore = 4, shard/from_raw_ore = 8 per 3 raw. Needs Hydrogen Chloride feed."
+    },
+    {
+      "id": "mekanism.tier5_crystallizer",
+      "mod": "mekanism",
+      "machine": "Chemical Dissolution → Crystallizer → T4 chain (T5)",
+      "multiplier_per_ore_block": 5.0,
+      "multiplier_per_raw_drop": null,
+      "config_file": null,
+      "config_keys": [],
+      "renewable": false,
+      "category": "multiplier",
+      "notes": "Headline 5x figure requires silk-touched ore blocks fed to Dissolution Chamber. Raw-ore drops do not flow through the slurry path; full 5x requires the player to silk-touch ore. Needs Sulfuric Acid feed."
+    },
+    {
+      "id": "create.crushing_wheels",
+      "mod": "create",
+      "machine": "Crushing Wheels (or Millstone)",
+      "multiplier_per_ore_block": 2.0,
+      "multiplier_per_raw_drop": 2.0,
+      "config_file": "config/create-server.toml",
+      "config_keys": [],
+      "renewable": false,
+      "category": "multiplier",
+      "notes": "Standard Create ore-doubling. Crushed ore can be washed in Fan + water for nugget bonus."
+    },
+    {
+      "id": "enderio.sag_mill_base",
+      "mod": "enderio",
+      "machine": "SAG Mill (no grinding ball)",
+      "multiplier_per_ore_block": 2.0,
+      "multiplier_per_raw_drop": 2.0,
+      "config_file": "config/enderio/machines-common.toml",
+      "config_keys": ["energy.sagMill.capacity", "energy.sagMill.usage"],
+      "renewable": false,
+      "category": "multiplier",
+      "notes": "Base 2x; bonus chance varies by recipe in mod data."
+    },
+    {
+      "id": "enderio.sag_mill_dark_steel",
+      "mod": "enderio",
+      "machine": "SAG Mill + Dark Steel grinding ball",
+      "multiplier_per_ore_block": 3.0,
+      "multiplier_per_raw_drop": 3.0,
+      "config_file": "config/enderio/machines-common.toml",
+      "config_keys": [],
+      "renewable": false,
+      "category": "multiplier",
+      "notes": "Dark Steel is the headline grinding ball: ~150% main output multiplier + ~200% bonus chance multiplier. Other grinding balls (Energetic Alloy, Vibrant Alloy, Soularium, End Steel) have different ratios — TBD precise values."
+    },
+    {
+      "id": "oritech.pulverizer",
+      "mod": "oritech",
+      "machine": "Pulverizer",
+      "multiplier_per_ore_block": 2.0,
+      "multiplier_per_raw_drop": 2.0,
+      "config_file": "config/oritech-common.toml",
+      "config_keys": ["machineSettings.pulverizer.energyPerTick"],
+      "renewable": false,
+      "category": "multiplier",
+      "notes": "Simple ore crusher; standard 2x."
+    },
+    {
+      "id": "oritech.fragment_forge_chain",
+      "mod": "oritech",
+      "machine": "Fragment Forge → Centrifuge → Atomic Forge",
+      "multiplier_per_ore_block": 3.0,
+      "multiplier_per_raw_drop": 3.0,
+      "config_file": "config/oritech-common.toml",
+      "config_keys": [],
+      "renewable": false,
+      "category": "multiplier",
+      "notes": "Multi-step Oritech ore chain. Headline ~3x but precise terminal multiplier needs JEI verification when mod becomes a primary path. TBD."
+    }
+  ],
+  "automated_mining": [
+    {
+      "id": "mekanism.digital_miner",
+      "mod": "mekanism",
+      "machine": "Digital Miner",
+      "config_file": "config/Mekanism/general.toml",
+      "config_keys": ["digital_miner_max_radius"],
+      "renewable": false,
+      "category": "automated_mining",
+      "notes": "32-block radius scan. Filter-driven. Anchor Upgrade for chunk loading. Silk Touch upgrade for 12x effective output multiplier when paired with Mekanism processing chain."
+    },
+    {
+      "id": "oritech.deep_drill",
+      "mod": "oritech",
+      "machine": "Deep Drill",
+      "config_file": "config/oritech-common.toml",
+      "config_keys": [],
+      "renewable": false,
+      "category": "automated_mining",
+      "notes": "Multiblock placed on resource node. Bound to discovered nodes; finite per node."
+    },
+    {
+      "id": "create.mechanical_drill",
+      "mod": "create",
+      "machine": "Mechanical Drill",
+      "config_file": "config/create-server.toml",
+      "config_keys": [],
+      "renewable": false,
+      "category": "automated_mining",
+      "notes": "Single-block forward auto-mine. Common pairing: cobble generator → Drill → Crushing Wheels (renewable cobble loop, but not for ores)."
+    }
+  ],
+  "renewable_systems": [
+    {
+      "id": "industrialforegoing.laser_drill",
+      "mod": "industrialforegoing",
+      "machine": "Laser Drill + Ore Laser Base + Laser Lenses",
+      "category": "renewable_ore",
+      "renewable": true,
+      "config_file": "config/industrialforegoing/machine-resource-production.toml",
+      "config_keys": [
+        "MachineResourceProductionConfig.LaserDrillConfig.powerPerOperation",
+        "MachineResourceProductionConfig.LaserDrillConfig.maxProgress",
+        "MachineResourceProductionConfig.OreLaserBaseConfig.catalystModifier"
+      ],
+      "current_values": {
+        "LaserDrillConfig.powerPerOperation": 1000,
+        "LaserDrillConfig.maxProgress": 50,
+        "OreLaserBaseConfig.catalystModifier": 8
+      },
+      "throughput_estimate": "1000 FE per op, 50t cooldown × 100t base progress = ~1 ore per ~5s per drill at default. ~4 drills sustained = baseline mining replacement.",
+      "notes": "Multiblock: Laser Base + up to 6 surrounding Laser Drills feed it. Lens biases ore-pool weights. Biome + Y-level adjust pool. THIS IS THE TIER 0 RENEWABLE."
+    },
+    {
+      "id": "hostilenetworks.loot_fabricator",
+      "mod": "hostilenetworks",
+      "machine": "Loot Fabricator (paired with Simulation Chamber + Deep Learner)",
+      "category": "synthetic_mob_loot",
+      "renewable": true,
+      "config_file": "config/hostilenetworks.cfg",
+      "config_keys": [
+        "power.Loot Fab Power Cost",
+        "power.Loot Fab Power Cap",
+        "power.Sim Chamber Power Cap",
+        "models.Right Click To Attune",
+        "models.Killing Upgrades Model"
+      ],
+      "current_values": {
+        "Loot Fab Power Cost": 256,
+        "Loot Fab Power Cap": 1000000,
+        "Sim Chamber Power Cap": 2000000,
+        "Right Click To Attune": true,
+        "Killing Upgrades Model": true
+      },
+      "throughput_estimate": "256 FE/t → 1.3 FE per loot cycle effectively trivial. Single early generator powers it indefinitely.",
+      "notes": "Workflow: Deep Learner attunes blank Data Model → Simulation Chamber upgrades model with FE → Loot Fabricator synthesizes mob loot from trained model. Once trained, no mobs ever needed."
+    },
+    {
+      "id": "apothic_spawners.silk_capture",
+      "mod": "apothic_spawners",
+      "machine": "Silk-touched vanilla spawner + GUI modifier",
+      "category": "renewable_mob_loot",
+      "renewable": true,
+      "config_file": "config/apothic_spawners.cfg",
+      "config_keys": [
+        "general.Spawner Silk Level",
+        "general.Spawner Silk Damage",
+        "general.Capturing Drop Chance",
+        "general.Entity Despawn Delay"
+      ],
+      "current_values": {
+        "Spawner Silk Level": 1,
+        "Spawner Silk Damage": 100,
+        "Capturing Drop Chance": 0.005,
+        "Entity Despawn Delay": 600
+      },
+      "throughput_estimate": "Bound only by spawner spawn-rate. Stacked with EnderIO Powered Spawner / IF Mob Crusher for closed-loop.",
+      "notes": "The silk-capture path is the canonical decade-old modpack cheese. GUI lets you swap mob, raise spawn cap, remove conditions."
+    },
+    {
+      "id": "industrialforegoing.duplicator_crusher_loop",
+      "mod": "industrialforegoing",
+      "machine": "Mob Duplicator + Mob Crusher (closed essence loop)",
+      "category": "renewable_mob_loot",
+      "renewable": true,
+      "config_file": "config/industrialforegoing/machine-agriculture-husbandry.toml",
+      "config_keys": [
+        "MachineAgricultureHusbandryConfig.MobDuplicatorConfig.powerPerOperation",
+        "MachineAgricultureHusbandryConfig.MobDuplicatorConfig.essenceNeeded",
+        "MachineAgricultureHusbandryConfig.MobCrusherConfig.powerPerOperation",
+        "MachineAgricultureHusbandryConfig.MobCrusherConfig.attackDamage"
+      ],
+      "current_values": {
+        "MobDuplicatorConfig.powerPerOperation": 5000,
+        "MobDuplicatorConfig.essenceNeeded": 12,
+        "MobCrusherConfig.powerPerOperation": 50,
+        "MobCrusherConfig.attackDamage": 75
+      },
+      "throughput_estimate": "5050 FE per spawn-kill cycle + 12mB essence × mob HP. Modest power demand.",
+      "notes": "Requires initial mob essence (Crusher fills tank). Once a mob's essence is in the system, infinite respawn loop."
+    },
+    {
+      "id": "enderio.powered_spawner",
+      "mod": "enderio",
+      "machine": "Powered Spawner + Soul Vial",
+      "category": "renewable_mob_loot",
+      "renewable": true,
+      "config_file": "config/enderio/machines-common.toml",
+      "config_keys": [
+        "energy.poweredSpawner.capacity",
+        "energy.poweredSpawner.usage",
+        "machines.poweredSpawner.maxSpawners",
+        "machines.poweredSpawner.maxEntities",
+        "machines.poweredSpawner.spawnType"
+      ],
+      "current_values": {
+        "energy.poweredSpawner.capacity": 100000,
+        "energy.poweredSpawner.usage": 20,
+        "maxSpawners": 10,
+        "maxEntities": 2,
+        "spawnType": "NEW"
+      },
+      "throughput_estimate": "Energy cost scales with mob max-HP. maxEntities=2 forces consumption before next spawn. maxSpawners=10 prevents megafarm stacking.",
+      "notes": "Requires Soul Vial captured from a mob via Soul Binder workflow. Built-in proximity caps already throttle this — leaving default is reasonable."
+    },
+    {
+      "id": "gateways.pylons",
+      "mod": "gateways",
+      "machine": "Gateway Pylon",
+      "category": "wave_loot",
+      "renewable": true,
+      "config_file": null,
+      "config_keys": [],
+      "current_values": {},
+      "throughput_estimate": "Per-activation summoning material cost (opal/key/etc.). Scales with player time, not AFK.",
+      "notes": "Reactivatable indefinitely; loot pool tied to pylon tier. More boss-arena than passive farm."
+    },
+    {
+      "id": "ae2.budding_certus_quartz",
+      "mod": "ae2",
+      "machine": "Budding Certus Quartz block + Growth Accelerator",
+      "category": "renewable_crystal",
+      "renewable": true,
+      "config_file": "config/ae2-common.toml",
+      "config_keys": ["growthAccelerator"],
+      "current_values": {
+        "growthAccelerator": 10
+      },
+      "throughput_estimate": "Hours per cluster at default; minutes with Growth Accelerator stacks.",
+      "notes": "Quietly renewable certus quartz. Pack-typical for AE2. Flawless tier behavior in 1.21 needs verification — newer AE2 versions have changed degradation rules."
+    },
+    {
+      "id": "ars_nouveau.drygmy",
+      "mod": "ars_nouveau",
+      "machine": "Drygmy Familiar + Mob Jar",
+      "category": "non_violent_loot",
+      "renewable": true,
+      "config_file": "config/ars_nouveau-server.toml",
+      "config_keys": [],
+      "current_values": {},
+      "throughput_estimate": "One mob per Jar; slow drop rate (~30s+ per drop batch). Single stream per setup.",
+      "notes": "Non-violent mob loot. Mana cost. Low-throughput; not a primary farming concern but is an alternative mob-loot path that bypasses combat."
+    },
+    {
+      "id": "mekanism.solar_neutron_activator",
+      "mod": "mekanism",
+      "machine": "Solar Neutron Activator",
+      "category": "transmutation",
+      "renewable": true,
+      "config_file": "config/Mekanism/general.toml",
+      "config_keys": ["maxSolarNeutronActivatorRate"],
+      "current_values": {
+        "maxSolarNeutronActivatorRate": 64
+      },
+      "throughput_estimate": "Up to 64 mB/t. Gated by upstream Polonium supply (Fission reactor waste).",
+      "notes": "Transmutes Polonium → Plutonium etc. via sunlight. Bounded by upstream reactor loop."
+    }
+  ],
+  "world_gen_ores": [
+    {"mod": "mekanism", "ores": ["tin", "osmium", "lead", "uranium", "fluorite", "salt"], "notes": "Standard Mekanism overworld + underground gen."},
+    {"mod": "create", "ores": ["zinc"], "notes": "For brass."},
+    {"mod": "draconicevolution", "ores": ["draconium (Overworld + Nether + End)", "chaos_crystal (Chaos Islands ~10k blocks apart)"], "notes": "Chaos Crystals require defeating Chaos Guardian per island."},
+    {"mod": "quark", "ores": ["corundum (color variants)", "ender_biotite"], "notes": "Corundum is growable. Biotite renews on dragon respawn."},
+    {"mod": "ae2", "ores": ["certus_quartz", "charged_certus_quartz"], "notes": "Charged Certus is rare; budding-block growth is the late-game source."},
+    {"mod": "terralith_tectonic", "ores": [], "notes": "Biome/terrain mods only — no new ores. Can shift vanilla ore distribution by biome shape."}
+  ],
+  "structure_loot_mods": [
+    {"mod": "yungs_*", "modules": 8, "notes": "Better Dungeons / Desert Temples / Jungle Temples / Strongholds / Mineshafts / Nether Fortresses / Ocean Monuments / Witch Huts / End Island. One-time loot per structure."},
+    {"mod": "when_dungeons_arise", "notes": "Mega-structures with multi-chest loot."},
+    {"mod": "towns_and_towers", "notes": "Settlement structures."},
+    {"mod": "loot_integrations + vanilla_loot_addon", "notes": "Modifies all of the above + vanilla loot tables. Modded items get 3x weight bias. Disabling either breaks the modded loot path through structures."}
+  ],
+  "mining_qol": [
+    {"mod": "ftbultimine", "effect": "Vein-mine up to 64 blocks per swing (Shift+hotkey). 0 cooldown, 20 hunger/block, no XP cost. Configured in config/ftbultimine-server.snbt."},
+    {"mod": "mininggadgets", "effect": "AOE laser pickaxe; Fortune/Silk/Magnet/Void/Light upgrades. config/mininggadgets-common.toml."},
+    {"mod": "mekanismtools", "effect": "Atomic Disassembler / Meka-Tool: multi-mode tool with vein/3x3 modes."}
+  ],
+  "item_collection_qol": [
+    {"mod": "simplemagnets", "effect": "5-block (basic) / 8-block (advanced) pull. Player-bound."},
+    {"mod": "itemcollectors", "effect": "Stationary 5-7 block vacuum into adjacent inventory. Unattended."},
+    {"mod": "sophisticatedbackpacks", "effect": "Pickup + Magnet + Void + Auto-Smelt upgrades. Works on Create contraptions (mid-flight ore collection)."}
+  ],
+  "tbd_verifications": [
+    {"id": "oritech.fragment_forge_chain", "what": "Precise terminal multiplier through Fragment Forge → Centrifuge → Atomic Forge", "method": "JEI lookup in-game when Oritech becomes a primary path"},
+    {"id": "enderio.sag_mill_grinding_balls", "what": "Per-ball multipliers (Energetic Alloy, Vibrant Alloy, Soularium, End Steel) — only Dark Steel is documented headline", "method": "JEI grinding ball tooltip + recipe inspection"},
+    {"id": "ae2.budding_quartz_tier_behavior", "what": "Whether Flawless tier still never degrades in AE2 1.21.x", "method": "in-game test or AE2 docs check"},
+    {"id": "draconic.dragon_respawn_biotite_interaction", "what": "Whether DE's dragonEggSpawnOverride interacts with Quark Ender Biotite renewability", "method": "test by killing dragon, checking biotite respawn"}
+  ]
+}

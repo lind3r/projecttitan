@@ -49,36 +49,34 @@ When applying a balance change, prefer the lever lowest in this list:
 
 ## Ceiling Coverage Table
 
-For each tier, which mods have a realistic path to that demand. Populated from `energy.json` → `ceiling_tier` field per generator. Last updated 2026-05-07.
+For each tier, which mods have a realistic path to that demand. Populated from `energy.json` → `ceiling_tier` field per generator. Last updated 2026-05-07 (post Oritech / IF / Draconic Evolution add).
 
-| Tier | Demand        | Mekanism                                | Createaddition          | EnderIO                              | AE2                  | Coverage |
-|---|---:|---|---|---|---|---|
-| T1  |       1,000  | any starter (Solar/Bio/Heat/Wind)        | Alternator (~3)         | Stirling / any Photovoltaic          | Vibration Ch. (~13)  | **4 mods** |
-| T2  |       4,000  | Adv Solar (~34) / Bio (~30) / Heat farm  | Alternator (~12)        | Octadic Stirling (~34) / Vibrant PV (~63) | Vibration Ch. (~50) | **4 mods** |
-| T3  |      16,000  | Bio array (~115) / Adv Solar field (~134)| Alternator (~45 — peak) | Vibrant PV (~250 — impractical)      | ✗                    | **3 mods** |
-| T4  |      60,000  | 1× Gas-Burning w/ Ethene (72k)           | ✗                       | ✗                                    | ✗                    | **1 mod** ⚠ |
-| T5  |     250,000  | 4× Gas-Burning w/ Ethene (~290k)         | ✗                       | ✗                                    | ✗                    | **1 mod** ⚠ |
-| T6  |   1,000,000  | 14× Gas-Burning Ethene / Fission low-burn| ✗                       | ✗                                    | ✗                    | **1 mod** ⚠ |
-| T7  |   4,000,000  | Fission moderate burn + Turbine          | ✗                       | ✗                                    | ✗                    | **1 mod** ⚠ |
-| T8  |  15,000,000  | Fission + Turbine peak (~25M ceiling)    | ✗                       | ✗                                    | ✗                    | **1 mod** ⚠ |
-| T9  |  60,000,000  | Fusion sub-peak injection                | ✗                       | ✗                                    | ✗                    | **1 mod** ⚠ |
-| T10 | 200,000,000  | Fusion peak                              | ✗                       | ✗                                    | ✗                    | **1 mod** ⚠ |
+| Tier | Demand        | Mekanism                                | Createaddition          | EnderIO                              | AE2                  | Industrial Foregoing            | Oritech                          | Draconic Evolution           | Coverage |
+|---|---:|---|---|---|---|---|---|---|---|
+| T1  |       1,000  | any starter (Solar/Bio/Heat/Wind)        | Alternator (~3)         | Stirling / any Photovoltaic          | Vibration Ch. (~13)  | Pitiful (~33) / Biofuel (~7)     | basic (~31) / bio (~16) / fuel (~4) | Reactor (sub-peak idle)      | **7 mods** |
+| T2  |       4,000  | Adv Solar (~34) / Bio (~30) / Heat farm  | Alternator (~12)        | Octadic Stirling (~34) / Vibrant PV (~63) | Vibration Ch. (~50) | Biofuel array (~25)              | fuel (~16) / bio (~62)           | Reactor                      | **7 mods** |
+| T3  |      16,000  | Bio array (~115) / Adv Solar field (~134)| Alternator (~45 — peak) | Vibrant PV (~250 — impractical)      | ✗                    | ✗ (~100 gens, impractical)       | Reactor (25k cap)                | Reactor                      | **5 mods** |
+| T4  |      60,000  | 1× Gas-Burning w/ Ethene (72k)           | ✗                       | ✗                                    | ✗                    | ✗                                | ✗ (~234, impractical)            | Reactor (low tuning)         | **2 mods** |
+| T5  |     250,000  | 4× Gas-Burning w/ Ethene (~290k)         | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | Reactor (mid tuning)         | **2 mods** |
+| T6  |   1,000,000  | 14× Gas-Burning Ethene / Fission low-burn| ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | Reactor (mid-high tuning)    | **2 mods** |
+| T7  |   4,000,000  | Fission moderate burn + Turbine          | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | Reactor (stable peak band)   | **2 mods** |
+| T8  |  15,000,000  | Fission + Turbine peak (~25M ceiling)    | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | Reactor (peak stable ~15M)   | **2 mods** |
+| T9  |  60,000,000  | Fusion sub-peak injection                | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | ✗ (only via unsafe tunings)  | **1 mod** ⚠ |
+| T10 | 200,000,000  | Fusion peak                              | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | ✗ (only via unsafe tunings)  | **1 mod** ⚠ |
 
-⚠ = Lateral-options failure. Player has no choice but Mekanism past T3.
+⚠ = Lateral-options failure. Player has no choice but Mekanism past T8.
 
-**Gap filling:** when a tier has only one mod with coverage, the player has no choice — that's a lateral-options failure. Resolve by adding a mod, not by buffing. Going from 5→10 tiers widened the granularity of the gap but didn't change the underlying coverage problem: 7 of 10 tiers are Mekanism-only.
+**Gap filling:** when a tier has only one mod with coverage, the player has no choice — that's a lateral-options failure. Resolve by adding a mod, not by buffing. The Draconic Evolution add (2026-05-07) closes the T4-T8 single-mod stretch — those tiers now have a non-Mekanism path. Only T9 and T10 (Fusion-class) remain Mekanism-only, which matches the design intent that fusion is the literal endgame.
 
 ### Recommended Mods to Close Gaps (not yet installed)
 
-Candidates the user should consider, ordered by how cleanly they fill the T4-T10 gap:
+Candidates the user could still consider, now narrowed to the T9-T10 endgame gap:
 
-1. **Powah** — well-balanced Energizing Rod chain; Reactor multiblock at the upper end. Covers roughly T4-T8 in one mod. Ideal headline addition.
-2. **Create: New Age** — Create-style electromagnetic generators with proper scaling (alternators, dynamos, reactors). Lets Create-only players actually reach T5-T7.
-3. **Bigger Reactors** (Extreme/Big Reactors fork for 1.21) — Yellorium reactor + Turbine, alternative endgame to Mekanism. T7-T10.
-4. **Industrial Foregoing** — Bioreactor + Petrified Fuel Generator + Pitiful Generator = breadth at T1-T3.
-5. **NuclearCraft: Neoteric** — fission/fusion alternative; deep mechanics. T6-T10 alt for players who want non-Mekanism nuclear.
+1. **Bigger Reactors** (Extreme/Big Reactors fork for 1.21) — Yellorium reactor + Turbine, an alternative endgame approach. Could realistically reach T9 with a maxed turbine setup; T10 is Mekanism-Fusion-class either way.
+2. **NuclearCraft: Neoteric** — fission/fusion alternative; deep mechanics. T9-T10 alt for players who want non-Mekanism nuclear endgame.
+3. **Create: New Age** — Create-style electromagnetic generators. Wouldn't reach T9-T10 but gives Create-only players a longer runway through T4-T6 alongside Draconic.
 
-A pragmatic minimum to fix the picture: add **Powah** and **Create: New Age**, leave Mekanism's nuclear top-end as a parallel rather than the only path.
+The T4-T8 gap that previously motivated **Powah** and **Industrial Foregoing** as candidates is now covered by Draconic Evolution + Industrial Foregoing (already installed). The remaining gap is narrow: only the top two tiers, and the design already accepts Mekanism Fusion as the literal "endgame anchor."
 
 ## Workflow for Future Sessions
 

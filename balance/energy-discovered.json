@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "files_scanned": 82,
-    "files_with_hits": 8,
-    "total_hits": 87,
+    "files_scanned": 122,
+    "files_with_hits": 15,
+    "total_hits": 135,
     "tool": "scripts/audit-energy.py",
     "note": "Discovery dump. Curated truth lives in balance/energy.json."
   },
@@ -324,6 +324,169 @@
             "value": "0.0",
             "line": 9,
             "comment": "Idle power usage per tick for dense ME conduits (AE) Default: 0.0 Range: 0.0 ~ 1.7976931348623157E308",
+            "match": "key"
+          }
+        ]
+      }
+    ],
+    "industrialforegoing": [
+      {
+        "file": "industrialforegoing/machine-agriculture-husbandry.toml",
+        "entries": [
+          {
+            "section": "MachineAgricultureHusbandryConfig.SewageComposterConfig",
+            "key": "powerPerTick",
+            "value": "40",
+            "line": 27,
+            "comment": "Amount of Power Consumed per Tick - Default: [40FE]",
+            "match": "key"
+          }
+        ]
+      },
+      {
+        "file": "industrialforegoing/machine-core.toml",
+        "entries": [
+          {
+            "section": "MachineCoreConfig.LatexProcessingUnitConfig",
+            "key": "powerPerTick",
+            "value": "20",
+            "line": 5,
+            "comment": "Amount of Power Consumed per Tick - Default: [400FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineCoreConfig.DissolutionChamberConfig",
+            "key": "powerPerTick",
+            "value": "90",
+            "line": 27,
+            "comment": "Amount of Power Consumed per Tick - Default: [60FE]",
+            "match": "key"
+          }
+        ]
+      },
+      {
+        "file": "industrialforegoing/machine-generator.toml",
+        "entries": [
+          {
+            "section": "MachineGeneratorConfig.BiofuelGeneratorConfig",
+            "key": "powerPerTick",
+            "value": "160",
+            "line": 5,
+            "comment": "Amount of Power Produced per Tick - Default: [400FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineGeneratorConfig.PitifulGeneratorConfig",
+            "key": "powerPerTick",
+            "value": "30",
+            "line": 25,
+            "comment": "Amount of Power Produced per Tick - Default: [400FE]",
+            "match": "key"
+          }
+        ]
+      },
+      {
+        "file": "industrialforegoing/machine-misc.toml",
+        "entries": [
+          {
+            "section": "MachineMiscConfig.EnchantmentExtractorConfig",
+            "key": "powerPerTick",
+            "value": "40",
+            "line": 5,
+            "comment": "Amount of Power Consumed per Tick - Default: [40FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineMiscConfig.EnchantmentSorterConfig",
+            "key": "powerPerTick",
+            "value": "40",
+            "line": 33,
+            "comment": "Amount of Power Consumed per Tick - Default: [40FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineMiscConfig.EnchantmentApplicatorConfig",
+            "key": "powerPerTick",
+            "value": "40",
+            "line": 41,
+            "comment": "Amount of Power Consumed per Tick - Default: [40FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineMiscConfig.EnchantmentFactoryConfig",
+            "key": "powerPerTick",
+            "value": "40",
+            "line": 53,
+            "comment": "Amount of Power Consumed per Tick - Default: [40FE]",
+            "match": "key"
+          }
+        ]
+      },
+      {
+        "file": "industrialforegoing/machine-resource-production.toml",
+        "entries": [
+          {
+            "section": "MachineResourceProductionConfig.WashingFactoryConfig",
+            "key": "powerPerTick",
+            "value": "60",
+            "line": 5,
+            "comment": "Amount of Power Consumed per Tick - Default: [60FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineResourceProductionConfig.FermentationStationConfig",
+            "key": "powerPerTick",
+            "value": "40",
+            "line": 15,
+            "comment": "Amount of Power Consumed per Tick - Default: [40FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineResourceProductionConfig.SporeRecreatorConfig",
+            "key": "powerPerTick",
+            "value": "40",
+            "line": 29,
+            "comment": "Amount of Power Consumed per Tick - Default: [40FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineResourceProductionConfig.FluidSievingMachineConfig",
+            "key": "powerPerTick",
+            "value": "40",
+            "line": 47,
+            "comment": "Amount of Power Consumed per Tick - Default: [40FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineResourceProductionConfig.SludgeRefinerConfig",
+            "key": "powerPerTick",
+            "value": "40",
+            "line": 101,
+            "comment": "Amount of Power Consumed per Tick - Default: [40FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineResourceProductionConfig.DyeMixerConfig",
+            "key": "powerPerTick",
+            "value": "30",
+            "line": 125,
+            "comment": "Amount of Power Consumed per Tick - Default: [400FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineResourceProductionConfig.MaterialStoneWorkFactoryConfig",
+            "key": "powerPerTick",
+            "value": "60",
+            "line": 137,
+            "comment": "Amount of Power Consumed per Tick - Default: [60FE]",
+            "match": "key"
+          },
+          {
+            "section": "MachineResourceProductionConfig.ResourcefulFurnaceConfig",
+            "key": "powerPerTick",
+            "value": "40",
+            "line": 155,
+            "comment": "Amount of Power Consumed per Tick - Default: [400FE]",
             "match": "key"
           }
         ]
@@ -734,6 +897,266 @@
             "line": 199,
             "comment": "Amount of steam (mB) per injection rate that the fusion reactor can store. Max = injectionRate * steamPerInjection Default: 100000000 Range: 1 ~ 94116041192395671",
             "match": "section"
+          }
+        ]
+      }
+    ],
+    "oritech": [
+      {
+        "file": "oritech-common.toml",
+        "entries": [
+          {
+            "section": "machineSettings.processingMachines.assemblerData",
+            "key": "energyPerTick",
+            "value": "128",
+            "line": 29,
+            "comment": "Default: 128 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.processingMachines.atomicForgeData",
+            "key": "energyPerTick",
+            "value": "1024",
+            "line": 43,
+            "comment": "Default: 1024 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.processingMachines.centrifugeData",
+            "key": "energyPerTick",
+            "value": "64",
+            "line": 54,
+            "comment": "Default: 64 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.processingMachines.foundryData",
+            "key": "energyPerTick",
+            "value": "128",
+            "line": 72,
+            "comment": "Default: 128 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.processingMachines.coolerData",
+            "key": "energyPerTick",
+            "value": "32",
+            "line": 86,
+            "comment": "Default: 32 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.processingMachines.fragmentForgeData",
+            "key": "energyPerTick",
+            "value": "256",
+            "line": 100,
+            "comment": "Default: 256 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.processingMachines.furnaceData",
+            "key": "energyPerTick",
+            "value": "32",
+            "line": 111,
+            "comment": "Default: 32 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.processingMachines.pulverizerData",
+            "key": "energyPerTick",
+            "value": "32",
+            "line": 129,
+            "comment": "Default: 32 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.processingMachines.refineryData",
+            "key": "energyPerTick",
+            "value": "64",
+            "line": 143,
+            "comment": "Default: 64 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.generators.basicGeneratorData",
+            "key": "energyPerTick",
+            "value": "32",
+            "line": 165,
+            "comment": "Default: 32 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.generators.bioGeneratorData",
+            "key": "energyPerTick",
+            "value": "64",
+            "line": 179,
+            "comment": "Default: 64 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.generators.lavaGeneratorData",
+            "key": "energyPerTick",
+            "value": "64",
+            "line": 193,
+            "comment": "Default: 64 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.generators.fuelGeneratorData",
+            "key": "energyPerTick",
+            "value": "256",
+            "line": 207,
+            "comment": "Default: 256 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.generators.solarGeneratorData",
+            "key": "energyPerTick",
+            "value": "32",
+            "line": 245,
+            "comment": "Default: 32 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.laserArmConfig",
+            "key": "energyPerTick",
+            "value": "128",
+            "line": 256,
+            "comment": "Default: 128 Range: 0 ~ 9223372036854775807",
+            "match": "key"
+          },
+          {
+            "section": "machineSettings.deepDrillConfig",
+            "key": "energyPerStep",
+            "value": "1024",
+            "line": 281,
+            "comment": "RF consumed per work step Default: 1024 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "storageBlocks.smallEnergyStorage",
+            "key": "energyPerTick",
+            "value": "0",
+            "line": 365,
+            "comment": "Default: 0 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "storageBlocks.largeEnergyStorage",
+            "key": "energyPerTick",
+            "value": "0",
+            "line": 379,
+            "comment": "Default: 0 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "equipment.charger",
+            "key": "energyPerTick",
+            "value": "0",
+            "line": 441,
+            "comment": "Default: 0 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "reactor",
+            "key": "safeModeCooldown",
+            "value": "2400",
+            "line": 453,
+            "comment": "Reactor safe mode cooldown duration in ticks Default: 2400 Range: > 0",
+            "match": "section"
+          },
+          {
+            "section": "reactor",
+            "key": "maxSize",
+            "value": "64",
+            "line": 457,
+            "comment": "Maximum reactor multiblock size Default: 64 Range: > 1",
+            "match": "section"
+          },
+          {
+            "section": "reactor",
+            "key": "reactorMaxEnergyStored",
+            "value": "50000000",
+            "line": 461,
+            "comment": "Maximum energy stored in the reactor in RF Default: 50000000 Range: > 0",
+            "match": "section"
+          },
+          {
+            "section": "reactor",
+            "key": "reactorMaxEnergyOutput",
+            "value": "25000",
+            "line": 465,
+            "comment": "Maximum energy output in RF/t per energy port Default: 25000 Range: > 0",
+            "match": "section"
+          },
+          {
+            "section": "reactor",
+            "key": "rfPerPulse",
+            "value": "64",
+            "line": 469,
+            "comment": "RF generated per reactor pulse Default: 64 Range: > 0",
+            "match": "section"
+          },
+          {
+            "section": "reactor",
+            "key": "absorberRate",
+            "value": "16",
+            "line": 473,
+            "comment": "Neutron absorber heat reduction rate Default: 16 Range: > 0",
+            "match": "section"
+          },
+          {
+            "section": "reactor",
+            "key": "ventBaseRate",
+            "value": "4",
+            "line": 477,
+            "comment": "Vent base cooling rate Default: 4 Range: > 0",
+            "match": "section"
+          },
+          {
+            "section": "reactor",
+            "key": "ventRelativeRate",
+            "value": "100",
+            "line": 481,
+            "comment": "Vent proportional cooling rate Default: 100 Range: > 0",
+            "match": "section"
+          },
+          {
+            "section": "reactor",
+            "key": "maxHeat",
+            "value": "2000",
+            "line": 485,
+            "comment": "Maximum heat before reactor meltdown Default: 2000 Range: > 0",
+            "match": "section"
+          },
+          {
+            "section": "reactor",
+            "key": "maxUnstableTicks",
+            "value": "600",
+            "line": 489,
+            "comment": "Ticks before an overheated reactor explodes Default: 600 Range: > 0",
+            "match": "section"
+          }
+        ]
+      },
+      {
+        "file": "oritech-startup.toml",
+        "entries": [
+          {
+            "section": "portableLaserConfig",
+            "key": "energyPerTick",
+            "value": "4096",
+            "line": 178,
+            "comment": "RF consumed per tick while firing Default: 4096 Range: > 0",
+            "match": "key"
+          },
+          {
+            "section": "portableLaserConfig",
+            "key": "energyPerBoom",
+            "value": "100000",
+            "line": 182,
+            "comment": "RF consumed per explosion Default: 100000 Range: > 0",
+            "match": "key"
           }
         ]
       }
