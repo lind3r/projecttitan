@@ -272,23 +272,24 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 
 #### the_titan_core (main spine)
 
-**10 tiers locked 2026-05-07.** Demand targets per tier in `balance/energy.md`. Trophies are gone — the existing T1-T3 quest SNBT still references `projecttitancore:trophy_tier_X` items that the mod no longer exposes, so all three are broken until re-tasked once the tier-transition event hook lands.
+**10 tiers locked 2026-05-07.** Demand targets per tier in `balance/energy.md`. T1-T10 all wired 2026-05-07 — task = obtain that tier's Titan Shard. The recipe-driven energy demand is the implicit gate (see `Don't use forge_energy tasks` rule above).
 
-| Tier | Demand FE/t | Existing reward (re-task pending) |
-|---|---:|---|
-| T1  |        1,000 | 64×9 iron blocks (was trophy_tier_1) |
-| T2  |        4,000 | 16 gold blocks (was trophy_tier_2)   |
-| T3  |       16,000 | 16 diamond blocks (was trophy_tier_3) |
-| T4  |       60,000 | TBD                                   |
-| T5  |      250,000 | TBD                                   |
-| T6  |    1,000,000 | TBD                                   |
-| T7  |    4,000,000 | TBD                                   |
-| T8  |   15,000,000 | TBD                                   |
-| T9  |   60,000,000 | TBD                                   |
-| T10 |  200,000,000 | TBD (Fusion-class endgame)            |
+| Tier | Demand FE/t | Task item                               | Reward |
+|---|---:|---|---|
+| T1  |        1,000 | `projecttitancore:mote_of_the_titan`     | 16 iron_block + 16 xp_bottle |
+| T2  |        4,000 | `projecttitancore:ember_of_the_titan`    | 16 iron_block + 16 copper_block + 32 xp_bottle |
+| T3  |       16,000 | `projecttitancore:spark_of_the_titan`    | 16 copper_block + 16 gold_block + 1 totem_of_undying |
+| T4  |       60,000 | `projecttitancore:pulse_of_the_titan`    | 16 gold_block + 16 diamond_block + 2 totem_of_undying |
+| T5  |      250,000 | `projecttitancore:echo_of_the_titan`     | 16 diamond_block + 16 emerald_block + 1 nether_star |
+| T6  |    1,000,000 | `projecttitancore:will_of_the_titan`     | 16 diamond_block + 8 netherite_block + 2 nether_star + 1 beacon |
+| T7  |    4,000,000 | `projecttitancore:voice_of_the_titan`    | 16 emerald_block + 16 netherite_block + 4 nether_star + 2 beacon |
+| T8  |   15,000,000 | `projecttitancore:soul_of_the_titan`     | 16 netherite_block + 8 nether_star + 4 beacon + 1 elytra |
+| T9  |   60,000,000 | `projecttitancore:ascendant_shard`       | 32 netherite_block + 16 nether_star + 8 beacon + 2 elytra |
+| T10 |  200,000,000 | `projecttitancore:heart_of_the_titan`    | 64 netherite_block + 32 nether_star + 16 beacon + 4 elytra |
 
-- [ ] Re-task T1-T3 quests once `projecttitancore` ships the tier-transition event hook.
-- [ ] Author T4-T10 quests as the mod content for each tier becomes available.
+Reward design: each tier hands the player a head start on the *next* tier's bulk ingredient (T1 reward is iron because T2's recipe needs iron, etc.) plus a tier-themed luxury item that scales with demand. T10 is overflowing capstone loot — no further tier to bulk-prep for.
+
+- [ ] Hook the per-tier-up world responses (mob HP scaling, blood moons, gateway tears, etc.) once `projecttitancore` ships the `onTierAdvanced(int)` event. Sketch in the mod repo's CLAUDE.md under "World Response on Craft / Tier-Up".
 
 ## Distribution
 

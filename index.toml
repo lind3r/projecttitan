@@ -869,20 +869,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_h.cfe"
-hash = "ecbee740d40d102251a001569d8425d765a66cb483ab5276fb45e940748ec4fc"
+file = "config/ars_nouveau/search_index/_i.cfe"
+hash = "4a07b711e9e7eae165efdb3631d79b165f1c435aefcb04cbb9af7bd3396d66e8"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_h.cfs"
-hash = "d724d38e8f63d4f9e4c4a313ef63986520d32ae74867709b0dcfe1cf54d61f85"
+file = "config/ars_nouveau/search_index/_i.cfs"
+hash = "378adefce60edabbb96768e8d2abb78bb7eb47940b60a6b008028aa62c2eec67"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_h.si"
-hash = "71c630754bd14ba8502b3c0aade0afd9ce2f2d5f0a6ef7275b4e6e95263e4c79"
+file = "config/ars_nouveau/search_index/_i.si"
+hash = "e1e62c1f5766f0e835cbc194bc71c4ff1f0e594e4690de19e63bae9aed02337c"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_i"
-hash = "cbccbad7cddf06f10ccb8f258caad93eb5dfdc951d10b247aa571ee5a3f3a4e5"
+file = "config/ars_nouveau/search_index/segments_j"
+hash = "b3d4b69c36e8a221540b0ff3010b8f8e24f3114a01ce50362d082c39eb1e3697"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1282,7 +1282,7 @@ hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "7cba55e723b640cba83892e2bc19f5e9c8adcd1b5f4ad7a249c51cbc975dee41"
+hash = "2914eda920825fdaf31877bc6912636ac5c43b806904561badf4a08f6b0de3c9"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1326,7 +1326,7 @@ hash = "c3a8e50635caa5a9c16e9b5a62c3078200242d34a995a05acea7a4ade6e211f1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
-hash = "8f9a3a7445092793f4b32f484e84518cf2c5b2681a14c6daa3a7893087119324"
+hash = "48591e2b568bed1f4b4ab8093312795a672b153a835dbf0db5f866de44908836"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travel_the_world.snbt"
@@ -1338,7 +1338,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "4ad509c88c0542d1de983f6a52b50671eb454138fc15d0eb4ccdf80d43ff9f68"
+hash = "8c3b087923fb4ccedcb04df3d8bf0ed9491c8ababff0f44b6f9e670901667e89"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
