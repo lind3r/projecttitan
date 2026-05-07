@@ -170,6 +170,8 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 
 **Status snapshot (2026-05-07):** 7 chapters, 38 quests shipped. 38 new mods installed in this sync round (see `## Mods` above) — backlog below expanded with starter quests for the ones that warrant the "build + use" loop. Library/UI mods (Almost Unified, Crafting Tweaks, Enchantment Descriptions, FindMe, GuideME, Inventory Essentials, Inventory Sorter, Overflowing Bars, Pick Up Notifier) are intentionally questless.
 
+**TODO — new chapter: `storage`.** Pull the storage-progression spokes out of `other` and into a dedicated chapter. Candidates to migrate/author: Sophisticated Storage tiers, Functional Storage drawers, Metal Barrels, AE2 ME network, ExtendedAE pattern providers, Sophisticated Backpacks tiering, Item Collectors. Hub idea: "Pack It Away". Decide order before authoring (likely vanilla → drawers → barrels → AE2 → ExtendedAE).
+
 #### energy_generation
 - [x] Hub — Spark of Industry
 - [x] Create — Kinetic Conversion (Alternator)
