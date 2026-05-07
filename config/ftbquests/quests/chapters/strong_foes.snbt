@@ -206,5 +206,84 @@
 			x: 4.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["17F8A0B1C2D3E4F0"]
+			id: "17F8A0B1C2D3E550"
+			rewards: [
+				{
+					id: "17F8A0B1C2D3E551"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_ender_guardian"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "17F8A0B1C2D3E552"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "17F8A0B1C2D3E553"
+					item: {
+						count: 1
+						id: "cataclysm:void_core"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "17F8A0B1C2D3E554"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["17F8A0B1C2D3E4F0"]
+			id: "17F8A0B1C2D3E560"
+			rewards: [
+				{
+					id: "17F8A0B1C2D3E561"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_ignis"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "17F8A0B1C2D3E562"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "17F8A0B1C2D3E563"
+					item: {
+						count: 1
+						id: "apotheosis:epic_material"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "17F8A0B1C2D3E564"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
 	]
 }

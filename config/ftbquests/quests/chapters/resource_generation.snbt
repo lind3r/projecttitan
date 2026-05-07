@@ -228,5 +228,99 @@
 			x: 4.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["3F1A8C2D7E4B5906"]
+			id: "7D5EC061B28F9D50"
+			rewards: [
+				{
+					count: 16
+					id: "7D5EC061B28F9D51"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7D5EC061B28F9D52"
+					item: {
+						count: 1
+						id: "create:crushed_raw_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "7D5EC061B28F9D53"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7D5EC061B28F9D54"
+					item: { count: 1, id: "create:crushing_wheel" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7D5EC061B28F9D55"
+					item: { count: 1, id: "create:crushed_raw_iron" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F1A8C2D7E4B5906"]
+			id: "47D51C4D8FED1723"
+			rewards: [
+				{
+					count: 8
+					id: "3A62388885D7D082"
+					item: {
+						count: 1
+						id: "industrialforegoing:fertilizer"
+					}
+					type: "item"
+				}
+				{
+					id: "03545EC4D257C18D"
+					item: {
+						count: 1
+						id: "industrialforegoing:plant_fertilizer"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "39E0500DF6DA85B6"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "53D8C314E513CDFB"
+					item: { count: 1, id: "industrialforegoing:plant_sower" }
+					type: "item"
+				}
+				{
+					id: "20BB4B7C13EB1CBE"
+					item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.0d
+		}
 	]
 }

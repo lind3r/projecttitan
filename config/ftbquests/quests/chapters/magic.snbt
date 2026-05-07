@@ -250,5 +250,98 @@
 			x: 4.0d
 			y: 4.0d
 		}
+		{
+			id: "28A1B2C3D4E5F600"
+			rewards: [
+				{
+					count: 16
+					id: "28A1B2C3D4E5F601"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "28A1B2C3D4E5F602"
+					item: {
+						count: 1
+						id: "ars_nouveau:drygmy_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "28A1B2C3D4E5F603"
+					item: {
+						count: 1
+						id: "ars_nouveau:familiar_drygmy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28A1B2C3D4E5F604"
+				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "39B2C3D4E5F60710"
+			rewards: [
+				{
+					count: 32
+					id: "39B2C3D4E5F60711"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "39B2C3D4E5F60712"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_fiber"
+					}
+					type: "item"
+				}
+				{
+					id: "39B2C3D4E5F60713"
+					item: {
+						count: 1
+						id: "ars_nouveau:greater_experience_gem"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39B2C3D4E5F60714"
+					item: { count: 1, id: "ars_nouveau:sorcerer_hood" }
+					type: "item"
+				}
+				{
+					id: "39B2C3D4E5F60715"
+					item: { count: 1, id: "ars_nouveau:sorcerer_robes" }
+					type: "item"
+				}
+				{
+					id: "39B2C3D4E5F60716"
+					item: { count: 1, id: "ars_nouveau:sorcerer_leggings" }
+					type: "item"
+				}
+				{
+					id: "39B2C3D4E5F60717"
+					item: { count: 1, id: "ars_nouveau:sorcerer_boots" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
 	]
 }

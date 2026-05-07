@@ -195,5 +195,90 @@
 			x: 4.0d
 			y: 9.0d
 		}
+		{
+			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "5BD3E6F708192A20"
+			rewards: [
+				{
+					count: 4
+					id: "5BD3E6F708192A21"
+					item: {
+						count: 1
+						id: "mekanism:advanced_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5BD3E6F708192A22"
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_glowstone"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A23"
+					item: {
+						count: 1
+						id: "mekanism:pressurized_reaction_chamber"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5BD3E6F708192A24"
+					item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A25"
+					item: { count: 1, id: "mekanism:ethene_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "5BD3E6F708192A30"
+			rewards: [
+				{
+					count: 4
+					id: "5BD3E6F708192A31"
+					item: {
+						count: 1
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5BD3E6F708192A32"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A33"
+					item: {
+						count: 1
+						id: "create:copper_backtank"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BD3E6F708192A34"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
 	]
 }

@@ -262,5 +262,74 @@
 			x: 4.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "4AC2D5E6F708B900"
+			rewards: [
+				{
+					count: 4
+					id: "4AC2D5E6F708B901"
+					item: {
+						count: 1
+						id: "toolbelt:pouch"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4AC2D5E6F708B902"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AC2D5E6F708B903"
+				item: { count: 1, id: "toolbelt:belt" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "5BD3E6F708A0CA10"
+			rewards: [
+				{
+					id: "5BD3E6F708A0CA11"
+					item: {
+						count: 1
+						id: "mininggadgets:upgrade_silk"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708A0CA12"
+					item: {
+						count: 1
+						id: "mininggadgets:upgrade_magnet"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5BD3E6F708A0CA13"
+					item: {
+						count: 1
+						id: "mininggadgets:upgrade_empty"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BD3E6F708A0CA14"
+				item: { count: 1, id: "mininggadgets:mininggadget_simple" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
 	]
 }
