@@ -168,17 +168,16 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 
 ### Quest Backlog
 
-7 chapters, 52 quests shipped as of 2026-05-07. Authored quests live in `config/ftbquests/quests/chapters/` — that's the source of truth for what's done. The list below is just what's still open. Library/UI mods (Almost Unified, Crafting Tweaks, Enchantment Descriptions, FindMe, GuideME, Inventory Essentials, Inventory Sorter, Overflowing Bars, Pick Up Notifier) are intentionally questless.
-
-**TODO — new chapter: `storage`.** Pull storage-progression spokes out of `other` into a dedicated chapter (Sophisticated Storage tiers, Functional Storage drawers, Metal Barrels, AE2 ME network, ExtendedAE pattern providers, Sophisticated Backpacks tiering, Item Collectors). Hub: "Pack It Away". Authoring order: vanilla → drawers → barrels → AE2 → ExtendedAE.
+8 chapters, 63 quests shipped as of 2026-05-07. Authored quests live in `config/ftbquests/quests/chapters/` — that's the source of truth for what's done. The list below is just what's still open. Library/UI mods (Almost Unified, Crafting Tweaks, Enchantment Descriptions, FindMe, GuideME, Inventory Essentials, Inventory Sorter, Overflowing Bars, Pick Up Notifier) are intentionally questless.
 
 **Open spokes per chapter:**
 - `energy_generation` — Industrial Foregoing Bioreactor+Biofuel, Oritech Generator, Draconium Capacitor, Flux Networks Plug+Point.
-- `resource_generation` — Quantum Entangloporter, AE2 first ME network, ExtendedAE Ex Pattern Provider, ME Requester, Mob Masher, Hostile Neural Networks.
-- `gearing_up` — Apotheosis Salvaging Table, MekaSuit Helmet, Create Backtank+Diving Helmet, Draconic Wyvern-tier gear, Cosmetic Armor Reworked.
+- `resource_generation` — Quantum Entangloporter, ME Requester, Mob Masher, Hostile Neural Networks.
+- `gearing_up` — Apotheosis Salvaging Table, MekaSuit Helmet, Create Backtank+Diving Helmet, Draconic Wyvern-tier gear, Cosmetic Armor Reworked. (Sophisticated Backpacks tiering deferred — `Pack Mule` already covers iron-tier; full tier-up could move to `storage` later.)
 - `strong_foes` — Apotheosis affixed-mob kill, Gateways pylon clear, Draconic Chaos Guardian.
 - `travel_the_world` — Tectonic biome visit.
-- `other` — Macaws building blocks, Curios slot, Chisel Modern variant, Metal Barrels, Item Collectors, Spice of Life diet, Crafting Station, Trash Cans.
+- `storage` — none open. (Hub + 6 spokes shipped 2026-05-07.)
+- `utility` — none open. (Hub + 12 spokes shipped 2026-05-07. Renamed from `other`.)
 - `magic` — none open.
 
 #### the_titan_core (main spine)
