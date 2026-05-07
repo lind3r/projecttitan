@@ -1,5 +1,11 @@
 [
   {"version":1},
+  {"ingredient":{"id":"mekanism:ultimate_crushing_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:elite_crushing_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:advanced_crushing_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:basic_crushing_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:crusher"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"supplementaries:globe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:creative_energy_cube","components":{"mekanism:side_config":{"config":{"energy":{"side":{"front":"output","left":"output","right":"output","back":"output","top":"output","bottom":"output"},"eject":true},"items":{"side":{"front":"output","left":"input","right":"input","back":"input","top":"input","bottom":"input"}}}},"mekanism:energy":{"energy_containers":[9223372036854775807]}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ars_nouveau:sorcerer_boots"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mininggadgets:mininggadget_simple"},"type":"item_stack","bookmarkType":"INGREDIENT"},

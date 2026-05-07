@@ -138,28 +138,28 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"alexsmobs:cockroach": true
+			"minecraft:chicken": true
 			"alexsmobs:centipede_head": true
+			"minecraft:glow_squid": true
+			"alexsmobs:centipede_tail": true
+			"minecraft:bee": true
+			"minecraft:enderman": true
+			"minecraft:bat": true
+			"minecraft:dolphin": true
+			"alexsmobs:flying_fish": true
+			"minecraft:sheep": true
+			"alexsmobs:centipede_body": true
+			"minecraft:pig": true
+			"minecraft:cod": false
+			"minecraft:witch": true
 			"ars_nouveau:whirlisprig": true
 			"minecraft:creeper": true
-			"minecraft:skeleton": true
-			"alexsmobs:flying_fish": true
-			"minecraft:glow_squid": true
-			"minecraft:chicken": true
-			"alexsmobs:centipede_tail": true
-			"minecraft:bat": true
-			"minecraft:zombie": true
-			"minecraft:sheep": true
-			"minecraft:bee": true
-			"alexsmobs:centipede_body": true
 			"minecraft:spider": true
-			"minecraft:squid": true
-			"minecraft:cod": false
-			"minecraft:dolphin": true
-			"minecraft:witch": true
-			"minecraft:pig": true
-			"minecraft:enderman": true
 			"quark:toretoise": true
+			"minecraft:zombie": true
+			"alexsmobs:cockroach": true
+			"minecraft:skeleton": true
+			"minecraft:squid": true
 			"quark:stoneling": true
 		}
 		
