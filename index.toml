@@ -2,11 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = "balance/energy-discovered.json"
-hash = "0dafc6d35e8d63d4cf82a01ee21b7a720f4dcc933eee57d12eb3c4c7a8b5ce95"
+hash = "423ca509ea34fe80706cc0c40177dc221d16d82796a1874c7dfd8052edc3cbc4"
 
 [[files]]
 file = "balance/energy.json"
-hash = "f85c3880ef5248c35eb135895208664bbdf866265e8bd1f1f04240015580dcd6"
+hash = "2db4affc21ddd6fc33ac2edf87b00bb4645011a59dde57c89ed2223ac2d88b8e"
+
+[[files]]
+file = "balance/resources.json"
+hash = "4466172300113d4fed104b64691d4a1a37b1169cdd3c3fd5f8b9cd74f42d3a7e"
 
 [[files]]
 file = "config/Mekanism/additions-client.toml"
@@ -502,7 +506,7 @@ hash = "2038a2c752dc68b7db2355e4f3765bf84de7eb05308fd8891fb8e3392859336a"
 
 [[files]]
 file = "config/apothic_spawners.cfg"
-hash = "eda93df8c30acf8d7e14f4f2baf583f77ec37fcc05d8acc85988ffd465d5038c"
+hash = "291d385f56927d215a3e84630e984d9527362166fcd3cec3f545166347d7e581"
 
 [[files]]
 file = "config/appleskin-client.toml"
@@ -865,20 +869,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_e.cfe"
-hash = "859adb34ae695b4e66680f6b14ad12cee8ef8e8e2904a160f70cf2b7d49f7334"
+file = "config/ars_nouveau/search_index/_g.cfe"
+hash = "b3b0e2abda1f4bf455852201aa6dfcf49a4694087cf409880c86ab6ef9f48f05"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_e.cfs"
-hash = "4d3bc8323881dad78921b64340a278400a9b1b21e00f40e0044ebb54104a6087"
+file = "config/ars_nouveau/search_index/_g.cfs"
+hash = "3ebf04db740212e2e590da22c555daa068f5aab75a641232a60dd29831030150"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_e.si"
-hash = "f3670afcd5314dd3a920f95a481d9b821c91f0cb62e6d6ec7b997532b9317aab"
+file = "config/ars_nouveau/search_index/_g.si"
+hash = "314b421869d16c23ca915efb9e82626f660787666fbd956e71b913693d5fb790"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_f"
-hash = "db685d32f5d1843f5fa2777400844bfb02e1c2b89f457f1e7e4333fef048dc57"
+file = "config/ars_nouveau/search_index/segments_h"
+hash = "984614ae813884047b21c44b62f1b89c9bc51c8feada04d65b17d61134990437"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -891,18 +895,6 @@ hash = "d97f22e6a2dda9ad91f1dab25b2a700ed87a4d91a9420e576e9516c8476603f4"
 [[files]]
 file = "config/better-advanced-tooltips-client.toml"
 hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
-
-[[files]]
-file = "config/bettercaves/README.txt"
-hash = "e6f25132180339d5b7f53c1f5473f28cdf743f76292bc8f87142e4b0300e0f2c"
-
-[[files]]
-file = "config/bettercaves/neoforge-1_21_1/README.txt"
-hash = "1dc29f3ad9f62887f2667aeaed28c3fd3a2520055382ecb3636e3cb9ea563baa"
-
-[[files]]
-file = "config/bettercaves/neoforge-1_21_1/liquidregions.json"
-hash = "ad0e43cd1d8fff16d76ff6036699bd67598ff8bc18220b7e8e951245c92cf139"
 
 [[files]]
 file = "config/betterdeserttemples-neoforge-1_21.toml"
@@ -1213,10 +1205,6 @@ file = "config/embeddium-options.json"
 hash = "2e45fad8b1f64480f223f2c48be441d2e6d9768581fce2f247483574335b383c"
 
 [[files]]
-file = "config/emi.css"
-hash = "9fa24b9307a960428865fddf89bf18ad0659141055e918cd113a3e510a2d2b7f"
-
-[[files]]
 file = "config/enchdesc.json"
 hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
 
@@ -1286,7 +1274,7 @@ hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "99eabebb931e19aa041732474524c4ce19a282ab58a5047c0cac54fd872b29d7"
+hash = "6007e9c59a6835f16127838e0c901316f73c3d28ded63ccb2237254fd6421345"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1306,35 +1294,35 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/energy_generation.snbt"
-hash = "8a64d452e5f938c90dcc30da02475e47a2b54e664a9f43ab08c4216782c22e44"
+hash = "d517425433ea0ac6e579face870bc7c626259a1a2ecbd92b8b29842c1d4126e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gearing_up.snbt"
-hash = "c3931ac209ac3f9313e84592e0252bef53abcfdabdc07d4c15e6777291d17720"
+hash = "bf851b3b5d95ca1f576387348de831d7266f215f1dae2f3da455c4f239b0c7d3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic.snbt"
-hash = "bc2d0906551bf6f30a5f6135dded715538bc3b7fa333447cdd9c97c400f2e061"
+hash = "e282934db0f14e3ae8eac33e610d361a0b533c4670906a763fd78e2f19f3c67e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/other.snbt"
-hash = "cc181327c1108950641fbb73660e001106e7fe5c28102bdd33d6734a2d8ab35e"
+hash = "d8f6689b153e7dd3f4abe9b07691cc1ee9e3cde0753405c7facb62b7e984517d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_generation.snbt"
-hash = "f9e4c06408fbe81e088b31e47a0333d3c822982f42b6d96f4b9bae665e9d0550"
+hash = "1160f470b57bdd638e4c32ed91ce3cb43c8849e13b41cbfa45b143fde3394aaa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/strong_foes.snbt"
-hash = "c0159bfebd41ea0074354bf6cfc5ca1243b17514c5647a8fd6d8f51b372aef1e"
+hash = "c3a8e50635caa5a9c16e9b5a62c3078200242d34a995a05acea7a4ade6e211f1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
-hash = "ca178422d6a64d270371ef669077e00ef0c6c349c144ba3b54a684294e233c47"
+hash = "8f9a3a7445092793f4b32f484e84518cf2c5b2681a14c6daa3a7893087119324"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travel_the_world.snbt"
-hash = "5a9c28cede1fe1a988a76d1dd54b2af6f4c8a21db4da342fcbd76b06e3133a40"
+hash = "31aa293591c6cbbadd57b15783785eb38a57dc8a1004ca4bb780674f0932c400"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1342,7 +1330,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "ecc955520508e220a36dab83d411f65d9f17a1ee76a934915115b7232e17f78d"
+hash = "8c21b92eaaef455e8442e78db2d678153e7885cc7f7df722f42d11bc20015a7c"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -1373,80 +1361,12 @@ file = "config/functionalstorage/functionalstorage-common.toml"
 hash = "47595c51ed0a6a3d496402420d025e0ae0418a0ea853e2489fad4152e978b822"
 
 [[files]]
-file = "config/generatorgalore-server.toml"
-hash = "0a42bf06f22303e7fdc52a4513ba5ed475f95bac733f7e5c2e3230696a440f8c"
-
-[[files]]
-file = "config/generatorgalore/defaults.lock"
-hash = "86454801087d09eac84b8f0ea7ff3d53a0d858c6d537d37c32c8f433736a7eed"
-
-[[files]]
-file = "config/generatorgalore/generators/copper.json"
-hash = "b2a9f6143809d898f3bbd71d60adba2346fe7accf5c4853389c5be61bb458b4d"
-
-[[files]]
-file = "config/generatorgalore/generators/culinary.json"
-hash = "03bdbd7e47b468e92c6bd3731c65b36c683639682143d1b34d9de259d8b5c7db"
-
-[[files]]
-file = "config/generatorgalore/generators/diamond.json"
-hash = "3e2ab70092b5a3122842f3c880a991fa66ae6bbaee7a79c709e1856bac178678"
-
-[[files]]
-file = "config/generatorgalore/generators/emerald.json"
-hash = "3b07c731289210daf2bd27e4bfe814afa3dc73b42304a07ee25964cb699437c5"
-
-[[files]]
-file = "config/generatorgalore/generators/enchantment.json"
-hash = "589eb5554c953328f69086dda38175f83b1a7d82c480da93d9e894f1e3ad59c1"
-
-[[files]]
-file = "config/generatorgalore/generators/ender.json"
-hash = "86bf2cba7deb85999eab5b2d998712165046f8035cb693a7b937e1355cd03456"
-
-[[files]]
-file = "config/generatorgalore/generators/gold.json"
-hash = "33929ace9e9a71701695b7a929b5a5d9c172476383318c0545648338d7e9e59e"
-
-[[files]]
-file = "config/generatorgalore/generators/halitosis.json"
-hash = "a3268ad8a086664fa8ff324427c6b422729a3353c19da86769ef95cfc1cb5323"
-
-[[files]]
-file = "config/generatorgalore/generators/honey.json"
-hash = "ce5145f9ce8d3b29fa7eab41e8d5b56ff1f91540adb8646b21d220334808c022"
-
-[[files]]
-file = "config/generatorgalore/generators/iron.json"
-hash = "10310329f5f2e7d8f82d0ea4076d55c16b6f84c9b066807421a831cd981cde7a"
-
-[[files]]
-file = "config/generatorgalore/generators/magmatic.json"
-hash = "75a31badce3392656e43630921dadfea01e3d15eea1130a95599a2bbc8ebebfc"
-
-[[files]]
-file = "config/generatorgalore/generators/netherite.json"
-hash = "593dc70733a65b7deff577fd486f2845f69f9a6af9256b9838a852338594c719"
-
-[[files]]
-file = "config/generatorgalore/generators/netherstar.json"
-hash = "be9c7780b4813ff4212bf7e6651143508bd385edea98c6d1dcbbbbb21df679ac"
-
-[[files]]
-file = "config/generatorgalore/generators/obsidian.json"
-hash = "18521ff543873866b0e6e4d147750c4c7d218fde93492fcba2a5e59f8520021b"
-
-[[files]]
-file = "config/generatorgalore/generators/potion.json"
-hash = "31c768259ea01ac70a207082e7fd4a14860a47bc8f8a807b743380e71008deb1"
-
-[[files]]
 file = "config/guideme.toml"
 hash = "e4f58ced20ccf200592141f4afcad54a0d33faa6b672a90e58781c1a8183a036"
 
 [[files]]
 file = "config/hostilenetworks.cfg"
-hash = "7210e168223e469592b881cc820a0fd80eadab72c224cd8851969a0e4e976d02"
+hash = "4c9d43d7e4a5d163f0ab3836d65375619dcddb51deffa2df8643b75d9fb7c05b"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -1554,7 +1474,7 @@ hash = "b5a9a4224f9cd006b7689c5ed6fcc674c7a6550c23292ec73bab490d948f8d77"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.json"
-hash = "55fd33988b6ac7c77dcea947d185db92699de6ddb6b53bba7ed03cb357130922"
+hash = "aec7144625e640470bce13769977429fd5ec517cafe7acb6924c2289b6ed96fb"
 
 [[files]]
 file = "config/jei/world/local/New_World__1/lookupHistory.json"
@@ -1678,7 +1598,7 @@ hash = "12f65a872b73c931b0a192d7e95c7d89f7ef7f1fd33f3ee7ff6bbda12fb8845f"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "c9d4b3d681a66ef80ac0c965024b9af705b8460db717567c97cef884a314c6db"
+hash = "571235501b24532c23eaee01fca31082c8cf677bd50905844b2c9237129160dc"
 
 [[files]]
 file = "config/sophisticatedstorage-client.toml"
@@ -1773,6 +1693,10 @@ file = "kubejs/config/web_server.json"
 hash = "5b19b08c16a1870d4af4bdd0d76f7c918b41e52f1f4bf0be32317c07daa6febe"
 
 [[files]]
+file = "kubejs/server_scripts/balance_resources.js"
+hash = "987ece5532db9725b9b9a166d0f122306116e6d2dde27dc487f4fe69cb773bf6"
+
+[[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
@@ -1858,6 +1782,11 @@ metafile = true
 [[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "c6286928c5cc7995c3bd2e4ac3153fdbfed684f4de3bead64e293cb852532d65"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "d18f00631377bb11109c6cf3c67261aeedec73e79727e50019e91a913ec88183"
 metafile = true
 
 [[files]]
