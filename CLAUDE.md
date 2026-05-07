@@ -168,107 +168,18 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 
 ### Quest Backlog
 
-**Status snapshot (2026-05-07):** 7 chapters, 52 quests shipped (38 originally + 14 added 2026-05-07: 2 each in energy/resource/gearing/magic/foes/travel/other). 38 new mods installed in this sync round (see `## Mods` above) — backlog below expanded with starter quests for the ones that warrant the "build + use" loop. Library/UI mods (Almost Unified, Crafting Tweaks, Enchantment Descriptions, FindMe, GuideME, Inventory Essentials, Inventory Sorter, Overflowing Bars, Pick Up Notifier) are intentionally questless.
+7 chapters, 52 quests shipped as of 2026-05-07. Authored quests live in `config/ftbquests/quests/chapters/` — that's the source of truth for what's done. The list below is just what's still open. Library/UI mods (Almost Unified, Crafting Tweaks, Enchantment Descriptions, FindMe, GuideME, Inventory Essentials, Inventory Sorter, Overflowing Bars, Pick Up Notifier) are intentionally questless.
 
-**TODO — new chapter: `storage`.** Pull the storage-progression spokes out of `other` and into a dedicated chapter. Candidates to migrate/author: Sophisticated Storage tiers, Functional Storage drawers, Metal Barrels, AE2 ME network, ExtendedAE pattern providers, Sophisticated Backpacks tiering, Item Collectors. Hub idea: "Pack It Away". Decide order before authoring (likely vanilla → drawers → barrels → AE2 → ExtendedAE).
+**TODO — new chapter: `storage`.** Pull storage-progression spokes out of `other` into a dedicated chapter (Sophisticated Storage tiers, Functional Storage drawers, Metal Barrels, AE2 ME network, ExtendedAE pattern providers, Sophisticated Backpacks tiering, Item Collectors). Hub: "Pack It Away". Authoring order: vanilla → drawers → barrels → AE2 → ExtendedAE.
 
-#### energy_generation
-- [x] Hub — Spark of Industry
-- [x] Create — Kinetic Conversion (Alternator)
-- [x] Mekanism — Industrial Heat (Heat Generator)
-- [x] EnderIO — Stirling Cycle (Stirling Generator)
-- [x] Mekanism — Solar Array (Solar Generator)
-- [x] EnderIO — Photovoltaic (Energetic Photovoltaic Module)
-- [x] Mekanism — Gas-Burning Generator (mid-tier, requires Ethene)
-- [x] Create — Steam Engine (1.21+ Create's mid-game power)
-- [ ] Industrial Foregoing — Bioreactor + Biofuel Generator (alt biofuel path)
-- [ ] Oritech — Generator (Oritech's own tech tree entry)
-- [ ] Draconic Evolution — Draconium Capacitor (mid-tier Draconic power storage)
-- [ ] Flux Networks — Flux Plug + Flux Point (wireless power transport setup)
-
-#### resource_generation
-- [x] Hub — Productive Earth
-- [x] Mekanism — Strip Without the Strip (Digital Miner)
-- [x] Mekanism — Quintuple Down (5x ore chain)
-- [x] Create — Pressing Matters (Press + Mixer)
-- [x] AE2 — Bootstrapping AE2 (Inscriber)
-- [x] Create — Crushing Wheels (ore doubling alternative)
-- [ ] Mekanism — Quantum Entangloporter (item shuttling)
-- [ ] AE2 — first ME network (Controller + Drive + Crafting Terminal as separate quest)
-- [ ] ExtendedAE — Ex Pattern Provider (high-throughput AE2 autocraft)
-- [ ] ME Requester — Auto-restock requester terminal
-- [x] Industrial Foregoing — Plant Sower + Plant Gatherer (auto crop loop)
-- [ ] Mob Grinding Utils — Mob Masher farm (spawner-fed loot)
-- [ ] Hostile Neural Networks — Deep Learner + Predictor (mob essence automation)
-
-#### gearing_up
-- [x] Hub — Sharpen Up
-- [x] Apotheosis — First Cut (Gem Cutting Table)
-- [x] Apotheosis — Forge & Reforge (Reforging Table)
-- [x] Apothic Enchanting — Beyond Vanilla (Hellshelf + Endshelf)
-- [x] Mekanism — Take Flight (Jetpack)
-- [x] Mekanism — Atomic Disassembler
-- [x] Sophisticated Backpacks — Pack Mule (Iron Backpack)
-- [ ] Apotheosis — Salvaging Table
-- [ ] Mekanism — MekaSuit Helmet (start of MekaSuit progression)
-- [ ] Create — Copper Backtank + Diving Helmet
-- [x] Tool Belt — Equip a Tool Belt
-- [x] Mining Gadgets — Build & fire a Mining Gadget
-- [ ] Draconic Evolution — Wyvern-tier gear (chestplate or sword)
-- [ ] Cosmetic Armor Reworked — Equip a cosmetic over real armor
-
-#### magic
-- [x] Hub — Mana Spring
-- [x] Inscribe & Cast — Scribe's Table + Mage's Spell Book
-- [x] The Workshop — Enchanting Apparatus + Imbuement Chamber
-- [x] Mana on Tap — Source Jar + Relay + Volcanic Sourcelink
-- [x] First Ritual — Ritual Brazier + Ritual of Awakening
-- [x] Cultivate — Magebloom seed + harvest
-- [x] Ars Nouveau — Drygmy Charm / familiar pet (mob loot automation)
-- [x] Ars Nouveau — Mage Robes set (Sorcerer tier — entry loadout)
-
-#### strong_foes
-- [x] Hub — Worthy Adversary
-- [x] Apotheosis — Summon a Boss (Boss Summoner)
-- [x] Apothic Spawners — Spawner Husbandry
-- [x] Cataclysm — Slay the Harbinger
-- [x] Cataclysm — Slay the Leviathan
-- [x] Alex's Mobs — Hunt the Bone Serpent
-- [x] Cataclysm — Slay the Ender Guardian
-- [x] Cataclysm — Slay Ignis (Netherite Monstrosity still open)
-- [ ] Apotheosis — Kill an affixed mob (any rare-tier)
-- [ ] Gateways to Eternity — Open & clear a Gateway pylon
-- [ ] Draconic Evolution — Slay the Chaos Guardian (endgame boss)
-
-#### travel_the_world
-- [x] Hub — Distant Horizons
-- [x] Visit the Nether
-- [x] Visit the End
-- [x] Find a Stronghold (Yung's Better Strongholds)
-- [x] Amethyst Rainforest (Terralith biome)
-- [x] Craft a Globe (Supplementaries)
-- [x] Towns and Towers — find a populated town
-- [x] When Dungeons Arise — find a dungeon structure (Bandit Towers as the canonical pick)
-- [ ] Tectonic — visit a Tectonic-only biome
-
-#### other (QoL/utility)
-- [x] Hub — Quality of Life
-- [x] Farmers Delight — Hot Kitchen (Cooking Pot + Skillet)
-- [x] Supplementaries — Worldly Trinkets (Sack + Globe)
-- [x] Quark — Pocket Tools (Backpack + Trowel)
-- [x] Sophisticated Storage — Tier Up Storage (Iron Barrel)
-- [x] Pipez — Pipework (Item Pipe + Improved Upgrade)
-- [ ] Macaws (doors/windows/roofs/etc.) — building blocks
-- [ ] Curios — equip any curio item
-- [ ] Chisel Modern — chisel a block variant (decorative)
-- [x] Functional Storage — Storage Drawer (compact storage tier)
-- [ ] Metal Barrels — Iron Barrel (mid-tier vanilla-style storage)
-- [ ] Item Collectors — Place an Item Collector over a farm
-- [x] Simple Magnets — Equip a magnet
-- [x] CC: Tweaked — Boot a Computer (Computer + Turtle)
-- [ ] Spice of Life: Carrot Edition — Eat 10 distinct foods (diet variety)
-- [ ] Crafting Station — Place & use a Crafting Station
-- [ ] Trash Cans — Configure a filtered trash can
+**Open spokes per chapter:**
+- `energy_generation` — Industrial Foregoing Bioreactor+Biofuel, Oritech Generator, Draconium Capacitor, Flux Networks Plug+Point.
+- `resource_generation` — Quantum Entangloporter, AE2 first ME network, ExtendedAE Ex Pattern Provider, ME Requester, Mob Masher, Hostile Neural Networks.
+- `gearing_up` — Apotheosis Salvaging Table, MekaSuit Helmet, Create Backtank+Diving Helmet, Draconic Wyvern-tier gear, Cosmetic Armor Reworked.
+- `strong_foes` — Apotheosis affixed-mob kill, Gateways pylon clear, Draconic Chaos Guardian.
+- `travel_the_world` — Tectonic biome visit.
+- `other` — Macaws building blocks, Curios slot, Chisel Modern variant, Metal Barrels, Item Collectors, Spice of Life diet, Crafting Station, Trash Cans.
+- `magic` — none open.
 
 #### the_titan_core (main spine)
 
@@ -300,12 +211,7 @@ Don't pick one exclusively at the source level. The pack is built once; we choos
 
 ## Build & Workflow Reminders
 
-- Don't commit `*.jar` — packwiz tracks mods through metadata only.
-- Don't edit `index.toml` by hand. Run `packwiz refresh` instead.
-- Never run anything that mutates the Prism instance without remembering the junctions go both ways.
-- After any change here, **boot the Prism instance once** to confirm the pack still loads — junctions can be silently broken by launcher operations.
 - Standing commit/push authorization granted in the sibling `project-titan-core` repo applies here too unless the user says otherwise.
-- TODO: Investigate why `Bash(grep ...)` and `Bash(... | head ...)` calls still trigger permission prompts even though they look like they should be auto-allowed. User asked 2026-05-07; suspects a stale CLI session and plans to restart. If prompts persist after restart, broaden the allow list in `.claude/settings.local.json` (e.g. `Bash(grep *)`, `Bash(* | head *)`).
 
 ## Diagnosing Crashes
 
