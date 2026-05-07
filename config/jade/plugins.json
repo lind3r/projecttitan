@@ -62,6 +62,9 @@
     "entity": true,
     "entity_variant": true
   },
+  "oritech": {
+    "machine_core_controller": true
+  },
   "ftbquests": {
     "barrier": true
   },
@@ -79,11 +82,19 @@
   "apotheosis": {
     "adventure": true
   },
+  "extendedae": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
   "balm": {
     "jade": true
   },
   "apothic_enchanting": {
     "ench": true
+  },
+  "functionalstorage": {
+    "armory": true,
+    "drawer": true
   },
   "ae2": {
     "part_icon": true,

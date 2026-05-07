@@ -69,41 +69,15 @@ packwiz settings acceptable-versions --add 1.21   # already added; lets us pick 
 
 Only **Project Titan Core** (`projecttitancore-*.jar`) — our own mod, no published release artifact yet. Add via `packwiz url add` once a release is cut.
 
-The other 81 mods all have 1-to-1 packwiz tracking matching the live install exactly, verified by JAR hash (Modrinth) or exact filename (CurseForge).
+The other 119 mods all have 1-to-1 packwiz tracking matching the live install exactly, verified by JAR hash (Modrinth) or exact filename (CurseForge).
+
+### Tracking Quirks
+
+- **Inventory Sorter** is tracked at file ID 7188660 (`inventorysorter-1.21.1-24.0.24.jar`). CF lists 24.0.24 as a 1.21.8 release, but the JAR is in the 1.21.1 NeoForge install and confirmed working in-game by the user 2026-05-07. `packwiz update` may try to swap it for 24.0.20 (the highest release CF officially tags as 1.21.1) — leave it pinned unless 24.0.24 actually breaks.
 
 ## Mods Backlog (To Add)
 
-Queued for the next sync round — install in Prism first, then run the packwiz sync workflow below.
-
-- Almost Unified
-- Chisel Modern
-- Crafting Station: J/EMI Edition Updated
-- Crafting Tweaks
-- Cosmetic Armor Reworked
-- Draconic Evolution
-- Enchantment Descriptions
-- ExtendedAE
-- FindMe
-- Flux Networks
-- Functional Storage
-- Gateways to Eternity
-- GuideME
-- Hostile Neural Networks
-- Industrial Foregoing
-- Inventory Essentials
-- Inventory Sorter
-- Item Collectors
-- ME Requester
-- Metal Barrels
-- Mining Gadgets
-- Mob Grinding Utils
-- Oritech
-- Overflowing Bars
-- Pick Up Notifier
-- Simple Magnets
-- Spice of Life: Carrot Edition
-- Tool Belt
-- Trash Cans
+_Empty as of 2026-05-07 — all previously queued mods are installed and tracked. New entries land here when the user installs more in Prism and asks for a sync._
 
 ## Syncing packwiz to the Prism Install
 
@@ -175,8 +149,8 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 **Main questline (`the_titan_core` chapter):**
 - Strictly linear: T1 → T2 → ... → T10 (10 tiers, locked 2026-05-07).
 - Demand targets and ceiling coverage per tier live in `balance/energy.md`. Reward scaling tracks that demand curve.
-- Costs scale aggressively (T1 reward is 64×9 iron blocks — that level of expense is intentional, not a bug).
-- **Trophy items are gone.** The mod no longer ships `projecttitancore:trophy_tier_X`, so the `the_titan_core.snbt` quests still gating on those items are broken until re-tasked. Plan: replace with events emitted by the Titan Core block on tier transitions; tier-ups can also trigger world changes. Defer wiring this until `projecttitancore` exposes the event hook.
+- Costs scale aggressively, however current costs of recipes are TBD.
+- **Trophy items are gone.** The mod no longer ships `projecttitancore:trophy_tier_X`, so the `the_titan_core.snbt` quests still gating on those items are broken until re-tasked. Plan: Tier-ups can also trigger world changes. Defer wiring this until `projecttitancore` exposes the event hook.
 
 **Side chapters (`energy_generation`, `resource_generation`, `magic`, `gearing_up`, `strong_foes`, `travel_the_world`, `other`):**
 - Hub-and-spoke: one entry quest (checkmark task, hexagon shape) fans out to multiple mod-specific paths.
@@ -194,7 +168,7 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 
 ### Quest Backlog
 
-**Status snapshot (2026-05-06):** 7 chapters, 38 quests shipped. All major mods have at least one starter quest. Iteration phase from here — user testing in-game, Claude patching IDs/balance/layout based on feedback.
+**Status snapshot (2026-05-07):** 7 chapters, 38 quests shipped. 38 new mods installed in this sync round (see `## Mods` above) — backlog below expanded with starter quests for the ones that warrant the "build + use" loop. Library/UI mods (Almost Unified, Crafting Tweaks, Enchantment Descriptions, FindMe, GuideME, Inventory Essentials, Inventory Sorter, Overflowing Bars, Pick Up Notifier) are intentionally questless.
 
 #### energy_generation
 - [x] Hub — Spark of Industry
@@ -205,6 +179,10 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [x] EnderIO — Photovoltaic (Energetic Photovoltaic Module)
 - [ ] Mekanism — Gas-Burning Generator (mid-tier, requires Ethene)
 - [ ] Create — Steam Engine (1.21+ Create's mid-game power)
+- [ ] Industrial Foregoing — Bioreactor + Biofuel Generator (alt biofuel path)
+- [ ] Oritech — Generator (Oritech's own tech tree entry)
+- [ ] Draconic Evolution — Draconium Capacitor (mid-tier Draconic power storage)
+- [ ] Flux Networks — Flux Plug + Flux Point (wireless power transport setup)
 
 #### resource_generation
 - [x] Hub — Productive Earth
@@ -215,6 +193,11 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [ ] Create — Crushing Wheels (ore doubling alternative)
 - [ ] Mekanism — Quantum Entangloporter (item shuttling)
 - [ ] AE2 — first ME network (Controller + Drive + Crafting Terminal as separate quest)
+- [ ] ExtendedAE — Ex Pattern Provider (high-throughput AE2 autocraft)
+- [ ] ME Requester — Auto-restock requester terminal
+- [ ] Industrial Foregoing — Plant Sower + Plant Gatherer (auto crop loop)
+- [ ] Mob Grinding Utils — Mob Masher farm (spawner-fed loot)
+- [ ] Hostile Neural Networks — Deep Learner + Predictor (mob essence automation)
 
 #### gearing_up
 - [x] Hub — Sharpen Up
@@ -227,6 +210,10 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [ ] Apotheosis — Salvaging Table
 - [ ] Mekanism — MekaSuit Helmet (start of MekaSuit progression)
 - [ ] Create — Copper Backtank + Diving Helmet
+- [ ] Tool Belt — Equip a Tool Belt
+- [ ] Mining Gadgets — Build & fire a Mining Gadget
+- [ ] Draconic Evolution — Wyvern-tier gear (chestplate or sword)
+- [ ] Cosmetic Armor Reworked — Equip a cosmetic over real armor
 
 #### magic
 - [x] Hub — Mana Spring
@@ -248,6 +235,8 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [ ] Cataclysm — Slay the Ender Guardian
 - [ ] Cataclysm — Slay the Netherite Monstrosity / Ignis
 - [ ] Apotheosis — Kill an affixed mob (any rare-tier)
+- [ ] Gateways to Eternity — Open & clear a Gateway pylon
+- [ ] Draconic Evolution — Slay the Chaos Guardian (endgame boss)
 
 #### travel_the_world
 - [x] Hub — Distant Horizons
@@ -267,9 +256,16 @@ The pack targets experienced modded MC players who expect to scale heavily. Firs
 - [x] Quark — Pocket Tools (Backpack + Trowel)
 - [x] Sophisticated Storage — Tier Up Storage (Iron Barrel)
 - [x] Pipez — Pipework (Item Pipe + Improved Upgrade)
-- [ ] Chipped — decorative blocks intro
 - [ ] Macaws (doors/windows/roofs/etc.) — building blocks
 - [ ] Curios — equip any curio item
+- [ ] Chisel Modern — chisel a block variant (decorative)
+- [ ] Functional Storage — Storage Drawer (compact storage tier)
+- [ ] Metal Barrels — Iron Barrel (mid-tier vanilla-style storage)
+- [ ] Item Collectors — Place an Item Collector over a farm
+- [ ] Simple Magnets — Equip a magnet
+- [ ] Spice of Life: Carrot Edition — Eat 10 distinct foods (diet variety)
+- [ ] Crafting Station — Place & use a Crafting Station
+- [ ] Trash Cans — Configure a filtered trash can
 
 #### the_titan_core (main spine)
 

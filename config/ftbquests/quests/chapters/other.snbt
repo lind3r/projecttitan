@@ -18,7 +18,10 @@
 			rewards: [{
 				count: 4
 				id: "18A2F4B6C7D8E9F3"
-				item: { count: 1, id: "minecraft:bread" }
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -36,19 +39,28 @@
 			rewards: [
 				{
 					id: "6CE4F5061728390B"
-					item: { count: 1, id: "farmersdelight:iron_knife" }
+					item: {
+						count: 1
+						id: "farmersdelight:iron_knife"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "6CE4F5061728390C"
-					item: { count: 1, id: "minecraft:sweet_berries" }
+					item: {
+						count: 1
+						id: "minecraft:sweet_berries"
+					}
 					type: "item"
 				}
 				{
 					count: 8
 					id: "6CE4F5061728390D"
-					item: { count: 1, id: "minecraft:bread" }
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
 					type: "item"
 				}
 			]
@@ -73,18 +85,27 @@
 			rewards: [
 				{
 					id: "6CE4F5061728391B"
-					item: { count: 1, id: "supplementaries:hourglass" }
+					item: {
+						count: 1
+						id: "supplementaries:hourglass"
+					}
 					type: "item"
 				}
 				{
 					id: "6CE4F5061728391C"
-					item: { count: 1, id: "supplementaries:safe" }
+					item: {
+						count: 1
+						id: "supplementaries:safe"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "6CE4F5061728391D"
-					item: { count: 1, id: "supplementaries:jar" }
+					item: {
+						count: 1
+						id: "supplementaries:jar"
+					}
 					type: "item"
 				}
 			]
@@ -109,17 +130,26 @@
 			rewards: [
 				{
 					id: "6CE4F5061728392B"
-					item: { count: 1, id: "quark:ancient_tome" }
+					item: {
+						count: 1
+						id: "quark:ancient_tome"
+					}
 					type: "item"
 				}
 				{
 					id: "6CE4F5061728392C"
-					item: { count: 1, id: "quark:seed_pouch" }
+					item: {
+						count: 1
+						id: "quark:seed_pouch"
+					}
 					type: "item"
 				}
 				{
 					id: "6CE4F5061728392D"
-					item: { count: 1, id: "quark:abacus" }
+					item: {
+						count: 1
+						id: "quark:abacus"
+					}
 					type: "item"
 				}
 			]
@@ -145,12 +175,18 @@
 				{
 					count: 4
 					id: "6CE4F5061728393B"
-					item: { count: 1, id: "sophisticatedstorage:iron_barrel" }
+					item: {
+						count: 1
+						id: "sophisticatedstorage:iron_barrel"
+					}
 					type: "item"
 				}
 				{
 					id: "6CE4F5061728393C"
-					item: { count: 1, id: "sophisticatedstorage:controller" }
+					item: {
+						count: 1
+						id: "sophisticatedstorage:controller"
+					}
 					type: "item"
 				}
 			]
@@ -169,13 +205,19 @@
 				{
 					count: 8
 					id: "6CE4F5061728394B"
-					item: { count: 1, id: "pipez:advanced_upgrade" }
+					item: {
+						count: 1
+						id: "pipez:advanced_upgrade"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "6CE4F5061728394C"
-					item: { count: 1, id: "pipez:ultimate_upgrade" }
+					item: {
+						count: 1
+						id: "pipez:ultimate_upgrade"
+					}
 					type: "item"
 				}
 			]

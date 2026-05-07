@@ -1,0 +1,13 @@
+name = "Metal Barrels"
+filename = "metalbarrels-neoforge-1.21.1-7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Zdp9LMYf/versions/BtkI9oYW/metalbarrels-neoforge-1.21.1-7.jar"
+hash-format = "sha512"
+hash = "70f6883f02631c77764dfb92b5ee38327eae36a39f7007dda463c1a1e8e1d1f5679ab79cb2fcc1f29fc0309f03b1a2340ac9d19e0e8ecaa9f78e5c9d9e77c47c"
+
+[update]
+[update.modrinth]
+mod-id = "Zdp9LMYf"
+version = "BtkI9oYW"

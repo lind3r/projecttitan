@@ -18,7 +18,10 @@
 			rewards: [{
 				count: 16
 				id: "17F8A0B1C2D3E4F1"
-				item: { count: 1, id: "minecraft:bone" }
+				item: {
+					count: 1
+					id: "minecraft:bone"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -36,18 +39,27 @@
 			rewards: [
 				{
 					id: "17F8A0B1C2D3E501"
-					item: { count: 1, id: "apotheosis:boss_summoner" }
+					item: {
+						count: 1
+						id: "apotheosis:boss_summoner"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "17F8A0B1C2D3E502"
-					item: { count: 1, id: "apotheosis:rare_material" }
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
 					type: "item"
 				}
 				{
 					id: "17F8A0B1C2D3E503"
-					item: { count: 1, id: "apotheosis:sigil_of_socketing" }
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
 					type: "item"
 				}
 			]
@@ -66,19 +78,28 @@
 				{
 					count: 2
 					id: "17F8A0B1C2D3E511"
-					item: { count: 1, id: "apothic_spawners:spawner" }
+					item: {
+						components: {
+							"ftbquests:missing_item": "apothic_spawners:spawner"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 				{
 					count: 8
 					id: "17F8A0B1C2D3E512"
-					item: { count: 1, id: "minecraft:experience_bottle" }
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "17F8A0B1C2D3E513"
-				item: { count: 1, id: "apothic_spawners:spawner" }
+				item: { components: { "ftbquests:missing_item": "apothic_spawners:spawner" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -90,13 +111,19 @@
 			rewards: [
 				{
 					id: "17F8A0B1C2D3E521"
-					item: { count: 1, id: "cataclysm:music_disc_the_harbinger" }
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_the_harbinger"
+					}
 					type: "item"
 				}
 				{
 					count: 8
 					id: "17F8A0B1C2D3E522"
-					item: { count: 1, id: "apotheosis:epic_material" }
+					item: {
+						count: 1
+						id: "apotheosis:epic_material"
+					}
 					type: "item"
 				}
 			]
@@ -115,18 +142,27 @@
 			rewards: [
 				{
 					id: "17F8A0B1C2D3E531"
-					item: { count: 1, id: "cataclysm:music_disc_the_leviathan" }
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_the_leviathan"
+					}
 					type: "item"
 				}
 				{
 					count: 8
 					id: "17F8A0B1C2D3E532"
-					item: { count: 1, id: "apotheosis:epic_material" }
+					item: {
+						count: 1
+						id: "apotheosis:epic_material"
+					}
 					type: "item"
 				}
 				{
 					id: "17F8A0B1C2D3E533"
-					item: { count: 1, id: "apotheosis:mythic_material" }
+					item: {
+						count: 1
+						id: "apotheosis:mythic_material"
+					}
 					type: "item"
 				}
 			]
@@ -146,12 +182,18 @@
 				{
 					count: 8
 					id: "17F8A0B1C2D3E541"
-					item: { count: 1, id: "alexsmobs:bone_serpent_tooth" }
+					item: {
+						count: 1
+						id: "alexsmobs:bone_serpent_tooth"
+					}
 					type: "item"
 				}
 				{
 					id: "17F8A0B1C2D3E542"
-					item: { count: 1, id: "alexsmobs:soul_heart" }
+					item: {
+						count: 1
+						id: "alexsmobs:soul_heart"
+					}
 					type: "item"
 				}
 			]

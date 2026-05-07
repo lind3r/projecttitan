@@ -18,7 +18,10 @@
 			rewards: [{
 				count: 4
 				id: "280A1B2C3D4E5F61"
-				item: { count: 1, id: "minecraft:map" }
+				item: {
+					count: 1
+					id: "minecraft:map"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -37,13 +40,19 @@
 				{
 					count: 8
 					id: "31A951AD0739CCC0"
-					item: { count: 1, id: "minecraft:gold_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "280A1B2C3D4E5F70"
-					item: { count: 1, id: "minecraft:quartz" }
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
 					type: "item"
 				}
 			]
@@ -62,13 +71,19 @@
 				{
 					count: 16
 					id: "280A1B2C3D4E5F81"
-					item: { count: 1, id: "minecraft:ender_pearl" }
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "280A1B2C3D4E5F82"
-					item: { count: 1, id: "minecraft:enchanted_golden_apple" }
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
 					type: "item"
 				}
 			]
@@ -87,18 +102,27 @@
 				{
 					count: 4
 					id: "280A1B2C3D4E5F91"
-					item: { count: 1, id: "minecraft:experience_bottle" }
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
 					type: "item"
 				}
 				{
 					count: 8
 					id: "280A1B2C3D4E5F92"
-					item: { count: 1, id: "minecraft:lapis_block" }
+					item: {
+						count: 1
+						id: "minecraft:lapis_block"
+					}
 					type: "item"
 				}
 				{
 					id: "280A1B2C3D4E5F93"
-					item: { count: 1, id: "quark:ancient_tome" }
+					item: {
+						count: 1
+						id: "quark:ancient_tome"
+					}
 					type: "item"
 				}
 			]
@@ -117,13 +141,19 @@
 				{
 					count: 4
 					id: "280A1B2C3D4E5FA1"
-					item: { count: 1, id: "minecraft:amethyst_block" }
+					item: {
+						count: 1
+						id: "minecraft:amethyst_block"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "280A1B2C3D4E5FA2"
-					item: { count: 1, id: "minecraft:amethyst_shard" }
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
 					type: "item"
 				}
 			]
@@ -141,12 +171,18 @@
 			rewards: [
 				{
 					id: "280A1B2C3D4E5FB1"
-					item: { count: 1, id: "supplementaries:hourglass" }
+					item: {
+						count: 1
+						id: "supplementaries:hourglass"
+					}
 					type: "item"
 				}
 				{
 					id: "280A1B2C3D4E5FB2"
-					item: { count: 1, id: "supplementaries:safe" }
+					item: {
+						count: 1
+						id: "supplementaries:safe"
+					}
 					type: "item"
 				}
 			]

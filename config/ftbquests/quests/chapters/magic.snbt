@@ -14,46 +14,54 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "B192FA05F6C3D180"
+			id: "653D69D7AE20F9D4"
 			rewards: [{
 				count: 4
-				id: "B192FA05F6C3D182"
-				item: { count: 1, id: "ars_nouveau:source_gem" }
+				id: "357F4114D3A3AAF7"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "B192FA05F6C3D181"
+				id: "0E37B0B94106B0FE"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["B192FA05F6C3D180"]
-			id: "C2A30B16A7D4E290"
+			id: "52758F4E624A6440"
 			rewards: [
 				{
 					count: 16
-					id: "C2A30B16A7D4E293"
-					item: { count: 1, id: "ars_nouveau:source_gem" }
+					id: "6E6BB86389C7EF3E"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
 					type: "item"
 				}
 				{
-					id: "C2A30B16A7D4E294"
-					item: { count: 1, id: "ars_nouveau:wand" }
+					id: "3B84759550843E28"
+					item: {
+						count: 1
+						id: "ars_nouveau:wand"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "C2A30B16A7D4E291"
+					id: "2275D392E31D765D"
 					item: { count: 1, id: "ars_nouveau:scribes_table" }
 					type: "item"
 				}
 				{
-					id: "C2A30B16A7D4E292"
+					id: "2A2798AE525CB39C"
 					item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
 					type: "item"
 				}
@@ -62,36 +70,44 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["B192FA05F6C3D180"]
-			id: "D3B41C27B8E5F3A0"
+			id: "1F86FF003387AE4E"
 			rewards: [
 				{
 					count: 8
-					id: "D3B41C27B8E5F3A3"
-					item: { count: 1, id: "ars_nouveau:abjuration_essence" }
+					id: "0EFDC2552236796D"
+					item: {
+						count: 1
+						id: "ars_nouveau:abjuration_essence"
+					}
 					type: "item"
 				}
 				{
 					count: 8
-					id: "D3B41C27B8E5F3A4"
-					item: { count: 1, id: "ars_nouveau:conjuration_essence" }
+					id: "24E5C172563515A4"
+					item: {
+						count: 1
+						id: "ars_nouveau:conjuration_essence"
+					}
 					type: "item"
 				}
 				{
 					count: 8
-					id: "D3B41C27B8E5F3A5"
-					item: { count: 1, id: "ars_nouveau:manipulation_essence" }
+					id: "42B00EFC99E41A8D"
+					item: {
+						count: 1
+						id: "ars_nouveau:manipulation_essence"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "D3B41C27B8E5F3A1"
+					id: "19339F96A535C25C"
 					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
 					type: "item"
 				}
 				{
-					id: "D3B41C27B8E5F3A2"
+					id: "233B17886096C0E6"
 					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 					type: "item"
 				}
@@ -100,35 +116,40 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["B192FA05F6C3D180"]
-			id: "E4C52D38C9F604B0"
+			id: "7BE305D05A99BFC1"
 			rewards: [
 				{
 					count: 64
-					id: "E4C52D38C9F604B4"
-					item: { count: 1, id: "ars_nouveau:source_gem" }
+					id: "61EA2932729634F2"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "E4C52D38C9F604B5"
-					item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
+					id: "1F01422472A6634E"
+					item: {
+						count: 1
+						id: "ars_nouveau:volcanic_sourcelink"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "E4C52D38C9F604B1"
+					id: "0E3484F7D62823AD"
 					item: { count: 1, id: "ars_nouveau:source_jar" }
 					type: "item"
 				}
 				{
-					id: "E4C52D38C9F604B2"
+					id: "782CBE98809DCE87"
 					item: { count: 1, id: "ars_nouveau:relay" }
 					type: "item"
 				}
 				{
-					id: "E4C52D38C9F604B3"
+					id: "0F806F9F60E1F123"
 					item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
 					type: "item"
 				}
@@ -137,36 +158,44 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["B192FA05F6C3D180"]
-			id: "F5D63E49DA071506"
+			id: "44576A594B9EF3C1"
 			rewards: [
 				{
 					count: 4
-					id: "F5D63E49DA071509"
-					item: { count: 1, id: "ars_nouveau:wilden_horn" }
+					id: "65258DA3FD138584"
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_horn"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "F5D63E49DA07150A"
-					item: { count: 1, id: "ars_nouveau:wilden_wing" }
+					id: "5BD4F9BF361C5825"
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_wing"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "F5D63E49DA07150B"
-					item: { count: 1, id: "ars_nouveau:wilden_spike" }
+					id: "15161B9B9AF6462A"
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_spike"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "F5D63E49DA071507"
+					id: "428DF22A4C56DA07"
 					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
 					type: "item"
 				}
 				{
-					id: "F5D63E49DA071508"
+					id: "7C31ECE677B748F4"
 					item: { count: 1, id: "ars_nouveau:ritual_awakening" }
 					type: "item"
 				}
@@ -175,25 +204,33 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["B192FA05F6C3D180"]
 			id: "06E74F5AEB182610"
 			rewards: [
 				{
 					count: 32
 					id: "06E74F5AEB182613"
-					item: { count: 1, id: "ars_nouveau:magebloom" }
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "06E74F5AEB182614"
-					item: { count: 1, id: "ars_nouveau:magebloom_fiber" }
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_fiber"
+					}
 					type: "item"
 				}
 				{
 					count: 8
 					id: "06E74F5AEB182615"
-					item: { count: 1, id: "ars_nouveau:magebloom_block" }
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_block"
+					}
 					type: "item"
 				}
 			]

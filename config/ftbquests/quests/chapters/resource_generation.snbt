@@ -18,7 +18,10 @@
 			rewards: [{
 				count: 8
 				id: "3F1A8C2D7E4B5907"
-				item: { count: 1, id: "minecraft:iron_ingot" }
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -37,12 +40,18 @@
 				{
 					count: 32
 					id: "4A2B9D3E8F5C6A11"
-					item: { count: 1, id: "mekanism:ingot_osmium" }
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
 					type: "item"
 				}
 				{
 					id: "4A2B9D3E8F5C6A12"
-					item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_obsidian"
+					}
 					type: "item"
 				}
 			]
@@ -69,19 +78,28 @@
 				{
 					count: 4
 					id: "5B3CAE4F906D7B21"
-					item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_obsidian"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "5B3CAE4F906D7B22"
-					item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_glowstone"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "5B3CAE4F906D7B23"
-					item: { count: 1, id: "mekanism:alloy_reinforced" }
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
 					type: "item"
 				}
 			]
@@ -117,19 +135,28 @@
 				{
 					count: 4
 					id: "6C4DBF50A17E8C31"
-					item: { count: 1, id: "create:precision_mechanism" }
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
 					type: "item"
 				}
 				{
 					count: 32
 					id: "6C4DBF50A17E8C32"
-					item: { count: 1, id: "create:brass_ingot" }
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
 					type: "item"
 				}
 				{
 					count: 8
 					id: "6C4DBF50A17E8C33"
-					item: { count: 1, id: "create:electron_tube" }
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
 					type: "item"
 				}
 			]
@@ -160,19 +187,28 @@
 			rewards: [
 				{
 					id: "4AC2D5E6F708A902"
-					item: { count: 1, id: "ae2:crafting_terminal" }
+					item: {
+						count: 1
+						id: "ae2:crafting_terminal"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "4AC2D5E6F708A903"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "4AC2D5E6F708A904"
-					item: { count: 1, id: "ae2:fluix_block" }
+					item: {
+						count: 1
+						id: "ae2:fluix_block"
+					}
 					type: "item"
 				}
 			]

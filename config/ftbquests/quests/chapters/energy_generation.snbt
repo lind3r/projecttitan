@@ -140,13 +140,19 @@
 				{
 					count: 2
 					id: "5BD3E6F708192A02"
-					item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+					item: {
+						count: 1
+						id: "mekanismgenerators:advanced_solar_generator"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "5BD3E6F708192A03"
-					item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_glowstone"
+					}
 					type: "item"
 				}
 			]
@@ -165,13 +171,19 @@
 				{
 					count: 2
 					id: "5BD3E6F708192A11"
-					item: { count: 1, id: "enderio:vibrant_photovoltaic_module" }
+					item: {
+						count: 1
+						id: "enderio:vibrant_photovoltaic_module"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "5BD3E6F708192A12"
-					item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+					item: {
+						count: 1
+						id: "enderio:vibrant_alloy_ingot"
+					}
 					type: "item"
 				}
 			]
