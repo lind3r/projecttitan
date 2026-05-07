@@ -201,6 +201,21 @@ Reward design: each tier hands the player a head start on the *next* tier's bulk
 
 - [ ] Hook the per-tier-up world responses (mob HP scaling, blood moons, gateway tears, etc.) once `projecttitancore` ships the `onTierAdvanced(int)` event. Sketch in the mod repo's CLAUDE.md under "World Response on Craft / Tier-Up".
 
+#### Cronos boss chain (post-T10)
+
+The endgame fight is wired on the mod side as `projecttitancore:cronos_gauntlet` — a 5-wave Gateways arena ending in **Cronos, Devourer of Time** (a buffed `cataclysm:ancient_remnant` tagged with NBT `projecttitancore_cronos`). On kill, the mod's `LivingDeathEvent` listener grants the hidden advancement `projecttitancore:cronos_slain`. Full mechanism docs live in the mod repo's CLAUDE.md under "Cronos — Endgame Boss". This is the FTBQ side of that wiring.
+
+**Status as of 2026-05-08:** mod-side gateway + advancement + listener shipped but **untested in-game**. Pack-side wiring below is all open.
+
+- [ ] **Quest "Apotheosis of the Builder"** — one-shot, child of T10's Heart of the Titan quest. Task: obtain `projecttitancore:heart_of_the_titan` (mirrors T10 task; can be a duplicate task or use FTBQ's "completed quest" dependency). Reward: `1× gateways:gate_pearl[gateways:gateway="projecttitancore:cronos_gauntlet"]`. SNBT description should sell it as the unlock of the Cronos fight.
+- [ ] **Quest "The Eternal Cycle"** — repeatable child of "Apotheosis of the Builder". Task: `ftbquests:advancement` watching `projecttitancore:cronos_slain`. Cooldown: TBD with user (suggested range 1h–1 IRL day). Reward: another Cronos pearl + scaling loot. **Note:** the advancement is granted server-side per killer, so this works in MP without extra wiring.
+- [ ] **Disable Cataclysm's natural Ancient Remnant.** The Altar of the Void ritual would otherwise let players beat a (regular) Ancient Remnant outside the Cronos arena and miss the narrative. Two options: a config tweak in `config/cataclysm-*.toml` if exposed, or a recipe disable for the altar block via a datapack override in `config/openloader/data/`. Verify which lever Cataclysm actually offers before picking.
+- [ ] **Real Cronos loot table.** The gateway currently rewards `1× minecraft:gold_ingot` as a placeholder (set in the gateway JSON's top-level `rewards`). Likely shape: a unique trophy item (e.g. "Crown of the Titan") + scaling rare-gear chest. Trophy can land mod-side or pack-side; flag this when picking.
+- [ ] **Test commands** for verifying the chain end-to-end before publishing:
+  - `/give @p gateways:gate_pearl[gateways:gateway="projecttitancore:cronos_gauntlet"]` — grants the pearl.
+  - `/summon gateways:normal_gateway ~ ~ ~ {Gateway:"projecttitancore:cronos_gauntlet"}` — spawns the gateway directly.
+  - `/advancement test @p projecttitancore:cronos_slain` — confirms the kill credit fired.
+
 ## Distribution
 
 - **Primary:** Modrinth (`.mrpack`) — open API, no third-party-distribution toggle, broader launcher compat.
