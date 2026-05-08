@@ -331,5 +331,145 @@
 			x: 4.0d
 			y: 9.0d
 		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "2C035E6F70819481"
+			rewards: [
+				{
+					count: 4
+					id: "2C035E6F70819484"
+					item: { count: 1, id: "apotheosis:gem_dust" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2C035E6F70819485"
+					item: { count: 1, id: "apotheosis:rare_material" }
+					type: "item"
+				}
+				{
+					id: "2C035E6F70819486"
+					item: { count: 1, id: "apotheosis:sigil_of_unnaming" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2C035E6F70819482"
+					item: { count: 1, id: "apotheosis:salvaging_table" }
+					type: "item"
+				}
+				{
+					id: "2C035E6F70819483"
+					item: { count: 1, id: "apotheosis:rare_material" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "3D147F708192A582"
+			rewards: [
+				{
+					count: 16
+					id: "3D147F708192A584"
+					item: { count: 1, id: "mekanism:hdpe_sheet" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D147F708192A585"
+					item: { count: 1, id: "mekanism:alloy_atomic" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D147F708192A586"
+					item: { count: 1, id: "mekanism:module_base" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D147F708192A583"
+				item: { count: 1, id: "mekanism:mekasuit_helmet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "4E258071829B6A93"
+			rewards: [
+				{
+					id: "4E258071829B6A96"
+					item: { count: 1, id: "create:netherite_diving_helmet" }
+					type: "item"
+				}
+				{
+					id: "4E258071829B6A97"
+					item: { count: 1, id: "create:netherite_diving_boots" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E258071829B6A98"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E258071829B6A94"
+					item: { count: 1, id: "create:copper_backtank" }
+					type: "item"
+				}
+				{
+					id: "4E258071829B6A95"
+					item: { count: 1, id: "create:copper_diving_helmet" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "5F36918293A07BA4"
+			rewards: [
+				{
+					id: "5F36918293A07BA7"
+					item: { count: 1, id: "draconicevolution:wyvern_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "5F36918293A07BA8"
+					item: { count: 1, id: "draconicevolution:wyvern_capacitor" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5F36918293A07BA9"
+					item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5F36918293A07BA5"
+					item: { count: 1, id: "draconicevolution:wyvern_chestpiece" }
+					type: "item"
+				}
+				{
+					id: "5F36918293A07BA6"
+					item: { count: 1, id: "draconicevolution:wyvern_sword" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 17.0d
+		}
 	]
 }

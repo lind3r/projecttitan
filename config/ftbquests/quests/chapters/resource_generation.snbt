@@ -187,44 +187,48 @@
 			rewards: [
 				{
 					id: "4AC2D5E6F708A902"
-					item: {
-						count: 1
-						id: "ae2:crafting_terminal"
-					}
+					item: { count: 1, id: "ae2:guide" }
 					type: "item"
 				}
 				{
-					count: 16
 					id: "4AC2D5E6F708A903"
-					item: {
-						count: 1
-						id: "ae2:certus_quartz_crystal"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "4AC2D5E6F708A904"
-					item: {
-						count: 1
-						id: "ae2:fluix_block"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "4AC2D5E6F708A905"
 					item: { count: 1, id: "ae2:inscriber" }
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "4AC2D5E6F708A906"
+					id: "4AC2D5E6F708A904"
+					item: { count: 1, id: "ae2:calculation_processor_press" }
+					type: "item"
+				}
+				{
+					id: "4AC2D5E6F708A907"
+					item: { count: 1, id: "ae2:engineering_processor_press" }
+					type: "item"
+				}
+				{
+					id: "4AC2D5E6F708A908"
+					item: { count: 1, id: "ae2:logic_processor_press" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4AC2D5E6F708A909"
 					item: { count: 1, id: "ae2:certus_quartz_crystal" }
 					type: "item"
 				}
+				{
+					count: 4
+					id: "4AC2D5E6F708A90A"
+					item: { count: 1, id: "ae2:fluix_block" }
+					type: "item"
+				}
 			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4AC2D5E6F708A905"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: 6.0d
 		}
@@ -321,6 +325,166 @@
 			]
 			x: 4.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["3F1A8C2D7E4B5906"]
+			id: "8E6F1A2B3C4D5061"
+			rewards: [
+				{
+					id: "8E6F1A2B3C4D5064"
+					item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8E6F1A2B3C4D5065"
+					item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
+					type: "item"
+				}
+				{
+					count: 32
+					id: "8E6F1A2B3C4D5066"
+					item: { count: 1, id: "minecraft:experience_bottle" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8E6F1A2B3C4D5062"
+					item: { count: 1, id: "industrialforegoing:mob_crusher" }
+					type: "item"
+				}
+				{
+					id: "8E6F1A2B3C4D5063"
+					item: { count: 1, id: "industrialforegoing:essence_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3F1A8C2D7E4B5906"]
+			id: "9F702B3C4D5E6172"
+			rewards: [
+				{
+					count: 4
+					id: "9F702B3C4D5E6175"
+					item: { count: 1, id: "hostilenetworks:blank_data_model" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "9F702B3C4D5E6176"
+					item: { count: 1, id: "hostilenetworks:prediction_matrix" }
+					type: "item"
+				}
+				{
+					id: "9F702B3C4D5E6177"
+					item: { count: 1, id: "hostilenetworks:overworld_prediction" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "9F702B3C4D5E6173"
+					item: { count: 1, id: "hostilenetworks:sim_chamber" }
+					type: "item"
+				}
+				{
+					id: "9F702B3C4D5E6174"
+					item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+					type: "item"
+				}
+				{
+					id: "9F702B3C4D5E6178"
+					item: { count: 1, id: "hostilenetworks:deep_learner" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3F1A8C2D7E4B5906"]
+			id: "0A813C4D5E6F7283"
+			rewards: [
+				{
+					id: "0A813C4D5E6F7286"
+					item: {
+						components: { "enderio:conduit": "enderio:enhanced_energy" }
+						count: 8
+						id: "enderio:conduit"
+					}
+					type: "item"
+				}
+				{
+					id: "0A813C4D5E6F7287"
+					item: {
+						components: { "enderio:conduit": "enderio:enhanced_item" }
+						count: 8
+						id: "enderio:conduit"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A813C4D5E6F7288"
+					item: { count: 1, id: "enderio:vibrant_alloy_block" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A813C4D5E6F7284"
+					item: { count: 1, id: "enderio:farming_station" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0A813C4D5E6F7285"
+					item: { count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3F1A8C2D7E4B5906"]
+			id: "1B924D5E6F708394"
+			rewards: [
+				{
+					id: "1B924D5E6F708396"
+					item: { count: 1, id: "mekanism:portable_teleporter" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B924D5E6F708397"
+					item: { count: 1, id: "mekanism:teleporter_frame" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B924D5E6F708398"
+					item: { count: 1, id: "mekanism:alloy_atomic" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1B924D5E6F708399"
+					item: { count: 1, id: "mekanism:pellet_antimatter" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B924D5E6F708395"
+				item: { count: 1, id: "mekanism:quantum_entangloporter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 24.0d
 		}
 	]
 }
