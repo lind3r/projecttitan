@@ -280,5 +280,187 @@
 			x: 4.0d
 			y: 15.0d
 		}
+		{
+			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "5BD3E6F708192A40"
+			rewards: [
+				{
+					count: 4
+					id: "5BD3E6F708192A41"
+					item: {
+						count: 1
+						id: "industrialforegoing:biofuel_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A42"
+					item: {
+						count: 1
+						id: "industrialforegoing:machine_frame_advanced"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5BD3E6F708192A43"
+					item: {
+						count: 1
+						id: "industrialforegoing:fertilizer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5BD3E6F708192A44"
+					item: { count: 1, id: "industrialforegoing:bioreactor" }
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A45"
+					item: { count: 1, id: "industrialforegoing:biofuel_generator" }
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A46"
+					item: { count: 1, id: "industrialforegoing:biofuel_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "5BD3E6F708192A50"
+			rewards: [
+				{
+					count: 8
+					id: "5BD3E6F708192A51"
+					item: {
+						count: 1
+						id: "oritech:biosteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5BD3E6F708192A52"
+					item: {
+						count: 1
+						id: "oritech:biomass"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A53"
+					item: {
+						count: 1
+						id: "oritech:basic_generator_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5BD3E6F708192A54"
+					item: { count: 1, id: "oritech:bio_generator_block" }
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A55"
+					item: { count: 1, id: "oritech:biomass" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "5BD3E6F708192A60"
+			rewards: [
+				{
+					count: 8
+					id: "5BD3E6F708192A61"
+					item: {
+						count: 1
+						id: "draconicevolution:draconium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A62"
+					item: {
+						count: 1
+						id: "draconicevolution:wyvern_core"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5BD3E6F708192A63"
+					item: {
+						count: 1
+						id: "draconicevolution:draconium_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BD3E6F708192A64"
+				item: { count: 1, id: "draconicevolution:wyvern_capacitor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "5BD3E6F708192A70"
+			rewards: [
+				{
+					count: 8
+					id: "5BD3E6F708192A71"
+					item: {
+						count: 1
+						id: "fluxnetworks:flux_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5BD3E6F708192A72"
+					item: {
+						count: 1
+						id: "fluxnetworks:flux_core"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A73"
+					item: {
+						count: 1
+						id: "fluxnetworks:basic_flux_storage"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5BD3E6F708192A74"
+					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A75"
+					item: { count: 1, id: "fluxnetworks:flux_point" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 27.0d
+		}
 	]
 }

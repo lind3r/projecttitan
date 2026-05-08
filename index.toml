@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "MODLIST.txt"
-hash = "a9835ff89d42d09013ff23e1775b1b6267ce2cee518dbaea345661c09aeece3a"
+hash = "ca0659a52d7839e7946329316fe0ee5ce1812538cc78f43f2d232f3db676fa15"
 
 [[files]]
 file = "balance/energy-discovered.json"
@@ -873,20 +873,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_t.cfe"
-hash = "a61cc098fca28240093a677b502a1a5c263ffdf873fcdd291c6b8f07b4fcc676"
+file = "config/ars_nouveau/search_index/_13.cfe"
+hash = "b78176714a2503adfb70dc3aac38856c45c0a12cda4ac6989f4643be5de24d3b"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_t.cfs"
-hash = "069c588986edf76e89d70d68549199c5680a6b9342bb70d613c1263674a822ee"
+file = "config/ars_nouveau/search_index/_13.cfs"
+hash = "1caacf95aba5a54b68d625b56b700e5e1c8c986451a34f85a0854539acca6ffd"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_t.si"
-hash = "033f48e95fc05a36c2ead76afc19ef1d72ee0995cd61f5c581e9b46fedcee722"
+file = "config/ars_nouveau/search_index/_13.si"
+hash = "a84071bda87435eb3e9d80902fdce5e1cab2e5f0b9ed6c2c46ae5224ba572a04"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_u"
-hash = "39f28ca4e67390ff75e0128b1ce04152049796b8bfc989f494781b997809c860"
+file = "config/ars_nouveau/search_index/segments_14"
+hash = "8854feef2c0fb7579c69e578edd021c164b8e19fb9840597b351b5aabe3ab3e2"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1286,7 +1286,7 @@ hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "3481e8a9f9a1155854fc6fe69c4923f7e5450766defbd92226259428b8d0f807"
+hash = "5c87581eed5a73a9fd88f7b9b46b1268df585c1a8ead9116c4e8e398cd0ca886"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1306,7 +1306,7 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/energy_generation.snbt"
-hash = "d517425433ea0ac6e579face870bc7c626259a1a2ecbd92b8b29842c1d4126e4"
+hash = "2cffac85a347ecda112cb6cf4597aa368f1b1a8a5620124f2045ff99f84efc29"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gearing_up.snbt"
@@ -1326,11 +1326,11 @@ hash = "8a00a430584fb67707c37e5ffc234fa48d1ec4aeaf375706ab3a2c881203ada2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/strong_foes.snbt"
-hash = "c3a8e50635caa5a9c16e9b5a62c3078200242d34a995a05acea7a4ade6e211f1"
+hash = "ab2233ee8d588d38a02ff84e503c029fbc6d360ed2e5c21f263ebac244e928e5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
-hash = "d5b550dcc58cc488cd4f711b4687a35709ec141a48f315523bb4fe99922c029c"
+hash = "9cee041b767dca35016a3c0b56f12a39e99d7140dc4325876d3a7532dd15acb4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travel_the_world.snbt"
@@ -1338,7 +1338,7 @@ hash = "31aa293591c6cbbadd57b15783785eb38a57dc8a1004ca4bb780674f0932c400"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/utility.snbt"
-hash = "ff2330d8da60040c2ce14e3cf4e66685bc1f92d0f5831001ddd1943d8650a84d"
+hash = "a37772b1329ac3d9ca695f60dd384249eda67d4cc5ad7584e5cd99cdb813ce6f"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1346,7 +1346,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "70688ad4cb6f1ece93d04552f55f5719a3759274b3c6419943424ad40bca692e"
+hash = "433e9205da0f9be894edf57b9d459ca516ebded881cdb7d7eebdbf87ef22a27f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -1490,11 +1490,19 @@ hash = "b5a9a4224f9cd006b7689c5ed6fcc674c7a6550c23292ec73bab490d948f8d77"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.json"
-hash = "1ebb0fb484177a9ae23243c033334dd1184be388834e31d11766d93f988f7875"
+hash = "aede5b0e0259853be4f8be9daec418c1c20ab1bdad2857cbcf472fd186cecbce"
 
 [[files]]
 file = "config/jei/world/local/New_World__1/lookupHistory.json"
 hash = "b76c84987a9abd50fcf607c4c89f3132005947e97c56eaf4941faa919abbeacc"
+
+[[files]]
+file = "config/jei/world/local/New_World__2/lookupHistory.json"
+hash = "51fdd7cdfa671f37f16449a1d5af4df3e7cefc4fe79fd67f52c204d16495a703"
+
+[[files]]
+file = "config/jei/world/local/New_World__3/lookupHistory.json"
+hash = "bba2593156ffa3b193789246e59bbb08a2192e921e0ee5f701d311798a850411"
 
 [[files]]
 file = "config/journeymap-server.toml"
