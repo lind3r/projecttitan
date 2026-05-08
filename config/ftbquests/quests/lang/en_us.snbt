@@ -12,8 +12,6 @@
 		"The Core wakes for the first time. A mote — barely more than dust — lifts from the crafting beam."
 		""
 		"Complete the T1 recipe at the Core to obtain the &eMote&r."
-		""
-		"&eReward:&r 16 iron blocks (T2 needs iron) and 16 XP bottles."
 	]
 	quest.1FCD148E2DA620F0.quest_subtitle: "The first spark."
 	quest.1FCD148E2DA620F0.title: "Tier 1 - &eMote of the Titan&r"
@@ -21,8 +19,6 @@
 		"The mote settles into a steady ember. Small, but it has a temperature now — and a temperament."
 		""
 		"Feed the &eMote&r back into the Core with iron to ignite the &eEmber&r."
-		""
-		"&eReward:&r 16 iron blocks, 16 copper blocks (T4 looks ahead), 32 XP bottles."
 	]
 	quest.2804065C0AD6C566.quest_subtitle: "It begins to burn."
 	quest.2804065C0AD6C566.title: "Tier 2 - &eEmber of the Titan&r"
@@ -30,8 +26,6 @@
 		"What was a smolder is now a held flame. The Core is no longer sleepy — it's waiting."
 		""
 		"Refine the &eEmber&r in iron to forge the &eSpark&r."
-		""
-		"&eReward:&r 16 copper blocks, 16 gold blocks, a Totem of Undying."
 	]
 	quest.38E76E428BB53F52.quest_subtitle: "The fire holds."
 	quest.38E76E428BB53F52.title: "Tier 3 - &eSpark of the Titan&r"
@@ -39,8 +33,6 @@
 		"A heartbeat forms inside the Spark. The Core's hum syncs to your footsteps when you stand close."
 		""
 		"Add copper to the &eSpark&r to draw the &ePulse&r."
-		""
-		"&eReward:&r 16 gold blocks, 16 diamond blocks, 2 Totems of Undying."
 	]
 	quest.4A1B2C3D4E5F6071.quest_subtitle: "It has a heartbeat now."
 	quest.4A1B2C3D4E5F6071.title: "Tier 4 - &ePulse of the Titan&r"
@@ -48,8 +40,6 @@
 		"The Pulse calls back. Faint whispers in old tongues drift from the projection."
 		""
 		"Run the &ePulse&r through gold to call the &eEcho&r."
-		""
-		"&eReward:&r 16 diamond blocks, 16 emerald blocks, a Nether Star."
 	]
 	quest.5A1B2C3D4E5F6071.quest_subtitle: "It speaks back."
 	quest.5A1B2C3D4E5F6071.title: "Tier 5 - &eEcho of the Titan&r"
@@ -57,8 +47,6 @@
 		"The Echo gains intent. The titan-shape above the Core no longer rotates passively — it watches."
 		""
 		"Bulk-craft the &eEcho&r in diamond to bind the &eWill&r."
-		""
-		"&eReward:&r 16 diamond blocks, 8 netherite blocks, 2 Nether Stars, a Beacon."
 	]
 	quest.6A1B2C3D4E5F6071.quest_subtitle: "It wants something."
 	quest.6A1B2C3D4E5F6071.title: "Tier 6 - &eWill of the Titan&r"
@@ -66,8 +54,6 @@
 		"The Will speaks in clean, terrible Latin. Mobs nearby flinch when the projection inhales."
 		""
 		"Push the &eWill&r through more diamond to give it a &eVoice&r."
-		""
-		"&eReward:&r 16 emerald blocks, 16 netherite blocks, 4 Nether Stars, 2 Beacons."
 	]
 	quest.7A1B2C3D4E5F6071.quest_subtitle: "It commands."
 	quest.7A1B2C3D4E5F6071.title: "Tier 7 - &eVoice of the Titan&r"
@@ -75,8 +61,6 @@
 		"Something looks back through the projection. It has wants. They are not yours."
 		""
 		"Open the &eVoice&r in emerald — the &eSoul&r answers."
-		""
-		"&eReward:&r 16 netherite blocks, 8 Nether Stars, 4 Beacons, an Elytra."
 	]
 	quest.1A6D32ADD93267FB.quest_subtitle: "It dreams."
 	quest.1A6D32ADD93267FB.title: "Tier 8 - &eSoul of the Titan&r"
@@ -84,8 +68,6 @@
 		"The Soul outgrows mortal physics. Light bends near the Core; weather follows your mood now."
 		""
 		"Surrender the &eSoul&r in netherite to ascend the &eShard&r."
-		""
-		"&eReward:&r 32 netherite blocks, 16 Nether Stars, 8 Beacons, 2 Elytras."
 	]
 	quest.00205656D3436C2F.quest_subtitle: "Above mortal reach."
 	quest.00205656D3436C2F.title: "Tier 9 - &eAscendant Shard&r"
@@ -93,8 +75,6 @@
 		"The Heart of the Titan beats above the world. The projection is no longer a projection — it stands."
 		""
 		"Forge the &eShard&r in netherite — the &eHeart&r beats."
-		""
-		"&eReward:&r 64 netherite blocks, 32 Nether Stars, 16 Beacons, 4 Elytras. (Tier-up world hooks deferred until the mod ships them.)"
 	]
 	quest.74ED5B05FC10AF83.quest_subtitle: "Apotheosis."
 	quest.74ED5B05FC10AF83.title: "Tier 10 - &eHeart of the Titan&r"
@@ -114,8 +94,6 @@
 		"The &eCrown of the Titan&r only descends on those who outlast the trial."
 		""
 		"Survive the gauntlet, claim the &eCrown&r from the gateway's wake, and &dProject Titan&r is yours."
-		""
-		"&eReward:&r 4 Totems of Undying — a final boon for the divine."
 	]
 	quest.05968A0ACB30FF5D.quest_subtitle: "The Titan acknowledges you."
 	quest.05968A0ACB30FF5D.title: "Coronation"
@@ -128,8 +106,6 @@
 		""
 		"&aUse:&r"
 		"- Feed it &ecoal&r, &echarcoal&r, or any burnable for steady &bFE/t&r."
-		""
-		"&aReward:&r &ePulsating Alloy&r and &eEnergetic Alloy&r ingots — both higher-tier than what the Stirling itself can craft. Use them as a foothold into &eVibrant&r-tier machinery."
 	]
 	quest.38F95A1627AB4B54.quest_subtitle: "Old-school combustion, modern alloys."
 	quest.38F95A1627AB4B54.title: "Stirling Cycle"
@@ -143,9 +119,6 @@
 		"&aUse:&r"
 		"- Drop in &elava buckets&r, &echarcoal&r, or any furnace fuel."
 		"- Adjacent &blava source blocks&r boost output passively — wall it in for free uplift."
-		""
-		"{@pagebreak}"
-		"&aReward:&r an &eEnergy Cube&r to store and distribute power, raw &eosmium&r for cables and frames, and four &eAdvanced Control Circuits&r — bypassing a major early-game crafting bottleneck."
 		""
 		"&7&oTip: a Heat Generator with lava on every side runs hotter than one in open air. Pipe lava in adjacent, not into the fuel slot.&r"
 	]
@@ -161,8 +134,6 @@
 		"&aUse:&r"
 		"- Higher RPM means more &bFE/t&r, up to the alternator's cap."
 		"- Pull power off the back face into any FE cable or machine."
-		""
-		"&aReward:&r a &ePrecision Mechanism&r (skipping the manual assembly grind) and a stack of &ebrass ingots&r to keep building."
 	]
 	quest.53A654BDD709AEBB.quest_subtitle: "Rotation, refined into electricity."
 	quest.53A654BDD709AEBB.title: "Kinetic Conversion"
@@ -189,8 +160,6 @@
 		""
 		"&aUse:&r"
 		"- Let it run until it returns &e64 Raw Iron&r."
-		""
-		"&aReward:&r 32 Osmium Ingots for cables and machinery, plus a Refined Obsidian Ingot for elite-tier crafts."
 	]
 	quest.4A2B9D3E8F5C6A10.quest_subtitle: "Mining, automated."
 	quest.4A2B9D3E8F5C6A10.title: "Strip Without the Strip"
@@ -206,8 +175,6 @@
 		"{@pagebreak}"
 		"&aUse:&r"
 		"- Building all four signals you've committed to &6Mekanism&r's mid-game — the higher tiers each demand their own chemical infrastructure."
-		""
-		"&aReward:&r 4 Refined Obsidian Ingots and 4 Refined Glowstone Ingots to skip a stage of grinding, plus 2 Reinforced Alloys to start building Elite-tier machines."
 	]
 	quest.5B3CAE4F906D7B20.quest_subtitle: "Five times the ore. The full chain."
 	quest.5B3CAE4F906D7B20.title: "Quintuple Down"
@@ -220,8 +187,6 @@
 		""
 		"&aUse:&r"
 		"- Drive both off your kinetic line and accumulate &e32 Andesite Alloy&r as proof the line is producing."
-		""
-		"&aReward:&r 4 &ePrecision Mechanisms&r, 32 Brass Ingots, and 8 &eElectron Tubes&r — the Create endgame ingredient — to launch you straight into automating the next tier."
 	]
 	quest.6C4DBF50A17E8C30.quest_subtitle: "Press, mix, repeat."
 	quest.6C4DBF50A17E8C30.title: "Pressing Matters"
@@ -242,8 +207,6 @@
 		"&aUse:&r"
 		"- Harvest &eMagebloom&r (16 to clear this quest)."
 		"- Refine to &eMagebloom Fiber&r for robes, or compress into &eMagebloom Blocks&r."
-		""
-		"&aReward:&r 32 &eMagebloom&r (skip the wait), 16 &eMagebloom Fiber&r, and 8 &eMagebloom Blocks&r."
 	]
 	quest.06E74F5AEB182610.quest_subtitle: "The slow garden."
 	quest.06E74F5AEB182610.title: "Cultivate"
@@ -262,15 +225,11 @@
 	quest.17F8A0B1C2D3E510.title: "Spawner Husbandry"
 	quest.17F8A0B1C2D3E520.quest_desc: [
 		"The &dHarbinger&r is &6Cataclysm&r's first true boss — a massive tower-of-doom with phases. Summons in the Overworld via spawn egg or world generation."
-		""
-		"Reward: the boss music disc and 8 &eApotheosis Epic Materials&r (used to forge legendary &aaffix&r items)."
 	]
 	quest.17F8A0B1C2D3E520.quest_subtitle: "Tear down the tower."
 	quest.17F8A0B1C2D3E520.title: "Slay the &dHarbinger&r"
 	quest.17F8A0B1C2D3E530.quest_desc: [
 		"The &dLeviathan&r is the underwater terror — invincible outside water, devastating inside. The fight forces you to engage on its terms."
-		""
-		"Reward: the music disc, 8 &eEpic Materials&r, and a &eMythic Material&r — the highest-tier crafting reagent in &6Apotheosis&r."
 	]
 	quest.17F8A0B1C2D3E530.quest_subtitle: "Drown its drowner."
 	quest.17F8A0B1C2D3E530.title: "Slay the &dLeviathan&r"
@@ -285,15 +244,11 @@
 	quest.7988F41C45712714.title: "Visit &dthe Nether&r"
 	quest.280A1B2C3D4E5F80.quest_desc: [
 		"End-tier materials gate a lot of late progression. The journey to &dthe End&r and back is its own story."
-		""
-		"Reward: 16 &eEnder Pearls&r (every teleport gadget needs them) and 4 &eEnchanted Golden Apples&r for the inevitable Dragon fight."
 	]
 	quest.280A1B2C3D4E5F80.quest_subtitle: "Find the portal. Take the leap."
 	quest.280A1B2C3D4E5F80.title: "Visit &dthe End&r"
 	quest.280A1B2C3D4E5F90.quest_desc: [
 		"&dStrongholds&r in this pack are upgraded by &6Yung's Better Strongholds&r — bigger, more dangerous, more rewarding."
-		""
-		"Reward: an &eAncient Tome&r (overlevels a vanilla &aenchantment&r by one), 8 lapis blocks, 4 enchanted books — the tools to extract everything from your stronghold finds."
 	]
 	quest.280A1B2C3D4E5F90.quest_subtitle: "Find the eyes. Find the fortress."
 	quest.280A1B2C3D4E5F90.title: "Find a &dStronghold&r"
@@ -311,8 +266,6 @@
 		"- Reforging burns &eSigils of Rebirth&r plus rarity materials of the item's tier."
 		"- The reward &eSigil of Enhancement&r feeds the &eAugmenting Table&r — that's a separate station for upgrading or rerolling a single &aaffix&r at a time."
 		""
-		"&aReward:&r 1 &eSigil of Enhancement&r, 4 &eArcane Sands&r (Epic-tier material), 8 &eLuminous Crystal Shards&r."
-		""
 		"&7&oTip: rare-tier gear is rolled by the Reforging Table, but high-tier loot needs Epic or Mythic materials — stockpile before you commit.&r"
 	]
 	quest.39B1C4D5E6F70801.quest_subtitle: "Re-roll the dice."
@@ -328,8 +281,6 @@
 		"&aUse:&r"
 		"- Submit one &eHellshelf&r and one &eEndshelf&r to complete."
 		"- A full Apothic library opens up enchantments stronger than vanilla can offer."
-		""
-		"&aReward:&r 1 &eAncient Tome&r (overlevel an enchantment past its cap), 8 lapis blocks, 4 enchanted books."
 	]
 	quest.39B1C4D5E6F70810.quest_subtitle: "Past level 30."
 	quest.39B1C4D5E6F70810.title: "&6Apothic Enchanting&r: Beyond Vanilla"
@@ -343,8 +294,6 @@
 		"&aUse:&r"
 		"- Hold and use the mode key to cycle between vein, extended, and standard."
 		"- Free up four hotbar slots in the process."
-		""
-		"&aReward:&r 1 &eRefined Obsidian Paxel&r (top-tier Mekanism Tools paxel) and 4 &eRefined Obsidian Ingots&r."
 	]
 	quest.39B1C4D5E6F70820.quest_subtitle: "One tool to rule them all."
 	quest.39B1C4D5E6F70820.title: "&6Mekanism&r: &eAtomic Disassembler&r"
@@ -355,8 +304,6 @@
 		""
 		"{@pagebreak}"
 		"Skim it once. Come back when you have a specific question. Don't try to memorize it."
-		""
-		"&aReward:&r an &6AE2&r starter kit — the &eGuide&r book, an &eInscriber&r, all three Inscriber Presses (&eCalculation&r / &eEngineering&r / &eLogic&r), 16 Certus Quartz, and 4 Fluix Blocks."
 	]
 	quest.4AC2D5E6F708A901.quest_subtitle: "Hold G. The mod tells you the rest."
 	quest.4AC2D5E6F708A901.title: "&6AE2&r: Read the Guide"
@@ -369,8 +316,6 @@
 		"&aUse:&r"
 		"- Bottle a bucket of &bEssence&r to prove it's running."
 		"- &bEssence&r is liquid XP — feed it to a &6Mekanism&r &eBio-Generator&r, or convert it back into bottles for an enchanting fountain."
-		""
-		"&aReward:&r a &eMob Imprisonment Tool&r to populate it, 4 Pink Slime Ingots, and 32 Bottles o' Enchanting."
 	]
 	quest.8E6F1A2B3C4D5061.quest_subtitle: "Mobs in, drops out."
 	quest.8E6F1A2B3C4D5061.title: "Mob Crusher"
@@ -384,8 +329,6 @@
 		""
 		"&aUse:&r"
 		"- Both machines want a steady supply of &bFE&r — undersize the line and the loop stalls."
-		""
-		"&aReward:&r 4 blank &eData Models&r for new species, 4 &ePrediction Matrices&r to tier them up, and 1 &eGeneralized Overworld Prediction&r as a starter."
 	]
 	quest.9F702B3C4D5E6172.quest_subtitle: "Loot without combat."
 	quest.9F702B3C4D5E6172.title: "&6Hostile Neural Networks&r"
@@ -398,8 +341,6 @@
 		""
 		"&aUse:&r"
 		"- Right-click a placed conduit with the &eYeta Wrench&r to switch its type in-world (energy / item / fluid / redstone)."
-		""
-		"&aReward:&r 8 &eEnergetic Energy Conduits&r and 8 &eEnergetic Item Conduits&r (mid-tier, faster than basic), and 4 Vibrant Alloy Blocks for capacitor crafting."
 	]
 	quest.0A813C4D5E6F7283.quest_subtitle: "Plant it, pipe it, forget it."
 	quest.0A813C4D5E6F7283.title: "Farming Station + Conduits"
@@ -412,8 +353,6 @@
 		"{@pagebreak}"
 		"&aUse:&r"
 		"- Set a frequency, configure the channel tabs (items / fluids / gases / energy / heat), and a matched pair will swap their inventories instantly."
-		""
-		"&aReward:&r a &ePortable Teleporter&r, 4 &eTeleporter Frames&r, 4 Atomic Alloy, and 8 &bAntimatter Pellets&r — bootstrap a second Entangloporter or wire a Mek teleporter pair."
 		""
 		"&7&oTip: every channel on a frequency is shared globally — name your frequencies, or two unrelated bases will start dumping items into each other.&r"
 	]
@@ -429,8 +368,6 @@
 		"&aUse:&r"
 		"- Tile a roof with them and bus the output through &eUniversal Cables&r."
 		"- Generation only runs in daylight; pair with an &eEnergy Cube&r for night reserve."
-		""
-		"&aReward:&r 2 &eAdvanced Solar Generators&r (much higher output than basic) and 16 &eRefined Glowstone&r — both gateways into mid-game Mekanism gear."
 	]
 	quest.5BD3E6F708192A01.quest_subtitle: "Free FE, forever."
 	quest.5BD3E6F708192A01.title: "Solar Array"
@@ -444,8 +381,6 @@
 		"&aUse:&r"
 		"- Modules placed in a flat grid auto-share output through their bottom face."
 		"- Wire one corner with an &aenergy conduit&r and the whole array drains into your network."
-		""
-		"&aReward:&r 2 &eVibrant Photovoltaic Modules&r (top tier) and 4 &eVibrant Alloy&r ingots to wire them into your network."
 	]
 	quest.5BD3E6F708192A10.quest_subtitle: "Tile the roof. Watch it pour."
 	quest.5BD3E6F708192A10.title: "Photovoltaic"
@@ -466,8 +401,6 @@
 		"&aUse:&r"
 		"- Drop ingredients into the Cooking Pot's slots; finished meals collect in the output."
 		"- Pair with a &eCutting Board&r and &eKnife&r for ingredient prep and harvesting."
-		""
-		"&aReward:&r an &eIron Knife&r (mid-tier kitchen tool) plus a starter food cache to prime the pantry."
 	]
 	quest.6CE4F5061728390A.quest_subtitle: "Cook like you mean it."
 	quest.6CE4F5061728390A.title: "&6Hot Kitchen&r"
@@ -476,8 +409,6 @@
 	quest.6CE4F5061728391A.title: "&6Worldly Trinkets&r"
 	quest.6CE4F5061728392A.quest_desc: [
 		"&6Quark&r is a grab bag of tweaks. The &eTrowel&r places random blocks from your inventory; the &eBackpack&r adds an inventory row; small touches across the board."
-		""
-		"&aReward:&r an &eAncient Tome&r (rare drop, overlevels enchantments), a &eSeed Pouch&r, and an &eAbacus&r for measuring distances."
 	]
 	quest.6CE4F5061728392A.quest_subtitle: "Vanilla, with sharper edges."
 	quest.6CE4F5061728392A.title: "&6Pocket Tools&r"
@@ -491,8 +422,6 @@
 		"- Place the barrel and right-click to open."
 		"- Slot upgrades (stack, magnet, pickup, smelting, compacting) into the right-side panel."
 		"- Apply tier-up kits to upgrade an existing barrel in place — keeps contents."
-		""
-		"&aReward:&r 4 &eIron Barrels&r and a &eStorage Controller&r — link a multiblock of barrels and chests to one access point."
 		""
 		"&7&oTip: link the Controller to storages with the Storage Tool, then place Storage Connectors to bridge gaps in the multiblock.&r"
 	]
@@ -508,8 +437,6 @@
 		"&aUse:&r"
 		"- Right-click an end of the pipe to open the upgrade GUI; transfer rate scales with upgrade tier."
 		"- Same chassis handles fluid, energy, and gas — swap the pipe variant, same upgrades fit."
-		""
-		"&aReward:&r 8 &eAdvanced Upgrades&r and 4 &eUltimate Upgrades&r — fast and faster, ready to drop into any network you build."
 	]
 	quest.6CE4F5061728394A.quest_subtitle: "Move stuff. Quickly."
 	quest.6CE4F5061728394A.title: "&6Pipework&r"
@@ -524,9 +451,6 @@
 		"&aUse:&r"
 		"- Pipe &bEthene&r into the generator with a &ePressurized Tube&r."
 		"- Bottle a bucket of &bEthene&r as the second task — proof your gas chain is live."
-		""
-		"{@pagebreak}"
-		"&aReward:&r a free &ePressurized Reaction Chamber&r (skip a tier of crafting), &eRefined Glowstone&r, and four &eAdvanced Control Circuits&r."
 	]
 	quest.5BD3E6F708192A20.quest_subtitle: "Pipe in the gas. Watch the FE pour."
 	quest.5BD3E6F708192A20.title: "Gas-Burning Generator"
@@ -541,9 +465,6 @@
 		"&aUse:&r"
 		"- Each engine emits a &ashaft&r — feed it into your kinetic network or an &eAlternator&r for &aForge Energy&r."
 		"- Bigger boiler + hotter burner = more steam tier = more engines per tank."
-		""
-		"{@pagebreak}"
-		"&aReward:&r 4 extra &eFluid Tanks&r (so you can scale the boiler), &ebrass ingots&r, and a &eCopper Backtank&r to bridge into &6Create&r's mobility kit."
 	]
 	quest.5BD3E6F708192A30.quest_subtitle: "Boil. Spin. Power."
 	quest.5BD3E6F708192A30.title: "Steam Engine"
@@ -558,9 +479,6 @@
 		"- Drop varied plant matter into the Bioreactor — more variety, more &bmB/cycle&r."
 		"- The generator burns the &bBiofuel&r directly into &aForge Energy&r."
 		"- Bottle a bucket of &bBiofuel&r as the third task — proof the full chain works."
-		""
-		"{@pagebreak}"
-		"&aReward:&r 4 buckets of &bBiofuel&r to start the burn, an &eAdvanced Machine Frame&r for the next IF tier, and 16 &eFertilizer&r to fast-grow the next batch of biomass."
 		""
 		"&7&oTip: nine different inputs, one of each — that's the recipe for the cap. Stacking 64 wheat into one slot does almost nothing.&r"
 	]
@@ -577,9 +495,6 @@
 		"- Feed &eBiomass&r into the generator's input slot."
 		"- Pull &aForge Energy&r off any face with an Oritech &acable&r."
 		"- Obtain a stack of &eBiomass&r as the second task — proof the processing chain is live."
-		""
-		"{@pagebreak}"
-		"&aReward:&r 8 &eBiosteel Ingots&r (Oritech's structural mid-tier alloy), 16 extra &eBiomass&r to bootstrap supply, and a &eBasic Generator&r as an alternative coal-burning path."
 	]
 	quest.5BD3E6F708192A50.quest_subtitle: "Centrifuge what you grow. Burn what comes out."
 	quest.5BD3E6F708192A50.title: "Biomass Burner"
@@ -593,8 +508,6 @@
 		"&aUse:&r"
 		"- Charge it from any &aFE source&r."
 		"- Slot it into compatible Draconic tools and armor for an instant capacity bump."
-		""
-		"&aReward:&r 8 &eDraconium Ingots&r, a &eWyvern Core&r (next-tier crafting reagent), and 4 &eDraconium Blocks&r for the FE infrastructure to come."
 	]
 	quest.5BD3E6F708192A60.quest_subtitle: "Storage at draconium scale."
 	quest.5BD3E6F708192A60.title: "Wyvern's Battery"
@@ -609,9 +522,6 @@
 		"&aUse:&r"
 		"- Open either endpoint and assign both to the same network."
 		"- Power flows wirelessly across any distance, any dimension."
-		""
-		"{@pagebreak}"
-		"&aReward:&r 8 &eFlux Dust&r to extend the network, 4 &eFlux Cores&r for higher-tier devices, and a &eBasic Flux Storage&r to buffer the grid."
 	]
 	quest.5BD3E6F708192A70.quest_subtitle: "Plug, point, push."
 	quest.5BD3E6F708192A70.title: "Wireless Power"
@@ -623,8 +533,6 @@
 		""
 		"&aUse:&r"
 		"- Drop &e16 Raw Iron&r through the seam to crush it into &eCrushed Raw Iron&r."
-		""
-		"&aReward:&r 16 Brass Ingots to keep building, 8 extra Crushed Raw Iron, and 1 &ePrecision Mechanism&r."
 		""
 		"&7&oTip: the wheels need to spin opposite directions — same direction does nothing.&r"
 	]
@@ -640,8 +548,6 @@
 		"&aUse:&r"
 		"- Equip via the Curios slot menu (default key &er&r)."
 		"- Hold the bind-key (default &ez&r) and scroll to swap which tool is in hand."
-		""
-		"&aReward:&r 4 &eBelt Pouches&r and 4 diamonds for whichever upgrade you're queueing next."
 	]
 	quest.4AC2D5E6F708B900.quest_subtitle: "Strap your tools to your waist."
 	quest.4AC2D5E6F708B900.title: "&6Tool Belt&r"
@@ -655,8 +561,6 @@
 		"&aUse:&r"
 		"- Right-click to mine; sneak-right-click to change the area shape and size."
 		"- Slot upgrades at the &eModification Table&r to change behavior."
-		""
-		"&aReward:&r 1 &eUpgrade: Silk Touch&r, 1 &eUpgrade: Magnet&r, and 4 &eBlank Upgrade Modules&r to fill in whatever else."
 	]
 	quest.5BD3E6F708A0CA10.quest_subtitle: "Tunnel without the pickaxe."
 	quest.5BD3E6F708A0CA10.title: "&6Mining Gadgets&r: &eMining Gadget&r"
@@ -669,8 +573,6 @@
 		"&aUse:&r"
 		"- Drop an unwanted &aaffix&r item in; receive its tier's rarity material."
 		"- Salvage one Rare-tier item for the &eLuminous Crystal Shard&r the quest needs."
-		""
-		"&aReward:&r 4 &eGem Dust&r, 4 &eLuminous Crystal Shards&r, and 1 &eSigil of Unnaming&r so you can wipe a goofy generated name without losing the affixes underneath."
 	]
 	quest.2C035E6F70819481.quest_subtitle: "Junk in, currency out."
 	quest.2C035E6F70819481.title: "&6Apotheosis&r: &eSalvaging Table&r"
@@ -685,8 +587,6 @@
 		"&aUse:&r"
 		"- Equip in the helmet slot. Charge with FE."
 		"- Slot &aModules&r at the &eModification Station&r; mode-key cycles active modules in flight."
-		""
-		"&aReward:&r 16 &eHDPE Sheets&r, 4 &eAtomic Alloy&r, and 4 &eModule Bases&r — enough for a couple of starter modules."
 	]
 	quest.3D147F708192A582.quest_subtitle: "The shell. The modules come later."
 	quest.3D147F708192A582.title: "&6Mekanism&r: &eMekaSuit Helmet&r"
@@ -701,8 +601,6 @@
 		"&aUse:&r"
 		"- Equip both pieces; tank pressure auto-feeds the helmet."
 		"- Re-pressurize before any deep dive or lava swim."
-		""
-		"&aReward:&r pre-upgraded &eNetherite Diving Helmet&r and &eNetherite Diving Boots&r, plus 4 &eNetherite Ingots&r so you can finish the Backtank upgrade yourself."
 	]
 	quest.4E258071829B6A93.quest_subtitle: "Breathe underwater. Survive lava."
 	quest.4E258071829B6A93.title: "&6Create&r: &eDiving Gear&r"
@@ -716,8 +614,6 @@
 		"&aUse:&r"
 		"- Equip the chestpiece — slot in &eEnergy Cores&r to fuel damage absorption and unlock flight."
 		"- Charge the sword on any FE source; energy fuels its damage scaling."
-		""
-		"&aReward:&r 1 &eWyvern Pickaxe&r (configurable AOE), 1 &eWyvern Capacitor&r for any free slot, and 16 &eAwakened Draconium Ingots&r toward the Draconic tier."
 	]
 	quest.5F36918293A07BA4.quest_subtitle: "Mid-tier draconic. Chaos still ahead."
 	quest.5F36918293A07BA4.title: "&6Draconic Evolution&r: Wyvern-tier"
@@ -731,8 +627,6 @@
 		"&aUse:&r"
 		"- Use the charm to summon a &eDrygmy&r and bind it to the pen."
 		"- Drops accumulate in a nearby chest over time — no combat involved."
-		""
-		"&aReward:&r a &eDrygmy&r familiar (summon one anywhere), 4 &eDrygmy Tokens&r (the rare drop), and 16 &eSource Gems&r for the inevitable next build."
 	]
 	quest.28A1B2C3D4E5F600.quest_subtitle: "Mob loot, the lazy way."
 	quest.28A1B2C3D4E5F600.title: "Drygmy Charm"
@@ -744,57 +638,49 @@
 		""
 		"&aUse:&r"
 		"- Wear the full set for the regen and cost-reduction set bonus."
-		""
-		"&aReward:&r 32 &eSource Gems&r, 8 &eMagebloom Fiber&r for next-tier robes, and a &eGreater Experience Gem&r for whichever enchantment you've been saving levels for."
 	]
 	quest.39B2C3D4E5F60710.quest_subtitle: "Dress for casting."
 	quest.39B2C3D4E5F60710.title: "Mage Robes"
 	quest.17F8A0B1C2D3E550.quest_desc: [
 		"The &dEnder Guardian&r rules the End — a void-aligned colossus that summons void runes and beam-attacks at range. Spawn it in the End via spawn egg or seek out the End City variant."
-		""
-		"Reward: the boss music disc, 4 Cursium Ingots (the End-tier alloy), and a Void Core (the trinket required for &6Cataclysm&r's End-tier weaponry)."
 	]
 	quest.17F8A0B1C2D3E550.quest_subtitle: "Crack the void's keeper."
 	quest.17F8A0B1C2D3E550.title: "Slay the &dEnder Guardian&r"
 	quest.17F8A0B1C2D3E560.quest_desc: [
 		"&dIgnis&r spawns inside Nether Fortresses as the awakened form of the Ignited Berserkers — a fire-aligned super-boss with abyss fireballs, flame strikes, and a phase-two damage spike."
-		""
-		"Reward: the boss music disc, 6 Ignitium Ingots (Nether-tier alloy that combines with elytra), and 4 &eApotheosis Epic Materials&r."
 	]
 	quest.17F8A0B1C2D3E560.quest_subtitle: "Light the fortress's fire out."
 	quest.17F8A0B1C2D3E560.title: "Slay &dIgnis&r"
 	quest.17F8A0B1C2D3E570.quest_desc: [
 		"&6Apotheosis&r weaves &aaffixes&r into ordinary mobs — randomized prefixes and suffixes that turn a normal zombie into a glass-cannon archer or an armored damage-sponge. Each rarity tier of &aaffixed&r mob drops a different rarity material when slain."
 		""
-		"Kill any common-rarity &aaffixed&r mob — a Mysterious Scrap Metal will drop, and that's the signal. Reward: 4 rarer affix materials, a Sigil of Socketing to slot gems into your gear, and 16 gem dust to start gem-cutting."
+		"Kill any common-rarity &aaffixed&r mob — a Mysterious Scrap Metal will drop, and that's the signal."
 	]
 	quest.17F8A0B1C2D3E570.quest_subtitle: "Common drops, uncommon kills."
 	quest.17F8A0B1C2D3E570.title: "The Affixed"
 	quest.17F8A0B1C2D3E580.quest_desc: [
 		"Gate Pearls open Gateways — beacon-like columns that summon waves of mobs and drop loot at the end. Find pearls in dungeon loot, craft them, or buy them, then use one on the ground in open space."
 		""
-		"Clearing any Gateway counts. Practice on the basics — the pack's endgame &dTitan Trial&r is the same mechanic, dialed up. Reward: 8 diamonds, 4 gold blocks, 8 XP bottles, and 4 &eApotheosis Rare Materials&r (gateways drop &aaffixed&r gear, this synergizes)."
+		"Clearing any Gateway counts. Practice on the basics — the pack's endgame &dTitan Trial&r is the same mechanic, dialed up."
 	]
 	quest.17F8A0B1C2D3E580.quest_subtitle: "Drop the pearl. Stand your ground."
 	quest.17F8A0B1C2D3E580.title: "Open a Gateway"
 	quest.17F8A0B1C2D3E590.quest_desc: [
 		"&6Draconic Evolution&r's &dChaos Guardian&r rules the End — a void-aligned dragon-class boss flanked by Guardian Crystals you must shatter before the Guardian itself becomes vulnerable. Drops the Chaos Shard, the gateway material to Chaotic-tier gear (Wyvern → Awakened → Chaotic)."
 		""
-		"Find it on End islands far from the central island. Bring an Energy Core's worth of charge and Awakened armor. Reward: 4 extra Chaos Shards, 16 Awakened Draconium Ingots, and one Chaotic Core to skip the worst of the next tier's grind."
+		"Find it on End islands far from the central island. Bring an Energy Core's worth of charge and Awakened armor."
 	]
 	quest.17F8A0B1C2D3E590.quest_subtitle: "End-shard. Beam attacks. Phase three is real."
 	quest.17F8A0B1C2D3E590.title: "Slay the &dChaos Guardian&r"
 	quest.280A1B2C3D4E5FC0.quest_desc: [
 		"&6Towns and Towers&r expands vanilla villages into themed settlements — Mediterranean, Tudor, Iberian, Oriental, Piglin, and more — each biome gets its own architecture."
 		""
-		"Find any Towns-and-Towers village to satisfy. Reward: 8 emeralds and 4 emerald blocks — trade fuel for whatever modded villager you stumble into."
+		"Find any Towns-and-Towers village to satisfy."
 	]
 	quest.280A1B2C3D4E5FC0.quest_subtitle: "Find a town worth visiting."
 	quest.280A1B2C3D4E5FC0.title: "Find a &dTown&r"
 	quest.280A1B2C3D4E5FD0.quest_desc: [
 		"&6When Dungeons Arise&r scatters elaborate hand-built dungeons across the world — towers, castles, mansions, illager forts. The &dBandit Towers&r are the iconic mid-tier challenge."
-		""
-		"Reward: 4 XP bottles, 4 lapis blocks, and 8 gold ingots — the tools to enchant whatever you loot."
 	]
 	quest.280A1B2C3D4E5FD0.quest_subtitle: "Climb the bandit towers."
 	quest.280A1B2C3D4E5FD0.title: "Find &dBandit Towers&r"
@@ -808,15 +694,13 @@
 		"- Right-click a drawer with the item you want stored to lock it to that type."
 		"- Use the &eLinking Tool&r to add drawers to a &eStorage Controller&r."
 		"- Slot &eCopper&r/&eIron&r/&eGold&r/&eDiamond&r upgrades into a drawer to multiply its capacity."
-		""
-		"&aReward:&r &eLinking Tool&r, &eStorage Controller&r, and 4 &eCopper Upgrades&r."
 	]
 	quest.6CE4F5061728395A.quest_subtitle: "Compact, networked drawers."
 	quest.6CE4F5061728395A.title: "&6Functional Storage&r"
 	quest.6CE4F5061728396A.quest_desc: [
 		"&6Simple Magnets&r are exactly what they sound like — equip one in your &aCurios&r belt slot and it pulls items and XP toward you within a configurable radius."
 		""
-		"Craft and equip the &eBasic Magnet&r. &aReward:&r an &eAdvanced Magnet&r (filtered, longer range) and 2 XP bottles."
+		"Craft and equip the &eBasic Magnet&r."
 	]
 	quest.6CE4F5061728396A.quest_subtitle: "Items come to you."
 	quest.6CE4F5061728396A.title: "&6Equip a Magnet&r"
@@ -830,50 +714,44 @@
 		"&aUse:&r"
 		"- Right-click the Computer to open the terminal; type &elua&r or &eedit <file>&r to start scripting."
 		"- Label a &eDisk&r in a Disk Drive to share programs between machines."
-		""
-		"&aReward:&r an &eAdvanced Computer&r (color terminal), a &eWireless Modem&r for remote command, and 4 &eFloppy Disks&r for program storage."
 	]
 	quest.6CE4F5061728397A.quest_subtitle: "Code in your world."
 	quest.6CE4F5061728397A.title: "&6Boot a Computer&r"
 	quest.1A2B3C4D5E6F7081.quest_desc: [
 		"&6Macaw's&r is five mods in a trenchcoat: &6Windows&r, &6Doors&r, &6Roofs&r, &6Furniture&r, &6Lights&r. Together they fix vanilla's biggest decoration gap — actually-attractive buildings."
 		""
-		"Build one signature block from each mod: a window, a Japanese door, a roof tile, a chair, and a lamp. &aReward:&r a starter furniture set (table, kitchen sink, 8 lamps) so your base stops looking like a 9×9."
+		"Build one signature block from each mod: a window, a Japanese door, a roof tile, a chair, and a lamp."
 	]
 	quest.1A2B3C4D5E6F7081.quest_subtitle: "Five mods. One toolkit for buildings worth living in."
 	quest.1A2B3C4D5E6F7081.title: "&6Suburban Architect&r"
 	quest.1A2B3C4D5E6F7091.quest_desc: [
 		"&6Curios&r is the framework — it adds slots for rings, necklaces, belts, charms, gloves, and more. Press &aG&r or click the Curios tab in your inventory to see them."
 		""
-		"Dozens of mods drop curio items: Magnets, Apotheosis gems, Quark trinkets, Supplementaries quivers. This is the awareness check — open the menu, see the slots, start filling them. &aReward:&r 16 XP bottles and 4 emeralds, fuel for whatever curio you trade for or enchant onto."
+		"Dozens of mods drop curio items: Magnets, Apotheosis gems, Quark trinkets, Supplementaries quivers. This is the awareness check — open the menu, see the slots, start filling them."
 	]
 	quest.1A2B3C4D5E6F7091.quest_subtitle: "Open the second inventory."
 	quest.1A2B3C4D5E6F7091.title: "&6Curio Slots&r"
 	quest.1A2B3C4D5E6F70A1.quest_desc: [
 		"&6Chisel&r turns common building blocks into dozens of decorative variants. Hold the &eChisel&r and right-click a block to open the variant picker."
-		""
-		"&aReward:&r a &eDiamond Chisel&r (10× durability, never wears out under normal play), plus 16 cobblestone and 16 sandstone — the two blocks with the deepest variant trees, ready to carve."
 	]
 	quest.1A2B3C4D5E6F70A1.quest_subtitle: "One block, fifty variants."
 	quest.1A2B3C4D5E6F70A1.title: "&6Chisel&r"
 	quest.1A2B3C4D5E6F70B1.quest_desc: [
 		"&6Spice of Life: Carrot Edition&r tracks every unique food you've eaten. Hit milestones (5, 10, 20, 30, …) and your max health permanently rises — eventually well past vanilla 20."
 		""
-		"Craft the &eFood Book&r to see your progress. &aReward:&r a 32-food sampler (beef, carrots, baked potatoes, pumpkin pie) to start ticking the variety counter immediately."
+		"Craft the &eFood Book&r to see your progress."
 	]
 	quest.1A2B3C4D5E6F70B1.quest_subtitle: "Variety is max health."
 	quest.1A2B3C4D5E6F70B1.title: "&6Eat Your Veggies&r"
 	quest.1A2B3C4D5E6F70C1.quest_desc: [
 		"The &6Crafting Station&r is a 3×3 crafter that remembers — drop ingredients in, browse JEI inline, click a recipe to auto-fill. The grid stays loaded between visits, so half-finished crafts wait for you."
-		""
-		"&aReward:&r 4 extra &eCrafting Stations&r to scatter around your base, plus 16 oak planks for the inevitable next build."
 	]
 	quest.1A2B3C4D5E6F70C1.quest_subtitle: "Crafting that remembers."
 	quest.1A2B3C4D5E6F70C1.title: "&6Crafting Station&r"
 	quest.1A2B3C4D5E6F70D1.quest_desc: [
 		"&6Trash Cans&r void what they receive — items, fluids, energy, or all three. Filter-aware, transfer-rate-limited, hopper-friendly."
 		""
-		"Craft the &eItem Trash Can&r. &aReward:&r the other three variants (&eLiquid&r, &eEnergy&r, &eUltimate&r) — full set, immediate. Pipe overflow into them and forget cobble exists."
+		"Craft the &eItem Trash Can&r."
 	]
 	quest.1A2B3C4D5E6F70D1.quest_subtitle: "Make the cobble go away."
 	quest.1A2B3C4D5E6F70D1.title: "&6Trash Cans&r"
@@ -889,8 +767,6 @@
 		"&aUse:&r"
 		"- Drop a &egem&r and the listed reagents into the table to combine or upgrade."
 		"- Submit any cut &egem&r to complete the quest."
-		""
-		"&aReward:&r 4 &egems&r and 16 &eGem Dust&r — enough to feed the table for several upgrades."
 	]
 	quest.4C6CF541318C7436.quest_subtitle: "Crush, recombine, upgrade."
 	quest.4C6CF541318C7436.title: "&6Apotheosis&r: &eGem Cutting&r"
@@ -905,8 +781,6 @@
 		"- Equip in the chestplate slot."
 		"- Hold &ejump&r to thrust; mode-toggle key cycles hover/normal/off."
 		"- Refuel by piping &bhydrogen&r in or by hand-fueling from a &eHydrogen Tank&r."
-		""
-		"&aReward:&r 1 &eEnergy Tablet&r and 8 &eRefined Glowstone Ingots&r — energy buffer plus an upgrade-tier ingot."
 	]
 	quest.3F9A0E334404046A.quest_subtitle: "Hover, ascend, glide."
 	quest.3F9A0E334404046A.title: "&6Mekanism&r: &eJetpack&r"
@@ -920,8 +794,6 @@
 		"&aUse:&r"
 		"- Wear in the chest slot or place as a block to access remotely."
 		"- Slot upgrades for auto-pickup, magnet pull, and filter rules to stop hoovering up trash."
-		""
-		"&aReward:&r 2 &eAdvanced Pickup Upgrades&r, 2 &eAdvanced Magnet Upgrades&r, and 1 &eAdvanced Filter Upgrade&r — a full sorting starter kit."
 	]
 	quest.7637512874BE9397.quest_subtitle: "Carry it all."
 	quest.7637512874BE9397.title: "&6Sophisticated Backpacks&r"
@@ -942,8 +814,6 @@
 		"&aUse:&r"
 		"- Drop spell parchment on the &eScribe's Table&r to inscribe a &aglyph&r."
 		"- Bind &aglyphs&r into the &eMage's Spell Book&r and cast."
-		""
-		"&aReward:&r 16 &eSource Gems&r (the universal currency of &6Ars Nouveau&r crafting) and an &eEnchanter's Wand&r for configuring every &6Ars Nouveau&r block you'll build."
 	]
 	quest.52758F4E624A6440.quest_subtitle: "Inscribe a glyph. Cast it."
 	quest.52758F4E624A6440.title: "Inscribe \&\ Cast"
@@ -962,8 +832,6 @@
 		"&aUse:&r"
 		"- Drop ingredients onto pedestals, place the recipe item on the apparatus, and right-click to craft."
 		"- For the &eImbuement Chamber&r, drop in an input and let &bSource&r do the work passively."
-		""
-		"&aReward:&r 8 each of &eAbjuration&r, &eConjuration&r, and &eManipulation Essence&r — the school-aligned materials that unlock advanced &aglyphs&r and items."
 	]
 	quest.1F86FF003387AE4E.quest_subtitle: "Where glyphs become gear."
 	quest.1F86FF003387AE4E.title: "The Workshop"
@@ -979,8 +847,6 @@
 		""
 		"&aUse:&r"
 		"- Bind components together with the &eDominion Wand&r (sneak-right-click source, then right-click target)."
-		""
-		"&aReward:&r 64 &eSource Gems&r and 4 extra &eVolcanic Sourcelinks&r to scale production immediately."
 	]
 	quest.7BE305D05A99BFC1.quest_subtitle: "Generate, transport, store."
 	quest.7BE305D05A99BFC1.title: "Mana on Tap"
@@ -995,8 +861,6 @@
 		"- Ignite the brazier with flint \&\ steel to start the ritual."
 		"- &eAwakening&r animates nearby trees into walking guardians."
 		""
-		"&aReward:&r &eWilden Horn&r, &eWing&r, and &eSpike&r — drops from the &dWilden Chimera&r, used in the highest-tier &6Ars Nouveau&r crafting."
-		""
 		"&7&oTip: the brazier needs to be lit with flint \&\ steel — placing the tablet alone won't trigger anything.&r"
 	]
 	quest.44576A594B9EF3C1.quest_subtitle: "Sacred geometry made manifest."
@@ -1010,8 +874,6 @@
 		""
 		"&aUse:&r"
 		"- Supply seeds to the Sower and &bFE&r to both. Crops flow out of the Gatherer."
-		""
-		"&aReward:&r 8 &eFertilizer&r and 1 &ePlant Fertilizer&r machine to accelerate growth, plus 16 wheat seeds to seed the line."
 	]
 	quest.47D51C4D8FED1723.quest_subtitle: "A farm that runs itself."
 	quest.47D51C4D8FED1723.title: "Plant Sower \&\ Gatherer"
@@ -1031,8 +893,6 @@
 		"&aUse:&r"
 		"- Place and right-click like any barrel — interface is identical, capacity is not."
 		"- Apply a higher upgrade (e.g. &eIron To Diamond&r) to bump tier without breaking the block."
-		""
-		"&aReward:&r a free &eDiamond Barrel&r for the bulk-storage you actually want, plus &eWood To Iron&r and &eIron To Diamond&r upgrades to keep climbing."
 	]
 	quest.7D8F1A84CAEE2B73.quest_subtitle: "The vanilla barrel, scaled hard."
 	quest.7D8F1A84CAEE2B73.title: "&6Metal Barrels&r"
@@ -1045,8 +905,6 @@
 		"&aUse:&r"
 		"- Place above (or beside) the inventory you want fed — collector pushes into adjacent containers."
 		"- Adjust range from the GUI; toggle range visualisation to verify coverage."
-		""
-		"&aReward:&r an &eAdvanced Item Collector&r (filter + NBT matching) and 4 &eHoppers&r to pipe its haul wherever you need."
 	]
 	quest.583149F56A45EEC4.quest_subtitle: "Drops, vacuumed."
 	quest.583149F56A45EEC4.title: "&6Item Collectors&r"
@@ -1063,8 +921,6 @@
 		"- Add a Terminal (or Crafting Terminal) anywhere on the network to view and pull items."
 		"- The Controller wants &achannels&r — power it well, and check the Guide (&6G&r key) for full topology rules."
 		""
-		"&aReward:&r a &e4k ME Item Storage Cell&r (4x the bandwidth), 4 &eFluix Crystals&r to grow the network, and 16 &eCertus Quartz Crystals&r."
-		""
 		"&7&oTip: bootstrap AE2 first via the Resource Generation chapter — you'll need processors before any of this is craftable.&r"
 	]
 	quest.5BF1CACD53592B78.quest_subtitle: "Storage, digitized."
@@ -1078,8 +934,6 @@
 		"&aUse:&r"
 		"- Insert encoded patterns directly, or open the &eME Extended Pattern Access Terminal&r to manage many providers at once."
 		"- Apply &ePattern Provider Upgrades&r to lift existing AE2 providers to extended capacity without recrafting."
-		""
-		"&aReward:&r a &ePattern Modifier&r (multiply pattern outputs to scale recipes in place), 4 &ePattern Provider Upgrades&r, and an &eME Extended Pattern Access Terminal&r."
 	]
 	quest.2104DFB6AC42DFF4.quest_subtitle: "36 patterns, one block."
 	quest.2104DFB6AC42DFF4.title: "&6ExtendedAE&r — Extended Patterns"
