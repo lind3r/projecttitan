@@ -285,5 +285,134 @@
 			x: 4.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["17F8A0B1C2D3E4F0"]
+			id: "17F8A0B1C2D3E570"
+			rewards: [
+				{
+					count: 4
+					id: "17F8A0B1C2D3E571"
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
+					type: "item"
+				}
+				{
+					id: "17F8A0B1C2D3E572"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "17F8A0B1C2D3E573"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17F8A0B1C2D3E574"
+				item: { count: 1, id: "apotheosis:common_material" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["17F8A0B1C2D3E4F0"]
+			id: "17F8A0B1C2D3E580"
+			rewards: [
+				{
+					count: 8
+					id: "17F8A0B1C2D3E581"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "17F8A0B1C2D3E582"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "17F8A0B1C2D3E583"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "17F8A0B1C2D3E584"
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17F8A0B1C2D3E585"
+				stat: "gateways:gates_defeated"
+				type: "stat"
+				value: 1
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["17F8A0B1C2D3E4F0"]
+			id: "17F8A0B1C2D3E590"
+			rewards: [
+				{
+					count: 4
+					id: "17F8A0B1C2D3E591"
+					item: {
+						count: 1
+						id: "draconicevolution:chaos_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "17F8A0B1C2D3E592"
+					item: {
+						count: 1
+						id: "draconicevolution:awakened_draconium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "17F8A0B1C2D3E593"
+					item: {
+						count: 1
+						id: "draconicevolution:chaotic_core"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "17F8A0B1C2D3E594"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
 	]
 }
