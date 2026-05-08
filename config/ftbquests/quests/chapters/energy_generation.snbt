@@ -35,6 +35,18 @@
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "606D7B3F26D2A17E"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "792155A56C9B8BC1"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["606D7B3F26D2A17E"]
 			id: "53A654BDD709AEBB"
 			rewards: [
 				{
@@ -61,10 +73,61 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["606D7B3F26D2A17E"]
+			id: "5BD3E6F708192A30"
+			rewards: [
+				{
+					count: 4
+					id: "5BD3E6F708192A31"
+					item: {
+						count: 1
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5BD3E6F708192A32"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A33"
+					item: {
+						count: 1
+						id: "create:copper_backtank"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BD3E6F708192A34"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "5E03977357FFBCD7"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "6F9062B6465D90F3"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5E03977357FFBCD7"]
 			id: "420C49B55F5DA985"
 			rewards: [
 				{
@@ -100,41 +163,10 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["5A1B7C3E4F2D6890"]
-			id: "38F95A1627AB4B54"
-			rewards: [
-				{
-					count: 4
-					id: "6BC28D495ADE7E87"
-					item: {
-						count: 1
-						id: "enderio:pulsating_alloy_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "7CD39E5A6BEF8F98"
-					item: {
-						count: 1
-						id: "enderio:energetic_alloy_ingot"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "49A06B2738BC5C65"
-				item: { count: 1, id: "enderio:stirling_generator" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5A1B7C3E4F2D6890"]
+			dependencies: ["5E03977357FFBCD7"]
 			id: "5BD3E6F708192A01"
 			rewards: [
 				{
@@ -162,41 +194,10 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["5A1B7C3E4F2D6890"]
-			id: "5BD3E6F708192A10"
-			rewards: [
-				{
-					count: 2
-					id: "5BD3E6F708192A11"
-					item: {
-						count: 1
-						id: "enderio:vibrant_photovoltaic_module"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5BD3E6F708192A12"
-					item: {
-						count: 1
-						id: "enderio:vibrant_alloy_ingot"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5BD3E6F708192A13"
-				item: { count: 1, id: "enderio:energetic_photovoltaic_module" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["5A1B7C3E4F2D6890"]
+			dependencies: ["5E03977357FFBCD7"]
 			id: "5BD3E6F708192A20"
 			rewards: [
 				{
@@ -239,42 +240,77 @@
 				}
 			]
 			x: 4.0d
-			y: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
-			id: "5BD3E6F708192A30"
+			id: "50AB2804E6DD116F"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "71F69279145AC012"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["50AB2804E6DD116F"]
+			id: "38F95A1627AB4B54"
 			rewards: [
 				{
 					count: 4
-					id: "5BD3E6F708192A31"
+					id: "6BC28D495ADE7E87"
 					item: {
 						count: 1
-						id: "create:fluid_tank"
+						id: "enderio:pulsating_alloy_ingot"
 					}
 					type: "item"
 				}
 				{
-					count: 16
-					id: "5BD3E6F708192A32"
+					count: 4
+					id: "7CD39E5A6BEF8F98"
 					item: {
 						count: 1
-						id: "create:brass_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "5BD3E6F708192A33"
-					item: {
-						count: 1
-						id: "create:copper_backtank"
+						id: "enderio:energetic_alloy_ingot"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "5BD3E6F708192A34"
-				item: { count: 1, id: "create:steam_engine" }
+				id: "49A06B2738BC5C65"
+				item: { count: 1, id: "enderio:stirling_generator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["50AB2804E6DD116F"]
+			id: "5BD3E6F708192A10"
+			rewards: [
+				{
+					count: 2
+					id: "5BD3E6F708192A11"
+					item: {
+						count: 1
+						id: "enderio:vibrant_photovoltaic_module"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5BD3E6F708192A12"
+					item: {
+						count: 1
+						id: "enderio:vibrant_alloy_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BD3E6F708192A13"
+				item: { count: 1, id: "enderio:energetic_photovoltaic_module" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -282,6 +318,18 @@
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "0B60A88016135BD8"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "73B00B114E6926B1"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["0B60A88016135BD8"]
 			id: "5BD3E6F708192A40"
 			rewards: [
 				{
@@ -329,10 +377,22 @@
 				}
 			]
 			x: 4.0d
-			y: 18.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "0DEB64110C1E5314"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "1A749AD6CD571CA2"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["0DEB64110C1E5314"]
 			id: "5BD3E6F708192A50"
 			rewards: [
 				{
@@ -375,10 +435,22 @@
 				}
 			]
 			x: 4.0d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "5E936390DD4A9848"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "46F10228A6717D09"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["5E936390DD4A9848"]
 			id: "5BD3E6F708192A60"
 			rewards: [
 				{
@@ -414,10 +486,22 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 24.0d
+			y: 25.0d
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
+			id: "4739B7C350766DAF"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "3B1E1D2F98720A2E"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["4739B7C350766DAF"]
 			id: "5BD3E6F708192A70"
 			rewards: [
 				{
@@ -447,20 +531,73 @@
 					type: "item"
 				}
 			]
-			tasks: [
+			tasks: [{
+				id: "5BD3E6F708192A74"
+				item: { count: 1, id: "fluxnetworks:flux_plug" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["4739B7C350766DAF"]
+			id: "4734A3D951B268D1"
+			rewards: [
 				{
-					id: "5BD3E6F708192A74"
-					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					count: 4
+					id: "7E9A93C302016C0D"
+					item: {
+						count: 1
+						id: "fluxnetworks:flux_core"
+					}
 					type: "item"
 				}
 				{
-					id: "5BD3E6F708192A75"
-					item: { count: 1, id: "fluxnetworks:flux_point" }
+					id: "2266BADD111EAE60"
+					item: {
+						count: 1
+						id: "fluxnetworks:basic_flux_storage"
+					}
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "1B7EE59A6E1995CB"
+				item: { count: 1, id: "fluxnetworks:flux_point" }
+				type: "item"
+			}]
 			x: 4.0d
-			y: 27.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["4739B7C350766DAF"]
+			id: "36EA3272B9CC4D2F"
+			rewards: [
+				{
+					id: "0378A01A34106176"
+					item: {
+						count: 1
+						id: "fluxnetworks:herculean_flux_storage"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5BC0CBAFF7266A31"
+					item: {
+						count: 1
+						id: "fluxnetworks:flux_core"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06677F2EC8C04BBB"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 30.0d
 		}
 	]
 }

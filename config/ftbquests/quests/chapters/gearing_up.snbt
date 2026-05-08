@@ -35,6 +35,102 @@
 		}
 		{
 			dependencies: ["7D5EC061B28F9D40"]
+			id: "A1C7E0F2B3D49510"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "A1C7E0F2B3D49511"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "B2D8F103C4E5A620"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "B2D8F103C4E5A621"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "C3E90214D5F6B730"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "C3E90214D5F6B731"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 5.7d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "D4FA1325E607C840"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "D4FA1325E607C841"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "E50B2436F718D950"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "E50B2436F718D951"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "F61C3547082EEA60"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "F61C3547082EEA61"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "0A2D4658193FFB70"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "0A2D4658193FFB71"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "1B3E576A2A40AC80"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "1B3E576A2A40AC81"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["A1C7E0F2B3D49510"]
 			id: "4C6CF541318C7436"
 			rewards: [
 				{
@@ -72,7 +168,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["7D5EC061B28F9D40"]
+			dependencies: ["A1C7E0F2B3D49510"]
 			id: "39B1C4D5E6F70801"
 			rewards: [
 				{
@@ -118,7 +214,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["7D5EC061B28F9D40"]
+			dependencies: ["B2D8F103C4E5A620"]
 			id: "39B1C4D5E6F70810"
 			rewards: [
 				{
@@ -164,7 +260,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7D5EC061B28F9D40"]
+			dependencies: ["C3E90214D5F6B730"]
 			id: "3F9A0E334404046A"
 			rewards: [
 				{
@@ -194,7 +290,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7D5EC061B28F9D40"]
+			dependencies: ["C3E90214D5F6B730"]
 			id: "39B1C4D5E6F70820"
 			rewards: [
 				{
@@ -224,7 +320,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7D5EC061B28F9D40"]
+			dependencies: ["D4FA1325E607C840"]
 			id: "7637512874BE9397"
 			rewards: [
 				{
@@ -263,7 +359,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7D5EC061B28F9D40"]
+			dependencies: ["E50B2436F718D950"]
 			id: "4AC2D5E6F708B900"
 			rewards: [
 				{
@@ -294,7 +390,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["7D5EC061B28F9D40"]
+			dependencies: ["F61C3547082EEA60"]
 			id: "5BD3E6F708A0CA10"
 			rewards: [
 				{
@@ -332,7 +428,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["7D5EC061B28F9D40"]
+			dependencies: ["A1C7E0F2B3D49510"]
 			id: "2C035E6F70819481"
 			rewards: [
 				{
@@ -378,7 +474,7 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["7D5EC061B28F9D40"]
+			dependencies: ["C3E90214D5F6B730"]
 			id: "3D147F708192A582"
 			rewards: [
 				{
@@ -418,7 +514,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["7D5EC061B28F9D40"]
+			dependencies: ["0A2D4658193FFB70"]
 			id: "4E258071829B6A93"
 			rewards: [
 				{
@@ -463,7 +559,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["7D5EC061B28F9D40"]
+			dependencies: ["1B3E576A2A40AC80"]
 			id: "5F36918293A07BA4"
 			rewards: [
 				{
