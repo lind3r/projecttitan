@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"oritech:electrum_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:drygmy_charm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"projecttitancore:crown_of_the_titan"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

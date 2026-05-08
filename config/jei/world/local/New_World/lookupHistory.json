@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"gateways:gate_pearl","components":{"gateways:gateway":"apotheosis:tiered/pinnacle"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gateways:gate_pearl","components":{"gateways:gateway":"gateways:hellish_fortress"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:ultimate_crushing_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:elite_crushing_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:advanced_crushing_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"},

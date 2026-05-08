@@ -448,46 +448,47 @@
 		}
 		{
 			dependencies: ["74ED5B05FC10AF83"]
-			icon: { components: { "gateways:gateway": "projecttitancore:titan_trial" }, count: 1, id: "gateways:gate_pearl" }
-			id: "9A1B2C3D4E5F6071"
-			rewards: [
-				{
-					id: "9A1B2C3D4E5F6073"
-					item: {
-						components: { "gateways:gateway": "projecttitancore:titan_trial" }
-						count: 1
-						id: "gateways:gate_pearl"
-					}
-					type: "item"
+			icon: {
+				components: {
+					"gateways:gateway": "projecttitancore:titan_trial"
 				}
-			]
+				id: "gateways:gate_pearl"
+			}
+			id: "0C998F80BDBE5530"
+			rewards: [{
+				id: "78360745600598C0"
+				item: {
+					components: {
+						"gateways:gateway": "projecttitancore:titan_trial"
+					}
+					count: 1
+					id: "gateways:gate_pearl"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
-				id: "9A1B2C3D4E5F6072"
+				id: "4F512AB1304BED9A"
 				type: "checkmark"
 			}]
 			x: 31.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9A1B2C3D4E5F6071"]
-			icon: "projecttitancore:crown_of_the_titan"
-			id: "8A1B2C3D4E5F6071"
-			rewards: [
-				{
-					count: 4
-					id: "8A1B2C3D4E5F6074"
-					item: {
-						count: 1
-						id: "minecraft:totem_of_undying"
-					}
-					type: "item"
+			id: "05968A0ACB30FF5D"
+			rewards: [{
+				count: 4
+				id: "450C4EE4B3916FAE"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
 				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "8A1B2C3D4E5F6072"
+				id: "4DFC51230F7D8F7F"
 				item: { count: 1, id: "projecttitancore:crown_of_the_titan" }
 				type: "item"
 			}]

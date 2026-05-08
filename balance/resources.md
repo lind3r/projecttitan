@@ -89,16 +89,15 @@ These bypass mining entirely. The user flagged this category specifically. Each 
   1. **Power-cost increase** — `config/hostilenetworks.cfg` → `Loot Fab Power Cost` 256 → 10,000+ FE/t. Pushes Fabricator into "endgame convenience" rather than "early-game replacement for mob farms."
   2. **Disable model attune via right-click** — `Right Click To Attune = false`. Forces players to actually kill mobs to train models (still renewable but at least requires the kill phase).
   3. **Mod removal** — entire mod is one feature; if the cost knob doesn't satisfy you, drop the mod.
-- **Recommendation:** Bump `Loot Fab Power Cost` to ~5000 FE/t (~20× current). Keeps the mod alive as a late-game convenience without trivializing mid-game mob drops.
+- **Mineral leak surface (revisited 2026-05-08):** narrow. HNN cannot synthesize diamond, emerald (at scale), netherite, copper, coal, or elytra — none of those mobs exist or their drops are too rare. What HNN **can** trivialize for T1-T10: iron (Iron Golem), gold (Zombified Piglin), and **nether stars (Wither model)**. The diamond/emerald/netherite/elytra walls remain regardless.
+- **Status (2026-05-08):** `Loot Fab Power Cost` set to **5,000 FE/t** (~20× default). Late-game convenience: a single Loot Fab is a non-trivial slice of T2 power, properly painful at T1, painless at T6+. Players who want 93 nether stars across the T1-T10 grind can get them via a Wither model, but it costs real generation.
 
 #### Apothic Spawners (silk-touched + modified vanilla spawners)
-- **What it does:** With Silk Touch (level 1, default), break any vanilla spawner and place it elsewhere. The mod adds GUI controls to swap the mob, raise the spawn cap, and remove conditions (light level, player proximity, etc.).
+- **What it does:** With Silk Touch (level 1, default), break any vanilla spawner and place it elsewhere. The mod adds 16 craftable Spawner Modifier items that strip spawn conditions (Ignore Players/Light/Conditions), drop spawn delay, raise caps, and amplify drops (Echoing). The mod does **not** add a "change mob" modifier — captured spawners keep their original mob type.
 - **Renewable:** YES — once captured, infinite mob spawning indefinitely.
-- **Why it matters:** Captured spawners + IF Mob Crusher / EnderIO Powered Spawner = infinite mob loot loop. Less synthetic than Hostile Neural Networks, but the floor is "find one dungeon spawner and you have an infinite resource."
-- **Disable levers:**
-  1. **Disable silk-touch capture** — `config/apothic_spawners.cfg` → `Spawner Silk Level = -1`. Spawners can no longer be picked up. Forces players to find dungeons and fight in place, or use modded spawner alternatives (EnderIO Powered Spawner, IF Mob Duplicator) which have their own costs.
-  2. **Reduce capture chance** — `Capturing Drop Chance = 0.005` (0.5% per Capturing enchant level) → 0. Removes the second capture mechanism (the Capturing enchant adds spawn-egg drops).
-- **Recommendation:** Set `Spawner Silk Level = -1`. Captured-vanilla-spawner farms have been the dominant cheese in modpacks for a decade; closing it pushes players toward IF/EnderIO spawner mechanics which the pack already provides as the intended path.
+- **Mob types reachable:** vanilla dungeon mobs only (zombie / skeleton / spider / cave spider / blaze / magma cube / silverfish). No wither skeleton, no creeper, no enderman — those still require IF Mob Duplicator or EIO Powered Spawner with a Soul Vial.
+- **Mineral impact:** **low.** None of the reachable mob types drop ore. Indirect impact via zombie iron drops + Echoing modifier multipliers, but that's small relative to the T1-T10 mineral curve. Bigger impact is XP / mob-drop flood (great for Apotheosis affix gear via Salvaging, fast enchanting).
+- **Status (2026-05-08):** **Re-enabled at default (`Spawner Silk Level = 1`).** Reasoning: with the IF Laser Drill blocked and HNN Loot Fab pushed to T5 power, captured-spawner farms are no longer the dominant cheese — they're a reasonable mid-game step. The pack's main concern is mineral demand at T1-T10, and Apothic Spawners doesn't move that needle. If the XP / Apotheosis-loot flood turns out to be a problem in playtesting, revisit and disable.
 
 ### ⚠ TIER 1 — Powerful, but more gated (decide if you want to nerf)
 
@@ -193,10 +192,3 @@ Item Collectors paired with structure ruins or mob farms are the "set and forget
 4. **For "is X covered?" questions:** look up the resource in the multiplier table or the watchlist.
 5. **Apply with smallest lever** (mod TOML > KubeJS > recipe edit).
 6. **Record decisions:** if the user accepts/rejects a watchlist nerf, note it in the watchlist entry with a date.
-
-## Open Questions / TBDs
-
-- **Oritech Centrifuge multi-step ore chain:** Agent research suggested up to 3× via Fragment Forge → Centrifuge → Atomic Forge, but the precise terminal multiplier wasn't recipe-verified. Worth a JEI check in-game when an Oritech progression playthrough starts.
-- **EnderIO SAG Mill grinding ball multipliers:** Different grinding balls (Iron / Dark Steel / Energetic Alloy / Vibrant Alloy / Soularium / End Steel) have different main/bonus/power multipliers. Curated entries below give the headline; per-ball tuning can come later if EnderIO becomes a primary path.
-- **AE2 Budding Quartz tier behavior in 1.21:** Newer AE2 versions have changed budding-block degradation. Confirm whether Flawless tier still never degrades (which would make it the canonical infinite-certus path).
-- **Quark + Biotite + dragon-respawn cadence:** The pack ships Draconic Evolution; verify whether DE's `dragonEggSpawnOverride` setting interacts with Biotite renewability.

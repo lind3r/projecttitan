@@ -470,13 +470,5 @@
       "ceiling_tier": null,
       "notes": "Storage, not generation. Listed for reference because reactor + core is the canonical DE late-game pairing. Excluded from coverage table."
     }
-  ],
-  "tbd_verifications": [
-    {
-      "id": "enderio.soul_engine",
-      "what": "FE/t output range across mob souls",
-      "method": "in-game JEI lookup; mod typically displays per-soul value in tooltip",
-      "status": "deferred (user) — skip until/unless Soul Engine becomes a candidate path"
-    }
   ]
 }
