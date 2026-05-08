@@ -338,18 +338,27 @@
 				{
 					count: 4
 					id: "2C035E6F70819484"
-					item: { count: 1, id: "apotheosis:gem_dust" }
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "2C035E6F70819485"
-					item: { count: 1, id: "apotheosis:rare_material" }
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
 					type: "item"
 				}
 				{
 					id: "2C035E6F70819486"
-					item: { count: 1, id: "apotheosis:sigil_of_unnaming" }
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_unnaming"
+					}
 					type: "item"
 				}
 			]
@@ -375,19 +384,28 @@
 				{
 					count: 16
 					id: "3D147F708192A584"
-					item: { count: 1, id: "mekanism:hdpe_sheet" }
+					item: {
+						count: 1
+						id: "mekanism:hdpe_sheet"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "3D147F708192A585"
-					item: { count: 1, id: "mekanism:alloy_atomic" }
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "3D147F708192A586"
-					item: { count: 1, id: "mekanism:module_base" }
+					item: {
+						count: 1
+						id: "mekanism:module_base"
+					}
 					type: "item"
 				}
 			]
@@ -405,18 +423,27 @@
 			rewards: [
 				{
 					id: "4E258071829B6A96"
-					item: { count: 1, id: "create:netherite_diving_helmet" }
+					item: {
+						count: 1
+						id: "create:netherite_diving_helmet"
+					}
 					type: "item"
 				}
 				{
 					id: "4E258071829B6A97"
-					item: { count: 1, id: "create:netherite_diving_boots" }
+					item: {
+						count: 1
+						id: "create:netherite_diving_boots"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "4E258071829B6A98"
-					item: { count: 1, id: "minecraft:netherite_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
 					type: "item"
 				}
 			]
@@ -441,18 +468,27 @@
 			rewards: [
 				{
 					id: "5F36918293A07BA7"
-					item: { count: 1, id: "draconicevolution:wyvern_pickaxe" }
+					item: {
+						count: 1
+						id: "draconicevolution:wyvern_pickaxe"
+					}
 					type: "item"
 				}
 				{
 					id: "5F36918293A07BA8"
-					item: { count: 1, id: "draconicevolution:wyvern_capacitor" }
+					item: {
+						count: 1
+						id: "draconicevolution:wyvern_capacitor"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "5F36918293A07BA9"
-					item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
+					item: {
+						count: 1
+						id: "draconicevolution:awakened_draconium_ingot"
+					}
 					type: "item"
 				}
 			]

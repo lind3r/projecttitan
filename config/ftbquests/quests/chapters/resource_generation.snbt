@@ -187,39 +187,60 @@
 			rewards: [
 				{
 					id: "4AC2D5E6F708A902"
-					item: { count: 1, id: "ae2:guide" }
+					item: {
+						count: 1
+						id: "ae2:guide"
+					}
 					type: "item"
 				}
 				{
 					id: "4AC2D5E6F708A903"
-					item: { count: 1, id: "ae2:inscriber" }
+					item: {
+						count: 1
+						id: "ae2:inscriber"
+					}
 					type: "item"
 				}
 				{
 					id: "4AC2D5E6F708A904"
-					item: { count: 1, id: "ae2:calculation_processor_press" }
+					item: {
+						count: 1
+						id: "ae2:calculation_processor_press"
+					}
 					type: "item"
 				}
 				{
 					id: "4AC2D5E6F708A907"
-					item: { count: 1, id: "ae2:engineering_processor_press" }
+					item: {
+						count: 1
+						id: "ae2:engineering_processor_press"
+					}
 					type: "item"
 				}
 				{
 					id: "4AC2D5E6F708A908"
-					item: { count: 1, id: "ae2:logic_processor_press" }
+					item: {
+						count: 1
+						id: "ae2:logic_processor_press"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "4AC2D5E6F708A909"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "4AC2D5E6F708A90A"
-					item: { count: 1, id: "ae2:fluix_block" }
+					item: {
+						count: 1
+						id: "ae2:fluix_block"
+					}
 					type: "item"
 				}
 			]
@@ -328,34 +349,43 @@
 		}
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
-			id: "8E6F1A2B3C4D5061"
+			id: "329EEDB0E29E970C"
 			rewards: [
 				{
-					id: "8E6F1A2B3C4D5064"
-					item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
+					id: "3D650209849E69C1"
+					item: {
+						count: 1
+						id: "industrialforegoing:mob_imprisonment_tool"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "8E6F1A2B3C4D5065"
-					item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
+					id: "3B952A30002F96D1"
+					item: {
+						count: 1
+						id: "industrialforegoing:pink_slime_ingot"
+					}
 					type: "item"
 				}
 				{
 					count: 32
-					id: "8E6F1A2B3C4D5066"
-					item: { count: 1, id: "minecraft:experience_bottle" }
+					id: "376F00E41DF46642"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "8E6F1A2B3C4D5062"
+					id: "437C6CC668FBADAE"
 					item: { count: 1, id: "industrialforegoing:mob_crusher" }
 					type: "item"
 				}
 				{
-					id: "8E6F1A2B3C4D5063"
+					id: "3D755F2D781F2616"
 					item: { count: 1, id: "industrialforegoing:essence_bucket" }
 					type: "item"
 				}
@@ -365,39 +395,48 @@
 		}
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
-			id: "9F702B3C4D5E6172"
+			id: "6C7DFBA1B6392A8A"
 			rewards: [
 				{
 					count: 4
-					id: "9F702B3C4D5E6175"
-					item: { count: 1, id: "hostilenetworks:blank_data_model" }
+					id: "419533D21C62C0F6"
+					item: {
+						count: 1
+						id: "hostilenetworks:blank_data_model"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "9F702B3C4D5E6176"
-					item: { count: 1, id: "hostilenetworks:prediction_matrix" }
+					id: "123BD04AFFE965E2"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
 					type: "item"
 				}
 				{
-					id: "9F702B3C4D5E6177"
-					item: { count: 1, id: "hostilenetworks:overworld_prediction" }
+					id: "0747979688F1D4E6"
+					item: {
+						count: 1
+						id: "hostilenetworks:overworld_prediction"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "9F702B3C4D5E6173"
+					id: "5ADC4C3D968E9FE1"
 					item: { count: 1, id: "hostilenetworks:sim_chamber" }
 					type: "item"
 				}
 				{
-					id: "9F702B3C4D5E6174"
+					id: "42EF77E0ADBB6F21"
 					item: { count: 1, id: "hostilenetworks:loot_fabricator" }
 					type: "item"
 				}
 				{
-					id: "9F702B3C4D5E6178"
+					id: "5D8BF878608A2BC9"
 					item: { count: 1, id: "hostilenetworks:deep_learner" }
 					type: "item"
 				}
@@ -410,19 +449,25 @@
 			id: "0A813C4D5E6F7283"
 			rewards: [
 				{
+					count: 8
 					id: "0A813C4D5E6F7286"
 					item: {
-						components: { "enderio:conduit": "enderio:enhanced_energy" }
-						count: 8
+						components: {
+							"enderio:conduit": "enderio:enhanced_energy"
+						}
+						count: 1
 						id: "enderio:conduit"
 					}
 					type: "item"
 				}
 				{
+					count: 8
 					id: "0A813C4D5E6F7287"
 					item: {
-						components: { "enderio:conduit": "enderio:enhanced_item" }
-						count: 8
+						components: {
+							"enderio:conduit": "enderio:enhanced_item"
+						}
+						count: 1
 						id: "enderio:conduit"
 					}
 					type: "item"
@@ -430,7 +475,10 @@
 				{
 					count: 4
 					id: "0A813C4D5E6F7288"
-					item: { count: 1, id: "enderio:vibrant_alloy_block" }
+					item: {
+						count: 1
+						id: "enderio:vibrant_alloy_block"
+					}
 					type: "item"
 				}
 			]
@@ -456,25 +504,37 @@
 			rewards: [
 				{
 					id: "1B924D5E6F708396"
-					item: { count: 1, id: "mekanism:portable_teleporter" }
+					item: {
+						count: 1
+						id: "mekanism:portable_teleporter"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "1B924D5E6F708397"
-					item: { count: 1, id: "mekanism:teleporter_frame" }
+					item: {
+						count: 1
+						id: "mekanism:teleporter_frame"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "1B924D5E6F708398"
-					item: { count: 1, id: "mekanism:alloy_atomic" }
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
 					type: "item"
 				}
 				{
 					count: 8
 					id: "1B924D5E6F708399"
-					item: { count: 1, id: "mekanism:pellet_antimatter" }
+					item: {
+						count: 1
+						id: "mekanism:pellet_antimatter"
+					}
 					type: "item"
 				}
 			]
