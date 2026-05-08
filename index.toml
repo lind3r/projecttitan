@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "MODLIST.txt"
+hash = "a9835ff89d42d09013ff23e1775b1b6267ce2cee518dbaea345661c09aeece3a"
+
+[[files]]
 file = "balance/energy-discovered.json"
 hash = "423ca509ea34fe80706cc0c40177dc221d16d82796a1874c7dfd8052edc3cbc4"
 
@@ -869,20 +873,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_i.cfe"
-hash = "4a07b711e9e7eae165efdb3631d79b165f1c435aefcb04cbb9af7bd3396d66e8"
+file = "config/ars_nouveau/search_index/_t.cfe"
+hash = "a61cc098fca28240093a677b502a1a5c263ffdf873fcdd291c6b8f07b4fcc676"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_i.cfs"
-hash = "378adefce60edabbb96768e8d2abb78bb7eb47940b60a6b008028aa62c2eec67"
+file = "config/ars_nouveau/search_index/_t.cfs"
+hash = "069c588986edf76e89d70d68549199c5680a6b9342bb70d613c1263674a822ee"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_i.si"
-hash = "e1e62c1f5766f0e835cbc194bc71c4ff1f0e594e4690de19e63bae9aed02337c"
+file = "config/ars_nouveau/search_index/_t.si"
+hash = "033f48e95fc05a36c2ead76afc19ef1d72ee0995cd61f5c581e9b46fedcee722"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_j"
-hash = "b3d4b69c36e8a221540b0ff3010b8f8e24f3114a01ce50362d082c39eb1e3697"
+file = "config/ars_nouveau/search_index/segments_u"
+hash = "39f28ca4e67390ff75e0128b1ce04152049796b8bfc989f494781b997809c860"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1282,7 +1286,7 @@ hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "2914eda920825fdaf31877bc6912636ac5c43b806904561badf4a08f6b0de3c9"
+hash = "3481e8a9f9a1155854fc6fe69c4923f7e5450766defbd92226259428b8d0f807"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1313,12 +1317,12 @@ file = "config/ftbquests/quests/chapters/magic.snbt"
 hash = "e282934db0f14e3ae8eac33e610d361a0b533c4670906a763fd78e2f19f3c67e"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/other.snbt"
-hash = "bda156bab242ac828bc54c433109c16347d3b633a145f4970e850f52e42f2934"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/resource_generation.snbt"
 hash = "1160f470b57bdd638e4c32ed91ce3cb43c8849e13b41cbfa45b143fde3394aaa"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/storage.snbt"
+hash = "8a00a430584fb67707c37e5ffc234fa48d1ec4aeaf375706ab3a2c881203ada2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/strong_foes.snbt"
@@ -1326,11 +1330,15 @@ hash = "c3a8e50635caa5a9c16e9b5a62c3078200242d34a995a05acea7a4ade6e211f1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
-hash = "48591e2b568bed1f4b4ab8093312795a672b153a835dbf0db5f866de44908836"
+hash = "d5b550dcc58cc488cd4f711b4687a35709ec141a48f315523bb4fe99922c029c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travel_the_world.snbt"
 hash = "31aa293591c6cbbadd57b15783785eb38a57dc8a1004ca4bb780674f0932c400"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/utility.snbt"
+hash = "ff2330d8da60040c2ce14e3cf4e66685bc1f92d0f5831001ddd1943d8650a84d"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1338,7 +1346,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "8c3b087923fb4ccedcb04df3d8bf0ed9491c8ababff0f44b6f9e670901667e89"
+hash = "70688ad4cb6f1ece93d04552f55f5719a3759274b3c6419943424ad40bca692e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -1482,7 +1490,7 @@ hash = "b5a9a4224f9cd006b7689c5ed6fcc674c7a6550c23292ec73bab490d948f8d77"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.json"
-hash = "9f60a577dafea6446800b32c93fdbfc5d13885163a5d09c6df88d23338334a47"
+hash = "1ebb0fb484177a9ae23243c033334dd1184be388834e31d11766d93f988f7875"
 
 [[files]]
 file = "config/jei/world/local/New_World__1/lookupHistory.json"
@@ -2150,6 +2158,11 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "98341e9765f45c38727a53e93600dbc25c678cf740a4a398e723fb07d5f49fcc"
+metafile = true
+
+[[files]]
+file = "mods/projecttitancore.pw.toml"
+hash = "0bd54336f5785394e3eb50f41b7a73947bf45e1065c084f15d1285a4ab3a4e80"
 metafile = true
 
 [[files]]

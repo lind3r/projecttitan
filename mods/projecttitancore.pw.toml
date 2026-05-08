@@ -1,0 +1,8 @@
+name = "Project Titan Core"
+filename = "projecttitancore-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/lind3r/projecttitancore/releases/download/v0.1.0/projecttitancore-0.1.0.jar"
+hash-format = "sha256"
+hash = "2718978fa687bede20da7a5865a59d259bffb6dc8d652cf53872914a1fe8708d"
