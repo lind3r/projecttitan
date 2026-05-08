@@ -11,7 +11,7 @@
 	quest.1FCD148E2DA620F0.quest_desc: [
 		"The Core wakes for the first time. A mote — barely more than dust — lifts from the crafting beam."
 		""
-		"Build basic power, feed the Core, and complete the T1 recipe to obtain the &eMote&r. Sustained &b~1k FE/t&r demand at the Core during the craft."
+		"Complete the T1 recipe at the Core to obtain the &eMote&r."
 		""
 		"&eReward:&r 16 iron blocks (T2 needs iron) and 16 XP bottles."
 	]
@@ -20,7 +20,7 @@
 	quest.2804065C0AD6C566.quest_desc: [
 		"The mote settles into a steady ember. Small, but it has a temperature now — and a temperament."
 		""
-		"Feed the &eMote&r back into the Core with iron to ignite the &eEmber&r. Sustained &b~4k FE/t&r will keep the craft fed."
+		"Feed the &eMote&r back into the Core with iron to ignite the &eEmber&r."
 		""
 		"&eReward:&r 16 iron blocks, 16 copper blocks (T4 looks ahead), 32 XP bottles."
 	]
@@ -29,7 +29,7 @@
 	quest.38E76E428BB53F52.quest_desc: [
 		"What was a smolder is now a held flame. The Core is no longer sleepy — it's waiting."
 		""
-		"Refine the &eEmber&r in iron at &b~16k FE/t&r demand. Power rooms start mattering at this scale."
+		"Refine the &eEmber&r in iron to forge the &eSpark&r."
 		""
 		"&eReward:&r 16 copper blocks, 16 gold blocks, a Totem of Undying."
 	]
@@ -38,7 +38,7 @@
 	quest.4A1B2C3D4E5F6071.quest_desc: [
 		"A heartbeat forms inside the Spark. The Core's hum syncs to your footsteps when you stand close."
 		""
-		"Add copper at &b~60k FE/t&r. A dedicated generator room is now the right shape for this stage."
+		"Add copper to the &eSpark&r to draw the &ePulse&r."
 		""
 		"&eReward:&r 16 gold blocks, 16 diamond blocks, 2 Totems of Undying."
 	]
@@ -47,7 +47,7 @@
 	quest.5A1B2C3D4E5F6071.quest_desc: [
 		"The Pulse calls back. Faint whispers in old tongues drift from the projection."
 		""
-		"Gold-ingredient craft at &b~250k FE/t&r. Scale to fuel-burner arrays or first reactor tunings."
+		"Run the &ePulse&r through gold to call the &eEcho&r."
 		""
 		"&eReward:&r 16 diamond blocks, 16 emerald blocks, a Nether Star."
 	]
@@ -56,7 +56,7 @@
 	quest.6A1B2C3D4E5F6071.quest_desc: [
 		"The Echo gains intent. The titan-shape above the Core no longer rotates passively — it watches."
 		""
-		"Diamond-bulk craft at &b~1M FE/t&r. Late-mod power infrastructure required."
+		"Bulk-craft the &eEcho&r in diamond to bind the &eWill&r."
 		""
 		"&eReward:&r 16 diamond blocks, 8 netherite blocks, 2 Nether Stars, a Beacon."
 	]
@@ -65,7 +65,7 @@
 	quest.7A1B2C3D4E5F6071.quest_desc: [
 		"The Will speaks in clean, terrible Latin. Mobs nearby flinch when the projection inhales."
 		""
-		"Diamond-bulk again at &b~4M FE/t&r. Nuclear-tier generation is now the natural answer."
+		"Push the &eWill&r through more diamond to give it a &eVoice&r."
 		""
 		"&eReward:&r 16 emerald blocks, 16 netherite blocks, 4 Nether Stars, 2 Beacons."
 	]
@@ -74,7 +74,7 @@
 	quest.1A6D32ADD93267FB.quest_desc: [
 		"Something looks back through the projection. It has wants. They are not yours."
 		""
-		"Emerald-bulk craft at &b~15M FE/t&r. Full nuclear pipeline — fission + turbine."
+		"Open the &eVoice&r in emerald — the &eSoul&r answers."
 		""
 		"&eReward:&r 16 netherite blocks, 8 Nether Stars, 4 Beacons, an Elytra."
 	]
@@ -83,7 +83,7 @@
 	quest.00205656D3436C2F.quest_desc: [
 		"The Soul outgrows mortal physics. Light bends near the Core; weather follows your mood now."
 		""
-		"Netherite-bulk craft at &b~60M FE/t&r. Approach fusion or face the Mekanism plateau."
+		"Surrender the &eSoul&r in netherite to ascend the &eShard&r."
 		""
 		"&eReward:&r 32 netherite blocks, 16 Nether Stars, 8 Beacons, 2 Elytras."
 	]
@@ -92,7 +92,7 @@
 	quest.74ED5B05FC10AF83.quest_desc: [
 		"The Heart of the Titan beats above the world. The projection is no longer a projection — it stands."
 		""
-		"Netherite-bulk apotheosis at &b~200M FE/t&r sustained. Fusion-class only."
+		"Forge the &eShard&r in netherite — the &eHeart&r beats."
 		""
 		"&eReward:&r 64 netherite blocks, 32 Nether Stars, 16 Beacons, 4 Elytras. (Tier-up world hooks deferred until the mod ships them.)"
 	]

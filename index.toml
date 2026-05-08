@@ -1330,7 +1330,7 @@ hash = "ab2233ee8d588d38a02ff84e503c029fbc6d360ed2e5c21f263ebac244e928e5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
-hash = "9cee041b767dca35016a3c0b56f12a39e99d7140dc4325876d3a7532dd15acb4"
+hash = "2e111f2176a0250ef29dc518ef1ab9e506038ca566c2eb83a8806375f11d2d72"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travel_the_world.snbt"
@@ -1346,7 +1346,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "f9db23b83f99b1e3ae0533a6c448e24e18ee8151ee6ea4d5d27ef7ced0550475"
+hash = "1f298db2aff130d47ad981c60427f2f064cea102ab2b4baa910840693165d8be"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
