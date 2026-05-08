@@ -30,3 +30,6 @@ crash-reports/
 # packwiz export artifacts (ship via GitHub Releases, not git)
 *.mrpack
 *.zip
+
+# Personal dev journal (Claude Code project notes)
+CLAUDE.md

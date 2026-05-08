@@ -17,11 +17,12 @@ import os
 import sys
 import urllib.parse
 import urllib.request
+from pathlib import Path
 
-PRISM_MODS = r"C:\Users\lind3\AppData\Roaming\PrismLauncher\instances\projecttitan\minecraft\mods"
-OUT_MODS = r"C:\Users\lind3\clones\project-titan\mods"
-SKIP = {"projecttitancore-1.0.0.jar"}  # our own mod, no published artifact yet
-USER_AGENT = "lind3r/project-titan/0.1 (packwiz-bootstrap)"
+PRISM_MODS = str(Path.home() / "AppData/Roaming/PrismLauncher/instances/projecttitan/minecraft/mods")
+OUT_MODS = str(Path(__file__).resolve().parent.parent / "mods")
+SKIP = {"projecttitancore-0.1.0.jar"}  # our own mod, tracked separately via GitHub release
+USER_AGENT = "project-titan/0.1 (packwiz-bootstrap)"
 
 
 def post_json(url, body):

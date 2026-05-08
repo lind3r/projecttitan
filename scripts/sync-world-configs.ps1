@@ -13,7 +13,7 @@ param(
   [Parameter(Mandatory=$true)] [string] $World,
   [switch] $DryRun,
   [string] $RepoRoot = (Split-Path -Parent $PSScriptRoot),
-  [string] $InstanceRoot = "C:\Users\lind3\AppData\Roaming\PrismLauncher\instances\projecttitan\minecraft"
+  [string] $InstanceRoot = (Join-Path $env:APPDATA "PrismLauncher\instances\projecttitan\minecraft")
 )
 
 $src = Join-Path $RepoRoot "defaultconfigs"
