@@ -33,3 +33,9 @@ crash-reports/
 
 # Personal dev journal (Claude Code project notes)
 CLAUDE.md
+
+# Reference inspiration (stoneblock4 quest export, kept locally for cross-pack lookup)
+stoneblock4_quests/
+
+# Per-chapter scratch fragments produced by quest-polish workstream
+scratch/
