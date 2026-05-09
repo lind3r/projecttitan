@@ -307,7 +307,7 @@
 	]
 	quest.4AC2D5E6F708A901.quest_subtitle: "Hold G. The mod tells you the rest."
 	quest.4AC2D5E6F708A901.title: "&6AE2&r: Read the Guide"
-	quest.8E6F1A2B3C4D5061.quest_desc: [
+	quest.329EEDB0E29E970C.quest_desc: [
 		"&6Industrial Foregoing&r's blender. The &eMob Crusher&r damages every mob in front of it, converting kills into drops, XP, and &bEssence&r fluid."
 		""
 		"&aBuild:&r"
@@ -317,9 +317,9 @@
 		"- Bottle a bucket of &bEssence&r to prove it's running."
 		"- &bEssence&r is liquid XP — feed it to a &6Mekanism&r &eBio-Generator&r, or convert it back into bottles for an enchanting fountain."
 	]
-	quest.8E6F1A2B3C4D5061.quest_subtitle: "Mobs in, drops out."
-	quest.8E6F1A2B3C4D5061.title: "Mob Crusher"
-	quest.9F702B3C4D5E6172.quest_desc: [
+	quest.329EEDB0E29E970C.quest_subtitle: "Mobs in, drops out."
+	quest.329EEDB0E29E970C.title: "Mob Crusher"
+	quest.6C7DFBA1B6392A8A.quest_desc: [
 		"&6Hostile Neural Networks&r teaches your computer to dream of monsters. Tag a mob with the &eDeep Learner&r, train its &eData Model&r in the &eSim Chamber&r, and the &eLoot Fabricator&r turns &ePredictions&r back into drops — no spawn pad, no AFK, no risk."
 		""
 		"&aBuild:&r"
@@ -330,8 +330,8 @@
 		"&aUse:&r"
 		"- Both machines want a steady supply of &bFE&r — undersize the line and the loop stalls."
 	]
-	quest.9F702B3C4D5E6172.quest_subtitle: "Loot without combat."
-	quest.9F702B3C4D5E6172.title: "&6Hostile Neural Networks&r"
+	quest.6C7DFBA1B6392A8A.quest_subtitle: "Loot without combat."
+	quest.6C7DFBA1B6392A8A.title: "&6Hostile Neural Networks&r"
 	quest.0A813C4D5E6F7283.quest_desc: [
 		"&6Ender IO&r's lazy-farmer blueprint. Stick saplings, seeds, or netherwart in the &eFarming Station&r's slots, point &eConduits&r in and out, feed it &aForge Energy&r, and walk away."
 		""
@@ -964,23 +964,6 @@
 	]
 	quest.50AB2804E6DD116F.quest_subtitle: "Combust or absorb."
 	quest.50AB2804E6DD116F.title: "&6Ender IO&r — Tech-Base Generators"
-	quest.0B60A88016135BD8.quest_desc: [
-		"&6Industrial Foregoing&r turns automated farms into a renewable fuel pipeline. Pair the &eBioreactor&r with the &eBiofuel Generator&r and any plant matter becomes FE."
-	]
-	quest.0B60A88016135BD8.quest_subtitle: "Plants in. Power out."
-	quest.0B60A88016135BD8.title: "&6Industrial Foregoing&r — Living Fuel"
-	quest.0DEB64110C1E5314.quest_desc: [
-		"&6Oritech&r's &eBio Generator&r centrifuges biomass and burns the result. Compact, mid-tier, and slots into Oritech's larger automation chain."
-	]
-	quest.0DEB64110C1E5314.quest_subtitle: "Biomass, refined."
-	quest.0DEB64110C1E5314.title: "&6Oritech&r — Biomass Burner"
-	quest.5E936390DD4A9848.quest_desc: [
-		"&6Draconic Evolution&r doesn't generate energy here — it &astores&r it. The &eWyvern Capacitor&r is the first storage block in a tier that ends with reactor-scale buffers."
-		""
-		"&7&oTip: build the Capacitor as your transition from per-machine batteries to a centralized FE buffer.&r"
-	]
-	quest.5E936390DD4A9848.quest_subtitle: "Energy banked at draconium scale."
-	quest.5E936390DD4A9848.title: "&6Draconic Evolution&r — High-Tier Storage"
 	quest.4739B7C350766DAF.quest_desc: [
 		"&6Flux Networks&r is wireless power — an invisible mesh that carries &aFE&r between any two endpoints, no cables, no distance, no dimension limits."
 		""
@@ -1017,206 +1000,19 @@
 	]
 	quest.36EA3272B9CC4D2F.quest_subtitle: "Wireless charging, anywhere."
 	quest.36EA3272B9CC4D2F.title: "Network Controller"
-	quest.A1F2B3C4D5E60701.quest_desc: [
-		"&6Mekanism&r is the pack's spine for ore multiplication and logistics. Its tiered factory chain takes raw ore from 2x to 5x, and its endgame &eQuantum Entangloporter&r erases distance from your network."
-		""
-		"Paths in this section:"
-		"- &eDigital Miner&r — auto-mine an entire chunk radius."
-		"- &eEnrichment Chamber&r chain — 2x → 5x ore processing."
-		"- &eQuantum Entangloporter&r — wireless &aitems&r, &bfluids&r, &bgas&r, and &aFE&r between dimensions."
-	]
-	quest.A1F2B3C4D5E60701.quest_subtitle: "Multiply ore. Move it anywhere."
-	quest.A1F2B3C4D5E60701.title: "&6Mekanism&r — Factory Line"
-	quest.B2E3D4C5F6071802.quest_desc: [
-		"&6Create&r turns rotational kinetics into resources. The &eMechanical Press&r and &eMechanical Mixer&r mass-produce alloys; the &eCrushing Wheels&r grind raw ore into a 2x &ecrushed-ore&r yield."
-		""
-		"Paths in this section:"
-		"- &eMechanical Press&r + &eMixer&r — sheet metals and alloys."
-		"- &eCrushing Wheels&r — kinetic ore doubling without &aFE&r."
-	]
-	quest.B2E3D4C5F6071802.quest_subtitle: "Kinetic resource processing."
-	quest.B2E3D4C5F6071802.title: "&6Create&r — Kinetic Works"
-	quest.C3D4E5F607182903.quest_desc: [
-		"&6Applied Energistics 2&r is the pack's digital storage system — channels, drives, terminals, autocrafting. Dense and unforgiving, but it ships with its own searchable in-game guide."
-		""
-		"Paths in this section:"
-		"- &6AE2&r: Read the Guide — hold &eG&r and let the mod teach itself."
-	]
-	quest.C3D4E5F607182903.quest_subtitle: "Digital storage. Hold G."
-	quest.C3D4E5F607182903.title: "&6AE2&r — Digital Storage"
-	quest.D4C5B6A7E8F90A04.quest_desc: [
-		"&6Industrial Foregoing&r automates the boring jobs — crops planted and harvested by machine, mobs killed by machine, &bessence&r piped out as liquid XP."
-		""
-		"Paths in this section:"
-		"- &ePlant Sower&r + &ePlant Gatherer&r — fully automated farms."
-		"- &eMob Crusher&r — kills mobs in front of it for drops, XP, and &bEssence&r."
-	]
-	quest.D4C5B6A7E8F90A04.quest_subtitle: "Crops and mobs, on autopilot."
-	quest.D4C5B6A7E8F90A04.title: "&6Industrial Foregoing&r — Automated Farms"
-	quest.E5B6A798F90B1B05.quest_desc: [
-		"&6Hostile Neural Networks&r is loot-without-combat. Tag a mob with the &eDeep Learner&r, train its &eData Model&r in a &eSim Chamber&r, then the &eLoot Fabricator&r pumps out &ePredictions&r — no spawn pad, no AFK, no risk."
-		""
-		"Paths in this section:"
-		"- &eSim Chamber&r + &eLoot Fabricator&r + &eDeep Learner&r — the full prediction loop."
-	]
-	quest.E5B6A798F90B1B05.quest_subtitle: "Loot without the fight."
-	quest.E5B6A798F90B1B05.title: "&6Hostile Networks&r — Predicted Loot"
-	quest.F6A7B8C9D0E12C06.quest_desc: [
-		"&6Ender IO&r's &eFarming Station&r is the lazy-farmer blueprint. Drop in saplings, seeds, or netherwart, point &eConduits&r in and out, feed it &aForge Energy&r, and walk away."
-		""
-		"Paths in this section:"
-		"- &eFarming Station&r + &eConduits&r — set-and-forget crop and tree farms."
-	]
-	quest.F6A7B8C9D0E12C06.quest_subtitle: "Plant it, pipe it, forget it."
-	quest.F6A7B8C9D0E12C06.title: "&6Ender IO&r — Farm & Pipe"
 	
-	quest.A1C7E0F2B3D49510.quest_desc: [
-		"&6Apotheosis&r turns vanilla loot into a system of rarities, affixes, and gem-augmented gear. Salvage the drops you don't want, cut gems for the ones you do, and reforge to chase better affixes."
-		""
-		"Paths in this section:"
-		"- &eGem Cutting Table&r — refine raw gems into socket-ready cuts."
-		"- &eReforging Table&r — re-roll affixes on existing gear."
-		"- &eSalvaging Table&r — break down unwanted affix loot into &eRare&r and &eEpic Materials&r."
-	]
-	quest.A1C7E0F2B3D49510.quest_subtitle: "Affixes, gems, salvage."
-	quest.A1C7E0F2B3D49510.title: "&6Apotheosis&r — Loot & Gems"
 	
-	quest.B2D8F103C4E5A620.quest_desc: [
-		"&6Apothic Enchanting&r extends vanilla &aenchanting&r with library shelves that push you past level 30 and unlock higher-tier enchant pools."
-		""
-		"Paths in this section:"
-		"- &eHellshelf&r / &eEndshelf&r — power-tier shelves that crank an enchanting table beyond stock limits."
-	]
-	quest.B2D8F103C4E5A620.quest_subtitle: "Past level 30."
-	quest.B2D8F103C4E5A620.title: "&6Apothic Enchanting&r — Library Boosts"
 	
-	quest.C3E90214D5F6B730.quest_desc: [
-		"&6Mekanism&r kit gives you mobility and a tier of multipurpose tools that scale on &aFE&r charge instead of durability."
-		""
-		"Paths in this section:"
-		"- &eJetpack&r — hover, ascend, glide; runs on &bhydrogen&r."
-		"- &eAtomic Disassembler&r — pickaxe + axe + shovel + hoe in one charged tool."
-		"- &eMekaSuit Helmet&r — the modular armor shell. Modules come later."
-	]
-	quest.C3E90214D5F6B730.quest_subtitle: "Mobility and modular gear."
-	quest.C3E90214D5F6B730.title: "&6Mekanism&r — Mobility & Tools"
 	
-	quest.D4FA1325E607C840.quest_desc: [
-		"&6Sophisticated Backpacks&r solves carry weight with a tiered backpack that accepts upgrades for filtering, magnet pickup, auto-pickup, and more."
-		""
-		"Paths in this section:"
-		"- &eIron Backpack&r — the entry tier. Upgrade slots come stock."
-	]
-	quest.D4FA1325E607C840.quest_subtitle: "Carry it all."
-	quest.D4FA1325E607C840.title: "&6Sophisticated Backpacks&r — Carry Capacity"
 	
-	quest.E50B2436F718D950.quest_desc: [
-		"&6Tool Belt&r adds a hotbar-adjacent belt slot for tools you swap constantly. Strap your pickaxe, axe, sword, and shovel to your waist and stop juggling inventory rows."
-		""
-		"Paths in this section:"
-		"- &eTool Belt&r — the belt itself. Pouches expand its capacity."
-	]
-	quest.E50B2436F718D950.quest_subtitle: "Strap your tools to your waist."
-	quest.E50B2436F718D950.title: "&6Tool Belt&r — Quick-Swap Carry"
 	
-	quest.F61C3547082EEA60.quest_desc: [
-		"&6Mining Gadgets&r replaces the pickaxe-and-shovel grind with a charged beam tool that mines areas at once. Upgrades let it silk-touch, magnetize drops, and burn through stone faster."
-		""
-		"Paths in this section:"
-		"- &eMining Gadget&r — the basic beam miner. Upgrades slot in to specialise it."
-	]
-	quest.F61C3547082EEA60.quest_subtitle: "Tunnel without the pickaxe."
-	quest.F61C3547082EEA60.title: "&6Mining Gadgets&r — Beam Mining"
 	
-	quest.0A2D4658193FFB70.quest_desc: [
-		"&6Create&r builds breath gear from copper backtanks and diving helmets. Net result: extended underwater time and lava-resistant netherite upgrades for late-game exploration."
-		""
-		"Paths in this section:"
-		"- &eDiving Gear&r — Copper Backtank + Copper Diving Helmet. Survive water; upgrade to netherite for lava."
-	]
-	quest.0A2D4658193FFB70.quest_subtitle: "Breathe underwater. Survive lava."
-	quest.0A2D4658193FFB70.title: "&6Create&r — Diving & Survival"
 	
-	quest.1B3E576A2A40AC80.quest_desc: [
-		"&6Draconic Evolution&r is the late-game gear track. Wyvern-tier is the mid-rung — chestpiece + sword + capacitor + tools that hold huge &aFE&r reserves and shrug off most damage."
-		""
-		"Paths in this section:"
-		"- &eWyvern Tier&r — Chestpiece + Sword. Chaos-tier is still ahead."
-	]
-	quest.1B3E576A2A40AC80.quest_subtitle: "Mid-tier draconic gear."
-	quest.1B3E576A2A40AC80.title: "&6Draconic Evolution&r — Wyvern Track"
 	
-	quest.B41E8A29C7F60D14.quest_desc: [
-		"&6Ars Nouveau&r's spellcraft starts at the bench. Glyphs are scribed, combined, and bound onto a wand or spell book — and the gear that powers that crafting is built first."
-		""
-		"Paths in this section:"
-		"- &eInscribe & Cast&r — scribe glyphs and cast your first spell."
-		"- &eThe Workshop&r — build the &eEnchanting Apparatus&r and &eImbuement Chamber&r for spell-tier crafting."
-	]
-	quest.B41E8A29C7F60D14.quest_subtitle: "Glyphs, books, and benches."
-	quest.B41E8A29C7F60D14.title: "&6Ars Nouveau&r — Spellcraft"
-	quest.D72FA3B58E914C26.quest_desc: [
-		"&6Ars Nouveau&r runs on &bSource&r — its mana-equivalent fluid. Generate it from natural-feature blocks or magebloom, pipe it into &eSource Jars&r with relays, and feed every spell-tier machine downstream."
-		""
-		"Paths in this section:"
-		"- &eMana on Tap&r — &eSource Jars&r, &eRelays&r, and a &eVolcanic Sourcelink&r to generate."
-		"- &eCultivate&r — grow &eMagebloom&r as a renewable &bSource&r feedstock."
-	]
-	quest.D72FA3B58E914C26.quest_subtitle: "Generate, pipe, store."
-	quest.D72FA3B58E914C26.title: "&6Ars Nouveau&r — &bSource&r Infrastructure"
-	quest.E83B9D14F60AC51B.quest_desc: [
-		"&6Ars Nouveau&r's &aritual&r system draws sacred geometry around a &eRitual Brazier&r — drop in a tablet, watch the world respond. The same mod ships &acompanion&r familiars that pay back the &bSource&r you spend feeding them."
-		""
-		"Paths in this section:"
-		"- &eFirst Ritual&r — set up a &eRitual Brazier&r and run &eAwakening&r."
-		"- &eDrygmy Charm&r — bind a &eDrygmy&r to harvest mob drops passively."
-	]
-	quest.E83B9D14F60AC51B.quest_subtitle: "Braziers, tablets, familiars."
-	quest.E83B9D14F60AC51B.title: "&6Ars Nouveau&r — Rituals & Companions"
-	quest.C95E2F8B146DA037.quest_desc: [
-		"&6Ars Nouveau&r's &eSorcerer Armor&r set is the spellcaster's uniform — &bmana&r regen, reduced spell cost, and the look. Craft it on the &eEnchanting Apparatus&r once you have spell-tier essences flowing."
-		""
-		"Paths in this section:"
-		"- &eMage Robes&r — full &eSorcerer&r set, hood to boots."
-	]
-	quest.C95E2F8B146DA037.quest_subtitle: "Dress for casting."
-	quest.C95E2F8B146DA037.title: "&6Ars Nouveau&r — Adept's Gear"
 	
-	quest.9A2BFE0C7311D845.quest_desc: [
-		"&6Sophisticated Storage&r is the modern successor to vanilla barrels and chests — every block is tiered (stone, copper, iron, gold, diamond, netherite) with &aupgrade&r slots for stack-multipliers, auto-pickup, item filters, and more."
-		""
-		"Path in this section:"
-		"- &eIron Barrel&r — first real tier-up; entry to the upgrade economy."
-	]
-	quest.9A2BFE0C7311D845.quest_subtitle: "Tiered barrels with upgrade slots."
-	quest.9A2BFE0C7311D845.title: "&6Sophisticated Storage&r — Tiered Barrels"
 	
-	quest.8DCA3F71B902EE57.quest_desc: [
-		"&6Functional Storage&r is a compact, &anetworked&r drawer system — link drawers with the &eLinking Tool&r, route everything through a &eStorage Controller&r, scale slot count with copper/gold/diamond &aupgrades&r."
-		""
-		"Path in this section:"
-		"- &eOak 1x1 Drawer&r — the seed block of any drawer wall."
-	]
-	quest.8DCA3F71B902EE57.quest_subtitle: "Compact drawers, linked into a network."
-	quest.8DCA3F71B902EE57.title: "&6Functional Storage&r — Drawer Network"
 	
-	quest.7E1D62A0CCB35F49.quest_desc: [
-		"&6Metal Barrels&r are pure tier-ups of the vanilla barrel — copper, iron, silver, gold, diamond, obsidian, netherite, crystal. Each tier multiplies stack capacity dramatically with no upgrade slots and no GUI clutter."
-		""
-		"Path in this section:"
-		"- &eIron Barrel&r — the first big jump in raw stack count."
-	]
-	quest.7E1D62A0CCB35F49.quest_subtitle: "Vanilla barrel, scaled hard."
-	quest.7E1D62A0CCB35F49.title: "&6Metal Barrels&r — Brute-Force Capacity"
 	
-	quest.6F0AB5C4E78D9213.quest_desc: [
-		"&6Item Collectors&r vacuum loose items inside a configurable radius and push them into the adjacent inventory. Pair with farms, mob grinders, or cobble generators to keep the floor clean."
-		""
-		"Path in this section:"
-		"- &eBasic Item Collector&r — the entry-tier vacuum block."
-	]
-	quest.6F0AB5C4E78D9213.quest_subtitle: "Drops, vacuumed."
-	quest.6F0AB5C4E78D9213.title: "&6Item Collectors&r — Vacuum Drops"
 	
 	quest.2BC09E84F37A1D65.quest_desc: [
 		"&6Applied Energistics 2&r is the gold-standard digital storage system — items live as data on &eME Drives&r and &estorage cells&r, accessed through Terminals from anywhere on the network. &6ExtendedAE&r layers on denser pattern providers and quality-of-life upgrades for megabase autocraft."
@@ -1228,100 +1024,4 @@
 	quest.2BC09E84F37A1D65.quest_subtitle: "Digital storage, networked."
 	quest.2BC09E84F37A1D65.title: "&6Applied Energistics 2&r — Network Storage"
 	
-	quest.9D8C7B6A5F4E3D21.quest_desc: [
-		"&6Farmer's Delight&r adds a kitchen — the &eCooking Pot&r is the heart, with knives, skillets, and over a hundred dishes that hand out useful buffs."
-		""
-		"Paths in this section:"
-		"- &eHot Kitchen&r — set up a Cooking Pot for stews and rich foods."
-	]
-	quest.9D8C7B6A5F4E3D21.quest_subtitle: "Cooking Pot, knives, dishes."
-	quest.9D8C7B6A5F4E3D21.title: "&6Farmer's Delight&r — Kitchen"
-	quest.8E7D6C5B4A3F2E11.quest_desc: [
-		"&6Spice of Life: Carrot Edition&r rewards eating a varied diet with bonus &amax health&r. The &eFood Book&r tracks which foods you've tried."
-		""
-		"Paths in this section:"
-		"- &eEat Your Veggies&r — open the Food Book and start cataloguing meals."
-	]
-	quest.8E7D6C5B4A3F2E11.quest_subtitle: "Variety = max health."
-	quest.8E7D6C5B4A3F2E11.title: "&6Spice of Life&r — Eat Variety"
-	quest.7F6E5D4C3B2A1F01.quest_desc: [
-		"&6Simple Magnets&r is a Curio that pulls nearby items and XP straight to you. No more chasing scattered drops."
-		""
-		"Paths in this section:"
-		"- &eEquip a Magnet&r — craft the &eBasic Magnet&r and slot it."
-	]
-	quest.7F6E5D4C3B2A1F01.quest_subtitle: "Items come to you."
-	quest.7F6E5D4C3B2A1F01.title: "&6Simple Magnets&r — Pickup Range"
-	quest.5C4B3A29F8E7D6B1.quest_desc: [
-		"&6Pipez&r is a single-block solution for moving &aitems&r, &bfluids&r, &bgas&r, and &aFE&r. Each pipe takes upgrades to scale throughput and add filtering."
-		""
-		"Paths in this section:"
-		"- &ePipework&r — lay down item pipes and slot upgrades."
-	]
-	quest.5C4B3A29F8E7D6B1.quest_subtitle: "Move stuff. Quickly."
-	quest.5C4B3A29F8E7D6B1.title: "&6Pipez&r — Logistics"
-	quest.4B3A2918E7D6C5A1.quest_desc: [
-		"&6Trash Cans&r voids unwanted &aitems&r, &bfluids&r, and &aFE&r at full speed. The &eUltimate Trash Can&r eats anything you point at it."
-		""
-		"Paths in this section:"
-		"- &eTrash Cans&r — make the cobble go away."
-	]
-	quest.4B3A2918E7D6C5A1.quest_subtitle: "Void cobble forever."
-	quest.4B3A2918E7D6C5A1.title: "&6Trash Cans&r — Voiding"
-	quest.3A29180F7E6D5C41.quest_desc: [
-		"&6Crafting Station&r is a crafting table that remembers its grid contents and shares them with adjacent stations — chain-craft without re-laying ingredients every time."
-		""
-		"Paths in this section:"
-		"- &eCrafting Station&r — replace your crafting table."
-	]
-	quest.3A29180F7E6D5C41.quest_subtitle: "Crafting that remembers."
-	quest.3A29180F7E6D5C41.title: "&6Crafting Station&r — Better Bench"
-	quest.290F1E2D3C4B5A61.quest_desc: [
-		"&6Quark&r is a vanilla+ grab-bag — &eBackpacks&r, &eAncient Tomes&r, &eSeed Pouches&r, &eAbacus&r, and dozens of small QoL blocks tucked into the corners of vanilla."
-		""
-		"Paths in this section:"
-		"- &ePocket Tools&r — craft a Backpack and a Trowel."
-	]
-	quest.290F1E2D3C4B5A61.quest_subtitle: "Vanilla+, sharper edges."
-	quest.290F1E2D3C4B5A61.title: "&6Quark&r — Vanilla Plus"
-	quest.F09E8D7C6B5A4901.quest_desc: [
-		"&6Curios&r adds an extra inventory tab with slots for rings, belts, charms, necklaces, and more. Almost every accessory mod in the pack plugs into Curios."
-		""
-		"Paths in this section:"
-		"- &eCurio Slots&r — open the second inventory."
-	]
-	quest.F09E8D7C6B5A4901.quest_subtitle: "The accessory layer."
-	quest.F09E8D7C6B5A4901.title: "&6Curios&r — Accessory Slots"
-	quest.E08D7C6B5A493821.quest_desc: [
-		"&6Supplementaries&r adds dozens of decorative-but-useful blocks — &eSacks&r, &eGlobes&r, &eHourglasses&r, &eSafes&r, &eJars&r. The little touches that make a base feel lived-in."
-		""
-		"Paths in this section:"
-		"- &eWorldly Trinkets&r — craft a Sack and a Globe."
-	]
-	quest.E08D7C6B5A493821.quest_subtitle: "The little things."
-	quest.E08D7C6B5A493821.title: "&6Supplementaries&r — Decor & Trinkets"
-	quest.D07C6B5A49382711.quest_desc: [
-		"&6Macaw's&r is a five-mod bundle (Windows, Doors, Roofs, Furniture, Lights) that hands you the building blocks for places worth living in. Mix-and-match wood types, slanted roofs, working lamps, decent chairs."
-		""
-		"Paths in this section:"
-		"- &eSuburban Architect&r — sample one block from each Macaw's mod."
-	]
-	quest.D07C6B5A49382711.quest_subtitle: "Build a real house."
-	quest.D07C6B5A49382711.title: "&6Macaw's&r — Building Toolkit"
-	quest.C06B5A4938271601.quest_desc: [
-		"&6Chisel&r turns one block into fifty variants. The &eIron Chisel&r unlocks a GUI that cycles through every chiseled form of stone, sandstone, planks, and more."
-		""
-		"Paths in this section:"
-		"- &eChisel&r — one block, fifty variants."
-	]
-	quest.C06B5A4938271601.quest_subtitle: "Block variants on demand."
-	quest.C06B5A4938271601.title: "&6Chisel&r — Block Variants"
-	quest.B05A493827160F11.quest_desc: [
-		"&6CC: Tweaked&r drops programmable Lua &eComputers&r and &eTurtles&r into Minecraft — auto-mining, auto-crafting, redstone control, all scriptable. Steep learning curve, deep ceiling."
-		""
-		"Paths in this section:"
-		"- &eBoot a Computer&r — craft a Computer and a Turtle."
-	]
-	quest.B05A493827160F11.quest_subtitle: "Code in your world."
-	quest.B05A493827160F11.title: "&6CC: Tweaked&r — Programmable Computers"
 }

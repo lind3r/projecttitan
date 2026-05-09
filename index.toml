@@ -873,20 +873,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_17.cfe"
-hash = "43a16e5f748b8b1106c6f55020c6f024f35d4b61d82084879f1d1888201489ff"
+file = "config/ars_nouveau/search_index/_19.cfe"
+hash = "79ef5b30c5a90e3519370528b136d1eb63e00ceec84a598d9bdf33b1dc751b65"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_17.cfs"
-hash = "018289dfb23124a0968a57f19eecd5377a42cf459f92a80097a96c9fd64eed7c"
+file = "config/ars_nouveau/search_index/_19.cfs"
+hash = "99270d426e9ad0ecfecde8ae75c97ab32c32b0f4bbbe75f133979ccbbe4bbbff"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_17.si"
-hash = "35172f489c3d84181d117740095003eab3d498c52be46cf00235507d738af5ec"
+file = "config/ars_nouveau/search_index/_19.si"
+hash = "68eca4d68a3edb6acfeab812002d6a0f2ff73232faf1a54fafedac362dfa9468"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_18"
-hash = "6b953bd98990bdc318e6ddf6b5252267e8901bbec0cc1ced2cb8ac0b913ac553"
+file = "config/ars_nouveau/search_index/segments_1a"
+hash = "47b2f3b15bf5dea9853dd0dc54ef25508dfdc0dca120c8774f17dbc4d2da810e"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1286,7 +1286,7 @@ hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "f88e5875018f62ac042ceabfc183acb68beda84488d4002605d53e1c7a3c623c"
+hash = "ddc9b6a5f7d81a08c4b87de195db7ff90dfcc700a8bab2292f7622b9f1f66c18"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1306,23 +1306,23 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/energy_generation.snbt"
-hash = "67c92ac6260f400ef321c5f26cc956c5179dfc9168ad25a6bb6e2e2c62fbd3f2"
+hash = "393f5edb303a51cfba771ad33507cce93437463bcfaccc870e6d0f29d2a2729b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gearing_up.snbt"
-hash = "c54e9d766d52f7eb36b81659d9f2961280c0988c1091e6f140906fec03f338e7"
+hash = "81c463f3fba0fbe9ae801d15360d28a08ef3df7c9b6b240262a3fb2a66d271f5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic.snbt"
-hash = "ef2c94926df7aff4967995c67771b2d043d41802ec0d768df3ecb40928ef5cb7"
+hash = "e282934db0f14e3ae8eac33e610d361a0b533c4670906a763fd78e2f19f3c67e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_generation.snbt"
-hash = "40f6249d83ddbdf352fb8e4ed413c2568331774a89d7188dc6af97a9548fdc2b"
+hash = "5d0b71678962dc1b841016d879d0cda6f8fc87eed6dc86a2e4b9264d5ccd7c5b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
-hash = "1ef6e8e6fc927c8ae2f3f777dd0053d419055237bd652124fdd747ae50abd4a4"
+hash = "4ece32851121c68db0ae8f2ce8dc9e594772ff064d8fae57ed9abb2b0eadb841"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/strong_foes.snbt"
@@ -1338,7 +1338,7 @@ hash = "31aa293591c6cbbadd57b15783785eb38a57dc8a1004ca4bb780674f0932c400"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/utility.snbt"
-hash = "54600443d573bd06435cb3abdf64011fee0d4043cc5a6992112c2bf2600f5e22"
+hash = "8adda2de33151ea8a713edd765cb324f9012ab5dd73583c01be38e8c467ee0e7"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1346,7 +1346,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "ea3c7fe95589d14d24a345958ecf42342fe0bbfb547c1863d140434a76ed6390"
+hash = "8c86d3153bd346cfa717077b3e23bc0becc88c95e5466068b5103063f8f67363"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -1502,7 +1502,7 @@ hash = "1684352e59bd18bf438a4b04938990cd6e41f22e21170c8cf06eeb64615e44bd"
 
 [[files]]
 file = "config/jei/world/local/New_World__3/lookupHistory.json"
-hash = "62171813e8b590e72af655d712c916861e3e35c7c87735639de7266c46b97a39"
+hash = "91fd18f878c6174981246c71d831f71d2abcf433a08fdc7ec1a83681db950820"
 
 [[files]]
 file = "config/journeymap-server.toml"
@@ -2332,6 +2332,22 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "bc0438a2fcfe47a3ab855c8f28fe7775c6ea274ef8a168093496bd6653d11e32"
 metafile = true
+
+[[files]]
+file = "scratch/delete_orphan_lang.py"
+hash = "32beae820173695b7faad6980161b8a5720a6cc797ba6aa12bf3fe376fe1cc08"
+
+[[files]]
+file = "scratch/drop_section_hubs.py"
+hash = "dc865a6a6b7238d869b8a0c144e91507e9aecd7ffe9a3c1e5ae246ec76a81f09"
+
+[[files]]
+file = "scratch/hub_audit.py"
+hash = "511c9b7fa9f5e7ea09f43d3b5f026b765fa7c6efe700f295c9c8b6830ab98a8a"
+
+[[files]]
+file = "scratch/orphan_audit.py"
+hash = "37fd17e2c92c07fb567d3dcde4df595d9f60fdd73a467985a275f04e12e5626c"
 
 [[files]]
 file = "scratch/quest_polish/energy_generation.snbt"

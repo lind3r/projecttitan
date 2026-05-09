@@ -34,19 +34,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "9D8C7B6A5F4E3D21"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "9D8C7B6A5F4E3D22"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["9D8C7B6A5F4E3D21"]
 			id: "6CE4F5061728390A"
 			rewards: [
 				{
@@ -92,19 +79,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "8E7D6C5B4A3F2E11"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "8E7D6C5B4A3F2E12"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["8E7D6C5B4A3F2E11"]
 			id: "1A2B3C4D5E6F70B1"
 			rewards: [
 				{
@@ -154,18 +128,6 @@
 		}
 		{
 			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "7F6E5D4C3B2A1F01"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "7F6E5D4C3B2A1F02"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7F6E5D4C3B2A1F01"]
 			id: "6CE4F5061728396A"
 			rewards: [
 				{
@@ -196,18 +158,6 @@
 		}
 		{
 			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "5C4B3A29F8E7D6B1"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "5C4B3A29F8E7D6B2"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["5C4B3A29F8E7D6B1"]
 			id: "6CE4F5061728394A"
 			rewards: [
 				{
@@ -246,18 +196,6 @@
 		}
 		{
 			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "4B3A2918E7D6C5A1"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "4B3A2918E7D6C5A2"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4B3A2918E7D6C5A1"]
 			id: "1A2B3C4D5E6F70D1"
 			rewards: [
 				{
@@ -295,18 +233,6 @@
 		}
 		{
 			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "3A29180F7E6D5C41"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "3A29180F7E6D5C42"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["3A29180F7E6D5C41"]
 			id: "1A2B3C4D5E6F70C1"
 			rewards: [
 				{
@@ -338,18 +264,6 @@
 		}
 		{
 			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "290F1E2D3C4B5A61"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "290F1E2D3C4B5A62"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["290F1E2D3C4B5A61"]
 			id: "6CE4F5061728392A"
 			rewards: [
 				{
@@ -393,19 +307,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "F09E8D7C6B5A4901"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "F09E8D7C6B5A4902"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["F09E8D7C6B5A4901"]
 			id: "1A2B3C4D5E6F7091"
 			rewards: [
 				{
@@ -435,19 +336,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "E08D7C6B5A493821"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "E08D7C6B5A493822"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["E08D7C6B5A493821"]
 			id: "6CE4F5061728391A"
 			rewards: [
 				{
@@ -492,19 +380,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "D07C6B5A49382711"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "D07C6B5A49382712"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["D07C6B5A49382711"]
 			id: "1A2B3C4D5E6F7081"
 			rewards: [
 				{
@@ -566,19 +441,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "C06B5A4938271601"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "C06B5A4938271602"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["C06B5A4938271601"]
 			id: "1A2B3C4D5E6F70A1"
 			rewards: [
 				{
@@ -617,19 +479,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["18A2F4B6C7D8E9F1"]
-			id: "B05A493827160F11"
-			shape: "rsquare"
-			size: 1.2d
-			tasks: [{
-				id: "B05A493827160F12"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["B05A493827160F11"]
 			id: "6CE4F5061728397A"
 			rewards: [
 				{
