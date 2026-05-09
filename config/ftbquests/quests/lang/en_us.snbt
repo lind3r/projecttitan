@@ -67,14 +67,14 @@
 	quest.00205656D3436C2F.quest_desc: [
 		"The Soul outgrows mortal physics. Light bends near the Core; weather follows your mood now."
 		""
-		"Surrender the &eSoul&r in netherite to ascend the &eShard&r."
+		"Surrender the &eSoul&r in netherite to draw the Titan's &eBreath&r."
 	]
 	quest.00205656D3436C2F.quest_subtitle: "Above mortal reach."
-	quest.00205656D3436C2F.title: "Tier 9 - &eAscendant Shard&r"
+	quest.00205656D3436C2F.title: "Tier 9 - &eBreath of the Titan&r"
 	quest.74ED5B05FC10AF83.quest_desc: [
 		"The Heart of the Titan beats above the world. The projection is no longer a projection — it stands."
 		""
-		"Forge the &eShard&r in netherite — the &eHeart&r beats."
+		"Forge the &eBreath&r in netherite — the &eHeart&r beats."
 	]
 	quest.74ED5B05FC10AF83.quest_subtitle: "Apotheosis."
 	quest.74ED5B05FC10AF83.title: "Tier 10 - &eHeart of the Titan&r"

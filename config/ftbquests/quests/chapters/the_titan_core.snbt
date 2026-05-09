@@ -389,7 +389,7 @@
 			]
 			tasks: [{
 				id: "05C33627C4F149F6"
-				item: { count: 1, id: "projecttitancore:ascendant_shard" }
+				item: { count: 1, id: "projecttitancore:breath_of_the_titan" }
 				type: "item"
 			}]
 			x: 25.0d
