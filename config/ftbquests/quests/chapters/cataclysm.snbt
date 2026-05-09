@@ -272,5 +272,234 @@
 			x: -5.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["18852E1D544D601B"]
+			id: "9D1A000000000001"
+			rewards: [
+				{
+					id: "9D1A000200000001"
+					item: { count: 1, id: "cataclysm:wrath_of_the_desert" }
+					type: "item"
+				}
+				{
+					id: "9D1A000200000002"
+					item: { count: 1, id: "cataclysm:sandstorm_in_a_bottle" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "9D1A000200000003"
+					item: { count: 1, id: "apotheosis:epic_material" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				id: "9D1A000100000001"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.54d
+			y: -3.54d
+		}
+		{
+			dependencies: ["18852E1D544D601B"]
+			id: "9D1A000000000002"
+			rewards: [
+				{
+					id: "9D1A000200000010"
+					item: { count: 1, id: "cataclysm:soul_render" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "9D1A000200000011"
+					item: { count: 1, id: "cataclysm:remnant_skull" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "9D1A000200000012"
+					item: { count: 1, id: "apotheosis:epic_material" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "9D1A000100000010"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.54d
+			y: 3.54d
+		}
+		{
+			dependencies: ["17F8A0B1C2D3E520"]
+			id: "9D1A000000000003"
+			rewards: [
+				{
+					id: "9D1A000200000020"
+					item: { count: 1, id: "cataclysm:black_steel_sword" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "9D1A000200000021"
+					item: { count: 1, id: "cataclysm:witherite_ingot" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "9D1A000200000022"
+					item: { count: 1, id: "cataclysm:black_steel_ingot" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "9D1A000100000020"
+					item: { count: 1, id: "cataclysm:witherite_ingot" }
+					type: "item"
+				}
+				{
+					id: "9D1A000100000021"
+					item: { count: 1, id: "cataclysm:black_steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["18852E1D544D601B"]
+			id: "9D1A000000000004"
+			rewards: [
+				{
+					count: 4
+					id: "9D1A000200000030"
+					item: { count: 1, id: "cataclysm:bone_reptile_helmet" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "9D1A000200000031"
+					item: { count: 1, id: "cataclysm:bone_reptile_chestplate" }
+					type: "item"
+				}
+				{
+					id: "9D1A000200000032"
+					item: { count: 1, id: "cataclysm:athame" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				id: "9D1A000100000030"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["18852E1D544D601B"]
+			id: "9D1A000000000005"
+			optional: true
+			rewards: [
+				{
+					id: "9D1A000200000040"
+					item: { count: 1, id: "cataclysm:coral_bardiche" }
+					type: "item"
+				}
+				{
+					id: "9D1A000200000041"
+					item: { count: 1, id: "cataclysm:coral_spear" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "9D1A000200000042"
+					item: { count: 1, id: "cataclysm:crystallized_coral" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				id: "9D1A000100000040"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["17F8A0B1C2D3E550"]
+			id: "9D1A000000000006"
+			rewards: [
+				{
+					id: "9D1A000200000050"
+					item: { count: 1, id: "cataclysm:cursium_helmet" }
+					type: "item"
+				}
+				{
+					id: "9D1A000200000051"
+					item: { count: 1, id: "cataclysm:cursium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "9D1A000200000052"
+					item: { count: 1, id: "cataclysm:cursium_leggings" }
+					type: "item"
+				}
+				{
+					id: "9D1A000200000053"
+					item: { count: 1, id: "cataclysm:cursium_boots" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "9D1A000100000050"
+					item: { count: 1, id: "cataclysm:cursium_ingot" }
+					type: "item"
+				}
+				{
+					id: "9D1A000100000051"
+					item: { count: 1, id: "cataclysm:cursium_chestplate" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18852E1D544D601B"]
+			id: "9D1A000000000007"
+			rewards: [
+				{
+					id: "9D1A000200000060"
+					item: { count: 1, id: "cataclysm:burning_ashes" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "9D1A000200000061"
+					item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "9D1A000200000062"
+					item: { count: 1, id: "cataclysm:abyss_eye" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "9D1A000100000060"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
 	]
 }

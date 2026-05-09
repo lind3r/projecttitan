@@ -146,5 +146,301 @@
 			x: 0.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["516A9483A90FD357"]
+			id: "8B1A000000000001"
+			rewards: [
+				{
+					id: "8B1A000200000001"
+					item: { count: 1, id: "enderio:alloy_smelter" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8B1A000200000002"
+					item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8B1A000200000003"
+					item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8B1A000100000001"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["8B1A000000000001"]
+			id: "8B1A000000000002"
+			rewards: [
+				{
+					id: "8B1A000200000010"
+					item: { count: 1, id: "enderio:sag_mill" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8B1A000200000011"
+					item: { count: 1, id: "enderio:vibrant_alloy_grinding_ball" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8B1A000100000010"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["516A9483A90FD357"]
+			id: "8B1A000000000003"
+			rewards: [
+				{
+					count: 4
+					id: "8B1A000200000020"
+					item: { count: 1, id: "enderio:soul_vial" }
+					type: "item"
+				}
+				{
+					id: "8B1A000200000021"
+					item: { count: 1, id: "enderio:powered_spawner" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8B1A000200000022"
+					item: { count: 1, id: "enderio:soul_powder" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8B1A000100000020"
+					item: { count: 1, id: "enderio:soul_vial" }
+					type: "item"
+				}
+				{
+					id: "8B1A000100000021"
+					item: { count: 1, id: "enderio:powered_spawner" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["516A9483A90FD357"]
+			id: "8B1A000000000004"
+			rewards: [
+				{
+					id: "8B1A000200000030"
+					item: { count: 1, id: "enderio:basic_capacitor_bank" }
+					type: "item"
+				}
+				{
+					id: "8B1A000200000031"
+					item: { count: 1, id: "enderio:advanced_capacitor_bank" }
+					type: "item"
+				}
+				{
+					id: "8B1A000200000032"
+					item: { count: 1, id: "enderio:vibrant_capacitor_bank" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8B1A000100000030"
+					item: { count: 1, id: "enderio:basic_capacitor_bank" }
+					type: "item"
+				}
+				{
+					id: "8B1A000100000031"
+					item: { count: 1, id: "enderio:vibrant_capacitor_bank" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["8B1A000000000001"]
+			id: "8B1A000000000005"
+			rewards: [
+				{
+					id: "8B1A000200000040"
+					item: { count: 1, id: "enderio:enchanter" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8B1A000200000041"
+					item: { count: 1, id: "minecraft:experience_bottle" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8B1A000200000042"
+					item: { count: 1, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8B1A000100000040"
+				item: { count: 1, id: "enderio:enchanter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["516A9483A90FD357"]
+			id: "8B1A000000000006"
+			rewards: [
+				{
+					id: "8B1A000200000050"
+					item: { count: 1, id: "enderio:travel_anchor" }
+					type: "item"
+				}
+				{
+					id: "8B1A000200000051"
+					item: { count: 1, id: "enderio:staff_of_travelling" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8B1A000100000050"
+					item: { count: 1, id: "enderio:travel_anchor" }
+					type: "item"
+				}
+				{
+					id: "8B1A000100000051"
+					item: { count: 1, id: "enderio:staff_of_travelling" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8B1A000000000001"]
+			id: "8B1A000000000007"
+			rewards: [
+				{
+					id: "8B1A000200000060"
+					item: { count: 1, id: "enderio:dark_steel_sword" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8B1A000200000061"
+					item: { count: 1, id: "enderio:dark_steel_ingot" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8B1A000100000060"
+				item: { count: 1, id: "enderio:dark_steel_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["516A9483A90FD357"]
+			id: "8B1A000000000008"
+			rewards: [
+				{
+					id: "8B1A000200000070"
+					item: { count: 1, id: "enderio:attractor_obelisk" }
+					type: "item"
+				}
+				{
+					id: "8B1A000200000071"
+					item: { count: 1, id: "enderio:aversion_obelisk" }
+					type: "item"
+				}
+				{
+					id: "8B1A000200000072"
+					item: { count: 1, id: "enderio:inhibitor_obelisk" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8B1A000100000070"
+					item: { count: 1, id: "enderio:attractor_obelisk" }
+					type: "item"
+				}
+				{
+					id: "8B1A000100000071"
+					item: { count: 1, id: "enderio:aversion_obelisk" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["516A9483A90FD357"]
+			id: "8B1A000000000009"
+			rewards: [
+				{
+					id: "8B1A000200000080"
+					item: { count: 1, id: "enderio:crafter" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8B1A000200000081"
+					item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8B1A000100000080"
+				item: { count: 1, id: "enderio:crafter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["516A9483A90FD357"]
+			id: "8B1A00000000000A"
+			rewards: [
+				{
+					id: "8B1A000200000090"
+					item: { count: 1, id: "enderio:yeta_wrench" }
+					type: "item"
+				}
+				{
+					id: "8B1A000200000091"
+					item: { count: 1, id: "enderio:vacuum_chest" }
+					type: "item"
+				}
+				{
+					id: "8B1A000200000092"
+					item: { count: 1, id: "enderio:xp_vacuum" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8B1A000100000090"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
 	]
 }

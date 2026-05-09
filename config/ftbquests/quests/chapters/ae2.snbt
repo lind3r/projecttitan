@@ -102,5 +102,312 @@
 			x: 0.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["4AC2D5E6F708A901"]
+			id: "8A1A000000000001"
+			rewards: [
+				{
+					id: "8A1A000200000001"
+					item: { count: 1, id: "ae2:controller" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8A1A000200000002"
+					item: { count: 1, id: "ae2:energy_cell" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8A1A000100000001"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -3.54d
+			y: -3.54d
+		}
+		{
+			dependencies: ["8A1A000000000001"]
+			id: "8A1A000000000002"
+			rewards: [
+				{
+					id: "8A1A000200000010"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8A1A000200000011"
+					item: { count: 1, id: "ae2:item_cell_housing" }
+					type: "item"
+				}
+				{
+					id: "8A1A000200000012"
+					item: { count: 1, id: "ae2:cell_workbench" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8A1A000100000010"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					id: "8A1A000100000011"
+					item: { count: 1, id: "ae2:item_cell_housing" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8A1A000000000001"]
+			id: "8A1A000000000003"
+			rewards: [
+				{
+					id: "8A1A000200000020"
+					item: { count: 1, id: "ae2:terminal" }
+					type: "item"
+				}
+				{
+					id: "8A1A000200000021"
+					item: { count: 1, id: "ae2:crafting_terminal" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8A1A000100000020"
+					item: { count: 1, id: "ae2:terminal" }
+					type: "item"
+				}
+				{
+					id: "8A1A000100000021"
+					item: { count: 1, id: "ae2:crafting_terminal" }
+					type: "item"
+				}
+			]
+			x: 3.54d
+			y: -3.54d
+		}
+		{
+			dependencies: ["8A1A000000000001"]
+			id: "8A1A000000000004"
+			rewards: [
+				{
+					count: 4
+					id: "8A1A000200000030"
+					item: { count: 1, id: "ae2:crafting_unit" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8A1A000200000031"
+					item: { count: 1, id: "ae2:crafting_accelerator" }
+					type: "item"
+				}
+				{
+					id: "8A1A000200000032"
+					item: { count: 1, id: "ae2:crafting_monitor" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8A1A000100000030"
+					item: { count: 1, id: "ae2:crafting_unit" }
+					type: "item"
+				}
+				{
+					id: "8A1A000100000031"
+					item: { count: 1, id: "ae2:crafting_accelerator" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8A1A000000000004"]
+			id: "8A1A000000000005"
+			rewards: [
+				{
+					id: "8A1A000200000040"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "8A1A000200000041"
+					item: { count: 1, id: "ae2:pattern_encoding_terminal" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8A1A000200000042"
+					item: { count: 1, id: "ae2:blank_pattern" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8A1A000100000040"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "8A1A000100000041"
+					item: { count: 1, id: "ae2:pattern_encoding_terminal" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["8A1A000000000003"]
+			id: "8A1A000000000006"
+			rewards: [
+				{
+					id: "8A1A000200000050"
+					item: { count: 1, id: "ae2:wireless_terminal" }
+					type: "item"
+				}
+				{
+					id: "8A1A000200000051"
+					item: { count: 1, id: "ae2:wireless_access_point" }
+					type: "item"
+				}
+				{
+					id: "8A1A000200000052"
+					item: { count: 1, id: "ae2:wireless_crafting_terminal" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8A1A000100000050"
+					item: { count: 1, id: "ae2:wireless_terminal" }
+					type: "item"
+				}
+				{
+					id: "8A1A000100000051"
+					item: { count: 1, id: "ae2:wireless_access_point" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["8A1A000000000001"]
+			id: "8A1A000000000007"
+			rewards: [
+				{
+					count: 8
+					id: "8A1A000200000060"
+					item: { count: 1, id: "ae2:import_bus" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8A1A000200000061"
+					item: { count: 1, id: "ae2:export_bus" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8A1A000200000062"
+					item: { count: 1, id: "ae2:storage_bus" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8A1A000200000063"
+					item: { count: 1, id: "ae2:interface" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8A1A000100000060"
+					item: { count: 1, id: "ae2:import_bus" }
+					type: "item"
+				}
+				{
+					id: "8A1A000100000061"
+					item: { count: 1, id: "ae2:export_bus" }
+					type: "item"
+				}
+				{
+					id: "8A1A000100000062"
+					item: { count: 1, id: "ae2:storage_bus" }
+					type: "item"
+				}
+			]
+			x: -3.54d
+			y: 3.54d
+		}
+		{
+			dependencies: ["8A1A000000000001"]
+			id: "8A1A000000000008"
+			optional: true
+			rewards: [
+				{
+					id: "8A1A000200000070"
+					item: { count: 1, id: "ae2:spatial_io_port" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8A1A000200000071"
+					item: { count: 1, id: "ae2:spatial_pylon" }
+					type: "item"
+				}
+				{
+					id: "8A1A000200000072"
+					item: { count: 1, id: "ae2:spatial_anchor" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8A1A000100000070"
+				item: { count: 1, id: "ae2:spatial_io_port" }
+				type: "item"
+			}]
+			x: 3.54d
+			y: 3.54d
+		}
+		{
+			dependencies: ["4AC2D5E6F708A901"]
+			id: "8A1A000000000009"
+			rewards: [
+				{
+					count: 16
+					id: "8A1A000200000080"
+					item: { count: 1, id: "ae2:fluix_glass_cable" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8A1A000200000081"
+					item: { count: 1, id: "ae2:fluix_covered_cable" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8A1A000200000082"
+					item: { count: 1, id: "ae2:fluix_smart_cable" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8A1A000100000080"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
 	]
 }

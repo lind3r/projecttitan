@@ -415,5 +415,490 @@
 			x: 0.0d
 			y: 7.5d
 		}
+		{
+			dependencies: ["5826EC6A328C5DE5"]
+			id: "8E1A000000000001"
+			rewards: [
+				{
+					count: 16
+					id: "8E1A000200000001"
+					item: { count: 1, id: "mekanism:enriched_iron" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8E1A000200000002"
+					item: { count: 1, id: "mekanism:ingot_steel" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8E1A000200000003"
+					item: { count: 1, id: "mekanism:alloy_infused" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8E1A000100000001"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+				{
+					id: "8E1A000100000002"
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["8E1A000000000001"]
+			id: "8E1A000000000002"
+			rewards: [
+				{
+					count: 16
+					id: "8E1A000200000010"
+					item: { count: 1, id: "mekanism:ingot_steel" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8E1A000200000011"
+					item: { count: 1, id: "mekanism:steel_casing" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8E1A000100000010"
+				item: { count: 1, id: "mekanism:energized_smelter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["8E1A000000000002"]
+			id: "8E1A000000000003"
+			rewards: [
+				{
+					count: 4
+					id: "8E1A000200000020"
+					item: { count: 1, id: "mekanism:alloy_infused" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8E1A000200000021"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8E1A000100000020"
+				item: { count: 1, id: "mekanism:combiner" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5826EC6A328C5DE5"]
+			id: "8E1A000000000004"
+			rewards: [
+				{
+					id: "8E1A000200000030"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8E1A000200000031"
+					item: { count: 1, id: "mekanism:advanced_control_circuit" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8E1A000100000030"
+				item: { count: 1, id: "mekanism:electrolytic_separator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["8E1A000000000004"]
+			id: "8E1A000000000005"
+			rewards: [
+				{
+					id: "8E1A000200000040"
+					item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8E1A000200000041"
+					item: { count: 1, id: "mekanism:substrate" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8E1A000200000042"
+					item: { count: 1, id: "mekanism:hdpe_pellet" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8E1A000100000040"
+					item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+					type: "item"
+				}
+				{
+					id: "8E1A000100000041"
+					item: { count: 1, id: "mekanism:substrate" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["8E1A000000000002"]
+			id: "8E1A000000000006"
+			rewards: [
+				{
+					count: 16
+					id: "8E1A000200000050"
+					item: {
+						components: { "mekanism:tier": "advanced" }
+						count: 1
+						id: "mekanism:logistical_transporter"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8E1A000200000051"
+					item: { count: 1, id: "mekanism:logistical_sorter" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8E1A000100000050"
+					item: { count: 1, id: "mekanism:logistical_transporter" }
+					type: "item"
+				}
+				{
+					id: "8E1A000100000051"
+					item: { count: 1, id: "mekanism:logistical_sorter" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5B3CAE4F906D7B20"]
+			id: "8E1A000000000007"
+			rewards: [
+				{
+					count: 8
+					id: "8E1A000200000060"
+					item: { count: 1, id: "mekanism:alloy_reinforced" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8E1A000200000061"
+					item: { count: 1, id: "minecraft:experience_bottle" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8E1A000100000060"
+					item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+					type: "item"
+				}
+				{
+					id: "8E1A000100000061"
+					item: { count: 1, id: "mekanism:chemical_washer" }
+					type: "item"
+				}
+				{
+					id: "8E1A000100000062"
+					item: { count: 1, id: "mekanism:chemical_crystallizer" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["420C49B55F5DA985"]
+			id: "8E1A000000000008"
+			rewards: [
+				{
+					count: 8
+					id: "8E1A000200000070"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					id: "8E1A000200000071"
+					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
+					type: "item"
+				}
+				{
+					id: "8E1A000200000072"
+					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "8E1A000100000070"
+					item: { count: 1, id: "mekanism:boiler_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "8E1A000100000071"
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5BD3E6F708192A20"]
+			id: "8E1A000000000009"
+			rewards: [
+				{
+					count: 8
+					id: "8E1A000200000080"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8E1A000200000081"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8E1A000200000082"
+					item: { count: 1, id: "mekanism:pellet_polonium" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "8E1A000100000080"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					id: "8E1A000100000081"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					id: "8E1A000100000082"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["8E1A000000000009"]
+			id: "8E1A00000000000A"
+			rewards: [
+				{
+					id: "8E1A000200000090"
+					item: { count: 1, id: "mekanism:dosimeter" }
+					type: "item"
+				}
+				{
+					id: "8E1A000200000091"
+					item: { count: 1, id: "mekanism:geiger_counter" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8E1A000200000092"
+					item: { count: 1, id: "mekanism:radioactive_waste_barrel" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8E1A000100000090"
+					item: { count: 1, id: "mekanism:hazmat_mask" }
+					type: "item"
+				}
+				{
+					id: "8E1A000100000091"
+					item: { count: 1, id: "mekanism:hazmat_gown" }
+					type: "item"
+				}
+				{
+					id: "8E1A000100000092"
+					item: { count: 1, id: "mekanism:hazmat_pants" }
+					type: "item"
+				}
+				{
+					id: "8E1A000100000093"
+					item: { count: 1, id: "mekanism:hazmat_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["8E1A000000000009"]
+			id: "8E1A00000000000B"
+			optional: true
+			rewards: [
+				{
+					id: "8E1A0002000000A0"
+					item: { count: 1, id: "mekanismgenerators:laser_focus_matrix" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8E1A0002000000A1"
+					item: { count: 1, id: "mekanism:laser_amplifier" }
+					type: "item"
+				}
+				{
+					id: "8E1A0002000000A2"
+					item: { count: 1, id: "mekanismgenerators:hohlraum" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8E1A0001000000A0"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "8E1A0001000000A1"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["8E1A00000000000B"]
+			id: "8E1A00000000000C"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "8E1A0002000000B0"
+					item: { count: 1, id: "mekanism:pellet_antimatter" }
+					type: "item"
+				}
+				{
+					id: "8E1A0002000000B1"
+					item: { count: 1, id: "mekanism:supercharged_coil" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8E1A0002000000B2"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "8E1A0001000000B0"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					id: "8E1A0001000000B1"
+					item: { count: 1, id: "mekanism:supercharged_coil" }
+					type: "item"
+				}
+				{
+					id: "8E1A0001000000B2"
+					item: { count: 1, id: "mekanism:pellet_antimatter" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["8E1A00000000000C"]
+			id: "8E1A00000000000D"
+			optional: true
+			rewards: [
+				{
+					id: "8E1A0002000000C0"
+					item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8E1A0002000000C1"
+					item: { count: 1, id: "mekanism:pellet_antimatter" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8E1A0001000000C0"
+				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5826EC6A328C5DE5"]
+			id: "8E1A00000000000E"
+			rewards: [
+				{
+					count: 4
+					id: "8E1A0002000000D0"
+					item: { count: 1, id: "mekanism:cardboard_box" }
+					type: "item"
+				}
+				{
+					id: "8E1A0002000000D1"
+					item: { count: 1, id: "mekanism:configurator" }
+					type: "item"
+				}
+				{
+					id: "8E1A0002000000D2"
+					item: { count: 1, id: "mekanism:robit" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8E1A0001000000D0"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
 	]
 }

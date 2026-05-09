@@ -173,5 +173,300 @@
 			x: -5.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["0A75FF5E927E69E3"]
+			id: "8F1A000000000001"
+			rewards: [
+				{
+					id: "8F1A000200000001"
+					item: { count: 1, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8F1A000200000002"
+					item: { count: 1, id: "industrialforegoing:plastic" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8F1A000200000003"
+					item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8F1A000100000001"
+					item: { count: 1, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+				{
+					id: "8F1A000100000002"
+					item: { count: 1, id: "industrialforegoing:laser_lens0" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.54d
+			y: -3.54d
+		}
+		{
+			dependencies: ["0A75FF5E927E69E3"]
+			id: "8F1A000000000002"
+			rewards: [
+				{
+					id: "8F1A000200000010"
+					item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8F1A000200000011"
+					item: { count: 1, id: "industrialforegoing:plastic" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8F1A000200000012"
+					item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8F1A000100000010"
+					item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+					type: "item"
+				}
+				{
+					id: "8F1A000100000011"
+					item: { count: 1, id: "industrialforegoing:plastic" }
+					type: "item"
+				}
+			]
+			x: -3.54d
+			y: -3.54d
+		}
+		{
+			dependencies: ["329EEDB0E29E970C"]
+			id: "8F1A000000000003"
+			rewards: [
+				{
+					id: "8F1A000200000020"
+					item: { count: 1, id: "industrialforegoing:mob_duplicator" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8F1A000200000021"
+					item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8F1A000100000020"
+				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A75FF5E927E69E3"]
+			id: "8F1A000000000004"
+			rewards: [
+				{
+					count: 8
+					id: "8F1A000200000030"
+					item: { count: 1, id: "industrialforegoing:hydroponic_bed" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8F1A000200000031"
+					item: { count: 1, id: "industrialforegoing:fertilizer" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8F1A000100000030"
+				item: { count: 1, id: "industrialforegoing:hydroponic_bed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A75FF5E927E69E3"]
+			id: "8F1A000000000005"
+			rewards: [
+				{
+					id: "8F1A000200000040"
+					item: { count: 1, id: "industrialforegoing:resourceful_furnace" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8F1A000200000041"
+					item: { count: 1, id: "minecraft:experience_bottle" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8F1A000100000040"
+				item: { count: 1, id: "industrialforegoing:resourceful_furnace" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A75FF5E927E69E3"]
+			id: "8F1A000000000006"
+			rewards: [
+				{
+					id: "8F1A000200000050"
+					item: { count: 1, id: "industrialforegoing:black_hole_tank" }
+					type: "item"
+				}
+				{
+					id: "8F1A000200000051"
+					item: { count: 1, id: "industrialforegoing:black_hole_unit" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8F1A000200000052"
+					item: { count: 1, id: "industrialforegoing:black_hole_controller" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8F1A000100000050"
+					item: { count: 1, id: "industrialforegoing:black_hole_tank" }
+					type: "item"
+				}
+				{
+					id: "8F1A000100000051"
+					item: { count: 1, id: "industrialforegoing:black_hole_unit" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["329EEDB0E29E970C"]
+			id: "8F1A000000000007"
+			optional: true
+			rewards: [
+				{
+					id: "8F1A000200000060"
+					item: { count: 1, id: "industrialforegoing:wither_builder" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8F1A000200000061"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8F1A000100000060"
+				item: { count: 1, id: "industrialforegoing:wither_builder" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["329EEDB0E29E970C"]
+			id: "8F1A000000000008"
+			rewards: [
+				{
+					count: 16
+					id: "8F1A000200000070"
+					item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8F1A000200000071"
+					item: { count: 1, id: "industrialforegoing:plastic" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8F1A000100000070"
+					item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+					type: "item"
+				}
+				{
+					id: "8F1A000100000071"
+					item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.54d
+		}
+		{
+			dependencies: ["0A75FF5E927E69E3"]
+			id: "8F1A000000000009"
+			rewards: [
+				{
+					id: "8F1A000200000080"
+					item: { count: 1, id: "industrialforegoing:petrified_fuel_generator" }
+					type: "item"
+				}
+				{
+					count: 32
+					id: "8F1A000200000081"
+					item: { count: 1, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8F1A000100000080"
+				item: { count: 1, id: "industrialforegoing:petrified_fuel_generator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A75FF5E927E69E3"]
+			id: "8F1A00000000000A"
+			rewards: [
+				{
+					count: 16
+					id: "8F1A000200000090"
+					item: { count: 1, id: "industrialforegoing:plastic" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8F1A000200000091"
+					item: { count: 1, id: "industrialforegoing:conveyor" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8F1A000200000092"
+					item: { count: 1, id: "industrialforegoing:fluid_extractor" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8F1A000100000090"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
 	]
 }

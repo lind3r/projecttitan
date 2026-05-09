@@ -222,5 +222,345 @@
 			x: -5.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["52858BE17389BA11"]
+			id: "8D1A000000000001"
+			rewards: [
+				{
+					id: "8D1A000200000001"
+					item: { count: 1, id: "oritech:foundry_block" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8D1A000200000002"
+					item: { count: 1, id: "oritech:steel_ingot" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8D1A000200000003"
+					item: { count: 1, id: "oritech:adamant_ingot" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8D1A000100000001"
+					item: { count: 1, id: "oritech:foundry_block" }
+					type: "item"
+				}
+				{
+					id: "8D1A000100000002"
+					item: { count: 1, id: "oritech:steel_ingot" }
+					type: "item"
+				}
+			]
+			x: -3.54d
+			y: -3.54d
+		}
+		{
+			dependencies: ["67DD832356EFB488"]
+			id: "8D1A000000000002"
+			rewards: [
+				{
+					count: 4
+					id: "8D1A000200000010"
+					item: { count: 1, id: "oritech:laser_arm_block" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8D1A000200000011"
+					item: { count: 1, id: "oritech:enderic_lens" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8D1A000200000012"
+					item: { count: 1, id: "oritech:target_designator" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8D1A000100000010"
+					item: { count: 1, id: "oritech:laser_arm_block" }
+					type: "item"
+				}
+				{
+					id: "8D1A000100000011"
+					item: { count: 1, id: "oritech:target_designator" }
+					type: "item"
+				}
+			]
+			x: 3.54d
+			y: 3.54d
+		}
+		{
+			dependencies: ["4E85CEF3E40170CF"]
+			id: "8D1A000000000003"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "8D1A000200000020"
+					item: { count: 1, id: "oritech:strange_matter" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8D1A000200000021"
+					item: { count: 1, id: "oritech:fluxite" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8D1A000100000020"
+					item: { count: 1, id: "oritech:accelerator_controller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "8D1A000100000021"
+					item: { count: 1, id: "oritech:accelerator_ring" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["8D1A000000000003"]
+			id: "8D1A000000000004"
+			optional: true
+			rewards: [
+				{
+					id: "8D1A000200000030"
+					item: { count: 1, id: "oritech:black_hole_block" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8D1A000200000031"
+					item: { count: 1, id: "oritech:strange_matter" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8D1A000100000030"
+				item: { count: 1, id: "oritech:black_hole_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67DD832356EFB488"]
+			id: "8D1A000000000005"
+			rewards: [
+				{
+					count: 4
+					id: "8D1A000200000040"
+					item: { count: 1, id: "oritech:machine_speed_addon" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8D1A000200000041"
+					item: { count: 1, id: "oritech:machine_extender" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8D1A000200000042"
+					item: { count: 1, id: "oritech:fluxite" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8D1A000100000040"
+					item: { count: 1, id: "oritech:machine_speed_addon" }
+					type: "item"
+				}
+				{
+					id: "8D1A000100000041"
+					item: { count: 1, id: "oritech:machine_extender" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67DD832356EFB488"]
+			id: "8D1A000000000006"
+			optional: true
+			rewards: [
+				{
+					id: "8D1A000200000050"
+					item: { count: 1, id: "oritech:drone_port_block" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8D1A000200000051"
+					item: { count: 1, id: "oritech:carbon_fibre_strands" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8D1A000100000050"
+				item: { count: 1, id: "oritech:drone_port_block" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52858BE17389BA11"]
+			id: "8D1A000000000007"
+			rewards: [
+				{
+					id: "8D1A000200000060"
+					item: { count: 1, id: "oritech:spawner_controller_block" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8D1A000200000061"
+					item: { count: 1, id: "oritech:spawner_cage_block" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8D1A000200000062"
+					item: { count: 1, id: "minecraft:experience_bottle" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8D1A000100000060"
+					item: { count: 1, id: "oritech:spawner_controller_block" }
+					type: "item"
+				}
+				{
+					id: "8D1A000100000061"
+					item: { count: 1, id: "oritech:spawner_cage_block" }
+					type: "item"
+				}
+			]
+			x: -3.54d
+			y: 3.54d
+		}
+		{
+			dependencies: ["8D1A000000000001"]
+			id: "8D1A000000000008"
+			rewards: [
+				{
+					id: "8D1A000200000070"
+					item: { count: 1, id: "oritech:exo_chestplate" }
+					type: "item"
+				}
+				{
+					id: "8D1A000200000071"
+					item: { count: 1, id: "oritech:jetpack" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8D1A000200000072"
+					item: { count: 1, id: "oritech:ion_thruster" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8D1A000100000070"
+					item: { count: 1, id: "oritech:exo_helmet" }
+					type: "item"
+				}
+				{
+					id: "8D1A000100000071"
+					item: { count: 1, id: "oritech:exo_chestplate" }
+					type: "item"
+				}
+				{
+					id: "8D1A000100000072"
+					item: { count: 1, id: "oritech:exo_leggings" }
+					type: "item"
+				}
+				{
+					id: "8D1A000100000073"
+					item: { count: 1, id: "oritech:exo_boots" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["52858BE17389BA11"]
+			id: "8D1A000000000009"
+			rewards: [
+				{
+					id: "8D1A000200000080"
+					item: { count: 1, id: "oritech:electric_mace" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8D1A000200000081"
+					item: { count: 1, id: "oritech:fluxite" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8D1A000100000080"
+					item: { count: 1, id: "oritech:hand_drill" }
+					type: "item"
+				}
+				{
+					id: "8D1A000100000081"
+					item: { count: 1, id: "oritech:chainsaw" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["52858BE17389BA11"]
+			id: "8D1A00000000000A"
+			rewards: [
+				{
+					id: "8D1A000200000090"
+					item: { count: 1, id: "oritech:wrench" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8D1A000200000091"
+					item: { count: 1, id: "oritech:energy_pipe" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8D1A000200000092"
+					item: { count: 1, id: "oritech:fluid_pipe" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8D1A000100000090"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
 	]
 }

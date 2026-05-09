@@ -347,5 +347,213 @@
 			x: 0.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["7BE305D05A99BFC1"]
+			id: "9B1A000000000001"
+			rewards: [
+				{
+					id: "9B1A000200000001"
+					item: { count: 1, id: "ars_nouveau:familiar_whirlisprig" }
+					type: "item"
+				}
+				{
+					id: "9B1A000200000002"
+					item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "9B1A000200000003"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "9B1A000100000001"
+					item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
+					type: "item"
+				}
+				{
+					id: "9B1A000100000002"
+					item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F86FF003387AE4E"]
+			id: "9B1A000000000002"
+			rewards: [
+				{
+					id: "9B1A000200000010"
+					item: { count: 1, id: "ars_nouveau:familiar_wixie" }
+					type: "item"
+				}
+				{
+					id: "9B1A000200000011"
+					item: { count: 1, id: "ars_nouveau:potion_jar" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "9B1A000200000012"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "9B1A000100000010"
+					item: { count: 1, id: "ars_nouveau:wixie_cauldron" }
+					type: "item"
+				}
+				{
+					id: "9B1A000100000011"
+					item: { count: 1, id: "ars_nouveau:wixie_charm" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66505E73698CDE6E"]
+			id: "9B1A000000000003"
+			rewards: [
+				{
+					id: "9B1A000200000020"
+					item: { count: 1, id: "ars_nouveau:familiar_starbuncle" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "9B1A000200000021"
+					item: { count: 1, id: "ars_nouveau:dominion_wand" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "9B1A000100000020"
+					item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
+					type: "item"
+				}
+				{
+					id: "9B1A000100000021"
+					item: { count: 1, id: "ars_nouveau:dominion_wand" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52758F4E624A6440"]
+			id: "9B1A000000000004"
+			rewards: [
+				{
+					id: "9B1A000200000030"
+					item: { count: 1, id: "ars_nouveau:familiar_bookwyrm" }
+					type: "item"
+				}
+				{
+					id: "9B1A000200000031"
+					item: { count: 1, id: "ars_nouveau:bookwyrm_lectern" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "9B1A000100000030"
+				item: { count: 1, id: "ars_nouveau:bookwyrm_charm" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F86FF003387AE4E"]
+			id: "9B1A000000000005"
+			rewards: [
+				{
+					id: "9B1A000200000040"
+					item: { count: 1, id: "ars_nouveau:alteration_table" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "9B1A000200000041"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "9B1A000100000040"
+				item: { count: 1, id: "ars_nouveau:alteration_table" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52758F4E624A6440"]
+			id: "9B1A000000000006"
+			rewards: [
+				{
+					count: 4
+					id: "9B1A000200000050"
+					item: { count: 1, id: "ars_nouveau:stable_warp_scroll" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "9B1A000200000051"
+					item: { count: 1, id: "ars_nouveau:warp_scroll" }
+					type: "item"
+				}
+				{
+					id: "9B1A000200000052"
+					item: { count: 1, id: "ars_nouveau:portal" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "9B1A000100000050"
+				item: { count: 1, id: "ars_nouveau:stable_warp_scroll" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66505E73698CDE6E"]
+			id: "9B1A000000000007"
+			rewards: [
+				{
+					id: "9B1A000200000060"
+					item: { count: 1, id: "ars_nouveau:jar_of_light" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "9B1A000200000061"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+				{
+					id: "9B1A000200000062"
+					item: { count: 1, id: "ars_nouveau:void_jar" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "9B1A000100000060"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
 	]
 }
