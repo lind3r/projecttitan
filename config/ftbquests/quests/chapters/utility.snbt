@@ -34,6 +34,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["18A2F4B6C7D8E9F1"]
 			id: "6CE4F5061728390A"
 			rewards: [
 				{
@@ -79,6 +80,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["18A2F4B6C7D8E9F1"]
 			id: "1A2B3C4D5E6F70B1"
 			rewards: [
 				{
@@ -307,6 +309,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["18A2F4B6C7D8E9F1"]
 			id: "1A2B3C4D5E6F7091"
 			rewards: [
 				{
@@ -336,6 +339,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["18A2F4B6C7D8E9F1"]
 			id: "6CE4F5061728391A"
 			rewards: [
 				{
@@ -380,6 +384,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["18A2F4B6C7D8E9F1"]
 			id: "1A2B3C4D5E6F7081"
 			rewards: [
 				{
@@ -441,6 +446,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["18A2F4B6C7D8E9F1"]
 			id: "1A2B3C4D5E6F70A1"
 			rewards: [
 				{
@@ -479,6 +485,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["18A2F4B6C7D8E9F1"]
 			id: "6CE4F5061728397A"
 			rewards: [
 				{

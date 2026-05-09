@@ -34,6 +34,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7D5EC061B28F9D40"]
 			id: "4C6CF541318C7436"
 			rewards: [
 				{
@@ -71,6 +72,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["7D5EC061B28F9D40"]
 			id: "39B1C4D5E6F70801"
 			rewards: [
 				{
@@ -116,6 +118,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["7D5EC061B28F9D40"]
 			id: "39B1C4D5E6F70810"
 			rewards: [
 				{
@@ -161,6 +164,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["7D5EC061B28F9D40"]
 			id: "3F9A0E334404046A"
 			rewards: [
 				{
@@ -190,6 +194,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["7D5EC061B28F9D40"]
 			id: "39B1C4D5E6F70820"
 			rewards: [
 				{
@@ -219,6 +224,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7D5EC061B28F9D40"]
 			id: "7637512874BE9397"
 			rewards: [
 				{
@@ -257,6 +263,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["7D5EC061B28F9D40"]
 			id: "4AC2D5E6F708B900"
 			rewards: [
 				{
@@ -287,6 +294,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["7D5EC061B28F9D40"]
 			id: "5BD3E6F708A0CA10"
 			rewards: [
 				{
@@ -324,6 +332,7 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["7D5EC061B28F9D40"]
 			id: "2C035E6F70819481"
 			rewards: [
 				{
@@ -369,10 +378,11 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["7D5EC061B28F9D40"]
 			id: "3D147F708192A582"
 			rewards: [
 				{
-					count: 16
+					count: 32
 					id: "3D147F708192A584"
 					item: {
 						count: 1
@@ -381,7 +391,7 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "3D147F708192A585"
 					item: {
 						count: 1
@@ -390,7 +400,7 @@
 					type: "item"
 				}
 				{
-					count: 4
+					count: 8
 					id: "3D147F708192A586"
 					item: {
 						count: 1
@@ -398,12 +408,38 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "3D147F708192A587"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
 			]
-			tasks: [{
-				id: "3D147F708192A583"
-				item: { count: 1, id: "mekanism:mekasuit_helmet" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3D147F708192A583"
+					item: { count: 1, id: "mekanism:mekasuit_helmet" }
+					type: "item"
+				}
+				{
+					id: "3D147F708192A588"
+					item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+					type: "item"
+				}
+				{
+					id: "3D147F708192A589"
+					item: { count: 1, id: "mekanism:mekasuit_pants" }
+					type: "item"
+				}
+				{
+					id: "3D147F708192A58A"
+					item: { count: 1, id: "mekanism:mekasuit_boots" }
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 13.0d
 		}
@@ -496,6 +532,147 @@
 			]
 			x: 4.0d
 			y: 17.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "60AC7B83914DEF52"
+			rewards: [
+				{
+					id: "60AC7B83914DEF53"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "60AC7B83914DEF54"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_boots"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "60AC7B83914DEF55"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "60AC7B83914DEF56"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "60AC7B83914DEF57"
+					item: { count: 1, id: "cataclysm:ignitium_helmet" }
+					type: "item"
+				}
+				{
+					id: "60AC7B83914DEF58"
+					item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "71BD8C9402EFA063"
+			rewards: [
+				{
+					count: 4
+					id: "71BD8C9402EFA064"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_rebirth"
+					}
+					type: "item"
+				}
+				{
+					id: "71BD8C9402EFA065"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_supremacy"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "71BD8C9402EFA066"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "71BD8C9402EFA067"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71BD8C9402EFA068"
+				item: { count: 1, id: "apotheosis:mythic_material" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["7D5EC061B28F9D40"]
+			id: "82CE9DA513F0B174"
+			rewards: [
+				{
+					id: "82CE9DA513F0B175"
+					item: {
+						count: 1
+						id: "cataclysm:gauntlet_of_guard"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "82CE9DA513F0B176"
+					item: {
+						count: 1
+						id: "cataclysm:witherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "82CE9DA513F0B177"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "82CE9DA513F0B178"
+				item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 23.0d
 		}
 	]
 }

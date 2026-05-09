@@ -79,11 +79,8 @@
 					count: 2
 					id: "17F8A0B1C2D3E511"
 					item: {
-						components: {
-							"ftbquests:missing_item": "apothic_spawners:spawner"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "minecraft:spawner"
 					}
 					type: "item"
 				}
@@ -99,7 +96,7 @@
 			]
 			tasks: [{
 				id: "17F8A0B1C2D3E513"
-				item: { components: { "ftbquests:missing_item": "apothic_spawners:spawner" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "minecraft:spawner" }
 				type: "item"
 			}]
 			x: 4.0d

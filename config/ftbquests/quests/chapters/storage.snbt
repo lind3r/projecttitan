@@ -45,6 +45,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4BAAF09518997A84"]
 			id: "6CE4F5061728393A"
 			rewards: [
 				{
@@ -74,6 +75,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["4BAAF09518997A84"]
 			id: "6CE4F5061728395A"
 			rewards: [
 				{
@@ -277,6 +279,78 @@
 			}]
 			x: 8.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["4BAAF09518997A84"]
+			id: "4AC2D5E6F708A901"
+			rewards: [
+				{
+					id: "4AC2D5E6F708A902"
+					item: {
+						count: 1
+						id: "ae2:guide"
+					}
+					type: "item"
+				}
+				{
+					id: "4AC2D5E6F708A903"
+					item: {
+						count: 1
+						id: "ae2:inscriber"
+					}
+					type: "item"
+				}
+				{
+					id: "4AC2D5E6F708A904"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor_press"
+					}
+					type: "item"
+				}
+				{
+					id: "4AC2D5E6F708A907"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor_press"
+					}
+					type: "item"
+				}
+				{
+					id: "4AC2D5E6F708A908"
+					item: {
+						count: 1
+						id: "ae2:logic_processor_press"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4AC2D5E6F708A909"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4AC2D5E6F708A90A"
+					item: {
+						count: 1
+						id: "ae2:fluix_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4AC2D5E6F708A905"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 6.0d
 		}
 	]
 }
