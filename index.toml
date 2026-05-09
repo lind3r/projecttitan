@@ -1862,7 +1862,7 @@ hash = "d8d29dee5b312b9c7b93e4f48cf375d0422e3f56a4e18ac6734f2a68031bbedb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "8e32d3788aca7df6200caa66718f6e91f5b3a4ac543173f330c2dfae502b10c3"
+hash = "50c1cba9f638692cb003590238d2b6dcc6578716461b1e60a18b8ece0d611bb9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/draconic_evolution.snbt"
@@ -1870,15 +1870,15 @@ hash = "306c53f1b45fd4f6046daa53da25d50df4eb70e417b273a3bbf824c4977e9360"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enderio.snbt"
-hash = "767a56943b0d1c5b7cce8a3073f9528a7a96c1ba143af9da33d0f8eb5f5c5cba"
+hash = "03c48c6003db37f31e1d1dcd0f31931b4fd8bb232ec320e841c1c8d878d2d41e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_foregoing.snbt"
-hash = "d3eb91120d5fdf5aeeeeef5b1ff2e46bc9c63918f03ee11552b744f71822dd99"
+hash = "7a0ebb6719ff36c58a72b5d6924635c296324bb42c032a32821ca036cfa8a9d3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "a2db57a71a6f105e7933505f8065cfcbda2902556dddfa60ff7597e6c75fd5b7"
+hash = "32ae77735b5079c7e3fff806499c301cf3efa7e927d47a1cd5f5d90f1a97c5c7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
@@ -1898,7 +1898,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "9af97877db61b648a9cddd5a32216a35f7344aeccc2ee3fc9fed2242b341fc89"
+hash = "43f4ebb3d8b3b269209ad4605e9300057339bd2463d58412e61c8137672774ee"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"

@@ -508,11 +508,11 @@
 		}
 		{
 			dependencies: ["516A9483A90FD357"]
-			id: "8B3A0001A1B2C3D0"
+			id: "7E52C89DD2E004DD"
 			rewards: [
 				{
 					count: 8
-					id: "8B3A0001A1B2C3D4"
+					id: "44F0A70D16A087B3"
 					item: {
 						components: {
 							"enderio:conduit": "enderio:enhanced_energy"
@@ -524,7 +524,7 @@
 				}
 				{
 					count: 8
-					id: "8B3A0001A1B2C3D5"
+					id: "7BEBA69228F6AFDE"
 					item: {
 						components: {
 							"enderio:conduit": "enderio:enhanced_item"
@@ -536,7 +536,7 @@
 				}
 				{
 					count: 8
-					id: "8B3A0001A1B2C3D6"
+					id: "56D874C192254BED"
 					item: {
 						components: {
 							"enderio:conduit": "enderio:pressurized_fluid"
@@ -549,36 +549,18 @@
 			]
 			tasks: [
 				{
-					id: "8B3A0001A1B2C3D1"
-					item: {
-						components: {
-							"enderio:conduit": "enderio:energy"
-						}
-						count: 1
-						id: "enderio:conduit"
-					}
+					id: "0082F6BE75B0A8BE"
+					item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
 					type: "item"
 				}
 				{
-					id: "8B3A0001A1B2C3D2"
-					item: {
-						components: {
-							"enderio:conduit": "enderio:item"
-						}
-						count: 1
-						id: "enderio:conduit"
-					}
+					id: "39AB4116C8AB73DD"
+					item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
 					type: "item"
 				}
 				{
-					id: "8B3A0001A1B2C3D3"
-					item: {
-						components: {
-							"enderio:conduit": "enderio:fluid"
-						}
-						count: 1
-						id: "enderio:conduit"
-					}
+					id: "316EEFEBFADA90A5"
+					item: { components: { "enderio:conduit": "enderio:fluid" }, count: 1, id: "enderio:conduit" }
 					type: "item"
 				}
 			]

@@ -316,30 +316,48 @@
 			rewards: [
 				{
 					id: "307389E872267113"
-					item: { count: 1, id: "industrialforegoing:simple_black_hole_tank" }
+					item: {
+						components: {
+							"ftbquests:missing_item": "industrialforegoing:simple_black_hole_tank"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 				{
 					id: "185706A8B0D07E98"
-					item: { count: 1, id: "industrialforegoing:simple_black_hole_unit" }
+					item: {
+						components: {
+							"ftbquests:missing_item": "industrialforegoing:simple_black_hole_unit"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "719C3215AFEBC600"
-					item: { count: 1, id: "industrialforegoing:black_hole_controller" }
+					item: {
+						components: {
+							"ftbquests:missing_item": "industrialforegoing:black_hole_controller"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
 					id: "5EFD98B9B9060A4F"
-					item: { count: 1, id: "industrialforegoing:pity_black_hole_tank" }
+					item: { components: { "ftbquests:missing_item": "industrialforegoing:pity_black_hole_tank" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "0A96EA18D1058368"
-					item: { count: 1, id: "industrialforegoing:pity_black_hole_unit" }
+					item: { components: { "ftbquests:missing_item": "industrialforegoing:pity_black_hole_unit" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]

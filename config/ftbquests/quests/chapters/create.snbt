@@ -653,11 +653,11 @@
 		}
 		{
 			dependencies: ["0C99F5AA659FF526"]
-			id: "8B1A0001A1B2C3D0"
+			id: "44637BCFE916C1DA"
 			rewards: [
 				{
 					count: 2
-					id: "8B1A0001A1B2C3D2"
+					id: "1F5753C0F1075655"
 					item: {
 						count: 1
 						id: "create:large_water_wheel"
@@ -666,7 +666,7 @@
 				}
 				{
 					count: 16
-					id: "8B1A0001A1B2C3D3"
+					id: "7DB775569607C9FF"
 					item: {
 						count: 1
 						id: "create:andesite_alloy"
@@ -675,7 +675,7 @@
 				}
 				{
 					count: 4
-					id: "8B1A0001A1B2C3D4"
+					id: "6B8B646ED2EBC2DD"
 					item: {
 						count: 1
 						id: "create:cogwheel"
@@ -684,7 +684,7 @@
 				}
 			]
 			tasks: [{
-				id: "8B1A0001A1B2C3D1"
+				id: "22FCC5525EC753F7"
 				item: { count: 1, id: "create:water_wheel" }
 				type: "item"
 			}]
@@ -693,11 +693,11 @@
 		}
 		{
 			dependencies: ["53A654BDD709AEBB"]
-			id: "8B1A0002A1B2C3D0"
+			id: "69A4948CDD9B5881"
 			rewards: [
 				{
 					count: 2
-					id: "8B1A0002A1B2C3D2"
+					id: "0F16D658F015A980"
 					item: {
 						count: 1
 						id: "createaddition:electric_motor"
@@ -706,7 +706,7 @@
 				}
 				{
 					count: 8
-					id: "8B1A0002A1B2C3D3"
+					id: "2C3174528C48F890"
 					item: {
 						count: 1
 						id: "create:brass_ingot"
@@ -715,7 +715,7 @@
 				}
 				{
 					count: 4
-					id: "8B1A0002A1B2C3D4"
+					id: "70F80B6D443A34DB"
 					item: {
 						count: 1
 						id: "create:cogwheel"
@@ -724,7 +724,7 @@
 				}
 			]
 			tasks: [{
-				id: "8B1A0002A1B2C3D1"
+				id: "61951D73B6E06E06"
 				item: { count: 1, id: "createaddition:electric_motor" }
 				type: "item"
 			}]
@@ -733,11 +733,11 @@
 		}
 		{
 			dependencies: ["6C4DBF50A17E8C30"]
-			id: "8B1A0003A1B2C3D0"
+			id: "4C7CBCCF0634848D"
 			rewards: [
 				{
 					count: 4
-					id: "8B1A0003A1B2C3D2"
+					id: "1250A8AD38E9E552"
 					item: {
 						count: 1
 						id: "create:mechanical_crafter"
@@ -746,7 +746,7 @@
 				}
 				{
 					count: 8
-					id: "8B1A0003A1B2C3D3"
+					id: "2895057FE58AE976"
 					item: {
 						count: 1
 						id: "create:brass_ingot"
@@ -755,7 +755,7 @@
 				}
 				{
 					count: 4
-					id: "8B1A0003A1B2C3D4"
+					id: "43E96B5B438778D0"
 					item: {
 						count: 1
 						id: "create:precision_mechanism"
@@ -765,7 +765,7 @@
 			]
 			tasks: [{
 				count: 4L
-				id: "8B1A0003A1B2C3D1"
+				id: "7FAF83979042BB2E"
 				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
 			}]

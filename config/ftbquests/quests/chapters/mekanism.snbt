@@ -968,11 +968,11 @@
 		}
 		{
 			dependencies: ["5826EC6A328C5DE5"]
-			id: "8B2A0001A1B2C3D0"
+			id: "42D24546E6A1331F"
 			rewards: [
 				{
 					count: 16
-					id: "8B2A0001A1B2C3D5"
+					id: "1F09AA05F0143BFF"
 					item: {
 						count: 1
 						id: "mekanism:advanced_universal_cable"
@@ -981,7 +981,7 @@
 				}
 				{
 					count: 16
-					id: "8B2A0001A1B2C3D6"
+					id: "04DDD82831198214"
 					item: {
 						count: 1
 						id: "mekanism:advanced_mechanical_pipe"
@@ -990,7 +990,7 @@
 				}
 				{
 					count: 16
-					id: "8B2A0001A1B2C3D7"
+					id: "41EE40899EB58286"
 					item: {
 						count: 1
 						id: "mekanism:advanced_pressurized_tube"
@@ -1000,22 +1000,22 @@
 			]
 			tasks: [
 				{
-					id: "8B2A0001A1B2C3D1"
+					id: "643A2C6EF3DD0FA6"
 					item: { count: 1, id: "mekanism:basic_universal_cable" }
 					type: "item"
 				}
 				{
-					id: "8B2A0001A1B2C3D2"
+					id: "778EA1DC7418B792"
 					item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
 					type: "item"
 				}
 				{
-					id: "8B2A0001A1B2C3D3"
+					id: "4931D2807F7ED3AB"
 					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
 					type: "item"
 				}
 				{
-					id: "8B2A0001A1B2C3D4"
+					id: "443ED09DF3AF16C8"
 					item: { count: 1, id: "mekanism:basic_thermodynamic_conductor" }
 					type: "item"
 				}
@@ -1025,11 +1025,11 @@
 		}
 		{
 			dependencies: ["5B3CAE4F906D7B20"]
-			id: "8B2A0002A1B2C3D0"
+			id: "25F6779B61EC443B"
 			rewards: [
 				{
 					count: 2
-					id: "8B2A0002A1B2C3D3"
+					id: "61F3FAADCCD6ED5C"
 					item: {
 						count: 1
 						id: "mekanism:elite_smelting_factory"
@@ -1038,7 +1038,7 @@
 				}
 				{
 					count: 8
-					id: "8B2A0002A1B2C3D4"
+					id: "48B8BE2D119E3F0A"
 					item: {
 						count: 1
 						id: "mekanism:ingot_steel"
@@ -1047,7 +1047,7 @@
 				}
 				{
 					count: 4
-					id: "8B2A0002A1B2C3D5"
+					id: "51B287E21E13C3A9"
 					item: {
 						count: 1
 						id: "mekanism:alloy_reinforced"
@@ -1057,12 +1057,12 @@
 			]
 			tasks: [
 				{
-					id: "8B2A0002A1B2C3D1"
+					id: "5AD1EF493C4756DC"
 					item: { count: 1, id: "mekanism:basic_smelting_factory" }
 					type: "item"
 				}
 				{
-					id: "8B2A0002A1B2C3D2"
+					id: "2B75864043B9CB4D"
 					item: { count: 1, id: "mekanism:advanced_smelting_factory" }
 					type: "item"
 				}
@@ -1072,11 +1072,11 @@
 		}
 		{
 			dependencies: ["5826EC6A328C5DE5"]
-			id: "8B2A0003A1B2C3D0"
+			id: "489168A85C1C3C1F"
 			rewards: [
 				{
 					count: 4
-					id: "8B2A0003A1B2C3D5"
+					id: "68F645C215F510FE"
 					item: {
 						count: 1
 						id: "mekanism:upgrade_speed"
@@ -1085,7 +1085,7 @@
 				}
 				{
 					count: 4
-					id: "8B2A0003A1B2C3D6"
+					id: "1B937C23927260C1"
 					item: {
 						count: 1
 						id: "mekanism:upgrade_energy"
@@ -1094,7 +1094,7 @@
 				}
 				{
 					count: 16
-					id: "8B2A0003A1B2C3D7"
+					id: "01106554B016EB6D"
 					item: {
 						count: 1
 						id: "mekanism:hdpe_pellet"
@@ -1104,22 +1104,22 @@
 			]
 			tasks: [
 				{
-					id: "8B2A0003A1B2C3D1"
+					id: "6E548D9C830EFBC6"
 					item: { count: 1, id: "mekanism:upgrade_speed" }
 					type: "item"
 				}
 				{
-					id: "8B2A0003A1B2C3D2"
+					id: "516934F710470FC7"
 					item: { count: 1, id: "mekanism:upgrade_energy" }
 					type: "item"
 				}
 				{
-					id: "8B2A0003A1B2C3D3"
+					id: "0973951A3C18C142"
 					item: { count: 1, id: "mekanism:upgrade_muffling" }
 					type: "item"
 				}
 				{
-					id: "8B2A0003A1B2C3D4"
+					id: "6EF80B62D895DC25"
 					item: { count: 1, id: "mekanism:upgrade_anchor" }
 					type: "item"
 				}

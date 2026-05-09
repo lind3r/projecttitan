@@ -2059,28 +2059,28 @@
 	]
 	quest.1DB508C752281D92.quest_subtitle: "Worth knowing — Cataclysm."
 	quest.1DB508C752281D92.title: "Cataclysm Bric-a-Brac"
-	quest.8B1A0001A1B2C3D0.quest_desc: [
+	quest.44637BCFE916C1DA.quest_desc: [
 		"&6Create&r's foundational kinetic source. The &eWater Wheel&r runs on flowing water around its perimeter; the &eLarge Water Wheel&r is a 3×3 multiblock that scales the output. &eHand Crank&r and &eWindmill Bearing&r round out the early-game options."
 		""
 		"&aPress &eW&r — &ePonder&r covers placement, water-flow patterns, and stress capacity per source.&r"
 	]
-	quest.8B1A0001A1B2C3D0.quest_subtitle: "Water in. Rotation out."
-	quest.8B1A0001A1B2C3D0.title: "Water Wheel"
-	quest.8B1A0002A1B2C3D0.quest_desc: [
+	quest.44637BCFE916C1DA.quest_subtitle: "Water in. Rotation out."
+	quest.44637BCFE916C1DA.title: "Water Wheel"
+	quest.69A4948CDD9B5881.quest_desc: [
 		"&6Createaddition&r's &eElectric Motor&r is the reverse of the &eAlternator&r — feed it &aForge Energy&r, get rotation. The bridge from FE-rich late-game systems back into the &6Create&r kinetic network."
 		""
 		"&aPress &eW&r — &ePonder&r covers FE input, RPM tuning via redstone, and shaft output direction.&r"
 	]
-	quest.8B1A0002A1B2C3D0.quest_subtitle: "FE in. Rotation out."
-	quest.8B1A0002A1B2C3D0.title: "Electric Motor"
-	quest.8B1A0003A1B2C3D0.quest_desc: [
+	quest.69A4948CDD9B5881.quest_subtitle: "FE in. Rotation out."
+	quest.69A4948CDD9B5881.title: "Electric Motor"
+	quest.4C7CBCCF0634848D.quest_desc: [
 		"&6Create&r's automated crafting multiblock. Arrange &eMechanical Crafters&r in the shape of the recipe — each holds one ingredient slot — point them at a single output cell, and pulse them with kinetic stress."
 		""
 		"&aPress &eW&r — &ePonder&r animates crafter arrangement, slot facing, and output direction. Required reading.&r"
 	]
-	quest.8B1A0003A1B2C3D0.quest_subtitle: "Recipe shaped in blocks."
-	quest.8B1A0003A1B2C3D0.title: "Mechanical Crafter"
-	quest.8B2A0001A1B2C3D0.quest_desc: [
+	quest.4C7CBCCF0634848D.quest_subtitle: "Recipe shaped in blocks."
+	quest.4C7CBCCF0634848D.title: "Mechanical Crafter"
+	quest.42D24546E6A1331F.quest_desc: [
 		"&6Mekanism&r ships four signal types, each with their own pipe:"
 		""
 		"- &eUniversal Cable&r — &aForge Energy&r"
@@ -2090,9 +2090,9 @@
 		""
 		"Each tier (&eBasic&r → &eAdvanced&r → &eElite&r → &eUltimate&r) bumps throughput. Right-click any segment with a &eConfigurator&r to change its connection mode (push, pull, none)."
 	]
-	quest.8B2A0001A1B2C3D0.quest_subtitle: "Power, fluids, gases, heat."
-	quest.8B2A0001A1B2C3D0.title: "Universal Transport"
-	quest.8B2A0002A1B2C3D0.quest_desc: [
+	quest.42D24546E6A1331F.quest_subtitle: "Power, fluids, gases, heat."
+	quest.42D24546E6A1331F.title: "Universal Transport"
+	quest.25F6779B61EC443B.quest_desc: [
 		"Factories are the batched form of every &6Mekanism&r unit machine — Smelter, Enricher, Crusher, Compressor, Combiner, Sawmill, Infuser, Purifier, Injector. Tier rotations: &eBasic&r (3 slots) → &eAdvanced&r (5) → &eElite&r (7) → &eUltimate&r (9)."
 		""
 		"&aBuild:&r"
@@ -2103,9 +2103,9 @@
 		"- Drop a unit machine plus tier-up factory upgrades into a crafting grid; the upgraded factory comes out with the unit swallowed inside."
 		"- A 9-slot Ultimate Smelter parallelizes nine Energized Smelters into one block."
 	]
-	quest.8B2A0002A1B2C3D0.quest_subtitle: "Parallelize the basics."
-	quest.8B2A0002A1B2C3D0.title: "Factories"
-	quest.8B2A0003A1B2C3D0.quest_desc: [
+	quest.25F6779B61EC443B.quest_subtitle: "Parallelize the basics."
+	quest.25F6779B61EC443B.title: "Factories"
+	quest.489168A85C1C3C1F.quest_desc: [
 		"Every &6Mekanism&r machine has an &eUpgrades&r slot — drop these in (up to 8 per machine) for stat boosts:"
 		""
 		"- &eSpeed&r — faster processing, more &bFE&r per tick"
@@ -2117,9 +2117,9 @@
 		""
 		"Crafted from &eHDPE Sheets&r and the upgrade-specific core. &eSpeed + Energy&r stacked is the standard 'make this machine cheap and fast' combo."
 	]
-	quest.8B2A0003A1B2C3D0.quest_subtitle: "Drop them in. Watch the stats."
-	quest.8B2A0003A1B2C3D0.title: "Machine Upgrades"
-	quest.8B3A0001A1B2C3D0.quest_desc: [
+	quest.489168A85C1C3C1F.quest_subtitle: "Drop them in. Watch the stats."
+	quest.489168A85C1C3C1F.title: "Machine Upgrades"
+	quest.7E52C89DD2E004DD.quest_desc: [
 		"&6Ender IO&r's signature transport block. One item — &eConduit&r — that becomes whichever type you place first. Tiers and signal types:"
 		""
 		"- &eEnergy&r → &eEnergetic&r → &eVibrant&r &7(FE throughput tiers)&r"
@@ -2134,6 +2134,6 @@
 		"- Right-click placed conduit with a &eYeta Wrench&r to cycle connection modes (in / out / disabled)."
 		"- Multiple conduit types can occupy the same block — packed pipework in one item slot."
 	]
-	quest.8B3A0001A1B2C3D0.quest_subtitle: "One block. Every signal."
-	quest.8B3A0001A1B2C3D0.title: "Conduits"
+	quest.7E52C89DD2E004DD.quest_subtitle: "One block. Every signal."
+	quest.7E52C89DD2E004DD.title: "Conduits"
 }
