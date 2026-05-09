@@ -1842,47 +1842,47 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "3c2598237c74c8cc3e9b77a72171ccb40e9c7edc17a6a5a845e57ce7cf362fef"
+hash = "ac851570d14f86c0e13fb0af7aab8b5f785c3a76bbc9aaca9eb4a9c2c574335e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "8f225fb6072b1199a8752477e03324a65ebfbbc1c685f9bdca5f459751edbee8"
+hash = "eec4aafec972090206df402375bfc17329a669bb91d1af7ec0e0e37bf222528b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "88373c1d7fa6ee7fd343c91c6248b78150ca211800353c5d9dba19265734973f"
+hash = "cecf2f70de69f40f7e62b03fbd8d03668754dbf867678f5f0da434d91c4646e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
-hash = "b74ebbcc11467adde4045a6680bcedd2333ca50b9d68c441d6c192a079b8a952"
+hash = "a605ef76889b27245c9248edb7406ff2ebb55fb04ef1527913f212337503c5e9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "55e86ca1fa7a868409ab58dd09ed3c42b7ad6b56b2d7b66a42672cedb0b00cac"
+hash = "6ed54895a172953a49354eb6b232397249662607d396c56cc2ecafde7acf9caf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/draconic_evolution.snbt"
-hash = "822d3dca750500786d873d50f0d28309555bf6959e8b03fdee79676275557e38"
+hash = "69e7ecfdc644ffa3adaa632831b7d8fa3dadb0275a16d9ae7a72e97fd3d25805"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enderio.snbt"
-hash = "e24d1fedd5ea32a77c8541329698af700632562097468f9f79d9073c12a7fbb7"
+hash = "cbab74614aa12b34894fd79dddc6f9eb40283a0bd2f6da282bdf350dcd17aa5c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_foregoing.snbt"
-hash = "d32473581618f179dd2e6e766ca812eb9867f89015fa60d0a33f1ba9625790b7"
+hash = "8e29c7e959754953a41755c1ecdd4efd28c7540dbabdf4e0da036d3c83627ed8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "31452778f9103cfc404aeee016d21e74bcd59a69d5f5f0ef8361b17ec1b8cc6e"
+hash = "3daa096a3e32101b228eca98199f4bd3671e0b3fa79378b31eeaadd4face0786"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "c34f3d570ba10fbeb061d43c92762703937e878ad0a21066de614ba387064e53"
+hash = "a75e2962dd9d3f5aba6d84258c6874c17f7199ee23a8d903c74bd368bef76253"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/other.snbt"
-hash = "5ac59c24ee2d314eff11e4816d622b9e1c8e2cb85fed8f315491842394dab87c"
+hash = "e209729b201b045098586a446dbd8111e31f2353f7335d84eb46ce48337db157"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
@@ -1894,7 +1894,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "d4f26521a1006b85231b454155af599f93a6a23ea44dbea9391f8364da4380a0"
+hash = "dd7ee017e6e99619d9a624f42184cac647c119a36a237fe9c2843b572726eae5"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -2054,7 +2054,7 @@ hash = "1737e996e919276452a34e2f314792d3801a2eec2918f20a40198b010bb67fd4"
 
 [[files]]
 file = "config/jei/world/local/New_World__5/lookupHistory.json"
-hash = "c1715f387ea6835ee51243f609b3e5a6784be19223f19730e3755a256fd48abd"
+hash = "442f365f75dff458bd3de6a02668c2ece7fdbc27f5e80b01367cc348d930aa80"
 
 [[files]]
 file = "config/journeymap-server.toml"
