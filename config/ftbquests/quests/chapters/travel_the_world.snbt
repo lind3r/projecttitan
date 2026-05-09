@@ -167,35 +167,6 @@
 		}
 		{
 			dependencies: ["280A1B2C3D4E5F60"]
-			id: "280A1B2C3D4E5FB0"
-			rewards: [
-				{
-					id: "280A1B2C3D4E5FB1"
-					item: {
-						count: 1
-						id: "supplementaries:hourglass"
-					}
-					type: "item"
-				}
-				{
-					id: "280A1B2C3D4E5FB2"
-					item: {
-						count: 1
-						id: "supplementaries:safe"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "280A1B2C3D4E5FB3"
-				item: { count: 1, id: "supplementaries:globe" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["280A1B2C3D4E5F60"]
 			id: "280A1B2C3D4E5FC0"
 			rewards: [
 				{

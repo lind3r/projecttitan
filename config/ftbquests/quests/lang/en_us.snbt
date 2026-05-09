@@ -91,9 +91,9 @@
 	quest.0C998F80BDBE5530.title: "The Trial Awaits"
 	task.4F512AB1304BED9A.title: "Accept the Titan's challenge"
 	quest.05968A0ACB30FF5D.quest_desc: [
-		"The &eCrown of the Titan&r only descends on those who outlast the trial."
+		"The &eCrown of the Titan&r only descends on those who put down every boss the trial throws at them."
 		""
-		"Survive the gauntlet, claim the &eCrown&r from the gateway's wake, and &dProject Titan&r is yours."
+		"Slay all three bosses, claim the &eCrown&r from the gateway's wake, and &dProject Titan&r is yours."
 	]
 	quest.05968A0ACB30FF5D.quest_subtitle: "The Titan acknowledges you."
 	quest.05968A0ACB30FF5D.title: "Coronation"
@@ -255,9 +255,6 @@
 	quest.280A1B2C3D4E5FA0.quest_desc: ["&6Terralith&r adds dozens of biomes that vanilla never imagined. The &dAmethyst Rainforest&r is one of the showpieces — purple, dense, dripping with amethyst geodes."]
 	quest.280A1B2C3D4E5FA0.quest_subtitle: "Walk into purple."
 	quest.280A1B2C3D4E5FA0.title: "&dAmethyst Rainforest&r"
-	quest.280A1B2C3D4E5FB0.quest_desc: ["&eGlobes&r are decorative but iconic. Crafted from a clay base + dye + lever, they spin, and the texture varies by biome you craft them in."]
-	quest.280A1B2C3D4E5FB0.quest_subtitle: "A trophy of where you've been."
-	quest.280A1B2C3D4E5FB0.title: "Craft a &eGlobe&r"
 	quest.39B1C4D5E6F70801.quest_desc: [
 		"&6Apotheosis&r's &eReforging Table&r re-rolls the &aaffixes&r on a piece of affixed loot. Hand it junk gear, get back a fresh roll — sometimes better, sometimes worse."
 		""
@@ -591,8 +588,6 @@
 		"- &aJetpack module&r (chestplate) — flight."
 		"- &aRadiation shielding&r (full set) — required for late-game Mek work."
 		"- &aThermal regulator&r — passive fire/cold resistance."
-		""
-		"&aReward:&r 32× HDPE Sheet, 8× Atomic Alloy, 8× Module Base, 16× XP bottles — head start on stocking modules."
 	]
 	quest.3D147F708192A582.quest_subtitle: "Four pieces. The modules come next."
 	quest.3D147F708192A582.title: "&6Mekanism&r: &eMekaSuit Armor Set&r"
@@ -918,35 +913,6 @@
 	]
 	quest.583149F56A45EEC4.quest_subtitle: "Drops, vacuumed."
 	quest.583149F56A45EEC4.title: "&6Item Collectors&r"
-	quest.5BF1CACD53592B78.quest_desc: [
-		"&6Applied Energistics 2&r storage is a digital ledger. The &eME Controller&r is the network's heart, the &eME Drive&r is the bank, &estorage cells&r are the safe-deposit boxes, and the Crafting Terminal is your hands."
-		""
-		"&aBuild:&r"
-		"- Craft and place an &eME Controller&r."
-		"- Craft an &eME Drive&r and connect it to the Controller via cable."
-		"- Craft a &e1k ME Item Storage Cell&r and slot it into the Drive."
-		""
-		"{@pagebreak}"
-		"&aUse:&r"
-		"- Add a Terminal (or Crafting Terminal) anywhere on the network to view and pull items."
-		"- The Controller wants &achannels&r — power it well, and check the Guide (&6G&r key) for full topology rules."
-		""
-		"&7&oTip: bootstrap AE2 first via the Resource Generation chapter — you'll need processors before any of this is craftable.&r"
-	]
-	quest.5BF1CACD53592B78.quest_subtitle: "Storage, digitized."
-	quest.5BF1CACD53592B78.title: "&6Applied Energistics 2&r"
-	quest.2104DFB6AC42DFF4.quest_desc: [
-		"&6ExtendedAE&r's headline block. The vanilla &ePattern Provider&r holds 9 patterns; the &eME Extended Pattern Provider&r holds 36 in a denser, smarter package. For megabases or autocraft setups with hundreds of recipes, this is the load-bearer."
-		""
-		"&aBuild:&r"
-		"- Craft an &eME Extended Pattern Provider&r and connect it to your AE2 network."
-		""
-		"&aUse:&r"
-		"- Insert encoded patterns directly, or open the &eME Extended Pattern Access Terminal&r to manage many providers at once."
-		"- Apply &ePattern Provider Upgrades&r to lift existing AE2 providers to extended capacity without recrafting."
-	]
-	quest.2104DFB6AC42DFF4.quest_subtitle: "36 patterns, one block."
-	quest.2104DFB6AC42DFF4.title: "&6ExtendedAE&r — Extended Patterns"
 	quest.606D7B3F26D2A17E.quest_desc: [
 		"&6Create&r turns rotation into electricity through the &6Create: Crafts & Additions&r addon. Your windmills, water wheels, and steam engines can all feed FE machinery — no separate power infrastructure required."
 		""
@@ -1025,15 +991,6 @@
 	
 	
 	
-	quest.2BC09E84F37A1D65.quest_desc: [
-		"&6Applied Energistics 2&r is the gold-standard digital storage system — items live as data on &eME Drives&r and &estorage cells&r, accessed through Terminals from anywhere on the network. &6ExtendedAE&r layers on denser pattern providers and quality-of-life upgrades for megabase autocraft."
-		""
-		"Paths in this section:"
-		"- &eME Controller + Drive&r — pour every chest into a digital ledger."
-		"- &eExtended Pattern Provider&r — 36 patterns per block for autocrafting at scale."
-	]
-	quest.2BC09E84F37A1D65.quest_subtitle: "Digital storage, networked."
-	quest.2BC09E84F37A1D65.title: "&6Applied Energistics 2&r — Network Storage"
 	quest.60AC7B83914DEF52.quest_desc: [
 		"&6Cataclysm&r's &eIgnitium&r set is a fire-themed armor tier forged from Ignitium Ingots — drops you'll farm from the Nether and from defeating &dIgnis&r."
 		""
@@ -1045,8 +1002,6 @@
 		"- &aGaze of Heat&r (helmet) — apply Blazing Brand to enemies."
 		"- &aFlame Reflex&r (leggings) and &aLava Walker&r (boots) round out the set."
 		"- &aChestplate&r combines with elytra for fireproof flight."
-		""
-		"&aReward:&r the rest of the set (Leggings + Boots) plus 4 spare Ignitium Ingots."
 	]
 	quest.60AC7B83914DEF52.quest_subtitle: "Forged in Ignis-fire."
 	quest.60AC7B83914DEF52.title: "&6Cataclysm&r — &eIgnitium Set&r"
@@ -1062,24 +1017,20 @@
 		""
 		"&aTask:&r submit one &eGodforged Pearl&r as proof you reached the deep loot tables."
 		""
-		"&aReward:&r 4× Sigil of Rebirth (re-roll affixes), 1× Sigil of Supremacy (overcharge every affix), 16× Gem Dust."
-		""
 		"&7&oTip: drop rate scales with World Tier — push your tier first.&r"
 	]
 	quest.71BD8C9402EFA063.quest_subtitle: "Apex of the affix table."
 	quest.71BD8C9402EFA063.title: "&6Apotheosis&r — &dMythic Trophy&r"
-	quest.82CE9DA513F0B174.quest_desc: [
+	quest.04229664601A15D4.quest_desc: [
 		"&dIgnis&r drops &eBulwark of the Flame&r — a charge-attack greatsword/shield. Sneak-release a charge to slam forward and stun anything you hit into a wall."
 		""
 		"&aHow to acquire:&r"
 		"- Defeat &dIgnis&r (the Nether boss). The fight is in the &6Strong Foes&r chapter."
 		"- The Bulwark drops as guaranteed boss loot."
 		""
-		"&aReward:&r &eGauntlet of Guard&r (right-click to pull entities), 4× &eWitherite Ingot&r for upgrades, 16× XP."
-		""
 		"&7&oTip: the Bulwark scales with charge time — hold sneak longer for harder hits.&r"
 	]
-	quest.82CE9DA513F0B174.quest_subtitle: "Charge. Stun. Repeat."
-	quest.82CE9DA513F0B174.title: "&6Cataclysm&r — &eBulwark of the Flame&r"
+	quest.04229664601A15D4.quest_subtitle: "Charge. Stun. Repeat."
+	quest.04229664601A15D4.title: "&6Cataclysm&r — &eBulwark of the Flame&r"
 
 }

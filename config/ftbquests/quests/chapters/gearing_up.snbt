@@ -637,10 +637,10 @@
 		}
 		{
 			dependencies: ["7D5EC061B28F9D40"]
-			id: "82CE9DA513F0B174"
+			id: "04229664601A15D4"
 			rewards: [
 				{
-					id: "82CE9DA513F0B175"
+					id: "660C9C8BF3843508"
 					item: {
 						count: 1
 						id: "cataclysm:gauntlet_of_guard"
@@ -649,7 +649,7 @@
 				}
 				{
 					count: 4
-					id: "82CE9DA513F0B176"
+					id: "6ED2517E7653D975"
 					item: {
 						count: 1
 						id: "cataclysm:witherite_ingot"
@@ -658,7 +658,7 @@
 				}
 				{
 					count: 16
-					id: "82CE9DA513F0B177"
+					id: "0A57A0C22A5489DD"
 					item: {
 						count: 1
 						id: "minecraft:experience_bottle"
@@ -667,7 +667,7 @@
 				}
 			]
 			tasks: [{
-				id: "82CE9DA513F0B178"
+				id: "109108C8E9080713"
 				item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
 				type: "item"
 			}]
