@@ -94,7 +94,7 @@ hash = "86875f5788169e364e4f22db88b293d68e2e8224c2335a5febdf7272df69d734"
 
 [[files]]
 file = "config/adfinders-common.toml"
-hash = "f9d852bc7870a125082bf3323a294d0096972ddc674f528f4f254ec28e59d2b6"
+hash = "ce21f3e1f6dc33433fb81f6341cd9ab513787c778c81e27e844e69d2dc0e4d75"
 
 [[files]]
 file = "config/adfinders/Targets/ad_astra.cfg"

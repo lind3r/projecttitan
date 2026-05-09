@@ -2,11 +2,11 @@
 	#How far from a player in horizontal plane ores can be found
 	# Default: 6
 	# Range: 1 ~ 64
-	scanRadius = 6
+	scanRadius = 12
 	#How far from a player in vertical plane ore veins can be found
 	# Default: 32
 	# Range: 1 ~ 384
-	pingDepth = 32
+	pingDepth = 64
 	#Minimal size of an ore vein to be found
 	# Default: 1
 	# Range: 1 ~ 128
@@ -28,11 +28,11 @@
 	#How far from a player in horizontal plane ores can be found
 	# Default: 8
 	# Range: 1 ~ 64
-	scanRadius = 8
+	scanRadius = 16
 	#How far from a player in vertical plane ore veins can be found
 	# Default: 48
 	# Range: 1 ~ 384
-	pingDepth = 48
+	pingDepth = 96
 	#Minimal size of an ore vein to be found
 	# Default: 1
 	# Range: 1 ~ 128
@@ -54,11 +54,11 @@
 	#How far from a player in horizontal plane ores can be found
 	# Default: 7
 	# Range: 1 ~ 64
-	scanRadius = 7
+	scanRadius = 14
 	#How far from a player in vertical plane ore veins can be found
 	# Default: 40
 	# Range: 1 ~ 384
-	pingDepth = 40
+	pingDepth = 80
 	#Minimal size of an ore vein to be found
 	# Default: 1
 	# Range: 1 ~ 128
