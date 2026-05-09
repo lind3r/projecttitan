@@ -1,0 +1,276 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: ""
+	icon: {
+		id: "cataclysm:ignitium_ingot"
+	}
+	id: "0AD3EAE735844DBF"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			id: "18852E1D544D601B"
+			rewards: [{
+				count: 4
+				id: "75C6107EA40C48D5"
+				item: {
+					count: 1
+					id: "minecraft:bone"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "48D4885651489815"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18852E1D544D601B"]
+			id: "17F8A0B1C2D3E520"
+			rewards: [
+				{
+					id: "17F8A0B1C2D3E521"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_the_harbinger"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "17F8A0B1C2D3E522"
+					item: {
+						count: 1
+						id: "apotheosis:epic_material"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "17F8A0B1C2D3E523"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["18852E1D544D601B"]
+			id: "17F8A0B1C2D3E530"
+			rewards: [
+				{
+					id: "17F8A0B1C2D3E531"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_the_leviathan"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "17F8A0B1C2D3E532"
+					item: {
+						count: 1
+						id: "apotheosis:epic_material"
+					}
+					type: "item"
+				}
+				{
+					id: "17F8A0B1C2D3E533"
+					item: {
+						count: 1
+						id: "apotheosis:mythic_material"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "17F8A0B1C2D3E534"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.54d
+			y: -3.54d
+		}
+		{
+			dependencies: ["18852E1D544D601B"]
+			id: "17F8A0B1C2D3E550"
+			rewards: [
+				{
+					id: "17F8A0B1C2D3E551"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_ender_guardian"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "17F8A0B1C2D3E552"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "17F8A0B1C2D3E553"
+					item: {
+						count: 1
+						id: "cataclysm:void_core"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "17F8A0B1C2D3E554"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18852E1D544D601B"]
+			id: "17F8A0B1C2D3E560"
+			rewards: [
+				{
+					id: "17F8A0B1C2D3E561"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_ignis"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "17F8A0B1C2D3E562"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "17F8A0B1C2D3E563"
+					item: {
+						count: 1
+						id: "apotheosis:epic_material"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "17F8A0B1C2D3E564"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.54d
+			y: 3.54d
+		}
+		{
+			dependencies: ["18852E1D544D601B"]
+			id: "60AC7B83914DEF52"
+			rewards: [
+				{
+					id: "60AC7B83914DEF53"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "60AC7B83914DEF54"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_boots"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "60AC7B83914DEF55"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "60AC7B83914DEF56"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "60AC7B83914DEF57"
+					item: { count: 1, id: "cataclysm:ignitium_helmet" }
+					type: "item"
+				}
+				{
+					id: "60AC7B83914DEF58"
+					item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18852E1D544D601B"]
+			id: "04229664601A15D4"
+			rewards: [
+				{
+					id: "660C9C8BF3843508"
+					item: {
+						count: 1
+						id: "cataclysm:gauntlet_of_guard"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6ED2517E7653D975"
+					item: {
+						count: 1
+						id: "cataclysm:witherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0A57A0C22A5489DD"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "109108C8E9080713"
+				item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+}

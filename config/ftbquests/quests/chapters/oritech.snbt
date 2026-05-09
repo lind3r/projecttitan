@@ -1,0 +1,80 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: ""
+	icon: {
+		id: "oritech:basic_generator_block"
+	}
+	id: "520A598AD023ABFE"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "52858BE17389BA11"
+			rewards: [{
+				count: 4
+				id: "66DDBC54D461F4DB"
+				item: {
+					count: 1
+					id: "oritech:biosteel_ingot"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "528C7D0C0F860A17"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52858BE17389BA11"]
+			id: "5BD3E6F708192A50"
+			rewards: [
+				{
+					count: 8
+					id: "5BD3E6F708192A51"
+					item: {
+						count: 1
+						id: "oritech:biosteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5BD3E6F708192A52"
+					item: {
+						count: 1
+						id: "oritech:biomass"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A53"
+					item: {
+						count: 1
+						id: "oritech:basic_generator_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5BD3E6F708192A54"
+					item: { count: 1, id: "oritech:bio_generator_block" }
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A55"
+					item: { count: 1, id: "oritech:biomass" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+}

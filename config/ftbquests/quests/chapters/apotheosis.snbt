@@ -1,0 +1,366 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: ""
+	icon: {
+		id: "apotheosis:gem"
+	}
+	id: "5ED840B0AF7CADB7"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			id: "677D49D729D0A833"
+			rewards: [{
+				count: 4
+				id: "276DBA86500686D0"
+				item: {
+					count: 1
+					id: "apotheosis:rare_material"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "541C77832D9B402A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["677D49D729D0A833"]
+			id: "4C6CF541318C7436"
+			rewards: [
+				{
+					count: 4
+					id: "55ACC466ED992460"
+					item: {
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "052D18462230F88F"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2DBEEB3C76ADD81B"
+					item: { count: 1, id: "apotheosis:gem_cutting_table" }
+					type: "item"
+				}
+				{
+					id: "1C64349588244128"
+					item: { count: 1, id: "apotheosis:gem" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["677D49D729D0A833"]
+			id: "39B1C4D5E6F70801"
+			rewards: [
+				{
+					id: "39B1C4D5E6F70802"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_enhancement"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "39B1C4D5E6F70803"
+					item: {
+						count: 1
+						id: "apotheosis:epic_material"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "39B1C4D5E6F70804"
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39B1C4D5E6F70805"
+					item: { count: 1, id: "apotheosis:reforging_table" }
+					type: "item"
+				}
+				{
+					id: "39B1C4D5E6F70806"
+					item: { count: 1, id: "apotheosis:rare_material" }
+					type: "item"
+				}
+			]
+			x: 3.54d
+			y: -3.54d
+		}
+		{
+			dependencies: ["677D49D729D0A833"]
+			id: "39B1C4D5E6F70810"
+			rewards: [
+				{
+					id: "39B1C4D5E6F70811"
+					item: {
+						count: 1
+						id: "quark:ancient_tome"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "39B1C4D5E6F70812"
+					item: {
+						count: 1
+						id: "minecraft:lapis_block"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "39B1C4D5E6F70813"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39B1C4D5E6F70814"
+					item: { count: 1, id: "apothic_enchanting:hellshelf" }
+					type: "item"
+				}
+				{
+					id: "39B1C4D5E6F70815"
+					item: { count: 1, id: "apothic_enchanting:endshelf" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["677D49D729D0A833"]
+			id: "2C035E6F70819481"
+			rewards: [
+				{
+					count: 4
+					id: "2C035E6F70819484"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2C035E6F70819485"
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
+					type: "item"
+				}
+				{
+					id: "2C035E6F70819486"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_unnaming"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2C035E6F70819482"
+					item: { count: 1, id: "apotheosis:salvaging_table" }
+					type: "item"
+				}
+				{
+					id: "2C035E6F70819483"
+					item: { count: 1, id: "apotheosis:rare_material" }
+					type: "item"
+				}
+			]
+			x: 3.54d
+			y: 3.54d
+		}
+		{
+			dependencies: ["677D49D729D0A833"]
+			id: "71BD8C9402EFA063"
+			rewards: [
+				{
+					count: 4
+					id: "71BD8C9402EFA064"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_rebirth"
+					}
+					type: "item"
+				}
+				{
+					id: "71BD8C9402EFA065"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_supremacy"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "71BD8C9402EFA066"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "71BD8C9402EFA067"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71BD8C9402EFA068"
+				item: { count: 1, id: "apotheosis:mythic_material" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["677D49D729D0A833"]
+			id: "17F8A0B1C2D3E500"
+			rewards: [
+				{
+					id: "17F8A0B1C2D3E501"
+					item: {
+						count: 1
+						id: "apotheosis:boss_summoner"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "17F8A0B1C2D3E502"
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
+					type: "item"
+				}
+				{
+					id: "17F8A0B1C2D3E503"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17F8A0B1C2D3E504"
+				item: { count: 1, id: "apotheosis:boss_summoner" }
+				type: "item"
+			}]
+			x: -3.54d
+			y: 3.54d
+		}
+		{
+			dependencies: ["677D49D729D0A833"]
+			id: "17F8A0B1C2D3E570"
+			rewards: [
+				{
+					count: 4
+					id: "17F8A0B1C2D3E571"
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
+					type: "item"
+				}
+				{
+					id: "17F8A0B1C2D3E572"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "17F8A0B1C2D3E573"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17F8A0B1C2D3E574"
+				item: { count: 1, id: "apotheosis:common_material" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["677D49D729D0A833"]
+			id: "17F8A0B1C2D3E510"
+			rewards: [
+				{
+					count: 2
+					id: "17F8A0B1C2D3E511"
+					item: {
+						count: 1
+						id: "minecraft:spawner"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "17F8A0B1C2D3E512"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17F8A0B1C2D3E513"
+				item: { count: 1, id: "minecraft:spawner" }
+				type: "item"
+			}]
+			x: -3.54d
+			y: -3.54d
+		}
+	]
+}

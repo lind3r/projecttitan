@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: {
+		id: "create:cogwheel"
+	}
+	id: "6FD435CB4FAC9852"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0C99F5AA659FF526"
+			rewards: [{
+				count: 16
+				id: "709C67B15BE565E1"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5B6EB7B0EB58A071"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C99F5AA659FF526"]
+			id: "53A654BDD709AEBB"
+			rewards: [
+				{
+					id: "6DFFA0BCA42CA394"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0BBC2C33C02C0B44"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11467B31CDDF7134"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0C99F5AA659FF526"]
+			id: "5BD3E6F708192A30"
+			rewards: [
+				{
+					count: 4
+					id: "5BD3E6F708192A31"
+					item: {
+						count: 1
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5BD3E6F708192A32"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD3E6F708192A33"
+					item: {
+						count: 1
+						id: "create:copper_backtank"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BD3E6F708192A34"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 3.54d
+			y: -3.54d
+		}
+		{
+			dependencies: ["0C99F5AA659FF526"]
+			id: "6C4DBF50A17E8C30"
+			rewards: [
+				{
+					count: 4
+					id: "6C4DBF50A17E8C31"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6C4DBF50A17E8C32"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6C4DBF50A17E8C33"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6C4DBF50A17E8C34"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+				{
+					id: "6C4DBF50A17E8C35"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6C4DBF50A17E8C36"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C99F5AA659FF526"]
+			id: "7D5EC061B28F9D50"
+			rewards: [
+				{
+					count: 16
+					id: "7D5EC061B28F9D51"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7D5EC061B28F9D52"
+					item: {
+						count: 1
+						id: "create:crushed_raw_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "7D5EC061B28F9D53"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7D5EC061B28F9D54"
+					item: { count: 1, id: "create:crushing_wheel" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7D5EC061B28F9D55"
+					item: { count: 1, id: "create:crushed_raw_iron" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0C99F5AA659FF526"]
+			id: "4E258071829B6A93"
+			rewards: [
+				{
+					id: "4E258071829B6A96"
+					item: {
+						count: 1
+						id: "create:netherite_diving_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "4E258071829B6A97"
+					item: {
+						count: 1
+						id: "create:netherite_diving_boots"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E258071829B6A98"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E258071829B6A94"
+					item: { count: 1, id: "create:copper_backtank" }
+					type: "item"
+				}
+				{
+					id: "4E258071829B6A95"
+					item: { count: 1, id: "create:copper_diving_helmet" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+}

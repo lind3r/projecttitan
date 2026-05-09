@@ -1,23 +1,20 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "magic"
+	filename: "ars_nouveau"
 	group: ""
 	icon: {
-		components: {
-			"ftbquests:icon": "ars_nouveau:item/dominion_wand"
-		}
-		id: "ftbquests:custom_icon"
+		id: "ars_nouveau:dominion_wand"
 	}
-	id: "39758E3565B2F8E8"
-	order_index: 4
+	id: "6F90D08FC5152FAA"
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{
-			id: "653D69D7AE20F9D4"
+			id: "66505E73698CDE6E"
 			rewards: [{
 				count: 4
-				id: "357F4114D3A3AAF7"
+				id: "23D5816818EE96CD"
 				item: {
 					count: 1
 					id: "ars_nouveau:source_gem"
@@ -27,14 +24,14 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "0E37B0B94106B0FE"
+				id: "0B9ED809F1EC518B"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["653D69D7AE20F9D4"]
+			dependencies: ["66505E73698CDE6E"]
 			id: "52758F4E624A6440"
 			rewards: [
 				{
@@ -71,7 +68,7 @@
 			y: -3.12d
 		}
 		{
-			dependencies: ["653D69D7AE20F9D4"]
+			dependencies: ["66505E73698CDE6E"]
 			id: "1F86FF003387AE4E"
 			rewards: [
 				{
@@ -118,7 +115,7 @@
 			y: 1.11d
 		}
 		{
-			dependencies: ["653D69D7AE20F9D4"]
+			dependencies: ["66505E73698CDE6E"]
 			id: "7BE305D05A99BFC1"
 			rewards: [
 				{
@@ -161,7 +158,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["653D69D7AE20F9D4"]
+			dependencies: ["66505E73698CDE6E"]
 			id: "44576A594B9EF3C1"
 			rewards: [
 				{
@@ -208,7 +205,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["653D69D7AE20F9D4"]
+			dependencies: ["66505E73698CDE6E"]
 			id: "06E74F5AEB182610"
 			rewards: [
 				{
@@ -256,7 +253,7 @@
 			y: 1.11d
 		}
 		{
-			dependencies: ["653D69D7AE20F9D4"]
+			dependencies: ["66505E73698CDE6E"]
 			id: "28A1B2C3D4E5F600"
 			rewards: [
 				{
@@ -295,7 +292,7 @@
 			y: -3.12d
 		}
 		{
-			dependencies: ["653D69D7AE20F9D4"]
+			dependencies: ["66505E73698CDE6E"]
 			id: "39B2C3D4E5F60710"
 			rewards: [
 				{

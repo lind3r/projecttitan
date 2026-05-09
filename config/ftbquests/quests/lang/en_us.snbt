@@ -1,12 +1,15 @@
 {
-	chapter.00CBD5E49CA9B471.title: "Strong Foes"
-	chapter.18A2F4B6C7D8E9F0.title: "Utility"
-	chapter.39758E3565B2F8E8.title: "Magic"
-	chapter.3976B5DDCF586A08.title: "Storage"
-	chapter.467097E0673DAF78.title: "Travel the World"
-	chapter.50B4EC78A642E6CC.title: "Gearing Up"
-	chapter.50BFBF5154F162BF.title: "Energy Generation"
-	chapter.534DB81C9CA27B8D.title: "Resource Generation"
+	chapter.0AD3EAE735844DBF.title: "Cataclysm"
+	chapter.1FC893F8FF616F48.title: "Other"
+	chapter.2A40D79C070081AB.title: "Ender IO"
+	chapter.2CCF8CAB76604C18.title: "Draconic Evolution"
+	chapter.42519A6A037E5BBA.title: "Mekanism"
+	chapter.4A2490C399770842.title: "Applied Energistics 2"
+	chapter.520A598AD023ABFE.title: "Oritech"
+	chapter.5ED840B0AF7CADB7.title: "Apotheosis"
+	chapter.6F90D08FC5152FAA.title: "Ars Nouveau"
+	chapter.6FD435CB4FAC9852.title: "Create"
+	chapter.79D297A25252F981.title: "Industrial Foregoing"
 	chapter.7F19CC172476E599.title: "Project Titan"
 	quest.00205656D3436C2F.quest_desc: [
 		"The Soul outgrows mortal physics. Light bends near the Core; weather follows your mood now."
@@ -69,13 +72,6 @@
 	]
 	quest.0C998F80BDBE5530.quest_subtitle: "Take up the gate."
 	quest.0C998F80BDBE5530.title: "The Trial Awaits"
-	quest.17F8A0B1C2D3E4F0.quest_desc: [
-		"Power, resources, gear — those keep you alive. This chapter is about what you fight."
-		""
-		"Each spoke is a different kind of fight: a controlled boss summon, a captured &aspawner&r farm, two tier-defining &6Cataclysm&r bosses, and a Nether-tier &6Alex's Mobs&r hunt."
-	]
-	quest.17F8A0B1C2D3E4F0.quest_subtitle: "Find what fights back."
-	quest.17F8A0B1C2D3E4F0.title: "&dWorthy Adversary&r"
 	quest.17F8A0B1C2D3E500.quest_desc: ["&6Apotheosis&r &eBoss Summoners&r conjure a randomized &aaffixed&r boss with rare-tier loot. Crafted from rare materials and arcane essence."]
 	quest.17F8A0B1C2D3E500.quest_subtitle: "Apoth's craftable arena — pick your fight, on your schedule."
 	quest.17F8A0B1C2D3E500.title: "Summon a Boss"
@@ -118,13 +114,6 @@
 	]
 	quest.17F8A0B1C2D3E590.quest_subtitle: "End-shard. Beam attacks. Phase three is real."
 	quest.17F8A0B1C2D3E590.title: "Slay the &dChaos Guardian&r"
-	quest.18A2F4B6C7D8E9F1.quest_desc: [
-		"Tools, decorations, food systems, item handling, transport — the mods that don't push tier progression but make every other tier feel better."
-		""
-		"Each spoke is independent. Touch the ones that fit your playstyle; ignore the rest."
-	]
-	quest.18A2F4B6C7D8E9F1.quest_subtitle: "The mods that make every other mod easier."
-	quest.18A2F4B6C7D8E9F1.title: "&bQuality of Life&r"
 	quest.1A2B3C4D5E6F7081.quest_desc: [
 		"&6Macaw's&r is five mods in a trenchcoat: &6Windows&r, &6Doors&r, &6Roofs&r, &6Furniture&r, &6Lights&r. Together they fix vanilla's biggest decoration gap — actually-attractive buildings."
 		""
@@ -132,13 +121,6 @@
 	]
 	quest.1A2B3C4D5E6F7081.quest_subtitle: "Five mods. One toolkit for buildings worth living in."
 	quest.1A2B3C4D5E6F7081.title: "&6Suburban Architect&r"
-	quest.1A2B3C4D5E6F7091.quest_desc: [
-		"&6Curios&r is the framework — it adds slots for rings, necklaces, belts, charms, gloves, and more. Press &aG&r or click the Curios tab in your inventory to see them."
-		""
-		"Dozens of mods drop curio items: Magnets, Apotheosis gems, Quark trinkets, Supplementaries quivers. This is the awareness check — open the menu, see the slots, start filling them."
-	]
-	quest.1A2B3C4D5E6F7091.quest_subtitle: "Open the second inventory."
-	quest.1A2B3C4D5E6F7091.title: "&6Curio Slots&r"
 	quest.1A2B3C4D5E6F70A1.quest_desc: ["&6Chisel&r turns common building blocks into dozens of decorative variants. Hold the &eChisel&r and right-click a block to open the variant picker."]
 	quest.1A2B3C4D5E6F70A1.quest_subtitle: "One block, fifty variants."
 	quest.1A2B3C4D5E6F70A1.title: "&6Chisel&r"
@@ -212,9 +194,6 @@
 	]
 	quest.2804065C0AD6C566.quest_subtitle: "It begins to burn."
 	quest.2804065C0AD6C566.title: "Tier 2 - &eEmber of the Titan&r"
-	quest.280A1B2C3D4E5F60.quest_desc: ["Some progression demands you leave home. Each spoke pushes you toward a different region of the world (or out of it entirely)."]
-	quest.280A1B2C3D4E5F60.quest_subtitle: "Get out of the base."
-	quest.280A1B2C3D4E5F60.title: "&dDistant Horizons&r"
 	quest.280A1B2C3D4E5F80.quest_desc: ["End-tier materials gate a lot of late progression. The journey to &dthe End&r and back is its own story."]
 	quest.280A1B2C3D4E5F80.quest_subtitle: "Find the portal. Take the leap."
 	quest.280A1B2C3D4E5F80.title: "Visit &dthe End&r"
@@ -372,13 +351,6 @@
 	]
 	quest.3D147F708192A582.quest_subtitle: "Four pieces. The modules come next."
 	quest.3D147F708192A582.title: "&6Mekanism&r: &eMekaSuit Armor Set&r"
-	quest.3F1A8C2D7E4B5906.quest_desc: [
-		"Generators give you power. These quests give you the materials to build with."
-		""
-		"Each spoke introduces a different approach to scaling resources — from automated mining to ore multiplication to mass production. As with energy, paths are independent."
-	]
-	quest.3F1A8C2D7E4B5906.quest_subtitle: "Scale beyond the pickaxe."
-	quest.3F1A8C2D7E4B5906.title: "Productive Earth"
 	quest.3F9A0E334404046A.quest_desc: [
 		"&6Mekanism&r's &eJetpack&r burns &bhydrogen&r for vertical thrust — three modes: hover, normal, and disabled. The cleanest mid-game flight in the pack until you reach Wyvern-tier."
 		""
@@ -436,16 +408,6 @@
 	]
 	quest.4734A3D951B268D1.quest_subtitle: "Push power into a machine."
 	quest.4734A3D951B268D1.title: "Wireless Point"
-	quest.4739B7C350766DAF.quest_desc: [
-		"&6Flux Networks&r is wireless power — an invisible mesh that carries &aFE&r between any two endpoints, no cables, no distance, no dimension limits."
-		""
-		"Three paths build the full network:"
-		"- &eFlux Plug&r — pulls energy from a generator into the network."
-		"- &eFlux Point&r — pushes energy from the network into a machine."
-		"- &eFlux Controller&r — adds wireless charging and binds the network into a managed grid."
-	]
-	quest.4739B7C350766DAF.quest_subtitle: "No wires. Anywhere. Any dimension."
-	quest.4739B7C350766DAF.title: "&6Flux Networks&r — Wireless Grid"
 	quest.47D51C4D8FED1723.quest_desc: [
 		"&6Industrial Foregoing&r's farming pair. The &ePlant Sower&r plants a 3x3 area below it; the &ePlant Gatherer&r harvests a 3x3 area in front of it. Pipe seeds in, pipe crops out, feed both &aForge Energy&r."
 		""
@@ -500,13 +462,6 @@
 	]
 	quest.4AC2D5E6F708B900.quest_subtitle: "Strap your tools to your waist."
 	quest.4AC2D5E6F708B900.title: "&6Tool Belt&r"
-	quest.4BAAF09518997A84.quest_desc: [
-		"Sooner or later you outgrow chests. Each path here is a different storage philosophy — analog tier-up, networked drawers, scaled barrels, drop-vacuums, and full digital ME networks."
-		""
-		"Paths are independent. Pick what fits your base — pick more than one if you like."
-	]
-	quest.4BAAF09518997A84.quest_subtitle: "Storage that scales."
-	quest.4BAAF09518997A84.title: "&lPack It Away&r"
 	quest.4C6CF541318C7436.quest_desc: [
 		"&6Apotheosis&r's &eGem Cutting Table&r turns &eGem Dust&r and Rarity Materials into upgraded &egems&r. Sockets in your gear are only as strong as the gem you slot."
 		""
@@ -534,15 +489,6 @@
 	]
 	quest.4E258071829B6A93.quest_subtitle: "Breathe underwater. Survive lava."
 	quest.4E258071829B6A93.title: "&6Create&r: &eDiving Gear&r"
-	quest.50AB2804E6DD116F.quest_desc: [
-		"&6Ender IO&r's generators are the workhorses of any tech base — efficient, alloy-driven, and modular."
-		""
-		"Two paths:"
-		"- &eStirling Generator&r — burns solid fuel; the cheap, reliable starter."
-		"- &ePhotovoltaic Module&r — passive solar tile-able into roofs."
-	]
-	quest.50AB2804E6DD116F.quest_subtitle: "Combust or absorb."
-	quest.50AB2804E6DD116F.title: "&6Ender IO&r — Tech-Base Generators"
 	quest.52758F4E624A6440.quest_desc: [
 		"&6Ars Nouveau&r's &eScribe's Table&r inscribes &aglyphs&r from XP and &bSource&r. The &eMage's Spell Book&r is what you cast them from. Together they are the combat and utility kernel."
 		""
@@ -588,13 +534,6 @@
 	]
 	quest.5A1B2C3D4E5F6071.quest_subtitle: "It speaks back."
 	quest.5A1B2C3D4E5F6071.title: "Tier 5 - &eEcho of the Titan&r"
-	quest.5A1B7C3E4F2D6890.quest_desc: [
-		"&aPower&r is the lifeblood of every machine in this pack."
-		""
-		"Each branch from here introduces a different way to generate &aForge Energy&r. They are independent — pursue one, several, or all of them. The rewards are designed to jump-start whichever path you commit to, so picking more than one stacks well."
-	]
-	quest.5A1B7C3E4F2D6890.quest_subtitle: "Pick a path. Pick all of them."
-	quest.5A1B7C3E4F2D6890.title: "Spark of Industry"
 	quest.5B3CAE4F906D7B20.quest_desc: [
 		"&6Mekanism&r's processing chain multiplies ore yield up to &a5x&r. The four machines below are the full pipeline."
 		""
@@ -733,16 +672,6 @@
 	]
 	quest.5BD3E6F708A0CA10.quest_subtitle: "Tunnel without the pickaxe."
 	quest.5BD3E6F708A0CA10.title: "&6Mining Gadgets&r: &eMining Gadget&r"
-	quest.5E03977357FFBCD7.quest_desc: [
-		"&6Mekanism&r packs three classic generators that scale together: combustion, sun, and chemical. All output to &aFE&r and share the rest of Mekanism's tiered infrastructure."
-		""
-		"Three paths:"
-		"- &eHeat Generator&r — burn lava or coal for steady mid-tier output."
-		"- &eSolar Generator&r — passive daylight power; expandable to Advanced."
-		"- &eGas-Burning Generator&r — late-tier; burns &bEthene&r or hydrogen for serious throughput."
-	]
-	quest.5E03977357FFBCD7.quest_subtitle: "Three generators, one ecosystem."
-	quest.5E03977357FFBCD7.title: "&6Mekanism&r — Power Plant"
 	quest.5F36918293A07BA4.quest_desc: [
 		"&6Draconic Evolution&r's Wyvern is the mid-tier — the rung you climb before challenging the &dChaos Guardian&r. The &eWyvern Chestpiece&r tanks an absurd amount of damage; the &eWyvern Sword&r cleaves through anything pre-Mythic."
 		""
@@ -756,15 +685,6 @@
 	]
 	quest.5F36918293A07BA4.quest_subtitle: "Mid-tier draconic. Chaos still ahead."
 	quest.5F36918293A07BA4.title: "&6Draconic Evolution&r: Wyvern-tier"
-	quest.606D7B3F26D2A17E.quest_desc: [
-		"&6Create&r turns rotation into electricity through the &6Create: Crafts & Additions&r addon. Your windmills, water wheels, and steam engines can all feed FE machinery — no separate power infrastructure required."
-		""
-		"Two paths through this section:"
-		"- &eAlternator&r — a small, drop-in generator that converts any kinetic input."
-		"- &eSteam Engine&r — Create's heavyweight, high-output FE machine driven by boilers."
-	]
-	quest.606D7B3F26D2A17E.quest_subtitle: "Rotation in, FE out."
-	quest.606D7B3F26D2A17E.title: "&6Create&r — Kinetic Power"
 	quest.60AC7B83914DEF52.quest_desc: [
 		"&6Cataclysm&r's &eIgnitium&r set is a fire-themed armor tier forged from Ignitium Ingots — drops you'll farm from the Nether and from defeating &dIgnis&r."
 		""
@@ -779,13 +699,6 @@
 	]
 	quest.60AC7B83914DEF52.quest_subtitle: "Forged in Ignis-fire."
 	quest.60AC7B83914DEF52.title: "&6Cataclysm&r — &eIgnitium Set&r"
-	quest.653D69D7AE20F9D4.quest_desc: [
-		"Power and resources are the body of this pack. &bSource&r is its bloodstream."
-		""
-		"&6Ars Nouveau&r is dense — these spokes don't cover everything, but they hit the load-bearing pillars: spellcasting, crafting infrastructure, &bSource&r production, &arituals&r, and renewable resources. Pursue them in any order."
-	]
-	quest.653D69D7AE20F9D4.quest_subtitle: "Bloodstream of the arcane."
-	quest.653D69D7AE20F9D4.title: "Mana Spring"
 	quest.6A1B2C3D4E5F6071.quest_desc: [
 		"The Echo gains intent. The titan-shape above the Core no longer rotates passively — it watches."
 		""
@@ -957,13 +870,6 @@
 	]
 	quest.7BE305D05A99BFC1.quest_subtitle: "Generate, transport, store."
 	quest.7BE305D05A99BFC1.title: "Mana on Tap"
-	quest.7D5EC061B28F9D40.quest_desc: [
-		"You have power and resources. Time to upgrade what you wear and wield."
-		""
-		"These spokes fan into different gear philosophies — &6Apotheosis&r affix polish, &6Mekanism&r modular tech, &6Sophisticated Backpacks&r inventory expansion, and &6Draconic Evolution&r endgame plate."
-	]
-	quest.7D5EC061B28F9D40.quest_subtitle: "Suit up."
-	quest.7D5EC061B28F9D40.title: "&6Sharpen Up&r"
 	quest.7D5EC061B28F9D50.quest_desc: [
 		"&6Create&r's heavyweight ore doubler. Two &eCrushing Wheels&r face each other, ore drops in the seam, kinetic stress does the rest. They process anything you throw at them with no per-recipe tweaking."
 		""
@@ -1035,4 +941,37 @@
 	task.60AC7B83914DEF58.title: "Ignitium Chestplate"
 	task.6B2C8D4F5E3A7081.title: "Choose a Path"
 	task.6DB905F59BD03A72.title: "Visit Nether"
+	quest.5826EC6A328C5DE5.quest_desc: ["&6Mekanism&r is the modpack's deepest tech tree: ore-multiplication, six tiers of factory machines, fission/fusion power, and the &eMekaSuit&r that makes you obsolete the rest of your gear."]
+	quest.5826EC6A328C5DE5.quest_subtitle: "Energy. Processing. Suit. Pick a path."
+	quest.5826EC6A328C5DE5.title: "&6Mekanism&r"
+	quest.0C99F5AA659FF526.quest_desc: ["&6Create&r turns mechanical rotation into everything: presses, mixers, crushing wheels, contraptions that move themselves. Pair with &6Create: Crafts &amp; Additions&r for the alternator that bridges to FE."]
+	quest.0C99F5AA659FF526.quest_subtitle: "Rotation in. Power, fluids, items out."
+	quest.0C99F5AA659FF526.title: "&6Create&r"
+	quest.516A9483A90FD357.quest_desc: ["&6Ender IO&r is the conduit-and-capacitor mod: shared conduits for energy/items/fluids, alloys that climb a clear tier ladder, and lazy-farmer machines like the &eFarming Station&r."]
+	quest.516A9483A90FD357.quest_subtitle: "Alloys, capacitors, conduits, and a base that runs itself."
+	quest.516A9483A90FD357.title: "&6Ender IO&r"
+	quest.0A75FF5E927E69E3.quest_desc: ["&6Industrial Foregoing&r is a quirky tech mod with biofuel generators, automated farms, and mob-grinding machines. Plastic is its core resource — make it once, build everything from it."]
+	quest.0A75FF5E927E69E3.quest_subtitle: "Plastic. Pink slime. Lazer drills."
+	quest.0A75FF5E927E69E3.title: "&6Industrial Foregoing&r"
+	quest.52858BE17389BA11.quest_desc: ["&6Oritech&r is a fresh take on tech: bio generators, biosteel, and a pulverizer/centrifuge/assembler progression. Lighter than Mekanism, denser than vanilla."]
+	quest.52858BE17389BA11.quest_subtitle: "A newer tech mod with cleaner lines."
+	quest.52858BE17389BA11.title: "&6Oritech&r"
+	quest.2E8FD56B289B24B1.quest_desc: ["&6Draconic Evolution&r is the modpack's late-game capstone: massive energy storage, dragon-tier weapons, and an armor set that scales linearly into the millions of FE."]
+	quest.2E8FD56B289B24B1.quest_subtitle: "Wyvern → Awakened → Chaotic."
+	quest.2E8FD56B289B24B1.title: "&6Draconic Evolution&r"
+	quest.633C74689327AB2C.quest_desc: ["&6AE2&r is the most documented mod in the pack — its in-game guide is searchable and complete. We don't re-author it here. The single quest below hands you the starter kit; the &aG&r key takes you the rest of the way."]
+	quest.633C74689327AB2C.quest_subtitle: "Press G on any AE2 item to read the manual."
+	quest.633C74689327AB2C.title: "&6Applied Energistics 2&r"
+	quest.677D49D729D0A833.quest_desc: ["&6Apotheosis&r layers an entire RPG system on top of vanilla: gem cutting, reforging, affixed mobs, boss summoners, and the world-tier scaling that defines the pack's combat curve."]
+	quest.677D49D729D0A833.quest_subtitle: "Cut. Reforge. Salvage. Socket."
+	quest.677D49D729D0A833.title: "&6Apotheosis&r"
+	quest.66505E73698CDE6E.quest_desc: ["&6Ars Nouveau&r is the pack's only magic mod — a fully-featured spellcrafting system with sourcelinks, ritual brazier, sorcerer armor, and pet-class familiars."]
+	quest.66505E73698CDE6E.quest_subtitle: "Source. Spells. Rituals. Familiars."
+	quest.66505E73698CDE6E.title: "&6Ars Nouveau&r"
+	quest.18852E1D544D601B.quest_desc: ["&6Cataclysm&r drops four custom bosses — &dHarbinger&r, &dLeviathan&r, &dEnder Guardian&r, &dIgnis&r — each gating a unique gear set. The Titan Trial endgame remixes three of them at 2× stats."]
+	quest.18852E1D544D601B.quest_subtitle: "Four bosses. One arms race."
+	quest.18852E1D544D601B.title: "&6L_Ender's Cataclysm&r"
+	quest.610AC7347A4F7705.quest_desc: ["The mods that don't justify their own chapter still earn a spot. This chapter clusters every smaller mod into its own little section — adventure, storage, decor, food, logistics, and so on."]
+	quest.610AC7347A4F7705.quest_subtitle: "Smaller mods, organized by mod."
+	quest.610AC7347A4F7705.title: "&bOther&r"
 }
