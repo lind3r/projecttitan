@@ -2100,7 +2100,8 @@
 		"- &eAdvanced Smelting Factory&r &7(2nd tier — proves you've upgraded once)&r"
 		""
 		"&aUse:&r"
-		"- Drop a unit machine plus tier-up factory upgrades into a crafting grid; the upgraded factory comes out with the unit swallowed inside."
+		"- Right-click a placed factory with a &eTier Installer&r (&eBasic&r → &eAdvanced&r → &eElite&r → &eUltimate&r) to bump it in place — no rebuild, contents preserved."
+		"- The same Tier Installers also upgrade Energy Cubes, Bins, and the entire transport family (cable / pipe / tube / conductor)."
 		"- A 9-slot Ultimate Smelter parallelizes nine Energized Smelters into one block."
 	]
 	quest.25F6779B61EC443B.quest_subtitle: "Parallelize the basics."
@@ -2115,7 +2116,7 @@
 		"- &eFilter&r &7(Logistical Sorter / Separator)&r — bias outputs"
 		"- &eGas&r &7(specific machines)&r — extends internal gas-tank capacity"
 		""
-		"Crafted from &eHDPE Sheets&r and the upgrade-specific core. &eSpeed + Energy&r stacked is the standard 'make this machine cheap and fast' combo."
+		"Crafted from &eInfused Alloy&r, cheap glass, and an upgrade-specific core (osmium dust for Speed, gold for Energy, diamond for Anchor, and so on). &eSpeed + Energy&r stacked is the standard 'make this machine cheap and fast' combo."
 	]
 	quest.489168A85C1C3C1F.quest_subtitle: "Drop them in. Watch the stats."
 	quest.489168A85C1C3C1F.title: "Machine Upgrades"
