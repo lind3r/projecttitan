@@ -374,7 +374,7 @@ hash = "dd95f21901ae686edb14a6586f844b03c79c2239122613ec23be49859f0f5778"
 
 [[files]]
 file = "config/adlods-common.toml"
-hash = "f191ca3eb79a7c53ec503fab1a085fe7000e36734bed018d44f2412891082f34"
+hash = "fb9f163b5d74a81c5b93a8e2625dd49d5cdcc77bbcf82d5740d183d5099251ba"
 
 [[files]]
 file = "config/adlods/Deposits/aluminum.cfg"
@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1j.cfe"
-hash = "fbb921fa11220895054465498ad524e990aa17cc553f6d6c6c7596977312daba"
+file = "config/ars_nouveau/search_index/_1k.cfe"
+hash = "0e5b083a90659ff707c5ee110dd524cca9d0bc97f8f077bc1b752a31ebb3dbea"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1j.cfs"
-hash = "d691577807b9954b1f32b68ec8748492b89cc1bbe4fb7324853da96279e169a9"
+file = "config/ars_nouveau/search_index/_1k.cfs"
+hash = "af8705430fbd53368a34a0e9eb6547208dc8fd9de5e580694da6c9e3c554b595"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1j.si"
-hash = "ac4a9c94ecf2e02e5e7f47a31b6ff636340685e8698085290fa2ce376026be74"
+file = "config/ars_nouveau/search_index/_1k.si"
+hash = "90d05e8fa27b5784e85e12cfae3de99a2a6d50c8daf1d04cc4c6b0b1aa8856d3"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_1k"
-hash = "4c05a82268e24ad485181d86a800fcc33634ff05bb227bb61e1eee0580e16fa9"
+file = "config/ars_nouveau/search_index/segments_1l"
+hash = "0c5f09c93d9bcc80e3d66aaa6a67698f0dc044293301e27f5fece8fbda3a685d"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1789,6 +1789,10 @@ file = "config/forgeendertech-common.toml"
 hash = "84817209a4fb2b8c1eb8d3aacb50ff91e1397324f10ea019b53d39735411496c"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$deep_ocean.cfg"
+hash = "b33ca5965054e0f4b132505af846356f716cdea4158517110fc315d9527d3042"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$lavender_forest.cfg"
 hash = "8bdc12e4a34e4742b2e596b59f2faffaa1aceac04252b69f84add73c714d4e52"
 
@@ -1806,7 +1810,7 @@ hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "856fc5d86f4925752251f09d73490db5902622d1c9064a05650335f638ed3ff8"
+hash = "f7a40635fde1e4aa5080231c32835a9a8e86b1ebe81fe87332c52c62a1fc145d"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2022,7 +2026,7 @@ hash = "1684352e59bd18bf438a4b04938990cd6e41f22e21170c8cf06eeb64615e44bd"
 
 [[files]]
 file = "config/jei/world/local/New_World__3/lookupHistory.json"
-hash = "53209497113d7eafb7c0b119127b40a8b8d9ac5ae3f7f5d29eb9aaa89cbfa8a9"
+hash = "1737e996e919276452a34e2f314792d3801a2eec2918f20a40198b010bb67fd4"
 
 [[files]]
 file = "config/journeymap-server.toml"
@@ -2911,6 +2915,62 @@ hash = "325df61546b9c77bccd1bc723738fecd3415feb57348e079da0caa96fc09b563"
 [[files]]
 file = "scratch/layout_titan_core.py"
 hash = "d772f2c7bab460a6dace47925056f378c29fefa2486ef93cd213f0c0112e6fe9"
+
+[[files]]
+file = "scratch/li-classes/com/lootintegrations/loot/GlobalLootModifierIntegration.class"
+hash = "e779d06f1151401482141a11081034312ddb7ad453df27998d36a8b37f33c0cf"
+
+[[files]]
+file = "scratch/li-classes/com/lootintegrations/loot/INoMapContext.class"
+hash = "e4fc51fcbd2f8dd244977875f437ca78af6984edc1378bdc00351452981f655e"
+
+[[files]]
+file = "scratch/li-classes/com/lootintegrations/loot/LootModifierManager.class"
+hash = "90143e9734a74a937fc72df7b8b98ffc4a732fad8dbab322e962a4b5f9ae8dfc"
+
+[[files]]
+file = "scratch/liv/META-INF/MANIFEST.MF"
+hash = "7b188d63b4a1f22051bcef023bd755d2c0105e05c96b879a80044e6be9637d4f"
+
+[[files]]
+file = "scratch/liv/META-INF/mods.toml"
+hash = "e57dbafbd273bf82255e937b1a30a04c83926e6b6df5372126357d2e9240c618"
+
+[[files]]
+file = "scratch/liv/META-INF/neoforge.mods.toml"
+hash = "795a33386920f66ec99bea9552e90febe4dc452186890d84abc39330b92b512b"
+
+[[files]]
+file = "scratch/liv/data/lootintegrations/loot/loot_vanilla_easy.json"
+hash = "76ab86ce006d47d4a7ac46522bda4027f8826ad0488354c70eed83a73a848bc9"
+
+[[files]]
+file = "scratch/liv/data/lootintegrations/loot/loot_vanilla_hard.json"
+hash = "9d1b6fe2ad21425e89d2136442cc20394b40e61132b9058d56a2c2775934ceef"
+
+[[files]]
+file = "scratch/liv/data/lootintegrations/loot/loot_vanilla_medium.json"
+hash = "06187a9436821a71763661ff9a14bc96e9bb30108ccffd56c81c04e8f2014933"
+
+[[files]]
+file = "scratch/liv/data/lootintegrations/loot/loot_vanilla_nether.json"
+hash = "5656fdb7355c3af1dfc67a04bad3ea16fe7285495708c96c8b5fa675be7ad987"
+
+[[files]]
+file = "scratch/liv/data/lootintegrations/loot/loot_vanilla_village.json"
+hash = "b0247408a642812ffc5e1c171855d65f66f446eddabc3ac61f3a886c425c03d0"
+
+[[files]]
+file = "scratch/liv/data/lootintegrations/loot/loot_vanilla_water.json"
+hash = "fc9f5cd4c0d0641aeedc94717a7d6d2dd99e6876a5f9d49e6cd2647c0ffe68a9"
+
+[[files]]
+file = "scratch/liv/fabric.mod.json"
+hash = "b0e3b18d108bb7a25f992e0c84203a7aff79a6d61687db5c9706acaa109264ad"
+
+[[files]]
+file = "scratch/liv/pack.mcmeta"
+hash = "c575f099f7aead244c6cdea8280f387c7bbfa0b962a8a98df23ac7bdfec9ea41"
 
 [[files]]
 file = "scratch/move_ae2_to_storage.py"
