@@ -1,0 +1,13 @@
+name = "Advanced Finders"
+filename = "AdFinders-1.21.1-10.1.1.1-NeoForge-build.0821.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2d96f61e0b93d99e0b1f30148047d738c4abb267"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8032482
+project-id = 260925
