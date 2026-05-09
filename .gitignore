@@ -50,3 +50,10 @@ scratch/
 
 # Working-source images (resized copies live in kubejs/assets/)
 /ore_flowers.png
+
+# Local-only release notes and follow-up planning (referenced from CLAUDE.md, not shipped)
+/RELEASE.md
+/TODO.md
+
+# Tooling clone unrelated to the pack
+/stop-slop-main/

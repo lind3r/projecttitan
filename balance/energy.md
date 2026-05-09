@@ -6,20 +6,20 @@
 
 Sustained FE/t demand at each Titan Core tier (10 tiers, locked 2026-05-07). Numbers are **sustained**, not peak (spiky generators like wind use average expected output).
 
-| Tier | Demand (FE/t)   | Scale archetype                  | Quest mapping            |
+| Tier | Demand (FE/t)     | Scale archetype                  | Quest mapping            |
 |---|---:|---|---|
-| T1  |          1,000  | one starter generator            | introductory             |
-| T2  |          4,000  | small array of starters          | finishing the entry mod  |
-| T3  |         16,000  | small farm / cluster             | early-mid mod content    |
-| T4  |         60,000  | first dedicated power room       | mid mod content          |
-| T5  |        250,000  | scaled fuel-burning array        | mid-tier mod content     |
-| T6  |      1,000,000  | full late-mod power room         | late mod tech            |
-| T7  |      4,000,000  | nuclear entry                    | nuclear path begins      |
-| T8  |     15,000,000  | full nuclear pipeline            | late-tier mod content    |
-| T9  |     60,000,000  | deep nuclear / sub-fusion        | endgame approach         |
-| T10 |    200,000,000  | fusion / endgame                 | Mekanism Fusion-class    |
+| T1  |            1,000  | one starter generator            | introductory             |
+| T2  |            5,000  | small array of starters          | finishing the entry mod  |
+| T3  |           25,000  | small farm / cluster             | early-mid mod content    |
+| T4  |          125,000  | first dedicated power room       | mid mod content          |
+| T5  |          625,000  | scaled fuel-burning array        | mid-tier mod content     |
+| T6  |        3,000,000  | full late-mod power room         | late mod tech            |
+| T7  |       15,000,000  | nuclear entry                    | nuclear path begins      |
+| T8  |       75,000,000  | full nuclear pipeline            | late-tier mod content    |
+| T9  |      400,000,000  | deep nuclear / sub-fusion        | endgame approach         |
+| T10 |    2,000,000,000  | fusion-array / endgame           | Mekanism Fusion-class    |
 
-Spacing is ~4× per tier — the same span (entry generator → fusion endgame) as before, split into 10 equal geometric jumps instead of 5.
+Spacing is ~5× per tier — entry generator (1k FE/t) up to a 2 GFE/t apex that demands either a multi-Fusion array or a top-tuned Draconic Reactor. T10 is bumped from 200M to 2 GFE/t (10×) so a single Fusion no longer trivially carries it; T9 jumps proportionally so the gap stays consistent. Per-tier energy values are clamped at the recipe layer to `Integer.MAX_VALUE` (~2.147 GFE/t) — the buffer/receive arithmetic in `TitanCoreBlockEntity` long-promotes and clamps to avoid int overflow.
 
 ## Design Principles
 
@@ -51,22 +51,25 @@ When applying a balance change, prefer the lever lowest in this list:
 
 For each tier, which mods have a realistic path to that demand. Populated from `energy.json` → `ceiling_tier` field per generator. Last updated 2026-05-07 (post Oritech / IF / Draconic Evolution add).
 
-| Tier | Demand        | Mekanism                                | Createaddition          | EnderIO                              | AE2                  | Industrial Foregoing            | Oritech                          | Draconic Evolution           | Coverage |
+> ⚠ **STALE — needs re-audit (2026-05-09 rebalance).** Demand column reflects the new ~5×/tier curve, but the per-mod ceiling assessments below were judged against the previous 4×/tier targets (T10 = 200M FE/t). Treat T4-T10 entries as **over-optimistic**; in particular, T9-T10 at the new scale are firmly multi-Fusion-array territory, not single-Fusion. Re-run `python scripts/audit-energy.py` and reconcile before relying on coverage counts.
+
+| Tier | Demand          | Mekanism                                  | Createaddition          | EnderIO                              | AE2                  | Industrial Foregoing            | Oritech                          | Draconic Evolution           | Coverage |
 |---|---:|---|---|---|---|---|---|---|---|
-| T1  |       1,000  | any starter (Solar/Bio/Heat/Wind)        | Alternator (~3)         | Stirling / any Photovoltaic          | Vibration Ch. (~13)  | Pitiful (~33) / Biofuel (~7)     | basic (~31) / bio (~16) / fuel (~4) | Reactor (sub-peak idle)      | **7 mods** |
-| T2  |       4,000  | Adv Solar (~34) / Bio (~30) / Heat farm  | Alternator (~12)        | Octadic Stirling (~34) / Vibrant PV (~63) | Vibration Ch. (~50) | Biofuel array (~25)              | fuel (~16) / bio (~62)           | Reactor                      | **7 mods** |
-| T3  |      16,000  | Bio array (~115) / Adv Solar field (~134)| Alternator (~45 — peak) | Vibrant PV (~250 — impractical)      | ✗                    | ✗ (~100 gens, impractical)       | Reactor (25k cap)                | Reactor                      | **5 mods** |
-| T4  |      60,000  | 1× Gas-Burning w/ Ethene (72k)           | ✗                       | ✗                                    | ✗                    | ✗                                | ✗ (~234, impractical)            | Reactor (low tuning)         | **2 mods** |
-| T5  |     250,000  | 4× Gas-Burning w/ Ethene (~290k)         | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | Reactor (mid tuning)         | **2 mods** |
-| T6  |   1,000,000  | 14× Gas-Burning Ethene / Fission low-burn| ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | Reactor (mid-high tuning)    | **2 mods** |
-| T7  |   4,000,000  | Fission moderate burn + Turbine          | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | Reactor (stable peak band)   | **2 mods** |
-| T8  |  15,000,000  | Fission + Turbine peak (~25M ceiling)    | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | Reactor (peak stable ~15M)   | **2 mods** |
-| T9  |  60,000,000  | Fusion sub-peak injection                | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | ✗ (only via unsafe tunings)  | **1 mod** ⚠ |
-| T10 | 200,000,000  | Fusion peak                              | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | ✗ (only via unsafe tunings)  | **1 mod** ⚠ |
+| T1  |          1,000  | any starter (Solar/Bio/Heat/Wind)         | Alternator (~3)         | Stirling / any Photovoltaic          | Vibration Ch. (~13)  | Pitiful (~33) / Biofuel (~7)     | basic (~31) / bio (~16) / fuel (~4) | Reactor (sub-peak idle)      | **7 mods** |
+| T2  |          5,000  | Adv Solar (~34) / Bio (~30) / Heat farm   | Alternator (~12)        | Octadic Stirling (~34) / Vibrant PV (~63) | Vibration Ch. (~50) | Biofuel array (~25)              | fuel (~16) / bio (~62)           | Reactor                      | **7 mods** |
+| T3  |         25,000  | Bio array (~115) / Adv Solar field (~134) | Alternator (~45 — peak) | Vibrant PV (~250 — impractical)      | ✗                    | ✗ (~100 gens, impractical)       | Reactor (25k cap)                | Reactor                      | **5 mods** |
+| T4  |        125,000  | 2× Gas-Burning w/ Ethene (~145k)          | ✗                       | ✗                                    | ✗                    | ✗                                | ✗ (~234, impractical)            | Reactor (low-mid tuning)     | **2 mods** |
+| T5  |        625,000  | 9× Gas-Burning w/ Ethene (~650k)          | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | Reactor (mid tuning)         | **2 mods** |
+| T6  |      3,000,000  | Fission low-burn + Turbine                | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | Reactor (high tuning)        | **2 mods** |
+| T7  |     15,000,000  | Fission + Turbine moderate                | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | Reactor (peak band)          | **2 mods** |
+| T8  |     75,000,000  | Fission + Turbine peak (~25M ceiling) ⚠   | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | ✗ (above stable peak)        | **0 mods** ⚠⚠ |
+| T9  |    400,000,000  | Fusion peak (~200M) ⚠ — needs scaled array | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | ✗ (only via unsafe tunings)  | **0 mods** ⚠⚠ |
+| T10 |  2,000,000,000  | Multi-Fusion array (10× Fusion peak)      | ✗                       | ✗                                    | ✗                    | ✗                                | ✗                                | ✗ (only via unsafe tunings)  | **1 mod** ⚠ |
 
 ⚠ = Lateral-options failure. Player has no choice but Mekanism past T8.
+⚠⚠ = New rebalance (2026-05-09) likely creates a coverage gap at T8-T9 — needs audit and possibly mod additions or per-generator buffs to close.
 
-**Gap filling:** when a tier has only one mod with coverage, the player has no choice — that's a lateral-options failure. Resolve by adding a mod, not by buffing. The Draconic Evolution add (2026-05-07) closes the T4-T8 single-mod stretch — those tiers now have a non-Mekanism path. Only T9 and T10 (Fusion-class) remain Mekanism-only, which matches the design intent that fusion is the literal endgame.
+**Gap filling:** when a tier has only one mod with coverage, the player has no choice — that's a lateral-options failure. Resolve by adding a mod, not by buffing. The Draconic Evolution add (2026-05-07) closed the T4-T8 single-mod stretch — those tiers had a non-Mekanism path against the old 200M apex. After the 2026-05-09 rebalance to 2 GFE/t apex, the picture has likely shifted: re-audit suggests T8 may have lost Draconic coverage and T9-T10 demand multi-Fusion arrays. Don't act on this yet — re-run the audit and verify per-generator ceilings before sizing the response.
 
 ### Recommended Mods to Close Gaps (not yet installed)
 
