@@ -67,8 +67,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -4.0d
+			x: 3.91d
+			y: -3.12d
 		}
 		{
 			dependencies: ["653D69D7AE20F9D4"]
@@ -114,8 +114,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -2.0d
+			x: 4.87d
+			y: 1.11d
 		}
 		{
 			dependencies: ["653D69D7AE20F9D4"]
@@ -157,8 +157,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: 2.17d
+			y: 4.5d
 		}
 		{
 			dependencies: ["653D69D7AE20F9D4"]
@@ -204,8 +204,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 2.0d
+			x: -2.17d
+			y: 4.5d
 		}
 		{
 			dependencies: ["653D69D7AE20F9D4"]
@@ -252,8 +252,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 4.0d
+			x: -4.87d
+			y: 1.11d
 		}
 		{
 			dependencies: ["653D69D7AE20F9D4"]
@@ -291,8 +291,8 @@
 				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: -3.91d
+			y: -3.12d
 		}
 		{
 			dependencies: ["653D69D7AE20F9D4"]
@@ -347,8 +347,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 8.0d
+			x: 0.0d
+			y: -5.0d
 		}
 	]
 }

@@ -873,20 +873,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1d.cfe"
-hash = "ba052d1e827c13bc53551bf2cd0efdf265f338897cf83d4d564a11b0ecb8513e"
+file = "config/ars_nouveau/search_index/_1f.cfe"
+hash = "37dd21f5302cc62a57500c962c4df7fbd0841546c2856f812c9592f1f43f7c1d"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1d.cfs"
-hash = "8650a545881331b5cc1c7ca82c7255ff9853e22e11d007a82702d5aaf68aea9b"
+file = "config/ars_nouveau/search_index/_1f.cfs"
+hash = "d227a6adabc3830fe498f50c6df84d5cec8461268c66cd9afcfa313fed0c522b"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1d.si"
-hash = "2c51bcf47946dd92990c617c0a219168e472674eff5c82cb39ba80b754415881"
+file = "config/ars_nouveau/search_index/_1f.si"
+hash = "79f95aee20583a4a799820f25a0854c273b78fbf725b192eee186910eb537a2f"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_1e"
-hash = "094c96788af96e6a5e28511f9c7066c2d521cff22aa5157692fba94ba4fba73c"
+file = "config/ars_nouveau/search_index/segments_1g"
+hash = "ed8595e6ffa7485e8a2cb8b1d79e0b9f2f5b8fcce2cda06a1940a8dae855df12"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1286,7 +1286,7 @@ hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "9981f5b08dc3562195b31a563fa05510f91cf2aa86573fbddbf51b96aeb57b90"
+hash = "fb41d5f7e858184082526ac13ee7b9431c44d3390949daa4ad1e13ec7de7e472"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1306,39 +1306,39 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/energy_generation.snbt"
-hash = "393f5edb303a51cfba771ad33507cce93437463bcfaccc870e6d0f29d2a2729b"
+hash = "493218f58d8765fdcbb4e4ec0f9544b1537e428a8163b2f9f1ac4e4df119784f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gearing_up.snbt"
-hash = "ca40a4929cc1ab2471743687946c9829a0c254733fd16a43e15d7f43b43d1686"
+hash = "f1d4b83767b19e46f7b700edcbdec612a5b10442c10607ae98002b7ab5e1b927"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic.snbt"
-hash = "61f9b8f81371fbe997b6378c8222ee59b0b466a62aada97c0d31935a70cd1e74"
+hash = "126888833260b01051cb1028315c7b14bef42f48965c44f8f4dd231c0d1d124a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_generation.snbt"
-hash = "9b045045f4456b0529cc934c8c789d01dc81f2a310205d9bcad2feb65bd1a1da"
+hash = "bfd362f38d235cfb993664e2fb1ca264bec842fca951bd3115dbb44811bf1f6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
-hash = "99dae52c83526ebdae79519c9d38bb83fde9dcb92befe4b27a3d74e536d583c4"
+hash = "3ba9a45f04d0130290c859c281d5a8510217d69e5f5e981e4875eb572784fed4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/strong_foes.snbt"
-hash = "763df60cd318585f3d0b0fbd3fd319b1571c9caf94f1f54d7f4dff8898544875"
+hash = "a2f4f797ba74089b225993f1657077f5dc74c50f4948c511223d72c85f911c69"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
-hash = "4c6d46f1da37c29aa9a9a4d0a6172ef77d910cda2111693655f434ade5b9d5ed"
+hash = "01365e71534f54daa934b27c54fd2af046ca2652cb7612c76e255ebe8becb7f1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travel_the_world.snbt"
-hash = "2040d4bf8994e7d5b6afd04080cf6bd2f0e57a01d7a49913f5c19ddf5d13837d"
+hash = "d931ba33a32adccb1fc366d93b06a1b3c60ce55efb9505fca6bfb86e0266d85d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/utility.snbt"
-hash = "a37772b1329ac3d9ca695f60dd384249eda67d4cc5ad7584e5cd99cdb813ce6f"
+hash = "bcc9a813a1128c1acde5182be721ecf2fbb09eb5f3c911a3311ab6903e71b8e2"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1346,7 +1346,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "aceea32ed45d14619211985c841762d8afcf3316c99ddbf04a89f2f5e17922b4"
+hash = "6ba5d35ef37e04a645add72ee323e91e70041d2b1b2827d1174394151842fa82"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -1490,7 +1490,7 @@ hash = "b5a9a4224f9cd006b7689c5ed6fcc674c7a6550c23292ec73bab490d948f8d77"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.json"
-hash = "3e1c9096a52f3b02532889aedf6d596fe643f84524255af468243dfba237b693"
+hash = "da2bdcddceffdf10ca18dd6063d6aa3ef5691f8c2ceffc9394fc6a08f328b0ad"
 
 [[files]]
 file = "config/jei/world/local/New_World__1/lookupHistory.json"
@@ -2334,6 +2334,10 @@ hash = "bc0438a2fcfe47a3ab855c8f28fe7775c6ea274ef8a168093496bd6653d11e32"
 metafile = true
 
 [[files]]
+file = "scratch/__pycache__/layout_chapters.cpython-312.pyc"
+hash = "cbcabd5313e19c90e08454346283bd527c41d05577f94b200aea1f08f1151bab"
+
+[[files]]
 file = "scratch/delete_orphan_lang.py"
 hash = "32beae820173695b7faad6980161b8a5720a6cc797ba6aa12bf3fe376fe1cc08"
 
@@ -2352,6 +2356,14 @@ hash = "511c9b7fa9f5e7ea09f43d3b5f026b765fa7c6efe700f295c9c8b6830ab98a8a"
 [[files]]
 file = "scratch/layout_audit.py"
 hash = "82afca707b2719f38171c8abb3e6251907f6c0834286fc54490b2e23abc13e6b"
+
+[[files]]
+file = "scratch/layout_chapters.py"
+hash = "325df61546b9c77bccd1bc723738fecd3415feb57348e079da0caa96fc09b563"
+
+[[files]]
+file = "scratch/layout_titan_core.py"
+hash = "d772f2c7bab460a6dace47925056f378c29fefa2486ef93cd213f0c0112e6fe9"
 
 [[files]]
 file = "scratch/move_ae2_to_storage.py"

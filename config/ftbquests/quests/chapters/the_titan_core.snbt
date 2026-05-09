@@ -41,7 +41,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1FCD148E2DA620F0"]
@@ -80,8 +80,8 @@
 				item: { count: 1, id: "projecttitancore:ember_of_the_titan" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 3.86d
+			y: -4.6d
 		}
 		{
 			dependencies: ["2804065C0AD6C566"]
@@ -119,8 +119,8 @@
 				item: { count: 1, id: "projecttitancore:spark_of_the_titan" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 5.91d
+			y: -1.04d
 		}
 		{
 			dependencies: ["38E76E428BB53F52"]
@@ -159,8 +159,8 @@
 				item: { count: 1, id: "projecttitancore:pulse_of_the_titan" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 5.2d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4A1B2C3D4E5F6071"]
@@ -198,8 +198,8 @@
 				item: { count: 1, id: "projecttitancore:echo_of_the_titan" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
+			x: 2.05d
+			y: 5.64d
 		}
 		{
 			dependencies: ["5A1B2C3D4E5F6071"]
@@ -246,8 +246,8 @@
 				item: { count: 1, id: "projecttitancore:will_of_the_titan" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 0.0d
+			x: -2.05d
+			y: 5.64d
 		}
 		{
 			dependencies: ["6A1B2C3D4E5F6071"]
@@ -295,8 +295,8 @@
 				item: { count: 1, id: "projecttitancore:voice_of_the_titan" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 0.0d
+			x: -5.2d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7A1B2C3D4E5F6071"]
@@ -343,8 +343,8 @@
 				item: { count: 1, id: "projecttitancore:soul_of_the_titan" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 0.0d
+			x: -5.91d
+			y: -1.04d
 		}
 		{
 			dependencies: ["1A6D32ADD93267FB"]
@@ -392,8 +392,8 @@
 				item: { count: 1, id: "projecttitancore:breath_of_the_titan" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: 0.0d
+			x: -3.86d
+			y: -4.6d
 		}
 		{
 			dependencies: ["00205656D3436C2F"]
@@ -443,8 +443,8 @@
 				item: { count: 1, id: "projecttitancore:heart_of_the_titan" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 0.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["74ED5B05FC10AF83"]
@@ -471,8 +471,8 @@
 				id: "4F512AB1304BED9A"
 				type: "checkmark"
 			}]
-			x: 31.0d
-			y: 0.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0C998F80BDBE5530"]
@@ -493,8 +493,8 @@
 				item: { count: 1, id: "projecttitancore:crown_of_the_titan" }
 				type: "item"
 			}]
-			x: 34.0d
-			y: 0.0d
+			x: 0.0d
+			y: 1.0d
 		}
 	]
 }

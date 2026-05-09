@@ -61,8 +61,8 @@
 				id: "6DB905F59BD03A72"
 				type: "dimension"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 4.33d
+			y: -2.5d
 		}
 		{
 			dependencies: ["280A1B2C3D4E5F60"]
@@ -92,8 +92,8 @@
 				id: "280A1B2C3D4E5F83"
 				type: "dimension"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 4.33d
+			y: 2.5d
 		}
 		{
 			dependencies: ["280A1B2C3D4E5F60"]
@@ -131,8 +131,8 @@
 				structure: "minecraft:stronghold"
 				type: "structure"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["280A1B2C3D4E5F60"]
@@ -162,8 +162,8 @@
 				id: "280A1B2C3D4E5FA3"
 				type: "biome"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: -4.33d
+			y: 2.5d
 		}
 		{
 			dependencies: ["280A1B2C3D4E5F60"]
@@ -193,8 +193,8 @@
 				structure: "#towns_and_towers:town"
 				type: "structure"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: -4.33d
+			y: -2.5d
 		}
 		{
 			dependencies: ["280A1B2C3D4E5F60"]
@@ -233,8 +233,8 @@
 				structure: "dungeons_arise:bandit_towers"
 				type: "structure"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 0.0d
+			y: -5.0d
 		}
 	]
 }

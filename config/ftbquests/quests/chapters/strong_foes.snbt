@@ -68,8 +68,8 @@
 				item: { count: 1, id: "apotheosis:boss_summoner" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 4.76d
+			y: -1.55d
 		}
 		{
 			dependencies: ["17F8A0B1C2D3E4F0"]
@@ -99,8 +99,8 @@
 				item: { count: 1, id: "minecraft:spawner" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 4.76d
+			y: 1.55d
 		}
 		{
 			dependencies: ["17F8A0B1C2D3E4F0"]
@@ -130,8 +130,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 2.94d
+			y: 4.05d
 		}
 		{
 			dependencies: ["17F8A0B1C2D3E4F0"]
@@ -169,8 +169,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["17F8A0B1C2D3E4F0"]
@@ -200,8 +200,8 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: -2.94d
+			y: 4.05d
 		}
 		{
 			dependencies: ["17F8A0B1C2D3E4F0"]
@@ -239,8 +239,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: -4.76d
+			y: 1.55d
 		}
 		{
 			dependencies: ["17F8A0B1C2D3E4F0"]
@@ -279,8 +279,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: -4.76d
+			y: -1.55d
 		}
 		{
 			dependencies: ["17F8A0B1C2D3E4F0"]
@@ -318,8 +318,8 @@
 				item: { count: 1, id: "apotheosis:common_material" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.0d
+			x: 2.94d
+			y: -4.05d
 		}
 		{
 			dependencies: ["17F8A0B1C2D3E4F0"]
@@ -368,8 +368,8 @@
 				type: "stat"
 				value: 1
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: -2.94d
+			y: -4.05d
 		}
 		{
 			dependencies: ["17F8A0B1C2D3E4F0"]
@@ -408,8 +408,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 0.0d
+			y: -5.0d
 		}
 	]
 }

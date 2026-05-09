@@ -42,8 +42,8 @@
 				id: "792155A56C9B8BC1"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 4.87d
+			y: 1.11d
 		}
 		{
 			dependencies: ["606D7B3F26D2A17E"]
@@ -72,8 +72,8 @@
 				item: { count: 1, id: "createaddition:alternator" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 7.65d
+			y: -0.02d
 		}
 		{
 			dependencies: ["606D7B3F26D2A17E"]
@@ -111,8 +111,8 @@
 				item: { count: 1, id: "create:steam_engine" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 6.88d
+			y: 3.33d
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
@@ -123,8 +123,8 @@
 				id: "6F9062B6465D90F3"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 2.17d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5E03977357FFBCD7"]
@@ -162,8 +162,8 @@
 				item: { count: 1, id: "mekanismgenerators:heat_generator" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 4.79d
+			y: 5.97d
 		}
 		{
 			dependencies: ["5E03977357FFBCD7"]
@@ -193,8 +193,8 @@
 				item: { count: 1, id: "mekanismgenerators:solar_generator" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 3.47d
+			y: 7.2d
 		}
 		{
 			dependencies: ["5E03977357FFBCD7"]
@@ -239,8 +239,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 10.0d
+			x: 1.69d
+			y: 7.46d
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
@@ -251,8 +251,8 @@
 				id: "71F69279145AC012"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 14.0d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["50AB2804E6DD116F"]
@@ -282,8 +282,8 @@
 				item: { count: 1, id: "enderio:stirling_generator" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 13.0d
+			x: -1.72d
+			y: -7.46d
 		}
 		{
 			dependencies: ["50AB2804E6DD116F"]
@@ -313,8 +313,8 @@
 				item: { count: 1, id: "enderio:energetic_photovoltaic_module" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 15.0d
+			x: 1.72d
+			y: -7.46d
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
@@ -364,8 +364,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 19.0d
+			x: -2.17d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
@@ -410,8 +410,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 22.0d
+			x: -4.87d
+			y: 1.11d
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
@@ -449,8 +449,8 @@
 				item: { count: 1, id: "draconicevolution:wyvern_capacitor" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 25.0d
+			x: -3.91d
+			y: -3.12d
 		}
 		{
 			dependencies: ["5A1B7C3E4F2D6890"]
@@ -461,8 +461,8 @@
 				id: "3B1E1D2F98720A2E"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 29.0d
+			x: 3.91d
+			y: -3.12d
 		}
 		{
 			dependencies: ["4739B7C350766DAF"]
@@ -500,8 +500,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_plug" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 28.0d
+			x: 4.76d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4739B7C350766DAF"]
@@ -530,8 +530,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_point" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 29.0d
+			x: 6.25d
+			y: -4.99d
 		}
 		{
 			dependencies: ["4739B7C350766DAF"]
@@ -560,8 +560,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_controller" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 30.0d
+			x: 6.9d
+			y: -3.31d
 		}
 	]
 }

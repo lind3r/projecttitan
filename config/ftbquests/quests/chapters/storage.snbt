@@ -4,10 +4,7 @@
 	filename: "storage"
 	group: ""
 	icon: {
-		components: {
-			"ftbquests:icon": "sophisticatedstorage:diamond_chest"
-		}
-		id: "ftbquests:custom_icon"
+		id: "minecraft:barrel"
 	}
 	id: "3976B5DDCF586A08"
 	order_index: 8
@@ -71,8 +68,8 @@
 				item: { count: 1, id: "sophisticatedstorage:iron_barrel" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 4.76d
+			y: -1.55d
 		}
 		{
 			dependencies: ["4BAAF09518997A84"]
@@ -109,8 +106,8 @@
 				item: { count: 1, id: "functionalstorage:oak_1" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 2.94d
+			y: 4.05d
 		}
 		{
 			dependencies: ["4BAAF09518997A84"]
@@ -146,8 +143,8 @@
 				item: { count: 1, id: "metalbarrels:iron_barrel" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: -2.94d
+			y: 4.05d
 		}
 		{
 			dependencies: ["4BAAF09518997A84"]
@@ -176,8 +173,8 @@
 				item: { count: 1, id: "itemcollectors:basic_collector" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: -4.76d
+			y: -1.55d
 		}
 		{
 			dependencies: ["4BAAF09518997A84"]
@@ -248,8 +245,8 @@
 				id: "4AC2D5E6F708A905"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 0.0d
+			y: -5.0d
 		}
 	]
 }

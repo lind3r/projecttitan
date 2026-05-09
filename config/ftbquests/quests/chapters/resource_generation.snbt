@@ -68,8 +68,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -3.0d
+			x: 3.21d
+			y: -3.83d
 		}
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
@@ -125,8 +125,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: 4.92d
+			y: -0.87d
 		}
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
@@ -178,8 +178,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 3.0d
+			x: 4.33d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
@@ -226,8 +226,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 9.0d
+			x: 1.71d
+			y: 4.7d
 		}
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
@@ -272,8 +272,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 12.0d
+			x: -1.71d
+			y: 4.7d
 		}
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
@@ -318,8 +318,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 15.0d
+			x: -4.33d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
@@ -369,8 +369,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 18.0d
+			x: -4.92d
+			y: -0.87d
 		}
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
@@ -423,8 +423,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 21.0d
+			x: -3.21d
+			y: -3.83d
 		}
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
@@ -471,8 +471,8 @@
 				item: { count: 1, id: "mekanism:quantum_entangloporter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 24.0d
+			x: 0.0d
+			y: -5.0d
 		}
 	]
 }
