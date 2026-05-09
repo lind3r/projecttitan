@@ -224,34 +224,43 @@
 		}
 		{
 			dependencies: ["52858BE17389BA11"]
-			id: "8D1A000000000001"
+			id: "117C8EAB9186A37B"
 			rewards: [
 				{
-					id: "8D1A000200000001"
-					item: { count: 1, id: "oritech:foundry_block" }
+					id: "3943142E81156306"
+					item: {
+						count: 1
+						id: "oritech:foundry_block"
+					}
 					type: "item"
 				}
 				{
 					count: 16
-					id: "8D1A000200000002"
-					item: { count: 1, id: "oritech:steel_ingot" }
+					id: "5A77D4663CB1E9AE"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
 					type: "item"
 				}
 				{
 					count: 8
-					id: "8D1A000200000003"
-					item: { count: 1, id: "oritech:adamant_ingot" }
+					id: "0C1A3081F08430CE"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "8D1A000100000001"
+					id: "084CA1B1B5A3824D"
 					item: { count: 1, id: "oritech:foundry_block" }
 					type: "item"
 				}
 				{
-					id: "8D1A000100000002"
+					id: "7D4643901E6D3D9B"
 					item: { count: 1, id: "oritech:steel_ingot" }
 					type: "item"
 				}
@@ -261,35 +270,44 @@
 		}
 		{
 			dependencies: ["67DD832356EFB488"]
-			id: "8D1A000000000002"
+			id: "7FF43E7A6CEDAB1A"
 			rewards: [
 				{
 					count: 4
-					id: "8D1A000200000010"
-					item: { count: 1, id: "oritech:laser_arm_block" }
+					id: "583097D23C11D58A"
+					item: {
+						count: 1
+						id: "oritech:laser_arm_block"
+					}
 					type: "item"
 				}
 				{
 					count: 8
-					id: "8D1A000200000011"
-					item: { count: 1, id: "oritech:enderic_lens" }
+					id: "29165C7024CBE8FC"
+					item: {
+						count: 1
+						id: "oritech:enderic_lens"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "8D1A000200000012"
-					item: { count: 1, id: "oritech:target_designator" }
+					id: "2FD3326E384E3726"
+					item: {
+						count: 1
+						id: "oritech:target_designator"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "8D1A000100000010"
+					id: "3DC90C0109F814EE"
 					item: { count: 1, id: "oritech:laser_arm_block" }
 					type: "item"
 				}
 				{
-					id: "8D1A000100000011"
+					id: "5631747B8CF3A758"
 					item: { count: 1, id: "oritech:target_designator" }
 					type: "item"
 				}
@@ -299,31 +317,40 @@
 		}
 		{
 			dependencies: ["4E85CEF3E40170CF"]
-			id: "8D1A000000000003"
+			id: "2CC9AF34B35FE1B5"
 			optional: true
 			rewards: [
 				{
 					count: 8
-					id: "8D1A000200000020"
-					item: { count: 1, id: "oritech:strange_matter" }
+					id: "1F27B67394C09672"
+					item: {
+						components: {
+							"ftbquests:missing_item": "oritech:strange_matter"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 				{
 					count: 16
-					id: "8D1A000200000021"
-					item: { count: 1, id: "oritech:fluxite" }
+					id: "055D11265CB75F40"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "8D1A000100000020"
+					id: "50442218ADDDFDF1"
 					item: { count: 1, id: "oritech:accelerator_controller" }
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "8D1A000100000021"
+					id: "7539BAB581412608"
 					item: { count: 1, id: "oritech:accelerator_ring" }
 					type: "item"
 				}
@@ -332,24 +359,33 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["8D1A000000000003"]
-			id: "8D1A000000000004"
+			dependencies: ["2CC9AF34B35FE1B5"]
+			id: "7072C4A5E4F7660F"
 			optional: true
 			rewards: [
 				{
-					id: "8D1A000200000030"
-					item: { count: 1, id: "oritech:black_hole_block" }
+					id: "0D3E3099AA8B3B80"
+					item: {
+						count: 1
+						id: "oritech:black_hole_block"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "8D1A000200000031"
-					item: { count: 1, id: "oritech:strange_matter" }
+					id: "08FD10306A07DEE2"
+					item: {
+						components: {
+							"ftbquests:missing_item": "oritech:strange_matter"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "8D1A000100000030"
+				id: "6E3F0474E5F01586"
 				item: { count: 1, id: "oritech:black_hole_block" }
 				type: "item"
 			}]
@@ -358,35 +394,44 @@
 		}
 		{
 			dependencies: ["67DD832356EFB488"]
-			id: "8D1A000000000005"
+			id: "5E85D1B027D7F049"
 			rewards: [
 				{
 					count: 4
-					id: "8D1A000200000040"
-					item: { count: 1, id: "oritech:machine_speed_addon" }
+					id: "62CA212CA86BF421"
+					item: {
+						count: 1
+						id: "oritech:machine_speed_addon"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "8D1A000200000041"
-					item: { count: 1, id: "oritech:machine_extender" }
+					id: "229589E18459240B"
+					item: {
+						count: 1
+						id: "oritech:machine_extender"
+					}
 					type: "item"
 				}
 				{
 					count: 8
-					id: "8D1A000200000042"
-					item: { count: 1, id: "oritech:fluxite" }
+					id: "66569F2FEC026DF5"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "8D1A000100000040"
+					id: "3C8D823380193568"
 					item: { count: 1, id: "oritech:machine_speed_addon" }
 					type: "item"
 				}
 				{
-					id: "8D1A000100000041"
+					id: "13379011F42D20A5"
 					item: { count: 1, id: "oritech:machine_extender" }
 					type: "item"
 				}
@@ -396,23 +441,29 @@
 		}
 		{
 			dependencies: ["67DD832356EFB488"]
-			id: "8D1A000000000006"
+			id: "66964241AA24DB82"
 			optional: true
 			rewards: [
 				{
-					id: "8D1A000200000050"
-					item: { count: 1, id: "oritech:drone_port_block" }
+					id: "711B632BC22E6156"
+					item: {
+						count: 1
+						id: "oritech:drone_port_block"
+					}
 					type: "item"
 				}
 				{
 					count: 8
-					id: "8D1A000200000051"
-					item: { count: 1, id: "oritech:carbon_fibre_strands" }
+					id: "436FA30B4744336B"
+					item: {
+						count: 1
+						id: "oritech:carbon_fibre_strands"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "8D1A000100000050"
+				id: "16C9744816E19857"
 				item: { count: 1, id: "oritech:drone_port_block" }
 				type: "item"
 			}]
@@ -421,34 +472,43 @@
 		}
 		{
 			dependencies: ["52858BE17389BA11"]
-			id: "8D1A000000000007"
+			id: "7F2435C222DBAB7B"
 			rewards: [
 				{
-					id: "8D1A000200000060"
-					item: { count: 1, id: "oritech:spawner_controller_block" }
+					id: "3B079672DA4FC646"
+					item: {
+						count: 1
+						id: "oritech:spawner_controller_block"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "8D1A000200000061"
-					item: { count: 1, id: "oritech:spawner_cage_block" }
+					id: "29E8FA47D8B3A768"
+					item: {
+						count: 1
+						id: "oritech:spawner_cage_block"
+					}
 					type: "item"
 				}
 				{
 					count: 16
-					id: "8D1A000200000062"
-					item: { count: 1, id: "minecraft:experience_bottle" }
+					id: "74F48BE8CB62853C"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "8D1A000100000060"
+					id: "04DF834F9DEBA426"
 					item: { count: 1, id: "oritech:spawner_controller_block" }
 					type: "item"
 				}
 				{
-					id: "8D1A000100000061"
+					id: "7D54005BD065CD0A"
 					item: { count: 1, id: "oritech:spawner_cage_block" }
 					type: "item"
 				}
@@ -457,44 +517,53 @@
 			y: 3.54d
 		}
 		{
-			dependencies: ["8D1A000000000001"]
-			id: "8D1A000000000008"
+			dependencies: ["117C8EAB9186A37B"]
+			id: "7B76FC0AD1E5D11A"
 			rewards: [
 				{
-					id: "8D1A000200000070"
-					item: { count: 1, id: "oritech:exo_chestplate" }
+					id: "281E6A4CAFA5EBB7"
+					item: {
+						count: 1
+						id: "oritech:exo_chestplate"
+					}
 					type: "item"
 				}
 				{
-					id: "8D1A000200000071"
-					item: { count: 1, id: "oritech:jetpack" }
+					id: "41873980862C67D4"
+					item: {
+						count: 1
+						id: "oritech:jetpack"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "8D1A000200000072"
-					item: { count: 1, id: "oritech:ion_thruster" }
+					id: "19CFBF5BDB7C0C72"
+					item: {
+						count: 1
+						id: "oritech:ion_thruster"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "8D1A000100000070"
+					id: "5BB4487CB3C9161A"
 					item: { count: 1, id: "oritech:exo_helmet" }
 					type: "item"
 				}
 				{
-					id: "8D1A000100000071"
+					id: "4AE529E0F8FE9651"
 					item: { count: 1, id: "oritech:exo_chestplate" }
 					type: "item"
 				}
 				{
-					id: "8D1A000100000072"
+					id: "38ED4891A28092BE"
 					item: { count: 1, id: "oritech:exo_leggings" }
 					type: "item"
 				}
 				{
-					id: "8D1A000100000073"
+					id: "6A32DB53948D68AA"
 					item: { count: 1, id: "oritech:exo_boots" }
 					type: "item"
 				}
@@ -504,28 +573,34 @@
 		}
 		{
 			dependencies: ["52858BE17389BA11"]
-			id: "8D1A000000000009"
+			id: "66F047CA2BA01C46"
 			rewards: [
 				{
-					id: "8D1A000200000080"
-					item: { count: 1, id: "oritech:electric_mace" }
+					id: "54DDC431EFA89894"
+					item: {
+						count: 1
+						id: "oritech:electric_mace"
+					}
 					type: "item"
 				}
 				{
 					count: 8
-					id: "8D1A000200000081"
-					item: { count: 1, id: "oritech:fluxite" }
+					id: "1B444727F18AE1FC"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "8D1A000100000080"
+					id: "1BAAAA0256ED962B"
 					item: { count: 1, id: "oritech:hand_drill" }
 					type: "item"
 				}
 				{
-					id: "8D1A000100000081"
+					id: "3125BC9E0898B47D"
 					item: { count: 1, id: "oritech:chainsaw" }
 					type: "item"
 				}
@@ -535,28 +610,37 @@
 		}
 		{
 			dependencies: ["52858BE17389BA11"]
-			id: "8D1A00000000000A"
+			id: "5D3BC110998474C4"
 			rewards: [
 				{
-					id: "8D1A000200000090"
-					item: { count: 1, id: "oritech:wrench" }
+					id: "389A8F879DB55153"
+					item: {
+						count: 1
+						id: "oritech:wrench"
+					}
 					type: "item"
 				}
 				{
 					count: 16
-					id: "8D1A000200000091"
-					item: { count: 1, id: "oritech:energy_pipe" }
+					id: "5D76E4490A169598"
+					item: {
+						count: 1
+						id: "oritech:energy_pipe"
+					}
 					type: "item"
 				}
 				{
 					count: 16
-					id: "8D1A000200000092"
-					item: { count: 1, id: "oritech:fluid_pipe" }
+					id: "65D5BB16E86D2F1D"
+					item: {
+						count: 1
+						id: "oritech:fluid_pipe"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "8D1A000100000090"
+				id: "028245AD956F128A"
 				type: "checkmark"
 			}]
 			x: -5.0d

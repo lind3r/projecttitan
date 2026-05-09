@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1n.cfe"
-hash = "bb8e00151c0faab4bf2db91d2b15d33d14e9c2f033fc92d8cca67824567d0e51"
+file = "config/ars_nouveau/search_index/_1o.cfe"
+hash = "1082bc682012041b2044b3df0383b272fe80c1e70714a44f0c0eeb22ba66cbd7"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1n.cfs"
-hash = "28a1f51b0f678bc24c89b4eee93785be2d5f94e8acaae27d5d7e4fb6687fdba3"
+file = "config/ars_nouveau/search_index/_1o.cfs"
+hash = "e48f612e3099501cf1aa8c600fc8adcd57bab4f8347c727ac6546d3c34220069"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1n.si"
-hash = "c55a394f7b316e208d172e75ff204236c3dbb8fb45da0331704668a98bd02a62"
+file = "config/ars_nouveau/search_index/_1o.si"
+hash = "6adad11ddac5a8c17ff21d5255ef4329f9ae6de1ce4e0095063c411a3e2a349d"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_1o"
-hash = "cb25820494d50e9c8a26e2cf61eeaebeec873785da8614c7c467d0ab4c8567a1"
+file = "config/ars_nouveau/search_index/segments_1p"
+hash = "babe7f8e265535a4474fce45d014d581095e814c40683ca7683d6e787f1176ad"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1842,43 +1842,43 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "f2adf95deeba2d7f020190697163d6f34bbaf5fbbcf95ba1284aab60a736da98"
+hash = "4b2d4c751cac4e9ee7d4739761c21379a522fffdfc7f10b96d0bc1ca477469e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "c2370555c4d70b36b2f126e4d3dfb1569f75ab9d5d6c7147ab4f9cf087a318a4"
+hash = "8239955dbd3c35f570657baf01a95923936a74d0c911a2cbe2e582fe2d4a67aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "eb9bacb5e54661da436f13a8674c689ea2b33f279bf77463dc4a8a5397823d77"
+hash = "36c2c248bc4273c685f5d2aaec43586fbe4e1f33e8ddae2568ad214ce7c0ecf7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
-hash = "b08f6b4a4649669f556c690cc46a6c29cf5177c4ca34bdfd8dbae93d9679257e"
+hash = "d8d29dee5b312b9c7b93e4f48cf375d0422e3f56a4e18ac6734f2a68031bbedb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "909cd38e2f23d0b3d173dd24cc1f224ad886552bede8bc5fc2abae8fa7f9f176"
+hash = "fa276fbc62b897b9d38e3226750557eec85bb6459ead4bbe3ab6bc8d8b9e5197"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/draconic_evolution.snbt"
-hash = "03828a9125ac3dc9e03c5cb606f4a64284a04d054ee0fe612de0085dc4796204"
+hash = "306c53f1b45fd4f6046daa53da25d50df4eb70e417b273a3bbf824c4977e9360"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enderio.snbt"
-hash = "8f2bcd9ee9b5dfb195227122a51a01b92e220639dd8862f78783f1bcd1086670"
+hash = "028d1fadb7def8de601e98d87149f134f911f9205274719c96e1606536d7fa80"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_foregoing.snbt"
-hash = "ec254bfbe2853df025a69e5d125af68126c03f60288803b46581b5fa0228b2ba"
+hash = "77700d6db4d1a75e290ec750de774ffce95c1c4a06f6608b22e8f86cc9231fee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "c9a61818478f39a6e8bf17e85bde89dae59607164f910aed47585967001e3ab0"
+hash = "819be9f829e879091601fd768d7ce5c1fadfbdc4fad1eb61514d7c22dd8d1cff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "4f57645d1ce609d32ced3027015df8b5cfc7498f4fdef8124e70173086695687"
+hash = "f18fc9f13003e20564b30c7fdd3a067c808bd9227f96e5e33eb1c147d1cd3f8b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/other.snbt"
@@ -1894,7 +1894,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "19282ea2a29f848cf38fc22e132e0d7b8f7b79e4028c3f920f6054336d8add34"
+hash = "28a7562a466a336cbca9509c0b0909152ea3d150d6a8f71a5931ad48ece8db18"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -2054,7 +2054,7 @@ hash = "1737e996e919276452a34e2f314792d3801a2eec2918f20a40198b010bb67fd4"
 
 [[files]]
 file = "config/jei/world/local/New_World__5/lookupHistory.json"
-hash = "442f365f75dff458bd3de6a02668c2ece7fdbc27f5e80b01367cc348d930aa80"
+hash = "6a605182a4c0009e832478dcc9812eec8de1fa8f14daf3d187b4cdac76d287a8"
 
 [[files]]
 file = "config/journeymap-server.toml"
@@ -2935,6 +2935,10 @@ hash = "0ec7e049965ab7808c200e16c1626dadf89ab4d04ae67fe967589fbab7309627"
 [[files]]
 file = "scratch/drop_section_hubs.py"
 hash = "dc865a6a6b7238d869b8a0c144e91507e9aecd7ffe9a3c1e5ae246ec76a81f09"
+
+[[files]]
+file = "scratch/fix_id_rotation.py"
+hash = "1b7aa540922fd9a9895af83103dff230d04a000fad755ccf8f911927ed7db9bf"
 
 [[files]]
 file = "scratch/hub_audit.py"

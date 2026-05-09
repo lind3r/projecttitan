@@ -364,28 +364,37 @@
 		}
 		{
 			dependencies: ["39B1C4D5E6F70801"]
-			id: "9A1A000000000001"
+			id: "6DAE34EEAC47FACF"
 			rewards: [
 				{
-					id: "9A1A000200000001"
-					item: { count: 1, id: "apotheosis:augmenting_table" }
+					id: "288D8B968061011A"
+					item: {
+						count: 1
+						id: "apotheosis:augmenting_table"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "9A1A000200000002"
-					item: { count: 1, id: "apotheosis:sigil_of_enhancement" }
+					id: "2E162D45CDBAF92D"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_enhancement"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "9A1A000200000003"
-					item: { count: 1, id: "apotheosis:rare_material" }
+					id: "2EB78DD5E4C21EFF"
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "9A1A000100000001"
+				id: "053183751867718E"
 				item: { count: 1, id: "apotheosis:augmenting_table" }
 				type: "item"
 			}]
@@ -394,36 +403,51 @@
 		}
 		{
 			dependencies: ["677D49D729D0A833"]
-			id: "9A1A000000000002"
+			id: "49F8246885175A10"
 			rewards: [
 				{
 					count: 4
-					id: "9A1A000200000010"
-					item: { count: 1, id: "apotheosis:sigil_of_withdrawal" }
+					id: "7493F1BBD0A2F42A"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_withdrawal"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "9A1A000200000011"
-					item: { count: 1, id: "apotheosis:vial_of_extraction" }
+					id: "0CEF7FB77251F870"
+					item: {
+						components: {
+							"ftbquests:missing_item": "apotheosis:vial_of_extraction"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "9A1A000200000012"
-					item: { count: 1, id: "apotheosis:vial_of_unnaming" }
+					id: "51AA5713D71DBB51"
+					item: {
+						components: {
+							"ftbquests:missing_item": "apotheosis:vial_of_unnaming"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "9A1A000100000010"
+					id: "1973B1633D4F6C31"
 					item: { count: 1, id: "apotheosis:sigil_of_withdrawal" }
 					type: "item"
 				}
 				{
-					id: "9A1A000100000011"
-					item: { count: 1, id: "apotheosis:vial_of_extraction" }
+					id: "798EC1BA26E607E3"
+					item: { components: { "ftbquests:missing_item": "apotheosis:vial_of_extraction" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -432,34 +456,43 @@
 		}
 		{
 			dependencies: ["39B1C4D5E6F70810"]
-			id: "9A1A000000000003"
+			id: "296A145EEC9F228D"
 			rewards: [
 				{
-					id: "9A1A000200000020"
-					item: { count: 1, id: "apothic_enchanting:library" }
+					id: "0430B906B5B6658B"
+					item: {
+						count: 1
+						id: "apothic_enchanting:library"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "9A1A000200000021"
-					item: { count: 1, id: "apothic_enchanting:beeshelf" }
+					id: "0FDA72FB59C89419"
+					item: {
+						count: 1
+						id: "apothic_enchanting:beeshelf"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "9A1A000200000022"
-					item: { count: 1, id: "apothic_enchanting:crystal_seashelf" }
+					id: "489D369AC945D8D1"
+					item: {
+						count: 1
+						id: "apothic_enchanting:crystal_seashelf"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "9A1A000100000020"
+					id: "72E505E49F706445"
 					item: { count: 1, id: "apothic_enchanting:library" }
 					type: "item"
 				}
 				{
-					id: "9A1A000100000021"
+					id: "564F15FBB27AA936"
 					item: { count: 1, id: "apothic_enchanting:beeshelf" }
 					type: "item"
 				}
@@ -468,66 +501,45 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["17F8A0B1C2D3E500"]
-			id: "9A1A000000000004"
-			rewards: [
-				{
-					id: "9A1A000200000030"
-					item: { count: 1, id: "apotheosis:mythic_material" }
-					type: "item"
-				}
-				{
-					count: 4
-					id: "9A1A000200000031"
-					item: { count: 1, id: "apotheosis:epic_material" }
-					type: "item"
-				}
-				{
-					count: 8
-					id: "9A1A000200000032"
-					item: { count: 1, id: "apotheosis:boss_summoner" }
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "9A1A000100000030"
-				item: { count: 1, id: "apotheosis:boss_spawner" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 3.54d
-		}
-		{
-			dependencies: ["9A1A000000000003"]
-			id: "9A1A000000000005"
+			dependencies: ["296A145EEC9F228D"]
+			id: "02D58EF7143851CF"
 			optional: true
 			rewards: [
 				{
-					id: "9A1A000200000040"
-					item: { count: 1, id: "apothic_enchanting:ender_library" }
+					id: "3F62848C8D725471"
+					item: {
+						count: 1
+						id: "apothic_enchanting:ender_library"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "9A1A000200000041"
-					item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
+					id: "25750FDCB01937AC"
+					item: {
+						count: 1
+						id: "apothic_enchanting:pearl_endshelf"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "9A1A000200000042"
-					item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
+					id: "2324A724E61D98C3"
+					item: {
+						count: 1
+						id: "apothic_enchanting:draconic_endshelf"
+					}
 					type: "item"
 				}
 			]
 			tasks: [
 				{
-					id: "9A1A000100000040"
+					id: "22F3E4A0CDF2C289"
 					item: { count: 1, id: "apothic_enchanting:ender_library" }
 					type: "item"
 				}
 				{
-					id: "9A1A000100000041"
+					id: "7B1B2174398AFEAB"
 					item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
 					type: "item"
 				}
@@ -537,29 +549,38 @@
 		}
 		{
 			dependencies: ["677D49D729D0A833"]
-			id: "9A1A000000000006"
+			id: "7DD4046D89B7B4D9"
 			rewards: [
 				{
 					count: 4
-					id: "9A1A000200000050"
-					item: { count: 1, id: "apotheosis:gem_dust" }
+					id: "6061A42CE84FF664"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "9A1A000200000051"
-					item: { count: 1, id: "apotheosis:rare_material" }
+					id: "4E652B9462EB038C"
+					item: {
+						count: 1
+						id: "apotheosis:rare_material"
+					}
 					type: "item"
 				}
 				{
 					count: 8
-					id: "9A1A000200000052"
-					item: { count: 1, id: "minecraft:experience_bottle" }
+					id: "63817DB12B27EEF6"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "9A1A000100000050"
+				id: "589C929B5473EB29"
 				type: "checkmark"
 			}]
 			x: 5.0d
