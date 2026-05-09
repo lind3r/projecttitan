@@ -47,3 +47,6 @@ stoneblock4_quests/
 
 # Per-chapter scratch fragments produced by quest-polish workstream
 scratch/
+
+# Working-source images (resized copies live in kubejs/assets/)
+/ore_flowers.png

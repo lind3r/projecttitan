@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1k.cfe"
-hash = "0e5b083a90659ff707c5ee110dd524cca9d0bc97f8f077bc1b752a31ebb3dbea"
+file = "config/ars_nouveau/search_index/_1l.cfe"
+hash = "db17c7ebb0eb4514126315f42c4d5c9032d27bdc0be30552a13fedd036306b33"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1k.cfs"
-hash = "af8705430fbd53368a34a0e9eb6547208dc8fd9de5e580694da6c9e3c554b595"
+file = "config/ars_nouveau/search_index/_1l.cfs"
+hash = "90a47dd3edf844530b54b3ff8b124a917e68e204ee7160e144dcfc25dc8e34ba"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1k.si"
-hash = "90d05e8fa27b5784e85e12cfae3de99a2a6d50c8daf1d04cc4c6b0b1aa8856d3"
+file = "config/ars_nouveau/search_index/_1l.si"
+hash = "8c3de812fbbe9601dc15f4b6ffcc6955c13a9f39ce4133f91ef3951cd857060c"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_1l"
-hash = "0c5f09c93d9bcc80e3d66aaa6a67698f0dc044293301e27f5fece8fbda3a685d"
+file = "config/ars_nouveau/search_index/segments_1m"
+hash = "3cd4b1b3e448f40ac3c533030b89167964f6b5d96dbf8de0686fb7ef682960cb"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1793,6 +1793,10 @@ file = "config/forgeendertech/Biomes/minecraft$deep_ocean.cfg"
 hash = "b33ca5965054e0f4b132505af846356f716cdea4158517110fc315d9527d3042"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$cave$thermal_caves.cfg"
+hash = "6b299a314a9ba0edd0b0728d3b8997cac9fd1685550b33f440b0ee0823b222d2"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$lavender_forest.cfg"
 hash = "8bdc12e4a34e4742b2e596b59f2faffaa1aceac04252b69f84add73c714d4e52"
 
@@ -1810,7 +1814,7 @@ hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "f7a40635fde1e4aa5080231c32835a9a8e86b1ebe81fe87332c52c62a1fc145d"
+hash = "32231487934bb39c1db5999ff11fd19e0c3a8291b1bc46d91ecd5ba9869e3576"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1842,7 +1846,7 @@ hash = "126888833260b01051cb1028315c7b14bef42f48965c44f8f4dd231c0d1d124a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_generation.snbt"
-hash = "bfd362f38d235cfb993664e2fb1ca264bec842fca951bd3115dbb44811bf1f6e"
+hash = "98fa925a16b041131fcf85eb223e0cbe25002351713263f80f82b38a60461a38"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
@@ -1870,7 +1874,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "07534f212a15d5152a41cd7268fda436a79099d6a9323c51fea927cb15ab452e"
+hash = "390de9c694a8c29c89a1d290c29c679c972a4e7f213745d962445a122e61ad97"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -2223,6 +2227,10 @@ hash = "7f1e58be2cf7db18181869804bb09823ee93a4ea863d560036e8a05954bcf806"
 [[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/quests/ore_flowers.png"
+hash = "f09199f9a94c9514ddc2ace9628880e0e100cbcf0ca48fc14ea2a071ef1fe653"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
@@ -2883,6 +2891,10 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "bc0438a2fcfe47a3ab855c8f28fe7775c6ea274ef8a168093496bd6653d11e32"
 metafile = true
+
+[[files]]
+file = "ore_flowers.png"
+hash = "784af304df271cbf297f060bc01be19fee5679b52bf5f5d43a65b66e2a4ec094"
 
 [[files]]
 file = "scratch/__pycache__/layout_chapters.cpython-312.pyc"

@@ -474,5 +474,72 @@
 			x: 0.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["3F1A8C2D7E4B5906"]
+			icon: "minecraft:orange_tulip"
+			id: "8E1F2A3B4C5D6E7F"
+			rewards: [
+				{
+					count: 4
+					id: "8E1F2A3B4C5D6E81"
+					item: { count: 1, id: "minecraft:allium" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8E1F2A3B4C5D6E82"
+					item: { count: 1, id: "minecraft:orange_tulip" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8E1F2A3B4C5D6E83"
+					item: { count: 1, id: "minecraft:azure_bluet" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8E1F2A3B4C5D6E84"
+					item: { count: 1, id: "minecraft:lily_of_the_valley" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "8E1F2A3B4C5D6E80"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["8E1F2A3B4C5D6E7F"]
+			icon: "adfinders:metal_finder"
+			id: "9F2E3D4C5B6A7081"
+			rewards: [
+				{
+					id: "9F2E3D4C5B6A7083"
+					item: { count: 1, id: "adfinders:gem_finder" }
+					type: "item"
+				}
+				{
+					id: "9F2E3D4C5B6A7084"
+					item: { count: 1, id: "adfinders:metal_finder" }
+					type: "item"
+				}
+				{
+					id: "9F2E3D4C5B6A7085"
+					item: { count: 1, id: "adfinders:mineral_finder" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "9F2E3D4C5B6A7082"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
 	]
 }
