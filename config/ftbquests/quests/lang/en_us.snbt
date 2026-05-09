@@ -87,7 +87,7 @@
 	quest.17F8A0B1C2D3E540.quest_desc: ["&dBone Serpents&r spawn in the Nether and chase aggressively. They drop Bone Serpent Tooth (Nether tooth weapon component) and rarely Soul Heart (used to craft Soul Vulture armor)."]
 	quest.17F8A0B1C2D3E540.quest_subtitle: "Three serpents. One trophy."
 	quest.17F8A0B1C2D3E540.title: "Hunt the &dBone Serpent&r"
-	quest.17F8A0B1C2D3E550.quest_desc: ["The &dEnder Guardian&r rules the End — a void-aligned colossus that summons void runes and beam-attacks at range. Spawn it in the End via spawn egg or seek out the End City variant."]
+	quest.17F8A0B1C2D3E550.quest_desc: ["The &dEnder Guardian&r rules the &eRuined Citadel&r — a rare End structure (Highlands or Midlands) you can hunt down with an &eEye of Void&r. The fight starts when you approach the altar at the citadel's lowest level; phase two smashes the floor out from under you."]
 	quest.17F8A0B1C2D3E550.quest_subtitle: "Crack the void's keeper."
 	quest.17F8A0B1C2D3E550.title: "Slay the &dEnder Guardian&r"
 	quest.17F8A0B1C2D3E560.quest_desc: ["&dIgnis&r spawns inside Nether Fortresses as the awakened form of the Ignited Berserkers — a fire-aligned super-boss with abyss fireballs, flame strikes, and a phase-two damage spike."]
@@ -115,7 +115,7 @@
 	quest.17F8A0B1C2D3E590.quest_subtitle: "End-shard. Beam attacks. Phase three is real."
 	quest.17F8A0B1C2D3E590.title: "Slay the &dChaos Guardian&r"
 	quest.1A2B3C4D5E6F7081.quest_desc: [
-		"&6Macaw's&r is five mods in a trenchcoat: &6Windows&r, &6Doors&r, &6Roofs&r, &6Furniture&r, &6Lights&r. Together they fix vanilla's biggest decoration gap — actually-attractive buildings."
+		"&6Macaw's&r is five mods in a trenchcoat: &6Windows&r, &6Doors&r, &6Roofs&r, &6Furniture&r, &6Lights&r. Together they fix vanilla's biggest decoration gap — buildings worth looking at."
 		""
 		"Build one signature block from each mod: a window, a Japanese door, a roof tile, a chair, and a lamp."
 	]
@@ -1005,7 +1005,7 @@
 		""
 		"Visit one of each kind to clear this section. They generate naturally; explore widely or check &6JourneyMap&r waypoints when you find them."
 	]
-	quest.73122F6E402575EA.quest_subtitle: "Vanilla structures, but actually fun."
+	quest.73122F6E402575EA.quest_subtitle: "Vanilla structures, scaled up."
 	quest.73122F6E402575EA.title: "&6YUNG's Better Structures&r"
 	quest.47E8A5AEDC9156BB.quest_desc: [
 		"Even with all the modded glitter, vanilla's three big locations still matter: the &dNether&r, the &dEnd&r, and the first &eStronghold&r."
@@ -1022,7 +1022,7 @@
 	quest.6CFBF73AA4473B0D.quest_subtitle: "No wires. Anywhere. Any dimension."
 	quest.6CFBF73AA4473B0D.title: "&6Flux Networks&r"
 	quest.357893A430163C95.quest_desc: ["&6Sophisticated Storage&r and &6Sophisticated Backpacks&r share an upgrade system: pickup, magnet, filter, jukebox, XP storage. Build the iron tier of each, then upgrade as you go."]
-	quest.357893A430163C95.quest_subtitle: "Storage you actually want to look at."
+	quest.357893A430163C95.quest_subtitle: "Storage worth looking at."
 	quest.357893A430163C95.title: "&6Sophisticated&r Storage"
 	quest.62898E68F9F7515D.quest_desc: ["&6YUNG's&r reimagined &eDesert Temples&r have multi-room layouts, traps, and significantly better loot. Find one and explore."]
 	quest.62898E68F9F7515D.quest_subtitle: "More than a sand pyramid with a hole."
@@ -1036,7 +1036,7 @@
 	quest.2EE00AD34E87EDBE.quest_desc: ["&6YUNG's&r turns &eMineshafts&r into biome-themed structures — desert, jungle, ice, and more, each with its own materials and inhabitants."]
 	quest.2EE00AD34E87EDBE.quest_subtitle: "Mineshafts as biome-aware structures."
 	quest.2EE00AD34E87EDBE.title: "&6Better Mineshafts&r"
-	quest.7E66E335AD1D9D15.quest_desc: ["&6YUNG's&r rebuilds &eNether Fortresses&r as actually-explorable architecture — multi-level halls, chambers, and significantly more dangerous mobs."]
+	quest.7E66E335AD1D9D15.quest_desc: ["&6YUNG's&r rebuilds &eNether Fortresses&r as proper layered architecture — multi-level halls, chambers, and tougher inhabitants."]
 	quest.7E66E335AD1D9D15.quest_subtitle: "Now with bridges that lead somewhere."
 	quest.7E66E335AD1D9D15.title: "&6Better Nether Fortresses&r"
 	quest.6EB796D2C3E0061C.quest_desc: ["&6YUNG's&r expanded &eOcean Monuments&r are massive — bring water-breathing potions, Depth Strider boots, and patience."]
@@ -1045,7 +1045,7 @@
 	quest.3DC23BD54B670DE8.quest_desc: ["&6YUNG's&r redesigned &eStronghold&r layouts — atmospheric, themed by region, with the End portal still at the end."]
 	quest.3DC23BD54B670DE8.quest_subtitle: "Abandoned. Reclaimed. Yours next."
 	quest.3DC23BD54B670DE8.title: "&6Better Strongholds&r"
-	quest.0D76974DDD5A95B7.quest_desc: ["&6YUNG's&r expanded &eWitch Huts&r and rare &eWitch Circles&r — the swamp's most iconic structure, now actually worth visiting."]
+	quest.0D76974DDD5A95B7.quest_desc: ["&6YUNG's&r expanded &eWitch Huts&r and rare &eWitch Circles&r — the swamp's most iconic structure, now worth a visit."]
 	quest.0D76974DDD5A95B7.quest_subtitle: "Witch convention venues."
 	quest.0D76974DDD5A95B7.title: "&6Better Witch Huts&r"
 	quest.44C930116CD8D934.quest_desc: [
@@ -1240,7 +1240,7 @@
 		"- &eRobit&r — your portable storage pet. Place a Personal Chest, name a Robit, never lose your inventory again."
 		"- &eSeismic Reader&r + &eSeismic Vibrator&r — full-column ore scan above-and-below the machine."
 		"- &eFormulaic Assemblicator&r — automatic crafter that holds a recipe template and crafts on a redstone tick."
-		"- &eMekanism Laser&r + &eLaser Amplifier&r + &eLaser Tractor Beam&r — high-energy beam blocks. Useful for Fusion ignition or just for the boom."
+		"- &eMekanism Laser&r + &eLaser Amplifier&r + &eLaser Tractor Beam&r — high-energy beam blocks. Useful for Fusion ignition, or for the spectacle."
 	]
 	quest.3CE304364DB0BBC0.quest_subtitle: "Worth knowing — Mekanism."
 	quest.3CE304364DB0BBC0.title: "Mekanism Bric-a-Brac"
@@ -1333,7 +1333,7 @@
 		"- Schedule the train at a station; it'll route between stations on its own."
 		"- Massive bandwidth for moving items between bases — pair with brass funnels at each station for unloading."
 		""
-		"&7&oTip: trains share chunk-loading with the network, so a long line stays running even when you're not nearby. That's the magic.&r"
+		"&7&oTip: trains share chunk-loading with the network, so a long line keeps running even when you're not nearby.&r"
 	]
 	quest.35A4283A659CBDE8.quest_subtitle: "Real railroads."
 	quest.35A4283A659CBDE8.title: "Trains"
@@ -1422,8 +1422,8 @@
 		"- &eBlack Hole Block&r — needs &eStrange Matter&r from the &eParticle Accelerator&r."
 		""
 		"&aUse:&r"
-		"- Insert any single item type; it stores effectively infinitely."
-		"- Useful as a cobble void, a 5x ore-route buffer, or just an unlimited stack."
+		"- Insert any single item type; capacity is the maximum 32-bit value (over 2 billion)."
+		"- Useful as a cobble void, a 5x ore-route buffer, or a single bottomless stack."
 	]
 	quest.7072C4A5E4F7660F.quest_subtitle: "Storage you'll never fill."
 	quest.7072C4A5E4F7660F.title: "Black Hole Storage"
@@ -1887,7 +1887,7 @@
 		""
 		"&aUse:&r"
 		"- Bind the Whirlisprig to a tree zone."
-		"- Sourcelink near the harvest zone produces continuous &bSource&r passively."
+		"- Sourcelink near the harvest zone produces &bSource&r continuously, no input required."
 	]
 	quest.02FD58F04AF14206.quest_subtitle: "Plants in. Source out."
 	quest.02FD58F04AF14206.title: "Whirlisprig Grove"
@@ -2056,69 +2056,70 @@
 	quest.165B94D41DEEDB88.quest_subtitle: "Worth knowing — Draconic Evolution."
 	quest.165B94D41DEEDB88.title: "Draconic Evolution Bric-a-Brac"
 	quest.36B9C4E8DE45B718.quest_desc: [
-		"&dWadjet&r is &6Cataclysm&r's desert serpent boss — a sandstorm-summoning snake-queen that emerges in desert biomes. Drops the &eWrath of the Desert&r (sand-burst sword) and &eSandstorm in a Bottle&r (consumable mobility item)."
+		"&dWadjet&r is the spear-wielding serpent guardian of the &eCursed Pyramid&r — a mini-boss that summons sand and lashes in close. Drops &eAncient Metal Ingots&r, the building block for &eBone Reptile&r armor and the rest of the desert-tier kit."
 		""
 		"&aHow to acquire:&r"
-		"- Find a desert pyramid or summon via spawn egg."
-		"- Wadjet phases through the sand — interrupt her dives to lock the fight in melee."
+		"- Find a &eCursed Pyramid&r in any desert (or spawn-egg her in)."
+		"- Stay mobile — her spear-thrusts reward backpedaling, but her sand summons punish standing still."
 	]
 	quest.36B9C4E8DE45B718.quest_subtitle: "Sand bites back."
 	quest.36B9C4E8DE45B718.title: "Slay the &dWadjet&r"
 	quest.21C1DCB0B2D791A0.quest_desc: [
-		"&dAncient Remnant&r is the graveyard skeleton-king — a spear-wielding undead boss with a Void-tier kit. Drops the &eSoul Render&r (one of Cataclysm's strongest swords) and &eRemnant Skulls&r."
+		"&dAncient Remnant&r is the colossal skeletal beast buried beneath the &eCursed Pyramid&r — the structure's main boss, dwarfing the Wadjet that guards its halls. Drops &eSandstorm in a Bottle&r, &eAncient Metal&r, and a &eRemnant Skull&r used to tame your own Modern Remnant companion."
 		""
 		"&aHow to acquire:&r"
-		"- Find a graveyard structure or summon via spawn egg."
-		"- The fight phases through teleport-strikes — backpedaling traps you against terrain. Stand and trade.&r"
+		"- Excavate the suspicious sand inside a &eCursed Pyramid&r to wake it."
+		"- The arena is wide for a reason — the Remnant's stomp shockwaves outrange most melee."
 	]
-	quest.21C1DCB0B2D791A0.quest_subtitle: "The grave-king's spear."
+	quest.21C1DCB0B2D791A0.quest_subtitle: "Buried, not dead."
 	quest.21C1DCB0B2D791A0.title: "Slay the &dAncient Remnant&r"
 	quest.79E232C1900191CD.quest_desc: [
-		"&eWitherite&r and &eBlack Steel&r are &6Cataclysm&r's Harbinger-tier metals. Witherite drops from Harbinger fragments; Black Steel is forged from Witherite + iron + soul materials. Together they make the &eBlack Steel Sword&r — a wither-themed Mythic-class weapon."
+		"Two of &6Cataclysm&r's mid-to-late metals. &eWitherite&r drops from the &dHarbinger&r — the only source — and gates the wither-themed shoulder cannons and the &eMechanical Fusion Anvil&r. &eBlack Steel&r drops from the &eDraugr&r and &eAptrgangr&r elites that haunt the &eFrosted Prison&r, and the full Black Steel tool set is the bridge to endgame metallurgy."
 		""
-		"&aBuild:&r"
-		"- &eWitherite Ingot&r — drops from Harbinger or its components."
-		"- &eBlack Steel Ingot&r — combine in the smithing setup."
+		"&aHow to acquire:&r"
+		"- &eWitherite Ingot&r — kill the &dHarbinger&r in the &eAncient Factory&r structure (Overworld)."
+		"- &eBlack Steel Ingot&r — farm Draugr and Aptrgangr in the &eFrosted Prison&r."
 		""
 		"&aUse:&r"
-		"- Black Steel sword/axe/pickaxe is the gear bridge from mid-game to true endgame."
+		"- Black Steel sword/axe/pickaxe is a clean tool tier-up from netherite."
+		"- Hold the Witherite for the &eWither Assault Shoulder Weapon&r and other Harbinger-only crafts."
 	]
-	quest.79E232C1900191CD.quest_subtitle: "From Harbinger ash."
+	quest.79E232C1900191CD.quest_subtitle: "Two prisons, two metals."
 	quest.79E232C1900191CD.title: "Witherite &amp; Black Steel"
 	quest.6FA84BEEE0BB88B0.quest_desc: [
-		"&dThe Prowler&r is a stealth ambush mob in &6Cataclysm&r — a fanged hunter that strikes from shadow. Drops &eAthame&r (Cataclysm's life-stealing dagger) and the &eBone Reptile&r armor pieces."
+		"&dThe Prowler&r is a robotic mini-boss buried in the &eAncient Factory&r — the same structure that hides the &dHarbinger&r. It hunts you with a spinning saw and homing missiles."
 		""
 		"&aHow to acquire:&r"
-		"- Spawns in dark biomes; or summon via spawn egg."
-		"- Light-source the area to reveal it; melee in the open."
+		"- Find an &eAncient Factory&r (rare Overworld dungeon, locate with an &eEye of Mech&r)."
+		"- Stay close — at range you eat missiles; in melee you only deal with the saw."
 	]
-	quest.6FA84BEEE0BB88B0.quest_subtitle: "Don't get caught alone."
+	quest.6FA84BEEE0BB88B0.quest_subtitle: "Saw and missile."
 	quest.6FA84BEEE0BB88B0.title: "Slay the &dProwler&r"
 	quest.310133839A33645C.quest_desc: [
-		"Optional. &dCoralssus&r is the underwater coral colossus — a slow ocean boss with massive area attacks. Drops &eCoral Bardiche&r (heavy 2H polearm) and &eCoral Spear&r (thrown variant)."
+		"Optional. &dCoralssus&r is the coral juggernaut prowling the &eSunken City&r alongside the &dLeviathan&r — usually four or more spawn per dungeon, some locked in jail cells behind a hidden waterfall. Each kill drops a &eCoral Chunk&r, the gating ingredient for the &eAbyssal Sacrifice&r that summons the Leviathan herself."
 		""
 		"&aHow to acquire:&r"
-		"- Spawns in coral reef biomes or via spawn egg."
-		"- Stand on a high block; the Coralssus's ground slams won't reach you. Bow + Coral Spear from above."
+		"- Find a &eSunken City&r (deep ocean) and clear the Deepling guards."
+		"- Fight from a high ledge — the Coralssus's ground slams have wide AoE and stagger."
 	]
-	quest.310133839A33645C.quest_subtitle: "Reef colossus."
+	quest.310133839A33645C.quest_subtitle: "Coral chunk for the Leviathan key."
 	quest.310133839A33645C.title: "Slay the &dCoralssus&r"
 	quest.477C3C2BE9118B1F.quest_desc: [
-		"&eCursium&r is the End-tier &6Cataclysm&r metal — drops as cursium ingot fragments from the &dEnder Guardian&r and components found in End structures. Forged into the full &eCursium Set&r, the Mythic-class End armor."
+		"&eCursium&r is the ghost-themed armor metal — only &dMaledictus&r in the &eFrosted Prison&r drops it (3-4 ingots a kill). The full &eCursium Set&r is one of the strongest in the pack: Ghost Vision on the helmet, Undead Revive on the chestplate (resurrects you once on death), Ghost Dodge on the leggings, and a back-step on the boots."
 		""
-		"&aBuild:&r"
-		"- &eCursium Ingot&r — Ender Guardian drops + End ingredients."
-		"- Craft the four Cursium pieces."
+		"&aHow to acquire:&r"
+		"- Right-click Maledictus's grave inside the &eFrosted Prison&r to wake him; defeat him for &eCursium Ingots&r."
+		"- Forge the four Cursium pieces, or apply a &eCursium Upgrade&r template to a netherite set."
 		""
 		"&aUse:&r"
-		"- Set bonus is End-aligned damage reduction; pair with the &eVoid Core&r for endgame End synergy."
+		"- The &eUndead Revive&r chestplate effect locks you out for six minutes after firing — don't burn it on chip damage."
 	]
-	quest.477C3C2BE9118B1F.quest_subtitle: "End-tier set, fully assembled."
+	quest.477C3C2BE9118B1F.quest_subtitle: "Ghost armor, four pieces."
 	quest.477C3C2BE9118B1F.title: "Cursium Set"
 	quest.1DB508C752281D92.quest_desc: [
 		"&aWorth knowing&r — &6Cataclysm&r odds and ends:"
 		""
-		"- &eAthame&r — life-steal dagger; &dProwler&r drop."
+		"- &eAthame&r — life-steal dagger; drops from &eDeepling Warlocks&r and &ePriests&r in the &eSunken City&r."
 		"- &eVoid Forge&r — End boss-tier handheld; uses &eVoid Cores&r as ammunition."
 		"- &eGauntlet of Bulwark&r / &eof Maelstrom&r — punching gauntlets with elemental specials."
 		"- &eAstrape&r / &eCeraunus&r — lightning-themed bow/spear from the storm boss line."
