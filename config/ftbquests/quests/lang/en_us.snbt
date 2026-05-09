@@ -427,18 +427,6 @@
 	]
 	quest.4A1B2C3D4E5F6071.quest_subtitle: "It has a heartbeat now."
 	quest.4A1B2C3D4E5F6071.title: "Tier 4 - &ePulse of the Titan&r"
-	quest.4A2B9D3E8F5C6A10.quest_desc: [
-		"&6Mekanism&r's &eDigital Miner&r is the flagship automation block — point it at a chunk, configure the filter, and walk away. It mines silently for kilometers, fed nothing but &aForge Energy&r."
-		""
-		"&aBuild:&r"
-		"- Craft a &eDigital Miner&r."
-		"- Place it, wire in &bFE&r, and configure the filter for iron."
-		""
-		"&aUse:&r"
-		"- Let it run until it returns &e64 Raw Iron&r."
-	]
-	quest.4A2B9D3E8F5C6A10.quest_subtitle: "Mining, automated."
-	quest.4A2B9D3E8F5C6A10.title: "Strip Without the Strip"
 	quest.4AC2D5E6F708A901.quest_desc: [
 		"&6AE2&r is dense, but it hides nothing. The mod ships with its own searchable in-game guide, and that's how this pack expects you to learn it."
 		""
@@ -803,11 +791,12 @@
 		""
 		"&aBuild:&r"
 		"- Craft a &eComputer&r."
-		"- Craft a &eTurtle&r — a Computer with arms that mines, places, attacks, and inspects under script control."
 		""
 		"&aUse:&r"
 		"- Right-click the Computer to open the terminal; type &elua&r or &eedit <file>&r to start scripting."
 		"- Label a &eDisk&r in a Disk Drive to share programs between machines."
+		""
+		"&7Note: &eTurtles&r are disabled in this pack — automated mining is off-limits by design. Computers, monitors, modems, and peripherals all stay craftable.&r"
 	]
 	quest.6CE4F5061728397A.quest_subtitle: "Code in your world."
 	quest.6CE4F5061728397A.title: "&6Boot a Computer&r"
@@ -1011,17 +1000,6 @@
 	]
 	quest.4E85CEF3E40170CF.quest_subtitle: "Endgame transmutation."
 	quest.4E85CEF3E40170CF.title: "&dAtomic Forge&r"
-	quest.146CE69DD14B6B23.quest_desc: [
-		"&6Oritech&r's late-game mining solution. The &eBedrock Extractor&r drills through bedrock and pulls up rare resources directly from the void layer."
-		""
-		"&aBuild:&r"
-		"- &eBedrock Extractor&r &7(Deep Drill)&r"
-		""
-		"&aUse:&r"
-		"- Place over bedrock. Provide power. Collect resources."
-	]
-	quest.146CE69DD14B6B23.quest_subtitle: "Mining without a shaft."
-	quest.146CE69DD14B6B23.title: "&dBedrock Extractor&r"
 	quest.73122F6E402575EA.quest_desc: [
 		"Nine &6YUNG's Better X&r mods replace the dull vanilla generation of dungeons, temples, fortresses, and monuments with hand-crafted variants — bigger, more dangerous, more rewarding."
 		""
@@ -1524,24 +1502,10 @@
 		"- &eEnchanter Block&r — Oritech's powered enchanter; fast and reliable."
 		"- &eAtomic Augment Station&r — applies augments (passives) to gear."
 		"- &eCharger Block&r — surface-mount FE charger for tools."
-		"- &eDeep Drill&r quest already covers automated mining; pair with the &eOre Filter Addon&r for selective mining."
 		"- &eBanana&r — Oritech's joke fruit. Yes, it's a real item."
 	]
 	quest.5D3BC110998474C4.quest_subtitle: "Worth knowing — Oritech."
 	quest.5D3BC110998474C4.title: "Oritech Bric-a-Brac"
-	quest.39A6FBE3C445887D.quest_desc: [
-		"&6Industrial Foregoing&r's &eLaser Drill&r is sky-mining without the dig — point it up, feed it &eLaser Drill Lenses&r tinted to a target ore, and it pulls ore out of the air according to biome."
-		""
-		"&aBuild:&r"
-		"- &eLaser Drill&r — pointed up, no obstructions overhead."
-		"- Optional: &eLaser Drill Lens&r (color-tinted, biases output toward the matching ore)."
-		""
-		"&aUse:&r"
-		"- The drill mines from a distant simulated ore pool — output depends on biome and lens."
-		"- Pair with &eAdLods&r ore deposits in the surface for a bridged 'old + new' ore pipeline."
-	]
-	quest.39A6FBE3C445887D.quest_subtitle: "Mining without the digging."
-	quest.39A6FBE3C445887D.title: "Laser Drill"
 	quest.2A9ABC7163AD5A2D.quest_desc: [
 		"The &eDissolution Chamber&r is &6IF&r's plastic factory — feed it &elatex&r + &esugar canes&r → &eTiny Dry Rubber&r → press into &ePlastic&r. Plastic gates the &eAdvanced Machine Frame&r and most of IF's tier 2."
 		""

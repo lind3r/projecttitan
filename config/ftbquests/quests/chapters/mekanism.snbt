@@ -148,44 +148,6 @@
 		}
 		{
 			dependencies: ["5826EC6A328C5DE5"]
-			id: "4A2B9D3E8F5C6A10"
-			rewards: [
-				{
-					count: 32
-					id: "4A2B9D3E8F5C6A11"
-					item: {
-						count: 1
-						id: "mekanism:ingot_osmium"
-					}
-					type: "item"
-				}
-				{
-					id: "4A2B9D3E8F5C6A12"
-					item: {
-						count: 1
-						id: "mekanism:ingot_refined_obsidian"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "4A2B9D3E8F5C6A13"
-					item: { count: 1, id: "mekanism:digital_miner" }
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "4A2B9D3E8F5C6A14"
-					item: { count: 1, id: "minecraft:raw_iron" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5826EC6A328C5DE5"]
 			id: "5B3CAE4F906D7B20"
 			rewards: [
 				{

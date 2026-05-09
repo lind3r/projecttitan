@@ -175,53 +175,6 @@
 		}
 		{
 			dependencies: ["0A75FF5E927E69E3"]
-			id: "39A6FBE3C445887D"
-			rewards: [
-				{
-					id: "7F7612FCA24743AE"
-					item: {
-						count: 1
-						id: "industrialforegoing:laser_drill"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "033A51F0E88F0547"
-					item: {
-						count: 1
-						id: "industrialforegoing:plastic"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "62DC078E2CDF79D9"
-					item: {
-						count: 1
-						id: "industrialforegoing:machine_frame_advanced"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5AB92442B7DC52A7"
-					item: { count: 1, id: "industrialforegoing:laser_drill" }
-					type: "item"
-				}
-				{
-					id: "46EE30A534BEC5E6"
-					item: { components: { "ftbquests:missing_item": "industrialforegoing:laser_lens0" }, count: 1, id: "ftbquests:missing_item" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 3.54d
-			y: -3.54d
-		}
-		{
-			dependencies: ["0A75FF5E927E69E3"]
 			id: "2A9ABC7163AD5A2D"
 			rewards: [
 				{

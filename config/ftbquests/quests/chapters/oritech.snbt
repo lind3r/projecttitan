@@ -193,37 +193,6 @@
 		}
 		{
 			dependencies: ["52858BE17389BA11"]
-			id: "146CE69DD14B6B23"
-			rewards: [
-				{
-					count: 4
-					id: "7862251B13568CE9"
-					item: {
-						count: 1
-						id: "minecraft:netherite_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "1B04792283275C6C"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4D7D5D6AD65465FD"
-				item: { count: 1, id: "oritech:deep_drill_block" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["52858BE17389BA11"]
 			id: "117C8EAB9186A37B"
 			rewards: [
 				{

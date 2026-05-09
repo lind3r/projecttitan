@@ -1434,18 +1434,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "6CE4F5061728397E"
-					item: { count: 1, id: "computercraft:computer_normal" }
-					type: "item"
-				}
-				{
-					id: "6CE4F5061728397F"
-					item: { count: 1, id: "computercraft:turtle_normal" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6CE4F5061728397E"
+				item: { count: 1, id: "computercraft:computer_normal" }
+				type: "item"
+			}]
 			x: -1.0d
 			y: 5.0d
 		}
