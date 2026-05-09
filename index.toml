@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1l.cfe"
-hash = "db17c7ebb0eb4514126315f42c4d5c9032d27bdc0be30552a13fedd036306b33"
+file = "config/ars_nouveau/search_index/_1m.cfe"
+hash = "133b893148b586f6e48ba00b87f068fc3218e498e2f8f7d631c7768902c978dd"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1l.cfs"
-hash = "90a47dd3edf844530b54b3ff8b124a917e68e204ee7160e144dcfc25dc8e34ba"
+file = "config/ars_nouveau/search_index/_1m.cfs"
+hash = "a7b716e85c57368b1896a643166deaa35494d32fa9f0ab99af3b12193c420c7e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1l.si"
-hash = "8c3de812fbbe9601dc15f4b6ffcc6955c13a9f39ce4133f91ef3951cd857060c"
+file = "config/ars_nouveau/search_index/_1m.si"
+hash = "085543a1961e82276455db5adc5af85de59ff9d925398bb53964da2f2fb76c28"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_1m"
-hash = "3cd4b1b3e448f40ac3c533030b89167964f6b5d96dbf8de0686fb7ef682960cb"
+file = "config/ars_nouveau/search_index/segments_1n"
+hash = "5efd60e0a5c90a2a5583094c7d7d22b84f0e3b1b6e2b760d37bee7b10b293fe4"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1805,6 +1805,10 @@ file = "config/forgeendertech/Biomes/terralith$rocky_mountains.cfg"
 hash = "c961722da2707fe7fc880a1ea73a601e26bc2afce9f9ff7f5f0e1ca016afc16b"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$siberian_grove.cfg"
+hash = "8c2ae7d5d59b8d9876f742d4174c7a5b4c75df089ca56f913e5fdf9d9d3dff1f"
+
+[[files]]
 file = "config/forgeendertech/Wind.cfg"
 hash = "d5d2955fed8fc9ca71cb550b1af8a6146822b7071d4a1fdcd3683acacb8c6749"
 
@@ -1814,7 +1818,7 @@ hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "32231487934bb39c1db5999ff11fd19e0c3a8291b1bc46d91ecd5ba9869e3576"
+hash = "61b79bb295b25ec9e7a48f81b3c78724cbc0dbb177798e285475d6e863dce31f"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1846,7 +1850,7 @@ hash = "126888833260b01051cb1028315c7b14bef42f48965c44f8f4dd231c0d1d124a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_generation.snbt"
-hash = "98fa925a16b041131fcf85eb223e0cbe25002351713263f80f82b38a60461a38"
+hash = "ab15fe1ea33472a0618f11e3abcb112fd6c2c928c43dda9346c446c9bb405a94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
@@ -1874,7 +1878,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "390de9c694a8c29c89a1d290c29c679c972a4e7f213745d962445a122e61ad97"
+hash = "7fdb817c06a79451e5ea094432aecf6d7ef65b9aa0e2f83109bb6c905cc1ffa8"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"

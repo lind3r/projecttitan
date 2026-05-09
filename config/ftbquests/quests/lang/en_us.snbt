@@ -989,7 +989,7 @@
 	]
 	quest.7D8F1A84CAEE2B73.quest_subtitle: "The vanilla barrel, scaled hard."
 	quest.7D8F1A84CAEE2B73.title: "&6Metal Barrels&r"
-	quest.8E1F2A3B4C5D6E7F.quest_desc: [
+	quest.7DA79533AFA8AAEB.quest_desc: [
 		"Ores in this pack don't generate the way they do in vanilla."
 		""
 		"Vanilla scatters small veins everywhere — a few iron blocks here, a few there. Project Titan replaces that with &6AdLods&r: each ore type generates as a rare &emotherlode deposit&r — hundreds to thousands of blocks in one place — instead of many tiny scatters."
@@ -1002,9 +1002,9 @@
 		""
 		"A few ores share signatures, but a flower ring on the surface always means &esomething is buried below&r. Dig down to confirm."
 	]
-	quest.8E1F2A3B4C5D6E7F.quest_subtitle: "Ore deposits, not ore veins."
-	quest.8E1F2A3B4C5D6E7F.title: "Reading the Earth"
-	quest.9F2E3D4C5B6A7081.quest_desc: [
+	quest.7DA79533AFA8AAEB.quest_subtitle: "Ore deposits, not ore veins."
+	quest.7DA79533AFA8AAEB.title: "Reading the Earth"
+	quest.5DE11EF5D664F8E7.quest_desc: [
 		"Three handheld scanners ping &eore blocks&r within range. Hold one in your main hand and right-click to ping; it points at the nearest matching block in range."
 		""
 		"&aGem Finder:&r"
@@ -1022,8 +1022,8 @@
 		""
 		"Each finder has &edurability 4&r — they break after a handful of pings, so use them for surveying large areas, not for spamming."
 	]
-	quest.9F2E3D4C5B6A7081.quest_subtitle: "Three finders for three target types."
-	quest.9F2E3D4C5B6A7081.title: "Pocket Surveyors"
+	quest.5DE11EF5D664F8E7.quest_subtitle: "Craft one of each."
+	quest.5DE11EF5D664F8E7.title: "Pocket Surveyors"
 	task.3D147F708192A583.title: "MekaSuit Helmet"
 	task.3D147F708192A588.title: "MekaSuit Bodyarmor"
 	task.3D147F708192A589.title: "MekaSuit Pants"

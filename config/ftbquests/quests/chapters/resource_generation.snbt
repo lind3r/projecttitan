@@ -476,68 +476,88 @@
 		}
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
-			icon: "minecraft:orange_tulip"
-			id: "8E1F2A3B4C5D6E7F"
+			id: "7DA79533AFA8AAEB"
 			rewards: [
 				{
 					count: 4
-					id: "8E1F2A3B4C5D6E81"
-					item: { count: 1, id: "minecraft:allium" }
+					id: "795B2031B9530312"
+					item: {
+						count: 1
+						id: "minecraft:allium"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "8E1F2A3B4C5D6E82"
-					item: { count: 1, id: "minecraft:orange_tulip" }
+					id: "7069D1885F750CDD"
+					item: {
+						count: 1
+						id: "minecraft:orange_tulip"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "8E1F2A3B4C5D6E83"
-					item: { count: 1, id: "minecraft:azure_bluet" }
+					id: "0273B05B535669C0"
+					item: {
+						count: 1
+						id: "minecraft:azure_bluet"
+					}
 					type: "item"
 				}
 				{
 					count: 4
-					id: "8E1F2A3B4C5D6E84"
-					item: { count: 1, id: "minecraft:lily_of_the_valley" }
+					id: "6FFA6AAC463AF747"
+					item: {
+						count: 1
+						id: "minecraft:lily_of_the_valley"
+					}
 					type: "item"
 				}
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "8E1F2A3B4C5D6E80"
+				id: "58598E6E8060F045"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 7.0d
 		}
 		{
-			dependencies: ["8E1F2A3B4C5D6E7F"]
-			icon: "adfinders:metal_finder"
-			id: "9F2E3D4C5B6A7081"
+			dependencies: ["7DA79533AFA8AAEB"]
+			id: "5DE11EF5D664F8E7"
 			rewards: [
 				{
-					id: "9F2E3D4C5B6A7083"
-					item: { count: 1, id: "adfinders:gem_finder" }
+					count: 16
+					id: "53F54A3C557D26AE"
+					item: { count: 1, id: "minecraft:experience_bottle" }
 					type: "item"
 				}
 				{
-					id: "9F2E3D4C5B6A7084"
-					item: { count: 1, id: "adfinders:metal_finder" }
-					type: "item"
-				}
-				{
-					id: "9F2E3D4C5B6A7085"
-					item: { count: 1, id: "adfinders:mineral_finder" }
+					count: 64
+					id: "0BC2A8947CBAF202"
+					item: { count: 1, id: "minecraft:torch" }
 					type: "item"
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "9F2E3D4C5B6A7082"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "79017E3DBBBC4F5F"
+					item: { count: 1, id: "adfinders:gem_finder" }
+					type: "item"
+				}
+				{
+					id: "1999C16623EB48CD"
+					item: { count: 1, id: "adfinders:metal_finder" }
+					type: "item"
+				}
+				{
+					id: "0BC3A8947CBAF203"
+					item: { count: 1, id: "adfinders:mineral_finder" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 8.5d
 		}
