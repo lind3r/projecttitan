@@ -7,7 +7,7 @@
 		id: "oritech:basic_generator_block"
 	}
 	id: "520A598AD023ABFE"
-	order_index: 9
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -78,11 +78,11 @@
 		}
 		{
 			dependencies: ["52858BE17389BA11"]
-			id: "B1A1B2C3D4E5F601"
+			id: "1D35C6223BDD9FA1"
 			rewards: [
 				{
 					count: 16
-					id: "B1A1B2C3D4E5F604"
+					id: "62166FD439A44C8B"
 					item: {
 						count: 1
 						id: "oritech:nickel_ingot"
@@ -91,7 +91,7 @@
 				}
 				{
 					count: 16
-					id: "B1A1B2C3D4E5F605"
+					id: "287F326603F4D7C1"
 					item: {
 						count: 1
 						id: "oritech:platinum_ingot"
@@ -101,12 +101,12 @@
 			]
 			tasks: [
 				{
-					id: "B1A1B2C3D4E5F602"
+					id: "6D77D2360024EDF9"
 					item: { count: 1, id: "oritech:pulverizer_block" }
 					type: "item"
 				}
 				{
-					id: "B1A1B2C3D4E5F603"
+					id: "608F571C994CFCEB"
 					item: { count: 1, id: "oritech:centrifuge_block" }
 					type: "item"
 				}
@@ -116,11 +116,11 @@
 		}
 		{
 			dependencies: ["52858BE17389BA11"]
-			id: "B2A1B2C3D4E5F601"
+			id: "67DD832356EFB488"
 			rewards: [
 				{
 					count: 8
-					id: "B2A1B2C3D4E5F604"
+					id: "6D1772D66319DE9D"
 					item: {
 						count: 1
 						id: "oritech:fluxite"
@@ -129,7 +129,7 @@
 				}
 				{
 					count: 4
-					id: "B2A1B2C3D4E5F605"
+					id: "44B713C1981625E1"
 					item: {
 						count: 1
 						id: "oritech:biosteel_ingot"
@@ -137,7 +137,7 @@
 					type: "item"
 				}
 				{
-					id: "B2A1B2C3D4E5F606"
+					id: "43C3D47CACD72DF3"
 					item: {
 						count: 1
 						id: "oritech:machine_frame_block"
@@ -147,12 +147,12 @@
 			]
 			tasks: [
 				{
-					id: "B2A1B2C3D4E5F602"
+					id: "3346B95378EBF171"
 					item: { count: 1, id: "oritech:assembler_block" }
 					type: "item"
 				}
 				{
-					id: "B2A1B2C3D4E5F603"
+					id: "78B510F84BB3B57B"
 					item: { count: 1, id: "oritech:fragment_forge_block" }
 					type: "item"
 				}
@@ -162,11 +162,11 @@
 		}
 		{
 			dependencies: ["52858BE17389BA11"]
-			id: "B3A1B2C3D4E5F601"
+			id: "4E85CEF3E40170CF"
 			rewards: [
 				{
 					count: 16
-					id: "B3A1B2C3D4E5F603"
+					id: "1C25D0A44A6563E9"
 					item: {
 						count: 1
 						id: "oritech:fluxite"
@@ -175,7 +175,7 @@
 				}
 				{
 					count: 8
-					id: "B3A1B2C3D4E5F604"
+					id: "6B643B29CDD5A9A2"
 					item: {
 						count: 1
 						id: "minecraft:experience_bottle"
@@ -184,7 +184,7 @@
 				}
 			]
 			tasks: [{
-				id: "B3A1B2C3D4E5F602"
+				id: "220AD809443B46AA"
 				item: { count: 1, id: "oritech:atomic_forge_block" }
 				type: "item"
 			}]
@@ -193,11 +193,11 @@
 		}
 		{
 			dependencies: ["52858BE17389BA11"]
-			id: "B4A1B2C3D4E5F601"
+			id: "146CE69DD14B6B23"
 			rewards: [
 				{
 					count: 4
-					id: "B4A1B2C3D4E5F603"
+					id: "7862251B13568CE9"
 					item: {
 						count: 1
 						id: "minecraft:netherite_ingot"
@@ -206,7 +206,7 @@
 				}
 				{
 					count: 32
-					id: "B4A1B2C3D4E5F604"
+					id: "1B04792283275C6C"
 					item: {
 						count: 1
 						id: "minecraft:experience_bottle"
@@ -215,7 +215,7 @@
 				}
 			]
 			tasks: [{
-				id: "B4A1B2C3D4E5F602"
+				id: "4D7D5D6AD65465FD"
 				item: { count: 1, id: "oritech:deep_drill_block" }
 				type: "item"
 			}]

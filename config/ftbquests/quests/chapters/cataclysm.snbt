@@ -7,7 +7,7 @@
 		id: "cataclysm:ignitium_ingot"
 	}
 	id: "0AD3EAE735844DBF"
-	order_index: 18
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
