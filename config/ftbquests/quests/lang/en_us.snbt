@@ -1005,7 +1005,9 @@
 	quest.7DA79533AFA8AAEB.quest_subtitle: "Ore deposits, not ore veins."
 	quest.7DA79533AFA8AAEB.title: "Reading the Earth"
 	quest.5DE11EF5D664F8E7.quest_desc: [
-		"Three handheld scanners ping &eore blocks&r within range. Hold one in your main hand and right-click to ping; it points at the nearest matching block in range."
+		"Three handheld scanners. Each one has its own in-game tooltip describing how it works — hover over it in your inventory to read it."
+		""
+		"The lists below cover what each finder targets and its scan range."
 		""
 		"&aGem Finder:&r"
 		"- Targets &bdiamond, emerald, lapis, nether quartz, fluorite&r and modded gems (&bruby, sapphire, topaz&r, etc.)"
@@ -1020,7 +1022,7 @@
 		"- Targets &bcoal&r and &bredstone&r."
 		"- Range: 14 horizontal, 80 vertical"
 		""
-		"Each finder has &edurability 4&r — they break after a handful of pings, so use them for surveying large areas, not for spamming."
+		"Each finder has &edurability 4&r — they wear out after a handful of uses, so save them for surveying large areas."
 	]
 	quest.5DE11EF5D664F8E7.quest_subtitle: "Craft one of each."
 	quest.5DE11EF5D664F8E7.title: "Pocket Surveyors"

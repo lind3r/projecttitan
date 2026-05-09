@@ -374,7 +374,7 @@ hash = "dd95f21901ae686edb14a6586f844b03c79c2239122613ec23be49859f0f5778"
 
 [[files]]
 file = "config/adlods-common.toml"
-hash = "fb9f163b5d74a81c5b93a8e2625dd49d5cdcc77bbcf82d5740d183d5099251ba"
+hash = "82ed913f03e49e531a345f784506a68431fc821138b0e5bffb40504800f3b24d"
 
 [[files]]
 file = "config/adlods/Deposits/aluminum.cfg"
@@ -1850,7 +1850,7 @@ hash = "126888833260b01051cb1028315c7b14bef42f48965c44f8f4dd231c0d1d124a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resource_generation.snbt"
-hash = "ab15fe1ea33472a0618f11e3abcb112fd6c2c928c43dda9346c446c9bb405a94"
+hash = "f5778bd3c85bd19e8efb15fec6c69182fcb0b8ca28627ef8e76c56732eae3ee0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
@@ -1878,7 +1878,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "7fdb817c06a79451e5ea094432aecf6d7ef65b9aa0e2f83109bb6c905cc1ffa8"
+hash = "6ead07c28371cc67748691337d2af608b20ae2846251cb7892dc1cc2bbcc4ec3"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -2035,6 +2035,10 @@ hash = "1684352e59bd18bf438a4b04938990cd6e41f22e21170c8cf06eeb64615e44bd"
 [[files]]
 file = "config/jei/world/local/New_World__3/lookupHistory.json"
 hash = "1737e996e919276452a34e2f314792d3801a2eec2918f20a40198b010bb67fd4"
+
+[[files]]
+file = "config/jei/world/local/New_World__5/lookupHistory.json"
+hash = "c1715f387ea6835ee51243f609b3e5a6784be19223f19730e3755a256fd48abd"
 
 [[files]]
 file = "config/journeymap-server.toml"

@@ -477,44 +477,11 @@
 		{
 			dependencies: ["3F1A8C2D7E4B5906"]
 			id: "7DA79533AFA8AAEB"
-			rewards: [
-				{
-					count: 4
-					id: "795B2031B9530312"
-					item: {
-						count: 1
-						id: "minecraft:allium"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "7069D1885F750CDD"
-					item: {
-						count: 1
-						id: "minecraft:orange_tulip"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "0273B05B535669C0"
-					item: {
-						count: 1
-						id: "minecraft:azure_bluet"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "6FFA6AAC463AF747"
-					item: {
-						count: 1
-						id: "minecraft:lily_of_the_valley"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "795B2031B9530312"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "58598E6E8060F045"
