@@ -1200,7 +1200,7 @@
 		"- One &eHohlraum&r ignition is sufficient if you keep deuterium + tritium feeding in."
 		"- Output is in the gigaFE/t range — pair with antimatter for the SPS."
 		""
-		"&7&oTip: this quest is &eoptional&r. Fission + a few turbines easily covers all of Project Titan's tier demand. Fusion is for fun and antimatter.&r"
+		"&7&oTip: this quest is &eoptional&r. Pursue Fusion for the engineering and the antimatter feedstock.&r"
 	]
 	quest.5601821AEEF30E39.quest_subtitle: "The cleanest path to absurd."
 	quest.5601821AEEF30E39.title: "Fusion Reactor"
@@ -1972,7 +1972,7 @@
 	quest.25A67DAD153BF6BF.quest_subtitle: "Worth knowing — Ars Nouveau."
 	quest.25A67DAD153BF6BF.title: "Ars Nouveau Bric-a-Brac"
 	quest.7EA222DBC1855F7B.quest_desc: [
-		"&6Draconic Evolution&r's &eEnergy Core&r is the modpack's deepest FE buffer — a tiered crystal at the center of a stabilized field that scales from a couple million FE up to &cabsurd&r at tier 8. The Titan Core's late-tier demand bursts get parked here."
+		"&6Draconic Evolution&r's &eEnergy Core&r is the modpack's deepest FE buffer — a tiered crystal at the center of a stabilized field that scales from a couple million FE up to &cabsurd&r at tier 8."
 		""
 		"&aBuild:&r"
 		"- &eEnergy Core&r — the central crystal. Choose tier (1–8); higher needs more Awakened Draconium."
@@ -1981,7 +1981,7 @@
 		""
 		"&aUse:&r"
 		"- Place the core. Stabilizers within range. Pylons connect to your network."
-		"- Tier 8 holds &lpetabytes&r of FE — overkill for most setups, perfect for Project Titan T9/T10."
+		"- Tier 8 holds &lpetabytes&r of FE."
 	]
 	quest.7EA222DBC1855F7B.quest_subtitle: "FE buffer at scale."
 	quest.7EA222DBC1855F7B.title: "Energy Core"
