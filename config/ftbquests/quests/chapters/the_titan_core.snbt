@@ -5,7 +5,7 @@
 	group: ""
 	icon: {
 		components: {
-			"ftbquests:icon": "projecttitancore:block/titan_core_active"
+			"ftbquests:icon": "projecttitancore:item/crown_of_the_titan"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -447,6 +447,7 @@
 			y: -3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["74ED5B05FC10AF83"]
 			icon: {
 				components: {
@@ -455,6 +456,7 @@
 				id: "gateways:gate_pearl"
 			}
 			id: "0C998F80BDBE5530"
+			repeat_cooldown: 60
 			rewards: [{
 				id: "78360745600598C0"
 				item: {
