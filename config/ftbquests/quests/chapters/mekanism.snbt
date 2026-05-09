@@ -966,5 +966,166 @@
 			x: 5.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["5826EC6A328C5DE5"]
+			id: "8B2A0001A1B2C3D0"
+			rewards: [
+				{
+					count: 16
+					id: "8B2A0001A1B2C3D5"
+					item: {
+						count: 1
+						id: "mekanism:advanced_universal_cable"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8B2A0001A1B2C3D6"
+					item: {
+						count: 1
+						id: "mekanism:advanced_mechanical_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8B2A0001A1B2C3D7"
+					item: {
+						count: 1
+						id: "mekanism:advanced_pressurized_tube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8B2A0001A1B2C3D1"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+				{
+					id: "8B2A0001A1B2C3D2"
+					item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
+					type: "item"
+				}
+				{
+					id: "8B2A0001A1B2C3D3"
+					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+					type: "item"
+				}
+				{
+					id: "8B2A0001A1B2C3D4"
+					item: { count: 1, id: "mekanism:basic_thermodynamic_conductor" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B3CAE4F906D7B20"]
+			id: "8B2A0002A1B2C3D0"
+			rewards: [
+				{
+					count: 2
+					id: "8B2A0002A1B2C3D3"
+					item: {
+						count: 1
+						id: "mekanism:elite_smelting_factory"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8B2A0002A1B2C3D4"
+					item: {
+						count: 1
+						id: "mekanism:ingot_steel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8B2A0002A1B2C3D5"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8B2A0002A1B2C3D1"
+					item: { count: 1, id: "mekanism:basic_smelting_factory" }
+					type: "item"
+				}
+				{
+					id: "8B2A0002A1B2C3D2"
+					item: { count: 1, id: "mekanism:advanced_smelting_factory" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5826EC6A328C5DE5"]
+			id: "8B2A0003A1B2C3D0"
+			rewards: [
+				{
+					count: 4
+					id: "8B2A0003A1B2C3D5"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_speed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8B2A0003A1B2C3D6"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_energy"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8B2A0003A1B2C3D7"
+					item: {
+						count: 1
+						id: "mekanism:hdpe_pellet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8B2A0003A1B2C3D1"
+					item: { count: 1, id: "mekanism:upgrade_speed" }
+					type: "item"
+				}
+				{
+					id: "8B2A0003A1B2C3D2"
+					item: { count: 1, id: "mekanism:upgrade_energy" }
+					type: "item"
+				}
+				{
+					id: "8B2A0003A1B2C3D3"
+					item: { count: 1, id: "mekanism:upgrade_muffling" }
+					type: "item"
+				}
+				{
+					id: "8B2A0003A1B2C3D4"
+					item: { count: 1, id: "mekanism:upgrade_anchor" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.0d
+		}
 	]
 }

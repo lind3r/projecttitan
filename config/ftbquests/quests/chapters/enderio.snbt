@@ -97,30 +97,6 @@
 			id: "0A813C4D5E6F7283"
 			rewards: [
 				{
-					count: 8
-					id: "0A813C4D5E6F7286"
-					item: {
-						components: {
-							"enderio:conduit": "enderio:enhanced_energy"
-						}
-						count: 1
-						id: "enderio:conduit"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "0A813C4D5E6F7287"
-					item: {
-						components: {
-							"enderio:conduit": "enderio:enhanced_item"
-						}
-						count: 1
-						id: "enderio:conduit"
-					}
-					type: "item"
-				}
-				{
 					count: 4
 					id: "0A813C4D5E6F7288"
 					item: {
@@ -129,20 +105,30 @@
 					}
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					id: "0A813C4D5E6F7284"
-					item: { count: 1, id: "enderio:farming_station" }
+					count: 4
+					id: "0A813C4D5E6F7289"
+					item: {
+						count: 1
+						id: "enderio:pulsating_alloy_ingot"
+					}
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "0A813C4D5E6F7285"
-					item: { count: 1, id: "enderio:conduit" }
+					count: 16
+					id: "0A813C4D5E6F728A"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0A813C4D5E6F7284"
+				item: { count: 1, id: "enderio:farming_station" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 5.0d
 		}
@@ -519,6 +505,85 @@
 			}]
 			x: -5.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["516A9483A90FD357"]
+			id: "8B3A0001A1B2C3D0"
+			rewards: [
+				{
+					count: 8
+					id: "8B3A0001A1B2C3D4"
+					item: {
+						components: {
+							"enderio:conduit": "enderio:enhanced_energy"
+						}
+						count: 1
+						id: "enderio:conduit"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8B3A0001A1B2C3D5"
+					item: {
+						components: {
+							"enderio:conduit": "enderio:enhanced_item"
+						}
+						count: 1
+						id: "enderio:conduit"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8B3A0001A1B2C3D6"
+					item: {
+						components: {
+							"enderio:conduit": "enderio:pressurized_fluid"
+						}
+						count: 1
+						id: "enderio:conduit"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "8B3A0001A1B2C3D1"
+					item: {
+						components: {
+							"enderio:conduit": "enderio:energy"
+						}
+						count: 1
+						id: "enderio:conduit"
+					}
+					type: "item"
+				}
+				{
+					id: "8B3A0001A1B2C3D2"
+					item: {
+						components: {
+							"enderio:conduit": "enderio:item"
+						}
+						count: 1
+						id: "enderio:conduit"
+					}
+					type: "item"
+				}
+				{
+					id: "8B3A0001A1B2C3D3"
+					item: {
+						components: {
+							"enderio:conduit": "enderio:fluid"
+						}
+						count: 1
+						id: "enderio:conduit"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
 		}
 	]
 }

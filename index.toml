@@ -1862,7 +1862,7 @@ hash = "d8d29dee5b312b9c7b93e4f48cf375d0422e3f56a4e18ac6734f2a68031bbedb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "fa276fbc62b897b9d38e3226750557eec85bb6459ead4bbe3ab6bc8d8b9e5197"
+hash = "8e32d3788aca7df6200caa66718f6e91f5b3a4ac543173f330c2dfae502b10c3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/draconic_evolution.snbt"
@@ -1870,7 +1870,7 @@ hash = "306c53f1b45fd4f6046daa53da25d50df4eb70e417b273a3bbf824c4977e9360"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enderio.snbt"
-hash = "028d1fadb7def8de601e98d87149f134f911f9205274719c96e1606536d7fa80"
+hash = "767a56943b0d1c5b7cce8a3073f9528a7a96c1ba143af9da33d0f8eb5f5c5cba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_foregoing.snbt"
@@ -1878,7 +1878,7 @@ hash = "d3eb91120d5fdf5aeeeeef5b1ff2e46bc9c63918f03ee11552b744f71822dd99"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "699cf6b8bdd32b1bf2a816691606a78f23f956130215510f30c7c45911c62ffe"
+hash = "a2db57a71a6f105e7933505f8065cfcbda2902556dddfa60ff7597e6c75fd5b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
@@ -1898,7 +1898,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "fcc0c73a2ce976ab2d6669804ea10bd1ee637ab025b7ee200b6c2daf60f7e611"
+hash = "9af97877db61b648a9cddd5a32216a35f7344aeccc2ee3fc9fed2242b341fc89"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -2058,7 +2058,7 @@ hash = "1737e996e919276452a34e2f314792d3801a2eec2918f20a40198b010bb67fd4"
 
 [[files]]
 file = "config/jei/world/local/New_World__5/lookupHistory.json"
-hash = "cb48d54a339a2d93c7abdc0569f3cdb5aa3457f56d254da4dab55d557b928dcc"
+hash = "b38b69a5760312e7d8d2525ac4bb381684bdcea399ca8d4a52304f122eaccba9"
 
 [[files]]
 file = "config/journeymap-server.toml"

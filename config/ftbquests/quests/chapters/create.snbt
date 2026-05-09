@@ -651,5 +651,126 @@
 			x: 5.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["0C99F5AA659FF526"]
+			id: "8B1A0001A1B2C3D0"
+			rewards: [
+				{
+					count: 2
+					id: "8B1A0001A1B2C3D2"
+					item: {
+						count: 1
+						id: "create:large_water_wheel"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "8B1A0001A1B2C3D3"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8B1A0001A1B2C3D4"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8B1A0001A1B2C3D1"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53A654BDD709AEBB"]
+			id: "8B1A0002A1B2C3D0"
+			rewards: [
+				{
+					count: 2
+					id: "8B1A0002A1B2C3D2"
+					item: {
+						count: 1
+						id: "createaddition:electric_motor"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8B1A0002A1B2C3D3"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8B1A0002A1B2C3D4"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8B1A0002A1B2C3D1"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C4DBF50A17E8C30"]
+			id: "8B1A0003A1B2C3D0"
+			rewards: [
+				{
+					count: 4
+					id: "8B1A0003A1B2C3D2"
+					item: {
+						count: 1
+						id: "create:mechanical_crafter"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "8B1A0003A1B2C3D3"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "8B1A0003A1B2C3D4"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "8B1A0003A1B2C3D1"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
 	]
 }
