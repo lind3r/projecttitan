@@ -76,5 +76,151 @@
 			x: 0.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["52858BE17389BA11"]
+			id: "B1A1B2C3D4E5F601"
+			rewards: [
+				{
+					count: 16
+					id: "B1A1B2C3D4E5F604"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "B1A1B2C3D4E5F605"
+					item: {
+						count: 1
+						id: "oritech:platinum_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B1A1B2C3D4E5F602"
+					item: { count: 1, id: "oritech:pulverizer_block" }
+					type: "item"
+				}
+				{
+					id: "B1A1B2C3D4E5F603"
+					item: { count: 1, id: "oritech:centrifuge_block" }
+					type: "item"
+				}
+			]
+			x: 3.54d
+			y: -3.54d
+		}
+		{
+			dependencies: ["52858BE17389BA11"]
+			id: "B2A1B2C3D4E5F601"
+			rewards: [
+				{
+					count: 8
+					id: "B2A1B2C3D4E5F604"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "B2A1B2C3D4E5F605"
+					item: {
+						count: 1
+						id: "oritech:biosteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "B2A1B2C3D4E5F606"
+					item: {
+						count: 1
+						id: "oritech:machine_frame_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "B2A1B2C3D4E5F602"
+					item: { count: 1, id: "oritech:assembler_block" }
+					type: "item"
+				}
+				{
+					id: "B2A1B2C3D4E5F603"
+					item: { count: 1, id: "oritech:fragment_forge_block" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52858BE17389BA11"]
+			id: "B3A1B2C3D4E5F601"
+			rewards: [
+				{
+					count: 16
+					id: "B3A1B2C3D4E5F603"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "B3A1B2C3D4E5F604"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "B3A1B2C3D4E5F602"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52858BE17389BA11"]
+			id: "B4A1B2C3D4E5F601"
+			rewards: [
+				{
+					count: 4
+					id: "B4A1B2C3D4E5F603"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "B4A1B2C3D4E5F604"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "B4A1B2C3D4E5F602"
+				item: { count: 1, id: "oritech:deep_drill_block" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
 	]
 }

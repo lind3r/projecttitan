@@ -974,4 +974,100 @@
 	quest.610AC7347A4F7705.quest_desc: ["The mods that don't justify their own chapter still earn a spot. This chapter clusters every smaller mod into its own little section — adventure, storage, decor, food, logistics, and so on."]
 	quest.610AC7347A4F7705.quest_subtitle: "Smaller mods, organized by mod."
 	quest.610AC7347A4F7705.title: "&bOther&r"
+	quest.B1A1B2C3D4E5F601.quest_desc: [
+		"&6Oritech&r's basic processing pair. The &ePulverizer&r doubles ores into clumps; the &eCentrifuge&r turns clumps into dust, then dust into ingots — 2× yield over a vanilla furnace."
+		""
+		"&aBuild:&r"
+		"- &ePulverizer&r"
+		"- &eCentrifuge&r"
+		""
+		"&aUse:&r"
+		"- Feed raw ore into the Pulverizer."
+		"- Pipe clumps to the Centrifuge."
+		"- Smelt the dust output for the multiplier."
+	]
+	quest.B1A1B2C3D4E5F601.quest_subtitle: "Crush. Spin. Multiply."
+	quest.B1A1B2C3D4E5F601.title: "Ore Processing"
+	quest.B2A1B2C3D4E5F601.quest_desc: [
+		"&6Oritech&r's mid-tier shapers. The &eAssembler&r runs templated multi-block recipes; the &eFragment Forge&r breaks items down into raw fragments for re-use."
+		""
+		"&aBuild:&r"
+		"- &eAssembler&r"
+		"- &eFragment Forge&r"
+		""
+		"&aUse:&r"
+		"- Collect Assembler templates as you progress — each one unlocks a recipe."
+	]
+	quest.B2A1B2C3D4E5F601.quest_subtitle: "Frames out. Fragments in."
+	quest.B2A1B2C3D4E5F601.title: "Mid-Tier Crafting"
+	quest.B3A1B2C3D4E5F601.quest_desc: [
+		"&6Oritech&r's endgame shaper. The &dAtomic Forge&r transmutes elements at the atomic level — the gateway to &bFluxite&r-tier crafts."
+		""
+		"&aBuild:&r"
+		"- &eAtomic Forge&r"
+		""
+		"&aUse:&r"
+		"- Power-hungry. Run it from a Mekanism Energy Cube or Draconic capacitor."
+	]
+	quest.B3A1B2C3D4E5F601.quest_subtitle: "Endgame transmutation."
+	quest.B3A1B2C3D4E5F601.title: "&dAtomic Forge&r"
+	quest.B4A1B2C3D4E5F601.quest_desc: [
+		"&6Oritech&r's late-game mining solution. The &eBedrock Extractor&r drills through bedrock and pulls up rare resources directly from the void layer."
+		""
+		"&aBuild:&r"
+		"- &eBedrock Extractor&r &7(Deep Drill)&r"
+		""
+		"&aUse:&r"
+		"- Place over bedrock. Provide power. Collect resources."
+	]
+	quest.B4A1B2C3D4E5F601.quest_subtitle: "Mining without a shaft."
+	quest.B4A1B2C3D4E5F601.title: "&dBedrock Extractor&r"
+	quest.C1A1B2C3D4E5F601.quest_desc: [
+		"Nine &6YUNG's Better X&r mods replace the dull vanilla generation of dungeons, temples, fortresses, and monuments with hand-crafted variants — bigger, more dangerous, more rewarding."
+		""
+		"Visit one of each kind to clear this section. They generate naturally; explore widely or check &6JourneyMap&r waypoints when you find them."
+	]
+	quest.C1A1B2C3D4E5F601.quest_subtitle: "Vanilla structures, but actually fun."
+	quest.C1A1B2C3D4E5F601.title: "&6YUNG's Better Structures&r"
+	quest.C2A1B2C3D4E5F601.quest_desc: [
+		"Even with all the modded glitter, vanilla's three big locations still matter: the &dNether&r, the &dEnd&r, and the first &eStronghold&r."
+		""
+		"Visit each."
+	]
+	quest.C2A1B2C3D4E5F601.quest_subtitle: "The classic checklist."
+	quest.C2A1B2C3D4E5F601.title: "Vanilla Milestones"
+	quest.C3A1B2C3D4E5F601.quest_desc: [
+		"&6Flux Networks&r is wireless &aForge Energy&r distribution. Build a network of &ePlugs&r (input from generators) and &ePoints&r (output to machines), tied together by a &eFlux Controller&r that scales globally and crosses dimensions."
+		""
+		"Stop running cables. Start running networks."
+	]
+	quest.C3A1B2C3D4E5F601.quest_subtitle: "No wires. Anywhere. Any dimension."
+	quest.C3A1B2C3D4E5F601.title: "&6Flux Networks&r"
+	quest.C4A1B2C3D4E5F601.quest_desc: ["&6Sophisticated Storage&r and &6Sophisticated Backpacks&r share an upgrade system: pickup, magnet, filter, jukebox, XP storage. Build the iron tier of each, then upgrade as you go."]
+	quest.C4A1B2C3D4E5F601.quest_subtitle: "Storage you actually want to look at."
+	quest.C4A1B2C3D4E5F601.title: "&6Sophisticated&r Storage"
+	quest.D1A1B2C3D4E5F601.quest_desc: ["&6YUNG's&r reimagined &eDesert Temples&r have multi-room layouts, traps, and significantly better loot. Find one and explore."]
+	quest.D1A1B2C3D4E5F601.quest_subtitle: "More than a sand pyramid with a hole."
+	quest.D1A1B2C3D4E5F601.title: "&6Better Desert Temples&r"
+	quest.D2A1B2C3D4E5F601.quest_desc: ["&6YUNG's&r expanded &eDungeons&r — the surface and underground spawner rooms, now with proper architecture and tougher loot."]
+	quest.D2A1B2C3D4E5F601.quest_subtitle: "Spawner rooms with character."
+	quest.D2A1B2C3D4E5F601.title: "&6Better Dungeons&r"
+	quest.D3A1B2C3D4E5F601.quest_desc: ["&6YUNG's&r ground-up redesign of the &eJungle Temple&r — multi-floor, trapped, and built with serious loot in mind."]
+	quest.D3A1B2C3D4E5F601.quest_subtitle: "Indiana Jones could cry."
+	quest.D3A1B2C3D4E5F601.title: "&6Better Jungle Temples&r"
+	quest.D4A1B2C3D4E5F601.quest_desc: ["&6YUNG's&r turns &eMineshafts&r into biome-themed structures — desert, jungle, ice, and more, each with its own materials and inhabitants."]
+	quest.D4A1B2C3D4E5F601.quest_subtitle: "Mineshafts as biome-aware structures."
+	quest.D4A1B2C3D4E5F601.title: "&6Better Mineshafts&r"
+	quest.D5A1B2C3D4E5F601.quest_desc: ["&6YUNG's&r rebuilds &eNether Fortresses&r as actually-explorable architecture — multi-level halls, chambers, and significantly more dangerous mobs."]
+	quest.D5A1B2C3D4E5F601.quest_subtitle: "Now with bridges that lead somewhere."
+	quest.D5A1B2C3D4E5F601.title: "&6Better Nether Fortresses&r"
+	quest.D6A1B2C3D4E5F601.quest_desc: ["&6YUNG's&r expanded &eOcean Monuments&r are massive — bring water-breathing potions, Depth Strider boots, and patience."]
+	quest.D6A1B2C3D4E5F601.quest_subtitle: "Atlantis, drowned and dangerous."
+	quest.D6A1B2C3D4E5F601.title: "&6Better Ocean Monuments&r"
+	quest.D7A1B2C3D4E5F601.quest_desc: ["&6YUNG's&r redesigned &eStronghold&r layouts — atmospheric, themed by region, with the End portal still at the end."]
+	quest.D7A1B2C3D4E5F601.quest_subtitle: "Abandoned. Reclaimed. Yours next."
+	quest.D7A1B2C3D4E5F601.title: "&6Better Strongholds&r"
+	quest.D8A1B2C3D4E5F601.quest_desc: ["&6YUNG's&r expanded &eWitch Huts&r and rare &eWitch Circles&r — the swamp's most iconic structure, now actually worth visiting."]
+	quest.D8A1B2C3D4E5F601.quest_subtitle: "Witch convention venues."
+	quest.D8A1B2C3D4E5F601.title: "&6Better Witch Huts&r"
 }

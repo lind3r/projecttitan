@@ -32,6 +32,207 @@
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
+			id: "C1A1B2C3D4E5F601"
+			rewards: [{
+				count: 4
+				id: "C1A1B2C3D4E5F603"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "C1A1B2C3D4E5F602"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["C1A1B2C3D4E5F601"]
+			id: "D7A1B2C3D4E5F601"
+			rewards: [
+				{
+					count: 8
+					id: "D7A1B2C3D4E5F602"
+					item: { count: 1, id: "minecraft:lapis_block" }
+					type: "item"
+				}
+				{
+					id: "D7A1B2C3D4E5F603"
+					item: { count: 1, id: "quark:ancient_tome" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "D7A1B2C3D4E5F604"
+				structure: "#betterstrongholds:better_strongholds"
+				type: "structure"
+			}]
+			x: -12.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["C1A1B2C3D4E5F601"]
+			id: "D2A1B2C3D4E5F601"
+			rewards: [{
+				count: 8
+				id: "D2A1B2C3D4E5F602"
+				item: { count: 1, id: "minecraft:experience_bottle" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "D2A1B2C3D4E5F603"
+				structure: "#betterdungeons:better_dungeons"
+				type: "structure"
+			}]
+			x: -13.2d
+			y: -8.2d
+		}
+		{
+			dependencies: ["C1A1B2C3D4E5F601"]
+			id: "D4A1B2C3D4E5F601"
+			rewards: [{
+				count: 16
+				id: "D4A1B2C3D4E5F602"
+				item: { count: 1, id: "minecraft:rail" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "D4A1B2C3D4E5F603"
+				structure: "#bettermineshafts:better_mineshafts"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["C1A1B2C3D4E5F601"]
+			id: "D3A1B2C3D4E5F601"
+			rewards: [{
+				count: 8
+				id: "D3A1B2C3D4E5F602"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "D3A1B2C3D4E5F603"
+				structure: "#betterjungletemples:better_jungle_temples"
+				type: "structure"
+			}]
+			x: -16.8d
+			y: -8.2d
+		}
+		{
+			dependencies: ["C1A1B2C3D4E5F601"]
+			id: "D8A1B2C3D4E5F601"
+			rewards: [{
+				count: 4
+				id: "D8A1B2C3D4E5F602"
+				item: { count: 1, id: "minecraft:redstone_block" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "D8A1B2C3D4E5F603"
+				structure: "betterwitchhuts:witch_hut"
+				type: "structure"
+			}]
+			x: -17.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["C1A1B2C3D4E5F601"]
+			id: "D6A1B2C3D4E5F601"
+			rewards: [
+				{
+					count: 4
+					id: "D6A1B2C3D4E5F602"
+					item: { count: 1, id: "minecraft:prismarine_shard" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "D6A1B2C3D4E5F603"
+					item: { count: 1, id: "minecraft:sponge" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "D6A1B2C3D4E5F604"
+				structure: "#betteroceanmonuments:better_ocean_monuments"
+				type: "structure"
+			}]
+			x: -16.8d
+			y: -11.8d
+		}
+		{
+			dependencies: ["C1A1B2C3D4E5F601"]
+			id: "D1A1B2C3D4E5F601"
+			rewards: [{
+				count: 4
+				id: "D1A1B2C3D4E5F602"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "D1A1B2C3D4E5F603"
+				structure: "#betterdeserttemples:better_desert_temples"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["C1A1B2C3D4E5F601"]
+			id: "D5A1B2C3D4E5F601"
+			rewards: [
+				{
+					count: 8
+					id: "D5A1B2C3D4E5F602"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+				{
+					count: 16
+					id: "D5A1B2C3D4E5F603"
+					item: { count: 1, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "D5A1B2C3D4E5F604"
+				structure: "#betterfortresses:better_fortresses"
+				type: "structure"
+			}]
+			x: -13.2d
+			y: -11.8d
+		}
+		{
+			dependencies: ["610AC7347A4F7705"]
+			id: "C2A1B2C3D4E5F601"
+			rewards: [{
+				count: 4
+				id: "C2A1B2C3D4E5F603"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "C2A1B2C3D4E5F602"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["C2A1B2C3D4E5F601"]
 			id: "7988F41C45712714"
 			rewards: [
 				{
@@ -59,10 +260,10 @@
 				type: "dimension"
 			}]
 			x: -7.0d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["610AC7347A4F7705"]
+			dependencies: ["C2A1B2C3D4E5F601"]
 			id: "280A1B2C3D4E5F80"
 			rewards: [
 				{
@@ -89,11 +290,11 @@
 				id: "280A1B2C3D4E5F83"
 				type: "dimension"
 			}]
-			x: -7.0d
-			y: -3.0d
+			x: -9.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["610AC7347A4F7705"]
+			dependencies: ["C2A1B2C3D4E5F601"]
 			id: "280A1B2C3D4E5F90"
 			rewards: [
 				{
@@ -128,8 +329,8 @@
 				structure: "minecraft:stronghold"
 				type: "structure"
 			}]
-			x: -9.0d
-			y: -5.0d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -159,7 +360,7 @@
 				id: "280A1B2C3D4E5FA3"
 				type: "biome"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 3.0d
 		}
 		{
@@ -190,8 +391,8 @@
 				structure: "#towns_and_towers:town"
 				type: "structure"
 			}]
-			x: -9.0d
-			y: 3.0d
+			x: -10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -230,8 +431,8 @@
 				structure: "dungeons_arise:bandit_towers"
 				type: "structure"
 			}]
-			x: -9.0d
-			y: 5.0d
+			x: -8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -367,6 +568,27 @@
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
+			id: "C3A1B2C3D4E5F601"
+			rewards: [{
+				count: 4
+				id: "C3A1B2C3D4E5F603"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_dust"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "C3A1B2C3D4E5F602"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["C3A1B2C3D4E5F601"]
 			id: "5BD3E6F708192A70"
 			rewards: [
 				{
@@ -402,10 +624,10 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -5.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["610AC7347A4F7705"]
+			dependencies: ["C3A1B2C3D4E5F601"]
 			id: "4734A3D951B268D1"
 			rewards: [
 				{
@@ -432,10 +654,10 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["610AC7347A4F7705"]
+			dependencies: ["C3A1B2C3D4E5F601"]
 			id: "36EA3272B9CC4D2F"
 			rewards: [
 				{
@@ -462,7 +684,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -499,11 +721,32 @@
 				item: { count: 1, id: "mininggadgets:mininggadget_simple" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
+			id: "C4A1B2C3D4E5F601"
+			rewards: [{
+				count: 4
+				id: "C4A1B2C3D4E5F603"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:upgrade_base"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "C4A1B2C3D4E5F602"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["C4A1B2C3D4E5F601"]
 			id: "6CE4F5061728393A"
 			rewards: [
 				{
@@ -530,6 +773,45 @@
 				type: "item"
 			}]
 			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C4A1B2C3D4E5F601"]
+			id: "7637512874BE9397"
+			rewards: [
+				{
+					count: 2
+					id: "0141151B8A2FFF27"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "590813D17842D94B"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "161C06D18F7BC61D"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_filter_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0736EBB69162B7F2"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -567,8 +849,8 @@
 				item: { count: 1, id: "functionalstorage:oak_1" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -604,7 +886,7 @@
 				item: { count: 1, id: "metalbarrels:iron_barrel" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -635,46 +917,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["610AC7347A4F7705"]
-			id: "7637512874BE9397"
-			rewards: [
-				{
-					count: 2
-					id: "0141151B8A2FFF27"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "590813D17842D94B"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:advanced_magnet_upgrade"
-					}
-					type: "item"
-				}
-				{
-					id: "161C06D18F7BC61D"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:advanced_filter_upgrade"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0736EBB69162B7F2"
-				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
