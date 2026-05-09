@@ -82,7 +82,7 @@ hash = "d0e129bb5c552e991f673aa841236844b0e35fcebb38e253cffe37cf5974a66c"
 
 [[files]]
 file = "config/Mekanism/world.toml"
-hash = "e4f20adff1bedc918445de3d149e5275b7cf642a49ca8bdd3480cf54f6a455a1"
+hash = "1098172b9d6199b5ecfe5bdf91bfe1e0a527800cb80b097592a8d2bf44eeeb81"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1i.cfe"
-hash = "342fe481e2ed1342ac1a4b02d277a596b793267a3d46249faa5915fa27059843"
+file = "config/ars_nouveau/search_index/_1j.cfe"
+hash = "fbb921fa11220895054465498ad524e990aa17cc553f6d6c6c7596977312daba"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1i.cfs"
-hash = "422064e3dd8eb741e91dc04b1c06bb99339d020c837763680b99c8c69e4785b7"
+file = "config/ars_nouveau/search_index/_1j.cfs"
+hash = "d691577807b9954b1f32b68ec8748492b89cc1bbe4fb7324853da96279e169a9"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1i.si"
-hash = "42edeac463cb8c3a4273834fe29df43c54a489329d0a831b73535782c65db530"
+file = "config/ars_nouveau/search_index/_1j.si"
+hash = "ac4a9c94ecf2e02e5e7f47a31b6ff636340685e8698085290fa2ce376026be74"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_1j"
-hash = "896ed89ea20c41609da21dd65f736d78cad33e2627fe5f6376343e48fcd3dee8"
+file = "config/ars_nouveau/search_index/segments_1k"
+hash = "4c05a82268e24ad485181d86a800fcc33634ff05bb227bb61e1eee0580e16fa9"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1789,6 +1789,10 @@ file = "config/forgeendertech-common.toml"
 hash = "84817209a4fb2b8c1eb8d3aacb50ff91e1397324f10ea019b53d39735411496c"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$lavender_forest.cfg"
+hash = "8bdc12e4a34e4742b2e596b59f2faffaa1aceac04252b69f84add73c714d4e52"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$rocky_mountains.cfg"
 hash = "c961722da2707fe7fc880a1ea73a601e26bc2afce9f9ff7f5f0e1ca016afc16b"
 
@@ -1802,7 +1806,7 @@ hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "e58e6dc541fd77a812246083aaacbf29a73a28fe51f7230fd2c725e7872b5c11"
+hash = "856fc5d86f4925752251f09d73490db5902622d1c9064a05650335f638ed3ff8"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2231,6 +2235,18 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 [[files]]
 file = "kubejs/config/web_server.json"
 hash = "5b19b08c16a1870d4af4bdd0d76f7c918b41e52f1f4bf0be32317c07daa6febe"
+
+[[files]]
+file = "kubejs/data/create/neoforge/biome_modifier/zinc_ore.json"
+hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+
+[[files]]
+file = "kubejs/data/oritech/neoforge/biome_modifier/ore_nickel.json"
+hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+
+[[files]]
+file = "kubejs/data/oritech/neoforge/biome_modifier/ore_platinum.json"
+hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
 
 [[files]]
 file = "kubejs/server_scripts/balance_resources.js"
