@@ -27,6 +27,14 @@ crash-reports/
 # Backups created by mods or editors
 *.bak
 
+# Per-user runtime state from the live Prism instance (junctioned in)
+# JEI per-world bookmarks / lookupHistory
+config/jei/world/
+# Ars Nouveau Lucene index, regenerates each launch
+config/ars_nouveau/search_index/
+# FTB Chunks client-side chunk display state
+config/ftbchunks-client.snbt
+
 # packwiz export artifacts (ship via GitHub Releases, not git)
 *.mrpack
 *.zip
