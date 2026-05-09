@@ -1972,16 +1972,15 @@
 	quest.25A67DAD153BF6BF.quest_subtitle: "Worth knowing — Ars Nouveau."
 	quest.25A67DAD153BF6BF.title: "Ars Nouveau Bric-a-Brac"
 	quest.7EA222DBC1855F7B.quest_desc: [
-		"&6Draconic Evolution&r's &eEnergy Core&r is the modpack's deepest FE buffer — a tiered crystal at the center of a stabilized field that scales from a couple million FE up to &cabsurd&r at tier 8."
+		"&6Draconic Evolution&r's &eEnergy Core&r is the modpack's deepest FE buffer — a tiered crystal at the center of a stabilized field; capacity scales aggressively with tier."
 		""
 		"&aBuild:&r"
-		"- &eEnergy Core&r — the central crystal. Choose tier (1–8); higher needs more Awakened Draconium."
+		"- &eEnergy Core&r — the central crystal. Higher tiers need more Awakened Draconium."
 		"- &eEnergy Core Stabilizer&r — minimum 4, placed in the field directions."
 		"- &eEnergy Pylon&r — I/O ports for FE in/out."
 		""
 		"&aUse:&r"
 		"- Place the core. Stabilizers within range. Pylons connect to your network."
-		"- Tier 8 holds &lpetabytes&r of FE."
 	]
 	quest.7EA222DBC1855F7B.quest_subtitle: "FE buffer at scale."
 	quest.7EA222DBC1855F7B.title: "Energy Core"
@@ -2022,7 +2021,7 @@
 		"- Insert &eAwakened Draconium&r as fuel."
 		"- Tune the field strength carefully — runaway temperature ends in a chunk-deleting explosion."
 		""
-		"&7&oTip: an &eEnergy Core T8&r as buffer is non-optional. Without it, the Reactor's startup pulse will pop your network.&r"
+		"&7&oTip: a deep FE buffer is non-optional. Without one, the Reactor's startup pulse will pop your network.&r"
 	]
 	quest.52384D0B09D5E630.quest_subtitle: "Don't blow up your base."
 	quest.52384D0B09D5E630.title: "Draconic Reactor"
