@@ -18,6 +18,32 @@
 	]
 	quest.00205656D3436C2F.quest_subtitle: "Above mortal reach."
 	quest.00205656D3436C2F.title: "Tier 9 - &eBreath of the Titan&r"
+	quest.02D58EF7143851CF.quest_desc: [
+		"Optional. The &eEnder Library&r and &ePearl Endshelf&r are the End-themed top tier — they push the table's &aArcana&r ceiling and unlock end-bias enchant lines."
+		""
+		"&aBuild:&r"
+		"- &eEnder Library&r — costs &eender pearls&r and Apothic gems."
+		"- &ePearl Endshelf&r — End-shelf base + ender pearl."
+		"- &eDraconic Endshelf&r — top-tier shelf, requires &eDraconic Evolution&r ingredient."
+		""
+		"&aUse:&r"
+		"- Layer these around your enchanting table for the deepest enchant pool the pack offers."
+	]
+	quest.02D58EF7143851CF.quest_subtitle: "End-tier enchanting."
+	quest.02D58EF7143851CF.title: "Ender Library"
+	quest.02FD58F04AF14206.quest_desc: [
+		"&6Ars Nouveau&r's &eWhirlisprig&r is the plant-passive familiar — bind one to a tree-rich grove with the &eMycelial Sourcelink&r and it harvests + replants while feeding the network &bSource&r."
+		""
+		"&aBuild:&r"
+		"- &eWhirlisprig Charm&r — summon."
+		"- &eMycelial Sourcelink&r — converts mycelium-domain organic matter into &bSource&r."
+		""
+		"&aUse:&r"
+		"- Bind the Whirlisprig to a tree zone."
+		"- Sourcelink near the harvest zone produces &bSource&r continuously, no input required."
+	]
+	quest.02FD58F04AF14206.quest_subtitle: "Plants in. Source out."
+	quest.02FD58F04AF14206.title: "Whirlisprig Grove"
 	quest.04229664601A15D4.quest_desc: [
 		"&dIgnis&r drops &eBulwark of the Flame&r — a charge-attack greatsword/shield. Sneak-release a charge to slam forward and stun anything you hit into a wall."
 		""
@@ -36,6 +62,13 @@
 	]
 	quest.05968A0ACB30FF5D.quest_subtitle: "The Titan acknowledges you."
 	quest.05968A0ACB30FF5D.title: "Coronation"
+	quest.064818C98216D880.quest_desc: [
+		"The &eSpout&r fills items from above (buckets, bottles, anything fluid-accepting). &eItem Drain&r does the reverse — empty containers back to liquid."
+		""
+		"&aPress &eW&r — &ePonder&r covers belt-feeding both blocks and fluid-pipe routing.&r"
+	]
+	quest.064818C98216D880.quest_subtitle: "Pour, drain, repeat."
+	quest.064818C98216D880.title: "Spout &amp; Drain"
 	quest.06E74F5AEB182610.quest_desc: [
 		"&6Ars Nouveau&r's &eMagebloom&r is the renewable arcane crop. Plant the seed on tilled soil — it grows slowly into a magical flower used in robes, blocks, and high-tier recipes."
 		""
@@ -49,6 +82,16 @@
 	]
 	quest.06E74F5AEB182610.quest_subtitle: "The slow garden."
 	quest.06E74F5AEB182610.title: "Cultivate"
+	quest.071642CB7D12C35D.quest_desc: [
+		"&6Create&r's kinetic miner pair — &eMechanical Drill&r breaks blocks in front, &eMechanical Saw&r fells trees and mills logs into planks. Both run on shaft power."
+		""
+		"&aPress &eW&r — &ePonder&r shows the contraption-mounted variants and orientation rules.&r"
+	]
+	quest.071642CB7D12C35D.quest_subtitle: "Two cuts. Many things."
+	quest.071642CB7D12C35D.title: "Mechanical Drill &amp; Saw"
+	quest.0A75FF5E927E69E3.quest_desc: ["&6Industrial Foregoing&r is a quirky tech mod with biofuel generators, automated farms, and mob-grinding machines. Plastic is its core resource — make it once, build everything from it."]
+	quest.0A75FF5E927E69E3.quest_subtitle: "Plastic. Pink slime. Lazer drills."
+	quest.0A75FF5E927E69E3.title: "&6Industrial Foregoing&r"
 	quest.0A813C4D5E6F7283.quest_desc: [
 		"&6Ender IO&r's lazy-farmer blueprint. Stick saplings, seeds, or netherwart in the &eFarming Station&r's slots, feed it &aForge Energy&r, and walk away."
 		""
@@ -61,6 +104,28 @@
 	]
 	quest.0A813C4D5E6F7283.quest_subtitle: "Plant it. Forget it."
 	quest.0A813C4D5E6F7283.title: "Farming Station"
+	quest.0A9CF0B826AF71FF.quest_desc: [
+		"&eWireless Terminal&r + &eWireless Access Point&r = your network in your pocket. Crafting variant adds the inline grid wherever you stand."
+		""
+		"&aPress &eG&r — &eGuideME&r → &eWireless&r covers range and battery.&r"
+	]
+	quest.0A9CF0B826AF71FF.quest_subtitle: "Network on the go."
+	quest.0A9CF0B826AF71FF.title: "Wireless Access"
+	quest.0AEACF41C1ED1FBA.quest_desc: [
+		"&aWorth knowing&r — &6Industrial Foregoing&r odds and ends:"
+		""
+		"- &eConveyor&r — IF's belt. Glass-painted variants for color-routing."
+		"- &eFluid Pump&r / &eFluid Extractor&r — pull fluid from world or block."
+		"- &eFluid Placer&r / &eFluid Collector&r — fluid-block placement automation."
+		"- &eMaterial Stonework Factory&r — convert cobble → stone → smooth → bricks → … in one block."
+		"- &eEnchantment Extractor/Applicator&r — peel an enchant off a tool, slap it on another."
+		"- &eAnimal Rancher&r — cow farm in a box (milk + leather, no killing)."
+		"- &eAnimal Feeder&r / &eBaby Separator&r — passive breeding factory."
+		"- &eMycelial Reactor&r — IF's modular FE generator that runs on themed mushroom blocks."
+		"- &eVillager Trade Exchanger&r — automate trades."
+	]
+	quest.0AEACF41C1ED1FBA.quest_subtitle: "Worth knowing — Industrial Foregoing."
+	quest.0AEACF41C1ED1FBA.title: "Industrial Foregoing Bric-a-Brac"
 	quest.0C998F80BDBE5530.quest_desc: [
 		"The Heart is forged. The &dTitan&r now demands proof."
 		""
@@ -72,6 +137,80 @@
 	]
 	quest.0C998F80BDBE5530.quest_subtitle: "Take up the gate."
 	quest.0C998F80BDBE5530.title: "The Trial Awaits"
+	quest.0C99F5AA659FF526.quest_desc: [
+		"&6Create&r turns mechanical rotation into everything: presses, mixers, crushing wheels, contraptions that move themselves. Pair with &6Create: Crafts &amp; Additions&r for the alternator that bridges to FE."
+		""
+		"&aHover any &6Create&r block in your inventory and press &eW&r to open &ePonder&r — animated scenes show every block in motion. Better than any quest description.&r"
+	]
+	quest.0C99F5AA659FF526.quest_subtitle: "Rotation in. Power, fluids, items out."
+	quest.0C99F5AA659FF526.title: "&6Create&r"
+	quest.0D76974DDD5A95B7.quest_desc: ["&6YUNG's&r expanded &eWitch Huts&r and rare &eWitch Circles&r — the swamp's most iconic structure, now worth a visit."]
+	quest.0D76974DDD5A95B7.quest_subtitle: "Witch convention venues."
+	quest.0D76974DDD5A95B7.title: "&6Better Witch Huts&r"
+	quest.0FE97A6346E80276.quest_desc: [
+		"&aWorth knowing&r — &6Create&r odds and ends:"
+		""
+		"- &eEngineer's Goggles&r — show stress, speed, and capacity overlays. Wear them while building any kinetic network."
+		"- &eWrench&r — rotate any Create block. Sneak-wrench to break and pick up."
+		"- &eLinked Controller&r — bind it to track stations and remote-drive trains."
+		"- &eSmart Chute&r / &eSmart Observer&r — filter-aware chutes and signal-emitters."
+		"- &eBrass Tunnel&r — splits a single belt's items across multiple outputs by filter."
+		"- &eGantry Carriage&r + &eGantry Shaft&r — Create's linear actuator. Move and run machines along an axis."
+		"- &ePotato Cannon&r — joke weapon, surprisingly viable mid-game."
+		"- &eClipboard&r — multi-page inventory for managing redstone/train logic notes."
+		""
+		"&aPress &eW&r on any of these in your inventory — &ePonder&r animates each one.&r"
+	]
+	quest.0FE97A6346E80276.quest_subtitle: "Worth knowing — Create."
+	quest.0FE97A6346E80276.title: "Create Bric-a-Brac"
+	quest.117C8EAB9186A37B.quest_desc: [
+		"&6Oritech&r's &eFoundry&r is the molten-metal route — pour ingots in, get hotter alloys out. The path to &eSteel&r and &eAdamant&r runs through here."
+		""
+		"&aBuild:&r"
+		"- &eFoundry Block&r."
+		""
+		"&aUse:&r"
+		"- Insert iron + coal → &eSteel Ingot&r."
+		"- Higher tiers (&eAdamant&r, &eDuratium&r) need molten flux as catalyst — pipe in from a refinery."
+	]
+	quest.117C8EAB9186A37B.quest_subtitle: "Pour, alloy, repeat."
+	quest.117C8EAB9186A37B.title: "Foundry"
+	quest.11EEA6D3745C178A.quest_desc: [
+		"The &ePressurized Reaction Chamber&r is the &aitem + fluid + gas&r recipe machine — three inputs at once. The flagship recipe is &eSubstrate&r → &eHDPE Pellet&r → &eHDPE Sheet&r, the plastic line that gates &eMekaSuit&r and modules."
+		""
+		"&aBuild:&r"
+		"- &ePressurized Reaction Chamber&r."
+		""
+		"&aUse:&r"
+		"- Make &eSubstrate&r (bio-fuel + water + hydrogen → substrate)."
+		"- Make &eHDPE Pellet&r (substrate + ethene)."
+		"- Press into &eHDPE Sheet&r at the &eEnrichment Chamber&r."
+	]
+	quest.11EEA6D3745C178A.quest_subtitle: "Three inputs. One reaction."
+	quest.11EEA6D3745C178A.title: "Pressurized Reaction Chamber"
+	quest.132F45785EF7857E.quest_desc: [
+		"&eME Drive&r holds 10 storage cells. Cells stack types and bytes — bigger cells (1k → 256k) cost more processors but hold dramatically more types."
+		""
+		"&aPress &eG&r — &eGuideME&r → &eStorage&r covers cell math and partitioning.&r"
+	]
+	quest.132F45785EF7857E.quest_subtitle: "Storage at scale."
+	quest.132F45785EF7857E.title: "ME Drive &amp; Cells"
+	quest.165B94D41DEEDB88.quest_desc: [
+		"&aWorth knowing&r — &6Draconic Evolution&r odds and ends:"
+		""
+		"- &eDraconium Chest&r — multiblock-expansion chest, dimensions scale with structure."
+		"- &eAdvanced Magnet&r — pulls drops to you in a wide radius; toggleable."
+		"- &eFlux Gate&r — meter and clamp FE flow on a line."
+		"- &eGenerator&r — burns furnace fuel for FE; mostly used during initial DE setup."
+		"- &eGrinder&r — DE's automatic mob killer; reads tagged spawn pads."
+		"- &eEntity Detector&r / &eEntity Detector Advanced&r — redstone outputs based on entity counts/types."
+		"- &eDisenchanter&r — pulls enchantments off gear and stores in books."
+		"- &eParticle Generator&r — visual effect block for builds."
+		""
+		"&7&oTip: read the &eDE Information Tablet&r (in JEI) for the full picture — DE's recipe map is unusually deep.&r"
+	]
+	quest.165B94D41DEEDB88.quest_subtitle: "Worth knowing — Draconic Evolution."
+	quest.165B94D41DEEDB88.title: "Draconic Evolution Bric-a-Brac"
 	quest.17F8A0B1C2D3E500.quest_desc: ["&6Apotheosis&r &eBoss Summoners&r conjure a randomized &aaffixed&r boss with rare-tier loot. Crafted from rare materials and arcane essence."]
 	quest.17F8A0B1C2D3E500.quest_subtitle: "Apoth's craftable arena — pick your fight, on your schedule."
 	quest.17F8A0B1C2D3E500.title: "Summon a Boss"
@@ -114,6 +253,38 @@
 	]
 	quest.17F8A0B1C2D3E590.quest_subtitle: "End-shard. Beam attacks. Phase three is real."
 	quest.17F8A0B1C2D3E590.title: "Slay the &dChaos Guardian&r"
+	quest.180CDEEEEDD654AE.quest_desc: [
+		"&eAdvanced Dislocator&r is &6DE&r's tag-and-teleport — bind it to a location, set a destination, and right-click to teleport. The &ePedestal&r and &eReceptacle&r turn this into a permanent two-way portal."
+		""
+		"&aBuild:&r"
+		"- &eAdvanced Dislocator&r — the handheld."
+		"- &eDislocator Pedestal&r at one end."
+		"- &eDislocator Receptacle&r at the other."
+		""
+		"&aUse:&r"
+		"- Right-click pedestal with the dislocator to bind."
+		"- Right-click anywhere to teleport home."
+	]
+	quest.180CDEEEEDD654AE.quest_subtitle: "Two-stop travel."
+	quest.180CDEEEEDD654AE.title: "Dislocator"
+	quest.18852E1D544D601B.quest_desc: ["&6Cataclysm&r drops four custom bosses — &dHarbinger&r, &dLeviathan&r, &dEnder Guardian&r, &dIgnis&r — each gating a unique gear set. The Titan Trial endgame remixes three of them at 2× stats."]
+	quest.18852E1D544D601B.quest_subtitle: "Four bosses. One arms race."
+	quest.18852E1D544D601B.title: "&6L_Ender's Cataclysm&r"
+	quest.19569F0287337478.quest_desc: [
+		"The &eElectrolytic Separator&r splits &bwater&r into &bhydrogen&r + &boxygen&r. Hydrogen feeds the &eJetpack&r and &eGas Burning Generator&r; oxygen feeds the &ePurification Chamber&r for 3x ore."
+		""
+		"&aBuild:&r"
+		"- &eElectrolytic Separator&r."
+		"- Pipe water in; pipe hydrogen + oxygen out separate sides."
+		""
+		"&aUse:&r"
+		"- &bHydrogen&r → tank → Jetpack refuel station."
+		"- &bOxygen&r → Purification Chamber."
+		""
+		"&7&oTip: an Infinite Water Cell or autonomous water source on input is the cleanest setup.&r"
+	]
+	quest.19569F0287337478.quest_subtitle: "Two gases. Two pipelines."
+	quest.19569F0287337478.title: "Electrolytic Separator"
 	quest.1A2B3C4D5E6F7081.quest_desc: [
 		"&6Macaw's&r is five mods in a trenchcoat: &6Windows&r, &6Doors&r, &6Roofs&r, &6Furniture&r, &6Lights&r. Together they fix vanilla's biggest decoration gap — buildings worth looking at."
 		""
@@ -148,6 +319,18 @@
 	]
 	quest.1A6D32ADD93267FB.quest_subtitle: "It dreams."
 	quest.1A6D32ADD93267FB.title: "Tier 8 - &eSoul of the Titan&r"
+	quest.1B0A57BB7ED47822.quest_desc: [
+		"&6Ender IO&r's &eAlloy Smelter&r is the gateway to all four EIO alloys — &eEnergetic&r, &eVibrant&r, &ePulsating&r, &eRedstone Alloy&r. Steel-tier dependency for the SAG Mill, Capacitor Bank, and Enchanter."
+		""
+		"&aBuild:&r"
+		"- &eAlloy Smelter&r."
+		""
+		"&aUse:&r"
+		"- 3 ingredients per recipe; output is the alloy ingot."
+		"- Pair with the &eSAG Mill&r for grinding-ball-boosted ore yields."
+	]
+	quest.1B0A57BB7ED47822.quest_subtitle: "All four alloys, one block."
+	quest.1B0A57BB7ED47822.title: "Alloy Smelter"
 	quest.1B924D5E6F708394.quest_desc: [
 		"&6Mekanism&r's wireless-everything block. Place two &eQuantum Entangloporters&r on the same frequency anywhere in the world and items, fluids, gases, &aForge Energy&r, and heat all flow between them — no cables, no chunk-loading."
 		""
@@ -162,6 +345,58 @@
 	]
 	quest.1B924D5E6F708394.quest_subtitle: "Wireless everything, anywhere."
 	quest.1B924D5E6F708394.title: "Quantum Entangloporter"
+	quest.1CA0297140031A1C.quest_desc: [
+		"The &eAlteration Table&r upgrades &6Ars&r-side gear — slot armor + reagent + spell + perk to imbue, swap, or replace properties on a piece of &eMage Robes&r."
+		""
+		"&aBuild:&r"
+		"- &eAlteration Table&r — paired with the &eEnchanting Apparatus&r."
+		""
+		"&aUse:&r"
+		"- Place gear, choose the alteration."
+		"- Threads (&eThread of the Drygmy/Starbuncle/Whirlisprig/Wixie&r) bind set bonuses based on your familiar."
+	]
+	quest.1CA0297140031A1C.quest_subtitle: "Robes, customized."
+	quest.1CA0297140031A1C.title: "Alteration Table"
+	quest.1CE70C5907125D06.quest_desc: [
+		"The &eEIO Crafter&r is the auto-crafting block — slot a recipe template, feed it ingredients via conduits, and it produces output as long as inputs are available."
+		""
+		"&aBuild:&r"
+		"- &eCrafter&r."
+		""
+		"&aUse:&r"
+		"- Open the GUI; place ingredients in the recipe pattern slots."
+		"- Pipe materials in via item conduits; output to a chest or further automation."
+	]
+	quest.1CE70C5907125D06.quest_subtitle: "Recipes that run themselves."
+	quest.1CE70C5907125D06.title: "EIO Crafter"
+	quest.1D35C6223BDD9FA1.quest_desc: [
+		"&6Oritech&r's basic processing pair. The &ePulverizer&r doubles ores into clumps; the &eCentrifuge&r turns clumps into dust, then dust into ingots — 2× yield over a vanilla furnace."
+		""
+		"&aBuild:&r"
+		"- &ePulverizer&r"
+		"- &eCentrifuge&r"
+		""
+		"&aUse:&r"
+		"- Feed raw ore into the Pulverizer."
+		"- Pipe clumps to the Centrifuge."
+		"- Smelt the dust output for the multiplier."
+	]
+	quest.1D35C6223BDD9FA1.quest_subtitle: "Crush. Spin. Multiply."
+	quest.1D35C6223BDD9FA1.title: "Ore Processing"
+	quest.1DB508C752281D92.quest_desc: [
+		"&aWorth knowing&r — &6Cataclysm&r odds and ends:"
+		""
+		"- &eAthame&r — life-steal dagger; drops from &eDeepling Warlocks&r and &ePriests&r in the &eSunken City&r."
+		"- &eVoid Forge&r — End boss-tier handheld; uses &eVoid Cores&r as ammunition."
+		"- &eGauntlet of Bulwark&r / &eof Maelstrom&r — punching gauntlets with elemental specials."
+		"- &eAstrape&r / &eCeraunus&r — lightning-themed bow/spear from the storm boss line."
+		"- &eAbyssal Sacrifice&r — opens the Drowned World boss arena (Leviathan summon item)."
+		"- &eBerserker Soul Amulet&r — curio that swaps damage scaling for missing-HP."
+		"- &eVoid Eye&r / &eFlame Eye&r / &eStorm Eye&r — boss summon catalysts."
+		"- &eMusic Discs&r (Harbinger, Leviathan, Ignis, Ender Guardian) — boss-themed records."
+	]
+	quest.1DB508C752281D92.quest_subtitle: "Worth knowing — Cataclysm."
+	quest.1DB508C752281D92.title: "Cataclysm Bric-a-Brac"
 	quest.1F86FF003387AE4E.quest_desc: [
 		"&6Ars Nouveau&r's &eEnchanting Apparatus&r is the multi-block crafting bench surrounded by &eArcane Pedestals&r. The &eImbuement Chamber&r is the lower-tier passive crafter for simpler recipes."
 		""
@@ -187,6 +422,90 @@
 	]
 	quest.1FCD148E2DA620F0.quest_subtitle: "The first spark."
 	quest.1FCD148E2DA620F0.title: "Tier 1 - &eMote of the Titan&r"
+	quest.2187565E5FB2D337.quest_desc: [
+		"The &eRolling Mill&r turns ingots into rods and wire — gateway items for &6Createaddition&r's electrical recipes."
+		""
+		"&aPress &eW&r — &ePonder&r animates the input/output and shaft-power requirements.&r"
+	]
+	quest.2187565E5FB2D337.quest_subtitle: "Ingots in. Rods out."
+	quest.2187565E5FB2D337.title: "Rolling Mill"
+	quest.21C1DCB0B2D791A0.quest_desc: [
+		"&dAncient Remnant&r is the colossal skeletal beast buried beneath the &eCursed Pyramid&r — the structure's main boss, dwarfing the Wadjet that guards its halls. Drops &eSandstorm in a Bottle&r, &eAncient Metal&r, and a &eRemnant Skull&r used to tame your own Modern Remnant companion."
+		""
+		"&aHow to acquire:&r"
+		"- Excavate the suspicious sand inside a &eCursed Pyramid&r to wake it."
+		"- The arena is wide for a reason — the Remnant's stomp shockwaves outrange most melee."
+	]
+	quest.21C1DCB0B2D791A0.quest_subtitle: "Buried, not dead."
+	quest.21C1DCB0B2D791A0.title: "Slay the &dAncient Remnant&r"
+	quest.22950E7EDF0BC8BA.quest_desc: [
+		"The &eMob Duplicator&r is the inverse of the &eMob Crusher&r — fed &eMob Imprisonment Tools&r (charged by capturing a target mob), it spawns copies on a powered timer."
+		""
+		"&aBuild:&r"
+		"- &eMob Duplicator&r."
+		"- &eMob Imprisonment Tool&r — right-click any mob to capture; insert into the duplicator."
+		""
+		"&aUse:&r"
+		"- Power + &bEssence&r fluid + a captured tool → continuous mob spawn."
+		"- Pair with &eMob Crusher&r for a complete loop: duplicate → kill → drops + XP."
+	]
+	quest.22950E7EDF0BC8BA.quest_subtitle: "Loot loop, automated."
+	quest.22950E7EDF0BC8BA.title: "Mob Duplicator"
+	quest.25A67DAD153BF6BF.quest_desc: [
+		"&aWorth knowing&r — &6Ars Nouveau&r odds and ends:"
+		""
+		"- &eJar of Light&r — bottled light source you can place anywhere; reusable."
+		"- &eVoid Jar&r — held trash can with a filter; void unwanted drops on pickup."
+		"- &eSource Jar&r — &bSource&r battery; place near &eRelays&r to network."
+		"- &eRelay&r / &eRelay Splitter&r / &eRelay Warp&r — light-based source pipelines."
+		"- &eMagelight Torch&r — invisible torch; lights without the block."
+		"- &eMage Block&r — invisible solid; useful for traps and elaborate spell setups."
+		"- &eRitual of Flight&r — once cast, persistent flight in an area."
+		"- &eFamiliar threads&r — slot in armor for set bonuses tied to your familiar."
+	]
+	quest.25A67DAD153BF6BF.quest_subtitle: "Worth knowing — Ars Nouveau."
+	quest.25A67DAD153BF6BF.title: "Ars Nouveau Bric-a-Brac"
+	quest.25E8D26BFF731ED7.quest_desc: [
+		"&eLogistical Transporters&r are Mek's pipes — like vanilla hoppers, but with tiered speed and color filters. Pair with a &eLogistical Sorter&r on the source side to filter what goes where."
+		""
+		"&aBuild:&r"
+		"- &eLogistical Transporter&r (basic suffices to start; upgrade as throughput demands)."
+		"- &eLogistical Sorter&r."
+		""
+		"&aUse:&r"
+		"- Sorter pulls items from a chest into the transporter line based on filter rules."
+		"- Color tabs route items to the matching color on the destination."
+	]
+	quest.25E8D26BFF731ED7.quest_subtitle: "Pipes, with rules."
+	quest.25E8D26BFF731ED7.title: "Logistical Transport"
+	quest.25F6779B61EC443B.quest_desc: [
+		"Factories are the batched form of every &6Mekanism&r unit machine — Smelter, Enricher, Crusher, Compressor, Combiner, Sawmill, Infuser, Purifier, Injector. Tier rotations: &eBasic&r (3 slots) → &eAdvanced&r (5) → &eElite&r (7) → &eUltimate&r (9)."
+		""
+		"&aBuild:&r"
+		"- &eBasic Smelting Factory&r &7(or any Basic factory variant)&r"
+		"- &eAdvanced Smelting Factory&r &7(2nd tier — proves you've upgraded once)&r"
+		""
+		"&aUse:&r"
+		"- Right-click a placed factory with a &eTier Installer&r (&eBasic&r → &eAdvanced&r → &eElite&r → &eUltimate&r) to bump it in place — no rebuild, contents preserved."
+		"- The same Tier Installers also upgrade Energy Cubes, Bins, and the entire transport family (cable / pipe / tube / conductor)."
+		"- A 9-slot Ultimate Smelter parallelizes nine Energized Smelters into one block."
+	]
+	quest.25F6779B61EC443B.quest_subtitle: "Parallelize the basics."
+	quest.25F6779B61EC443B.title: "Factories"
+	quest.2626168DFFC6D35B.quest_desc: [
+		"The &eEnergized Smelter&r is the &aFE&r-powered drop-in replacement for a furnace — faster, no fuel, and stackable behind a Crusher for ore-processing convenience."
+		""
+		"&aBuild:&r"
+		"- &eEnergized Smelter&r — needs steel casing + redstone."
+		""
+		"&aUse:&r"
+		"- Pipe ore/dust in, take ingots out. Pair with the &eEnrichment Chamber&r in the same line for the 2x ore route."
+	]
+	quest.2626168DFFC6D35B.quest_subtitle: "Smelting at the speed of FE."
+	quest.2626168DFFC6D35B.title: "Energized Smelter"
+	quest.271081B9C92EB85D.quest_desc: ["&6YUNG's&r expanded &eDungeons&r — the surface and underground spawner rooms, now with proper architecture and tougher loot."]
+	quest.271081B9C92EB85D.quest_subtitle: "Spawner rooms with character."
+	quest.271081B9C92EB85D.title: "&6Better Dungeons&r"
 	quest.2804065C0AD6C566.quest_desc: [
 		"The mote settles into a steady ember. Small, but it has a temperature now — and a temperament."
 		""
@@ -194,15 +513,6 @@
 	]
 	quest.2804065C0AD6C566.quest_subtitle: "It begins to burn."
 	quest.2804065C0AD6C566.title: "Tier 2 - &eEmber of the Titan&r"
-	quest.2BC9F4A1E8D5670F.quest_desc: [
-		"&6Welcome to Project Titan.&r"
-		""
-		"The Core stands silent at the heart of your world. Building it — and feeding it — is the long work of this pack."
-		""
-		"Other chapters branch out into power, resources, gear, and the wider world. They are companions to this spine, not prerequisites. Wander where you like; return here when you are ready to forge the first &eMote&r."
-	]
-	quest.2BC9F4A1E8D5670F.quest_subtitle: "The Core stirs."
-	quest.2BC9F4A1E8D5670F.title: "Welcome to Project Titan"
 	quest.280A1B2C3D4E5F80.quest_desc: ["End-tier materials gate a lot of late progression. The journey to &dthe End&r and back is its own story."]
 	quest.280A1B2C3D4E5F80.quest_subtitle: "Find the portal. Take the leap."
 	quest.280A1B2C3D4E5F80.title: "Visit &dthe End&r"
@@ -222,6 +532,20 @@
 	quest.280A1B2C3D4E5FD0.quest_desc: ["&6When Dungeons Arise&r scatters elaborate hand-built dungeons across the world — towers, castles, mansions, illager forts. The &dBandit Towers&r are the iconic mid-tier challenge."]
 	quest.280A1B2C3D4E5FD0.quest_subtitle: "Climb the bandit towers."
 	quest.280A1B2C3D4E5FD0.title: "Find &dBandit Towers&r"
+	quest.289518C7EC5A44EC.quest_desc: [
+		"&eStable Warp Scroll&r is &6Ars Nouveau&r's persistent fast-travel — sneak-right-click anywhere to bind, then right-click the scroll later to teleport back. Cheap, range-unlimited, dimension-spanning."
+		""
+		"&aBuild:&r"
+		"- &eStable Warp Scroll&r — at the &eEnchanting Apparatus&r."
+		""
+		"&aUse:&r"
+		"- Sneak-right-click to set the destination."
+		"- Right-click anywhere to teleport. Re-bind freely."
+		""
+		"&7&oTip: keep one in a Curio slot, sneak-set on every base. Free travel forever.&r"
+	]
+	quest.289518C7EC5A44EC.quest_subtitle: "Persistent waypoints."
+	quest.289518C7EC5A44EC.title: "Warp Scrolls"
 	quest.28A1B2C3D4E5F600.quest_desc: [
 		"&6Ars Nouveau&r's &eDrygmy&r is the automation pet — bind it to a captured mob via a &eDrygmy Charm&r and it passively collects that mob's drops over time without ever fighting."
 		""
@@ -235,6 +559,57 @@
 	]
 	quest.28A1B2C3D4E5F600.quest_subtitle: "Mob loot, the lazy way."
 	quest.28A1B2C3D4E5F600.title: "Drygmy Charm"
+	quest.296A145EEC9F228D.quest_desc: [
+		"&6Apothic Enchanting&r's mid-tier shelves push the &aEterna&r/&aQuanta&r/&aArcana&r table stats far past vanilla. The &eLibrary&r block stores enchant configurations; biome-themed shelves (&eBeeshelf&r, &eCrystal Seashelf&r) are the diversity boost."
+		""
+		"&aBuild:&r"
+		"- &eEnchanting Library&r — stores enchanted books for filtering."
+		"- &eBeeshelf&r — a Hellshelf-tier shelf using bee products."
+		"- &eCrystal Seashelf&r — ocean biome's contribution."
+		""
+		"&aUse:&r"
+		"- Place the Library next to your enchanting table; insert books to filter what enchants are available."
+		"- Mix shelf types around the table — variety raises Arcana and unlocks rare enchant lines."
+	]
+	quest.296A145EEC9F228D.quest_subtitle: "The middle library."
+	quest.296A145EEC9F228D.title: "Library &amp; Mid-Tier Shelves"
+	quest.2A49B70413B7164F.quest_desc: [
+		"&eObelisks&r are area-effect mob controllers — &eAttractor&r pulls mobs toward it, &eAversion&r pushes them away, &eInhibitor&r prevents spawning entirely in its radius."
+		""
+		"&aBuild:&r"
+		"- &eAttractor Obelisk&r — at the choke point of your loot farm."
+		"- &eAversion Obelisk&r — around your base perimeter."
+		""
+		"&aUse:&r"
+		"- Power it; range scales with capacitor tier."
+		"- Pair Attractor + a damage source for a passive farm; Aversion for safe-zoning your factory."
+	]
+	quest.2A49B70413B7164F.quest_subtitle: "Pull. Push. Suppress."
+	quest.2A49B70413B7164F.title: "Obelisks"
+	quest.2A9ABC7163AD5A2D.quest_desc: [
+		"The &eDissolution Chamber&r is &6IF&r's plastic factory — feed it &elatex&r + &esugar canes&r → &eTiny Dry Rubber&r → press into &ePlastic&r. Plastic gates the &eAdvanced Machine Frame&r and most of IF's tier 2."
+		""
+		"&aBuild:&r"
+		"- &eDissolution Chamber&r."
+		"- &eLatex Processing Unit&r — taps latex from a tree."
+		""
+		"&aUse:&r"
+		"- Feed latex + sugar cane to the chamber."
+		"- Output: &eTiny Dry Rubber&r → 9× → &ePlastic Sheet&r."
+	]
+	quest.2A9ABC7163AD5A2D.quest_subtitle: "Latex in. Plastic out."
+	quest.2A9ABC7163AD5A2D.title: "Dissolution Chamber"
+	quest.2BC9F4A1E8D5670F.quest_desc: [
+		"&6Welcome to Project Titan.&r"
+		""
+		"The Core stands silent at the heart of your world. Building it — and feeding it — is the long work of this pack."
+		""
+		"Other chapters branch out into power, resources, gear, and the wider world. They are companions to this spine, not prerequisites. Wander where you like; return here when you are ready to forge the first &eMote&r."
+		""
+		"&cHeads up:&r vanilla ore generation is disabled. Ores spawn as rare &emotherlode deposits&r with flower rings on the surface. See &6Reading the Earth&r in the &eOther&r chapter for the full picture before you go mining."
+	]
+	quest.2BC9F4A1E8D5670F.quest_subtitle: "The Core stirs."
+	quest.2BC9F4A1E8D5670F.title: "Welcome to Project Titan"
 	quest.2C035E6F70819481.quest_desc: [
 		"&6Apotheosis&r's &eSalvaging Table&r breaks down any &aaffixed&r item into the rarity material of its tier — Common scrap up through &eMythic&r dust. Bad rolls become reforging fuel."
 		""
@@ -247,6 +622,85 @@
 	]
 	quest.2C035E6F70819481.quest_subtitle: "Junk in, currency out."
 	quest.2C035E6F70819481.title: "&6Apotheosis&r: &eSalvaging Table&r"
+	quest.2CC9AF34B35FE1B5.quest_desc: [
+		"Optional. The &eParticle Accelerator&r is the synchrotron multiblock — a ring of &eAccelerator Rings&r that builds up speed for endgame Oritech recipes (most importantly: &eStrange Matter&r and the &eBlack Hole Block&r)."
+		""
+		"&aBuild:&r"
+		"- &eAccelerator Controller&r at one node of the ring."
+		"- &eAccelerator Ring&r segments — minimum loop is several blocks; bigger rings = higher peak energy."
+		""
+		"&aUse:&r"
+		"- Inject low-tier matter; cycle it through the ring to fuse into &eStrange Matter&r."
+		""
+		"&7&oTip: this is one of the most space-hungry multiblocks in the pack. Build it in a flat field, not your factory.&r"
+	]
+	quest.2CC9AF34B35FE1B5.quest_subtitle: "Fast circles. Strange matter."
+	quest.2CC9AF34B35FE1B5.title: "Particle Accelerator"
+	quest.2CF735F691E0D94D.quest_desc: [
+		"The &eMob Slaughter Factory&r kills mobs and produces &epink slime&r as the byproduct — the source of &ePink Slime Ingots&r used across &6IF&r recipes."
+		""
+		"&aBuild:&r"
+		"- &eMob Slaughter Factory&r over a darkened spawn pad or fed by &eMob Duplicator&r."
+		""
+		"&aUse:&r"
+		"- Pink slime ingots are crafted from solidified pink slime balls — feed your slime fluid into a solidifier or via the &ePinkonator&r flow."
+	]
+	quest.2CF735F691E0D94D.quest_subtitle: "Slaughter for slime."
+	quest.2CF735F691E0D94D.title: "Mob Slaughter Factory"
+	quest.2D606085832DFFE2.quest_desc: [
+		"&eME Terminal&r is read-only browse; &eCrafting Terminal&r adds an inline 3×3 crafting grid that pulls from the network."
+		""
+		"&aPress &eG&r — &eGuideME&r → &eTerminals&r covers each variant's tradeoffs.&r"
+	]
+	quest.2D606085832DFFE2.quest_subtitle: "Browse and craft."
+	quest.2D606085832DFFE2.title: "Terminals"
+	quest.2E8FD56B289B24B1.quest_desc: ["&6Draconic Evolution&r is the modpack's late-game capstone: massive energy storage, dragon-tier weapons, and an armor set that scales linearly into the millions of FE."]
+	quest.2E8FD56B289B24B1.quest_subtitle: "Wyvern → Awakened → Chaotic."
+	quest.2E8FD56B289B24B1.title: "&6Draconic Evolution&r"
+	quest.2ECF94A2BA25A69D.quest_desc: [
+		"The &eHydroponic Bed&r grows seeded crops without farmland — slot a seed into the bed and it produces output on a timer fed by &esludge&r and &efertilizer&r. The lazy alternative to &ePlant Sower&r/&eGatherer&r."
+		""
+		"&aBuild:&r"
+		"- &eHydroponic Bed&r — multiple stacked beds for higher throughput."
+		""
+		"&aUse:&r"
+		"- Insert seed; pipe in &esludge&r (from the &eSludge Refiner&r) and optional &efertilizer&r."
+		"- Output: harvested crop on a timer."
+	]
+	quest.2ECF94A2BA25A69D.quest_subtitle: "Soilless farming."
+	quest.2ECF94A2BA25A69D.title: "Hydroponic Bed"
+	quest.2EE00AD34E87EDBE.quest_desc: ["&6YUNG's&r turns &eMineshafts&r into biome-themed structures — desert, jungle, ice, and more, each with its own materials and inhabitants."]
+	quest.2EE00AD34E87EDBE.quest_subtitle: "Mineshafts as biome-aware structures."
+	quest.2EE00AD34E87EDBE.title: "&6Better Mineshafts&r"
+	quest.2FEE23037DE25FAA.quest_desc: [
+		"The &eEnchanter&r is &6EIO&r's flat-rate enchanting station — write a target enchantment + lapis + book and the table outputs an enchanted book at predictable XP cost. No randomness, no rerolling."
+		""
+		"&aBuild:&r"
+		"- &eEnchanter&r — needs &edragon's breath&r and EIO alloys."
+		""
+		"&aUse:&r"
+		"- Place &eEnchanted Book&r in the input."
+		"- Choose target enchantment from JEI/recipe browser."
+		"- Pay XP + lapis; output is the enchanted book."
+	]
+	quest.2FEE23037DE25FAA.quest_subtitle: "Pick your enchant. Pay the cost."
+	quest.2FEE23037DE25FAA.title: "Enchanter"
+	quest.3052E3B82544C299.quest_desc: [
+		"The &eME Controller&r is the heart of any AE2 network — every cable, drive, terminal, and crafting CPU connects through it. One per network."
+		""
+		"&aPress &eG&r anywhere to open the in-game &eGuideME&r book — every detail is there.&r"
+	]
+	quest.3052E3B82544C299.quest_subtitle: "Press G — read the Guide."
+	quest.3052E3B82544C299.title: "ME Controller"
+	quest.310133839A33645C.quest_desc: [
+		"Optional. &dCoralssus&r is the coral juggernaut prowling the &eSunken City&r alongside the &dLeviathan&r — usually four or more spawn per dungeon, some locked in jail cells behind a hidden waterfall. Each kill drops a &eCoral Chunk&r, the gating ingredient for the &eAbyssal Sacrifice&r that summons the Leviathan herself."
+		""
+		"&aHow to acquire:&r"
+		"- Find a &eSunken City&r (deep ocean) and clear the Deepling guards."
+		"- Fight from a high ledge — the Coralssus's ground slams have wide AoE and stagger."
+	]
+	quest.310133839A33645C.quest_subtitle: "Coral chunk for the Leviathan key."
+	quest.310133839A33645C.title: "Slay the &dCoralssus&r"
 	quest.329EEDB0E29E970C.quest_desc: [
 		"&6Industrial Foregoing&r's blender. The &eMob Crusher&r damages every mob in front of it, converting kills into drops, XP, and &bEssence&r fluid."
 		""
@@ -259,6 +713,91 @@
 	]
 	quest.329EEDB0E29E970C.quest_subtitle: "Mobs in, drops out."
 	quest.329EEDB0E29E970C.title: "Mob Crusher"
+	quest.35196552F3827FEB.quest_desc: [
+		"&6IF&r's bottomless storage — &eBlack Hole Tank&r holds infinite fluid of one type; &eBlack Hole Unit&r holds infinite items of one type. Tier upgrades raise transfer speed."
+		""
+		"&aBuild:&r"
+		"- &eBlack Hole Tank&r."
+		"- &eBlack Hole Unit&r."
+		"- &eBlack Hole Controller&r ties many of them into one accessible inventory."
+		""
+		"&aUse:&r"
+		"- Set the type by inserting one example."
+		"- Insert via hopper, pipe, or controller — extract the same way."
+	]
+	quest.35196552F3827FEB.quest_subtitle: "Storage you'll never overflow."
+	quest.35196552F3827FEB.title: "Black Hole Storage"
+	quest.35350AEF9EB068A5.quest_desc: [
+		"&eHazmat Suit&r is non-negotiable for working a &eFission Reactor&r. The &eDosimeter&r reads your absorbed dose; the &eGeiger Counter&r reads ambient radiation around blocks and barrels."
+		""
+		"&aBuild:&r"
+		"- Full set: &eHazmat Mask&r, &eHazmat Gown&r, &eHazmat Pants&r, &eHazmat Boots&r."
+		"- Or wear a fully-modulated &eMekaSuit&r with the radiation shielding modules."
+		""
+		"&aUse:&r"
+		"- Equip before opening a reactor port or handling polonium pellets."
+		"- &eRadioactive Waste Barrels&r leak — store them in a sealed room and check the Geiger before entering."
+	]
+	quest.35350AEF9EB068A5.quest_subtitle: "Don't glow in the dark."
+	quest.35350AEF9EB068A5.title: "Hazmat &amp; Dosimetry"
+	quest.3555A0DA90E36994.quest_desc: [
+		"&eChaotic-tier gear&r is the &6DE&r endgame — the third upgrade past Wyvern → Awakened → Chaotic. Costs &eChaos Shard&r fragments from the &dChaos Guardian&r, plus stacks of Awakened Draconium."
+		""
+		"&aBuild:&r"
+		"- &eChaotic Chestpiece&r."
+		"- &eChaotic Pickaxe&r / &eAxe&r / &eSword&r."
+		"- &eChaotic Capacitor&r — handheld FE buffer."
+		""
+		"&aUse:&r"
+		"- The full set is the strongest non-modular armor in the pack — durability is effectively infinite as long as it's charged."
+	]
+	quest.3555A0DA90E36994.quest_subtitle: "Iron's third refinement."
+	quest.3555A0DA90E36994.title: "Chaotic Tier"
+	quest.357893A430163C95.quest_desc: ["&6Sophisticated Storage&r and &6Sophisticated Backpacks&r share an upgrade system: pickup, magnet, filter, jukebox, XP storage. Build the iron tier of each, then upgrade as you go."]
+	quest.357893A430163C95.quest_subtitle: "Storage worth looking at."
+	quest.357893A430163C95.title: "&6Sophisticated&r Storage"
+	quest.35A4283A659CBDE8.quest_desc: [
+		"Optional. &6Create&r's signature endgame system — buildable trains routing thousands of blocks across stations and signals. The closest Minecraft will get to a real railroad."
+		""
+		"&aPress &eW&r — &ePonder&r is essential here. Track placement, station assembly, schedules, and signaling are all animated.&r"
+	]
+	quest.35A4283A659CBDE8.quest_subtitle: "Real railroads."
+	quest.35A4283A659CBDE8.title: "Trains"
+	quest.362C28B7B25CA3D9.quest_desc: [
+		"The &eSAG Mill&r is &6EIO&r's ore grinder — drops ore in, gets dust out (3x ratio with the right grinding ball). Functionally Mekanism's Crusher with a different recipe."
+		""
+		"&aBuild:&r"
+		"- &eSAG Mill&r."
+		""
+		"&aUse:&r"
+		"- Insert ore + (optional) &egrinding ball&r."
+		"- Vibrant Alloy grinding ball gives the best 3x yield with low durability cost."
+	]
+	quest.362C28B7B25CA3D9.quest_subtitle: "Grind. Tier. Repeat."
+	quest.362C28B7B25CA3D9.title: "SAG Mill"
+	quest.3690585CD331E119.quest_desc: [
+		"&aWorth knowing&r — &6Ender IO&r odds and ends:"
+		""
+		"- &eYeta Wrench&r — rotate any EIO block, change conduit type in-place."
+		"- &eVacuum Chest&r / &eXP Vacuum&r — pull dropped items / XP orbs in a radius."
+		"- &eDrain&r — pulls fluid from a body of water below it."
+		"- &eEnsouled Chassis&r — gives mobs custom AI / behaviors. Niche but useful."
+		"- &eImpulse Hopper&r — long-range hopper that pulls/pushes across distance."
+		"- &eEnergy Conduit&r tiers — basic/enhanced/ender — match throughput to demand."
+		"- &eFluid Conduit&r — moves fluids; pressure-pipes for fast transit."
+		"- &eDark Steel Bars&r / &eDoor&r / &eLadder&r — decorative DS variants for utility builds."
+	]
+	quest.3690585CD331E119.quest_subtitle: "Worth knowing — Ender IO."
+	quest.3690585CD331E119.title: "Ender IO Bric-a-Brac"
+	quest.36B9C4E8DE45B718.quest_desc: [
+		"&dWadjet&r is the spear-wielding serpent guardian of the &eCursed Pyramid&r — a mini-boss that summons sand and lashes in close. Drops &eAncient Metal Ingots&r, the building block for &eBone Reptile&r armor and the rest of the desert-tier kit."
+		""
+		"&aHow to acquire:&r"
+		"- Find a &eCursed Pyramid&r in any desert (or spawn-egg her in)."
+		"- Stay mobile — her spear-thrusts reward backpedaling, but her sand summons punish standing still."
+	]
+	quest.36B9C4E8DE45B718.quest_subtitle: "Sand bites back."
+	quest.36B9C4E8DE45B718.title: "Slay the &dWadjet&r"
 	quest.36EA3272B9CC4D2F.quest_desc: [
 		"The &eFlux Controller&r is the network's brain — install one anywhere and the network gains &awireless charging&r for FE-accepting items in the player's inventory while in range."
 		""
@@ -272,6 +811,25 @@
 	]
 	quest.36EA3272B9CC4D2F.quest_subtitle: "Wireless charging, anywhere."
 	quest.36EA3272B9CC4D2F.title: "Network Controller"
+	quest.380735090EE11E61.quest_desc: [
+		"The &eResourceful Furnace&r smelts using &bessence&r (liquid XP) as fuel — every smelt grants you XP, and the bonus &acrushed&r effects can yield extra outputs."
+		""
+		"&aBuild:&r"
+		"- &eResourceful Furnace&r."
+		""
+		"&aUse:&r"
+		"- Pipe &bessence&r in (from your &eMob Crusher&r setup)."
+		"- Insert smeltables; you receive ingots + XP per smelt, with chance for bonus output."
+	]
+	quest.380735090EE11E61.quest_subtitle: "Smelting that pays you back."
+	quest.380735090EE11E61.title: "Resourceful Furnace"
+	quest.387762739BB425D9.quest_desc: [
+		"The &eEncased Fan&r becomes six different machines depending on what you blow through — fire smelts, water washes, smoke haunts, lava disenchants. Same block, six elements."
+		""
+		"&aPress &eW&r — &ePonder&r animates each processing mode and airflow rules.&r"
+	]
+	quest.387762739BB425D9.quest_subtitle: "Air and an idea."
+	quest.387762739BB425D9.title: "Encased Fan"
 	quest.38E76E428BB53F52.quest_desc: [
 		"What was a smolder is now a held flame. The Core is no longer sleepy — it's waiting."
 		""
@@ -341,6 +899,41 @@
 	]
 	quest.39B2C3D4E5F60710.quest_subtitle: "Dress for casting."
 	quest.39B2C3D4E5F60710.title: "Mage Robes"
+	quest.39B370551F08C5F2.quest_desc: [
+		"&6Create&r's logistics fabric — items glide along belts, funnels insert/extract from blocks at either end. &eAndesite Funnel&r is the basic tier; &eBrass Funnel&r adds filtering."
+		""
+		"&aPress &eW&r — &ePonder&r covers belt directions, funnel modes, and tunnel splitting.&r"
+	]
+	quest.39B370551F08C5F2.quest_subtitle: "The conveyor stack."
+	quest.39B370551F08C5F2.title: "Belt &amp; Funnel"
+	quest.3CE304364DB0BBC0.quest_desc: [
+		"&aWorth knowing&r — the &6Mekanism&r odds and ends that don't get their own quest but you'll want anyway:"
+		""
+		"- &eCardboard Box&r — wraps a placed machine, picks it up, settings preserved. Move your factory without rebuilding."
+		"- &eConfigurator&r — wrench. Side-config tabs, multiblock validity, color picker for cables."
+		"- &eConfiguration Card&r — copy-paste a machine's full config to another machine of the same type."
+		"- &eGauge Dropper&r — siphons a tiny amount of any fluid/gas from a tank. Use it to bottle one bucket of a fluid for JEI lookups."
+		"- &eRobit&r — your portable storage pet. Place a Personal Chest, name a Robit, never lose your inventory again."
+		"- &eSeismic Reader&r + &eSeismic Vibrator&r — full-column ore scan above-and-below the machine."
+		"- &eFormulaic Assemblicator&r — automatic crafter that holds a recipe template and crafts on a redstone tick."
+		"- &eMekanism Laser&r + &eLaser Amplifier&r + &eLaser Tractor Beam&r — high-energy beam blocks. Useful for Fusion ignition, or for the spectacle."
+	]
+	quest.3CE304364DB0BBC0.quest_subtitle: "Worth knowing — Mekanism."
+	quest.3CE304364DB0BBC0.title: "Mekanism Bric-a-Brac"
+	quest.3D13647AEFF0943F.quest_desc: [
+		"The &eWixie Cauldron&r is &6Ars Nouveau&r's potion factory — pair with a &eWixie&r familiar and a &ePotion Jar&r and you have automated potion brewing."
+		""
+		"&aBuild:&r"
+		"- &eWixie Cauldron&r."
+		"- &eWixie Charm&r — bind the familiar to the cauldron."
+		"- &ePotion Jar&r — captures bottled potions for storage and re-use."
+		""
+		"&aUse:&r"
+		"- Configure the cauldron's recipe."
+		"- The Wixie fetches ingredients and brews; jars store the result."
+	]
+	quest.3D13647AEFF0943F.quest_subtitle: "Potions on autopilot."
+	quest.3D13647AEFF0943F.title: "Wixie Cauldron"
 	quest.3D147F708192A582.quest_desc: [
 		"&6Mekanism&r's &eMekaSuit&r is the modular endgame armor set — four pieces, each a slotted shell. Bare shells are unremarkable; the &aModules&r are what make the set absurd: night vision, gravity stabilizer, magnet, jetpack, radiation shielding, and more."
 		""
@@ -360,6 +953,9 @@
 	]
 	quest.3D147F708192A582.quest_subtitle: "Four pieces. The modules come next."
 	quest.3D147F708192A582.title: "&6Mekanism&r: &eMekaSuit Armor Set&r"
+	quest.3DC23BD54B670DE8.quest_desc: ["&6YUNG's&r redesigned &eStronghold&r layouts — atmospheric, themed by region, with the End portal still at the end."]
+	quest.3DC23BD54B670DE8.quest_subtitle: "Abandoned. Reclaimed. Yours next."
+	quest.3DC23BD54B670DE8.title: "&6Better Strongholds&r"
 	quest.3F9A0E334404046A.quest_desc: [
 		"&6Mekanism&r's &eJetpack&r burns &bhydrogen&r for vertical thrust — three modes: hover, normal, and disabled. The cleanest mid-game flight in the pack until you reach Wyvern-tier."
 		""
@@ -374,6 +970,32 @@
 	]
 	quest.3F9A0E334404046A.quest_subtitle: "Hover, ascend, glide."
 	quest.3F9A0E334404046A.title: "&6Mekanism&r: &eJetpack&r"
+	quest.3FA2174F63B06F5E.quest_desc: [
+		"&eStarbuncle&r is the item-courier familiar — bind it with a &eStarbuncle Charm&r, point at a chest with a &eDominion Wand&r, and it shuttles loose drops home."
+		""
+		"&aBuild:&r"
+		"- &eStarbuncle Charm&r — summon."
+		"- &eDominion Wand&r — link the Starbuncle to source/destination chests."
+		""
+		"&aUse:&r"
+		"- Right-click source chest with the wand, sneak-right-click destination chest. Starbuncle handles the rest."
+		"- Multiple Starbuncles run parallel pickups."
+	]
+	quest.3FA2174F63B06F5E.quest_subtitle: "A pet that picks up after you."
+	quest.3FA2174F63B06F5E.title: "Starbuncle Logistics"
+	quest.4096E7F031E43727.quest_desc: [
+		"&eTravel Anchor&r is the line-of-sight teleport beacon — look at one within 64 blocks and right-click to jump. The &eStaff of Travelling&r extends the range to 256 and works on any block."
+		""
+		"&aBuild:&r"
+		"- &eTravel Anchor&r — place at destinations."
+		"- &eStaff of Travelling&r — needs &edark steel&r."
+		""
+		"&aUse:&r"
+		"- Look at an anchor; right-click. You teleport."
+		"- The Staff also extracts on right-click vs. blocks for ranged interaction."
+	]
+	quest.4096E7F031E43727.quest_subtitle: "Look. Click. Teleport."
+	quest.4096E7F031E43727.title: "Travel Anchors"
 	quest.420C49B55F5DA985.quest_desc: [
 		"&6Mekanism&r's &eHeat Generator&r is the cheapest entry into a full Mekanism setup — the simplest source of &aForge Energy&r in the mod's tech tree."
 		""
@@ -389,6 +1011,18 @@
 	]
 	quest.420C49B55F5DA985.quest_subtitle: "Industry, in a single block."
 	quest.420C49B55F5DA985.title: "Industrial Heat"
+	quest.42D24546E6A1331F.quest_desc: [
+		"&6Mekanism&r ships four signal types, each with their own pipe:"
+		""
+		"- &eUniversal Cable&r — &aForge Energy&r"
+		"- &eMechanical Pipe&r — fluids"
+		"- &ePressurized Tube&r — gases (&boxygen&r, &bhydrogen&r, &bsulfuric acid&r, &bantimatter&r)"
+		"- &eThermodynamic Conductor&r — heat between Boilers, Reactors, and Turbines"
+		""
+		"Each tier (&eBasic&r → &eAdvanced&r → &eElite&r → &eUltimate&r) bumps throughput. Right-click any segment with a &eConfigurator&r to change its connection mode (push, pull, none)."
+	]
+	quest.42D24546E6A1331F.quest_subtitle: "Power, fluids, gases, heat."
+	quest.42D24546E6A1331F.title: "Universal Transport"
 	quest.44576A594B9EF3C1.quest_desc: [
 		"&6Ars Nouveau&r's &arituals&r are area-of-effect magic — bind animals, awaken trees, conjure weather. Place a &eRitual Brazier&r, drop in a ritual tablet, ignite, watch it work."
 		""
@@ -404,6 +1038,39 @@
 	]
 	quest.44576A594B9EF3C1.quest_subtitle: "Sacred geometry made manifest."
 	quest.44576A594B9EF3C1.title: "First Ritual"
+	quest.44637BCFE916C1DA.quest_desc: [
+		"&6Create&r's foundational kinetic source. The &eWater Wheel&r runs on flowing water around its perimeter; the &eLarge Water Wheel&r is a 3×3 multiblock that scales the output. &eHand Crank&r and &eWindmill Bearing&r round out the early-game options."
+		""
+		"&aPress &eW&r — &ePonder&r covers placement, water-flow patterns, and stress capacity per source.&r"
+	]
+	quest.44637BCFE916C1DA.quest_subtitle: "Water in. Rotation out."
+	quest.44637BCFE916C1DA.title: "Water Wheel"
+	quest.44C930116CD8D934.quest_desc: [
+		"&6Mekanism&r's &eMetallurgic Infuser&r is the alloy crafter — feed it iron + carbon to make &eEnriched Iron&r, then iron + Enriched Iron to make &eSteel&r. Steel gates &eSteel Casing&r, which gates every machine in the chapter."
+		""
+		"&aBuild:&r"
+		"- &eMetallurgic Infuser&r"
+		"- Burn coal/charcoal in any furnace and put dust in the &eEnrichment Chamber&r to feed it carbon."
+		""
+		"&aUse:&r"
+		"- Infuse iron + carbon → &eEnriched Iron&r."
+		"- Infuse iron + Enriched Iron → &eEnriched Alloy&r → smelt to &eSteel&r."
+		"- Craft a &eBasic Control Circuit&r to satisfy the second task."
+	]
+	quest.44C930116CD8D934.quest_subtitle: "Steel and circuits start here."
+	quest.44C930116CD8D934.title: "Metallurgic Infuser"
+	quest.45495B1CC43D1C41.quest_desc: [
+		"&eAwakened Draconium&r is the post-Chaos-Guardian alloy — &eDraconium Ingot&r charged inside the &eEnergy Core&r field becomes &eAwakened Draconium Ingot&r, the gateway to Chaotic-tier gear and the Reactor."
+		""
+		"&aBuild:&r"
+		"- Build the &eEnergy Core&r first."
+		"- Drop &eDraconium Ingots&r in the activated field; they convert to Awakened over time."
+		""
+		"&aUse:&r"
+		"- Awakened ingots feed the &eAwakened Core&r recipe and Chaotic-tier gear crafting."
+	]
+	quest.45495B1CC43D1C41.quest_subtitle: "Charge the metal."
+	quest.45495B1CC43D1C41.title: "Awakened Draconium"
 	quest.4734A3D951B268D1.quest_desc: [
 		"&eFlux Points&r are the output side. Pair one with a Plug somewhere on the same network and energy starts moving — across any distance, any dimension."
 		""
@@ -417,6 +1084,18 @@
 	]
 	quest.4734A3D951B268D1.quest_subtitle: "Push power into a machine."
 	quest.4734A3D951B268D1.title: "Wireless Point"
+	quest.477C3C2BE9118B1F.quest_desc: [
+		"&eCursium&r is the ghost-themed armor metal — only &dMaledictus&r in the &eFrosted Prison&r drops it (3-4 ingots a kill). The full &eCursium Set&r is one of the strongest in the pack: Ghost Vision on the helmet, Undead Revive on the chestplate (resurrects you once on death), Ghost Dodge on the leggings, and a back-step on the boots."
+		""
+		"&aHow to acquire:&r"
+		"- Right-click Maledictus's grave inside the &eFrosted Prison&r to wake him; defeat him for &eCursium Ingots&r."
+		"- Forge the four Cursium pieces, or apply a &eCursium Upgrade&r template to a netherite set."
+		""
+		"&aUse:&r"
+		"- The &eUndead Revive&r chestplate effect locks you out for six minutes after firing — don't burn it on chip damage."
+	]
+	quest.477C3C2BE9118B1F.quest_subtitle: "Ghost armor, four pieces."
+	quest.477C3C2BE9118B1F.title: "Cursium Set"
 	quest.47D51C4D8FED1723.quest_desc: [
 		"&6Industrial Foregoing&r's farming pair. The &ePlant Sower&r plants a 3x3 area below it; the &ePlant Gatherer&r harvests a 3x3 area in front of it. Pipe seeds in, pipe crops out, feed both &aForge Energy&r."
 		""
@@ -429,6 +1108,40 @@
 	]
 	quest.47D51C4D8FED1723.quest_subtitle: "A farm that runs itself."
 	quest.47D51C4D8FED1723.title: "Plant Sower Gatherer"
+	quest.47E8A5AEDC9156BB.quest_desc: [
+		"Even with all the modded glitter, vanilla's three big locations still matter: the &dNether&r, the &dEnd&r, and the first &eStronghold&r."
+		""
+		"Visit each."
+	]
+	quest.47E8A5AEDC9156BB.quest_subtitle: "The classic checklist."
+	quest.47E8A5AEDC9156BB.title: "Vanilla Milestones"
+	quest.489168A85C1C3C1F.quest_desc: [
+		"Every &6Mekanism&r machine has an &eUpgrades&r slot — drop these in (up to 8 per machine) for stat boosts:"
+		""
+		"- &eSpeed&r — faster processing, more &bFE&r per tick"
+		"- &eEnergy&r — bigger internal FE buffer, lower per-op cost"
+		"- &eMuffling&r — silence the machine"
+		"- &eAnchor&r — chunk-load the block"
+		"- &eFilter&r &7(Logistical Sorter / Separator)&r — bias outputs"
+		"- &eGas&r &7(specific machines)&r — extends internal gas-tank capacity"
+		""
+		"Crafted from &eInfused Alloy&r, cheap glass, and an upgrade-specific core (osmium dust for Speed, gold for Energy, diamond for Anchor, and so on). &eSpeed + Energy&r stacked is the standard 'make this machine cheap and fast' combo."
+	]
+	quest.489168A85C1C3C1F.quest_subtitle: "Drop them in. Watch the stats."
+	quest.489168A85C1C3C1F.title: "Machine Upgrades"
+	quest.49F8246885175A10.quest_desc: [
+		"&eSigils&r are &6Apotheosis&r's consumable utility tools — &eWithdrawal&r removes a single affix and saves it on a vial; &eExtraction&r vial pulls an affix off and stores it for transplant; &eUnnaming&r removes a forced custom name."
+		""
+		"&aBuild:&r"
+		"- &eSigil of Withdrawal&r."
+		"- &eVial of Extraction&r."
+		""
+		"&aUse:&r"
+		"- Right-click gear to peel an affix into a held vial — apply that vial to another piece of gear to transplant."
+		"- Powerful for moving a roll you love to better base gear."
+	]
+	quest.49F8246885175A10.quest_subtitle: "Peel and transplant affixes."
+	quest.49F8246885175A10.title: "Sigils &amp; Vials"
 	quest.4A1B2C3D4E5F6071.quest_desc: [
 		"A heartbeat forms inside the Spark. The Core's hum syncs to your footsteps when you stand close."
 		""
@@ -472,6 +1185,13 @@
 	]
 	quest.4C6CF541318C7436.quest_subtitle: "Crush, recombine, upgrade."
 	quest.4C6CF541318C7436.title: "&6Apotheosis&r: &eGem Cutting&r"
+	quest.4C7CBCCF0634848D.quest_desc: [
+		"&6Create&r's automated crafting multiblock. Arrange &eMechanical Crafters&r in the shape of the recipe — each holds one ingredient slot — point them at a single output cell, and pulse them with kinetic stress."
+		""
+		"&aPress &eW&r — &ePonder&r animates crafter arrangement, slot facing, and output direction. Required reading.&r"
+	]
+	quest.4C7CBCCF0634848D.quest_subtitle: "Recipe shaped in blocks."
+	quest.4C7CBCCF0634848D.title: "Mechanical Crafter"
 	quest.4E258071829B6A93.quest_desc: [
 		"&6Create&r's &eDiving Helmet&r plus a &eCopper Backtank&r let you breathe underwater for as long as the tank's pressure holds. The Netherite tier upgrade survives lava."
 		""
@@ -488,6 +1208,57 @@
 	]
 	quest.4E258071829B6A93.quest_subtitle: "Breathe underwater. Survive lava."
 	quest.4E258071829B6A93.title: "&6Create&r: &eDiving Gear&r"
+	quest.4E4BE2A3440BB0F0.quest_desc: [
+		"&6Createaddition&r's &eTesla Coil&r is the high-voltage zap — wirelessly charges in-range FE-accepting items (Mek Jetpack refuel, charged tools). The &eModular Accumulator&r is its battery; stack multiples to expand the buffer."
+		""
+		"&aPress &eW&r — &ePonder&r covers Coil range, charging rules, and Accumulator stacking.&r"
+	]
+	quest.4E4BE2A3440BB0F0.quest_subtitle: "Sparks fly. Batteries fill."
+	quest.4E4BE2A3440BB0F0.title: "Tesla Coil &amp; Accumulator"
+	quest.4E85CEF3E40170CF.quest_desc: [
+		"&6Oritech&r's endgame shaper. The &dAtomic Forge&r transmutes elements at the atomic level — the gateway to &bFluxite&r-tier crafts."
+		""
+		"&aBuild:&r"
+		"- &eAtomic Forge&r"
+		""
+		"&aUse:&r"
+		"- Power-hungry. Run it from a Mekanism Energy Cube or Draconic capacitor."
+	]
+	quest.4E85CEF3E40170CF.quest_subtitle: "Endgame transmutation."
+	quest.4E85CEF3E40170CF.title: "&dAtomic Forge&r"
+	quest.4EB9BF26C58A6193.quest_desc: [
+		"The &eSupercritical Phase Shifter&r turns &bpolonium&r into &bantimatter pellets&r — the most concentrated currency in Mekanism. Each pellet is the price of admission to the late MekaSuit module catalog."
+		""
+		"&aBuild:&r"
+		"- &eSPS Casing&r ring around &eSupercharged Coil&r at the center."
+		"- &eSPS Port&r for input/output."
+		""
+		"&aUse:&r"
+		"- Pump in antimatter-precursor gas (polonium from your fission waste)."
+		"- Feed the supercharged coil with massive FE — the SPS is the most power-hungry block in the modpack outside the Titan Core itself."
+		"- Output: &ePellet of Antimatter&r."
+	]
+	quest.4EB9BF26C58A6193.quest_subtitle: "Polonium in. Antimatter out."
+	quest.4EB9BF26C58A6193.title: "Supercritical Phase Shifter"
+	quest.516A9483A90FD357.quest_desc: ["&6Ender IO&r is the conduit-and-capacitor mod: shared conduits for energy/items/fluids, alloys that climb a clear tier ladder, and lazy-farmer machines like the &eFarming Station&r."]
+	quest.516A9483A90FD357.quest_subtitle: "Alloys, capacitors, conduits, and a base that runs itself."
+	quest.516A9483A90FD357.title: "&6Ender IO&r"
+	quest.52384D0B09D5E630.quest_desc: [
+		"Optional. The &eDraconic Reactor&r is &6DE&r's nuclear-class FE generator — output rivals a &eMekanism Fusion Reactor&r at the cost of substantially more dangerous setup."
+		""
+		"&aBuild:&r"
+		"- &eReactor Core&r at center."
+		"- 4 &eReactor Stabilizers&r placed at the cardinal field positions."
+		"- &eReactor Injector&r for fueling."
+		""
+		"&aUse:&r"
+		"- Insert &eAwakened Draconium&r as fuel."
+		"- Tune the field strength carefully — runaway temperature ends in a chunk-deleting explosion."
+		""
+		"&7&oTip: a deep FE buffer is non-optional. Without one, the Reactor's startup pulse will pop your network.&r"
+	]
+	quest.52384D0B09D5E630.quest_subtitle: "Don't blow up your base."
+	quest.52384D0B09D5E630.title: "Draconic Reactor"
 	quest.52758F4E624A6440.quest_desc: [
 		"&6Ars Nouveau&r's &eScribe's Table&r inscribes &aglyphs&r from XP and &bSource&r. The &eMage's Spell Book&r is what you cast them from. Together they are the combat and utility kernel."
 		""
@@ -501,6 +1272,9 @@
 	]
 	quest.52758F4E624A6440.quest_subtitle: "Inscribe a glyph. Cast it."
 	quest.52758F4E624A6440.title: "Inscribe Cast"
+	quest.52858BE17389BA11.quest_desc: ["&6Oritech&r is a fresh take on tech: bio generators, biosteel, and a pulverizer/centrifuge/assembler progression. Lighter than Mekanism, denser than vanilla."]
+	quest.52858BE17389BA11.quest_subtitle: "A newer tech mod with cleaner lines."
+	quest.52858BE17389BA11.title: "&6Oritech&r"
 	quest.53A654BDD709AEBB.quest_desc: [
 		"&6Createaddition&r's &eAlternator&r turns &6Create&r rotational force into &aForge Energy&r. The bridge from kinetic builds to FE-hungry machines."
 		""
@@ -508,6 +1282,43 @@
 	]
 	quest.53A654BDD709AEBB.quest_subtitle: "Rotation, refined into electricity."
 	quest.53A654BDD709AEBB.title: "Kinetic Conversion"
+	quest.5601821AEEF30E39.quest_desc: [
+		"The &eFusion Reactor&r is the optional capstone — a self-sustaining D-T fusion chamber that, once running, makes the Fission Reactor look quaint."
+		""
+		"&aBuild:&r"
+		"- &eFusion Reactor Controller&r (the brain)."
+		"- &eFusion Reactor Frame&r (the multiblock cage)."
+		"- &eReactor Glass&r for the viewing window."
+		"- &eHohlraum&r charged with D-T fuel for ignition."
+		"- &eLaser Amplifier&r feeding 400MFE into the Hohlraum to start the reaction."
+		""
+		"&aUse:&r"
+		"- One &eHohlraum&r ignition is sufficient if you keep deuterium + tritium feeding in."
+		"- Output is in the gigaFE/t range — pair with antimatter for the SPS."
+		""
+		"&7&oTip: this quest is &eoptional&r. Pursue Fusion for the engineering and the antimatter feedstock.&r"
+	]
+	quest.5601821AEEF30E39.quest_subtitle: "The cleanest path to absurd."
+	quest.5601821AEEF30E39.title: "Fusion Reactor"
+	quest.56C3E73F7256EF9A.quest_desc: [
+		"&aWorth knowing&r — AE2 odds and ends:"
+		""
+		"- &eFluix Glass Cable&r — basic, cheap, 8 channels."
+		"- &eFluix Covered Cable&r — same channels, opaque, looks cleaner."
+		"- &eFluix Smart Cable&r — visualizes channel routing on its surface."
+		"- &eFluix Dense Cable&r — 32 channels, color-coded."
+		"- &eP2P Tunnels&r — long-distance bridges between two endpoints (FE, items, fluids)."
+		"- &eGrowth Accelerator&r — speeds up nearby budding certus quartz."
+		"- &eAnnihilation Plane&r / &eFormation Plane&r — break / place blocks at the network's edge."
+		"- &eSky Stone Chest&r — encountered at meteor crash sites; loot the press inside."
+		""
+		"&aPress &eG&r — &eGuideME&r is the manual. Better than any quest line.&r"
+	]
+	quest.56C3E73F7256EF9A.quest_subtitle: "Worth knowing — AE2."
+	quest.56C3E73F7256EF9A.title: "AE2 Bric-a-Brac"
+	quest.5826EC6A328C5DE5.quest_desc: ["&6Mekanism&r is the modpack's deepest tech tree: ore-multiplication, six tiers of factory machines, fission/fusion power, and the &eMekaSuit&r that makes you obsolete the rest of your gear."]
+	quest.5826EC6A328C5DE5.quest_subtitle: "Energy. Processing. Suit. Pick a path."
+	quest.5826EC6A328C5DE5.title: "&6Mekanism&r"
 	quest.583149F56A45EEC4.quest_desc: [
 		"&6Item Collectors&r places a block that vacuums up loose items in a configurable radius and pushes them into adjacent inventories."
 		""
@@ -520,6 +1331,33 @@
 	]
 	quest.583149F56A45EEC4.quest_subtitle: "Drops, vacuumed."
 	quest.583149F56A45EEC4.title: "&6Item Collectors&r"
+	quest.58B750E7ABF5DF0B.quest_desc: [
+		"The &eDeployer&r holds a tool or item and uses it on the block in front — like a placed player. Right-click logic, attack logic, sequential crafting if you slot ingredients."
+		""
+		"&aPress &eW&r — &ePonder&r walks tool slotting, mob/tree farms, and inline crafting.&r"
+	]
+	quest.58B750E7ABF5DF0B.quest_subtitle: "A hand on a stick."
+	quest.58B750E7ABF5DF0B.title: "Deployer"
+	quest.5917A928B0BDAD22.quest_desc: [
+		"&eCapacitor Banks&r are EIO's batteries — placeable, configurable, scaleable. Stack multiples to merge into one giant buffer with shared FE."
+		""
+		"&aBuild:&r"
+		"- &eBasic Capacitor Bank&r — early."
+		"- &eVibrant Capacitor Bank&r — late, much higher capacity per block."
+		""
+		"&aUse:&r"
+		"- Right-click to open; configure I/O per-side."
+		"- Adjacent banks of the same tier merge into a multiblock automatically."
+	]
+	quest.5917A928B0BDAD22.quest_subtitle: "Stack to scale."
+	quest.5917A928B0BDAD22.title: "Capacitor Banks"
+	quest.5988DF86EAF5244F.quest_desc: [
+		"&ePattern Provider&r feeds patterns into machines; &ePattern Encoding Terminal&r is where you write the patterns. Together: AE2 autocrafts any recipe you've encoded."
+		""
+		"&aPress &eG&r — &eGuideME&r → &ePatterns&r is the canonical reference.&r"
+	]
+	quest.5988DF86EAF5244F.quest_subtitle: "Encode. Provide. Craft."
+	quest.5988DF86EAF5244F.title: "Patterns &amp; Providers"
 	quest.5A1B2C3D4E5F6071.quest_desc: [
 		"The Pulse calls back. Faint whispers in old tongues drift from the projection."
 		""
@@ -658,6 +1496,53 @@
 	]
 	quest.5BD3E6F708A0CA10.quest_subtitle: "Tunnel without the pickaxe."
 	quest.5BD3E6F708A0CA10.title: "&6Mining Gadgets&r: &eMining Gadget&r"
+	quest.5D3BC110998474C4.quest_desc: [
+		"&aWorth knowing&r — &6Oritech&r odds and ends:"
+		""
+		"- &eWrench&r — rotates and pickup-with-config any Oritech machine."
+		"- &eEnergy Pipe&r / &eFluid Pipe&r / &eItem Pipe&r — Oritech's color-coded pipe system. Connect machines without conduit clutter."
+		"- &eEnchanter Block&r — Oritech's powered enchanter; fast and reliable."
+		"- &eAtomic Augment Station&r — applies augments (passives) to gear."
+		"- &eCharger Block&r — surface-mount FE charger for tools."
+		"- &eBanana&r — Oritech's joke fruit. Yes, it's a real item."
+	]
+	quest.5D3BC110998474C4.quest_subtitle: "Worth knowing — Oritech."
+	quest.5D3BC110998474C4.title: "Oritech Bric-a-Brac"
+	quest.5DE11EF5D664F8E7.quest_desc: [
+		"Three handheld scanners. Each one has its own in-game tooltip describing how it works — hover over it in your inventory to read it."
+		""
+		"The lists below cover what each finder targets and its scan range."
+		""
+		"&aGem Finder:&r"
+		"- Targets &bdiamond, emerald, lapis, nether quartz, fluorite&r and modded gems (&bruby, sapphire, topaz&r, etc.)"
+		"- Range: 12 horizontal, 64 vertical"
+		""
+		"&aMetal Finder:&r"
+		"- Targets &biron, copper, gold, ancient debris&r and modded metals (&btin, osmium, uranium, lead, zinc, nickel, platinum&r, etc.)"
+		"- Range: 16 horizontal, 96 vertical"
+		"- &7The workhorse for tier progression.&r"
+		""
+		"&aMineral Finder:&r"
+		"- Targets &bcoal&r and &bredstone&r."
+		"- Range: 14 horizontal, 80 vertical"
+		""
+		"Each finder has &edurability 4&r — they wear out after a handful of uses, so save them for surveying large areas."
+	]
+	quest.5DE11EF5D664F8E7.quest_subtitle: "Craft one of each."
+	quest.5DE11EF5D664F8E7.title: "Pocket Surveyors"
+	quest.5E85D1B027D7F049.quest_desc: [
+		"&6Oritech&r machines accept &eAddon Blocks&r — speed, capacity, range, yield. Each addon slot stacks; the &eMachine Extender&r doubles the addon count for a machine."
+		""
+		"&aBuild:&r"
+		"- &eMachine Speed Addon&r."
+		"- &eMachine Extender&r — adds another addon slot row."
+		""
+		"&aUse:&r"
+		"- Right-click on a machine to open the addon GUI."
+		"- Higher tiers (&eFluxite&r-tier and beyond) ramp throughput dramatically — the same machine can do 10x its base rate fully addon'd."
+	]
+	quest.5E85D1B027D7F049.quest_subtitle: "Stack the upgrades."
+	quest.5E85D1B027D7F049.title: "Machine Addons"
 	quest.5F36918293A07BA4.quest_desc: [
 		"&6Draconic Evolution&r's Wyvern is the mid-tier — the rung you climb before challenging the &dChaos Guardian&r. The &eWyvern Chestpiece&r tanks an absurd amount of damage; the &eWyvern Sword&r cleaves through anything pre-Mythic."
 		""
@@ -671,6 +1556,21 @@
 	]
 	quest.5F36918293A07BA4.quest_subtitle: "Mid-tier draconic. Chaos still ahead."
 	quest.5F36918293A07BA4.title: "&6Draconic Evolution&r: Wyvern-tier"
+	quest.6063BA7EDC6B39E8.quest_desc: [
+		"The &ePowered Spawner&r is &6EIO&r's mob factory — captured mob souls from a &eSoul Vial&r drive a powered spawn cycle. Pair with a damage source (lava, magma, Mekanism Laser, Mob Crusher) for an FE-fed loot farm."
+		""
+		"&aBuild:&r"
+		"- &eSoul Vial&r — right-click an empty vial on a mob to capture."
+		"- &ePowered Spawner&r — accepts the filled soul vial."
+		""
+		"&aUse:&r"
+		"- Insert a filled vial."
+		"- Power it; mobs spawn on a timer."
+		""
+		"&7&oTip: harder mobs cost more FE per spawn — wither skeletons aren't free.&r"
+	]
+	quest.6063BA7EDC6B39E8.quest_subtitle: "Capture. Spawn. Loot."
+	quest.6063BA7EDC6B39E8.title: "Powered Spawner"
 	quest.60AC7B83914DEF52.quest_desc: [
 		"&6Cataclysm&r's &eIgnitium&r set is a fire-themed armor tier forged from Ignitium Ingots — drops you'll farm from the Nether and from defeating &dIgnis&r."
 		""
@@ -685,6 +1585,105 @@
 	]
 	quest.60AC7B83914DEF52.quest_subtitle: "Forged in Ignis-fire."
 	quest.60AC7B83914DEF52.title: "&6Cataclysm&r — &eIgnitium Set&r"
+	quest.610AC7347A4F7705.quest_desc: ["The mods that don't justify their own chapter still earn a spot. This chapter clusters every smaller mod into its own little section — adventure, storage, decor, food, logistics, and so on."]
+	quest.610AC7347A4F7705.quest_subtitle: "Smaller mods, organized by mod."
+	quest.610AC7347A4F7705.title: "&bOther&r"
+	quest.618A9A4F484C7964.quest_desc: [
+		"The &eBookwyrm Lectern&r partners with a &eBookwyrm&r familiar to automate &eGlyph&r crafting at your &eScribes Table&r. Saves a lot of late-game spellcrafting drudgery."
+		""
+		"&aBuild:&r"
+		"- &eBookwyrm Lectern&r near your &eScribes Table&r."
+		"- &eBookwyrm Charm&r — summon."
+		""
+		"&aUse:&r"
+		"- The Bookwyrm pulls glyph ingredients from nearby chests, scribes them automatically."
+		"- Frees you to design spells without copy-paste runs."
+	]
+	quest.618A9A4F484C7964.quest_subtitle: "A scribe, hired."
+	quest.618A9A4F484C7964.title: "Bookwyrm Lectern"
+	quest.6277D2C336D1242B.quest_desc: [
+		"AE2's interface points: &eImport Bus&r pulls in, &eExport Bus&r pushes out, &eStorage Bus&r treats an external inventory as part of the network, &eInterface&r is a portable pattern target."
+		""
+		"&aPress &eG&r — &eGuideME&r → &eBuses&r explains every variant.&r"
+	]
+	quest.6277D2C336D1242B.quest_subtitle: "Pull, push, expose."
+	quest.6277D2C336D1242B.title: "Buses &amp; Interfaces"
+	quest.62898E68F9F7515D.quest_desc: ["&6YUNG's&r reimagined &eDesert Temples&r have multi-room layouts, traps, and significantly better loot. Find one and explore."]
+	quest.62898E68F9F7515D.quest_subtitle: "More than a sand pyramid with a hole."
+	quest.62898E68F9F7515D.title: "&6Better Desert Temples&r"
+	quest.633C74689327AB2C.quest_desc: ["&6AE2&r is the most documented mod in the pack — its in-game guide is searchable and complete. We don't re-author it here. The single quest below hands you the starter kit; the &aG&r key takes you the rest of the way."]
+	quest.633C74689327AB2C.quest_subtitle: "Press G on any AE2 item to read the manual."
+	quest.633C74689327AB2C.title: "&6Applied Energistics 2&r"
+	quest.63F8356A56A27467.quest_desc: [
+		"Optional. The &eSchematicannon&r builds &6Create&r-saved structures one block at a time, pulling materials from a chest beside it. Iconic Create UX, more creative-mode toy than survival tool."
+		""
+		"&aPress &eW&r — &ePonder&r covers schematic capture, loading, and aim mechanics.&r"
+	]
+	quest.63F8356A56A27467.quest_subtitle: "Cannon-build your blueprints."
+	quest.63F8356A56A27467.title: "Schematicannon"
+	quest.66505E73698CDE6E.quest_desc: ["&6Ars Nouveau&r is the pack's only magic mod — a fully-featured spellcrafting system with sourcelinks, ritual brazier, sorcerer armor, and pet-class familiars."]
+	quest.66505E73698CDE6E.quest_subtitle: "Source. Spells. Rituals. Familiars."
+	quest.66505E73698CDE6E.title: "&6Ars Nouveau&r"
+	quest.66964241AA24DB82.quest_desc: [
+		"Optional. The &eDrone Port&r is &6Oritech&r's wireless logistics — a docking station for drones that fetch items from a remote chest and deliver them home."
+		""
+		"&aBuild:&r"
+		"- &eDrone Port Block&r at home."
+		"- A second &eDrone Port&r at the remote source location."
+		""
+		"&aUse:&r"
+		"- Configure the route via the GUI."
+		"- The drone shuttles items on schedule — no cabling required."
+	]
+	quest.66964241AA24DB82.quest_subtitle: "Wireless cargo."
+	quest.66964241AA24DB82.title: "Drone Port"
+	quest.66F047CA2BA01C46.quest_desc: [
+		"Powered handhelds — &eHand Drill&r breaks blocks like a vanilla pickaxe but FE-fueled and faster; &eChainsaw&r is its tree-felling counterpart. Both charge from any FE source."
+		""
+		"&aBuild:&r"
+		"- &eHand Drill&r."
+		"- &eChainsaw&r."
+		""
+		"&aUse:&r"
+		"- Charge in any &eCharger Block&r or carry a battery."
+		"- Speed scales with charge — full battery = peak break rate."
+	]
+	quest.66F047CA2BA01C46.quest_subtitle: "Power tools."
+	quest.66F047CA2BA01C46.title: "Hand Tools"
+	quest.677D49D729D0A833.quest_desc: ["&6Apotheosis&r layers an entire RPG system on top of vanilla: gem cutting, reforging, affixed mobs, boss summoners, and the world-tier scaling that defines the pack's combat curve."]
+	quest.677D49D729D0A833.quest_subtitle: "Cut. Reforge. Salvage. Socket."
+	quest.677D49D729D0A833.title: "&6Apotheosis&r"
+	quest.67DD832356EFB488.quest_desc: [
+		"&6Oritech&r's mid-tier shapers. The &eAssembler&r runs templated multi-block recipes; the &eFragment Forge&r breaks items down into raw fragments for re-use."
+		""
+		"&aBuild:&r"
+		"- &eAssembler&r"
+		"- &eFragment Forge&r"
+		""
+		"&aUse:&r"
+		"- Collect Assembler templates as you progress — each one unlocks a recipe."
+	]
+	quest.67DD832356EFB488.quest_subtitle: "Frames out. Fragments in."
+	quest.67DD832356EFB488.title: "Mid-Tier Crafting"
+	quest.68414A50EFFAFAE0.quest_desc: [
+		"The &eAntiprotonic Nucleosynthesizer&r is the antimatter-fed crafting altar — it turns one ingredient + one antimatter pellet into upgraded variants. Diamond → emerald, iron → gold, charcoal → coal, etc., plus exclusive recipes for late-game Mek components."
+		""
+		"&aBuild:&r"
+		"- &eAntiprotonic Nucleosynthesizer&r."
+		""
+		"&aUse:&r"
+		"- Insert ingredient + 1 &ePellet of Antimatter&r per recipe."
+		"- The &eAtomic Alloy&r ingredient (gating MekaSuit pieces) is craftable here at lower cost than the standard recipe."
+	]
+	quest.68414A50EFFAFAE0.quest_subtitle: "Antimatter as a reagent."
+	quest.68414A50EFFAFAE0.title: "Antiprotonic Nucleosynthesizer"
+	quest.69A4948CDD9B5881.quest_desc: [
+		"&6Createaddition&r's &eElectric Motor&r is the reverse of the &eAlternator&r — feed it &aForge Energy&r, get rotation. The bridge from FE-rich late-game systems back into the &6Create&r kinetic network."
+		""
+		"&aPress &eW&r — &ePonder&r covers FE input, RPM tuning via redstone, and shaft output direction.&r"
+	]
+	quest.69A4948CDD9B5881.quest_subtitle: "FE in. Rotation out."
+	quest.69A4948CDD9B5881.title: "Electric Motor"
 	quest.6A1B2C3D4E5F6071.quest_desc: [
 		"The Echo gains intent. The titan-shape above the Core no longer rotates passively — it watches."
 		""
@@ -712,6 +1711,9 @@
 	]
 	quest.6C7DFBA1B6392A8A.quest_subtitle: "Loot without combat."
 	quest.6C7DFBA1B6392A8A.title: "&6Hostile Neural Networks&r"
+	quest.6C918370046EF26C.quest_desc: ["&6YUNG's&r ground-up redesign of the &eJungle Temple&r — multi-floor, trapped, and built with serious loot in mind."]
+	quest.6C918370046EF26C.quest_subtitle: "Indiana Jones could cry."
+	quest.6C918370046EF26C.title: "&6Better Jungle Temples&r"
 	quest.6CE4F5061728390A.quest_desc: [
 		"&6Farmer's Delight&r rebuilds vanilla cooking around real kitchen tools."
 		""
@@ -793,6 +1795,83 @@
 	]
 	quest.6CE4F5061728397A.quest_subtitle: "Code in your world."
 	quest.6CE4F5061728397A.title: "&6Boot a Computer&r"
+	quest.6CFBF73AA4473B0D.quest_desc: [
+		"&6Flux Networks&r is wireless &aForge Energy&r distribution. Build a network of &ePlugs&r (input from generators) and &ePoints&r (output to machines), tied together by a &eFlux Controller&r that scales globally and crosses dimensions."
+		""
+		"Stop running cables. Start running networks."
+	]
+	quest.6CFBF73AA4473B0D.quest_subtitle: "No wires. Anywhere. Any dimension."
+	quest.6CFBF73AA4473B0D.title: "&6Flux Networks&r"
+	quest.6DAE34EEAC47FACF.quest_desc: [
+		"&6Apotheosis&r's &eAugmenting Table&r is the surgical tool — re-roll a single &aaffix&r on a piece of gear without touching the others. Burns &eSigils of Enhancement&r and rarity materials per try."
+		""
+		"&aBuild:&r"
+		"- &eAugmenting Table&r — paired with the &eReforging Table&r."
+		""
+		"&aUse:&r"
+		"- Drop in the gear; pick the affix to re-roll."
+		"- &7Tip: keep your favorite affixes locked, augment only the bad ones — much cheaper than full reforges.&r"
+	]
+	quest.6DAE34EEAC47FACF.quest_subtitle: "Surgical re-rolls."
+	quest.6DAE34EEAC47FACF.title: "Augmenting Table"
+	quest.6DD6993615585377.quest_desc: [
+		"The &eFission Reactor&r is Mekanism's nuclear power plant — a multiblock that converts &eFissile Fuel&r into massive heat, fed into a &eBoiler&r + &eTurbine&r for &aMega-FE/t&r output."
+		""
+		"&aBuild:&r"
+		"- &eFission Reactor Casing&r walls (24+)."
+		"- &eFission Fuel Assembly&r (the rod)."
+		"- &eControl Rod Assembly&r (the moderator)."
+		"- &eFission Reactor Port&r for I/O; &eReactor Glass&r for the viewing window."
+		""
+		"&aUse:&r"
+		"- Insert &eFissile Fuel&r (depleted uranium + plutonium pellets through the chain)."
+		"- Pump in coolant (sodium for high-temp; water for low-temp)."
+		"- &c⚠&r &eRadioactive Waste Barrels&r catch the polonium output — siphon it for the SPS."
+		""
+		"&7&oTip: SCRAM means &lemergency shutdown&r — wire a redstone signal so you can pull the rods if temperature runs away. Meltdowns are real and they delete chunks.&r"
+	]
+	quest.6DD6993615585377.quest_subtitle: "Atomic, with all the warnings."
+	quest.6DD6993615585377.title: "Fission Reactor"
+	quest.6EB796D2C3E0061C.quest_desc: ["&6YUNG's&r expanded &eOcean Monuments&r are massive — bring water-breathing potions, Depth Strider boots, and patience."]
+	quest.6EB796D2C3E0061C.quest_subtitle: "Atlantis, drowned and dangerous."
+	quest.6EB796D2C3E0061C.title: "&6Better Ocean Monuments&r"
+	quest.6FA84BEEE0BB88B0.quest_desc: [
+		"&dThe Prowler&r is a robotic mini-boss buried in the &eAncient Factory&r — the same structure that hides the &dHarbinger&r. It hunts you with a spinning saw and homing missiles."
+		""
+		"&aHow to acquire:&r"
+		"- Find an &eAncient Factory&r (rare Overworld dungeon, locate with an &eEye of Mech&r)."
+		"- Stay close — at range you eat missiles; in melee you only deal with the saw."
+	]
+	quest.6FA84BEEE0BB88B0.quest_subtitle: "Saw and missile."
+	quest.6FA84BEEE0BB88B0.title: "Slay the &dProwler&r"
+	quest.7072C4A5E4F7660F.quest_desc: [
+		"Optional. The &eBlack Hole Block&r is &6Oritech&r's ultimate item-void/storage block — bottomless one-type item storage, used as a sink or as a black-hole-class buffer for autocrafting."
+		""
+		"&aBuild:&r"
+		"- &eBlack Hole Block&r — needs &eStrange Matter&r from the &eParticle Accelerator&r."
+		""
+		"&aUse:&r"
+		"- Insert any single item type; capacity is the maximum 32-bit value (over 2 billion)."
+		"- Useful as a cobble void, a 5x ore-route buffer, or a single bottomless stack."
+	]
+	quest.7072C4A5E4F7660F.quest_subtitle: "Storage you'll never fill."
+	quest.7072C4A5E4F7660F.title: "Black Hole Storage"
+	quest.714690D48088A02F.quest_desc: [
+		"The &a5x ore route&r — Mekanism's deepest ore-multiplication chain. Each ore becomes 5 ingots if you walk it through every stage."
+		""
+		"&aBuild — three new machines:&r"
+		"- &eChemical Dissolution Chamber&r (ore + sulfuric acid → slurry)"
+		"- &eChemical Washer&r (slurry → clean slurry)"
+		"- &eChemical Crystallizer&r (clean slurry → 5 crystals per ore)"
+		""
+		"{@pagebreak}"
+		"&aUse:&r"
+		"- Feed crystals back into the &eChemical Injection Chamber&r → 5 shards → &ePurification Chamber&r → 5 clumps → &eCrusher&r → 5 dirty dust → &eEnrichment&r → 5 dust → &eSmelter&r → 5 ingots."
+		""
+		"&7&oTip: this is the canonical Mekanism endgame chain — set it up once on every important ore (iron, gold, copper, osmium) and never look at vanilla mining again.&r"
+	]
+	quest.714690D48088A02F.quest_subtitle: "One ore in. Five ingots out."
+	quest.714690D48088A02F.title: "5x Ore Processing"
 	quest.71BD8C9402EFA063.quest_desc: [
 		"&6Apotheosis&r affixes roll on weapons in five rarity tiers: Common, Uncommon, Rare, Epic, and &dMythic&r. Mythic-tier rolls are the apex — multi-affix, dramatic stat bonuses, often with a unique mechanic."
 		""
@@ -807,6 +1886,13 @@
 	]
 	quest.71BD8C9402EFA063.quest_subtitle: "Apex of the affix table."
 	quest.71BD8C9402EFA063.title: "&6Apotheosis&r — &dMythic Trophy&r"
+	quest.73122F6E402575EA.quest_desc: [
+		"Nine &6YUNG's Better X&r mods replace the dull vanilla generation of dungeons, temples, fortresses, and monuments with hand-crafted variants — bigger, more dangerous, more rewarding."
+		""
+		"Visit one of each kind to clear this section. They generate naturally; explore widely or check &6JourneyMap&r waypoints when you find them."
+	]
+	quest.73122F6E402575EA.quest_subtitle: "Vanilla structures, scaled up."
+	quest.73122F6E402575EA.title: "&6YUNG's Better Structures&r"
 	quest.74ED5B05FC10AF83.quest_desc: [
 		"The Heart of the Titan beats above the world. The projection is no longer a projection — it stands."
 		""
@@ -814,6 +1900,19 @@
 	]
 	quest.74ED5B05FC10AF83.quest_subtitle: "Apotheosis."
 	quest.74ED5B05FC10AF83.title: "Tier 10 - &eHeart of the Titan&r"
+	quest.75534119CD098FE9.quest_desc: [
+		"&eDark Steel&r is &6EIO&r's premier alloy — armor and tools that scale through repair-anvil upgrades. The starter is the &eDark Steel Sword&r, but the helmet, chest, and pickaxe are all worth pursuing."
+		""
+		"&aBuild:&r"
+		"- Smelt &edark steel ingots&r at the Alloy Smelter (obsidian + iron + coal)."
+		"- Craft Dark Steel pickaxe / sword / armor."
+		""
+		"&aUse:&r"
+		"- Apply &eUpgrades&r at an anvil — speed, vampirism, depth, etc."
+		"- Each upgrade costs raw alloy + XP — DS gear scales smoothly through mid-game."
+	]
+	quest.75534119CD098FE9.quest_subtitle: "Iron with attitude."
+	quest.75534119CD098FE9.title: "Dark Steel Smithing"
 	quest.7637512874BE9397.quest_desc: [
 		"&6Sophisticated Backpacks&r adds tiered backpacks with slotted upgrades — pickup, magnet, filter, compaction, crafting, and more. The &eIron Backpack&r is the second tier and the first one with enough upgrade slots to matter."
 		""
@@ -827,9 +1926,37 @@
 	]
 	quest.7637512874BE9397.quest_subtitle: "Carry it all."
 	quest.7637512874BE9397.title: "&6Sophisticated Backpacks&r"
+	quest.7914E88D15989240.quest_desc: [
+		"Optional. The &eWither Builder&r places the wither summon arrangement (4 soul sand, 3 wither skulls) automatically when given the materials and a redstone pulse. Combined with a &eMob Crusher&r facing the spawn spot, it's a fully automated nether-star farm."
+		""
+		"&aBuild:&r"
+		"- &eWither Builder&r."
+		"- A &eMob Crusher&r aimed at the wither spawn position (&7or any other suppression scheme&r)."
+		""
+		"&aUse:&r"
+		"- Pipe in 4 soul sand + 3 wither skulls per pulse."
+		"- Pulse redstone; the builder assembles the wither, your crusher kills it."
+		""
+		"&7&oTip: do this in a contained box. The wither's spawn explosion will eat your factory if you don't.&r"
+	]
+	quest.7914E88D15989240.quest_subtitle: "Star factory."
+	quest.7914E88D15989240.title: "Wither Builder"
 	quest.7988F41C45712714.quest_desc: ["The classic gateway. Every tech and magic mod has dependencies that route through &dNether&r materials."]
 	quest.7988F41C45712714.quest_subtitle: "The first portal."
 	quest.7988F41C45712714.title: "Visit &dthe Nether&r"
+	quest.79E232C1900191CD.quest_desc: [
+		"Two of &6Cataclysm&r's mid-to-late metals. &eWitherite&r drops from the &dHarbinger&r — the only source — and gates the wither-themed shoulder cannons and the &eMechanical Fusion Anvil&r. &eBlack Steel&r drops from the &eDraugr&r and &eAptrgangr&r elites that haunt the &eFrosted Prison&r, and the full Black Steel tool set is the bridge to endgame metallurgy."
+		""
+		"&aHow to acquire:&r"
+		"- &eWitherite Ingot&r — kill the &dHarbinger&r in the &eAncient Factory&r structure (Overworld)."
+		"- &eBlack Steel Ingot&r — farm Draugr and Aptrgangr in the &eFrosted Prison&r."
+		""
+		"&aUse:&r"
+		"- Black Steel sword/axe/pickaxe is a clean tool tier-up from netherite."
+		"- Hold the Witherite for the &eWither Assault Shoulder Weapon&r and other Harbinger-only crafts."
+	]
+	quest.79E232C1900191CD.quest_subtitle: "Two prisons, two metals."
+	quest.79E232C1900191CD.title: "Witherite &amp; Black Steel"
 	quest.7A1B2C3D4E5F6071.quest_desc: [
 		"The Will speaks in clean, terrible Latin. Mobs nearby flinch when the projection inhales."
 		""
@@ -837,6 +1964,51 @@
 	]
 	quest.7A1B2C3D4E5F6071.quest_subtitle: "It commands."
 	quest.7A1B2C3D4E5F6071.title: "Tier 7 - &eVoice of the Titan&r"
+	quest.7A39D5FCDB67F252.quest_desc: [
+		"The &eCombiner&r reverses the &eCrusher&r — feed it dust + cobblestone and it presses raw ore back. Useful for converting fluid-tin/copper output back into placeable ore for visual builds, but its real value is making &edense ores&r for stacking."
+		""
+		"&aBuild:&r"
+		"- &eCombiner&r."
+		""
+		"&aUse:&r"
+		"- Insert dust/raw + cobble; receive raw ore."
+	]
+	quest.7A39D5FCDB67F252.quest_subtitle: "Press dust back into ore."
+	quest.7A39D5FCDB67F252.title: "Combiner"
+	quest.7A7119BD0237EFD2.quest_desc: [
+		"&eCrafting CPUs&r are AE2's autocrafting cores — assembled from &eCrafting Unit&r, &eAccelerator&r, &eStorage&r, and &eMonitor&r blocks. More accelerators = parallel crafts."
+		""
+		"&aPress &eG&r — &eGuideME&r → &eAutocrafting&r walks the multi-block layout.&r"
+	]
+	quest.7A7119BD0237EFD2.quest_subtitle: "Build the brain."
+	quest.7A7119BD0237EFD2.title: "Crafting CPU"
+	quest.7B76FC0AD1E5D11A.quest_desc: [
+		"&eExo Armor&r is &6Oritech&r's powered tech-armor set — four pieces, FE-charged, with a chestplate-mounted &eJetpack&r upgrade slot for vertical mobility."
+		""
+		"&aBuild:&r"
+		"- &eExo Helmet&r, &eChestplate&r, &eLeggings&r, &eBoots&r — needs &eSteel&r from the Foundry."
+		"- &eIon Thruster&r + &eJetpack&r module attaches to the chestplate."
+		""
+		"&aUse:&r"
+		"- Wear the full set, charge from any FE source."
+		"- The &eJetpack Elytra&r upgrade unlocks Elytra-style glide once Elytra is unlocked."
+	]
+	quest.7B76FC0AD1E5D11A.quest_subtitle: "Powered armor. Build the pieces."
+	quest.7B76FC0AD1E5D11A.title: "Exo Armor"
+	quest.7B8E873125E72915.quest_desc: [
+		"&eIndustrial Turbine&r + &eThermoelectric Boiler&r is the steam-cycle endgame for Mekanism — multiblock, scaleable, and producing &aMega-FE/t&r at full size."
+		""
+		"&aBuild:&r"
+		"- &eBoiler Casing&r (4+ blocks for the smallest valid boiler)."
+		"- &eTurbine Casing&r (4+ blocks for the smallest valid turbine)."
+		"- Use the &eMekanism Configurator&r to scan multiblocks and check validity."
+		""
+		"&aUse:&r"
+		"- Pump heated water into the boiler; route steam into the turbine."
+		"- Pair with a &eFuelwood Heater&r for early steam, or feed it &eFission Reactor&r heat for endgame output."
+	]
+	quest.7B8E873125E72915.quest_subtitle: "Steam, scaled to ridiculous."
+	quest.7B8E873125E72915.title: "Boiler &amp; Turbine"
 	quest.7BE305D05A99BFC1.quest_desc: [
 		"&bSource&r is mana. The &eSource Jar&r stores it, the &eSource Relay&r transports it, and the &eVolcanic Sourcelink&r generates it from heat (lava, fire, blazing things nearby)."
 		""
@@ -886,923 +2058,6 @@
 	]
 	quest.7DA79533AFA8AAEB.quest_subtitle: "Ore deposits, not ore veins."
 	quest.7DA79533AFA8AAEB.title: "Reading the Earth"
-	quest.5DE11EF5D664F8E7.quest_desc: [
-		"Three handheld scanners. Each one has its own in-game tooltip describing how it works — hover over it in your inventory to read it."
-		""
-		"The lists below cover what each finder targets and its scan range."
-		""
-		"&aGem Finder:&r"
-		"- Targets &bdiamond, emerald, lapis, nether quartz, fluorite&r and modded gems (&bruby, sapphire, topaz&r, etc.)"
-		"- Range: 12 horizontal, 64 vertical"
-		""
-		"&aMetal Finder:&r"
-		"- Targets &biron, copper, gold, ancient debris&r and modded metals (&btin, osmium, uranium, lead, zinc, nickel, platinum&r, etc.)"
-		"- Range: 16 horizontal, 96 vertical"
-		"- &7The workhorse for tier progression.&r"
-		""
-		"&aMineral Finder:&r"
-		"- Targets &bcoal&r and &bredstone&r."
-		"- Range: 14 horizontal, 80 vertical"
-		""
-		"Each finder has &edurability 4&r — they wear out after a handful of uses, so save them for surveying large areas."
-	]
-	quest.5DE11EF5D664F8E7.quest_subtitle: "Craft one of each."
-	quest.5DE11EF5D664F8E7.title: "Pocket Surveyors"
-	task.3D147F708192A583.title: "MekaSuit Helmet"
-	task.3D147F708192A588.title: "MekaSuit Bodyarmor"
-	task.3D147F708192A589.title: "MekaSuit Pants"
-	task.3D147F708192A58A.title: "MekaSuit Boots"
-	task.4F512AB1304BED9A.title: "Accept the Titan's challenge"
-	task.60AC7B83914DEF57.title: "Ignitium Helmet"
-	task.60AC7B83914DEF58.title: "Ignitium Chestplate"
-	task.6B2C8D4F5E3A7081.title: "Choose a Path"
-	task.6DB905F59BD03A72.title: "Visit Nether"
-	quest.5826EC6A328C5DE5.quest_desc: ["&6Mekanism&r is the modpack's deepest tech tree: ore-multiplication, six tiers of factory machines, fission/fusion power, and the &eMekaSuit&r that makes you obsolete the rest of your gear."]
-	quest.5826EC6A328C5DE5.quest_subtitle: "Energy. Processing. Suit. Pick a path."
-	quest.5826EC6A328C5DE5.title: "&6Mekanism&r"
-	quest.0C99F5AA659FF526.quest_desc: [
-		"&6Create&r turns mechanical rotation into everything: presses, mixers, crushing wheels, contraptions that move themselves. Pair with &6Create: Crafts &amp; Additions&r for the alternator that bridges to FE."
-		""
-		"&aHover any &6Create&r block in your inventory and press &eW&r to open &ePonder&r — animated scenes show every block in motion. Better than any quest description.&r"
-	]
-	quest.0C99F5AA659FF526.quest_subtitle: "Rotation in. Power, fluids, items out."
-	quest.0C99F5AA659FF526.title: "&6Create&r"
-	quest.516A9483A90FD357.quest_desc: ["&6Ender IO&r is the conduit-and-capacitor mod: shared conduits for energy/items/fluids, alloys that climb a clear tier ladder, and lazy-farmer machines like the &eFarming Station&r."]
-	quest.516A9483A90FD357.quest_subtitle: "Alloys, capacitors, conduits, and a base that runs itself."
-	quest.516A9483A90FD357.title: "&6Ender IO&r"
-	quest.0A75FF5E927E69E3.quest_desc: ["&6Industrial Foregoing&r is a quirky tech mod with biofuel generators, automated farms, and mob-grinding machines. Plastic is its core resource — make it once, build everything from it."]
-	quest.0A75FF5E927E69E3.quest_subtitle: "Plastic. Pink slime. Lazer drills."
-	quest.0A75FF5E927E69E3.title: "&6Industrial Foregoing&r"
-	quest.52858BE17389BA11.quest_desc: ["&6Oritech&r is a fresh take on tech: bio generators, biosteel, and a pulverizer/centrifuge/assembler progression. Lighter than Mekanism, denser than vanilla."]
-	quest.52858BE17389BA11.quest_subtitle: "A newer tech mod with cleaner lines."
-	quest.52858BE17389BA11.title: "&6Oritech&r"
-	quest.2E8FD56B289B24B1.quest_desc: ["&6Draconic Evolution&r is the modpack's late-game capstone: massive energy storage, dragon-tier weapons, and an armor set that scales linearly into the millions of FE."]
-	quest.2E8FD56B289B24B1.quest_subtitle: "Wyvern → Awakened → Chaotic."
-	quest.2E8FD56B289B24B1.title: "&6Draconic Evolution&r"
-	quest.633C74689327AB2C.quest_desc: ["&6AE2&r is the most documented mod in the pack — its in-game guide is searchable and complete. We don't re-author it here. The single quest below hands you the starter kit; the &aG&r key takes you the rest of the way."]
-	quest.633C74689327AB2C.quest_subtitle: "Press G on any AE2 item to read the manual."
-	quest.633C74689327AB2C.title: "&6Applied Energistics 2&r"
-	quest.677D49D729D0A833.quest_desc: ["&6Apotheosis&r layers an entire RPG system on top of vanilla: gem cutting, reforging, affixed mobs, boss summoners, and the world-tier scaling that defines the pack's combat curve."]
-	quest.677D49D729D0A833.quest_subtitle: "Cut. Reforge. Salvage. Socket."
-	quest.677D49D729D0A833.title: "&6Apotheosis&r"
-	quest.66505E73698CDE6E.quest_desc: ["&6Ars Nouveau&r is the pack's only magic mod — a fully-featured spellcrafting system with sourcelinks, ritual brazier, sorcerer armor, and pet-class familiars."]
-	quest.66505E73698CDE6E.quest_subtitle: "Source. Spells. Rituals. Familiars."
-	quest.66505E73698CDE6E.title: "&6Ars Nouveau&r"
-	quest.18852E1D544D601B.quest_desc: ["&6Cataclysm&r drops four custom bosses — &dHarbinger&r, &dLeviathan&r, &dEnder Guardian&r, &dIgnis&r — each gating a unique gear set. The Titan Trial endgame remixes three of them at 2× stats."]
-	quest.18852E1D544D601B.quest_subtitle: "Four bosses. One arms race."
-	quest.18852E1D544D601B.title: "&6L_Ender's Cataclysm&r"
-	quest.610AC7347A4F7705.quest_desc: ["The mods that don't justify their own chapter still earn a spot. This chapter clusters every smaller mod into its own little section — adventure, storage, decor, food, logistics, and so on."]
-	quest.610AC7347A4F7705.quest_subtitle: "Smaller mods, organized by mod."
-	quest.610AC7347A4F7705.title: "&bOther&r"
-	quest.1D35C6223BDD9FA1.quest_desc: [
-		"&6Oritech&r's basic processing pair. The &ePulverizer&r doubles ores into clumps; the &eCentrifuge&r turns clumps into dust, then dust into ingots — 2× yield over a vanilla furnace."
-		""
-		"&aBuild:&r"
-		"- &ePulverizer&r"
-		"- &eCentrifuge&r"
-		""
-		"&aUse:&r"
-		"- Feed raw ore into the Pulverizer."
-		"- Pipe clumps to the Centrifuge."
-		"- Smelt the dust output for the multiplier."
-	]
-	quest.1D35C6223BDD9FA1.quest_subtitle: "Crush. Spin. Multiply."
-	quest.1D35C6223BDD9FA1.title: "Ore Processing"
-	quest.67DD832356EFB488.quest_desc: [
-		"&6Oritech&r's mid-tier shapers. The &eAssembler&r runs templated multi-block recipes; the &eFragment Forge&r breaks items down into raw fragments for re-use."
-		""
-		"&aBuild:&r"
-		"- &eAssembler&r"
-		"- &eFragment Forge&r"
-		""
-		"&aUse:&r"
-		"- Collect Assembler templates as you progress — each one unlocks a recipe."
-	]
-	quest.67DD832356EFB488.quest_subtitle: "Frames out. Fragments in."
-	quest.67DD832356EFB488.title: "Mid-Tier Crafting"
-	quest.4E85CEF3E40170CF.quest_desc: [
-		"&6Oritech&r's endgame shaper. The &dAtomic Forge&r transmutes elements at the atomic level — the gateway to &bFluxite&r-tier crafts."
-		""
-		"&aBuild:&r"
-		"- &eAtomic Forge&r"
-		""
-		"&aUse:&r"
-		"- Power-hungry. Run it from a Mekanism Energy Cube or Draconic capacitor."
-	]
-	quest.4E85CEF3E40170CF.quest_subtitle: "Endgame transmutation."
-	quest.4E85CEF3E40170CF.title: "&dAtomic Forge&r"
-	quest.73122F6E402575EA.quest_desc: [
-		"Nine &6YUNG's Better X&r mods replace the dull vanilla generation of dungeons, temples, fortresses, and monuments with hand-crafted variants — bigger, more dangerous, more rewarding."
-		""
-		"Visit one of each kind to clear this section. They generate naturally; explore widely or check &6JourneyMap&r waypoints when you find them."
-	]
-	quest.73122F6E402575EA.quest_subtitle: "Vanilla structures, scaled up."
-	quest.73122F6E402575EA.title: "&6YUNG's Better Structures&r"
-	quest.47E8A5AEDC9156BB.quest_desc: [
-		"Even with all the modded glitter, vanilla's three big locations still matter: the &dNether&r, the &dEnd&r, and the first &eStronghold&r."
-		""
-		"Visit each."
-	]
-	quest.47E8A5AEDC9156BB.quest_subtitle: "The classic checklist."
-	quest.47E8A5AEDC9156BB.title: "Vanilla Milestones"
-	quest.6CFBF73AA4473B0D.quest_desc: [
-		"&6Flux Networks&r is wireless &aForge Energy&r distribution. Build a network of &ePlugs&r (input from generators) and &ePoints&r (output to machines), tied together by a &eFlux Controller&r that scales globally and crosses dimensions."
-		""
-		"Stop running cables. Start running networks."
-	]
-	quest.6CFBF73AA4473B0D.quest_subtitle: "No wires. Anywhere. Any dimension."
-	quest.6CFBF73AA4473B0D.title: "&6Flux Networks&r"
-	quest.357893A430163C95.quest_desc: ["&6Sophisticated Storage&r and &6Sophisticated Backpacks&r share an upgrade system: pickup, magnet, filter, jukebox, XP storage. Build the iron tier of each, then upgrade as you go."]
-	quest.357893A430163C95.quest_subtitle: "Storage worth looking at."
-	quest.357893A430163C95.title: "&6Sophisticated&r Storage"
-	quest.62898E68F9F7515D.quest_desc: ["&6YUNG's&r reimagined &eDesert Temples&r have multi-room layouts, traps, and significantly better loot. Find one and explore."]
-	quest.62898E68F9F7515D.quest_subtitle: "More than a sand pyramid with a hole."
-	quest.62898E68F9F7515D.title: "&6Better Desert Temples&r"
-	quest.271081B9C92EB85D.quest_desc: ["&6YUNG's&r expanded &eDungeons&r — the surface and underground spawner rooms, now with proper architecture and tougher loot."]
-	quest.271081B9C92EB85D.quest_subtitle: "Spawner rooms with character."
-	quest.271081B9C92EB85D.title: "&6Better Dungeons&r"
-	quest.6C918370046EF26C.quest_desc: ["&6YUNG's&r ground-up redesign of the &eJungle Temple&r — multi-floor, trapped, and built with serious loot in mind."]
-	quest.6C918370046EF26C.quest_subtitle: "Indiana Jones could cry."
-	quest.6C918370046EF26C.title: "&6Better Jungle Temples&r"
-	quest.2EE00AD34E87EDBE.quest_desc: ["&6YUNG's&r turns &eMineshafts&r into biome-themed structures — desert, jungle, ice, and more, each with its own materials and inhabitants."]
-	quest.2EE00AD34E87EDBE.quest_subtitle: "Mineshafts as biome-aware structures."
-	quest.2EE00AD34E87EDBE.title: "&6Better Mineshafts&r"
-	quest.7E66E335AD1D9D15.quest_desc: ["&6YUNG's&r rebuilds &eNether Fortresses&r as proper layered architecture — multi-level halls, chambers, and tougher inhabitants."]
-	quest.7E66E335AD1D9D15.quest_subtitle: "Now with bridges that lead somewhere."
-	quest.7E66E335AD1D9D15.title: "&6Better Nether Fortresses&r"
-	quest.6EB796D2C3E0061C.quest_desc: ["&6YUNG's&r expanded &eOcean Monuments&r are massive — bring water-breathing potions, Depth Strider boots, and patience."]
-	quest.6EB796D2C3E0061C.quest_subtitle: "Atlantis, drowned and dangerous."
-	quest.6EB796D2C3E0061C.title: "&6Better Ocean Monuments&r"
-	quest.3DC23BD54B670DE8.quest_desc: ["&6YUNG's&r redesigned &eStronghold&r layouts — atmospheric, themed by region, with the End portal still at the end."]
-	quest.3DC23BD54B670DE8.quest_subtitle: "Abandoned. Reclaimed. Yours next."
-	quest.3DC23BD54B670DE8.title: "&6Better Strongholds&r"
-	quest.0D76974DDD5A95B7.quest_desc: ["&6YUNG's&r expanded &eWitch Huts&r and rare &eWitch Circles&r — the swamp's most iconic structure, now worth a visit."]
-	quest.0D76974DDD5A95B7.quest_subtitle: "Witch convention venues."
-	quest.0D76974DDD5A95B7.title: "&6Better Witch Huts&r"
-	quest.44C930116CD8D934.quest_desc: [
-		"&6Mekanism&r's &eMetallurgic Infuser&r is the alloy crafter — feed it iron + carbon to make &eEnriched Iron&r, then iron + Enriched Iron to make &eSteel&r. Steel gates &eSteel Casing&r, which gates every machine in the chapter."
-		""
-		"&aBuild:&r"
-		"- &eMetallurgic Infuser&r"
-		"- Burn coal/charcoal in any furnace and put dust in the &eEnrichment Chamber&r to feed it carbon."
-		""
-		"&aUse:&r"
-		"- Infuse iron + carbon → &eEnriched Iron&r."
-		"- Infuse iron + Enriched Iron → &eEnriched Alloy&r → smelt to &eSteel&r."
-		"- Craft a &eBasic Control Circuit&r to satisfy the second task."
-	]
-	quest.44C930116CD8D934.quest_subtitle: "Steel and circuits start here."
-	quest.44C930116CD8D934.title: "Metallurgic Infuser"
-	quest.2626168DFFC6D35B.quest_desc: [
-		"The &eEnergized Smelter&r is the &aFE&r-powered drop-in replacement for a furnace — faster, no fuel, and stackable behind a Crusher for ore-processing convenience."
-		""
-		"&aBuild:&r"
-		"- &eEnergized Smelter&r — needs steel casing + redstone."
-		""
-		"&aUse:&r"
-		"- Pipe ore/dust in, take ingots out. Pair with the &eEnrichment Chamber&r in the same line for the 2x ore route."
-	]
-	quest.2626168DFFC6D35B.quest_subtitle: "Smelting at the speed of FE."
-	quest.2626168DFFC6D35B.title: "Energized Smelter"
-	quest.7A39D5FCDB67F252.quest_desc: [
-		"The &eCombiner&r reverses the &eCrusher&r — feed it dust + cobblestone and it presses raw ore back. Useful for converting fluid-tin/copper output back into placeable ore for visual builds, but its real value is making &edense ores&r for stacking."
-		""
-		"&aBuild:&r"
-		"- &eCombiner&r."
-		""
-		"&aUse:&r"
-		"- Insert dust/raw + cobble; receive raw ore."
-	]
-	quest.7A39D5FCDB67F252.quest_subtitle: "Press dust back into ore."
-	quest.7A39D5FCDB67F252.title: "Combiner"
-	quest.19569F0287337478.quest_desc: [
-		"The &eElectrolytic Separator&r splits &bwater&r into &bhydrogen&r + &boxygen&r. Hydrogen feeds the &eJetpack&r and &eGas Burning Generator&r; oxygen feeds the &ePurification Chamber&r for 3x ore."
-		""
-		"&aBuild:&r"
-		"- &eElectrolytic Separator&r."
-		"- Pipe water in; pipe hydrogen + oxygen out separate sides."
-		""
-		"&aUse:&r"
-		"- &bHydrogen&r → tank → Jetpack refuel station."
-		"- &bOxygen&r → Purification Chamber."
-		""
-		"&7&oTip: an Infinite Water Cell or autonomous water source on input is the cleanest setup.&r"
-	]
-	quest.19569F0287337478.quest_subtitle: "Two gases. Two pipelines."
-	quest.19569F0287337478.title: "Electrolytic Separator"
-	quest.11EEA6D3745C178A.quest_desc: [
-		"The &ePressurized Reaction Chamber&r is the &aitem + fluid + gas&r recipe machine — three inputs at once. The flagship recipe is &eSubstrate&r → &eHDPE Pellet&r → &eHDPE Sheet&r, the plastic line that gates &eMekaSuit&r and modules."
-		""
-		"&aBuild:&r"
-		"- &ePressurized Reaction Chamber&r."
-		""
-		"&aUse:&r"
-		"- Make &eSubstrate&r (bio-fuel + water + hydrogen → substrate)."
-		"- Make &eHDPE Pellet&r (substrate + ethene)."
-		"- Press into &eHDPE Sheet&r at the &eEnrichment Chamber&r."
-	]
-	quest.11EEA6D3745C178A.quest_subtitle: "Three inputs. One reaction."
-	quest.11EEA6D3745C178A.title: "Pressurized Reaction Chamber"
-	quest.25E8D26BFF731ED7.quest_desc: [
-		"&eLogistical Transporters&r are Mek's pipes — like vanilla hoppers, but with tiered speed and color filters. Pair with a &eLogistical Sorter&r on the source side to filter what goes where."
-		""
-		"&aBuild:&r"
-		"- &eLogistical Transporter&r (basic suffices to start; upgrade as throughput demands)."
-		"- &eLogistical Sorter&r."
-		""
-		"&aUse:&r"
-		"- Sorter pulls items from a chest into the transporter line based on filter rules."
-		"- Color tabs route items to the matching color on the destination."
-	]
-	quest.25E8D26BFF731ED7.quest_subtitle: "Pipes, with rules."
-	quest.25E8D26BFF731ED7.title: "Logistical Transport"
-	quest.714690D48088A02F.quest_desc: [
-		"The &a5x ore route&r — Mekanism's deepest ore-multiplication chain. Each ore becomes 5 ingots if you walk it through every stage."
-		""
-		"&aBuild — three new machines:&r"
-		"- &eChemical Dissolution Chamber&r (ore + sulfuric acid → slurry)"
-		"- &eChemical Washer&r (slurry → clean slurry)"
-		"- &eChemical Crystallizer&r (clean slurry → 5 crystals per ore)"
-		""
-		"{@pagebreak}"
-		"&aUse:&r"
-		"- Feed crystals back into the &eChemical Injection Chamber&r → 5 shards → &ePurification Chamber&r → 5 clumps → &eCrusher&r → 5 dirty dust → &eEnrichment&r → 5 dust → &eSmelter&r → 5 ingots."
-		""
-		"&7&oTip: this is the canonical Mekanism endgame chain — set it up once on every important ore (iron, gold, copper, osmium) and never look at vanilla mining again.&r"
-	]
-	quest.714690D48088A02F.quest_subtitle: "One ore in. Five ingots out."
-	quest.714690D48088A02F.title: "5x Ore Processing"
-	quest.7B8E873125E72915.quest_desc: [
-		"&eIndustrial Turbine&r + &eThermoelectric Boiler&r is the steam-cycle endgame for Mekanism — multiblock, scaleable, and producing &aMega-FE/t&r at full size."
-		""
-		"&aBuild:&r"
-		"- &eBoiler Casing&r (4+ blocks for the smallest valid boiler)."
-		"- &eTurbine Casing&r (4+ blocks for the smallest valid turbine)."
-		"- Use the &eMekanism Configurator&r to scan multiblocks and check validity."
-		""
-		"&aUse:&r"
-		"- Pump heated water into the boiler; route steam into the turbine."
-		"- Pair with a &eFuelwood Heater&r for early steam, or feed it &eFission Reactor&r heat for endgame output."
-	]
-	quest.7B8E873125E72915.quest_subtitle: "Steam, scaled to ridiculous."
-	quest.7B8E873125E72915.title: "Boiler &amp; Turbine"
-	quest.6DD6993615585377.quest_desc: [
-		"The &eFission Reactor&r is Mekanism's nuclear power plant — a multiblock that converts &eFissile Fuel&r into massive heat, fed into a &eBoiler&r + &eTurbine&r for &aMega-FE/t&r output."
-		""
-		"&aBuild:&r"
-		"- &eFission Reactor Casing&r walls (24+)."
-		"- &eFission Fuel Assembly&r (the rod)."
-		"- &eControl Rod Assembly&r (the moderator)."
-		"- &eFission Reactor Port&r for I/O; &eReactor Glass&r for the viewing window."
-		""
-		"&aUse:&r"
-		"- Insert &eFissile Fuel&r (depleted uranium + plutonium pellets through the chain)."
-		"- Pump in coolant (sodium for high-temp; water for low-temp)."
-		"- &c⚠&r &eRadioactive Waste Barrels&r catch the polonium output — siphon it for the SPS."
-		""
-		"&7&oTip: SCRAM means &lemergency shutdown&r — wire a redstone signal so you can pull the rods if temperature runs away. Meltdowns are real and they delete chunks.&r"
-	]
-	quest.6DD6993615585377.quest_subtitle: "Atomic, with all the warnings."
-	quest.6DD6993615585377.title: "Fission Reactor"
-	quest.35350AEF9EB068A5.quest_desc: [
-		"&eHazmat Suit&r is non-negotiable for working a &eFission Reactor&r. The &eDosimeter&r reads your absorbed dose; the &eGeiger Counter&r reads ambient radiation around blocks and barrels."
-		""
-		"&aBuild:&r"
-		"- Full set: &eHazmat Mask&r, &eHazmat Gown&r, &eHazmat Pants&r, &eHazmat Boots&r."
-		"- Or wear a fully-modulated &eMekaSuit&r with the radiation shielding modules."
-		""
-		"&aUse:&r"
-		"- Equip before opening a reactor port or handling polonium pellets."
-		"- &eRadioactive Waste Barrels&r leak — store them in a sealed room and check the Geiger before entering."
-	]
-	quest.35350AEF9EB068A5.quest_subtitle: "Don't glow in the dark."
-	quest.35350AEF9EB068A5.title: "Hazmat &amp; Dosimetry"
-	quest.5601821AEEF30E39.quest_desc: [
-		"The &eFusion Reactor&r is the optional capstone — a self-sustaining D-T fusion chamber that, once running, makes the Fission Reactor look quaint."
-		""
-		"&aBuild:&r"
-		"- &eFusion Reactor Controller&r (the brain)."
-		"- &eFusion Reactor Frame&r (the multiblock cage)."
-		"- &eReactor Glass&r for the viewing window."
-		"- &eHohlraum&r charged with D-T fuel for ignition."
-		"- &eLaser Amplifier&r feeding 400MFE into the Hohlraum to start the reaction."
-		""
-		"&aUse:&r"
-		"- One &eHohlraum&r ignition is sufficient if you keep deuterium + tritium feeding in."
-		"- Output is in the gigaFE/t range — pair with antimatter for the SPS."
-		""
-		"&7&oTip: this quest is &eoptional&r. Pursue Fusion for the engineering and the antimatter feedstock.&r"
-	]
-	quest.5601821AEEF30E39.quest_subtitle: "The cleanest path to absurd."
-	quest.5601821AEEF30E39.title: "Fusion Reactor"
-	quest.4EB9BF26C58A6193.quest_desc: [
-		"The &eSupercritical Phase Shifter&r turns &bpolonium&r into &bantimatter pellets&r — the most concentrated currency in Mekanism. Each pellet is the price of admission to the late MekaSuit module catalog."
-		""
-		"&aBuild:&r"
-		"- &eSPS Casing&r ring around &eSupercharged Coil&r at the center."
-		"- &eSPS Port&r for input/output."
-		""
-		"&aUse:&r"
-		"- Pump in antimatter-precursor gas (polonium from your fission waste)."
-		"- Feed the supercharged coil with massive FE — the SPS is the most power-hungry block in the modpack outside the Titan Core itself."
-		"- Output: &ePellet of Antimatter&r."
-	]
-	quest.4EB9BF26C58A6193.quest_subtitle: "Polonium in. Antimatter out."
-	quest.4EB9BF26C58A6193.title: "Supercritical Phase Shifter"
-	quest.68414A50EFFAFAE0.quest_desc: [
-		"The &eAntiprotonic Nucleosynthesizer&r is the antimatter-fed crafting altar — it turns one ingredient + one antimatter pellet into upgraded variants. Diamond → emerald, iron → gold, charcoal → coal, etc., plus exclusive recipes for late-game Mek components."
-		""
-		"&aBuild:&r"
-		"- &eAntiprotonic Nucleosynthesizer&r."
-		""
-		"&aUse:&r"
-		"- Insert ingredient + 1 &ePellet of Antimatter&r per recipe."
-		"- The &eAtomic Alloy&r ingredient (gating MekaSuit pieces) is craftable here at lower cost than the standard recipe."
-	]
-	quest.68414A50EFFAFAE0.quest_subtitle: "Antimatter as a reagent."
-	quest.68414A50EFFAFAE0.title: "Antiprotonic Nucleosynthesizer"
-	quest.3CE304364DB0BBC0.quest_desc: [
-		"&aWorth knowing&r — the &6Mekanism&r odds and ends that don't get their own quest but you'll want anyway:"
-		""
-		"- &eCardboard Box&r — wraps a placed machine, picks it up, settings preserved. Move your factory without rebuilding."
-		"- &eConfigurator&r — wrench. Side-config tabs, multiblock validity, color picker for cables."
-		"- &eConfiguration Card&r — copy-paste a machine's full config to another machine of the same type."
-		"- &eGauge Dropper&r — siphons a tiny amount of any fluid/gas from a tank. Use it to bottle one bucket of a fluid for JEI lookups."
-		"- &eRobit&r — your portable storage pet. Place a Personal Chest, name a Robit, never lose your inventory again."
-		"- &eSeismic Reader&r + &eSeismic Vibrator&r — full-column ore scan above-and-below the machine."
-		"- &eFormulaic Assemblicator&r — automatic crafter that holds a recipe template and crafts on a redstone tick."
-		"- &eMekanism Laser&r + &eLaser Amplifier&r + &eLaser Tractor Beam&r — high-energy beam blocks. Useful for Fusion ignition, or for the spectacle."
-	]
-	quest.3CE304364DB0BBC0.quest_subtitle: "Worth knowing — Mekanism."
-	quest.3CE304364DB0BBC0.title: "Mekanism Bric-a-Brac"
-	quest.071642CB7D12C35D.quest_desc: [
-		"&6Create&r's kinetic miner pair — &eMechanical Drill&r breaks blocks in front, &eMechanical Saw&r fells trees and mills logs into planks. Both run on shaft power."
-		""
-		"&aPress &eW&r — &ePonder&r shows the contraption-mounted variants and orientation rules.&r"
-	]
-	quest.071642CB7D12C35D.quest_subtitle: "Two cuts. Many things."
-	quest.071642CB7D12C35D.title: "Mechanical Drill &amp; Saw"
-	quest.39B370551F08C5F2.quest_desc: [
-		"&6Create&r's logistics fabric — items glide along belts, funnels insert/extract from blocks at either end. &eAndesite Funnel&r is the basic tier; &eBrass Funnel&r adds filtering."
-		""
-		"&aPress &eW&r — &ePonder&r covers belt directions, funnel modes, and tunnel splitting.&r"
-	]
-	quest.39B370551F08C5F2.quest_subtitle: "The conveyor stack."
-	quest.39B370551F08C5F2.title: "Belt &amp; Funnel"
-	quest.387762739BB425D9.quest_desc: [
-		"The &eEncased Fan&r becomes six different machines depending on what you blow through — fire smelts, water washes, smoke haunts, lava disenchants. Same block, six elements."
-		""
-		"&aPress &eW&r — &ePonder&r animates each processing mode and airflow rules.&r"
-	]
-	quest.387762739BB425D9.quest_subtitle: "Air and an idea."
-	quest.387762739BB425D9.title: "Encased Fan"
-	quest.58B750E7ABF5DF0B.quest_desc: [
-		"The &eDeployer&r holds a tool or item and uses it on the block in front — like a placed player. Right-click logic, attack logic, sequential crafting if you slot ingredients."
-		""
-		"&aPress &eW&r — &ePonder&r walks tool slotting, mob/tree farms, and inline crafting.&r"
-	]
-	quest.58B750E7ABF5DF0B.quest_subtitle: "A hand on a stick."
-	quest.58B750E7ABF5DF0B.title: "Deployer"
-	quest.064818C98216D880.quest_desc: [
-		"The &eSpout&r fills items from above (buckets, bottles, anything fluid-accepting). &eItem Drain&r does the reverse — empty containers back to liquid."
-		""
-		"&aPress &eW&r — &ePonder&r covers belt-feeding both blocks and fluid-pipe routing.&r"
-	]
-	quest.064818C98216D880.quest_subtitle: "Pour, drain, repeat."
-	quest.064818C98216D880.title: "Spout &amp; Drain"
-	quest.63F8356A56A27467.quest_desc: [
-		"Optional. The &eSchematicannon&r builds &6Create&r-saved structures one block at a time, pulling materials from a chest beside it. Iconic Create UX, more creative-mode toy than survival tool."
-		""
-		"&aPress &eW&r — &ePonder&r covers schematic capture, loading, and aim mechanics.&r"
-	]
-	quest.63F8356A56A27467.quest_subtitle: "Cannon-build your blueprints."
-	quest.63F8356A56A27467.title: "Schematicannon"
-	quest.35A4283A659CBDE8.quest_desc: [
-		"Optional. &6Create&r's signature endgame system — buildable trains routing thousands of blocks across stations and signals. The closest Minecraft will get to a real railroad."
-		""
-		"&aPress &eW&r — &ePonder&r is essential here. Track placement, station assembly, schedules, and signaling are all animated.&r"
-	]
-	quest.35A4283A659CBDE8.quest_subtitle: "Real railroads."
-	quest.35A4283A659CBDE8.title: "Trains"
-	quest.4E4BE2A3440BB0F0.quest_desc: [
-		"&6Createaddition&r's &eTesla Coil&r is the high-voltage zap — wirelessly charges in-range FE-accepting items (Mek Jetpack refuel, charged tools). The &eModular Accumulator&r is its battery; stack multiples to expand the buffer."
-		""
-		"&aPress &eW&r — &ePonder&r covers Coil range, charging rules, and Accumulator stacking.&r"
-	]
-	quest.4E4BE2A3440BB0F0.quest_subtitle: "Sparks fly. Batteries fill."
-	quest.4E4BE2A3440BB0F0.title: "Tesla Coil &amp; Accumulator"
-	quest.2187565E5FB2D337.quest_desc: [
-		"The &eRolling Mill&r turns ingots into rods and wire — gateway items for &6Createaddition&r's electrical recipes."
-		""
-		"&aPress &eW&r — &ePonder&r animates the input/output and shaft-power requirements.&r"
-	]
-	quest.2187565E5FB2D337.quest_subtitle: "Ingots in. Rods out."
-	quest.2187565E5FB2D337.title: "Rolling Mill"
-	quest.0FE97A6346E80276.quest_desc: [
-		"&aWorth knowing&r — &6Create&r odds and ends:"
-		""
-		"- &eEngineer's Goggles&r — show stress, speed, and capacity overlays. Wear them while building any kinetic network."
-		"- &eWrench&r — rotate any Create block. Sneak-wrench to break and pick up."
-		"- &eLinked Controller&r — bind it to track stations and remote-drive trains."
-		"- &eSmart Chute&r / &eSmart Observer&r — filter-aware chutes and signal-emitters."
-		"- &eBrass Tunnel&r — splits a single belt's items across multiple outputs by filter."
-		"- &eGantry Carriage&r + &eGantry Shaft&r — Create's linear actuator. Move and run machines along an axis."
-		"- &ePotato Cannon&r — joke weapon, surprisingly viable mid-game."
-		"- &eClipboard&r — multi-page inventory for managing redstone/train logic notes."
-		""
-		"&aPress &eW&r on any of these in your inventory — &ePonder&r animates each one.&r"
-	]
-	quest.0FE97A6346E80276.quest_subtitle: "Worth knowing — Create."
-	quest.0FE97A6346E80276.title: "Create Bric-a-Brac"
-	quest.117C8EAB9186A37B.quest_desc: [
-		"&6Oritech&r's &eFoundry&r is the molten-metal route — pour ingots in, get hotter alloys out. The path to &eSteel&r and &eAdamant&r runs through here."
-		""
-		"&aBuild:&r"
-		"- &eFoundry Block&r."
-		""
-		"&aUse:&r"
-		"- Insert iron + coal → &eSteel Ingot&r."
-		"- Higher tiers (&eAdamant&r, &eDuratium&r) need molten flux as catalyst — pipe in from a refinery."
-	]
-	quest.117C8EAB9186A37B.quest_subtitle: "Pour, alloy, repeat."
-	quest.117C8EAB9186A37B.title: "Foundry"
-	quest.7FF43E7A6CEDAB1A.quest_desc: [
-		"The &eLaser Arm&r is &6Oritech&r's remote-fire automation — point it at any block via the &eTarget Designator&r and it delivers energy or beam-mining at range."
-		""
-		"&aBuild:&r"
-		"- &eLaser Arm Block&r."
-		"- &eTarget Designator&r in hand to pick what it shoots at."
-		""
-		"&aUse:&r"
-		"- Right-click a target with the designator, then point the arm — it locks on."
-		"- Charges machines, mines designated blocks, or zaps mobs depending on configuration."
-	]
-	quest.7FF43E7A6CEDAB1A.quest_subtitle: "Aim. Charge. Zap."
-	quest.7FF43E7A6CEDAB1A.title: "Laser Arm"
-	quest.2CC9AF34B35FE1B5.quest_desc: [
-		"Optional. The &eParticle Accelerator&r is the synchrotron multiblock — a ring of &eAccelerator Rings&r that builds up speed for endgame Oritech recipes (most importantly: &eStrange Matter&r and the &eBlack Hole Block&r)."
-		""
-		"&aBuild:&r"
-		"- &eAccelerator Controller&r at one node of the ring."
-		"- &eAccelerator Ring&r segments — minimum loop is several blocks; bigger rings = higher peak energy."
-		""
-		"&aUse:&r"
-		"- Inject low-tier matter; cycle it through the ring to fuse into &eStrange Matter&r."
-		""
-		"&7&oTip: this is one of the most space-hungry multiblocks in the pack. Build it in a flat field, not your factory.&r"
-	]
-	quest.2CC9AF34B35FE1B5.quest_subtitle: "Fast circles. Strange matter."
-	quest.2CC9AF34B35FE1B5.title: "Particle Accelerator"
-	quest.7072C4A5E4F7660F.quest_desc: [
-		"Optional. The &eBlack Hole Block&r is &6Oritech&r's ultimate item-void/storage block — bottomless one-type item storage, used as a sink or as a black-hole-class buffer for autocrafting."
-		""
-		"&aBuild:&r"
-		"- &eBlack Hole Block&r — needs &eStrange Matter&r from the &eParticle Accelerator&r."
-		""
-		"&aUse:&r"
-		"- Insert any single item type; capacity is the maximum 32-bit value (over 2 billion)."
-		"- Useful as a cobble void, a 5x ore-route buffer, or a single bottomless stack."
-	]
-	quest.7072C4A5E4F7660F.quest_subtitle: "Storage you'll never fill."
-	quest.7072C4A5E4F7660F.title: "Black Hole Storage"
-	quest.5E85D1B027D7F049.quest_desc: [
-		"&6Oritech&r machines accept &eAddon Blocks&r — speed, capacity, range, yield. Each addon slot stacks; the &eMachine Extender&r doubles the addon count for a machine."
-		""
-		"&aBuild:&r"
-		"- &eMachine Speed Addon&r."
-		"- &eMachine Extender&r — adds another addon slot row."
-		""
-		"&aUse:&r"
-		"- Right-click on a machine to open the addon GUI."
-		"- Higher tiers (&eFluxite&r-tier and beyond) ramp throughput dramatically — the same machine can do 10x its base rate fully addon'd."
-	]
-	quest.5E85D1B027D7F049.quest_subtitle: "Stack the upgrades."
-	quest.5E85D1B027D7F049.title: "Machine Addons"
-	quest.66964241AA24DB82.quest_desc: [
-		"Optional. The &eDrone Port&r is &6Oritech&r's wireless logistics — a docking station for drones that fetch items from a remote chest and deliver them home."
-		""
-		"&aBuild:&r"
-		"- &eDrone Port Block&r at home."
-		"- A second &eDrone Port&r at the remote source location."
-		""
-		"&aUse:&r"
-		"- Configure the route via the GUI."
-		"- The drone shuttles items on schedule — no cabling required."
-	]
-	quest.66964241AA24DB82.quest_subtitle: "Wireless cargo."
-	quest.66964241AA24DB82.title: "Drone Port"
-	quest.7F2435C222DBAB7B.quest_desc: [
-		"&6Oritech&r ships its own spawner system — &eSpawner Cage&r captures any mob from the world; &eSpawner Controller&r turns the cage into a controllable spawner you power with FE."
-		""
-		"&aBuild:&r"
-		"- &eSpawner Cage&r — toss it at a mob to capture."
-		"- &eSpawner Controller&r — accepts the captured cage."
-		""
-		"&aUse:&r"
-		"- Place the controller; insert the captured cage."
-		"- Power it; it spawns the captured mob on a timer."
-		""
-		"&7&oTip: pair with a Mob Crusher (Industrial Foregoing) or Killer Joe-style setup for an XP/loot farm.&r"
-	]
-	quest.7F2435C222DBAB7B.quest_subtitle: "Catch. Cage. Power. Repeat."
-	quest.7F2435C222DBAB7B.title: "Spawner Cages"
-	quest.7B76FC0AD1E5D11A.quest_desc: [
-		"&eExo Armor&r is &6Oritech&r's powered tech-armor set — four pieces, FE-charged, with a chestplate-mounted &eJetpack&r upgrade slot for vertical mobility."
-		""
-		"&aBuild:&r"
-		"- &eExo Helmet&r, &eChestplate&r, &eLeggings&r, &eBoots&r — needs &eSteel&r from the Foundry."
-		"- &eIon Thruster&r + &eJetpack&r module attaches to the chestplate."
-		""
-		"&aUse:&r"
-		"- Wear the full set, charge from any FE source."
-		"- The &eJetpack Elytra&r upgrade unlocks Elytra-style glide once Elytra is unlocked."
-	]
-	quest.7B76FC0AD1E5D11A.quest_subtitle: "Powered armor. Build the pieces."
-	quest.7B76FC0AD1E5D11A.title: "Exo Armor"
-	quest.66F047CA2BA01C46.quest_desc: [
-		"Powered handhelds — &eHand Drill&r breaks blocks like a vanilla pickaxe but FE-fueled and faster; &eChainsaw&r is its tree-felling counterpart. Both charge from any FE source."
-		""
-		"&aBuild:&r"
-		"- &eHand Drill&r."
-		"- &eChainsaw&r."
-		""
-		"&aUse:&r"
-		"- Charge in any &eCharger Block&r or carry a battery."
-		"- Speed scales with charge — full battery = peak break rate."
-	]
-	quest.66F047CA2BA01C46.quest_subtitle: "Power tools."
-	quest.66F047CA2BA01C46.title: "Hand Tools"
-	quest.5D3BC110998474C4.quest_desc: [
-		"&aWorth knowing&r — &6Oritech&r odds and ends:"
-		""
-		"- &eWrench&r — rotates and pickup-with-config any Oritech machine."
-		"- &eEnergy Pipe&r / &eFluid Pipe&r / &eItem Pipe&r — Oritech's color-coded pipe system. Connect machines without conduit clutter."
-		"- &eEnchanter Block&r — Oritech's powered enchanter; fast and reliable."
-		"- &eAtomic Augment Station&r — applies augments (passives) to gear."
-		"- &eCharger Block&r — surface-mount FE charger for tools."
-		"- &eBanana&r — Oritech's joke fruit. Yes, it's a real item."
-	]
-	quest.5D3BC110998474C4.quest_subtitle: "Worth knowing — Oritech."
-	quest.5D3BC110998474C4.title: "Oritech Bric-a-Brac"
-	quest.2A9ABC7163AD5A2D.quest_desc: [
-		"The &eDissolution Chamber&r is &6IF&r's plastic factory — feed it &elatex&r + &esugar canes&r → &eTiny Dry Rubber&r → press into &ePlastic&r. Plastic gates the &eAdvanced Machine Frame&r and most of IF's tier 2."
-		""
-		"&aBuild:&r"
-		"- &eDissolution Chamber&r."
-		"- &eLatex Processing Unit&r — taps latex from a tree."
-		""
-		"&aUse:&r"
-		"- Feed latex + sugar cane to the chamber."
-		"- Output: &eTiny Dry Rubber&r → 9× → &ePlastic Sheet&r."
-	]
-	quest.2A9ABC7163AD5A2D.quest_subtitle: "Latex in. Plastic out."
-	quest.2A9ABC7163AD5A2D.title: "Dissolution Chamber"
-	quest.22950E7EDF0BC8BA.quest_desc: [
-		"The &eMob Duplicator&r is the inverse of the &eMob Crusher&r — fed &eMob Imprisonment Tools&r (charged by capturing a target mob), it spawns copies on a powered timer."
-		""
-		"&aBuild:&r"
-		"- &eMob Duplicator&r."
-		"- &eMob Imprisonment Tool&r — right-click any mob to capture; insert into the duplicator."
-		""
-		"&aUse:&r"
-		"- Power + &bEssence&r fluid + a captured tool → continuous mob spawn."
-		"- Pair with &eMob Crusher&r for a complete loop: duplicate → kill → drops + XP."
-	]
-	quest.22950E7EDF0BC8BA.quest_subtitle: "Loot loop, automated."
-	quest.22950E7EDF0BC8BA.title: "Mob Duplicator"
-	quest.2ECF94A2BA25A69D.quest_desc: [
-		"The &eHydroponic Bed&r grows seeded crops without farmland — slot a seed into the bed and it produces output on a timer fed by &esludge&r and &efertilizer&r. The lazy alternative to &ePlant Sower&r/&eGatherer&r."
-		""
-		"&aBuild:&r"
-		"- &eHydroponic Bed&r — multiple stacked beds for higher throughput."
-		""
-		"&aUse:&r"
-		"- Insert seed; pipe in &esludge&r (from the &eSludge Refiner&r) and optional &efertilizer&r."
-		"- Output: harvested crop on a timer."
-	]
-	quest.2ECF94A2BA25A69D.quest_subtitle: "Soilless farming."
-	quest.2ECF94A2BA25A69D.title: "Hydroponic Bed"
-	quest.380735090EE11E61.quest_desc: [
-		"The &eResourceful Furnace&r smelts using &bessence&r (liquid XP) as fuel — every smelt grants you XP, and the bonus &acrushed&r effects can yield extra outputs."
-		""
-		"&aBuild:&r"
-		"- &eResourceful Furnace&r."
-		""
-		"&aUse:&r"
-		"- Pipe &bessence&r in (from your &eMob Crusher&r setup)."
-		"- Insert smeltables; you receive ingots + XP per smelt, with chance for bonus output."
-	]
-	quest.380735090EE11E61.quest_subtitle: "Smelting that pays you back."
-	quest.380735090EE11E61.title: "Resourceful Furnace"
-	quest.35196552F3827FEB.quest_desc: [
-		"&6IF&r's bottomless storage — &eBlack Hole Tank&r holds infinite fluid of one type; &eBlack Hole Unit&r holds infinite items of one type. Tier upgrades raise transfer speed."
-		""
-		"&aBuild:&r"
-		"- &eBlack Hole Tank&r."
-		"- &eBlack Hole Unit&r."
-		"- &eBlack Hole Controller&r ties many of them into one accessible inventory."
-		""
-		"&aUse:&r"
-		"- Set the type by inserting one example."
-		"- Insert via hopper, pipe, or controller — extract the same way."
-	]
-	quest.35196552F3827FEB.quest_subtitle: "Storage you'll never overflow."
-	quest.35196552F3827FEB.title: "Black Hole Storage"
-	quest.7914E88D15989240.quest_desc: [
-		"Optional. The &eWither Builder&r places the wither summon arrangement (4 soul sand, 3 wither skulls) automatically when given the materials and a redstone pulse. Combined with a &eMob Crusher&r facing the spawn spot, it's a fully automated nether-star farm."
-		""
-		"&aBuild:&r"
-		"- &eWither Builder&r."
-		"- A &eMob Crusher&r aimed at the wither spawn position (&7or any other suppression scheme&r)."
-		""
-		"&aUse:&r"
-		"- Pipe in 4 soul sand + 3 wither skulls per pulse."
-		"- Pulse redstone; the builder assembles the wither, your crusher kills it."
-		""
-		"&7&oTip: do this in a contained box. The wither's spawn explosion will eat your factory if you don't.&r"
-	]
-	quest.7914E88D15989240.quest_subtitle: "Star factory."
-	quest.7914E88D15989240.title: "Wither Builder"
-	quest.2CF735F691E0D94D.quest_desc: [
-		"The &eMob Slaughter Factory&r kills mobs and produces &epink slime&r as the byproduct — the source of &ePink Slime Ingots&r used across &6IF&r recipes."
-		""
-		"&aBuild:&r"
-		"- &eMob Slaughter Factory&r over a darkened spawn pad or fed by &eMob Duplicator&r."
-		""
-		"&aUse:&r"
-		"- Pink slime ingots are crafted from solidified pink slime balls — feed your slime fluid into a solidifier or via the &ePinkonator&r flow."
-	]
-	quest.2CF735F691E0D94D.quest_subtitle: "Slaughter for slime."
-	quest.2CF735F691E0D94D.title: "Mob Slaughter Factory"
-	quest.0AEACF41C1ED1FBA.quest_desc: [
-		"&aWorth knowing&r — &6Industrial Foregoing&r odds and ends:"
-		""
-		"- &eConveyor&r — IF's belt. Glass-painted variants for color-routing."
-		"- &eFluid Pump&r / &eFluid Extractor&r — pull fluid from world or block."
-		"- &eFluid Placer&r / &eFluid Collector&r — fluid-block placement automation."
-		"- &eMaterial Stonework Factory&r — convert cobble → stone → smooth → bricks → … in one block."
-		"- &eEnchantment Extractor/Applicator&r — peel an enchant off a tool, slap it on another."
-		"- &eAnimal Rancher&r — cow farm in a box (milk + leather, no killing)."
-		"- &eAnimal Feeder&r / &eBaby Separator&r — passive breeding factory."
-		"- &eMycelial Reactor&r — IF's modular FE generator that runs on themed mushroom blocks."
-		"- &eVillager Trade Exchanger&r — automate trades."
-	]
-	quest.0AEACF41C1ED1FBA.quest_subtitle: "Worth knowing — Industrial Foregoing."
-	quest.0AEACF41C1ED1FBA.title: "Industrial Foregoing Bric-a-Brac"
-	quest.1B0A57BB7ED47822.quest_desc: [
-		"&6Ender IO&r's &eAlloy Smelter&r is the gateway to all four EIO alloys — &eEnergetic&r, &eVibrant&r, &ePulsating&r, &eRedstone Alloy&r. Steel-tier dependency for the SAG Mill, Capacitor Bank, and Enchanter."
-		""
-		"&aBuild:&r"
-		"- &eAlloy Smelter&r."
-		""
-		"&aUse:&r"
-		"- 3 ingredients per recipe; output is the alloy ingot."
-		"- Pair with the &eSAG Mill&r for grinding-ball-boosted ore yields."
-	]
-	quest.1B0A57BB7ED47822.quest_subtitle: "All four alloys, one block."
-	quest.1B0A57BB7ED47822.title: "Alloy Smelter"
-	quest.362C28B7B25CA3D9.quest_desc: [
-		"The &eSAG Mill&r is &6EIO&r's ore grinder — drops ore in, gets dust out (3x ratio with the right grinding ball). Functionally Mekanism's Crusher with a different recipe."
-		""
-		"&aBuild:&r"
-		"- &eSAG Mill&r."
-		""
-		"&aUse:&r"
-		"- Insert ore + (optional) &egrinding ball&r."
-		"- Vibrant Alloy grinding ball gives the best 3x yield with low durability cost."
-	]
-	quest.362C28B7B25CA3D9.quest_subtitle: "Grind. Tier. Repeat."
-	quest.362C28B7B25CA3D9.title: "SAG Mill"
-	quest.6063BA7EDC6B39E8.quest_desc: [
-		"The &ePowered Spawner&r is &6EIO&r's mob factory — captured mob souls from a &eSoul Vial&r drive a powered spawn cycle. Pair with a damage source (lava, magma, Mekanism Laser, Mob Crusher) for an FE-fed loot farm."
-		""
-		"&aBuild:&r"
-		"- &eSoul Vial&r — right-click an empty vial on a mob to capture."
-		"- &ePowered Spawner&r — accepts the filled soul vial."
-		""
-		"&aUse:&r"
-		"- Insert a filled vial."
-		"- Power it; mobs spawn on a timer."
-		""
-		"&7&oTip: harder mobs cost more FE per spawn — wither skeletons aren't free.&r"
-	]
-	quest.6063BA7EDC6B39E8.quest_subtitle: "Capture. Spawn. Loot."
-	quest.6063BA7EDC6B39E8.title: "Powered Spawner"
-	quest.5917A928B0BDAD22.quest_desc: [
-		"&eCapacitor Banks&r are EIO's batteries — placeable, configurable, scaleable. Stack multiples to merge into one giant buffer with shared FE."
-		""
-		"&aBuild:&r"
-		"- &eBasic Capacitor Bank&r — early."
-		"- &eVibrant Capacitor Bank&r — late, much higher capacity per block."
-		""
-		"&aUse:&r"
-		"- Right-click to open; configure I/O per-side."
-		"- Adjacent banks of the same tier merge into a multiblock automatically."
-	]
-	quest.5917A928B0BDAD22.quest_subtitle: "Stack to scale."
-	quest.5917A928B0BDAD22.title: "Capacitor Banks"
-	quest.2FEE23037DE25FAA.quest_desc: [
-		"The &eEnchanter&r is &6EIO&r's flat-rate enchanting station — write a target enchantment + lapis + book and the table outputs an enchanted book at predictable XP cost. No randomness, no rerolling."
-		""
-		"&aBuild:&r"
-		"- &eEnchanter&r — needs &edragon's breath&r and EIO alloys."
-		""
-		"&aUse:&r"
-		"- Place &eEnchanted Book&r in the input."
-		"- Choose target enchantment from JEI/recipe browser."
-		"- Pay XP + lapis; output is the enchanted book."
-	]
-	quest.2FEE23037DE25FAA.quest_subtitle: "Pick your enchant. Pay the cost."
-	quest.2FEE23037DE25FAA.title: "Enchanter"
-	quest.4096E7F031E43727.quest_desc: [
-		"&eTravel Anchor&r is the line-of-sight teleport beacon — look at one within 64 blocks and right-click to jump. The &eStaff of Travelling&r extends the range to 256 and works on any block."
-		""
-		"&aBuild:&r"
-		"- &eTravel Anchor&r — place at destinations."
-		"- &eStaff of Travelling&r — needs &edark steel&r."
-		""
-		"&aUse:&r"
-		"- Look at an anchor; right-click. You teleport."
-		"- The Staff also extracts on right-click vs. blocks for ranged interaction."
-	]
-	quest.4096E7F031E43727.quest_subtitle: "Look. Click. Teleport."
-	quest.4096E7F031E43727.title: "Travel Anchors"
-	quest.75534119CD098FE9.quest_desc: [
-		"&eDark Steel&r is &6EIO&r's premier alloy — armor and tools that scale through repair-anvil upgrades. The starter is the &eDark Steel Sword&r, but the helmet, chest, and pickaxe are all worth pursuing."
-		""
-		"&aBuild:&r"
-		"- Smelt &edark steel ingots&r at the Alloy Smelter (obsidian + iron + coal)."
-		"- Craft Dark Steel pickaxe / sword / armor."
-		""
-		"&aUse:&r"
-		"- Apply &eUpgrades&r at an anvil — speed, vampirism, depth, etc."
-		"- Each upgrade costs raw alloy + XP — DS gear scales smoothly through mid-game."
-	]
-	quest.75534119CD098FE9.quest_subtitle: "Iron with attitude."
-	quest.75534119CD098FE9.title: "Dark Steel Smithing"
-	quest.2A49B70413B7164F.quest_desc: [
-		"&eObelisks&r are area-effect mob controllers — &eAttractor&r pulls mobs toward it, &eAversion&r pushes them away, &eInhibitor&r prevents spawning entirely in its radius."
-		""
-		"&aBuild:&r"
-		"- &eAttractor Obelisk&r — at the choke point of your loot farm."
-		"- &eAversion Obelisk&r — around your base perimeter."
-		""
-		"&aUse:&r"
-		"- Power it; range scales with capacitor tier."
-		"- Pair Attractor + a damage source for a passive farm; Aversion for safe-zoning your factory."
-	]
-	quest.2A49B70413B7164F.quest_subtitle: "Pull. Push. Suppress."
-	quest.2A49B70413B7164F.title: "Obelisks"
-	quest.1CE70C5907125D06.quest_desc: [
-		"The &eEIO Crafter&r is the auto-crafting block — slot a recipe template, feed it ingredients via conduits, and it produces output as long as inputs are available."
-		""
-		"&aBuild:&r"
-		"- &eCrafter&r."
-		""
-		"&aUse:&r"
-		"- Open the GUI; place ingredients in the recipe pattern slots."
-		"- Pipe materials in via item conduits; output to a chest or further automation."
-	]
-	quest.1CE70C5907125D06.quest_subtitle: "Recipes that run themselves."
-	quest.1CE70C5907125D06.title: "EIO Crafter"
-	quest.3690585CD331E119.quest_desc: [
-		"&aWorth knowing&r — &6Ender IO&r odds and ends:"
-		""
-		"- &eYeta Wrench&r — rotate any EIO block, change conduit type in-place."
-		"- &eVacuum Chest&r / &eXP Vacuum&r — pull dropped items / XP orbs in a radius."
-		"- &eDrain&r — pulls fluid from a body of water below it."
-		"- &eEnsouled Chassis&r — gives mobs custom AI / behaviors. Niche but useful."
-		"- &eImpulse Hopper&r — long-range hopper that pulls/pushes across distance."
-		"- &eEnergy Conduit&r tiers — basic/enhanced/ender — match throughput to demand."
-		"- &eFluid Conduit&r — moves fluids; pressure-pipes for fast transit."
-		"- &eDark Steel Bars&r / &eDoor&r / &eLadder&r — decorative DS variants for utility builds."
-	]
-	quest.3690585CD331E119.quest_subtitle: "Worth knowing — Ender IO."
-	quest.3690585CD331E119.title: "Ender IO Bric-a-Brac"
-	quest.3052E3B82544C299.quest_desc: [
-		"The &eME Controller&r is the heart of any AE2 network — every cable, drive, terminal, and crafting CPU connects through it. One per network."
-		""
-		"&aPress &eG&r anywhere to open the in-game &eGuideME&r book — every detail is there.&r"
-	]
-	quest.3052E3B82544C299.quest_subtitle: "Press G — read the Guide."
-	quest.3052E3B82544C299.title: "ME Controller"
-	quest.132F45785EF7857E.quest_desc: [
-		"&eME Drive&r holds 10 storage cells. Cells stack types and bytes — bigger cells (1k → 256k) cost more processors but hold dramatically more types."
-		""
-		"&aPress &eG&r — &eGuideME&r → &eStorage&r covers cell math and partitioning.&r"
-	]
-	quest.132F45785EF7857E.quest_subtitle: "Storage at scale."
-	quest.132F45785EF7857E.title: "ME Drive &amp; Cells"
-	quest.2D606085832DFFE2.quest_desc: [
-		"&eME Terminal&r is read-only browse; &eCrafting Terminal&r adds an inline 3×3 crafting grid that pulls from the network."
-		""
-		"&aPress &eG&r — &eGuideME&r → &eTerminals&r covers each variant's tradeoffs.&r"
-	]
-	quest.2D606085832DFFE2.quest_subtitle: "Browse and craft."
-	quest.2D606085832DFFE2.title: "Terminals"
-	quest.7A7119BD0237EFD2.quest_desc: [
-		"&eCrafting CPUs&r are AE2's autocrafting cores — assembled from &eCrafting Unit&r, &eAccelerator&r, &eStorage&r, and &eMonitor&r blocks. More accelerators = parallel crafts."
-		""
-		"&aPress &eG&r — &eGuideME&r → &eAutocrafting&r walks the multi-block layout.&r"
-	]
-	quest.7A7119BD0237EFD2.quest_subtitle: "Build the brain."
-	quest.7A7119BD0237EFD2.title: "Crafting CPU"
-	quest.5988DF86EAF5244F.quest_desc: [
-		"&ePattern Provider&r feeds patterns into machines; &ePattern Encoding Terminal&r is where you write the patterns. Together: AE2 autocrafts any recipe you've encoded."
-		""
-		"&aPress &eG&r — &eGuideME&r → &ePatterns&r is the canonical reference.&r"
-	]
-	quest.5988DF86EAF5244F.quest_subtitle: "Encode. Provide. Craft."
-	quest.5988DF86EAF5244F.title: "Patterns &amp; Providers"
-	quest.0A9CF0B826AF71FF.quest_desc: [
-		"&eWireless Terminal&r + &eWireless Access Point&r = your network in your pocket. Crafting variant adds the inline grid wherever you stand."
-		""
-		"&aPress &eG&r — &eGuideME&r → &eWireless&r covers range and battery.&r"
-	]
-	quest.0A9CF0B826AF71FF.quest_subtitle: "Network on the go."
-	quest.0A9CF0B826AF71FF.title: "Wireless Access"
-	quest.6277D2C336D1242B.quest_desc: [
-		"AE2's interface points: &eImport Bus&r pulls in, &eExport Bus&r pushes out, &eStorage Bus&r treats an external inventory as part of the network, &eInterface&r is a portable pattern target."
-		""
-		"&aPress &eG&r — &eGuideME&r → &eBuses&r explains every variant.&r"
-	]
-	quest.6277D2C336D1242B.quest_subtitle: "Pull, push, expose."
-	quest.6277D2C336D1242B.title: "Buses &amp; Interfaces"
-	quest.7FEE2AF45B268424.quest_desc: [
-		"Optional. &eSpatial IO&r lets you snapshot a region into a &eSpatial Storage Cell&r — temporary pocket dimension on demand. Niche but iconic."
-		""
-		"&aPress &eG&r — &eGuideME&r → &eSpatial&r is non-trivial. Read it before building.&r"
-	]
-	quest.7FEE2AF45B268424.quest_subtitle: "Pocket dimensions."
-	quest.7FEE2AF45B268424.title: "Spatial IO"
-	quest.56C3E73F7256EF9A.quest_desc: [
-		"&aWorth knowing&r — AE2 odds and ends:"
-		""
-		"- &eFluix Glass Cable&r — basic, cheap, 8 channels."
-		"- &eFluix Covered Cable&r — same channels, opaque, looks cleaner."
-		"- &eFluix Smart Cable&r — visualizes channel routing on its surface."
-		"- &eFluix Dense Cable&r — 32 channels, color-coded."
-		"- &eP2P Tunnels&r — long-distance bridges between two endpoints (FE, items, fluids)."
-		"- &eGrowth Accelerator&r — speeds up nearby budding certus quartz."
-		"- &eAnnihilation Plane&r / &eFormation Plane&r — break / place blocks at the network's edge."
-		"- &eSky Stone Chest&r — encountered at meteor crash sites; loot the press inside."
-		""
-		"&aPress &eG&r — &eGuideME&r is the manual. Better than any quest line.&r"
-	]
-	quest.56C3E73F7256EF9A.quest_subtitle: "Worth knowing — AE2."
-	quest.56C3E73F7256EF9A.title: "AE2 Bric-a-Brac"
-	quest.6DAE34EEAC47FACF.quest_desc: [
-		"&6Apotheosis&r's &eAugmenting Table&r is the surgical tool — re-roll a single &aaffix&r on a piece of gear without touching the others. Burns &eSigils of Enhancement&r and rarity materials per try."
-		""
-		"&aBuild:&r"
-		"- &eAugmenting Table&r — paired with the &eReforging Table&r."
-		""
-		"&aUse:&r"
-		"- Drop in the gear; pick the affix to re-roll."
-		"- &7Tip: keep your favorite affixes locked, augment only the bad ones — much cheaper than full reforges.&r"
-	]
-	quest.6DAE34EEAC47FACF.quest_subtitle: "Surgical re-rolls."
-	quest.6DAE34EEAC47FACF.title: "Augmenting Table"
-	quest.49F8246885175A10.quest_desc: [
-		"&eSigils&r are &6Apotheosis&r's consumable utility tools — &eWithdrawal&r removes a single affix and saves it on a vial; &eExtraction&r vial pulls an affix off and stores it for transplant; &eUnnaming&r removes a forced custom name."
-		""
-		"&aBuild:&r"
-		"- &eSigil of Withdrawal&r."
-		"- &eVial of Extraction&r."
-		""
-		"&aUse:&r"
-		"- Right-click gear to peel an affix into a held vial — apply that vial to another piece of gear to transplant."
-		"- Powerful for moving a roll you love to better base gear."
-	]
-	quest.49F8246885175A10.quest_subtitle: "Peel and transplant affixes."
-	quest.49F8246885175A10.title: "Sigils &amp; Vials"
-	quest.296A145EEC9F228D.quest_desc: [
-		"&6Apothic Enchanting&r's mid-tier shelves push the &aEterna&r/&aQuanta&r/&aArcana&r table stats far past vanilla. The &eLibrary&r block stores enchant configurations; biome-themed shelves (&eBeeshelf&r, &eCrystal Seashelf&r) are the diversity boost."
-		""
-		"&aBuild:&r"
-		"- &eEnchanting Library&r — stores enchanted books for filtering."
-		"- &eBeeshelf&r — a Hellshelf-tier shelf using bee products."
-		"- &eCrystal Seashelf&r — ocean biome's contribution."
-		""
-		"&aUse:&r"
-		"- Place the Library next to your enchanting table; insert books to filter what enchants are available."
-		"- Mix shelf types around the table — variety raises Arcana and unlocks rare enchant lines."
-	]
-	quest.296A145EEC9F228D.quest_subtitle: "The middle library."
-	quest.296A145EEC9F228D.title: "Library &amp; Mid-Tier Shelves"
-	quest.02D58EF7143851CF.quest_desc: [
-		"Optional. The &eEnder Library&r and &ePearl Endshelf&r are the End-themed top tier — they push the table's &aArcana&r ceiling and unlock end-bias enchant lines."
-		""
-		"&aBuild:&r"
-		"- &eEnder Library&r — costs &eender pearls&r and Apothic gems."
-		"- &ePearl Endshelf&r — End-shelf base + ender pearl."
-		"- &eDraconic Endshelf&r — top-tier shelf, requires &eDraconic Evolution&r ingredient."
-		""
-		"&aUse:&r"
-		"- Layer these around your enchanting table for the deepest enchant pool the pack offers."
-	]
-	quest.02D58EF7143851CF.quest_subtitle: "End-tier enchanting."
-	quest.02D58EF7143851CF.title: "Ender Library"
 	quest.7DD4046D89B7B4D9.quest_desc: [
 		"&aWorth knowing&r — &6Apotheosis&r odds and ends:"
 		""
@@ -1816,319 +2071,6 @@
 	]
 	quest.7DD4046D89B7B4D9.quest_subtitle: "Worth knowing — Apotheosis."
 	quest.7DD4046D89B7B4D9.title: "Apotheosis Bric-a-Brac"
-	quest.02FD58F04AF14206.quest_desc: [
-		"&6Ars Nouveau&r's &eWhirlisprig&r is the plant-passive familiar — bind one to a tree-rich grove with the &eMycelial Sourcelink&r and it harvests + replants while feeding the network &bSource&r."
-		""
-		"&aBuild:&r"
-		"- &eWhirlisprig Charm&r — summon."
-		"- &eMycelial Sourcelink&r — converts mycelium-domain organic matter into &bSource&r."
-		""
-		"&aUse:&r"
-		"- Bind the Whirlisprig to a tree zone."
-		"- Sourcelink near the harvest zone produces &bSource&r continuously, no input required."
-	]
-	quest.02FD58F04AF14206.quest_subtitle: "Plants in. Source out."
-	quest.02FD58F04AF14206.title: "Whirlisprig Grove"
-	quest.3D13647AEFF0943F.quest_desc: [
-		"The &eWixie Cauldron&r is &6Ars Nouveau&r's potion factory — pair with a &eWixie&r familiar and a &ePotion Jar&r and you have automated potion brewing."
-		""
-		"&aBuild:&r"
-		"- &eWixie Cauldron&r."
-		"- &eWixie Charm&r — bind the familiar to the cauldron."
-		"- &ePotion Jar&r — captures bottled potions for storage and re-use."
-		""
-		"&aUse:&r"
-		"- Configure the cauldron's recipe."
-		"- The Wixie fetches ingredients and brews; jars store the result."
-	]
-	quest.3D13647AEFF0943F.quest_subtitle: "Potions on autopilot."
-	quest.3D13647AEFF0943F.title: "Wixie Cauldron"
-	quest.3FA2174F63B06F5E.quest_desc: [
-		"&eStarbuncle&r is the item-courier familiar — bind it with a &eStarbuncle Charm&r, point at a chest with a &eDominion Wand&r, and it shuttles loose drops home."
-		""
-		"&aBuild:&r"
-		"- &eStarbuncle Charm&r — summon."
-		"- &eDominion Wand&r — link the Starbuncle to source/destination chests."
-		""
-		"&aUse:&r"
-		"- Right-click source chest with the wand, sneak-right-click destination chest. Starbuncle handles the rest."
-		"- Multiple Starbuncles run parallel pickups."
-	]
-	quest.3FA2174F63B06F5E.quest_subtitle: "A pet that picks up after you."
-	quest.3FA2174F63B06F5E.title: "Starbuncle Logistics"
-	quest.618A9A4F484C7964.quest_desc: [
-		"The &eBookwyrm Lectern&r partners with a &eBookwyrm&r familiar to automate &eGlyph&r crafting at your &eScribes Table&r. Saves a lot of late-game spellcrafting drudgery."
-		""
-		"&aBuild:&r"
-		"- &eBookwyrm Lectern&r near your &eScribes Table&r."
-		"- &eBookwyrm Charm&r — summon."
-		""
-		"&aUse:&r"
-		"- The Bookwyrm pulls glyph ingredients from nearby chests, scribes them automatically."
-		"- Frees you to design spells without copy-paste runs."
-	]
-	quest.618A9A4F484C7964.quest_subtitle: "A scribe, hired."
-	quest.618A9A4F484C7964.title: "Bookwyrm Lectern"
-	quest.1CA0297140031A1C.quest_desc: [
-		"The &eAlteration Table&r upgrades &6Ars&r-side gear — slot armor + reagent + spell + perk to imbue, swap, or replace properties on a piece of &eMage Robes&r."
-		""
-		"&aBuild:&r"
-		"- &eAlteration Table&r — paired with the &eEnchanting Apparatus&r."
-		""
-		"&aUse:&r"
-		"- Place gear, choose the alteration."
-		"- Threads (&eThread of the Drygmy/Starbuncle/Whirlisprig/Wixie&r) bind set bonuses based on your familiar."
-	]
-	quest.1CA0297140031A1C.quest_subtitle: "Robes, customized."
-	quest.1CA0297140031A1C.title: "Alteration Table"
-	quest.289518C7EC5A44EC.quest_desc: [
-		"&eStable Warp Scroll&r is &6Ars Nouveau&r's persistent fast-travel — sneak-right-click anywhere to bind, then right-click the scroll later to teleport back. Cheap, range-unlimited, dimension-spanning."
-		""
-		"&aBuild:&r"
-		"- &eStable Warp Scroll&r — at the &eEnchanting Apparatus&r."
-		""
-		"&aUse:&r"
-		"- Sneak-right-click to set the destination."
-		"- Right-click anywhere to teleport. Re-bind freely."
-		""
-		"&7&oTip: keep one in a Curio slot, sneak-set on every base. Free travel forever.&r"
-	]
-	quest.289518C7EC5A44EC.quest_subtitle: "Persistent waypoints."
-	quest.289518C7EC5A44EC.title: "Warp Scrolls"
-	quest.25A67DAD153BF6BF.quest_desc: [
-		"&aWorth knowing&r — &6Ars Nouveau&r odds and ends:"
-		""
-		"- &eJar of Light&r — bottled light source you can place anywhere; reusable."
-		"- &eVoid Jar&r — held trash can with a filter; void unwanted drops on pickup."
-		"- &eSource Jar&r — &bSource&r battery; place near &eRelays&r to network."
-		"- &eRelay&r / &eRelay Splitter&r / &eRelay Warp&r — light-based source pipelines."
-		"- &eMagelight Torch&r — invisible torch; lights without the block."
-		"- &eMage Block&r — invisible solid; useful for traps and elaborate spell setups."
-		"- &eRitual of Flight&r — once cast, persistent flight in an area."
-		"- &eFamiliar threads&r — slot in armor for set bonuses tied to your familiar."
-	]
-	quest.25A67DAD153BF6BF.quest_subtitle: "Worth knowing — Ars Nouveau."
-	quest.25A67DAD153BF6BF.title: "Ars Nouveau Bric-a-Brac"
-	quest.7EA222DBC1855F7B.quest_desc: [
-		"&6Draconic Evolution&r's &eEnergy Core&r is the modpack's deepest FE buffer — a tiered crystal at the center of a stabilized field; capacity scales aggressively with tier."
-		""
-		"&aBuild:&r"
-		"- &eEnergy Core&r — the central crystal. Higher tiers need more Awakened Draconium."
-		"- &eEnergy Core Stabilizer&r — minimum 4, placed in the field directions."
-		"- &eEnergy Pylon&r — I/O ports for FE in/out."
-		""
-		"&aUse:&r"
-		"- Place the core. Stabilizers within range. Pylons connect to your network."
-	]
-	quest.7EA222DBC1855F7B.quest_subtitle: "FE buffer at scale."
-	quest.7EA222DBC1855F7B.title: "Energy Core"
-	quest.45495B1CC43D1C41.quest_desc: [
-		"&eAwakened Draconium&r is the post-Chaos-Guardian alloy — &eDraconium Ingot&r charged inside the &eEnergy Core&r field becomes &eAwakened Draconium Ingot&r, the gateway to Chaotic-tier gear and the Reactor."
-		""
-		"&aBuild:&r"
-		"- Build the &eEnergy Core&r first."
-		"- Drop &eDraconium Ingots&r in the activated field; they convert to Awakened over time."
-		""
-		"&aUse:&r"
-		"- Awakened ingots feed the &eAwakened Core&r recipe and Chaotic-tier gear crafting."
-	]
-	quest.45495B1CC43D1C41.quest_subtitle: "Charge the metal."
-	quest.45495B1CC43D1C41.title: "Awakened Draconium"
-	quest.3555A0DA90E36994.quest_desc: [
-		"&eChaotic-tier gear&r is the &6DE&r endgame — the third upgrade past Wyvern → Awakened → Chaotic. Costs &eChaos Shard&r fragments from the &dChaos Guardian&r, plus stacks of Awakened Draconium."
-		""
-		"&aBuild:&r"
-		"- &eChaotic Chestpiece&r."
-		"- &eChaotic Pickaxe&r / &eAxe&r / &eSword&r."
-		"- &eChaotic Capacitor&r — handheld FE buffer."
-		""
-		"&aUse:&r"
-		"- The full set is the strongest non-modular armor in the pack — durability is effectively infinite as long as it's charged."
-	]
-	quest.3555A0DA90E36994.quest_subtitle: "Iron's third refinement."
-	quest.3555A0DA90E36994.title: "Chaotic Tier"
-	quest.52384D0B09D5E630.quest_desc: [
-		"Optional. The &eDraconic Reactor&r is &6DE&r's nuclear-class FE generator — output rivals a &eMekanism Fusion Reactor&r at the cost of substantially more dangerous setup."
-		""
-		"&aBuild:&r"
-		"- &eReactor Core&r at center."
-		"- 4 &eReactor Stabilizers&r placed at the cardinal field positions."
-		"- &eReactor Injector&r for fueling."
-		""
-		"&aUse:&r"
-		"- Insert &eAwakened Draconium&r as fuel."
-		"- Tune the field strength carefully — runaway temperature ends in a chunk-deleting explosion."
-		""
-		"&7&oTip: a deep FE buffer is non-optional. Without one, the Reactor's startup pulse will pop your network.&r"
-	]
-	quest.52384D0B09D5E630.quest_subtitle: "Don't blow up your base."
-	quest.52384D0B09D5E630.title: "Draconic Reactor"
-	quest.180CDEEEEDD654AE.quest_desc: [
-		"&eAdvanced Dislocator&r is &6DE&r's tag-and-teleport — bind it to a location, set a destination, and right-click to teleport. The &ePedestal&r and &eReceptacle&r turn this into a permanent two-way portal."
-		""
-		"&aBuild:&r"
-		"- &eAdvanced Dislocator&r — the handheld."
-		"- &eDislocator Pedestal&r at one end."
-		"- &eDislocator Receptacle&r at the other."
-		""
-		"&aUse:&r"
-		"- Right-click pedestal with the dislocator to bind."
-		"- Right-click anywhere to teleport home."
-	]
-	quest.180CDEEEEDD654AE.quest_subtitle: "Two-stop travel."
-	quest.180CDEEEEDD654AE.title: "Dislocator"
-	quest.165B94D41DEEDB88.quest_desc: [
-		"&aWorth knowing&r — &6Draconic Evolution&r odds and ends:"
-		""
-		"- &eDraconium Chest&r — multiblock-expansion chest, dimensions scale with structure."
-		"- &eAdvanced Magnet&r — pulls drops to you in a wide radius; toggleable."
-		"- &eFlux Gate&r — meter and clamp FE flow on a line."
-		"- &eGenerator&r — burns furnace fuel for FE; mostly used during initial DE setup."
-		"- &eGrinder&r — DE's automatic mob killer; reads tagged spawn pads."
-		"- &eEntity Detector&r / &eEntity Detector Advanced&r — redstone outputs based on entity counts/types."
-		"- &eDisenchanter&r — pulls enchantments off gear and stores in books."
-		"- &eParticle Generator&r — visual effect block for builds."
-		""
-		"&7&oTip: read the &eDE Information Tablet&r (in JEI) for the full picture — DE's recipe map is unusually deep.&r"
-	]
-	quest.165B94D41DEEDB88.quest_subtitle: "Worth knowing — Draconic Evolution."
-	quest.165B94D41DEEDB88.title: "Draconic Evolution Bric-a-Brac"
-	quest.36B9C4E8DE45B718.quest_desc: [
-		"&dWadjet&r is the spear-wielding serpent guardian of the &eCursed Pyramid&r — a mini-boss that summons sand and lashes in close. Drops &eAncient Metal Ingots&r, the building block for &eBone Reptile&r armor and the rest of the desert-tier kit."
-		""
-		"&aHow to acquire:&r"
-		"- Find a &eCursed Pyramid&r in any desert (or spawn-egg her in)."
-		"- Stay mobile — her spear-thrusts reward backpedaling, but her sand summons punish standing still."
-	]
-	quest.36B9C4E8DE45B718.quest_subtitle: "Sand bites back."
-	quest.36B9C4E8DE45B718.title: "Slay the &dWadjet&r"
-	quest.21C1DCB0B2D791A0.quest_desc: [
-		"&dAncient Remnant&r is the colossal skeletal beast buried beneath the &eCursed Pyramid&r — the structure's main boss, dwarfing the Wadjet that guards its halls. Drops &eSandstorm in a Bottle&r, &eAncient Metal&r, and a &eRemnant Skull&r used to tame your own Modern Remnant companion."
-		""
-		"&aHow to acquire:&r"
-		"- Excavate the suspicious sand inside a &eCursed Pyramid&r to wake it."
-		"- The arena is wide for a reason — the Remnant's stomp shockwaves outrange most melee."
-	]
-	quest.21C1DCB0B2D791A0.quest_subtitle: "Buried, not dead."
-	quest.21C1DCB0B2D791A0.title: "Slay the &dAncient Remnant&r"
-	quest.79E232C1900191CD.quest_desc: [
-		"Two of &6Cataclysm&r's mid-to-late metals. &eWitherite&r drops from the &dHarbinger&r — the only source — and gates the wither-themed shoulder cannons and the &eMechanical Fusion Anvil&r. &eBlack Steel&r drops from the &eDraugr&r and &eAptrgangr&r elites that haunt the &eFrosted Prison&r, and the full Black Steel tool set is the bridge to endgame metallurgy."
-		""
-		"&aHow to acquire:&r"
-		"- &eWitherite Ingot&r — kill the &dHarbinger&r in the &eAncient Factory&r structure (Overworld)."
-		"- &eBlack Steel Ingot&r — farm Draugr and Aptrgangr in the &eFrosted Prison&r."
-		""
-		"&aUse:&r"
-		"- Black Steel sword/axe/pickaxe is a clean tool tier-up from netherite."
-		"- Hold the Witherite for the &eWither Assault Shoulder Weapon&r and other Harbinger-only crafts."
-	]
-	quest.79E232C1900191CD.quest_subtitle: "Two prisons, two metals."
-	quest.79E232C1900191CD.title: "Witherite &amp; Black Steel"
-	quest.6FA84BEEE0BB88B0.quest_desc: [
-		"&dThe Prowler&r is a robotic mini-boss buried in the &eAncient Factory&r — the same structure that hides the &dHarbinger&r. It hunts you with a spinning saw and homing missiles."
-		""
-		"&aHow to acquire:&r"
-		"- Find an &eAncient Factory&r (rare Overworld dungeon, locate with an &eEye of Mech&r)."
-		"- Stay close — at range you eat missiles; in melee you only deal with the saw."
-	]
-	quest.6FA84BEEE0BB88B0.quest_subtitle: "Saw and missile."
-	quest.6FA84BEEE0BB88B0.title: "Slay the &dProwler&r"
-	quest.310133839A33645C.quest_desc: [
-		"Optional. &dCoralssus&r is the coral juggernaut prowling the &eSunken City&r alongside the &dLeviathan&r — usually four or more spawn per dungeon, some locked in jail cells behind a hidden waterfall. Each kill drops a &eCoral Chunk&r, the gating ingredient for the &eAbyssal Sacrifice&r that summons the Leviathan herself."
-		""
-		"&aHow to acquire:&r"
-		"- Find a &eSunken City&r (deep ocean) and clear the Deepling guards."
-		"- Fight from a high ledge — the Coralssus's ground slams have wide AoE and stagger."
-	]
-	quest.310133839A33645C.quest_subtitle: "Coral chunk for the Leviathan key."
-	quest.310133839A33645C.title: "Slay the &dCoralssus&r"
-	quest.477C3C2BE9118B1F.quest_desc: [
-		"&eCursium&r is the ghost-themed armor metal — only &dMaledictus&r in the &eFrosted Prison&r drops it (3-4 ingots a kill). The full &eCursium Set&r is one of the strongest in the pack: Ghost Vision on the helmet, Undead Revive on the chestplate (resurrects you once on death), Ghost Dodge on the leggings, and a back-step on the boots."
-		""
-		"&aHow to acquire:&r"
-		"- Right-click Maledictus's grave inside the &eFrosted Prison&r to wake him; defeat him for &eCursium Ingots&r."
-		"- Forge the four Cursium pieces, or apply a &eCursium Upgrade&r template to a netherite set."
-		""
-		"&aUse:&r"
-		"- The &eUndead Revive&r chestplate effect locks you out for six minutes after firing — don't burn it on chip damage."
-	]
-	quest.477C3C2BE9118B1F.quest_subtitle: "Ghost armor, four pieces."
-	quest.477C3C2BE9118B1F.title: "Cursium Set"
-	quest.1DB508C752281D92.quest_desc: [
-		"&aWorth knowing&r — &6Cataclysm&r odds and ends:"
-		""
-		"- &eAthame&r — life-steal dagger; drops from &eDeepling Warlocks&r and &ePriests&r in the &eSunken City&r."
-		"- &eVoid Forge&r — End boss-tier handheld; uses &eVoid Cores&r as ammunition."
-		"- &eGauntlet of Bulwark&r / &eof Maelstrom&r — punching gauntlets with elemental specials."
-		"- &eAstrape&r / &eCeraunus&r — lightning-themed bow/spear from the storm boss line."
-		"- &eAbyssal Sacrifice&r — opens the Drowned World boss arena (Leviathan summon item)."
-		"- &eBerserker Soul Amulet&r — curio that swaps damage scaling for missing-HP."
-		"- &eVoid Eye&r / &eFlame Eye&r / &eStorm Eye&r — boss summon catalysts."
-		"- &eMusic Discs&r (Harbinger, Leviathan, Ignis, Ender Guardian) — boss-themed records."
-	]
-	quest.1DB508C752281D92.quest_subtitle: "Worth knowing — Cataclysm."
-	quest.1DB508C752281D92.title: "Cataclysm Bric-a-Brac"
-	quest.44637BCFE916C1DA.quest_desc: [
-		"&6Create&r's foundational kinetic source. The &eWater Wheel&r runs on flowing water around its perimeter; the &eLarge Water Wheel&r is a 3×3 multiblock that scales the output. &eHand Crank&r and &eWindmill Bearing&r round out the early-game options."
-		""
-		"&aPress &eW&r — &ePonder&r covers placement, water-flow patterns, and stress capacity per source.&r"
-	]
-	quest.44637BCFE916C1DA.quest_subtitle: "Water in. Rotation out."
-	quest.44637BCFE916C1DA.title: "Water Wheel"
-	quest.69A4948CDD9B5881.quest_desc: [
-		"&6Createaddition&r's &eElectric Motor&r is the reverse of the &eAlternator&r — feed it &aForge Energy&r, get rotation. The bridge from FE-rich late-game systems back into the &6Create&r kinetic network."
-		""
-		"&aPress &eW&r — &ePonder&r covers FE input, RPM tuning via redstone, and shaft output direction.&r"
-	]
-	quest.69A4948CDD9B5881.quest_subtitle: "FE in. Rotation out."
-	quest.69A4948CDD9B5881.title: "Electric Motor"
-	quest.4C7CBCCF0634848D.quest_desc: [
-		"&6Create&r's automated crafting multiblock. Arrange &eMechanical Crafters&r in the shape of the recipe — each holds one ingredient slot — point them at a single output cell, and pulse them with kinetic stress."
-		""
-		"&aPress &eW&r — &ePonder&r animates crafter arrangement, slot facing, and output direction. Required reading.&r"
-	]
-	quest.4C7CBCCF0634848D.quest_subtitle: "Recipe shaped in blocks."
-	quest.4C7CBCCF0634848D.title: "Mechanical Crafter"
-	quest.42D24546E6A1331F.quest_desc: [
-		"&6Mekanism&r ships four signal types, each with their own pipe:"
-		""
-		"- &eUniversal Cable&r — &aForge Energy&r"
-		"- &eMechanical Pipe&r — fluids"
-		"- &ePressurized Tube&r — gases (&boxygen&r, &bhydrogen&r, &bsulfuric acid&r, &bantimatter&r)"
-		"- &eThermodynamic Conductor&r — heat between Boilers, Reactors, and Turbines"
-		""
-		"Each tier (&eBasic&r → &eAdvanced&r → &eElite&r → &eUltimate&r) bumps throughput. Right-click any segment with a &eConfigurator&r to change its connection mode (push, pull, none)."
-	]
-	quest.42D24546E6A1331F.quest_subtitle: "Power, fluids, gases, heat."
-	quest.42D24546E6A1331F.title: "Universal Transport"
-	quest.25F6779B61EC443B.quest_desc: [
-		"Factories are the batched form of every &6Mekanism&r unit machine — Smelter, Enricher, Crusher, Compressor, Combiner, Sawmill, Infuser, Purifier, Injector. Tier rotations: &eBasic&r (3 slots) → &eAdvanced&r (5) → &eElite&r (7) → &eUltimate&r (9)."
-		""
-		"&aBuild:&r"
-		"- &eBasic Smelting Factory&r &7(or any Basic factory variant)&r"
-		"- &eAdvanced Smelting Factory&r &7(2nd tier — proves you've upgraded once)&r"
-		""
-		"&aUse:&r"
-		"- Right-click a placed factory with a &eTier Installer&r (&eBasic&r → &eAdvanced&r → &eElite&r → &eUltimate&r) to bump it in place — no rebuild, contents preserved."
-		"- The same Tier Installers also upgrade Energy Cubes, Bins, and the entire transport family (cable / pipe / tube / conductor)."
-		"- A 9-slot Ultimate Smelter parallelizes nine Energized Smelters into one block."
-	]
-	quest.25F6779B61EC443B.quest_subtitle: "Parallelize the basics."
-	quest.25F6779B61EC443B.title: "Factories"
-	quest.489168A85C1C3C1F.quest_desc: [
-		"Every &6Mekanism&r machine has an &eUpgrades&r slot — drop these in (up to 8 per machine) for stat boosts:"
-		""
-		"- &eSpeed&r — faster processing, more &bFE&r per tick"
-		"- &eEnergy&r — bigger internal FE buffer, lower per-op cost"
-		"- &eMuffling&r — silence the machine"
-		"- &eAnchor&r — chunk-load the block"
-		"- &eFilter&r &7(Logistical Sorter / Separator)&r — bias outputs"
-		"- &eGas&r &7(specific machines)&r — extends internal gas-tank capacity"
-		""
-		"Crafted from &eInfused Alloy&r, cheap glass, and an upgrade-specific core (osmium dust for Speed, gold for Energy, diamond for Anchor, and so on). &eSpeed + Energy&r stacked is the standard 'make this machine cheap and fast' combo."
-	]
-	quest.489168A85C1C3C1F.quest_subtitle: "Drop them in. Watch the stats."
-	quest.489168A85C1C3C1F.title: "Machine Upgrades"
 	quest.7E52C89DD2E004DD.quest_desc: [
 		"&6Ender IO&r's signature transport block. One item — &eConduit&r — that becomes whichever type you place first. Tiers and signal types:"
 		""
@@ -2146,4 +2088,64 @@
 	]
 	quest.7E52C89DD2E004DD.quest_subtitle: "One block. Every signal."
 	quest.7E52C89DD2E004DD.title: "Conduits"
+	quest.7E66E335AD1D9D15.quest_desc: ["&6YUNG's&r rebuilds &eNether Fortresses&r as proper layered architecture — multi-level halls, chambers, and tougher inhabitants."]
+	quest.7E66E335AD1D9D15.quest_subtitle: "Now with bridges that lead somewhere."
+	quest.7E66E335AD1D9D15.title: "&6Better Nether Fortresses&r"
+	quest.7EA222DBC1855F7B.quest_desc: [
+		"&6Draconic Evolution&r's &eEnergy Core&r is the modpack's deepest FE buffer — a tiered crystal at the center of a stabilized field; capacity scales aggressively with tier."
+		""
+		"&aBuild:&r"
+		"- &eEnergy Core&r — the central crystal. Higher tiers need more Awakened Draconium."
+		"- &eEnergy Core Stabilizer&r — minimum 4, placed in the field directions."
+		"- &eEnergy Pylon&r — I/O ports for FE in/out."
+		""
+		"&aUse:&r"
+		"- Place the core. Stabilizers within range. Pylons connect to your network."
+	]
+	quest.7EA222DBC1855F7B.quest_subtitle: "FE buffer at scale."
+	quest.7EA222DBC1855F7B.title: "Energy Core"
+	quest.7F2435C222DBAB7B.quest_desc: [
+		"&6Oritech&r ships its own spawner system — &eSpawner Cage&r captures any mob from the world; &eSpawner Controller&r turns the cage into a controllable spawner you power with FE."
+		""
+		"&aBuild:&r"
+		"- &eSpawner Cage&r — toss it at a mob to capture."
+		"- &eSpawner Controller&r — accepts the captured cage."
+		""
+		"&aUse:&r"
+		"- Place the controller; insert the captured cage."
+		"- Power it; it spawns the captured mob on a timer."
+		""
+		"&7&oTip: pair with a Mob Crusher (Industrial Foregoing) or Killer Joe-style setup for an XP/loot farm.&r"
+	]
+	quest.7F2435C222DBAB7B.quest_subtitle: "Catch. Cage. Power. Repeat."
+	quest.7F2435C222DBAB7B.title: "Spawner Cages"
+	quest.7FEE2AF45B268424.quest_desc: [
+		"Optional. &eSpatial IO&r lets you snapshot a region into a &eSpatial Storage Cell&r — temporary pocket dimension on demand. Niche but iconic."
+		""
+		"&aPress &eG&r — &eGuideME&r → &eSpatial&r is non-trivial. Read it before building.&r"
+	]
+	quest.7FEE2AF45B268424.quest_subtitle: "Pocket dimensions."
+	quest.7FEE2AF45B268424.title: "Spatial IO"
+	quest.7FF43E7A6CEDAB1A.quest_desc: [
+		"The &eLaser Arm&r is &6Oritech&r's remote-fire automation — point it at any block via the &eTarget Designator&r and it delivers energy or beam-mining at range."
+		""
+		"&aBuild:&r"
+		"- &eLaser Arm Block&r."
+		"- &eTarget Designator&r in hand to pick what it shoots at."
+		""
+		"&aUse:&r"
+		"- Right-click a target with the designator, then point the arm — it locks on."
+		"- Charges machines, mines designated blocks, or zaps mobs depending on configuration."
+	]
+	quest.7FF43E7A6CEDAB1A.quest_subtitle: "Aim. Charge. Zap."
+	quest.7FF43E7A6CEDAB1A.title: "Laser Arm"
+	task.3D147F708192A583.title: "MekaSuit Helmet"
+	task.3D147F708192A588.title: "MekaSuit Bodyarmor"
+	task.3D147F708192A589.title: "MekaSuit Pants"
+	task.3D147F708192A58A.title: "MekaSuit Boots"
+	task.4F512AB1304BED9A.title: "Accept the Titan's challenge"
+	task.60AC7B83914DEF57.title: "Ignitium Helmet"
+	task.60AC7B83914DEF58.title: "Ignitium Chestplate"
+	task.6B2C8D4F5E3A7081.title: "Choose a Path"
+	task.6DB905F59BD03A72.title: "Visit Nether"
 }
