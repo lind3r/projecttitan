@@ -194,6 +194,15 @@
 	]
 	quest.2804065C0AD6C566.quest_subtitle: "It begins to burn."
 	quest.2804065C0AD6C566.title: "Tier 2 - &eEmber of the Titan&r"
+	quest.2BC9F4A1E8D5670F.quest_desc: [
+		"&6Welcome to Project Titan.&r"
+		""
+		"The Core stands silent at the heart of your world. Building it — and feeding it — is the long work of this pack."
+		""
+		"Other chapters branch out into power, resources, gear, and the wider world. They are companions to this spine, not prerequisites. Wander where you like; return here when you are ready to forge the first &eMote&r."
+	]
+	quest.2BC9F4A1E8D5670F.quest_subtitle: "The Core stirs."
+	quest.2BC9F4A1E8D5670F.title: "Welcome to Project Titan"
 	quest.280A1B2C3D4E5F80.quest_desc: ["End-tier materials gate a lot of late progression. The journey to &dthe End&r and back is its own story."]
 	quest.280A1B2C3D4E5F80.quest_subtitle: "Find the portal. Take the leap."
 	quest.280A1B2C3D4E5F80.title: "Visit &dthe End&r"

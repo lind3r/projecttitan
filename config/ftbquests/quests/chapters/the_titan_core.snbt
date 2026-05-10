@@ -14,6 +14,18 @@
 	quest_links: [ ]
 	quests: [
 		{
+			id: "2BC9F4A1E8D5670F"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "3DA0E5F7B2C16804"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2BC9F4A1E8D5670F"]
 			id: "1FCD148E2DA620F0"
 			rewards: [
 				{
