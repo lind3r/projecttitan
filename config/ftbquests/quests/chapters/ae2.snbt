@@ -12,6 +12,14 @@
 	quests: [
 		{
 			id: "633C74689327AB2C"
+			rewards: [{
+				id: "4CBDB5560175B00D"
+				item: {
+					count: 1
+					id: "ae2:nether_quartz_wrench"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -25,10 +33,11 @@
 			dependencies: ["633C74689327AB2C"]
 			id: "3052E3B82544C299"
 			rewards: [{
-				id: "68072E6FBE509A28"
+				count: 8
+				id: "209D3791B1792680"
 				item: {
 					count: 1
-					id: "ae2:energy_cell"
+					id: "ae2:certus_quartz_crystal"
 				}
 				type: "item"
 			}]

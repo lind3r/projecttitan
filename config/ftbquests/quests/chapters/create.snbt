@@ -13,11 +13,10 @@
 		{
 			id: "0C99F5AA659FF526"
 			rewards: [{
-				count: 16
-				id: "709C67B15BE565E1"
+				id: "6566824951EFCF91"
 				item: {
 					count: 1
-					id: "create:andesite_alloy"
+					id: "create:wrench"
 				}
 				type: "item"
 			}]
@@ -479,24 +478,6 @@
 		{
 			dependencies: ["0C99F5AA659FF526"]
 			id: "0FE97A6346E80276"
-			rewards: [
-				{
-					id: "66BC5AC6F0A01E02"
-					item: {
-						count: 1
-						id: "create:goggles"
-					}
-					type: "item"
-				}
-				{
-					id: "428F19ADAA030A92"
-					item: {
-						count: 1
-						id: "create:wrench"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "05FF195CFF5689AF"
 				type: "checkmark"

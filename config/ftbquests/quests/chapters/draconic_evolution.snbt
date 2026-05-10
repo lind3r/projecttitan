@@ -234,15 +234,6 @@
 		{
 			dependencies: ["2E8FD56B289B24B1"]
 			id: "165B94D41DEEDB88"
-			rewards: [{
-				count: 4
-				id: "377B5C6D2B65A7F9"
-				item: {
-					count: 1
-					id: "draconicevolution:draconium_ingot"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "031EE71A97470A37"
 				type: "checkmark"

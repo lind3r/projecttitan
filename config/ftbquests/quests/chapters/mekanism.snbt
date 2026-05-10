@@ -12,6 +12,14 @@
 	quests: [
 		{
 			id: "5826EC6A328C5DE5"
+			rewards: [{
+				id: "500EC2DDC450ADF8"
+				item: {
+					count: 1
+					id: "mekanism:configurator"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -194,15 +202,6 @@
 					item: {
 						count: 1
 						id: "mekanism:alloy_atomic"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "1B924D5E6F708399"
-					item: {
-						count: 1
-						id: "mekanism:pellet_antimatter"
 					}
 					type: "item"
 				}
@@ -589,35 +588,15 @@
 		{
 			dependencies: ["5BD3E6F708192A20"]
 			id: "6DD6993615585377"
-			rewards: [
-				{
-					count: 8
-					id: "524FC78E5DC7FEDF"
-					item: {
-						count: 1
-						id: "mekanismgenerators:fission_fuel_assembly"
-					}
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "7C947B029E1FCE18"
+				item: {
+					count: 1
+					id: "mekanism:ingot_lead"
 				}
-				{
-					count: 4
-					id: "1D3D6F5B1BF82E50"
-					item: {
-						count: 1
-						id: "mekanismgenerators:control_rod_assembly"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "6ECB66D7E49D2779"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -660,7 +639,6 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "6B8F8AFFFC728D8B"
 					item: {
 						count: 1
@@ -708,19 +686,10 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "36CB5C0F17EE36F9"
 					item: {
 						count: 1
 						id: "mekanism:laser_amplifier"
-					}
-					type: "item"
-				}
-				{
-					id: "66FA8239594EDB68"
-					item: {
-						count: 1
-						id: "mekanismgenerators:hohlraum"
 					}
 					type: "item"
 				}
@@ -745,52 +714,20 @@
 			dependencies: ["5601821AEEF30E39"]
 			id: "4EB9BF26C58A6193"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "425A136DFD8AA2F9"
-					item: {
-						count: 1
-						id: "mekanism:pellet_antimatter"
-					}
-					type: "item"
+			rewards: [{
+				id: "26A290317C0B124C"
+				item: {
+					count: 1
+					id: "mekanism:supercharged_coil"
 				}
-				{
-					id: "3F526037BE6C23B0"
-					item: {
-						count: 1
-						id: "mekanism:supercharged_coil"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "3E0DB9E9AE64AEAB"
-					item: {
-						count: 1
-						id: "mekanism:sps_casing"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 4L
-					id: "48002C644BC18F62"
-					item: { count: 1, id: "mekanism:sps_casing" }
-					type: "item"
-				}
-				{
-					id: "5B1E0FC3A94E5263"
-					item: { count: 1, id: "mekanism:supercharged_coil" }
-					type: "item"
-				}
-				{
-					id: "01E68DAEDE695002"
-					item: { count: 1, id: "mekanism:pellet_antimatter" }
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "48002C644BC18F62"
+				item: { count: 1, id: "mekanism:sps_casing" }
+				type: "item"
+			}]
 			x: 8.5d
 			y: -3.5d
 		}
@@ -798,25 +735,15 @@
 			dependencies: ["4EB9BF26C58A6193"]
 			id: "68414A50EFFAFAE0"
 			optional: true
-			rewards: [
-				{
-					id: "3D49893B80897D83"
-					item: {
-						count: 1
-						id: "mekanism:antiprotonic_nucleosynthesizer"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "4A12086E0961479A"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_control_circuit"
 				}
-				{
-					count: 8
-					id: "4DE24C841346C1E5"
-					item: {
-						count: 1
-						id: "mekanism:pellet_antimatter"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "11D94A8A49859005"
 				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
@@ -828,14 +755,6 @@
 		{
 			dependencies: ["5826EC6A328C5DE5"]
 			id: "3CE304364DB0BBC0"
-			rewards: [{
-				id: "6E499075DC2E8216"
-				item: {
-					count: 1
-					id: "mekanism:configurator"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "54C82EDAB3E63CE6"
 				type: "checkmark"
