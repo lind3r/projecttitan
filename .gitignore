@@ -34,6 +34,8 @@ config/jei/world/
 config/ars_nouveau/search_index/
 # FTB Chunks client-side chunk display state
 config/ftbchunks-client.snbt
+# ForgeEndertech writes per-biome AdLods cfgs as the player visits them
+config/forgeendertech/Biomes/
 
 # packwiz export artifacts (ship via GitHub Releases, not git)
 *.mrpack
