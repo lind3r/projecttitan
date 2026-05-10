@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_25.cfe"
-hash = "f793f79d621b1ef80d6732d58db4a5054883b64044d7b31bd120e3605e5a105f"
+file = "config/ars_nouveau/search_index/_2c.cfe"
+hash = "fc1a672cc1ba87c4b86ce28b9513febc20cf37994c9391067763c9e592a6c115"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_25.cfs"
-hash = "338b943f6e82be2e7992e4f43fb93f3ccb847caf60c2975a6c99126c5fc85bda"
+file = "config/ars_nouveau/search_index/_2c.cfs"
+hash = "0a212805b46659b3c29969c7daf8dd4b961d79b098f1994df09a1cadce260dfd"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_25.si"
-hash = "3310eb36d5d6a5e110b3889d7942d3899621034a2b4890f6df693c98b9dd3752"
+file = "config/ars_nouveau/search_index/_2c.si"
+hash = "127b0a8f32647fa6adcb538121e48651829cb78fb9c64a60ce83e2ed522ed313"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_26"
-hash = "3199e3c0fa6a321545e7a91bdca92b36b329db7b7d061e45f75416b2e600a204"
+file = "config/ars_nouveau/search_index/segments_2d"
+hash = "fe15ede8708ac5cda81b398e1712ee1dfe3cf5d2cdb4b17a54fa858aa87b5db1"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1518,7 +1518,7 @@ hash = "d0d46d14ad1317e3c4a113818f01fa8f8cf40546a882c649992d1a8f43583d7a"
 
 [[files]]
 file = "config/cataclysm-common.toml"
-hash = "61926b9ce81d6d44ac25e367b67e5642235fa026e6dddd6be54e0c2965570cc7"
+hash = "9d7c6f0e9c2d4c9652dc0275d4da458e5995e5ead946a598094bad4d34f8688a"
 
 [[files]]
 file = "config/ccl.cfg"
@@ -1798,7 +1798,7 @@ hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "687e61080586af1a35241db4f33c2c92d42d78965e4f63e65cfa0d379a688a72"
+hash = "141e99a96551256d65f2afcd37702e042e430e0fba791a4740b019caa8683840"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2015,6 +2015,14 @@ hash = "b5a9a4224f9cd006b7689c5ed6fcc674c7a6550c23292ec73bab490d948f8d77"
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.json"
 hash = "90a565081be2b40ce943cc2126d11eb8e3201ef65e88bde7fecc1d587741c512"
+
+[[files]]
+file = "config/jei/world/local/New_World__1/bookmarks.json"
+hash = "52ad8a20840830797e1a3d6417529c070530086f31a9322ddcda5b902f7a0ef9"
+
+[[files]]
+file = "config/jei/world/local/New_World__1/lookupHistory.json"
+hash = "4e78fafcd6feb4bf996da42ed49d7e04e6cbab48640aab6212994d16c2946ce5"
 
 [[files]]
 file = "config/journeymap-server.toml"

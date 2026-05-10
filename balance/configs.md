@@ -96,6 +96,23 @@ Removed crafting recipes (machines remain in JEI but uncraftable in survival):
 |---         |---        |---   |---                                                                                                           |---     |
 | `channels` | `DEFAULT` | `X4` | Cabling effort, not channel math, is the design constraint. Glass/Covered = 32 ch, Dense = 128 ch. Mentioned in the AE2 intro and Bric-a-Brac quests so players know the stock-AE2 numbers in the Guide are 4× off. | (this commit) |
 
+## L_Ender's Cataclysm — disable per-hit / DPS damage caps on Trial bosses
+
+**File:** `config/cataclysm-common.toml`
+
+Cataclysm ships per-boss anti-cheese caps that throttle late-game weapons (a 700-dmg Chaotic Draconic sword was landing at 5 dmg/swing — `damage_cap` clamped the hit, then `dps_cap` throttled subsequent swings). Caps make sense for solo boss-fight design but are wrong for the post-T10 Titan Trial gauntlet where the player is intentionally apex-tier. Note: change is global, so these three bosses are also nerfed in their native arenas — acceptable given the pack's late-game scale.
+
+| Section                                | Key          | Default    | Pack       | Reason |
+|---                                     |---           |---:        |---:        |---     |
+| `[mobs.ender_guardian.cap_config]`     | `damage_cap` | 22.0       | 999999.0   | See above. |
+| `[mobs.ender_guardian.cap_config]`     | `dps_cap`    | 13.0       | 999999.0   | "       |
+| `[mobs.netherite_monstrosity.cap_config]` | `damage_cap` | 25.0    | 999999.0   | "       |
+| `[mobs.netherite_monstrosity.cap_config]` | `dps_cap`   | 20.0    | 999999.0   | "       |
+| `[mobs.ignis.cap_config]`              | `damage_cap` | 20.0       | 999999.0   | "       |
+| `[mobs.ignis.cap_config]`              | `dps_cap`    | 14.0       | 999999.0   | "       |
+
+`nature_heal` (passive regen, 25.0) and Ignis's `healing_multiplier` (lifesteal, 1.0) **left at default** — confirmed in playtest 2026-05-10 that with caps removed the regen is a fight-pacing feature, not a wall. To compensate, the Trial wave's `max_health` modifier is now `+900%` (10× HP) instead of `+100%` (2×) — see `data/projecttitancore/gateways/titan_trial.json` in the mod repo.
+
 ---
 
 ## Update workflow
