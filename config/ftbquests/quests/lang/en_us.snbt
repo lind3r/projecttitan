@@ -194,7 +194,7 @@
 		"&aPress &eG&r — &eGuideME&r → &eStorage&r covers cell math and partitioning.&r"
 	]
 	quest.132F45785EF7857E.quest_subtitle: "Storage at scale."
-	quest.132F45785EF7857E.title: "ME Drive &amp; Cells"
+	quest.132F45785EF7857E.title: "ME Drive/Cells"
 	quest.165B94D41DEEDB88.quest_desc: [
 		"&aWorth knowing&r — &6Draconic Evolution&r odds and ends:"
 		""
@@ -302,7 +302,7 @@
 	]
 	quest.1A2B3C4D5E6F70B1.quest_subtitle: "Variety is max health."
 	quest.1A2B3C4D5E6F70B1.title: "&6Eat Your Veggies&r"
-	quest.1A2B3C4D5E6F70C1.quest_desc: ["The &6Crafting Station&r is a 3×3 crafter that remembers — drop ingredients in, browse JEI inline, click a recipe to auto-fill. The grid stays loaded between visits, so half-finished crafts wait for you."]
+	quest.1A2B3C4D5E6F70C1.quest_desc: ["The &6Crafting Station&r is a 3×3 crafter that remembers — drop ingredients in, browse JEI inline, click a recipe to auto-fill. The grid stays loaded between visits, so half-finished crafts wait for you. It can also use contents from adjacent inventories, like a Diamond Barrel."]
 	quest.1A2B3C4D5E6F70C1.quest_subtitle: "Crafting that remembers."
 	quest.1A2B3C4D5E6F70C1.title: "&6Crafting Station&r"
 	quest.1A2B3C4D5E6F70D1.quest_desc: [
@@ -483,7 +483,6 @@
 		""
 		"&aBuild:&r"
 		"- &eBasic Smelting Factory&r &7(or any Basic factory variant)&r"
-		"- &eAdvanced Smelting Factory&r &7(2nd tier — proves you've upgraded once)&r"
 		""
 		"&aUse:&r"
 		"- Right-click a placed factory with a &eTier Installer&r (&eBasic&r → &eAdvanced&r → &eElite&r → &eUltimate&r) to bump it in place — no rebuild, contents preserved."
@@ -713,20 +712,6 @@
 	]
 	quest.329EEDB0E29E970C.quest_subtitle: "Mobs in, drops out."
 	quest.329EEDB0E29E970C.title: "Mob Crusher"
-	quest.35196552F3827FEB.quest_desc: [
-		"&6IF&r's bottomless storage — &eBlack Hole Tank&r holds infinite fluid of one type; &eBlack Hole Unit&r holds infinite items of one type. Tier upgrades raise transfer speed."
-		""
-		"&aBuild:&r"
-		"- &eBlack Hole Tank&r."
-		"- &eBlack Hole Unit&r."
-		"- &eBlack Hole Controller&r ties many of them into one accessible inventory."
-		""
-		"&aUse:&r"
-		"- Set the type by inserting one example."
-		"- Insert via hopper, pipe, or controller — extract the same way."
-	]
-	quest.35196552F3827FEB.quest_subtitle: "Storage you'll never overflow."
-	quest.35196552F3827FEB.title: "Black Hole Storage"
 	quest.35350AEF9EB068A5.quest_desc: [
 		"&eHazmat Suit&r is non-negotiable for working a &eFission Reactor&r. The &eDosimeter&r reads your absorbed dose; the &eGeiger Counter&r reads ambient radiation around blocks and barrels."
 		""
@@ -1347,7 +1332,7 @@
 		"&aPress &eG&r — &eGuideME&r → &ePatterns&r is the canonical reference.&r"
 	]
 	quest.5988DF86EAF5244F.quest_subtitle: "Encode. Provide. Craft."
-	quest.5988DF86EAF5244F.title: "Patterns &amp; Providers"
+	quest.5988DF86EAF5244F.title: "Patterns/Providers"
 	quest.5A1B2C3D4E5F6071.quest_desc: [
 		"The Pulse calls back. Faint whispers in old tongues drift from the projection."
 		""
@@ -1597,7 +1582,7 @@
 		"&aPress &eG&r — &eGuideME&r → &eBuses&r explains every variant.&r"
 	]
 	quest.6277D2C336D1242B.quest_subtitle: "Pull, push, expose."
-	quest.6277D2C336D1242B.title: "Buses &amp; Interfaces"
+	quest.6277D2C336D1242B.title: "Buses/Interfaces"
 	quest.62898E68F9F7515D.quest_desc: ["&6YUNG's&r reimagined &eDesert Temples&r have multi-room layouts, traps, and significantly better loot. Find one and explore."]
 	quest.62898E68F9F7515D.quest_subtitle: "More than a sand pyramid with a hole."
 	quest.62898E68F9F7515D.title: "&6Better Desert Temples&r"
@@ -1843,18 +1828,6 @@
 	]
 	quest.6FA84BEEE0BB88B0.quest_subtitle: "Saw and missile."
 	quest.6FA84BEEE0BB88B0.title: "Slay the &dProwler&r"
-	quest.7072C4A5E4F7660F.quest_desc: [
-		"Optional. The &eBlack Hole Block&r is &6Oritech&r's ultimate item-void/storage block — bottomless one-type item storage, used as a sink or as a black-hole-class buffer for autocrafting."
-		""
-		"&aBuild:&r"
-		"- &eBlack Hole Block&r — needs &eStrange Matter&r from the &eParticle Accelerator&r."
-		""
-		"&aUse:&r"
-		"- Insert any single item type; capacity is the maximum 32-bit value (over 2 billion)."
-		"- Useful as a cobble void, a 5x ore-route buffer, or a single bottomless stack."
-	]
-	quest.7072C4A5E4F7660F.quest_subtitle: "Storage you'll never fill."
-	quest.7072C4A5E4F7660F.title: "Black Hole Storage"
 	quest.714690D48088A02F.quest_desc: [
 		"The &a5x ore route&r — Mekanism's deepest ore-multiplication chain. Each ore becomes 5 ingots if you walk it through every stage."
 		""

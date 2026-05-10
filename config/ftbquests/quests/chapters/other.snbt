@@ -48,38 +48,28 @@
 				id: "2C295402B30C22ED"
 				type: "checkmark"
 			}]
-			x: -15.0d
-			y: -10.0d
+			x: -5.3999999999999995d
+			y: -3.5999999999999996d
 		}
 		{
 			dependencies: ["73122F6E402575EA"]
 			id: "3DC23BD54B670DE8"
-			rewards: [
-				{
-					count: 8
-					id: "05842569C43246ED"
-					item: {
-						count: 1
-						id: "minecraft:lapis_block"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "05842569C43246ED"
+				item: {
+					count: 1
+					id: "minecraft:lapis_block"
 				}
-				{
-					id: "7ACDF3BFAECA2BD8"
-					item: {
-						count: 1
-						id: "quark:ancient_tome"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E74B6F746CA5B4F"
 				structure: "#betterstrongholds:better_strongholds"
 				type: "structure"
 			}]
-			x: -12.5d
-			y: -10.0d
+			x: -6.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["73122F6E402575EA"]
@@ -98,14 +88,14 @@
 				structure: "#betterdungeons:better_dungeons"
 				type: "structure"
 			}]
-			x: -13.2d
-			y: -8.2d
+			x: -10.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["73122F6E402575EA"]
 			id: "2EE00AD34E87EDBE"
 			rewards: [{
-				count: 16
+				count: 64
 				id: "2AF4A568DA21192A"
 				item: {
 					count: 1
@@ -118,8 +108,8 @@
 				structure: "#bettermineshafts:better_mineshafts"
 				type: "structure"
 			}]
-			x: -15.0d
-			y: -7.5d
+			x: -12.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["73122F6E402575EA"]
@@ -138,8 +128,8 @@
 				structure: "#betterjungletemples:better_jungle_temples"
 				type: "structure"
 			}]
-			x: -16.8d
-			y: -8.2d
+			x: -12.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["73122F6E402575EA"]
@@ -158,8 +148,8 @@
 				structure: "betterwitchhuts:witch_hut"
 				type: "structure"
 			}]
-			x: -17.5d
-			y: -10.0d
+			x: -12.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["73122F6E402575EA"]
@@ -189,8 +179,8 @@
 				structure: "#betteroceanmonuments:better_ocean_monuments"
 				type: "structure"
 			}]
-			x: -16.8d
-			y: -11.8d
+			x: -10.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["73122F6E402575EA"]
@@ -209,15 +199,14 @@
 				structure: "#betterdeserttemples:better_desert_temples"
 				type: "structure"
 			}]
-			x: -15.0d
-			y: -12.5d
+			x: -9.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["73122F6E402575EA"]
 			id: "7E66E335AD1D9D15"
 			rewards: [
 				{
-					count: 8
 					id: "654041842E8CA0A4"
 					item: {
 						count: 1
@@ -240,11 +229,14 @@
 				structure: "#betterfortresses:better_fortresses"
 				type: "structure"
 			}]
-			x: -13.2d
-			y: -11.8d
+			x: -7.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
 			id: "47E8A5AEDC9156BB"
 			rewards: [{
 				count: 4
@@ -261,8 +253,8 @@
 				id: "410E32D1412F217C"
 				type: "checkmark"
 			}]
-			x: -8.0d
-			y: -5.0d
+			x: -6.0d
+			y: -1.7999999999999998d
 		}
 		{
 			dependencies: ["47E8A5AEDC9156BB"]
@@ -292,39 +284,28 @@
 				id: "6DB905F59BD03A72"
 				type: "dimension"
 			}]
-			x: -7.0d
-			y: -7.0d
+			x: -9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["47E8A5AEDC9156BB"]
 			id: "280A1B2C3D4E5F80"
-			rewards: [
-				{
-					count: 16
-					id: "280A1B2C3D4E5F81"
-					item: {
-						count: 1
-						id: "minecraft:ender_pearl"
-					}
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "280A1B2C3D4E5F81"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
 				}
-				{
-					count: 4
-					id: "280A1B2C3D4E5F82"
-					item: {
-						count: 1
-						id: "minecraft:enchanted_golden_apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "280A1B2C3D4E5F83"
 				type: "dimension"
 			}]
-			x: -9.0d
-			y: -7.0d
+			x: -9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["47E8A5AEDC9156BB"]
@@ -348,84 +329,54 @@
 					}
 					type: "item"
 				}
-				{
-					id: "280A1B2C3D4E5F93"
-					item: {
-						count: 1
-						id: "quark:ancient_tome"
-					}
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "280A1B2C3D4E5F94"
 				structure: "minecraft:stronghold"
 				type: "structure"
 			}]
-			x: -8.0d
-			y: -3.0d
+			x: -9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
 			id: "280A1B2C3D4E5FA0"
-			rewards: [
-				{
-					count: 4
-					id: "280A1B2C3D4E5FA1"
-					item: {
-						count: 1
-						id: "minecraft:amethyst_block"
-					}
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "280A1B2C3D4E5FA2"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
 				}
-				{
-					count: 16
-					id: "280A1B2C3D4E5FA2"
-					item: {
-						count: 1
-						id: "minecraft:amethyst_shard"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				biome: "terralith:amethyst_rainforest"
 				id: "280A1B2C3D4E5FA3"
 				type: "biome"
 			}]
-			x: -8.0d
-			y: 3.0d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
 			id: "280A1B2C3D4E5FC0"
-			rewards: [
-				{
-					count: 8
-					id: "280A1B2C3D4E5FC1"
-					item: {
-						count: 1
-						id: "minecraft:emerald"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "280A1B2C3D4E5FC1"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
 				}
-				{
-					count: 4
-					id: "280A1B2C3D4E5FC2"
-					item: {
-						count: 1
-						id: "minecraft:emerald_block"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "280A1B2C3D4E5FC3"
 				structure: "#towns_and_towers:town"
 				type: "structure"
 			}]
-			x: -10.0d
-			y: 5.0d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -441,7 +392,6 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "280A1B2C3D4E5FD2"
 					item: {
 						count: 1
@@ -464,31 +414,21 @@
 				structure: "dungeons_arise:bandit_towers"
 				type: "structure"
 			}]
-			x: -8.0d
-			y: 7.0d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
 			id: "17F8A0B1C2D3E540"
-			rewards: [
-				{
-					count: 8
-					id: "17F8A0B1C2D3E541"
-					item: {
-						count: 1
-						id: "alexsmobs:bone_serpent_tooth"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "17F8A0B1C2D3E541"
+				item: {
+					count: 1
+					id: "alexsmobs:bone_serpent_tooth"
 				}
-				{
-					id: "17F8A0B1C2D3E542"
-					item: {
-						count: 1
-						id: "alexsmobs:soul_heart"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "alexsmobs:bone_serpent"
 				id: "17F8A0B1C2D3E543"
@@ -496,7 +436,7 @@
 				value: 3L
 			}]
 			x: -3.0d
-			y: -7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -508,15 +448,6 @@
 					item: {
 						count: 1
 						id: "minecraft:diamond"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "17F8A0B1C2D3E582"
-					item: {
-						count: 1
-						id: "minecraft:gold_block"
 					}
 					type: "item"
 				}
@@ -545,8 +476,8 @@
 				type: "stat"
 				value: 1
 			}]
-			x: -1.0d
-			y: -7.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -562,15 +493,6 @@
 					type: "item"
 				}
 				{
-					count: 4
-					id: "123BD04AFFE965E2"
-					item: {
-						count: 1
-						id: "hostilenetworks:prediction_matrix"
-					}
-					type: "item"
-				}
-				{
 					id: "0747979688F1D4E6"
 					item: {
 						count: 1
@@ -579,6 +501,7 @@
 					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [
 				{
 					id: "5ADC4C3D968E9FE1"
@@ -596,18 +519,20 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -7.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
+			icon: {
+				id: "fluxnetworks:flux_configurator"
+			}
 			id: "6CFBF73AA4473B0D"
 			rewards: [{
-				count: 4
-				id: "06ABCA5CF7B697F3"
+				id: "4C893F626064F02F"
 				item: {
 					count: 1
-					id: "fluxnetworks:flux_dust"
+					id: "fluxnetworks:flux_configurator"
 				}
 				type: "item"
 			}]
@@ -617,8 +542,8 @@
 				id: "19179944BA7886C5"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -7.0d
+			x: 3.5999999999999996d
+			y: -2.4d
 		}
 		{
 			dependencies: ["6CFBF73AA4473B0D"]
@@ -656,8 +581,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_plug" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -8.0d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6CFBF73AA4473B0D"]
@@ -686,8 +611,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_point" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -9.0d
+			x: 6.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6CFBF73AA4473B0D"]
@@ -716,49 +641,37 @@
 				item: { count: 1, id: "fluxnetworks:flux_controller" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -8.0d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
 			id: "5BD3E6F708A0CA10"
-			rewards: [
-				{
-					id: "5BD3E6F708A0CA11"
-					item: {
-						count: 1
-						id: "mininggadgets:upgrade_silk"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "5BD3E6F708A0CA13"
+				item: {
+					count: 1
+					id: "mininggadgets:upgrade_empty"
 				}
-				{
-					id: "5BD3E6F708A0CA12"
-					item: {
-						count: 1
-						id: "mininggadgets:upgrade_magnet"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5BD3E6F708A0CA13"
-					item: {
-						count: 1
-						id: "mininggadgets:upgrade_empty"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BD3E6F708A0CA14"
 				item: { count: 1, id: "mininggadgets:mininggadget_simple" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
+			icon: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				id: "sophisticatedstorage:barrel"
+			}
 			id: "357893A430163C95"
 			rewards: [{
 				count: 4
@@ -775,8 +688,8 @@
 				id: "3A89CCAD085DE9D4"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 4.8d
+			y: 0.6d
 		}
 		{
 			dependencies: ["357893A430163C95"]
@@ -805,47 +718,27 @@
 				item: { count: 1, id: "sophisticatedstorage:iron_barrel" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["357893A430163C95"]
 			id: "7637512874BE9397"
-			rewards: [
-				{
-					count: 2
-					id: "0141151B8A2FFF27"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
-					}
-					type: "item"
+			rewards: [{
+				id: "76BDC6CECF5E74B5"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:pickup_upgrade"
 				}
-				{
-					count: 2
-					id: "590813D17842D94B"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:advanced_magnet_upgrade"
-					}
-					type: "item"
-				}
-				{
-					id: "161C06D18F7BC61D"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:advanced_filter_upgrade"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0736EBB69162B7F2"
 				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
 				type: "item"
 			}]
 			x: 7.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -868,7 +761,6 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "6CE4F5061728395D"
 					item: {
 						count: 1
@@ -882,21 +774,13 @@
 				item: { count: 1, id: "functionalstorage:oak_1" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
 			id: "7D8F1A84CAEE2B73"
 			rewards: [
-				{
-					id: "3E04D95B41DD8FA8"
-					item: {
-						count: 1
-						id: "metalbarrels:diamond_barrel"
-					}
-					type: "item"
-				}
 				{
 					id: "7C25A9638C8FADBE"
 					item: {
@@ -919,8 +803,8 @@
 				item: { count: 1, id: "metalbarrels:iron_barrel" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -935,7 +819,6 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "6EC2AEFD9637B049"
 					item: {
 						count: 1
@@ -949,15 +832,14 @@
 				item: { count: 1, id: "itemcollectors:basic_collector" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
 			id: "4AC2D5E6F708B900"
 			rewards: [
 				{
-					count: 4
 					id: "4AC2D5E6F708B901"
 					item: {
 						count: 1
@@ -966,7 +848,6 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "4AC2D5E6F708B902"
 					item: {
 						count: 1
@@ -980,32 +861,21 @@
 				item: { count: 1, id: "toolbelt:belt" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
 			id: "6CE4F5061728394A"
-			rewards: [
-				{
-					count: 8
-					id: "6CE4F5061728394B"
-					item: {
-						count: 1
-						id: "pipez:advanced_upgrade"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "6CE4F5061728394B"
+				item: {
+					count: 1
+					id: "pipez:advanced_upgrade"
 				}
-				{
-					count: 4
-					id: "6CE4F5061728394C"
-					item: {
-						count: 1
-						id: "pipez:ultimate_upgrade"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6CE4F5061728394D"
@@ -1041,14 +911,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "1A2B3C4D5E6F70D8"
-					item: {
-						count: 1
-						id: "trashcans:ultimate_trash_can"
-					}
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "1A2B3C4D5E6F70D2"
@@ -1061,32 +923,22 @@
 		{
 			dependencies: ["610AC7347A4F7705"]
 			id: "6CE4F5061728396A"
-			rewards: [
-				{
-					id: "6CE4F5061728396B"
-					item: {
-						count: 1
-						id: "simplemagnets:advancedmagnet"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "6CE4F5061728396C"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
 				}
-				{
-					count: 2
-					id: "6CE4F5061728396C"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CE4F5061728396D"
 				item: { count: 1, id: "simplemagnets:basicmagnet" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -1180,8 +1032,8 @@
 				item: { count: 1, id: "solcarrot:food_book" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.0d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -1250,28 +1102,29 @@
 			id: "1A2B3C4D5E6F70A1"
 			rewards: [
 				{
-					id: "1A2B3C4D5E6F70A3"
-					item: {
-						count: 1
-						id: "chisel:diamond_chisel"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "1A2B3C4D5E6F70A4"
-					item: {
-						count: 1
-						id: "minecraft:cobblestone"
-					}
-					type: "item"
-				}
-				{
 					count: 16
 					id: "1A2B3C4D5E6F70A5"
 					item: {
 						count: 1
 						id: "minecraft:sandstone"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1135E40B52DFBCD6"
+					item: {
+						count: 1
+						id: "quark:azalea_wood"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7503448716333253"
+					item: {
+						count: 1
+						id: "projecttitancore:holy_bricks"
 					}
 					type: "item"
 				}
@@ -1281,32 +1134,21 @@
 				item: { count: 1, id: "chisel:iron_chisel" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
 			id: "1A2B3C4D5E6F70C1"
-			rewards: [
-				{
-					count: 4
-					id: "1A2B3C4D5E6F70C3"
-					item: {
-						count: 1
-						id: "craftingstation:crafting_station"
-					}
-					type: "item"
+			rewards: [{
+				count: 64
+				id: "1A2B3C4D5E6F70C4"
+				item: {
+					count: 1
+					id: "minecraft:oak_planks"
 				}
-				{
-					count: 16
-					id: "1A2B3C4D5E6F70C4"
-					item: {
-						count: 1
-						id: "minecraft:oak_planks"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A2B3C4D5E6F70C2"
 				item: { count: 1, id: "craftingstation:crafting_station" }
@@ -1319,14 +1161,6 @@
 			dependencies: ["610AC7347A4F7705"]
 			id: "6CE4F5061728392A"
 			rewards: [
-				{
-					id: "6CE4F5061728392B"
-					item: {
-						count: 1
-						id: "quark:ancient_tome"
-					}
-					type: "item"
-				}
 				{
 					id: "6CE4F5061728392C"
 					item: {
@@ -1388,62 +1222,49 @@
 					}
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					id: "6CE4F5061728391E"
-					item: { count: 1, id: "supplementaries:sack" }
-					type: "item"
-				}
-				{
-					id: "6CE4F5061728391F"
-					item: { count: 1, id: "supplementaries:globe" }
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["610AC7347A4F7705"]
-			id: "6CE4F5061728397A"
-			rewards: [
-				{
-					id: "6CE4F5061728397B"
+					id: "6D71863448448804"
 					item: {
 						count: 1
-						id: "computercraft:computer_advanced"
-					}
-					type: "item"
-				}
-				{
-					id: "6CE4F5061728397C"
-					item: {
-						count: 1
-						id: "computercraft:wireless_modem_normal"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "6CE4F5061728397D"
-					item: {
-						count: 1
-						id: "computercraft:disk"
+						id: "supplementaries:globe"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
+				id: "6CE4F5061728391E"
+				item: { count: 1, id: "supplementaries:sack" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["610AC7347A4F7705"]
+			id: "6CE4F5061728397A"
+			rewards: [{
+				count: 4
+				id: "6CE4F5061728397D"
+				item: {
+					count: 1
+					id: "computercraft:disk"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
 				id: "6CE4F5061728397E"
 				item: { count: 1, id: "computercraft:computer_normal" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
+			icon: {
+				id: "minecraft:raw_iron"
+			}
 			id: "7DA79533AFA8AAEB"
 			rewards: [{
 				id: "795B2031B9530312"
@@ -1454,12 +1275,13 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "58598E6E8060F045"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7DA79533AFA8AAEB"]
@@ -1503,7 +1325,7 @@
 				}
 			]
 			x: 0.0d
-			y: 11.0d
+			y: -5.0d
 		}
 	]
 }

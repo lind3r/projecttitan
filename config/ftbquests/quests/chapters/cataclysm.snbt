@@ -59,7 +59,7 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["18852E1D544D601B"]
@@ -82,14 +82,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "17F8A0B1C2D3E533"
-					item: {
-						count: 1
-						id: "apotheosis:mythic_material"
-					}
-					type: "item"
-				}
 			]
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
@@ -97,8 +89,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.54d
-			y: -3.54d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["18852E1D544D601B"]
@@ -121,14 +113,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "17F8A0B1C2D3E553"
-					item: {
-						count: 1
-						id: "cataclysm:void_core"
-					}
-					type: "item"
-				}
 			]
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
@@ -136,7 +120,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -176,29 +160,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.54d
-			y: 3.54d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["18852E1D544D601B"]
 			id: "60AC7B83914DEF52"
 			rewards: [
-				{
-					id: "60AC7B83914DEF53"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_leggings"
-					}
-					type: "item"
-				}
-				{
-					id: "60AC7B83914DEF54"
-					item: {
-						count: 1
-						id: "cataclysm:ignitium_boots"
-					}
-					type: "item"
-				}
 				{
 					count: 4
 					id: "60AC7B83914DEF55"
@@ -229,6 +197,16 @@
 					item: { count: 1, id: "cataclysm:ignitium_chestplate" }
 					type: "item"
 				}
+				{
+					id: "220574FACC361D3B"
+					item: { count: 1, id: "cataclysm:ignitium_leggings" }
+					type: "item"
+				}
+				{
+					id: "391B76BC1C38DC39"
+					item: { count: 1, id: "cataclysm:ignitium_boots" }
+					type: "item"
+				}
 			]
 			x: 0.0d
 			y: 5.0d
@@ -237,14 +215,6 @@
 			dependencies: ["18852E1D544D601B"]
 			id: "04229664601A15D4"
 			rewards: [
-				{
-					id: "660C9C8BF3843508"
-					item: {
-						count: 1
-						id: "cataclysm:gauntlet_of_guard"
-					}
-					type: "item"
-				}
 				{
 					count: 4
 					id: "6ED2517E7653D975"
@@ -269,21 +239,13 @@
 				item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["18852E1D544D601B"]
 			id: "36B9C4E8DE45B718"
 			rewards: [
-				{
-					id: "0A0366BB73543304"
-					item: {
-						count: 1
-						id: "cataclysm:wrath_of_the_desert"
-					}
-					type: "item"
-				}
 				{
 					id: "03E687E7F7D7383C"
 					item: {
@@ -308,21 +270,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.54d
-			y: -3.54d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["18852E1D544D601B"]
 			id: "21C1DCB0B2D791A0"
 			rewards: [
-				{
-					id: "47B481612BC373D7"
-					item: {
-						count: 1
-						id: "cataclysm:soul_render"
-					}
-					type: "item"
-				}
 				{
 					count: 4
 					id: "01D19DEC06A5EBB6"
@@ -348,23 +302,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.54d
-			y: 3.54d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["17F8A0B1C2D3E520"]
 			id: "79E232C1900191CD"
 			rewards: [
 				{
-					id: "4F9FC9842B7A0C4D"
-					item: {
-						count: 1
-						id: "cataclysm:black_steel_sword"
-					}
-					type: "item"
-				}
-				{
-					count: 8
+					count: 4
 					id: "1B6CB93D7B6EA073"
 					item: {
 						count: 1
@@ -395,14 +341,13 @@
 				}
 			]
 			x: 0.0d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["18852E1D544D601B"]
 			id: "6FA84BEEE0BB88B0"
 			rewards: [
 				{
-					count: 4
 					id: "4E6739E06591E233"
 					item: {
 						count: 1
@@ -411,19 +356,10 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "0C89181481B719CE"
 					item: {
 						count: 1
 						id: "cataclysm:bone_reptile_chestplate"
-					}
-					type: "item"
-				}
-				{
-					id: "7B286DAB389E5114"
-					item: {
-						count: 1
-						id: "cataclysm:athame"
 					}
 					type: "item"
 				}
@@ -434,138 +370,85 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
-			y: -5.0d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["18852E1D544D601B"]
 			id: "310133839A33645C"
 			optional: true
-			rewards: [
-				{
-					id: "563011C76136B8F8"
-					item: {
-						count: 1
-						id: "cataclysm:coral_bardiche"
-					}
-					type: "item"
+			rewards: [{
+				id: "57E604DB31CC50EC"
+				item: {
+					count: 1
+					id: "cataclysm:crystallized_coral"
 				}
-				{
-					id: "25BB44BFD652EE1E"
-					item: {
-						count: 1
-						id: "cataclysm:coral_spear"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "57E604DB31CC50EC"
-					item: {
-						count: 1
-						id: "cataclysm:crystallized_coral"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "cataclysm:coralssus"
 				id: "54078CE19AAB0F26"
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["17F8A0B1C2D3E550"]
 			id: "477C3C2BE9118B1F"
-			rewards: [
-				{
-					id: "27F04E21622124A5"
-					item: {
-						count: 1
-						id: "cataclysm:cursium_helmet"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "7129163F39C25E34"
+				item: {
+					count: 1
+					id: "cataclysm:cursium_ingot"
 				}
-				{
-					id: "558C41BF8BFE2FAA"
-					item: {
-						count: 1
-						id: "cataclysm:cursium_chestplate"
-					}
-					type: "item"
-				}
-				{
-					id: "541F7D0CCCB106D4"
-					item: {
-						count: 1
-						id: "cataclysm:cursium_leggings"
-					}
-					type: "item"
-				}
-				{
-					id: "3C60D3C0468EE966"
-					item: {
-						count: 1
-						id: "cataclysm:cursium_boots"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
-				{
-					id: "0A9B4BC03AF1E2A2"
-					item: { count: 1, id: "cataclysm:cursium_ingot" }
-					type: "item"
-				}
 				{
 					id: "1B72432E0E0B8404"
 					item: { count: 1, id: "cataclysm:cursium_chestplate" }
 					type: "item"
 				}
+				{
+					id: "10DD49077C9CFFC6"
+					item: { count: 1, id: "cataclysm:cursium_helmet" }
+					type: "item"
+				}
+				{
+					id: "27BFDB36D101AC4F"
+					item: { count: 1, id: "cataclysm:cursium_leggings" }
+					type: "item"
+				}
+				{
+					id: "50A505A93DF5F60E"
+					item: { count: 1, id: "cataclysm:cursium_boots" }
+					type: "item"
+				}
 			]
-			x: 7.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18852E1D544D601B"]
 			id: "1DB508C752281D92"
-			rewards: [
-				{
-					id: "3DA8E23F71969D67"
-					item: {
-						count: 1
-						id: "cataclysm:burning_ashes"
-					}
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "5AA0E30D18FB284D"
+				item: {
+					count: 1
+					id: "minecraft:bone"
 				}
-				{
-					count: 4
-					id: "590C8EBDA1C9A03F"
-					item: {
-						count: 1
-						id: "cataclysm:ancient_metal_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "2D47BB96C9A131A5"
-					item: {
-						count: 1
-						id: "cataclysm:abyss_eye"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "52804F773922C2A6"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 5.0d
+			x: 3.5d
+			y: 2.0d
 		}
 	]
 }

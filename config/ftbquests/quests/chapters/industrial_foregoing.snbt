@@ -4,7 +4,7 @@
 	filename: "industrial_foregoing"
 	group: ""
 	icon: {
-		id: "industrialforegoing:machine_frame_simple"
+		id: "industrialforegoing:plant_gatherer"
 	}
 	id: "79D297A25252F981"
 	order_index: 4
@@ -12,15 +12,6 @@
 	quests: [
 		{
 			id: "0A75FF5E927E69E3"
-			rewards: [{
-				count: 4
-				id: "7D9D955CC5788044"
-				item: {
-					count: 1
-					id: "industrialforegoing:plastic"
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -40,14 +31,6 @@
 					item: {
 						count: 1
 						id: "industrialforegoing:biofuel_bucket"
-					}
-					type: "item"
-				}
-				{
-					id: "5BD3E6F708192A42"
-					item: {
-						count: 1
-						id: "industrialforegoing:machine_frame_advanced"
 					}
 					type: "item"
 				}
@@ -78,15 +61,15 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -5.0d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0A75FF5E927E69E3"]
 			id: "47D51C4D8FED1723"
 			rewards: [
 				{
-					count: 8
+					count: 16
 					id: "3A62388885D7D082"
 					item: {
 						count: 1
@@ -95,15 +78,7 @@
 					type: "item"
 				}
 				{
-					id: "03545EC4D257C18D"
-					item: {
-						count: 1
-						id: "industrialforegoing:plant_fertilizer"
-					}
-					type: "item"
-				}
-				{
-					count: 16
+					count: 64
 					id: "39E0500DF6DA85B6"
 					item: {
 						count: 1
@@ -124,21 +99,13 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 0.0d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0A75FF5E927E69E3"]
 			id: "329EEDB0E29E970C"
 			rewards: [
-				{
-					id: "3D650209849E69C1"
-					item: {
-						count: 1
-						id: "industrialforegoing:mob_imprisonment_tool"
-					}
-					type: "item"
-				}
 				{
 					count: 4
 					id: "3B952A30002F96D1"
@@ -170,40 +137,21 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 0.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0A75FF5E927E69E3"]
 			id: "2A9ABC7163AD5A2D"
-			rewards: [
-				{
-					id: "5F2CF7B2A9015DFB"
-					item: {
-						count: 1
-						id: "industrialforegoing:dissolution_chamber"
-					}
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "315285D8622448D2"
+				item: {
+					count: 1
+					id: "industrialforegoing:plastic"
 				}
-				{
-					count: 16
-					id: "315285D8622448D2"
-					item: {
-						count: 1
-						id: "industrialforegoing:plastic"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "6CFCA95A70065022"
-					item: {
-						count: 1
-						id: "industrialforegoing:latex_processing_unit"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7EFB24C8A741FB26"
@@ -216,38 +164,28 @@
 					type: "item"
 				}
 			]
-			x: -3.54d
-			y: -3.54d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["329EEDB0E29E970C"]
 			id: "22950E7EDF0BC8BA"
-			rewards: [
-				{
-					id: "219B8DE5B522CE7C"
-					item: {
-						count: 1
-						id: "industrialforegoing:mob_duplicator"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "281C7FCBF8D94BB9"
+				item: {
+					count: 1
+					id: "industrialforegoing:mob_imprisonment_tool"
 				}
-				{
-					count: 8
-					id: "281C7FCBF8D94BB9"
-					item: {
-						count: 1
-						id: "industrialforegoing:mob_imprisonment_tool"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "05275323B49524AE"
 				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0A75FF5E927E69E3"]
@@ -278,30 +216,20 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0A75FF5E927E69E3"]
 			id: "380735090EE11E61"
-			rewards: [
-				{
-					id: "79FF98A5B90006F4"
-					item: {
-						count: 1
-						id: "industrialforegoing:resourceful_furnace"
-					}
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "5B80D2A7DE5BF2A0"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
 				}
-				{
-					count: 16
-					id: "5B80D2A7DE5BF2A0"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "016D4C8DE369BA58"
 				item: { count: 1, id: "industrialforegoing:resourceful_furnace" }
@@ -311,89 +239,24 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0A75FF5E927E69E3"]
-			id: "35196552F3827FEB"
-			rewards: [
-				{
-					id: "307389E872267113"
-					item: {
-						components: {
-							"ftbquests:missing_item": "industrialforegoing:simple_black_hole_tank"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "185706A8B0D07E98"
-					item: {
-						components: {
-							"ftbquests:missing_item": "industrialforegoing:simple_black_hole_unit"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "719C3215AFEBC600"
-					item: {
-						components: {
-							"ftbquests:missing_item": "industrialforegoing:black_hole_controller"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5EFD98B9B9060A4F"
-					item: { components: { "ftbquests:missing_item": "industrialforegoing:pity_black_hole_tank" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "0A96EA18D1058368"
-					item: { components: { "ftbquests:missing_item": "industrialforegoing:pity_black_hole_unit" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 5.0d
-		}
-		{
 			dependencies: ["329EEDB0E29E970C"]
 			id: "7914E88D15989240"
 			optional: true
-			rewards: [
-				{
-					id: "41DF7775FF6ABCD9"
-					item: {
-						count: 1
-						id: "industrialforegoing:wither_builder"
-					}
-					type: "item"
+			rewards: [{
+				id: "577FBE8A9FB59DD0"
+				item: {
+					count: 1
+					id: "enderio:reinforced_obsidian_block"
 				}
-				{
-					count: 4
-					id: "594C0C9B96F4585C"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "4A5ABF4E7B0504A5"
 				item: { count: 1, id: "industrialforegoing:wither_builder" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["329EEDB0E29E970C"]
@@ -430,47 +293,27 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 3.54d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0A75FF5E927E69E3"]
 			id: "0AEACF41C1ED1FBA"
-			rewards: [
-				{
-					count: 16
-					id: "5995D2214C9DF58A"
-					item: {
-						count: 1
-						id: "industrialforegoing:plastic"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "53336778EF00B94C"
+				item: {
+					count: 1
+					id: "industrialforegoing:conveyor"
 				}
-				{
-					count: 8
-					id: "53336778EF00B94C"
-					item: {
-						count: 1
-						id: "industrialforegoing:conveyor"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "2EB21110BAB6D1CD"
-					item: {
-						count: 1
-						id: "industrialforegoing:fluid_extractor"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "241D21B470A1D912"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 5.0d
+			x: 2.0d
+			y: 2.5d
 		}
 	]
 }

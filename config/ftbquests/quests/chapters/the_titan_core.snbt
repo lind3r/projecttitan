@@ -27,26 +27,14 @@
 		{
 			dependencies: ["2BC9F4A1E8D5670F"]
 			id: "1FCD148E2DA620F0"
-			rewards: [
-				{
-					count: 16
-					id: "36039636A99356CC"
-					item: {
-						count: 1
-						id: "minecraft:iron_block"
-					}
-					type: "item"
+			rewards: [{
+				id: "72BCB19FED84761C"
+				item: {
+					count: 1
+					id: "minecraft:diamond_pickaxe"
 				}
-				{
-					count: 16
-					id: "36039636A99356CD"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "30BBF8E56FFBD9BB"
 				item: { count: 1, id: "projecttitancore:mote_of_the_titan" }
@@ -58,35 +46,15 @@
 		{
 			dependencies: ["1FCD148E2DA620F0"]
 			id: "2804065C0AD6C566"
-			rewards: [
-				{
-					count: 16
-					id: "07A602AF588128D7"
-					item: {
-						count: 1
-						id: "minecraft:iron_block"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "07A602AF588128D7"
+				item: {
+					count: 1
+					id: "minecraft:iron_block"
 				}
-				{
-					count: 16
-					id: "07A602AF588128D8"
-					item: {
-						count: 1
-						id: "minecraft:copper_block"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "07A602AF588128D9"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "40993DFD75E08377"
 				item: { count: 1, id: "projecttitancore:ember_of_the_titan" }
@@ -100,7 +68,7 @@
 			id: "38E76E428BB53F52"
 			rewards: [
 				{
-					count: 16
+					count: 4
 					id: "6970386622F8D057"
 					item: {
 						count: 1
@@ -109,19 +77,11 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "6970386622F8D058"
+					count: 4
+					id: "3516DF559DBB6BD0"
 					item: {
 						count: 1
 						id: "minecraft:gold_block"
-					}
-					type: "item"
-				}
-				{
-					id: "6970386622F8D059"
-					item: {
-						count: 1
-						id: "minecraft:totem_of_undying"
 					}
 					type: "item"
 				}
@@ -139,29 +99,20 @@
 			id: "4A1B2C3D4E5F6071"
 			rewards: [
 				{
-					count: 16
-					id: "4A1B2C3D4E5F6073"
+					count: 4
+					id: "498801085E0CEE0E"
 					item: {
 						count: 1
-						id: "minecraft:gold_block"
+						id: "minecraft:emerald_block"
 					}
 					type: "item"
 				}
 				{
-					count: 16
-					id: "4A1B2C3D4E5F6074"
+					count: 4
+					id: "38BA47CBCB211B54"
 					item: {
 						count: 1
 						id: "minecraft:diamond_block"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "4A1B2C3D4E5F6075"
-					item: {
-						count: 1
-						id: "minecraft:totem_of_undying"
 					}
 					type: "item"
 				}
@@ -179,28 +130,29 @@
 			id: "5A1B2C3D4E5F6071"
 			rewards: [
 				{
-					count: 16
-					id: "5A1B2C3D4E5F6073"
+					count: 8
+					id: "0FF7C4116A55C9C8"
 					item: {
 						count: 1
-						id: "minecraft:diamond_block"
+						id: "minecraft:iron_block"
 					}
 					type: "item"
 				}
 				{
-					count: 16
-					id: "5A1B2C3D4E5F6074"
+					count: 8
+					id: "581C56D413BA7B9D"
 					item: {
 						count: 1
-						id: "minecraft:emerald_block"
+						id: "minecraft:copper_block"
 					}
 					type: "item"
 				}
 				{
-					id: "5A1B2C3D4E5F6075"
+					count: 8
+					id: "4A1247DB4E1E85E8"
 					item: {
 						count: 1
-						id: "minecraft:nether_star"
+						id: "minecraft:gold_block"
 					}
 					type: "item"
 				}
@@ -218,7 +170,7 @@
 			id: "6A1B2C3D4E5F6071"
 			rewards: [
 				{
-					count: 16
+					count: 8
 					id: "6A1B2C3D4E5F6073"
 					item: {
 						count: 1
@@ -227,28 +179,10 @@
 					type: "item"
 				}
 				{
-					count: 8
-					id: "6A1B2C3D4E5F6074"
+					id: "1C8742634DAEF320"
 					item: {
 						count: 1
 						id: "minecraft:netherite_block"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "6A1B2C3D4E5F6075"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					type: "item"
-				}
-				{
-					id: "6A1B2C3D4E5F6076"
-					item: {
-						count: 1
-						id: "minecraft:beacon"
 					}
 					type: "item"
 				}
@@ -266,7 +200,7 @@
 			id: "7A1B2C3D4E5F6071"
 			rewards: [
 				{
-					count: 16
+					count: 8
 					id: "7A1B2C3D4E5F6073"
 					item: {
 						count: 1
@@ -275,29 +209,20 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "7A1B2C3D4E5F6074"
+					count: 8
+					id: "777A29579A9EA784"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "50B4DD1F44A20C98"
 					item: {
 						count: 1
 						id: "minecraft:netherite_block"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "7A1B2C3D4E5F6075"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7A1B2C3D4E5F6076"
-					item: {
-						count: 1
-						id: "minecraft:beacon"
 					}
 					type: "item"
 				}
@@ -313,43 +238,11 @@
 		{
 			dependencies: ["7A1B2C3D4E5F6071"]
 			id: "1A6D32ADD93267FB"
-			rewards: [
-				{
-					count: 16
-					id: "19656F149477859B"
-					item: {
-						count: 1
-						id: "minecraft:netherite_block"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "2970CA65452E60E1"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "74897C1C73FA6A5B"
-					item: {
-						count: 1
-						id: "minecraft:beacon"
-					}
-					type: "item"
-				}
-				{
-					id: "5FC2C5DF3FC5D409"
-					item: {
-						count: 1
-						id: "minecraft:elytra"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6C93A78CF2EDA6A7"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
 			tasks: [{
 				id: "76783260714F2728"
 				item: { count: 1, id: "projecttitancore:soul_of_the_titan" }
@@ -361,44 +254,11 @@
 		{
 			dependencies: ["1A6D32ADD93267FB"]
 			id: "00205656D3436C2F"
-			rewards: [
-				{
-					count: 32
-					id: "159D28375077D662"
-					item: {
-						count: 1
-						id: "minecraft:netherite_block"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "2A8DFD5CCD54F430"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "7BFEA44AA6C16ED8"
-					item: {
-						count: 1
-						id: "minecraft:beacon"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "1EF20FBF04894D74"
-					item: {
-						count: 1
-						id: "minecraft:elytra"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "46F99F0E75A990DD"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
 			tasks: [{
 				id: "05C33627C4F149F6"
 				item: { count: 1, id: "projecttitancore:breath_of_the_titan" }
@@ -410,44 +270,14 @@
 		{
 			dependencies: ["00205656D3436C2F"]
 			id: "74ED5B05FC10AF83"
-			rewards: [
-				{
-					count: 64
-					id: "376BE3AD4DBFD143"
-					item: {
-						count: 1
-						id: "minecraft:netherite_block"
-					}
-					type: "item"
+			rewards: [{
+				id: "43E8B42576759B9B"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
 				}
-				{
-					count: 32
-					id: "328A4F88C843D867"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "6DA02C8184886CF5"
-					item: {
-						count: 1
-						id: "minecraft:beacon"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "3E1E22EE59E4926D"
-					item: {
-						count: 1
-						id: "minecraft:elytra"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "heart"
 			size: 1.5d
 			tasks: [{
@@ -491,15 +321,6 @@
 		{
 			dependencies: ["0C998F80BDBE5530"]
 			id: "05968A0ACB30FF5D"
-			rewards: [{
-				count: 4
-				id: "450C4EE4B3916FAE"
-				item: {
-					count: 1
-					id: "minecraft:totem_of_undying"
-				}
-				type: "item"
-			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{

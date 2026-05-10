@@ -13,7 +13,6 @@
 		{
 			id: "66505E73698CDE6E"
 			rewards: [{
-				count: 4
 				id: "23D5816818EE96CD"
 				item: {
 					count: 1
@@ -35,7 +34,7 @@
 			id: "52758F4E624A6440"
 			rewards: [
 				{
-					count: 16
+					count: 4
 					id: "6E6BB86389C7EF3E"
 					item: {
 						count: 1
@@ -64,15 +63,14 @@
 					type: "item"
 				}
 			]
-			x: 3.91d
-			y: -3.12d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["66505E73698CDE6E"]
 			id: "1F86FF003387AE4E"
 			rewards: [
 				{
-					count: 8
 					id: "0EFDC2552236796D"
 					item: {
 						count: 1
@@ -81,7 +79,6 @@
 					type: "item"
 				}
 				{
-					count: 8
 					id: "24E5C172563515A4"
 					item: {
 						count: 1
@@ -90,7 +87,6 @@
 					type: "item"
 				}
 				{
-					count: 8
 					id: "42B00EFC99E41A8D"
 					item: {
 						count: 1
@@ -111,32 +107,21 @@
 					type: "item"
 				}
 			]
-			x: 4.87d
-			y: 1.11d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["66505E73698CDE6E"]
 			id: "7BE305D05A99BFC1"
-			rewards: [
-				{
-					count: 64
-					id: "61EA2932729634F2"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "61EA2932729634F2"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem"
 				}
-				{
-					count: 4
-					id: "1F01422472A6634E"
-					item: {
-						count: 1
-						id: "ars_nouveau:volcanic_sourcelink"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0E3484F7D62823AD"
@@ -154,15 +139,14 @@
 					type: "item"
 				}
 			]
-			x: 2.17d
-			y: 4.5d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["66505E73698CDE6E"]
 			id: "44576A594B9EF3C1"
 			rewards: [
 				{
-					count: 4
 					id: "65258DA3FD138584"
 					item: {
 						count: 1
@@ -171,7 +155,6 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "5BD4F9BF361C5825"
 					item: {
 						count: 1
@@ -180,7 +163,6 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "15161B9B9AF6462A"
 					item: {
 						count: 1
@@ -201,41 +183,21 @@
 					type: "item"
 				}
 			]
-			x: -2.17d
-			y: 4.5d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["66505E73698CDE6E"]
 			id: "06E74F5AEB182610"
-			rewards: [
-				{
-					count: 32
-					id: "06E74F5AEB182613"
-					item: {
-						count: 1
-						id: "ars_nouveau:magebloom"
-					}
-					type: "item"
+			rewards: [{
+				count: 32
+				id: "06E74F5AEB182613"
+				item: {
+					count: 1
+					id: "ars_nouveau:magebloom"
 				}
-				{
-					count: 16
-					id: "06E74F5AEB182614"
-					item: {
-						count: 1
-						id: "ars_nouveau:magebloom_fiber"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "06E74F5AEB182615"
-					item: {
-						count: 1
-						id: "ars_nouveau:magebloom_block"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "06E74F5AEB182611"
@@ -249,28 +211,19 @@
 					type: "item"
 				}
 			]
-			x: -4.87d
-			y: 1.11d
+			x: -4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["66505E73698CDE6E"]
 			id: "28A1B2C3D4E5F600"
 			rewards: [
 				{
-					count: 16
+					count: 8
 					id: "28A1B2C3D4E5F601"
 					item: {
 						count: 1
 						id: "ars_nouveau:source_gem"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "28A1B2C3D4E5F602"
-					item: {
-						count: 1
-						id: "ars_nouveau:drygmy_shard"
 					}
 					type: "item"
 				}
@@ -288,15 +241,15 @@
 				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
 				type: "item"
 			}]
-			x: -3.91d
-			y: -3.12d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["66505E73698CDE6E"]
 			id: "39B2C3D4E5F60710"
 			rewards: [
 				{
-					count: 32
+					count: 8
 					id: "39B2C3D4E5F60711"
 					item: {
 						count: 1
@@ -345,7 +298,7 @@
 				}
 			]
 			x: 0.0d
-			y: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7BE305D05A99BFC1"]
@@ -356,14 +309,6 @@
 					item: {
 						count: 1
 						id: "ars_nouveau:familiar_whirlisprig"
-					}
-					type: "item"
-				}
-				{
-					id: "4C5B7E8D31B8CF3B"
-					item: {
-						count: 1
-						id: "ars_nouveau:mycelial_sourcelink"
 					}
 					type: "item"
 				}
@@ -389,8 +334,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 5.0d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1F86FF003387AE4E"]
@@ -401,14 +346,6 @@
 					item: {
 						count: 1
 						id: "ars_nouveau:familiar_wixie"
-					}
-					type: "item"
-				}
-				{
-					id: "36CCC84D592A05DF"
-					item: {
-						count: 1
-						id: "ars_nouveau:potion_jar"
 					}
 					type: "item"
 				}
@@ -434,31 +371,20 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -1.0d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66505E73698CDE6E"]
 			id: "3FA2174F63B06F5E"
-			rewards: [
-				{
-					id: "5D908AFCB959F6ED"
-					item: {
-						count: 1
-						id: "ars_nouveau:familiar_starbuncle"
-					}
-					type: "item"
+			rewards: [{
+				id: "5D908AFCB959F6ED"
+				item: {
+					count: 1
+					id: "ars_nouveau:familiar_starbuncle"
 				}
-				{
-					count: 4
-					id: "02F85C6578400445"
-					item: {
-						count: 1
-						id: "ars_nouveau:dominion_wand"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0DE6D5C57690AE79"
@@ -477,140 +403,78 @@
 		{
 			dependencies: ["52758F4E624A6440"]
 			id: "618A9A4F484C7964"
-			rewards: [
-				{
-					id: "65AE11AFE0315BDA"
-					item: {
-						count: 1
-						id: "ars_nouveau:familiar_bookwyrm"
-					}
-					type: "item"
+			rewards: [{
+				id: "65AE11AFE0315BDA"
+				item: {
+					count: 1
+					id: "ars_nouveau:familiar_bookwyrm"
 				}
-				{
-					id: "7341E00E301E8DAC"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:bookwyrm_lectern"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "02A3906F1A92CDAF"
 				item: { count: 1, id: "ars_nouveau:bookwyrm_charm" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1F86FF003387AE4E"]
 			id: "1CA0297140031A1C"
-			rewards: [
-				{
-					id: "10D81A330A165DCD"
-					item: {
-						count: 1
-						id: "ars_nouveau:alteration_table"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "279323C81D1F6F31"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem"
 				}
-				{
-					count: 4
-					id: "279323C81D1F6F31"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "12A6E5801B14B8DD"
 				item: { count: 1, id: "ars_nouveau:alteration_table" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["52758F4E624A6440"]
 			id: "289518C7EC5A44EC"
-			rewards: [
-				{
-					count: 4
-					id: "47E6678DAA3D7B78"
-					item: {
-						count: 1
-						id: "ars_nouveau:stable_warp_scroll"
-					}
-					type: "item"
+			rewards: [{
+				id: "47E6678DAA3D7B78"
+				item: {
+					count: 1
+					id: "ars_nouveau:stable_warp_scroll"
 				}
-				{
-					count: 4
-					id: "302ADAFFF5283B8C"
-					item: {
-						count: 1
-						id: "ars_nouveau:warp_scroll"
-					}
-					type: "item"
-				}
-				{
-					id: "2E67F299A4BE53F8"
-					item: {
-						count: 1
-						id: "ars_nouveau:portal"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "289894F286FBB747"
 				item: { count: 1, id: "ars_nouveau:stable_warp_scroll" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["66505E73698CDE6E"]
 			id: "25A67DAD153BF6BF"
-			rewards: [
-				{
-					id: "08BD7F8BB1B9A5D7"
-					item: {
-						count: 1
-						id: "ars_nouveau:jar_of_light"
-					}
-					type: "item"
+			rewards: [{
+				id: "32B811C4D7509BD3"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem"
 				}
-				{
-					count: 8
-					id: "32B811C4D7509BD3"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
-					type: "item"
-				}
-				{
-					id: "663EDE0EF4E6D547"
-					item: {
-						count: 1
-						id: "ars_nouveau:void_jar"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F1747B07BB1D284"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 5.0d
+			x: 2.0d
+			y: 3.0d
 		}
 	]
 }

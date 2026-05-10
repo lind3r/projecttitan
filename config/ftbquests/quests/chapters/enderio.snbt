@@ -4,7 +4,7 @@
 	filename: "enderio"
 	group: ""
 	icon: {
-		id: "enderio:vibrant_alloy_ingot"
+		id: "enderio:alloy_smelter"
 	}
 	id: "2A40D79C070081AB"
 	order_index: 3
@@ -58,39 +58,28 @@
 				item: { count: 1, id: "enderio:stirling_generator" }
 				type: "item"
 			}]
-			x: -3.54d
-			y: -3.54d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["516A9483A90FD357"]
 			id: "5BD3E6F708192A10"
-			rewards: [
-				{
-					count: 2
-					id: "5BD3E6F708192A11"
-					item: {
-						count: 1
-						id: "enderio:vibrant_photovoltaic_module"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "5BD3E6F708192A12"
+				item: {
+					count: 1
+					id: "enderio:vibrant_alloy_ingot"
 				}
-				{
-					count: 4
-					id: "5BD3E6F708192A12"
-					item: {
-						count: 1
-						id: "enderio:vibrant_alloy_ingot"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BD3E6F708192A13"
 				item: { count: 1, id: "enderio:energetic_photovoltaic_module" }
 				type: "item"
 			}]
-			x: 3.54d
-			y: -3.54d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["516A9483A90FD357"]
@@ -130,7 +119,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["516A9483A90FD357"]
@@ -169,7 +158,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1B0A57BB7ED47822"]
@@ -198,8 +187,8 @@
 				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["516A9483A90FD357"]
@@ -327,8 +316,8 @@
 				item: { count: 1, id: "enderio:enchanter" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 5.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["516A9483A90FD357"]
@@ -363,7 +352,7 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -393,8 +382,8 @@
 				item: { count: 1, id: "enderio:dark_steel_ingot" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["516A9483A90FD357"]
@@ -437,8 +426,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 5.0d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["516A9483A90FD357"]
@@ -467,7 +456,7 @@
 				item: { count: 1, id: "enderio:crafter" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -503,8 +492,8 @@
 				id: "7A7D97BF3B782762"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["516A9483A90FD357"]
@@ -564,8 +553,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 2.5d
+			x: -1.5d
+			y: 3.0d
 		}
 	]
 }
