@@ -12,15 +12,25 @@
 	quests: [
 		{
 			id: "633C74689327AB2C"
-			rewards: [{
-				count: 8
-				id: "4D39058B31DACF4E"
-				item: {
-					count: 1
-					id: "ae2:certus_quartz_crystal"
+			rewards: [
+				{
+					id: "4D39058B31DACF4E"
+					item: {
+						count: 1
+						id: "ae2:guide"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 8
+					id: "4AC2D5E6F708A909"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -32,78 +42,6 @@
 		}
 		{
 			dependencies: ["633C74689327AB2C"]
-			id: "4AC2D5E6F708A901"
-			rewards: [
-				{
-					id: "4AC2D5E6F708A902"
-					item: {
-						count: 1
-						id: "ae2:guide"
-					}
-					type: "item"
-				}
-				{
-					id: "4AC2D5E6F708A903"
-					item: {
-						count: 1
-						id: "ae2:inscriber"
-					}
-					type: "item"
-				}
-				{
-					id: "4AC2D5E6F708A904"
-					item: {
-						count: 1
-						id: "ae2:calculation_processor_press"
-					}
-					type: "item"
-				}
-				{
-					id: "4AC2D5E6F708A907"
-					item: {
-						count: 1
-						id: "ae2:engineering_processor_press"
-					}
-					type: "item"
-				}
-				{
-					id: "4AC2D5E6F708A908"
-					item: {
-						count: 1
-						id: "ae2:logic_processor_press"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "4AC2D5E6F708A909"
-					item: {
-						count: 1
-						id: "ae2:certus_quartz_crystal"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "4AC2D5E6F708A90A"
-					item: {
-						count: 1
-						id: "ae2:fluix_block"
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "4AC2D5E6F708A905"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["4AC2D5E6F708A901"]
 			id: "3052E3B82544C299"
 			rewards: [
 				{
@@ -449,7 +387,7 @@
 			y: 3.54d
 		}
 		{
-			dependencies: ["4AC2D5E6F708A901"]
+			dependencies: ["633C74689327AB2C"]
 			id: "56C3E73F7256EF9A"
 			rewards: [
 				{

@@ -1149,18 +1149,6 @@
 	]
 	quest.4A1B2C3D4E5F6071.quest_subtitle: "It has a heartbeat now."
 	quest.4A1B2C3D4E5F6071.title: "Tier 4 - &ePulse of the Titan&r"
-	quest.4AC2D5E6F708A901.quest_desc: [
-		"&6AE2&r is dense, but it hides nothing. The mod ships with its own searchable in-game guide, and that's how this pack expects you to learn it."
-		""
-		"Hover any &6AE2&r item or block in your inventory and press the &aOpen Guide&r key (default &eG&r). The Guide opens directly to that item's page — recipes, mechanics, and the full picture of how channels, cables, and storage fit together."
-		""
-		"{@pagebreak}"
-		"Skim it once. Come back when you have a specific question. Don't try to memorize it."
-		""
-		"&aPack tweak:&r channel capacity is set to &eX4&r — &eFluix Glass&r / &eCovered&r carry &e32&r, &eDense&r carries &e128&r. The Guide's numbers are stock; multiply by 4."
-	]
-	quest.4AC2D5E6F708A901.quest_subtitle: "Hold G. The mod tells you the rest."
-	quest.4AC2D5E6F708A901.title: "&6AE2&r: Read the Guide"
 	quest.4AC2D5E6F708B900.quest_desc: [
 		"&6Tool Belt&r adds a waist-slot accessory that holds extra tools and lets you swap them into your main hand with a scroll-wheel gesture. Frees the hotbar for blocks and food."
 		""
@@ -1613,9 +1601,18 @@
 	quest.62898E68F9F7515D.quest_desc: ["&6YUNG's&r reimagined &eDesert Temples&r have multi-room layouts, traps, and significantly better loot. Find one and explore."]
 	quest.62898E68F9F7515D.quest_subtitle: "More than a sand pyramid with a hole."
 	quest.62898E68F9F7515D.title: "&6Better Desert Temples&r"
-	quest.633C74689327AB2C.quest_desc: ["&6AE2&r is the most documented mod in the pack — its in-game guide is searchable and complete. We don't re-author it here. The single quest below hands you the starter kit; the &aG&r key takes you the rest of the way."]
-	quest.633C74689327AB2C.quest_subtitle: "Press G on any AE2 item to read the manual."
-	quest.633C74689327AB2C.title: "&6Applied Energistics 2&r"
+	quest.633C74689327AB2C.quest_desc: [
+		"&6AE2&r is dense, but it hides nothing. The mod ships with its own searchable in-game guide, and that's how this pack expects you to learn it."
+		""
+		"Hover any &6AE2&r item or block in your inventory and press the &aOpen Guide&r key (default &eG&r). The Guide opens directly to that item's page — recipes, mechanics, and the full picture of how channels, cables, and storage fit together."
+		""
+		"{@pagebreak}"
+		"Skim it once. Come back when you have a specific question. Don't try to memorize it."
+		""
+		"&aPack tweak:&r channel capacity is set to &eX4&r — &eFluix Glass&r / &eCovered&r carry &e32&r, &eDense&r carries &e128&r. The Guide's numbers are stock; multiply by 4."
+	]
+	quest.633C74689327AB2C.quest_subtitle: "Hold G. The mod tells you the rest."
+	quest.633C74689327AB2C.title: "&6AE2&r: Read the Guide"
 	quest.63F8356A56A27467.quest_desc: [
 		"Optional. The &eSchematicannon&r builds &6Create&r-saved structures one block at a time, pulling materials from a chest beside it. Iconic Create UX, more creative-mode toy than survival tool."
 		""
