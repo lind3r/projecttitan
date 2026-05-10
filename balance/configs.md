@@ -126,6 +126,8 @@ The mod itself ships with `"modifiers": []` (neutral defaults — base-stat boss
 
 All other fields (entities, rewards, rules, spawn algorithm) match the mod's bundled JSON — datapack overrides are full-file replacements, not partial patches. To retune difficulty, edit this file and `/reload` (no mod rebuild).
 
+**Cap dependency:** ×10 HP on Netherite Monstrosity (~666 base) and Ignis (~600 base) clears Mojang's hard 1024 ceiling on `minecraft:generic.max_health`. **AttributeFix** (Darkhax, Modrinth `attributefix`) was added to the pack to Mixin-patch that cap; the mod's own defaults set `max_health.max.value = 1000000` so no further config edit is required. If AttributeFix is ever removed, boss HP will silently re-clamp to 1024 and the gauntlet will trivialize.
+
 ---
 
 ## Update workflow
