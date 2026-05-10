@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1r.cfe"
-hash = "5d695eb6c4a41786e33c1c05194edd905e90bb5840bd90f48617b8018227cacb"
+file = "config/ars_nouveau/search_index/_1t.cfe"
+hash = "58531994d644c2d42284e781c0524629ad08a5c850d73ce8e87cb97435210b16"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1r.cfs"
-hash = "50f295843604e9714b1474b92bf1433f1f8356a53fd7a4f4b2047b85290dbe1e"
+file = "config/ars_nouveau/search_index/_1t.cfs"
+hash = "39f14fdd28d36b9da84e5aecb974a13b199708ecfef6a46961ceb27824867a47"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1r.si"
-hash = "bf7151ce6d8b294ecc94ce058b74b0e5c37e1a3d3632baed6f5c4efd878b3c40"
+file = "config/ars_nouveau/search_index/_1t.si"
+hash = "68eeba04176952b14149483570ebd2196be02e50e6830f3a0cf88b6cc4526271"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_1s"
-hash = "217465eef5f679052ac7eee8553a27a9ed5b6e4bf2fb472ab3ba191f22c84663"
+file = "config/ars_nouveau/search_index/segments_1u"
+hash = "97b8c08aacb2b3891a30b6da34a3d04c626b65989cb6a8f65fdf733d4bb07537"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1793,6 +1793,10 @@ file = "config/forgeendertech/Biomes/minecraft$deep_ocean.cfg"
 hash = "b33ca5965054e0f4b132505af846356f716cdea4158517110fc315d9527d3042"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$nether_wastes.cfg"
+hash = "4b24a344445cc2619b0bf61c48d7e39b3ee14a15426387982323aa3c4013a203"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$savanna_plateau.cfg"
 hash = "4c6644dc4fd9f0bd3f8f8556a616170d7034c0ef922086bde907940187d64c62"
 
@@ -1817,6 +1821,10 @@ file = "config/forgeendertech/Biomes/terralith$rocky_shrubland.cfg"
 hash = "c927fc42b3c10cb450e5e1034ce09d4530a5e45965d4b431a527f1994a3a4d88"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$sandstone_valley.cfg"
+hash = "bc28e0b48fb75afb4c46898dbfa174f6366aea2a8ab0e95e9ca12d64cc0f4d94"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$siberian_grove.cfg"
 hash = "8c2ae7d5d59b8d9876f742d4174c7a5b4c75df089ca56f913e5fdf9d9d3dff1f"
 
@@ -1834,7 +1842,7 @@ hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "8e41613b7347e03e1cb609d44318745f1ceea708982fec06e7ed1650d380da10"
+hash = "7edbfb9061930cd97c8998008bf6c5f3d5f0bdef270068416656378014201fa0"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2047,26 +2055,6 @@ hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
 hash = "b5a9a4224f9cd006b7689c5ed6fcc674c7a6550c23292ec73bab490d948f8d77"
-
-[[files]]
-file = "config/jei/world/local/New_World/lookupHistory.json"
-hash = "353d1e836ba83d02f39ea2c9063f7dadbe2baff788ffa581bdd509862c5be581"
-
-[[files]]
-file = "config/jei/world/local/New_World__1/lookupHistory.json"
-hash = "bd1fcef604801ea445c2df3109fa07e1deacc137643875586659ed37c627e117"
-
-[[files]]
-file = "config/jei/world/local/New_World__2/lookupHistory.json"
-hash = "1684352e59bd18bf438a4b04938990cd6e41f22e21170c8cf06eeb64615e44bd"
-
-[[files]]
-file = "config/jei/world/local/New_World__3/lookupHistory.json"
-hash = "1737e996e919276452a34e2f314792d3801a2eec2918f20a40198b010bb67fd4"
-
-[[files]]
-file = "config/jei/world/local/New_World__5/lookupHistory.json"
-hash = "3e9e425793e4a578fcd7fb464551bad666fd515b68e12bd5ef7a04e93d0bd401"
 
 [[files]]
 file = "config/journeymap-server.toml"
