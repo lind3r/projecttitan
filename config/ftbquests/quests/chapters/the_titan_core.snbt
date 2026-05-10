@@ -26,6 +26,26 @@
 		}
 		{
 			dependencies: ["2BC9F4A1E8D5670F"]
+			id: "1A5D8E3B7C90F4A2"
+			rewards: [{
+				count: 8
+				id: "5C8D4F9E2B7A1304"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F7A91D6C58B403E"
+				item: { count: 1, id: "projecttitancore:titan_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A5D8E3B7C90F4A2"]
 			id: "1FCD148E2DA620F0"
 			rewards: [{
 				id: "72BCB19FED84761C"

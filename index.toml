@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1t.cfe"
-hash = "58531994d644c2d42284e781c0524629ad08a5c850d73ce8e87cb97435210b16"
+file = "config/ars_nouveau/search_index/_22.cfe"
+hash = "f7faaad54405273c66235f5c64229e469f0b07efd78616cc17f991f9ff3ddd55"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1t.cfs"
-hash = "39f14fdd28d36b9da84e5aecb974a13b199708ecfef6a46961ceb27824867a47"
+file = "config/ars_nouveau/search_index/_22.cfs"
+hash = "138b87aa0eeb596f03b946bbd7872173e2e271d5f6090ec170d368ddc90e50ee"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_1t.si"
-hash = "68eeba04176952b14149483570ebd2196be02e50e6830f3a0cf88b6cc4526271"
+file = "config/ars_nouveau/search_index/_22.si"
+hash = "13deda97d3940bfb70490bc624f31a6ffa8a8b4346ee6304c5b22e3da6271fe4"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_1u"
-hash = "97b8c08aacb2b3891a30b6da34a3d04c626b65989cb6a8f65fdf733d4bb07537"
+file = "config/ars_nouveau/search_index/segments_23"
+hash = "4c6c7ef6e29728f43df7d01a57e40aa0daff9a2542ad1ddaebcbb3b5d4345e1d"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1793,8 +1793,16 @@ file = "config/forgeendertech/Biomes/minecraft$deep_ocean.cfg"
 hash = "b33ca5965054e0f4b132505af846356f716cdea4158517110fc315d9527d3042"
 
 [[files]]
+file = "config/forgeendertech/Biomes/minecraft$frozen_ocean.cfg"
+hash = "917acfb7142cc6daa6bfdf0b0e2d45c90162b5d3545da2ada09a2115185a70b8"
+
+[[files]]
 file = "config/forgeendertech/Biomes/minecraft$nether_wastes.cfg"
 hash = "4b24a344445cc2619b0bf61c48d7e39b3ee14a15426387982323aa3c4013a203"
+
+[[files]]
+file = "config/forgeendertech/Biomes/minecraft$ocean.cfg"
+hash = "e6e29328d51b6782a51bbacc8acabb81c3117db72eb796621116255f5e787b4c"
 
 [[files]]
 file = "config/forgeendertech/Biomes/minecraft$savanna_plateau.cfg"
@@ -1803,6 +1811,14 @@ hash = "4c6644dc4fd9f0bd3f8f8556a616170d7034c0ef922086bde907940187d64c62"
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$cave$thermal_caves.cfg"
 hash = "6b299a314a9ba0edd0b0728d3b8997cac9fd1685550b33f440b0ee0823b222d2"
+
+[[files]]
+file = "config/forgeendertech/Biomes/terralith$haze_mountain.cfg"
+hash = "37d59899933dd9f56d51d5f8aefe5a6d3f669a8a6b621e8d152a00fa0abddf0e"
+
+[[files]]
+file = "config/forgeendertech/Biomes/terralith$highlands.cfg"
+hash = "0a2814f0fca99923c4cb11352041b977ee9a421afbc30bfbd09b651285298ade"
 
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$lavender_forest.cfg"
@@ -1825,12 +1841,20 @@ file = "config/forgeendertech/Biomes/terralith$sandstone_valley.cfg"
 hash = "bc28e0b48fb75afb4c46898dbfa174f6366aea2a8ab0e95e9ca12d64cc0f4d94"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$savanna_badlands.cfg"
+hash = "83bcbbf66b1fe4eb756a0e2e5b4ea03fb13bec9d115dfa542a725aee227c0e52"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$siberian_grove.cfg"
 hash = "8c2ae7d5d59b8d9876f742d4174c7a5b4c75df089ca56f913e5fdf9d9d3dff1f"
 
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$skylands_summer.cfg"
 hash = "7406c9510e58669a49ed5e221e3d1062548c494cc0af50e4dd0ad6d624f180fd"
+
+[[files]]
+file = "config/forgeendertech/Biomes/terralith$snowy_maple_forest.cfg"
+hash = "6a269867ef05fd3f3d42616b9ff824176e19b0db67a5a40f03e2f9be15b901a6"
 
 [[files]]
 file = "config/forgeendertech/Wind.cfg"
@@ -1842,7 +1866,7 @@ hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "7edbfb9061930cd97c8998008bf6c5f3d5f0bdef270068416656378014201fa0"
+hash = "e20409b96600dd0aecb143ab70089690775b7fb9fbf84cb2dcc2df368a8ed4a7"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1862,51 +1886,51 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "17299d037b9fe91ed4e003f590b7941db58533fecfc0ed1c6361173b3f9a984c"
+hash = "8fdfdd8bd2abeeef61adbe3b9220974843e2d1b68778518bdabebff99bc583b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "8239955dbd3c35f570657baf01a95923936a74d0c911a2cbe2e582fe2d4a67aa"
+hash = "755b06034cdbb1f16ee9ceda22374322e8408fbb571748f81f697fbd7e23b771"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "36c2c248bc4273c685f5d2aaec43586fbe4e1f33e8ddae2568ad214ce7c0ecf7"
+hash = "82f1da5d278dd42fb17acea8d0499efbd779dbb4aaa73ab1aa7b23e1c2c55858"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
-hash = "d8d29dee5b312b9c7b93e4f48cf375d0422e3f56a4e18ac6734f2a68031bbedb"
+hash = "558db2e15e0ef3a77b47202f0ea1efd6d1c0b082c4c20bc1a282b3627eea7d93"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "50c1cba9f638692cb003590238d2b6dcc6578716461b1e60a18b8ece0d611bb9"
+hash = "cea8c5a9a7ae21304c20f0b21c9135aaaec6671fc5f141e8feec5e40fbc69cd7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/draconic_evolution.snbt"
-hash = "df8b48df093b284a74b39384147b9069da66a40904b8d9d47984d58fd8fb6dad"
+hash = "21387e6319a6fdf566369ffa9472a8e330bea7c441b35b11a9d25bb813a85ec5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enderio.snbt"
-hash = "bca69bb1da60595caf1eefb6c8adf37d74eb47d3079ca3fe873654abb637473a"
+hash = "605681faa368c65957e6c59ee2f30f1645bf16b9e97f9fa3b601325048b8e36b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_foregoing.snbt"
-hash = "78ae491f5aa70181474784496ed6ce10934d55625b4830a3a89a7ef32ab937ed"
+hash = "c7ee4626d32a6e984c51f8b4fe89de36ce35fcd119cad4639b825817f0845011"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "4a0458e3b7e234d6c4edac7ab4d2d2300b7c90d49cf9c9d4a84a4453a2443b16"
+hash = "e0cc614e05087878d57b7b59cf2882252e7edde25089b13d4e3f0728da6c6367"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "8c2ed80f8bd8d8153aa9ce72e61971d2e9437d72d5c1b9734433cc2fb4664978"
+hash = "6fe80622a9df50e6b087c0d9cbb9b8439a1444538a00734fb4897cf826affc7f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/other.snbt"
-hash = "55f156c8d97453865fcec0378fa04f33466cbb2991a7cd73c5301ff7e474a35a"
+hash = "37239f4541f33990ad0f5a0efafbe59e208ffbb56d7d7f010757c61333c229ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
-hash = "3123adcbac2e6c7c9f2803fece1e83fd9113aaca5a60d456b5d846a9d50dc111"
+hash = "3d16c7ff0164cd9f9dd5f612d5d30d87570b5068edb384d64638b78b91668809"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1914,7 +1938,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "59c41ffe587e58b3bf230923695dd57d4090e9074de0240eec7738571fa531e1"
+hash = "b88eeef87abe07bb6c3d4157922b3b74e2b31a11cc02b074b9310b049ed9220b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -2055,6 +2079,10 @@ hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
 hash = "b5a9a4224f9cd006b7689c5ed6fcc674c7a6550c23292ec73bab490d948f8d77"
+
+[[files]]
+file = "config/jei/world/local/New_World/lookupHistory.json"
+hash = "d2ea66b0f471c6df8f59f2f16f16b6d1d3f0985d7076d4547e3ff437ca326cf1"
 
 [[files]]
 file = "config/journeymap-server.toml"
