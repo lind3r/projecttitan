@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2e.cfe"
-hash = "49b3594ca766efd6433cef96ba0b0f9ea01ec950e8ce92d2d115c8341d4f1e9b"
+file = "config/ars_nouveau/search_index/_2g.cfe"
+hash = "a20bfd30774f2296ae36a8c31a65afc06fa471a6505dac83744a465f2295dbe6"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2e.cfs"
-hash = "f9a53aa4c4a6a856ceefc2337116d8bf7622208c3b95ea88b4b7e00fa9f7c748"
+file = "config/ars_nouveau/search_index/_2g.cfs"
+hash = "0f3534614bd5eb3e4bb25d80d731c37577b67b9c03c0cfab3dd767103f1dc9b8"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2e.si"
-hash = "831b152f0345f802fdb8d6578be5999d7b170ef94e84adf6b7bd044fc5e22cb3"
+file = "config/ars_nouveau/search_index/_2g.si"
+hash = "bd75fcdd7aaa2e1fa3720d83cc323459e3e003f94f8152592ec11b96fc85351c"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_2f"
-hash = "28bee95d91ac1a315b12433f8daa581dd8fbde3b6fb548c8e9a482b3acc8ec68"
+file = "config/ars_nouveau/search_index/segments_2h"
+hash = "2c9c3e7c5a75219e375eb4b743b5a81cfdce9e3d421bac098f14c8e6d54e1d42"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -2078,7 +2078,7 @@ hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "c42e60e9b3c1fbac9252856aa9d4c731884a4baa395d82e7999a73a23f135b1a"
+hash = "c08a89b368e8135e750de19223555ac67616cf0c6eeb08612884425e2f0611f6"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -3014,7 +3014,7 @@ metafile = true
 
 [[files]]
 file = "mods/projecttitancore.pw.toml"
-hash = "e273a292068f109ac52f6f1305b194fe533fb6f5dcfe35e52c7e6cf67fc63f4c"
+hash = "f4f0cb6688894dfc020c07b32815e27aa45de08591506538cf57889c5045c2f4"
 metafile = true
 
 [[files]]

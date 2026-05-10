@@ -1,12 +1,12 @@
 name = "Project Titan"
 author = "lind3r"
-version = "0.1.1"
+version = "0.1.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "fe5874e709fe083008603875f011e0e01211d2d79ced00a01bd57d37fee4fec1"
+hash = "5c31df6b22a6a3b3c6407ad58b34d5ca6e95a2768a51b231a15b8608f874dd11"
 
 [versions]
 minecraft = "1.21.1"
