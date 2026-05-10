@@ -113,15 +113,18 @@ Cataclysm ships per-boss anti-cheese caps that throttle late-game weapons (a 700
 
 `nature_heal` (passive regen, 25.0) and Ignis's `healing_multiplier` (lifesteal, 1.0) **left at default** — confirmed in playtest 2026-05-10 that with caps removed the regen is a fight-pacing feature, not a wall. To compensate, the Trial wave's `max_health` modifier is bumped — see next section.
 
-## projecttitancore Titan Trial — wave HP override
+## projecttitancore Titan Trial — wave HP / damage modifiers
 
 **File:** `kubejs/data/projecttitancore/gateways/titan_trial.json` (datapack override of the bundled `data/projecttitancore/gateways/titan_trial.json` from the mod JAR)
 
-| Modifier                                   | Default (mod) | Pack    | Reason |
-|---                                         |---:           |---:     |---     |
-| `minecraft:generic.max_health` (`add_multiplied_total`) | 1.0 (=2× HP) | 9.0 (=10× HP) | Compensate for the Cataclysm cap removal above. With per-hit caps gone the bosses die faster, so 5× the HP keeps the gauntlet a real fight. Datapack override (vs. editing the mod) so future tuning needs only an edit + reload, no mod rebuild. |
+The mod itself ships with `"modifiers": []` (neutral defaults — base-stat bosses) so anyone running `projecttitancore` standalone or in a different pack picks their own difficulty. **All Trial difficulty tuning lives here**, not in the mod.
 
-`attack_damage` modifier left at +100% (2×). All other fields (entities, rewards, rules, spawn algorithm) match the mod's bundled JSON — datapack overrides are full-file replacements, not partial patches.
+| Modifier                                                | Mod default | Pack    | Reason |
+|---                                                      |---:         |---:     |---     |
+| `minecraft:generic.max_health` (`add_multiplied_total`) | _none_      | 9.0 (=10× HP) | Compensate for the Cataclysm cap removal above. With per-hit caps gone the bosses die fast on a 700-dmg sword, so 10× HP keeps the gauntlet a real fight. |
+| `minecraft:generic.attack_damage` (`add_multiplied_total`) | _none_   | 1.0 (=2× damage) | Pack-side bump kept (was the mod's previous default before the split); makes the bosses actually threatening to apex-tier players. |
+
+All other fields (entities, rewards, rules, spawn algorithm) match the mod's bundled JSON — datapack overrides are full-file replacements, not partial patches. To retune difficulty, edit this file and `/reload` (no mod rebuild).
 
 ---
 
