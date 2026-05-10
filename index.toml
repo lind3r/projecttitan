@@ -1862,7 +1862,7 @@ hash = "37239f4541f33990ad0f5a0efafbe59e208ffbb56d7d7f010757c61333c229ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
-hash = "72e41f48373ce2a48ebe5655fad1007fed1c89ce73ac64ba27b849309d19835f"
+hash = "66ceda0e07fe97f16777809826dbd5b37b66b828f7aa8af792e3e6f39f42ba3c"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
