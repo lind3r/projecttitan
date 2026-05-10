@@ -2257,6 +2257,10 @@ file = "kubejs/data/projecttitancore/advancement/titans_equal.json"
 hash = "441b0349eb1901f4f615f35e948c5a8cb7e7929f1b78439addb54830b587de95"
 
 [[files]]
+file = "kubejs/data/projecttitancore/gateways/titan_trial.json"
+hash = "3313695e4ba5b16d76f69321ae554a375a992fedf31b67edca29aea309622732"
+
+[[files]]
 file = "kubejs/server_scripts/balance_resources.js"
 hash = "c5262bd242bac2f1aae16c307b0f559cc7163a1af27ceeaaf851424f68d6ea6e"
 

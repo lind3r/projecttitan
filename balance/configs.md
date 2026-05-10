@@ -111,7 +111,17 @@ Cataclysm ships per-boss anti-cheese caps that throttle late-game weapons (a 700
 | `[mobs.ignis.cap_config]`              | `damage_cap` | 20.0       | 999999.0   | "       |
 | `[mobs.ignis.cap_config]`              | `dps_cap`    | 14.0       | 999999.0   | "       |
 
-`nature_heal` (passive regen, 25.0) and Ignis's `healing_multiplier` (lifesteal, 1.0) **left at default** — confirmed in playtest 2026-05-10 that with caps removed the regen is a fight-pacing feature, not a wall. To compensate, the Trial wave's `max_health` modifier is now `+900%` (10× HP) instead of `+100%` (2×) — see `data/projecttitancore/gateways/titan_trial.json` in the mod repo.
+`nature_heal` (passive regen, 25.0) and Ignis's `healing_multiplier` (lifesteal, 1.0) **left at default** — confirmed in playtest 2026-05-10 that with caps removed the regen is a fight-pacing feature, not a wall. To compensate, the Trial wave's `max_health` modifier is bumped — see next section.
+
+## projecttitancore Titan Trial — wave HP override
+
+**File:** `kubejs/data/projecttitancore/gateways/titan_trial.json` (datapack override of the bundled `data/projecttitancore/gateways/titan_trial.json` from the mod JAR)
+
+| Modifier                                   | Default (mod) | Pack    | Reason |
+|---                                         |---:           |---:     |---     |
+| `minecraft:generic.max_health` (`add_multiplied_total`) | 1.0 (=2× HP) | 9.0 (=10× HP) | Compensate for the Cataclysm cap removal above. With per-hit caps gone the bosses die faster, so 5× the HP keeps the gauntlet a real fight. Datapack override (vs. editing the mod) so future tuning needs only an edit + reload, no mod rebuild. |
+
+`attack_damage` modifier left at +100% (2×). All other fields (entities, rewards, rules, spawn algorithm) match the mod's bundled JSON — datapack overrides are full-file replacements, not partial patches.
 
 ---
 

@@ -1,0 +1,60 @@
+{
+    "type": "gateways:normal",
+    "size": "large",
+    "color": "#FFE054",
+    "spawn_algorithm": "gateways:inward_spiral",
+    "boss_event": {
+        "fog": true,
+        "mode": "boss_bar"
+    },
+    "rules": {
+        "player_damage_only": true
+    },
+    "waves": [
+        {
+            "max_wave_time": 12000,
+            "setup_time": 200,
+            "entities": [
+                {
+                    "type": "gateways:standard",
+                    "count": 1,
+                    "entity": "cataclysm:ender_guardian"
+                },
+                {
+                    "type": "gateways:standard",
+                    "count": 1,
+                    "entity": "cataclysm:netherite_monstrosity"
+                },
+                {
+                    "type": "gateways:standard",
+                    "count": 1,
+                    "entity": "cataclysm:ignis"
+                }
+            ],
+            "modifiers": [
+                {
+                    "type": "gateways:attribute",
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "add_multiplied_total",
+                    "value": 9.0
+                },
+                {
+                    "type": "gateways:attribute",
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "add_multiplied_total",
+                    "value": 1.0
+                }
+            ]
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:stack",
+            "stack": {
+                "id": "projecttitancore:crown_of_the_titan",
+                "count": 1
+            },
+            "desc": "tooltip.projecttitancore.titan_trial_reward"
+        }
+    ]
+}
