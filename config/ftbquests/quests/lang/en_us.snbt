@@ -57,9 +57,7 @@
 	]
 	quest.064818C98216D880.quest_subtitle: "Pour, drain, repeat."
 	quest.064818C98216D880.title: "Spout and Drain"
-	quest.06E74F5AEB182610.quest_desc: [
-		"&6Ars Nouveau&r's &eMagebloom&r is the renewable arcane crop. Plant seeds on tilled soil — growth is slower than vanilla wheat, but the harvest refines into &eMagebloom Fiber&r for robes or compresses into &eMagebloom Blocks&r for high-tier recipes."
-	]
+	quest.06E74F5AEB182610.quest_desc: ["&6Ars Nouveau&r's &eMagebloom&r is the renewable arcane crop. Plant seeds on tilled soil — growth is slower than vanilla wheat, but the harvest refines into &eMagebloom Fiber&r for robes or compresses into &eMagebloom Blocks&r for high-tier recipes."]
 	quest.06E74F5AEB182610.quest_subtitle: "The slow garden."
 	quest.06E74F5AEB182610.title: "Cultivate"
 	quest.071642CB7D12C35D.quest_desc: [
@@ -808,9 +806,7 @@
 	]
 	quest.477C3C2BE9118B1F.quest_subtitle: "Ghost armor, four pieces."
 	quest.477C3C2BE9118B1F.title: "Cursium Set"
-	quest.47D51C4D8FED1723.quest_desc: [
-		"&6Industrial Foregoing&r's farming pair. The &ePlant Sower&r plants a 3×3 area below it; the &ePlant Gatherer&r harvests a 3×3 area in front of it. Pipe seeds in, pipe crops out, feed both &aForge Energy&r."
-	]
+	quest.47D51C4D8FED1723.quest_desc: ["&6Industrial Foregoing&r's farming pair. The &ePlant Sower&r plants a 3×3 area below it; the &ePlant Gatherer&r harvests a 3×3 area in front of it. Pipe seeds in, pipe crops out, feed both &aForge Energy&r."]
 	quest.47D51C4D8FED1723.quest_subtitle: "A farm that runs itself."
 	quest.47D51C4D8FED1723.title: "Plant Sower Gatherer"
 	quest.47E8A5AEDC9156BB.quest_desc: [
@@ -1416,9 +1412,7 @@
 	]
 	quest.7A1B2C3D4E5F6071.quest_subtitle: "It commands."
 	quest.7A1B2C3D4E5F6071.title: "Tier 7 - &eVoice of the Titan&r"
-	quest.7A39D5FCDB67F252.quest_desc: [
-		"The &eCombiner&r reverses the &eCrusher&r — dust/raw + cobble in, raw ore out. Useful for converting fluid-tin/copper output back into placeable ore for visual builds, but its real value is producing &edense ores&r for stacking."
-	]
+	quest.7A39D5FCDB67F252.quest_desc: ["The &eCombiner&r reverses the &eCrusher&r — dust/raw + cobble in, raw ore out. Useful for converting fluid-tin/copper output back into placeable ore for visual builds, but its real value is producing &edense ores&r for stacking."]
 	quest.7A39D5FCDB67F252.quest_subtitle: "Press dust back into ore."
 	quest.7A39D5FCDB67F252.title: "Combiner"
 	quest.7A7119BD0237EFD2.quest_desc: [

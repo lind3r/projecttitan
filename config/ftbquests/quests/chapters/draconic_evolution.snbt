@@ -13,8 +13,7 @@
 		{
 			id: "2E8FD56B289B24B1"
 			rewards: [{
-				count: 4
-				id: "691617FC5EA3C828"
+				id: "6443EB8136EE92C2"
 				item: {
 					count: 1
 					id: "draconicevolution:draconium_ingot"
@@ -33,34 +32,15 @@
 		{
 			dependencies: ["2E8FD56B289B24B1"]
 			id: "5BD3E6F708192A60"
-			rewards: [
-				{
-					count: 8
-					id: "5BD3E6F708192A61"
-					item: {
-						count: 1
-						id: "draconicevolution:draconium_ingot"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "5BD3E6F708192A61"
+				item: {
+					count: 1
+					id: "draconicevolution:draconium_ingot"
 				}
-				{
-					id: "5BD3E6F708192A62"
-					item: {
-						count: 1
-						id: "draconicevolution:wyvern_core"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5BD3E6F708192A63"
-					item: {
-						count: 1
-						id: "draconicevolution:draconium_block"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BD3E6F708192A64"
 				item: { count: 1, id: "draconicevolution:wyvern_capacitor" }
@@ -72,33 +52,15 @@
 		{
 			dependencies: ["2E8FD56B289B24B1"]
 			id: "5F36918293A07BA4"
-			rewards: [
-				{
-					id: "5F36918293A07BA7"
-					item: {
-						count: 1
-						id: "draconicevolution:wyvern_pickaxe"
-					}
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "47C23B50CB1DC64C"
+				item: {
+					count: 1
+					id: "draconicevolution:draconium_ingot"
 				}
-				{
-					id: "5F36918293A07BA8"
-					item: {
-						count: 1
-						id: "draconicevolution:wyvern_capacitor"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5F36918293A07BA9"
-					item: {
-						count: 1
-						id: "draconicevolution:awakened_draconium_ingot"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5F36918293A07BA5"
@@ -117,34 +79,15 @@
 		{
 			dependencies: ["2E8FD56B289B24B1"]
 			id: "17F8A0B1C2D3E590"
-			rewards: [
-				{
-					count: 4
-					id: "17F8A0B1C2D3E591"
-					item: {
-						count: 1
-						id: "draconicevolution:chaos_shard"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "09720C0FEE0EEEA5"
+				item: {
+					count: 1
+					id: "draconicevolution:draconium_ingot"
 				}
-				{
-					count: 16
-					id: "17F8A0B1C2D3E592"
-					item: {
-						count: 1
-						id: "draconicevolution:awakened_draconium_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "17F8A0B1C2D3E593"
-					item: {
-						count: 1
-						id: "draconicevolution:chaotic_core"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "draconicevolution:draconic_guardian"
 				id: "17F8A0B1C2D3E594"
@@ -157,34 +100,14 @@
 		{
 			dependencies: ["5BD3E6F708192A60"]
 			id: "7EA222DBC1855F7B"
-			rewards: [
-				{
-					id: "7F693313F4C0732C"
-					item: {
-						count: 1
-						id: "draconicevolution:energy_core"
-					}
-					type: "item"
+			rewards: [{
+				id: "0D115A6469B26ADF"
+				item: {
+					count: 1
+					id: "draconicevolution:energy_core_stabilizer"
 				}
-				{
-					count: 4
-					id: "7C7954E5F3FBFBBA"
-					item: {
-						count: 1
-						id: "draconicevolution:energy_core_stabilizer"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "20CEA0BE6129366A"
-					item: {
-						count: 1
-						id: "draconicevolution:energy_pylon"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5DFD555D6A0739E9"
@@ -208,26 +131,15 @@
 		{
 			dependencies: ["17F8A0B1C2D3E590"]
 			id: "45495B1CC43D1C41"
-			rewards: [
-				{
-					count: 16
-					id: "0E2567E8DF77A139"
-					item: {
-						count: 1
-						id: "draconicevolution:awakened_draconium_ingot"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "0E2567E8DF77A139"
+				item: {
+					count: 1
+					id: "draconicevolution:awakened_draconium_ingot"
 				}
-				{
-					count: 4
-					id: "20C834EF41101229"
-					item: {
-						count: 1
-						id: "draconicevolution:awakened_core"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "195327B6342DC577"
 				item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
@@ -239,32 +151,15 @@
 		{
 			dependencies: ["45495B1CC43D1C41"]
 			id: "3555A0DA90E36994"
-			rewards: [
-				{
-					id: "4F191DA502918534"
-					item: {
-						count: 1
-						id: "draconicevolution:chaotic_pickaxe"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "0CD66DD962F433CC"
+				item: {
+					count: 1
+					id: "draconicevolution:awakened_draconium_ingot"
 				}
-				{
-					id: "7F8E017B85A0714E"
-					item: {
-						count: 1
-						id: "draconicevolution:chaotic_chestpiece"
-					}
-					type: "item"
-				}
-				{
-					id: "65EF68A45000E754"
-					item: {
-						count: 1
-						id: "draconicevolution:chaotic_capacitor"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7050916BDAFAF45D"
@@ -284,33 +179,14 @@
 			dependencies: ["45495B1CC43D1C41"]
 			id: "52384D0B09D5E630"
 			optional: true
-			rewards: [
-				{
-					id: "06C93556EE552C83"
-					item: {
-						count: 1
-						id: "draconicevolution:reactor_core"
-					}
-					type: "item"
+			rewards: [{
+				id: "1DFE1BE7731EFA26"
+				item: {
+					count: 1
+					id: "draconicevolution:reactor_injector"
 				}
-				{
-					count: 4
-					id: "4E93B8F0469F3898"
-					item: {
-						count: 1
-						id: "draconicevolution:reactor_stabilizer"
-					}
-					type: "item"
-				}
-				{
-					id: "1DFE1BE7731EFA26"
-					item: {
-						count: 1
-						id: "draconicevolution:reactor_injector"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4D6A1F2C0D7758C5"
@@ -346,14 +222,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "3DBB2E40687CECCC"
-					item: {
-						count: 1
-						id: "draconicevolution:dislocator_receptacle"
-					}
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "7F27E9F32BDC8BB6"
@@ -366,34 +234,15 @@
 		{
 			dependencies: ["2E8FD56B289B24B1"]
 			id: "165B94D41DEEDB88"
-			rewards: [
-				{
-					count: 4
-					id: "377B5C6D2B65A7F9"
-					item: {
-						count: 1
-						id: "draconicevolution:draconium_ingot"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "377B5C6D2B65A7F9"
+				item: {
+					count: 1
+					id: "draconicevolution:draconium_ingot"
 				}
-				{
-					count: 4
-					id: "617B91465CCEF184"
-					item: {
-						count: 1
-						id: "draconicevolution:wyvern_core"
-					}
-					type: "item"
-				}
-				{
-					id: "791F109CD3E8D20F"
-					item: {
-						count: 1
-						id: "draconicevolution:advanced_magnet"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "031EE71A97470A37"
 				type: "checkmark"

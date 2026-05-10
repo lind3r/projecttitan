@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": { "id": "projecttitancore:crown_of_the_titan" },
+    "title": { "text": "The Titan's Equal", "color": "gold", "bold": true },
+    "description": { "text": "The Titan acknowledges you.", "color": "gray", "italic": true },
+    "frame": "challenge",
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "claimed": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [["claimed"]],
+  "rewards": {}
+}

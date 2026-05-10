@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_22.cfe"
-hash = "f7faaad54405273c66235f5c64229e469f0b07efd78616cc17f991f9ff3ddd55"
+file = "config/ars_nouveau/search_index/_23.cfe"
+hash = "65f81f53fd3b73d1aed17a03c7941db933c4091199565793e5bc01477e331941"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_22.cfs"
-hash = "138b87aa0eeb596f03b946bbd7872173e2e271d5f6090ec170d368ddc90e50ee"
+file = "config/ars_nouveau/search_index/_23.cfs"
+hash = "7e6ca23db358ec45c98f473b24776bcee7a6a11d5206c13a0e1c7f1982a99d40"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_22.si"
-hash = "13deda97d3940bfb70490bc624f31a6ffa8a8b4346ee6304c5b22e3da6271fe4"
+file = "config/ars_nouveau/search_index/_23.si"
+hash = "bcb1c833182a9649c5b98c11b98bf9602d5198f01cd93ec80c6cf43396883e8a"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_23"
-hash = "4c6c7ef6e29728f43df7d01a57e40aa0daff9a2542ad1ddaebcbb3b5d4345e1d"
+file = "config/ars_nouveau/search_index/segments_24"
+hash = "8efd89623ddeb172c9925efd0ed0900da38dace5aea31313a80536cbf0347e64"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1866,7 +1866,7 @@ hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "e20409b96600dd0aecb143ab70089690775b7fb9fbf84cb2dcc2df368a8ed4a7"
+hash = "54dfe0bc1f7efbcff5259a2cb891896759705bacb88393bf4dc0460c6ce537e3"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1930,7 +1930,7 @@ hash = "37239f4541f33990ad0f5a0efafbe59e208ffbb56d7d7f010757c61333c229ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
-hash = "3d16c7ff0164cd9f9dd5f612d5d30d87570b5068edb384d64638b78b91668809"
+hash = "3247f2f4b3fcf8d948c03f52408cc830b6a3893da0d969d14895c28d6de41a3b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1938,7 +1938,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b88eeef87abe07bb6c3d4157922b3b74e2b31a11cc02b074b9310b049ed9220b"
+hash = "2eab0107349c06c861fe757b8b530c464e0dec2870f8b573fe6632b15c7337b6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -2082,7 +2082,7 @@ hash = "b5a9a4224f9cd006b7689c5ed6fcc674c7a6550c23292ec73bab490d948f8d77"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.json"
-hash = "d2ea66b0f471c6df8f59f2f16f16b6d1d3f0985d7076d4547e3ff437ca326cf1"
+hash = "0e631038a16433fdfbcfd30358210d3f2d8d5a849187ac93c97c41087cda3826"
 
 [[files]]
 file = "config/journeymap-server.toml"
@@ -2311,6 +2311,10 @@ hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
 [[files]]
 file = "kubejs/data/oritech/neoforge/biome_modifier/ore_platinum.json"
 hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+
+[[files]]
+file = "kubejs/data/projecttitancore/advancement/titans_equal.json"
+hash = "441b0349eb1901f4f615f35e948c5a8cb7e7929f1b78439addb54830b587de95"
 
 [[files]]
 file = "kubejs/server_scripts/balance_resources.js"
