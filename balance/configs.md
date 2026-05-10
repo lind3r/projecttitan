@@ -88,30 +88,6 @@ Removed crafting recipes (machines remain in JEI but uncraftable in survival):
 
 (Commits `e7e31ac` (initial), `2fd2b19` (Mek/Oritech/CC additions).)
 
-## Apothic Spawners — disable silk capture
-
-**File:** `config/apothic_spawners.cfg`
-
-| Key                  | Default | Pack | Reason |
-|---                   |---:     |---:  |---     |
-| `Spawner Silk Level` | 1       | -1   | Silk-touch capture disabled; pushes players to EnderIO Powered Spawner / IF Mob Duplicator. |
-
-(Commit `e7e31ac`.)
-
-## Hostile Neural Networks — Loot Fabricator nerf
-
-**File:** `config/hostilenetworks.cfg`
-
-| Key                   | Default | Pack | Reason |
-|---                    |---:     |---:  |---     |
-| `Loot Fab Power Cost` | 256     | 5000 | ~20× default. T1-T10 mineral leak is narrow (HNN can't synthesize diamond/emerald/netherite/elytra); 5000 FE/t makes the Loot Fab a real late-game tool without trivializing the wither-skull → nether-star grind. |
-
-`Sim Chamber Power Cap` (2,000,000) and `Loot Fab Power Cap` (1,000,000) left at default.
-
-**Note on the cost model:** Sim Chamber per-tick cost is **per-mob**, baked into each `data/hostilenetworks/data_models/*.json` (`sim_cost` field — range 32 to 16384 across shipped models, median 128). The config knob above only affects the Loot Fabricator step (turning a finished prediction into items), which is a single flat rate for every recipe.
-
-(Commits `e7e31ac` (256 → 25600), `3da9efc` (25600 → 5000, after re-evaluation).)
-
 ---
 
 ## Update workflow

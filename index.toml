@@ -1938,7 +1938,7 @@ hash = "e4f58ced20ccf200592141f4afcad54a0d33faa6b672a90e58781c1a8183a036"
 
 [[files]]
 file = "config/hostilenetworks.cfg"
-hash = "ff74b04d29509ae9d32ddbbb3e528a5f664268bac108dc9768d5eb5a312f4d1e"
+hash = "7210e168223e469592b881cc820a0fd80eadab72c224cd8851969a0e4e976d02"
 
 [[files]]
 file = "config/immediatelyfast.json"
