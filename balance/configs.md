@@ -88,6 +88,14 @@ Removed crafting recipes (machines remain in JEI but uncraftable in survival):
 
 (Commits `e7e31ac` (initial), `2fd2b19` (Mek/Oritech/CC additions).)
 
+## Applied Energistics 2 — channel capacity
+
+**File:** `config/ae2-common.toml`
+
+| Key        | Default   | Pack | Reason                                                                                                       | Commit |
+|---         |---        |---   |---                                                                                                           |---     |
+| `channels` | `DEFAULT` | `X4` | Cabling effort, not channel math, is the design constraint. Glass/Covered = 32 ch, Dense = 128 ch. Mentioned in the AE2 intro and Bric-a-Brac quests so players know the stock-AE2 numbers in the Guide are 4× off. | (this commit) |
+
 ---
 
 ## Update workflow

@@ -1156,6 +1156,8 @@
 		""
 		"{@pagebreak}"
 		"Skim it once. Come back when you have a specific question. Don't try to memorize it."
+		""
+		"&aPack tweak:&r channel capacity is set to &eX4&r — &eFluix Glass&r / &eCovered&r carry &e32&r, &eDense&r carries &e128&r. The Guide's numbers are stock; multiply by 4."
 	]
 	quest.4AC2D5E6F708A901.quest_subtitle: "Hold G. The mod tells you the rest."
 	quest.4AC2D5E6F708A901.title: "&6AE2&r: Read the Guide"
@@ -1303,10 +1305,10 @@
 	quest.56C3E73F7256EF9A.quest_desc: [
 		"&aWorth knowing&r — AE2 odds and ends:"
 		""
-		"- &eFluix Glass Cable&r — basic, cheap, 8 channels."
+		"- &eFluix Glass Cable&r — basic, cheap, 32 channels (pack runs &eX4&r capacity)."
 		"- &eFluix Covered Cable&r — same channels, opaque, looks cleaner."
 		"- &eFluix Smart Cable&r — visualizes channel routing on its surface."
-		"- &eFluix Dense Cable&r — 32 channels, color-coded."
+		"- &eFluix Dense Cable&r — 128 channels, color-coded."
 		"- &eP2P Tunnels&r — long-distance bridges between two endpoints (FE, items, fluids)."
 		"- &eGrowth Accelerator&r — speeds up nearby budding certus quartz."
 		"- &eAnnihilation Plane&r / &eFormation Plane&r — break / place blocks at the network's edge."
