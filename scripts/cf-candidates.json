@@ -1,0 +1,814 @@
+{
+  "ae2": {
+    "mr_title": "Applied Energistics 2",
+    "mr_slug": "ae2",
+    "mr_id": "XxWD5pD3",
+    "candidates": [
+      "ae2",
+      "applied-energistics-2"
+    ]
+  },
+  "alexs-mobs(1.21.1)": {
+    "mr_title": "Alex's Mobs (Unofficial Port)",
+    "mr_slug": "alexs-mobs(1.21.1)",
+    "mr_id": "EmNhnNnt",
+    "candidates": [
+      "alexs-mobs-1-21-1",
+      "alex-s-mobs-unofficial-port",
+      "alex-s-mobs"
+    ]
+  },
+  "almost-unified": {
+    "mr_title": "Almost Unified",
+    "mr_slug": "almost-unified",
+    "mr_id": "sdaSaQEz",
+    "candidates": [
+      "almost-unified"
+    ]
+  },
+  "appleskin": {
+    "mr_title": "AppleSkin",
+    "mr_slug": "appleskin",
+    "mr_id": "EsAfCjCV",
+    "candidates": [
+      "appleskin"
+    ]
+  },
+  "applied-mekanistics": {
+    "mr_title": "Applied Mekanistics",
+    "mr_slug": "applied-mekanistics",
+    "mr_id": "IiATswDj",
+    "candidates": [
+      "applied-mekanistics"
+    ]
+  },
+  "architectury-api": {
+    "mr_title": "Architectury API",
+    "mr_slug": "architectury-api",
+    "mr_id": "lhGA9TYQ",
+    "candidates": [
+      "architectury-api",
+      "architectury"
+    ]
+  },
+  "ars-nouveau": {
+    "mr_title": "Ars Nouveau",
+    "mr_slug": "ars-nouveau",
+    "mr_id": "TKB6INcv",
+    "candidates": [
+      "ars-nouveau"
+    ]
+  },
+  "athena-ctm": {
+    "mr_title": "Athena",
+    "mr_slug": "athena-ctm",
+    "mr_id": "b1ZV3DIJ",
+    "candidates": [
+      "athena-ctm",
+      "athena"
+    ]
+  },
+  "attributefix": {
+    "mr_title": "AttributeFix",
+    "mr_slug": "attributefix",
+    "mr_id": "lOOpEntO",
+    "candidates": [
+      "attributefix"
+    ]
+  },
+  "baguettelib": {
+    "mr_title": "BaguetteLib",
+    "mr_slug": "baguettelib",
+    "mr_id": "OfKzpbRU",
+    "candidates": [
+      "baguettelib"
+    ]
+  },
+  "balm": {
+    "mr_title": "Balm",
+    "mr_slug": "balm",
+    "mr_id": "MBAkmtvl",
+    "candidates": [
+      "balm"
+    ]
+  },
+  "bookshelf-lib": {
+    "mr_title": "Bookshelf",
+    "mr_slug": "bookshelf-lib",
+    "mr_id": "uy4Cnpcm",
+    "candidates": [
+      "bookshelf-lib",
+      "bookshelf"
+    ]
+  },
+  "brandons-core": {
+    "mr_title": "Brandons Core",
+    "mr_slug": "brandons-core",
+    "mr_id": "iFDWVIFV",
+    "candidates": [
+      "brandons-core"
+    ]
+  },
+  "building-wands": {
+    "mr_title": "Building Wands",
+    "mr_slug": "building-wands",
+    "mr_id": "XkisZUfp",
+    "candidates": [
+      "building-wands"
+    ]
+  },
+  "cc-tweaked": {
+    "mr_title": "CC: Tweaked",
+    "mr_slug": "cc-tweaked",
+    "mr_id": "gu7yAYhd",
+    "candidates": [
+      "cc-tweaked"
+    ]
+  },
+  "citadel-(1.21.1-port)": {
+    "mr_title": "Citadel (Unofficial Port)",
+    "mr_slug": "citadel-(1.21.1-port)",
+    "mr_id": "XjY0RcQj",
+    "candidates": [
+      "citadel-1-21-1-port",
+      "citadel-unofficial-port",
+      "citadel"
+    ]
+  },
+  "cloth-config": {
+    "mr_title": "Cloth Config API",
+    "mr_slug": "cloth-config",
+    "mr_id": "9s6osm5g",
+    "candidates": [
+      "cloth-config",
+      "cloth-config-api"
+    ]
+  },
+  "codechicken-lib": {
+    "mr_title": "CodeChicken Lib",
+    "mr_slug": "codechicken-lib",
+    "mr_id": "2gq0ALnz",
+    "candidates": [
+      "codechicken-lib",
+      "codechicken"
+    ]
+  },
+  "controlling": {
+    "mr_title": "Controlling",
+    "mr_slug": "controlling",
+    "mr_id": "xv94TkTM",
+    "candidates": [
+      "controlling"
+    ]
+  },
+  "crafting-station-jei-edition-updated": {
+    "mr_title": "Crafting Station: J/EMI Edition Updated",
+    "mr_slug": "crafting-station-jei-edition-updated",
+    "mr_id": "rc8HlDUK",
+    "candidates": [
+      "crafting-station-jei-edition-updated",
+      "crafting-station-j-emi-edition-updated"
+    ]
+  },
+  "crafting-tweaks": {
+    "mr_title": "Crafting Tweaks",
+    "mr_slug": "crafting-tweaks",
+    "mr_id": "DMu0oBKf",
+    "candidates": [
+      "crafting-tweaks"
+    ]
+  },
+  "create-applied-kinetics": {
+    "mr_title": "Create: Applied Kinetics",
+    "mr_slug": "create-applied-kinetics",
+    "mr_id": "mYGTCuZY",
+    "candidates": [
+      "create-applied-kinetics"
+    ]
+  },
+  "create": {
+    "mr_title": "Create",
+    "mr_slug": "create",
+    "mr_id": "LNytGWDc",
+    "candidates": [
+      "create"
+    ]
+  },
+  "createaddition": {
+    "mr_title": "Create Crafts & Additions",
+    "mr_slug": "createaddition",
+    "mr_id": "kU1G12Nn",
+    "candidates": [
+      "createaddition",
+      "create-crafts-and-additions"
+    ]
+  },
+  "cristel-lib": {
+    "mr_title": "Cristel Lib",
+    "mr_slug": "cristel-lib",
+    "mr_id": "cl223EMc",
+    "candidates": [
+      "cristel-lib",
+      "cristel"
+    ]
+  },
+  "curios": {
+    "mr_title": "Curios API",
+    "mr_slug": "curios",
+    "mr_id": "vvuO3ImH",
+    "candidates": [
+      "curios",
+      "curios-api"
+    ]
+  },
+  "draconic-evolution": {
+    "mr_title": "Draconic Evolution",
+    "mr_slug": "draconic-evolution",
+    "mr_id": "nBqivi8H",
+    "candidates": [
+      "draconic-evolution"
+    ]
+  },
+  "embeddium": {
+    "mr_title": "Embeddium",
+    "mr_slug": "embeddium",
+    "mr_id": "sk9rgfiA",
+    "candidates": [
+      "embeddium"
+    ]
+  },
+  "enchantment-descriptions": {
+    "mr_title": "Enchantment Descriptions",
+    "mr_slug": "enchantment-descriptions",
+    "mr_id": "UVtY3ZAC",
+    "candidates": [
+      "enchantment-descriptions"
+    ]
+  },
+  "enderio": {
+    "mr_title": "Ender IO",
+    "mr_slug": "enderio",
+    "mr_id": "49ZofO4f",
+    "candidates": [
+      "enderio",
+      "ender-io"
+    ]
+  },
+  "farmers-delight": {
+    "mr_title": "Farmer's Delight",
+    "mr_slug": "farmers-delight",
+    "mr_id": "R2OftAxM",
+    "candidates": [
+      "farmers-delight",
+      "farmer-s-delight"
+    ]
+  },
+  "ferrite-core": {
+    "mr_title": "FerriteCore",
+    "mr_slug": "ferrite-core",
+    "mr_id": "uXXizFIs",
+    "candidates": [
+      "ferrite-core",
+      "ferritecore"
+    ]
+  },
+  "findme": {
+    "mr_title": "FindMe",
+    "mr_slug": "findme",
+    "mr_id": "rEuzehyH",
+    "candidates": [
+      "findme"
+    ]
+  },
+  "functional-storage": {
+    "mr_title": "Functional Storage",
+    "mr_slug": "functional-storage",
+    "mr_id": "cO40ZIg3",
+    "candidates": [
+      "functional-storage"
+    ]
+  },
+  "geckolib": {
+    "mr_title": "Geckolib",
+    "mr_slug": "geckolib",
+    "mr_id": "8BmcQJ2H",
+    "candidates": [
+      "geckolib"
+    ]
+  },
+  "glodium": {
+    "mr_title": "Glodium",
+    "mr_slug": "glodium",
+    "mr_id": "UhW5uCKw",
+    "candidates": [
+      "glodium"
+    ]
+  },
+  "guideme": {
+    "mr_title": "GuideME",
+    "mr_slug": "guideme",
+    "mr_id": "Ck4E7v7R",
+    "candidates": [
+      "guideme"
+    ]
+  },
+  "immediatelyfast": {
+    "mr_title": "ImmediatelyFast",
+    "mr_slug": "immediatelyfast",
+    "mr_id": "5ZwdcRci",
+    "candidates": [
+      "immediatelyfast"
+    ]
+  },
+  "industrial-foregoing": {
+    "mr_title": "Industrial Foregoing",
+    "mr_slug": "industrial-foregoing",
+    "mr_id": "lWxpUd04",
+    "candidates": [
+      "industrial-foregoing"
+    ]
+  },
+  "inventory-essentials": {
+    "mr_title": "Inventory Essentials",
+    "mr_slug": "inventory-essentials",
+    "mr_id": "Boon8xwi",
+    "candidates": [
+      "inventory-essentials"
+    ]
+  },
+  "item-collectors": {
+    "mr_title": "Item Collectors",
+    "mr_slug": "item-collectors",
+    "mr_id": "y9vDr4Th",
+    "candidates": [
+      "item-collectors"
+    ]
+  },
+  "jade": {
+    "mr_title": "Jade 🔍",
+    "mr_slug": "jade",
+    "mr_id": "nvQzSEkH",
+    "candidates": [
+      "jade"
+    ]
+  },
+  "jei": {
+    "mr_title": "Just Enough Items (JEI)",
+    "mr_slug": "jei",
+    "mr_id": "u6dRKJwZ",
+    "candidates": [
+      "jei",
+      "just-enough-items-jei",
+      "just-enough-items"
+    ]
+  },
+  "journeymap": {
+    "mr_title": "JourneyMap",
+    "mr_slug": "journeymap",
+    "mr_id": "lfHFW1mp",
+    "candidates": [
+      "journeymap"
+    ]
+  },
+  "kubejs": {
+    "mr_title": "KubeJS",
+    "mr_slug": "kubejs",
+    "mr_id": "umyGl7zF",
+    "candidates": [
+      "kubejs"
+    ]
+  },
+  "l_enders-cataclysm": {
+    "mr_title": "L_Ender's Cataclysm",
+    "mr_slug": "l_enders-cataclysm",
+    "mr_id": "46KJle7n",
+    "candidates": [
+      "l-enders-cataclysm",
+      "l-ender-s-cataclysm"
+    ]
+  },
+  "lionfish-api": {
+    "mr_title": "Lionfish-API",
+    "mr_slug": "lionfish-api",
+    "mr_id": "FoVacERa",
+    "candidates": [
+      "lionfish-api"
+    ]
+  },
+  "lithostitched": {
+    "mr_title": "Lithostitched",
+    "mr_slug": "lithostitched",
+    "mr_id": "XaDC71GB",
+    "candidates": [
+      "lithostitched"
+    ]
+  },
+  "macaws-doors": {
+    "mr_title": "Macaw's Doors",
+    "mr_slug": "macaws-doors",
+    "mr_id": "kNxa8z3e",
+    "candidates": [
+      "macaws-doors",
+      "macaw-s-doors"
+    ]
+  },
+  "macaws-furniture": {
+    "mr_title": "Macaw's Furniture",
+    "mr_slug": "macaws-furniture",
+    "mr_id": "dtWC90iB",
+    "candidates": [
+      "macaws-furniture",
+      "macaw-s-furniture"
+    ]
+  },
+  "macaws-lights-and-lamps": {
+    "mr_title": "Macaw's Lights and Lamps",
+    "mr_slug": "macaws-lights-and-lamps",
+    "mr_id": "w4an97C2",
+    "candidates": [
+      "macaws-lights-and-lamps",
+      "macaw-s-lights-and-lamps"
+    ]
+  },
+  "macaws-roofs": {
+    "mr_title": "Macaw's Roofs",
+    "mr_slug": "macaws-roofs",
+    "mr_id": "B8jaH3P1",
+    "candidates": [
+      "macaws-roofs",
+      "macaw-s-roofs"
+    ]
+  },
+  "macaws-windows": {
+    "mr_title": "Macaw's Windows",
+    "mr_slug": "macaws-windows",
+    "mr_id": "C7I0BCni",
+    "candidates": [
+      "macaws-windows",
+      "macaw-s-windows"
+    ]
+  },
+  "mekanism-additions": {
+    "mr_title": "Mekanism Additions",
+    "mr_slug": "mekanism-additions",
+    "mr_id": "a6F3uASn",
+    "candidates": [
+      "mekanism-additions"
+    ]
+  },
+  "mekanism-generators": {
+    "mr_title": "Mekanism Generators",
+    "mr_slug": "mekanism-generators",
+    "mr_id": "OFVYKsAk",
+    "candidates": [
+      "mekanism-generators"
+    ]
+  },
+  "mekanism-tools": {
+    "mr_title": "Mekanism Tools",
+    "mr_slug": "mekanism-tools",
+    "mr_id": "tqQpq1lt",
+    "candidates": [
+      "mekanism-tools"
+    ]
+  },
+  "mekanism": {
+    "mr_title": "Mekanism",
+    "mr_slug": "mekanism",
+    "mr_id": "Ce6I4WUE",
+    "candidates": [
+      "mekanism"
+    ]
+  },
+  "merequester": {
+    "mr_title": "ME Requester",
+    "mr_slug": "merequester",
+    "mr_id": "E6BFl96N",
+    "candidates": [
+      "merequester",
+      "me-requester"
+    ]
+  },
+  "metal-barrels": {
+    "mr_title": "Metal Barrels",
+    "mr_slug": "metal-barrels",
+    "mr_id": "Zdp9LMYf",
+    "candidates": [
+      "metal-barrels"
+    ]
+  },
+  "moonlight": {
+    "mr_title": "Moonlight Lib",
+    "mr_slug": "moonlight",
+    "mr_id": "twkfQtEc",
+    "candidates": [
+      "moonlight",
+      "moonlight-lib"
+    ]
+  },
+  "mouse-tweaks": {
+    "mr_title": "Mouse Tweaks",
+    "mr_slug": "mouse-tweaks",
+    "mr_id": "aC3cM3Vq",
+    "candidates": [
+      "mouse-tweaks"
+    ]
+  },
+  "oritech": {
+    "mr_title": "Oritech",
+    "mr_slug": "oritech",
+    "mr_id": "4sYI62kA",
+    "candidates": [
+      "oritech"
+    ]
+  },
+  "overflowing-bars": {
+    "mr_title": "Overflowing Bars",
+    "mr_slug": "overflowing-bars",
+    "mr_id": "XD7XOrAF",
+    "candidates": [
+      "overflowing-bars"
+    ]
+  },
+  "patchouli": {
+    "mr_title": "Patchouli",
+    "mr_slug": "patchouli",
+    "mr_id": "nU0bVIaL",
+    "candidates": [
+      "patchouli"
+    ]
+  },
+  "pick-up-notifier": {
+    "mr_title": "Pick Up Notifier",
+    "mr_slug": "pick-up-notifier",
+    "mr_id": "ZX66K16c",
+    "candidates": [
+      "pick-up-notifier"
+    ]
+  },
+  "pipez": {
+    "mr_title": "Pipez",
+    "mr_slug": "pipez",
+    "mr_id": "iRmWy6ga",
+    "candidates": [
+      "pipez"
+    ]
+  },
+  "prickle": {
+    "mr_title": "Prickle",
+    "mr_slug": "prickle",
+    "mr_id": "aaRl8GiW",
+    "candidates": [
+      "prickle"
+    ]
+  },
+  "puzzles-lib": {
+    "mr_title": "Puzzles Lib",
+    "mr_slug": "puzzles-lib",
+    "mr_id": "QAGBst4M",
+    "candidates": [
+      "puzzles-lib",
+      "puzzles"
+    ]
+  },
+  "quark": {
+    "mr_title": "Quark",
+    "mr_slug": "quark",
+    "mr_id": "qnQsVE2z",
+    "candidates": [
+      "quark"
+    ]
+  },
+  "resourceful-lib": {
+    "mr_title": "Resourceful Lib",
+    "mr_slug": "resourceful-lib",
+    "mr_id": "G1hIVOrD",
+    "candidates": [
+      "resourceful-lib",
+      "resourceful"
+    ]
+  },
+  "rhino": {
+    "mr_title": "Rhino",
+    "mr_slug": "rhino",
+    "mr_id": "sk9knFPE",
+    "candidates": [
+      "rhino"
+    ]
+  },
+  "searchables": {
+    "mr_title": "Searchables",
+    "mr_slug": "searchables",
+    "mr_id": "fuuu3xnx",
+    "candidates": [
+      "searchables"
+    ]
+  },
+  "simple-magnets": {
+    "mr_title": "Simple Magnets",
+    "mr_slug": "simple-magnets",
+    "mr_id": "YyNQVpOu",
+    "candidates": [
+      "simple-magnets"
+    ]
+  },
+  "sophisticated-backpacks": {
+    "mr_title": "Sophisticated Backpacks",
+    "mr_slug": "sophisticated-backpacks",
+    "mr_id": "TyCTlI4b",
+    "candidates": [
+      "sophisticated-backpacks"
+    ]
+  },
+  "sophisticated-core": {
+    "mr_title": "Sophisticated Core",
+    "mr_slug": "sophisticated-core",
+    "mr_id": "nmoqTijg",
+    "candidates": [
+      "sophisticated-core"
+    ]
+  },
+  "sophisticated-storage": {
+    "mr_title": "Sophisticated Storage",
+    "mr_slug": "sophisticated-storage",
+    "mr_id": "hMlaZH8f",
+    "candidates": [
+      "sophisticated-storage"
+    ]
+  },
+  "supermartijn642s-config-lib": {
+    "mr_title": "SuperMartijn642's Config Lib",
+    "mr_slug": "supermartijn642s-config-lib",
+    "mr_id": "LN9BxssP",
+    "candidates": [
+      "supermartijn642s-config-lib",
+      "supermartijn642-s-config-lib",
+      "supermartijn642-s-config"
+    ]
+  },
+  "supermartijn642s-core-lib": {
+    "mr_title": "SuperMartijn642's Core Lib",
+    "mr_slug": "supermartijn642s-core-lib",
+    "mr_id": "rOUBggPv",
+    "candidates": [
+      "supermartijn642s-core-lib",
+      "supermartijn642-s-core-lib",
+      "supermartijn642-s-core"
+    ]
+  },
+  "supplementaries": {
+    "mr_title": "Supplementaries",
+    "mr_slug": "supplementaries",
+    "mr_id": "fFEIiSDQ",
+    "candidates": [
+      "supplementaries"
+    ]
+  },
+  "tectonic": {
+    "mr_title": "Tectonic",
+    "mr_slug": "tectonic",
+    "mr_id": "lWDHr9jE",
+    "candidates": [
+      "tectonic"
+    ]
+  },
+  "terralith": {
+    "mr_title": "Terralith",
+    "mr_slug": "terralith",
+    "mr_id": "8oi3bsk5",
+    "candidates": [
+      "terralith"
+    ]
+  },
+  "titanium": {
+    "mr_title": "Titanium",
+    "mr_slug": "titanium",
+    "mr_id": "1Ro7m06l",
+    "candidates": [
+      "titanium"
+    ]
+  },
+  "towns-and-towers": {
+    "mr_title": "Towns and Towers",
+    "mr_slug": "towns-and-towers",
+    "mr_id": "DjLobEOy",
+    "candidates": [
+      "towns-and-towers"
+    ]
+  },
+  "trash-cans": {
+    "mr_title": "Trash Cans",
+    "mr_slug": "trash-cans",
+    "mr_id": "4QrnfueM",
+    "candidates": [
+      "trash-cans"
+    ]
+  },
+  "when-dungeons-arise": {
+    "mr_title": "When Dungeons Arise",
+    "mr_slug": "when-dungeons-arise",
+    "mr_id": "8DfbfASn",
+    "candidates": [
+      "when-dungeons-arise"
+    ]
+  },
+  "yungs-api": {
+    "mr_title": "YUNG's API",
+    "mr_slug": "yungs-api",
+    "mr_id": "Ua7DFN59",
+    "candidates": [
+      "yungs-api",
+      "yung-s-api",
+      "yung-s"
+    ]
+  },
+  "yungs-better-desert-temples": {
+    "mr_title": "YUNG's Better Desert Temples",
+    "mr_slug": "yungs-better-desert-temples",
+    "mr_id": "XNlO7sBv",
+    "candidates": [
+      "yungs-better-desert-temples",
+      "yung-s-better-desert-temples"
+    ]
+  },
+  "yungs-better-dungeons": {
+    "mr_title": "YUNG's Better Dungeons",
+    "mr_slug": "yungs-better-dungeons",
+    "mr_id": "o1C1Dkj5",
+    "candidates": [
+      "yungs-better-dungeons",
+      "yung-s-better-dungeons"
+    ]
+  },
+  "yungs-better-end-island": {
+    "mr_title": "YUNG's Better End Island",
+    "mr_slug": "yungs-better-end-island",
+    "mr_id": "2BwBOmBQ",
+    "candidates": [
+      "yungs-better-end-island",
+      "yung-s-better-end-island"
+    ]
+  },
+  "yungs-better-jungle-temples": {
+    "mr_title": "YUNG's Better Jungle Temples",
+    "mr_slug": "yungs-better-jungle-temples",
+    "mr_id": "z9Ve58Ih",
+    "candidates": [
+      "yungs-better-jungle-temples",
+      "yung-s-better-jungle-temples"
+    ]
+  },
+  "yungs-better-mineshafts": {
+    "mr_title": "YUNG's Better Mineshafts",
+    "mr_slug": "yungs-better-mineshafts",
+    "mr_id": "HjmxVlSr",
+    "candidates": [
+      "yungs-better-mineshafts",
+      "yung-s-better-mineshafts"
+    ]
+  },
+  "yungs-better-nether-fortresses": {
+    "mr_title": "YUNG's Better Nether Fortresses",
+    "mr_slug": "yungs-better-nether-fortresses",
+    "mr_id": "Z2mXHnxP",
+    "candidates": [
+      "yungs-better-nether-fortresses",
+      "yung-s-better-nether-fortresses"
+    ]
+  },
+  "yungs-better-ocean-monuments": {
+    "mr_title": "YUNG's Better Ocean Monuments",
+    "mr_slug": "yungs-better-ocean-monuments",
+    "mr_id": "3dT9sgt4",
+    "candidates": [
+      "yungs-better-ocean-monuments",
+      "yung-s-better-ocean-monuments"
+    ]
+  },
+  "yungs-better-strongholds": {
+    "mr_title": "YUNG's Better Strongholds",
+    "mr_slug": "yungs-better-strongholds",
+    "mr_id": "kidLKymU",
+    "candidates": [
+      "yungs-better-strongholds",
+      "yung-s-better-strongholds"
+    ]
+  },
+  "yungs-better-witch-huts": {
+    "mr_title": "YUNG's Better Witch Huts",
+    "mr_slug": "yungs-better-witch-huts",
+    "mr_id": "t5FRdP87",
+    "candidates": [
+      "yungs-better-witch-huts",
+      "yung-s-better-witch-huts"
+    ]
+  },
+  "zeta": {
+    "mr_title": "Zeta",
+    "mr_slug": "zeta",
+    "mr_id": "MVARlG2f",
+    "candidates": [
+      "zeta"
+    ]
+  }
+}
