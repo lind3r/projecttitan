@@ -6,7 +6,23 @@
       "enderio",
       "moonlight",
       "yungs-better-mineshafts"
-    ]
+    ],
+    "mr_only_by_author_choice": {
+      "_reason": "These mods have valid 1.21.1 NeoForge releases on Modrinth, but the authors did not upload those artifacts to CurseForge (the CF projects exist but stopped at older versions or Forge-only). CF blocks were removed from these .pw.toml files on 2026-05-12 because the CF-side files are broken for our target loader (proven by 0.1.3 cf instance crash). DO NOT re-wire these to CF unless the authors publish 1.21.1 NeoForge to CF.",
+      "mods": [
+        "yungs-api",
+        "yungs-better-desert-temples",
+        "yungs-better-dungeons",
+        "yungs-better-end-island",
+        "yungs-better-jungle-temples",
+        "yungs-better-mineshafts",
+        "yungs-better-nether-fortresses",
+        "yungs-better-ocean-monuments",
+        "yungs-better-strongholds",
+        "yungs-better-witch-huts",
+        "cc-tweaked"
+      ]
+    }
   },
   "ae2":                                       { "cf_slug": "applied-energistics-2",         "cf_name": "Applied Energistics 2" },
   "alexs-mobs(1.21.1)":                        { "cf_slug": "alexs-mobs-1-21-1-port",        "cf_name": "Alex's Mobs (Unofficial Port)",                 "note": "Verified 2026-05-11: this CF project is the same Unofficial NeoForge Port as the Modrinth one (same name, same version 1.22.17 on both stores). sbom's original /alexs-mobs is 1.20.1 only, not suitable." },
