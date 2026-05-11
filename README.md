@@ -8,26 +8,28 @@ A NeoForge modpack for Minecraft 1.21.1 built around a 10-tier progression chain
 
 - **Minecraft:** 1.21.1
 - **Loader:** NeoForge 21.1.228
-- **Mods:** 121 (full list: [`MODLIST.md`](MODLIST.md))
+- **Mods:** 125 (full list: [`MODLIST.md`](MODLIST.md))
 - **Anchor mod:** [`projecttitancore`](https://github.com/lind3r/projecttitancore) — custom mod developed alongside this pack
 - **Quests:** FTB Quests, 10-tier chain (Mote of the Titan → Heart of the Titan → Titan Trial → Coronation)
 - **Theme:** holy / divine — ivory marble, gold accents, halos and sunbursts
 
 ## Installing
 
-The pack is distributed as a Modrinth `.mrpack` file (built with [packwiz](https://packwiz.infra.link/)). Once a release is cut you'll be able to grab it from the Releases page; in the meantime you can build it yourself:
+The pack is built with [packwiz](https://packwiz.infra.link/) and exports to two formats:
 
-```bash
-# from the repo root
-packwiz modrinth export
-```
+- **Modrinth `.mrpack`** (primary) — `packwiz modrinth export`
+- **CurseForge `.zip`** — `packwiz curseforge export`
 
-That produces `Project Titan-<version>.mrpack`, which any of these launchers can import directly:
+Releases attach both. In the meantime you can build either locally from the repo root.
+
+Importers that accept the `.mrpack`:
 
 - [Modrinth App](https://modrinth.com/app)
 - [Prism Launcher](https://prismlauncher.org/)
 - [ATLauncher](https://atlauncher.com/)
 - [MultiMC](https://multimc.org/)
+
+Importers that accept the CurseForge `.zip`: the CurseForge / Overwolf desktop app, Prism Launcher (via "Import"), MultiMC.
 
 Alternatively, [`MODLIST.md`](MODLIST.md) and [`MODLIST.txt`](MODLIST.txt) are human-readable manifests if you just want to see what's in the pack.
 
