@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2l.cfe"
-hash = "2a3a31e31dd0faf4a7431d76611d1a5688356dc587ab4b7b3dc9ca5d37573d24"
+file = "config/ars_nouveau/search_index/_2m.cfe"
+hash = "f5c3b10fab9b54504f1a974d675ffe8f3121b13c30de85ead21d3a1ee9912722"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2l.cfs"
-hash = "2013188f0c20e4bde700a0dd441d9974e0ad2be4d78e3af9a110babfb7c46879"
+file = "config/ars_nouveau/search_index/_2m.cfs"
+hash = "17f5ef92fb128501f41554372a774bde1e9d0bac600c4c03680f20fe0fc39036"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2l.si"
-hash = "e677af3c789ad333158e40907ace9c1775d3a7809464e65d8ddd9cd6b0e08678"
+file = "config/ars_nouveau/search_index/_2m.si"
+hash = "1e131cdfbfc1058c771e435306100c80ffeaad75c403d8262cb5f6ba9aa833e8"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_2m"
-hash = "3de7bed6696de2b5f1f2cf490465fd85696d0dad3c34a0df6be76a7f8ff73ed4"
+file = "config/ars_nouveau/search_index/segments_2n"
+hash = "e45ed4b58fb18b14147e0f997cdbcb9ec1ecc0e15114962a65442ee22d80d3d4"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -2078,7 +2078,7 @@ hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "5927152e9147cb4b035f8c45bedb74e5d3348d7d8d87ad182450447ff3a1781d"
+hash = "b2510127dc53d14cae83d025b5cb627129005511582944e58bccc16d3ec61e95"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2138,7 +2138,7 @@ hash = "0f983f39969159b90eaeb8e69c14fb1c803cf028fe9d7546f05349076ab053a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/other.snbt"
-hash = "37239f4541f33990ad0f5a0efafbe59e208ffbb56d7d7f010757c61333c229ae"
+hash = "78f81ea5c3b07e90d617db8b0ef15dcd5e37be157a9cbab9778665897aa7340c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
@@ -2150,7 +2150,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "2eab0107349c06c861fe757b8b530c464e0dec2870f8b573fe6632b15c7337b6"
+hash = "11631b6f86a2dc54360f7faab0f6658dc99ca8dd1b5b316317d1dac2d6411e68"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
@@ -2266,7 +2266,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "dd98f2ee0ef8950170cf8c56f0aa23e5b2f3ce714154b84d9521e20e812b1bbf"
+hash = "76a861ae86a401a8645a7937353feb797e22c6ea33806c8119f35be088269c76"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2294,7 +2294,7 @@ hash = "b5a9a4224f9cd006b7689c5ed6fcc674c7a6550c23292ec73bab490d948f8d77"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.json"
-hash = "90a565081be2b40ce943cc2126d11eb8e3201ef65e88bde7fecc1d587741c512"
+hash = "b9b3d8cd345d9025f00e87ac5727bac7dd6966fe5769c212f539efd08e7fb661"
 
 [[files]]
 file = "config/jei/world/local/New_World__1/bookmarks.json"
@@ -2491,6 +2491,10 @@ hash = "1f069468e438ae66f65ee41732603c895741b063add626a9e56ef7d0040ac4e6"
 [[files]]
 file = "config/vanilla_structures/toggle_structure_config.json5"
 hash = "c4fb220488de3c1afc569f4b8a89d8e97f8b5504eeb59d9700b491f29718d2f9"
+
+[[files]]
+file = "config/wands.json"
+hash = "49dc3bc8bdf924580e25a7121b4a6dd1086f0b31e88d713a10133784e60f69d1"
 
 [[files]]
 file = "config/zeta-common.toml"

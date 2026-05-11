@@ -355,8 +355,8 @@
 				id: "280A1B2C3D4E5FA3"
 				type: "biome"
 			}]
-			x: -6.5d
-			y: 1.0d
+			x: -6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -376,7 +376,7 @@
 				type: "structure"
 			}]
 			x: -7.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -414,8 +414,8 @@
 				structure: "dungeons_arise:bandit_towers"
 				type: "structure"
 			}]
-			x: -6.0d
-			y: 3.5d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -537,7 +537,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.2d
+			size: 1.5d
 			tasks: [{
 				id: "19179944BA7886C5"
 				type: "checkmark"
@@ -683,7 +683,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 1.2d
+			size: 1.5d
 			tasks: [{
 				id: "3A89CCAD085DE9D4"
 				type: "checkmark"
@@ -983,8 +983,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 7.0d
+			x: -4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -1190,8 +1190,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 5.0d
+			x: -4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["610AC7347A4F7705"]
@@ -1326,6 +1326,35 @@
 			]
 			x: 0.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["610AC7347A4F7705"]
+			id: "4B17DC52A06091AE"
+			rewards: [
+				{
+					id: "5C234E78F90A1B2C"
+					item: {
+						count: 1
+						id: "wands:iron_wand"
+					}
+					type: "item"
+				}
+				{
+					id: "6D345F89A01B2C3D"
+					item: {
+						count: 1
+						id: "wands:palette"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FE890DB47A18CC0"
+				item: { count: 1, id: "wands:stone_wand" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
 		}
 	]
 }

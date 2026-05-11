@@ -853,6 +853,15 @@
 	]
 	quest.4AC2D5E6F708B900.quest_subtitle: "Strap your tools to your waist."
 	quest.4AC2D5E6F708B900.title: "&6Tool Belt&r"
+	quest.4B17DC52A06091AE.quest_desc: [
+		"&6Building Wands&r adds wands that bulk-place blocks. Aim at a face, click, and the wand extends the surface along your line of sight, drawing from your inventory."
+		""
+		"Five tiers — &eStone&r (16/swing) → &eCopper&r → &eIron&r (32) → &eDiamond&r (64) → &eNetherite&r (256). Modes for rows, fills, grids, lines, circles, and copy/paste."
+		""
+		"&7&oTip: keep a &eShulker Box&r stocked — wands pull from it before your hotbar.&r"
+	]
+	quest.4B17DC52A06091AE.quest_subtitle: "Right-click to extend a face."
+	quest.4B17DC52A06091AE.title: "&6Building Wands&r"
 	quest.4C6CF541318C7436.quest_desc: [
 		"&6Apotheosis&r's &eGem Cutting Table&r turns &eGem Dust&r (crushed from gems you don't want) plus rarity materials into upgraded &egems&r. Sockets in your gear are only as strong as the gem you slot."
 		""
