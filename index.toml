@@ -6,7 +6,7 @@ hash = "52974a89fd2ce3a12373e0c530ab4830025b452f30baee28608376aed7151e21"
 
 [[files]]
 file = "MODLIST.txt"
-hash = "ca0659a52d7839e7946329316fe0ee5ce1812538cc78f43f2d232f3db676fa15"
+hash = "8f55d60aee258a7ab2fa94bd4cc919149035e9e2c9b51d72a5cdf1f9f5fe806a"
 
 [[files]]
 file = "balance/energy-discovered.json"
@@ -1998,7 +1998,7 @@ hash = "708750dc530ed52462185c7b1421291db8b292a350e164daaad437ba6f4fe4ef"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "3ae541cb5000075a8487bdcaf14634c3215abbd73ffc3715fd5efd2112c9a23c"
+hash = "2e45fad8b1f64480f223f2c48be441d2e6d9768581fce2f247483574335b383c"
 
 [[files]]
 file = "config/enchdesc.json"
@@ -3021,7 +3021,7 @@ metafile = true
 
 [[files]]
 file = "mods/projecttitancore.pw.toml"
-hash = "f4f0cb6688894dfc020c07b32815e27aa45de08591506538cf57889c5045c2f4"
+hash = "0428a9c3a3e8ab583462f4d5a51fae0bf6d081e76af7f6eff1b13cb63963a572"
 metafile = true
 
 [[files]]

@@ -1,8 +1,8 @@
 name = "projecttitancore"
-filename = "projecttitancore-0.3.0.jar"
+filename = "projecttitancore-0.3.1.jar"
 side = "both"
 
 [download]
-url = "https://github.com/lind3r/projecttitancore/releases/download/v0.3.0/projecttitancore-0.3.0.jar"
+url = "https://github.com/lind3r/projecttitancore/releases/download/v0.3.1/projecttitancore-0.3.1.jar"
 hash-format = "sha256"
-hash = "d2fada5dd9d043cd2c9b3f3db8abec9dce51bd0a956f9e8e0b7d0d3312f355f7"
+hash = "2e24fca211c073bd7d3a43b4b03562e67f9e4cf5adecfc70f9ddef41a10d7813"
