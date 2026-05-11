@@ -1,4 +1,4 @@
-name = "YUNG's Better Strongholds"
+name = "YUNG's Better Strongholds (Forge/NeoForge)"
 filename = "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar"
 side = "both"
 
@@ -11,3 +11,6 @@ hash = "385d67e07f2c67af5ea387d92d92949d8f671e8f99204457b6396dbe987ac3b14c2bff76
 [update.modrinth]
 mod-id = "kidLKymU"
 version = "8U0dIfSM"
+[update.curseforge]
+file-id = 6272263
+project-id = 465575

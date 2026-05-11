@@ -11,3 +11,6 @@ hash = "275ba1c87f13ca967c5a65bf3b120a101fe2c292d89565401167b268ae8ad20bc2fb6665
 [update.modrinth]
 mod-id = "lWxpUd04"
 version = "os5V2Plx"
+[update.curseforge]
+file-id = 7600395
+project-id = 266515

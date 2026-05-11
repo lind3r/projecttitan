@@ -1,4 +1,4 @@
-name = "CodeChicken Lib"
+name = "CodeChicken Lib 1.8.+"
 filename = "CodeChickenLib-1.21.1-4.6.1.526.jar"
 side = "both"
 
@@ -11,3 +11,6 @@ hash = "2d4efdc64531d5bb8133a247bc22a0728ab99dbcb2842ad0303b2242afd0ddc1b90cd43f
 [update.modrinth]
 mod-id = "2gq0ALnz"
 version = "gQ1srSKh"
+[update.curseforge]
+file-id = 7281427
+project-id = 242818

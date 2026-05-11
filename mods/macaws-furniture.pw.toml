@@ -11,3 +11,6 @@ hash = "93103f868a6a7b4fa613dbe908bcf83c4aaabf4719057d484d1636c98e6e3defa00d550a
 [update.modrinth]
 mod-id = "dtWC90iB"
 version = "Z5V3Ps7S"
+[update.curseforge]
+file-id = 7255584
+project-id = 359540

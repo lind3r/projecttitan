@@ -11,3 +11,6 @@ hash = "0b5c172db9a6eeecb5ca44b359a83548c3a60be7ff313959acdfc1e5b8039736c18e57e9
 [update.modrinth]
 mod-id = "nU0bVIaL"
 version = "BIogJv2D"
+[update.curseforge]
+file-id = 7730942
+project-id = 306770

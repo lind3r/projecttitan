@@ -1,4 +1,4 @@
-name = "FerriteCore"
+name = "FerriteCore ((Neo)Forge)"
 filename = "ferritecore-7.0.3-neoforge.jar"
 side = "both"
 
@@ -11,3 +11,6 @@ hash = "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303
 [update.modrinth]
 mod-id = "uXXizFIs"
 version = "x7kQWVju"
+[update.curseforge]
+file-id = 7524151
+project-id = 429235

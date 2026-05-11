@@ -11,3 +11,6 @@ hash = "22522c86d5ca798c9ee9f3c20f18f540be125fa1c76d736d1c2e876a31469b5ee61eef27
 [update.modrinth]
 mod-id = "kU1G12Nn"
 version = "CP8Lhuwu"
+[update.curseforge]
+file-id = 7518252
+project-id = 439890

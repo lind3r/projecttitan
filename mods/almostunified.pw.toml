@@ -11,3 +11,6 @@ hash = "cb96a81a3bd4291113655097f66f5b0944b0fcf049bac663b0116b639b0989dbf5701d3f
 [update.modrinth]
 mod-id = "sdaSaQEz"
 version = "vvzNMESp"
+[update.curseforge]
+file-id = 7873439
+project-id = 633823

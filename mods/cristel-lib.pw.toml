@@ -11,3 +11,6 @@ hash = "b1408d22adeb6d113ddaba0c5d1f24aa5193d565f4f94dae6b81867f17859f2204c438d2
 [update.modrinth]
 mod-id = "cl223EMc"
 version = "JiCAbUWP"
+[update.curseforge]
+file-id = 7593921
+project-id = 856996
