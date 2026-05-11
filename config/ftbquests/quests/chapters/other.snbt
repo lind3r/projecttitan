@@ -1285,45 +1285,23 @@
 		}
 		{
 			dependencies: ["7DA79533AFA8AAEB"]
+			icon: {
+				id: "adfinders:metal_finder"
+			}
 			id: "5DE11EF5D664F8E7"
-			rewards: [
-				{
-					count: 16
-					id: "53F54A3C557D26AE"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
+			rewards: [{
+				id: "6D1C40363654059C"
+				item: {
+					count: 1
+					id: "adfinders:metal_finder"
 				}
-				{
-					count: 64
-					id: "0BC2A8947CBAF202"
-					item: {
-						count: 1
-						id: "minecraft:torch"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "79017E3DBBBC4F5F"
-					item: { count: 1, id: "adfinders:gem_finder" }
-					type: "item"
-				}
-				{
-					id: "1999C16623EB48CD"
-					item: { count: 1, id: "adfinders:metal_finder" }
-					type: "item"
-				}
-				{
-					id: "0BC3A8947CBAF203"
-					item: { count: 1, id: "adfinders:mineral_finder" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6BFCAFE6CF1AD512"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -5.0d
 		}

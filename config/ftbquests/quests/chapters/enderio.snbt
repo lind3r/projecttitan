@@ -65,10 +65,10 @@
 			id: "5BD3E6F708192A10"
 			rewards: [{
 				count: 4
-				id: "5BD3E6F708192A12"
+				id: "00B14516AB0FC71E"
 				item: {
 					count: 1
-					id: "enderio:vibrant_alloy_ingot"
+					id: "enderio:energetic_alloy_ingot"
 				}
 				type: "item"
 			}]
@@ -83,35 +83,15 @@
 		{
 			dependencies: ["516A9483A90FD357"]
 			id: "0A813C4D5E6F7283"
-			rewards: [
-				{
-					count: 4
-					id: "0A813C4D5E6F7288"
-					item: {
-						count: 1
-						id: "enderio:vibrant_alloy_block"
-					}
-					type: "item"
+			rewards: [{
+				count: 64
+				id: "0A813C4D5E6F728A"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
 				}
-				{
-					count: 4
-					id: "0A813C4D5E6F7289"
-					item: {
-						count: 1
-						id: "enderio:pulsating_alloy_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "0A813C4D5E6F728A"
-					item: {
-						count: 1
-						id: "minecraft:bone_meal"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A813C4D5E6F7284"
 				item: { count: 1, id: "enderio:farming_station" }
@@ -123,34 +103,15 @@
 		{
 			dependencies: ["516A9483A90FD357"]
 			id: "1B0A57BB7ED47822"
-			rewards: [
-				{
-					id: "3E63FC1DFFA55651"
-					item: {
-						count: 1
-						id: "enderio:alloy_smelter"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "6E8435B323EA8C39"
+				item: {
+					count: 1
+					id: "enderio:energetic_alloy_ingot"
 				}
-				{
-					count: 8
-					id: "6E8435B323EA8C39"
-					item: {
-						count: 1
-						id: "enderio:energetic_alloy_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "3C14ECE2B7BE29A8"
-					item: {
-						count: 1
-						id: "enderio:vibrant_alloy_ingot"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7ACE932C8AAFAE7B"
 				item: { count: 1, id: "enderio:alloy_smelter" }
@@ -162,25 +123,14 @@
 		{
 			dependencies: ["1B0A57BB7ED47822"]
 			id: "362C28B7B25CA3D9"
-			rewards: [
-				{
-					id: "65C33F52009E9B76"
-					item: {
-						count: 1
-						id: "enderio:sag_mill"
-					}
-					type: "item"
+			rewards: [{
+				id: "5ADE57C7CEF36CBB"
+				item: {
+					count: 1
+					id: "enderio:vibrant_alloy_grinding_ball"
 				}
-				{
-					count: 8
-					id: "5ADE57C7CEF36CBB"
-					item: {
-						count: 1
-						id: "enderio:vibrant_alloy_grinding_ball"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "170137F045487E4D"
 				item: { count: 1, id: "enderio:sag_mill" }
@@ -199,14 +149,6 @@
 					item: {
 						count: 1
 						id: "enderio:soul_vial"
-					}
-					type: "item"
-				}
-				{
-					id: "53A336310196E364"
-					item: {
-						count: 1
-						id: "enderio:powered_spawner"
 					}
 					type: "item"
 				}
@@ -238,44 +180,20 @@
 		{
 			dependencies: ["516A9483A90FD357"]
 			id: "5917A928B0BDAD22"
-			rewards: [
-				{
-					id: "7F7E7A05156108E2"
-					item: {
-						count: 1
-						id: "enderio:basic_capacitor_bank"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "15D26CA3B9D71343"
+				item: {
+					count: 1
+					id: "enderio:dark_steel_ingot"
 				}
-				{
-					id: "4462816945428E37"
-					item: {
-						count: 1
-						id: "enderio:advanced_capacitor_bank"
-					}
-					type: "item"
-				}
-				{
-					id: "570F55997049161E"
-					item: {
-						count: 1
-						id: "enderio:vibrant_capacitor_bank"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "1B4D2A45E90BA1AC"
-					item: { count: 1, id: "enderio:basic_capacitor_bank" }
-					type: "item"
-				}
-				{
-					id: "3F5960147E6C0D50"
-					item: { count: 1, id: "enderio:vibrant_capacitor_bank" }
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B4D2A45E90BA1AC"
+				item: { count: 1, id: "enderio:basic_capacitor_bank" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 1.5d
 		}
@@ -283,14 +201,6 @@
 			dependencies: ["1B0A57BB7ED47822"]
 			id: "2FEE23037DE25FAA"
 			rewards: [
-				{
-					id: "1CA5A40D0F63288E"
-					item: {
-						count: 1
-						id: "enderio:enchanter"
-					}
-					type: "item"
-				}
 				{
 					count: 8
 					id: "105984BDBD3B4142"
@@ -321,24 +231,14 @@
 		{
 			dependencies: ["516A9483A90FD357"]
 			id: "4096E7F031E43727"
-			rewards: [
-				{
-					id: "06C5E3C8BB506C5E"
-					item: {
-						count: 1
-						id: "enderio:travel_anchor"
-					}
-					type: "item"
+			rewards: [{
+				id: "06C5E3C8BB506C5E"
+				item: {
+					count: 1
+					id: "enderio:travel_anchor"
 				}
-				{
-					id: "7EFF1CF05915F676"
-					item: {
-						count: 1
-						id: "enderio:staff_of_travelling"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5D89768F7C8596BA"
@@ -357,25 +257,15 @@
 		{
 			dependencies: ["1B0A57BB7ED47822"]
 			id: "75534119CD098FE9"
-			rewards: [
-				{
-					id: "47E4AB207E5CC4BC"
-					item: {
-						count: 1
-						id: "enderio:dark_steel_sword"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "672701D3AB9DD9B0"
+				item: {
+					count: 1
+					id: "enderio:dark_steel_ingot"
 				}
-				{
-					count: 16
-					id: "672701D3AB9DD9B0"
-					item: {
-						count: 1
-						id: "enderio:dark_steel_ingot"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C4A09EF63E130D1"
 				item: { count: 1, id: "enderio:dark_steel_ingot" }
@@ -387,32 +277,15 @@
 		{
 			dependencies: ["516A9483A90FD357"]
 			id: "2A49B70413B7164F"
-			rewards: [
-				{
-					id: "294D8BE69C52B218"
-					item: {
-						count: 1
-						id: "enderio:attractor_obelisk"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "2EBB08B81D727A8F"
+				item: {
+					count: 1
+					id: "enderio:energetic_alloy_ingot"
 				}
-				{
-					id: "12E5EFA5B447CD29"
-					item: {
-						count: 1
-						id: "enderio:aversion_obelisk"
-					}
-					type: "item"
-				}
-				{
-					id: "1EDF8A57D47C506D"
-					item: {
-						count: 1
-						id: "enderio:inhibitor_obelisk"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7A6787A4962DA37F"
@@ -431,25 +304,15 @@
 		{
 			dependencies: ["516A9483A90FD357"]
 			id: "1CE70C5907125D06"
-			rewards: [
-				{
-					id: "7267E75083D66470"
-					item: {
-						count: 1
-						id: "enderio:crafter"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "5BC5408AAAF47A81"
+				item: {
+					count: 1
+					id: "enderio:energetic_alloy_ingot"
 				}
-				{
-					count: 4
-					id: "1035147C0493B7A5"
-					item: {
-						count: 1
-						id: "enderio:vibrant_alloy_ingot"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FBC3CB65FFD17E6"
 				item: { count: 1, id: "enderio:crafter" }

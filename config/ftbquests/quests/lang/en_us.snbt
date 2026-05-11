@@ -1095,7 +1095,7 @@
 	quest.5D4A02AEFDC74408.quest_subtitle: "Patterns become items here."
 	quest.5D4A02AEFDC74408.title: "Molecular Assembler"
 	quest.5DE11EF5D664F8E7.quest_desc: [
-		"Three handheld scanners. Each one has its own in-game tooltip describing how it works — hover over it in your inventory to read it."
+		"There are three handheld scanners. Each one has its own in-game tooltip describing how it works — hover over it in your inventory to read it."
 		""
 		"The lists below cover what each finder targets and its scan range."
 		""
@@ -1114,7 +1114,6 @@
 		""
 		"Each finder has &edurability 4&r — they wear out after a handful of uses, so save them for surveying large areas."
 	]
-	quest.5DE11EF5D664F8E7.quest_subtitle: "Craft one of each."
 	quest.5DE11EF5D664F8E7.title: "Pocket Surveyors"
 	quest.5E85D1B027D7F049.quest_desc: [
 		"&6Oritech&r machines accept &eAddon Blocks&r — speed, capacity, range, yield. Each slot stacks; a &eMachine Extender&r doubles the addon count for a machine."
@@ -1541,6 +1540,7 @@
 	task.3D147F708192A588.title: "MekaSuit Bodyarmor"
 	task.3D147F708192A589.title: "MekaSuit Pants"
 	task.3D147F708192A58A.title: "MekaSuit Boots"
+	task.4C6BBF235F620A3F.title: "ASddff"
 	task.4F512AB1304BED9A.title: "Accept the Titan's challenge"
 	task.60AC7B83914DEF57.title: "Ignitium Helmet"
 	task.60AC7B83914DEF58.title: "Ignitium Chestplate"
