@@ -1373,20 +1373,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2g.cfe"
-hash = "a20bfd30774f2296ae36a8c31a65afc06fa471a6505dac83744a465f2295dbe6"
+file = "config/ars_nouveau/search_index/_2h.cfe"
+hash = "32a866bec1a697aa271be0a515d60c0e39f80cb4585c62f2d5ed6931379bfa27"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2g.cfs"
-hash = "0f3534614bd5eb3e4bb25d80d731c37577b67b9c03c0cfab3dd767103f1dc9b8"
+file = "config/ars_nouveau/search_index/_2h.cfs"
+hash = "76aec3c775acfc87d9b3243a860370f233fc01ec864f95478cc972a753b8125b"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2g.si"
-hash = "bd75fcdd7aaa2e1fa3720d83cc323459e3e003f94f8152592ec11b96fc85351c"
+file = "config/ars_nouveau/search_index/_2h.si"
+hash = "c0380fc8cbc70a287401d0b79a0e8bdf17d4407efd09b1abf73b9ce09a08873a"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_2h"
-hash = "2c9c3e7c5a75219e375eb4b743b5a81cfdce9e3d421bac098f14c8e6d54e1d42"
+file = "config/ars_nouveau/search_index/segments_2i"
+hash = "794742587b357d1be3e115582113fff12c2182a17dc3c54ee7da0daff83b6029"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -2078,7 +2078,7 @@ hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "c08a89b368e8135e750de19223555ac67616cf0c6eeb08612884425e2f0611f6"
+hash = "260f033410ace534fbc562182c5a3056f2f8f8a2ae20910b73d50b9b4b94bea6"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2305,6 +2305,10 @@ file = "config/jei/world/local/New_World__1/lookupHistory.json"
 hash = "4e78fafcd6feb4bf996da42ed49d7e04e6cbab48640aab6212994d16c2946ce5"
 
 [[files]]
+file = "config/jei/world/local/New_World__2/lookupHistory.json"
+hash = "52cc345f31ed46b8d663509894274f591d473793695a6d7d779ed91226f83295"
+
+[[files]]
 file = "config/journeymap-server.toml"
 hash = "914e767b44a8e0504767fa60bd1e3779259f6363afb299ed4282b9001f7db61b"
 
@@ -2491,10 +2495,6 @@ hash = "c4fb220488de3c1afc569f4b8a89d8e97f8b5504eeb59d9700b491f29718d2f9"
 [[files]]
 file = "config/zeta-common.toml"
 hash = "d985bfc68899c91aa642736400472f6ab876dedaaef4b8c31f38b52d48de633d"
-
-[[files]]
-file = "defaultconfigs/biolith/general.json"
-hash = "7f1e58be2cf7db18181869804bb09823ee93a4ea863d560036e8a05954bcf806"
 
 [[files]]
 file = "kubejs/README.txt"
