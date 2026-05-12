@@ -11,6 +11,15 @@ docs/
 CLAUDE.md
 *.md
 
+# Dev workspace / analytics / scratch — never ships
+scratch/
+balance/
+ore_flowers.png
+stop-slop-main/
+
+# Foreign modpack content accidentally co-located in this repo
+stoneblock4_quests/
+
 # JARs are tracked through .pw.toml metadata files, never as raw binaries
 *.jar
 
