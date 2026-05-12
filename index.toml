@@ -1365,20 +1365,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2p.cfe"
-hash = "5741f46573bcbb88e7ecaeee5d4e052f551437d60908d48028e27589a36dacb5"
+file = "config/ars_nouveau/search_index/_2q.cfe"
+hash = "393741bb509e62727989f8756167fb7a9ee386c9610b2a8250c92bd5a68bc751"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2p.cfs"
-hash = "645d2756528cb566b73e8691f9e6244c80b3ce8d1ebc611dfcea4aa1a6696090"
+file = "config/ars_nouveau/search_index/_2q.cfs"
+hash = "8c7cf996a1971733cb6fa8720fd0e5154410ca12cf16e06b10648c0ddf61654a"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2p.si"
-hash = "4bf4aca8dc0505dcdb5ed37c7a87e34cb13bce4efdb98a52bc4380e20f6fb94e"
+file = "config/ars_nouveau/search_index/_2q.si"
+hash = "7833d0ca00b846f90acd83a5cc7e3ff8a468154bea38d92ea75fab4e8805ffe8"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_2q"
-hash = "35ed2d35fb67912c4bb9d6c19ac240e6224577d25aaeceab9803d2b415ef2689"
+file = "config/ars_nouveau/search_index/segments_2r"
+hash = "8bcdf8f0c672c7247d5e8e3bf0a26fb4e22e039ae0db50a2015a67b27dc005fb"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -1986,7 +1986,7 @@ hash = "708750dc530ed52462185c7b1421291db8b292a350e164daaad437ba6f4fe4ef"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "2e45fad8b1f64480f223f2c48be441d2e6d9768581fce2f247483574335b383c"
+hash = "406552ce9e466ebd12ed814871f8157624529895c90c9e551df13a16fc536825"
 
 [[files]]
 file = "config/enchdesc.json"
@@ -2294,7 +2294,7 @@ hash = "52ad8a20840830797e1a3d6417529c070530086f31a9322ddcda5b902f7a0ef9"
 
 [[files]]
 file = "config/jei/world/local/New_World__1/lookupHistory.json"
-hash = "4e78fafcd6feb4bf996da42ed49d7e04e6cbab48640aab6212994d16c2946ce5"
+hash = "65c53a2d052f7fb79f445cd91ce3d60c54b13917bdcb7ef183113f39c8a9bae1"
 
 [[files]]
 file = "config/jei/world/local/New_World__2/lookupHistory.json"
@@ -2499,6 +2499,10 @@ hash = "7f1e58be2cf7db18181869804bb09823ee93a4ea863d560036e8a05954bcf806"
 [[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/quests/ore_flowers.png"
+hash = "f09199f9a94c9514ddc2ace9628880e0e100cbcf0ca48fc14ea2a071ef1fe653"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
