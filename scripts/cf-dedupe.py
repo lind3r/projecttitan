@@ -49,6 +49,21 @@ def load_mapping() -> dict[str, str]:
     # instead of the page slug, so add the variants we hit during wire-up.
     mapping["almostunified"] = "almost-unified"
     mapping["codechicken-lib-1-8"] = "codechicken-lib"
+    # YUNG's mods publish NeoForge 1.21.1 builds under separate -neoforge CF
+    # projects (the unsuffixed ones are Forge-only for 1.21.1).
+    for stem in (
+        "yungs-api",
+        "yungs-better-desert-temples",
+        "yungs-better-dungeons",
+        "yungs-better-end-island",
+        "yungs-better-jungle-temples",
+        "yungs-better-mineshafts",
+        "yungs-better-nether-fortresses",
+        "yungs-better-ocean-monuments",
+        "yungs-better-strongholds",
+        "yungs-better-witch-huts",
+    ):
+        mapping[f"{stem}-neoforge"] = stem
     return mapping
 
 

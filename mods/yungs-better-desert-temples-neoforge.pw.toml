@@ -1,4 +1,4 @@
-name = "YUNG's Better Desert Temples (Forge/NeoForge)"
+name = "YUNG's Better Desert Temples (NeoForge)"
 filename = "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar"
 side = "both"
 
@@ -11,3 +11,6 @@ hash = "6454c955f75f66104810e967a59ae032ddf1ccc5a854346af6bfba6e44cd456e755cd8fe
 [update.modrinth]
 mod-id = "XNlO7sBv"
 version = "GQ9iNWkI"
+[update.curseforge]
+file-id = 6276955
+project-id = 1015114

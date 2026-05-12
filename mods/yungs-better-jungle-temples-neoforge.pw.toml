@@ -1,4 +1,4 @@
-name = "YUNG's Better Jungle Temples (Forge/NeoForge)"
+name = "YUNG's Better Jungle Temples (NeoForge)"
 filename = "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar"
 side = "both"
 
@@ -11,3 +11,6 @@ hash = "eca4233e874a55886c63d2111b8685d479771d3627bad2922582e65b78c51ba74733dc46
 [update.modrinth]
 mod-id = "z9Ve58Ih"
 version = "P00i2hJn"
+[update.curseforge]
+file-id = 5924482
+project-id = 1015123
