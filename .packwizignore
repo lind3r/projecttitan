@@ -31,4 +31,28 @@ crash-reports/
 Thumbs.db
 desktop.ini
 # ForgeEndertech writes per-biome AdLods cfgs as the player visits them
-config/forgeendertech/Biomes/
+config/forgeendertech/Biomes/**
+# Ars Nouveau Lucene search index, regenerates each launch
+config/ars_nouveau/search_index/**
+# Personal client prefs the game rewrites every launch — never ship.
+# Patterns use ** to recurse into nested mod-config dirs (e.g. config/Mekanism/).
+# Scoped to config/ so defaultconfigs/ (legit world-seed content) is unaffected.
+# If a pack ever needs to override a specific file, add a `!path` negation below.
+#
+# Client GUI state by naming convention:
+config/**/*-options.json
+config/**/*-options.txt
+config/**/*sort-order*
+config/**/*bookmarks*
+config/**/*hotbars*
+config/**/*history*
+# JEI per-world bookmarks + cheat-mode state lives here.
+config/jei/world/**
+# NeoForge/Forge convention: -client.{toml,snbt,ini,json} is per-player UI/render prefs.
+config/**/*-client.toml
+config/**/*-client.snbt
+config/**/*-client.ini
+config/**/*-client.json
+# Jade writes plugin order + tooltip sort order; both are personal.
+config/jade/plugins.json
+config/jade/sort-order.json

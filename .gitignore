@@ -30,12 +30,20 @@ crash-reports/
 # Per-user runtime state from the live Prism instance (junctioned in)
 # JEI per-world bookmarks / lookupHistory
 config/jei/world/
+# JEI ingredient list + recipe category sort order (personal, rewritten on GUI use)
+config/jei/ingredient-list-mod-sort-order.ini
+config/jei/recipe-category-sort-order.ini
 # Ars Nouveau Lucene index, regenerates each launch
 config/ars_nouveau/search_index/
 # FTB Chunks client-side chunk display state
 config/ftbchunks-client.snbt
 # ForgeEndertech writes per-biome AdLods cfgs as the player visits them
 config/forgeendertech/Biomes/
+# Embeddium client render settings (resolution, FPS, GPU-specific) — personal
+config/embeddium-options.json
+# Jade tooltip plugin order + sort order (set via in-game GUI, personal)
+config/jade/plugins.json
+config/jade/sort-order.json
 
 # packwiz export artifacts (ship via GitHub Releases, not git)
 *.mrpack

@@ -1,0 +1,13 @@
+name = "Project Titan Core"
+filename = "projecttitancore-0.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d47e83c35707291ce9dc4670740146e5dd230d4e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8079335
+project-id = 1541423

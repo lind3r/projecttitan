@@ -9,10 +9,6 @@ file = "MODLIST.txt"
 hash = "8f55d60aee258a7ab2fa94bd4cc919149035e9e2c9b51d72a5cdf1f9f5fe806a"
 
 [[files]]
-file = "config/Mekanism/additions-client.toml"
-hash = "ea58e4998b6ad79626af3758814fc8e784b7a2f9047051c03a2f2d05cc888540"
-
-[[files]]
 file = "config/Mekanism/additions.toml"
 hash = "167317f50212fd80d2557ee1d560a796f2a99c827c979c6ca68e32e960cf3a1c"
 
@@ -61,10 +57,6 @@ file = "config/Mekanism/tiers.toml"
 hash = "06c76a1a1e2a70d4f56dc3dd9a3d26057ce9f4e64a7cdadf1712e05e5a2c4165"
 
 [[files]]
-file = "config/Mekanism/tools-client.toml"
-hash = "35d13264e852fee60462bbf0aa0ce3de3684906e479d4df3519b6626bc8d2fe7"
-
-[[files]]
 file = "config/Mekanism/tools-materials-startup.toml"
 hash = "07c6f2a578caa6bb71a59c0b290ba0a5af9397a4fdefc64e2bd15b229d5edc08"
 
@@ -79,10 +71,6 @@ hash = "1098172b9d6199b5ecfe5bdf91bfe1e0a527800cb80b097592a8d2bf44eeeb81"
 [[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
-
-[[files]]
-file = "config/adfinders-client.toml"
-hash = "86875f5788169e364e4f22db88b293d68e2e8224c2335a5febdf7272df69d734"
 
 [[files]]
 file = "config/adfinders-common.toml"
@@ -366,7 +354,7 @@ hash = "dd95f21901ae686edb14a6586f844b03c79c2239122613ec23be49859f0f5778"
 
 [[files]]
 file = "config/adlods-common.toml"
-hash = "82ed913f03e49e531a345f784506a68431fc821138b0e5bffb40504800f3b24d"
+hash = "fb9f163b5d74a81c5b93a8e2625dd49d5cdcc77bbcf82d5740d183d5099251ba"
 
 [[files]]
 file = "config/adlods/Deposits/aluminum.cfg"
@@ -414,7 +402,7 @@ hash = "cf8e4e23457699c19d471b9cadbca2b240b918fc3350cd19addc7bb6bdc0e969"
 
 [[files]]
 file = "config/adlods/Deposits/iron.cfg"
-hash = "462c63480e9c36e6f324482b7ac0b7e9fc5f1eaca28a5b0e22bf04df24b58165"
+hash = "be92964e839ad6660951b62df1c99ba16c73a313496d3fbaaa8e3be32549e0b6"
 
 [[files]]
 file = "config/adlods/Deposits/lapis.cfg"
@@ -579,10 +567,6 @@ hash = "3ccadab6166cbf8bf2eda96f03f51cbfecc56208f0d9ede2207b5fa8022a5b46"
 [[files]]
 file = "config/adlods/VanillaOres/tuff.cfg"
 hash = "06078c8234d0faea34bc093af7c8ef93abf195c4f7076d9fdb63bbe182cb353d"
-
-[[files]]
-file = "config/ae2-client.toml"
-hash = "c003fb3ac64c789cea15fd44a8f19d1f4f0c925758d376406472294f16a5b52d"
 
 [[files]]
 file = "config/ae2-common.toml"
@@ -1005,14 +989,6 @@ file = "config/apothic_spawners.cfg"
 hash = "eda93df8c30acf8d7e14f4f2baf583f77ec37fcc05d8acc85988ffd465d5038c"
 
 [[files]]
-file = "config/appleskin-client.toml"
-hash = "7127a276c7305371397053cd8d0833e6825c828850626e4067b9fed1430ed217"
-
-[[files]]
-file = "config/ars_nouveau-client.toml"
-hash = "442e7d4aa8f85dc37e8bfa29a71126b1757056a82cb825e606fae4470a814a56"
-
-[[files]]
 file = "config/ars_nouveau-common.toml"
 hash = "027bdab2329e2e71cc2546871f3eca724cd97a0667a623c9de7fc7c4e9dfd9b4"
 
@@ -1365,26 +1341,6 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_2q.cfe"
-hash = "393741bb509e62727989f8756167fb7a9ee386c9610b2a8250c92bd5a68bc751"
-
-[[files]]
-file = "config/ars_nouveau/search_index/_2q.cfs"
-hash = "8c7cf996a1971733cb6fa8720fd0e5154410ca12cf16e06b10648c0ddf61654a"
-
-[[files]]
-file = "config/ars_nouveau/search_index/_2q.si"
-hash = "7833d0ca00b846f90acd83a5cc7e3ff8a468154bea38d92ea75fab4e8805ffe8"
-
-[[files]]
-file = "config/ars_nouveau/search_index/segments_2r"
-hash = "8bcdf8f0c672c7247d5e8e3bf0a26fb4e22e039ae0db50a2015a67b27dc005fb"
-
-[[files]]
-file = "config/ars_nouveau/search_index/write.lock"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/ars_nouveau/wololo.toml"
 hash = "d97f22e6a2dda9ad91f1dab25b2a700ed87a4d91a9420e576e9516c8476603f4"
 
@@ -1669,10 +1625,6 @@ file = "config/attributefix/neoforge/swim_speed.json"
 hash = "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed"
 
 [[files]]
-file = "config/better-advanced-tooltips-client.toml"
-hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
-
-[[files]]
 file = "config/betterdeserttemples-neoforge-1_21.toml"
 hash = "c7355a13f2f7c4eeb3332ab67a2315e0662c7e5b434dc33d4624fccb9e815240"
 
@@ -1785,10 +1737,6 @@ file = "config/brandon3055/hud_settings.json"
 hash = "12f7829b4f2a7073226189b5d090797ec5c1a6a35ce5767fd22e4afe62cbc646"
 
 [[files]]
-file = "config/cataclysm-client.toml"
-hash = "d0d46d14ad1317e3c4a113818f01fa8f8cf40546a882c649992d1a8f43583d7a"
-
-[[files]]
 file = "config/cataclysm-common.toml"
 hash = "9d7c6f0e9c2d4c9652dc0275d4da458e5995e5ead946a598094bad4d34f8688a"
 
@@ -1805,16 +1753,8 @@ file = "config/citadel-common.toml"
 hash = "6cade6912a3873af0b297eb2da7ffa4bf5bac23f5ccfe9511aea9f5755745758"
 
 [[files]]
-file = "config/computercraft-client.toml"
-hash = "db7bbdc89ab05070b2a4c22f6348b0c80aca4a3c449d92cdc6bc56b5af25ff7b"
-
-[[files]]
 file = "config/computercraft-server.toml"
 hash = "d4995da449d5c96d24245c7108b339b729cc088b012170b3445f7f4fc1e20b3d"
-
-[[files]]
-file = "config/cosmeticarmorreworked-client.toml"
-hash = "4f9577e9c8002872f5f3382f9892a38cbeefb6e2772b2ca248beab44859068fc"
 
 [[files]]
 file = "config/cosmeticarmorreworked-common.toml"
@@ -1823,10 +1763,6 @@ hash = "687143b4844094f166ff875447d139941970649475924d47ce8982e04ef1cf5d"
 [[files]]
 file = "config/craftingtweaks-common.toml"
 hash = "88a669f3aa6e8ffa05c4e1dbefc1f372ca26cea0fd493c16f33d94e37c513f8c"
-
-[[files]]
-file = "config/create-client.toml"
-hash = "cce3eab1a290cc1f0eada00031f0577f661f883aee3438cf1139283c65d1f319"
 
 [[files]]
 file = "config/create-common.toml"
@@ -1965,10 +1901,6 @@ file = "config/cupboard.json"
 hash = "937698438af081495eebab187013f66570218e1443f35db8a2ca0b4cb6d9638b"
 
 [[files]]
-file = "config/curios-client.toml"
-hash = "8af475d222d452c40b548db89c8956f3e4d1e2aaf729464e3065f029936b3e0d"
-
-[[files]]
 file = "config/curios-common.toml"
 hash = "9f00a6b9904cf63a36c0c72f8346642962d538aaa78b59943b9de60dda82e6d0"
 
@@ -1985,16 +1917,8 @@ file = "config/embeddium-mixins.properties"
 hash = "708750dc530ed52462185c7b1421291db8b292a350e164daaad437ba6f4fe4ef"
 
 [[files]]
-file = "config/embeddium-options.json"
-hash = "406552ce9e466ebd12ed814871f8157624529895c90c9e551df13a16fc536825"
-
-[[files]]
 file = "config/enchdesc.json"
 hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
-
-[[files]]
-file = "config/enderio/base-client.toml"
-hash = "93a9e301f08ce37cac5b78af3fbe86715e11d41dea403d9b39506a12f25dba2d"
 
 [[files]]
 file = "config/enderio/base-common.toml"
@@ -2003,10 +1927,6 @@ hash = "0c6776b2e4a5a47ad5e69af701994747547c83e61e1c31679c98961b5cdff0e1"
 [[files]]
 file = "config/enderio/conduits-common.toml"
 hash = "203f6a2b24ba8692090b3ffd49cc2189e6771471e296410e129801c90acc367a"
-
-[[files]]
-file = "config/enderio/machines-client.toml"
-hash = "6b303454109537986add2d40f2bccaf7cde5664292add33c81d7b08ed8c92e67"
 
 [[files]]
 file = "config/enderio/machines-common.toml"
@@ -2021,10 +1941,6 @@ file = "config/extendedae-common.toml"
 hash = "d9bdb8e3cc95095a3bb22d0257c2b374ebf8a0b92bbeacfd1bbb62d40b7ef087"
 
 [[files]]
-file = "config/farmersdelight-client.toml"
-hash = "a8cdc0376674d522d92d977cac5800d00c6f70ea62ea83dea59595fb232b8e3e"
-
-[[files]]
 file = "config/farmersdelight-common.toml"
 hash = "0cc639f1ce8ab5e63f754ab41be3ab09398fd149de6d0b5edc476034e3ed8b06"
 
@@ -2037,20 +1953,12 @@ file = "config/findme.json"
 hash = "4e0913a2fef137b2ba6345a2ce3e6104fb0872efe194c5eb7cbb75782b933fc6"
 
 [[files]]
-file = "config/fluxnetworks-client.toml"
-hash = "96ffd6fb2279808962876c9601ccbaf51ca6ea8b77451fa3ee1d2f0f5a0df7cb"
-
-[[files]]
 file = "config/fluxnetworks-common.toml"
 hash = "28e28b4bd80833d08b04ffc3d054f2fc435dfac96ee014c8cc8b3dc49e8ba961"
 
 [[files]]
 file = "config/fluxnetworks-server.toml"
 hash = "598f3bdb74d030f2f5b50c38ae9436610302f3b3e08165b1fcdbec3397ca763a"
-
-[[files]]
-file = "config/flywheel-client.toml"
-hash = "9b9525f6baadc8312819ae21ad8688b20fb887e0e2bec4bceece4cbb296196b8"
 
 [[files]]
 file = "config/fml.toml"
@@ -2069,20 +1977,8 @@ file = "config/forgeendertech/cached.dat"
 hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
 
 [[files]]
-file = "config/ftbchunks-client.snbt"
-hash = "5e33780898f9e450082b554d211f50ccf0dde229b87c977df24c0172b220e243"
-
-[[files]]
 file = "config/ftbchunks-world.snbt"
 hash = "df97d93407a6babe2efd80d6d5a912b0bc5dbbf8de9ccb08be2880f731c30ec1"
-
-[[files]]
-file = "config/ftblibrary-client.snbt"
-hash = "51bff1936cce414d4a3b7a3a4f9472f71aa0a14890e42ee16acb0b91a193300d"
-
-[[files]]
-file = "config/ftbquests-client.snbt"
-hash = "6359364663ea3c418cacb79500bb529d4988ce1089d6e73ed5b2eef526f2e6d1"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -2153,20 +2049,12 @@ file = "config/ftbteams-server.snbt"
 hash = "2ef5e2dca3a653ced3f3981a85a32832fb3716caa5fa05e233f50ab16044a2c4"
 
 [[files]]
-file = "config/ftbultimine-client.snbt"
-hash = "67dadd3f0812bc01a0b0ca6fb204961512ce1332e97fe42dba2cb57813a496ef"
-
-[[files]]
 file = "config/ftbultimine-server.snbt"
 hash = "147a38645eda41c75721eb6825585f7af00b19bd3ae7e948779635747b8840e9"
 
 [[files]]
 file = "config/ftbxmodcompat.snbt"
 hash = "5bd7b51a19e26a0da910d2cd3908cda0f56cc42396db00fc6d9f242ee9aeca6e"
-
-[[files]]
-file = "config/functionalstorage/functionalstorage-client.toml"
-hash = "7255125d2daca7b2f538451b5117511b30efd720c876366fe2b6a31942593404"
 
 [[files]]
 file = "config/functionalstorage/functionalstorage-common.toml"
@@ -2217,10 +2105,6 @@ file = "config/inventoryessentials-common.toml"
 hash = "440658632c045fbcf64cdf6cbd48a64c46e882e3b6dff6aaff2610fffee564ed"
 
 [[files]]
-file = "config/inventorysorter-client.toml"
-hash = "3036042e2f401f4cec98e0399fa52cc84f1a419388762c3d31f254d088cc143f"
-
-[[files]]
 file = "config/inventorysorter-server.toml"
 hash = "67187f690326108f6f4123dd517702157dad8e272016129ee4314341788f9db4"
 
@@ -2241,32 +2125,12 @@ file = "config/jade/jade.json"
 hash = "5754114a0a663b321793a61f741bafa70c2a6dd649657260cdc096600763ad94"
 
 [[files]]
-file = "config/jade/plugins.json"
-hash = "10e63f8f2ec7d71589299f7aec5e8ec06dcb073bd2f3e4ca3fdb1a599a7dff2d"
-
-[[files]]
-file = "config/jade/sort-order.json"
-hash = "d5b195f270022ca3dd38c78daf13bb22f2d3da77324f76835cb1153dd25835a5"
-
-[[files]]
 file = "config/jei-server.toml"
 hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
 
 [[files]]
 file = "config/jei/blacklist.json"
 hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
-
-[[files]]
-file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "76a861ae86a401a8645a7937353feb797e22c6ea33806c8119f35be088269c76"
-
-[[files]]
-file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "5983f037bda6422c396cc13e86b568b7babaf3957fbaa418142278d64f0a8fa9"
-
-[[files]]
-file = "config/jei/jei-client.ini"
-hash = "f6841387ba118885299e6fe6574daaa62ad5adcf4e73f851ec2e9f8977ea066d"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -2279,26 +2143,6 @@ hash = "960b16c7af6d62bbe7b58fb52216a8a15771bddecbeefab49a8614b7ca86dcbd"
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
 hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
-
-[[files]]
-file = "config/jei/recipe-category-sort-order.ini"
-hash = "b5a9a4224f9cd006b7689c5ed6fcc674c7a6550c23292ec73bab490d948f8d77"
-
-[[files]]
-file = "config/jei/world/local/New_World/lookupHistory.json"
-hash = "d95f3f25d2a110a0081d2d0e1fb6a2c8c7260eaea179036d702f85f3a78019f7"
-
-[[files]]
-file = "config/jei/world/local/New_World__1/bookmarks.json"
-hash = "52ad8a20840830797e1a3d6417529c070530086f31a9322ddcda5b902f7a0ef9"
-
-[[files]]
-file = "config/jei/world/local/New_World__1/lookupHistory.json"
-hash = "65c53a2d052f7fb79f445cd91ce3d60c54b13917bdcb7ef183113f39c8a9bae1"
-
-[[files]]
-file = "config/jei/world/local/New_World__2/lookupHistory.json"
-hash = "52cc345f31ed46b8d663509894274f591d473793695a6d7d779ed91226f83295"
 
 [[files]]
 file = "config/journeymap-server.toml"
@@ -2325,16 +2169,8 @@ file = "config/mob_grinding_utils-server.toml"
 hash = "a189a7fea65b50f1a7d63e74561d2440f920a0ade48ae2d4b35ffb13c4e477fd"
 
 [[files]]
-file = "config/moonlight-client.toml"
-hash = "3f252fefef0345f9aa8a8d3b7eff02f045b8bf565329eeba9ec50c7989a63457"
-
-[[files]]
 file = "config/moonlight-common.toml"
 hash = "a6d5e783dc1469e925d4cf62f17a94ee2dff4ff025d9ed9e61b129581019cdf3"
-
-[[files]]
-file = "config/neoforge-client.toml"
-hash = "d58d93e2c429410d0abf25507d1679f732e1023b03bb52414348efcf5cf3ddb0"
 
 [[files]]
 file = "config/neoforge-common.toml"
@@ -2345,28 +2181,12 @@ file = "config/neoforge-server.toml"
 hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
-file = "config/oritech-client.toml"
-hash = "5301b6f30f1cb2e69ca11253e66ee3d3ff4bc4fb31642a7d352930ada0b21be0"
-
-[[files]]
 file = "config/oritech-common.toml"
 hash = "6b331bcf4d21330a24fdfd9dbe33eb3102447a448f8602eff29737b9fc7989b8"
 
 [[files]]
 file = "config/oritech-startup.toml"
 hash = "a25f0b157d21fa84ffbb75949f427fd95d26fe2e4cc3f4d225a0dec15b9f326a"
-
-[[files]]
-file = "config/overflowingbars-client.toml"
-hash = "f32cb54a99b0f143fe0db5b5664a8df7bff668c8d4291267f2ce8873da7f4439"
-
-[[files]]
-file = "config/patchouli-client.toml"
-hash = "d9a6d7cadb6d473cf087602d9866840d2bb7f2c16915267eb3f6fbf68d5d774d"
-
-[[files]]
-file = "config/pickupnotifier/pickupnotifier-client.toml"
-hash = "079be54b7b6059b2864b3ed140dc1e20219589f6afba32dc4ff203c981ea6a4e"
 
 [[files]]
 file = "config/pickupnotifier/pickupnotifier-server.toml"
@@ -2381,10 +2201,6 @@ file = "config/placebo.cfg"
 hash = "eb7e9906d126543f03c2257ca98efa4b845d1e7479dc8b069a12b194c86debcf"
 
 [[files]]
-file = "config/ponder-client.toml"
-hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
-
-[[files]]
 file = "config/projecttitancore-common.toml"
 hash = "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953"
 
@@ -2395,10 +2211,6 @@ hash = "790e35eb99b167e3920c92f19350feb4d806182e3feb1c21adbcece4c88890d1"
 [[files]]
 file = "config/simplemagnets-common.toml"
 hash = "b0df931e81e13d4e07ef3b8a595d3f07491eead8729d8741ece5e309c2335bbb"
-
-[[files]]
-file = "config/solcarrot-client.toml"
-hash = "7db98869a1d16b8b07d06afbe7bf8077e3de35fb9d6f99883609cdf3325b0069"
 
 [[files]]
 file = "config/solcarrot-server.toml"
@@ -2413,16 +2225,8 @@ file = "config/sophisticatedbackpacks-server.toml"
 hash = "6c38a818f6aab52d414e2a675bc6828917b307946ee2a63b4ff45957f8e9d9c4"
 
 [[files]]
-file = "config/sophisticatedcore-client.toml"
-hash = "12f65a872b73c931b0a192d7e95c7d89f7ef7f1fd33f3ee7ff6bbda12fb8845f"
-
-[[files]]
 file = "config/sophisticatedcore-common.toml"
 hash = "571235501b24532c23eaee01fca31082c8cf677bd50905844b2c9237129160dc"
-
-[[files]]
-file = "config/sophisticatedstorage-client.toml"
-hash = "6b8d82ee57ed9e7ce95b285ae70224c4e852db4e2efec4ab6ba02ac6c78a0bbf"
 
 [[files]]
 file = "config/sophisticatedstorage-common.toml"
@@ -2431,10 +2235,6 @@ hash = "0c721ecf8a9a6fba8402b7ce73bf8580acdd078e9ac9c3b37c42245ca6d8c4b0"
 [[files]]
 file = "config/sophisticatedstorage-server.toml"
 hash = "76504fc66326700c699fa3a24127b2b527902626e35629f6f5c70116f7ff621c"
-
-[[files]]
-file = "config/supplementaries-client.toml"
-hash = "9bf9e56551d526a377575fbe923ef2ade7a4ef9e20d9cd6a4755ef1dfaea4d4d"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -2451,10 +2251,6 @@ hash = "0fdb903beac3111899fba270f156d65daf792b534a20915672e2d9b1aacdf06c"
 [[files]]
 file = "config/titanium/titanium.toml"
 hash = "419a23e2c00bb42a68c4285244a50d92bd63d1d16a6e08cc61ef4531fd958579"
-
-[[files]]
-file = "config/toolbelt-client.toml"
-hash = "dded1400222e8c1da8191df7a81f7becfd99f88b660de7837a6a5f5936b4c454"
 
 [[files]]
 file = "config/toolbelt-common.toml"
@@ -3008,8 +2804,8 @@ hash = "cd645a2f3dd3b92a73dafef4f78c4521d6b5190c580d3825692b73587866a767"
 metafile = true
 
 [[files]]
-file = "mods/projecttitancore.pw.toml"
-hash = "0428a9c3a3e8ab583462f4d5a51fae0bf6d081e76af7f6eff1b13cb63963a572"
+file = "mods/project-titan-core.pw.toml"
+hash = "08f5468af6fd5a7e3640e36af5f04c8232b9db98443a7ebcc86d9e367a3ed01b"
 metafile = true
 
 [[files]]

@@ -1,8 +1,0 @@
-name = "projecttitancore"
-filename = "projecttitancore-0.3.1.jar"
-side = "both"
-
-[download]
-url = "https://github.com/lind3r/projecttitancore/releases/download/v0.3.1/projecttitancore-0.3.1.jar"
-hash-format = "sha256"
-hash = "2e24fca211c073bd7d3a43b4b03562e67f9e4cf5adecfc70f9ddef41a10d7813"

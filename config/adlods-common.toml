@@ -5,7 +5,7 @@
 	#Size multiplier to be applied to all deposits
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
-	globalSizeMultiplier = 4.0
+	globalSizeMultiplier = 1.0
 	#Spawn rate multiplier to be applied to all deposits
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0

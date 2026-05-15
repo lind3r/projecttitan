@@ -20,8 +20,9 @@ Update this file any time you change a config knob, add a kubejs override, or re
 | Key                          | Default | Pack | Reason                                                                  | Commit |
 |---                           |---:     |---:  |---                                                                      |---     |
 | `globalSpawnRateMultiplier`  | 1.0     | 2.0  | Deposits too sparse to find in playtesting.                             | `cf1fa4c` |
-| `globalSizeMultiplier`       | 1.0     | 4.0  | Iron motherlode now ~2800-5600 blocks, ancient_debris ~1000-2000.       | `a09433a` |
 | `disableVanillaLargeVeins`   | false   | true | AdLods replaces vanilla large veins; prevents double-up.                | `185e7fa` |
+
+`globalSizeMultiplier` was bumped to 4.0 in `a09433a` then reverted to stock 1.0 in v0.1.4 — per-deposit `Size:min/max` values in each `Deposits/*.cfg` give enough variation on their own.
 
 **Files:** `config/adlods/VanillaOres/*.cfg` (24 files)
 
@@ -30,6 +31,12 @@ All vanilla ore generation disabled (`S:generation=NONE`) — AdLods deposits ar
 **Files:** `config/adlods/Deposits/*.cfg` and `config/adlods/Geodes/*.cfg`
 
 Pack-authored deposit definitions (no defaults — AdLods ships empty). 30+ deposit types: vanilla ores, Mekanism (tin/osmium/uranium/lead), Create (zinc), Oritech (nickel/platinum), and amethyst geodes. (Commit `185e7fa`.)
+
+**Per-deposit rarity overrides** (versus the rarity AdLods authors picked when the deposit was added):
+
+| Deposit  | File                       | Default rarity | Pack | Reason                                                                          | Commit |
+|---       |---                         |---:            |---:  |---                                                                              |---     |
+| `iron`   | `Deposits/iron.cfg`        | 1020           | 700  | Iron is now the most common overworld deposit (below coal at 816, above all metals). | v0.1.4 |
 
 ## AdFinders — handheld ore scanners
 
