@@ -3,11 +3,14 @@ filename = "projecttitancore-0.3.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d47e83c35707291ce9dc4670740146e5dd230d4e"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/JcLXEzlD/versions/VE2j3dfj/projecttitancore-0.3.1.jar"
+hash-format = "sha512"
+hash = "8dbbb770b26de86f3c599726162ee8ae6ad8197c270a20d7fa81f654b41304e878d69b371f4e677eae99503ddbdab9b925144618a897f002b46562040cd8e380"
 
 [update]
+[update.modrinth]
+mod-id = "JcLXEzlD"
+version = "VE2j3dfj"
 [update.curseforge]
 file-id = 8079335
 project-id = 1541423

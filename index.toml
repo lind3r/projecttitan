@@ -2805,7 +2805,7 @@ metafile = true
 
 [[files]]
 file = "mods/project-titan-core.pw.toml"
-hash = "08f5468af6fd5a7e3640e36af5f04c8232b9db98443a7ebcc86d9e367a3ed01b"
+hash = "117a5fbd4e6c60c6002a17cf5655d9b000ea74f96cdd182daa3281c58f9b2bed"
 metafile = true
 
 [[files]]
