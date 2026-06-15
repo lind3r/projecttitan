@@ -1725,14 +1725,6 @@ file = "config/brandon3055/ModuleStats.cfg"
 hash = "997361ff0a555be5488f313e2038fd45a456b137a36105494fd86221d08dde87"
 
 [[files]]
-file = "config/brandon3055/contributors.json"
-hash = "b753d7800424f1f3c3f3d05ec424445aa1aa4c8df444bab5e895792a65fe1162"
-
-[[files]]
-file = "config/brandon3055/contributors.json.etag"
-hash = "0bdb272e2adc92d3eae04189d84b0c0d863cc67165fb784489a3b8bd588124c8"
-
-[[files]]
 file = "config/brandon3055/hud_settings.json"
 hash = "12f7829b4f2a7073226189b5d090797ec5c1a6a35ce5767fd22e4afe62cbc646"
 
@@ -1971,10 +1963,6 @@ hash = "84817209a4fb2b8c1eb8d3aacb50ff91e1397324f10ea019b53d39735411496c"
 [[files]]
 file = "config/forgeendertech/Wind.cfg"
 hash = "d5d2955fed8fc9ca71cb550b1af8a6146822b7071d4a1fdcd3683acacb8c6749"
-
-[[files]]
-file = "config/forgeendertech/cached.dat"
-hash = "89fd6e2433dc72c916c231d5f8c99e7e27a4df72eed609b3fc7b66b465e5e080"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -2247,10 +2235,6 @@ hash = "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953"
 [[files]]
 file = "config/quark-common.toml"
 hash = "790e35eb99b167e3920c92f19350feb4d806182e3feb1c21adbcece4c88890d1"
-
-[[files]]
-file = "config/rngtech-common.toml"
-hash = "cf5178ca1be546277247cffe9f689db1ad19ad3c8802ce30cf0e29172428f3b8"
 
 [[files]]
 file = "config/simplemagnets-common.toml"
