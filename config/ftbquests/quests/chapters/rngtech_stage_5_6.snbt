@@ -1,0 +1,636 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rngtech_stage_5_6"
+	group: "7106E7A1B10FA000"
+	icon: {
+		id: "rngtech:melter"
+	}
+	id: "7106E7A1B10FA030"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37A6C9E1284B5D25"]
+			id: "37A6C9E1284B5D26"
+			shape: "hexagon"
+			tasks: [{
+				id: "37A6C9E1284B5F3D"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"37A6C9E1284B5D26"
+				"7106E7A1B10F0322"
+			]
+			dependency_requirement: "one_completed"
+			id: "46A1F2C0DE100030"
+			rewards: [{
+				id: "46A1F2C0DE100032"
+				item: {
+					count: 1
+					id: "rngtech:advanced_machine_frame"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46A1F2C0DE100031"
+				item: { count: 1, id: "rngtech:advanced_machine_frame" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46A1F2C0DE100030"]
+			id: "7106E7A1B10F0300"
+			shape: "diamond"
+			tasks: [{
+				id: "7106E7A1B10F0301"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0300"]
+			id: "7106E7A1B10F0302"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7106E7A1B10F0303"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0302"]
+			id: "7106E7A1B10F0304"
+			optional: true
+			tasks: [
+				{
+					id: "7106E7A1B10F0305"
+					item: { count: 1, id: "rngtech:aluminum_crusher_chassis" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0306"
+					item: { count: 1, id: "rngtech:aluminum_crush_head" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0307"
+					item: { count: 1, id: "rngtech:invar_battery_cell" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0302"]
+			id: "7106E7A1B10F0308"
+			optional: true
+			tasks: [
+				{
+					id: "7106E7A1B10F0309"
+					item: { count: 1, id: "rngtech:titanium_crusher_chassis" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F030A"
+					item: { count: 1, id: "rngtech:titanium_crush_head" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F030B"
+					item: { count: 1, id: "rngtech:sparksteel_battery_cell" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0300"]
+			id: "7106E7A1B10F0310"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7106E7A1B10F0311"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0310"]
+			id: "7106E7A1B10F0312"
+			optional: true
+			tasks: [
+				{
+					id: "7106E7A1B10F0313"
+					item: { count: 1, id: "rngtech:aluminum_furnace_chassis" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0314"
+					item: { count: 1, id: "rngtech:aluminum_heat_core" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0315"
+					item: { count: 1, id: "rngtech:invar_battery_cell" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0310"]
+			id: "7106E7A1B10F0316"
+			optional: true
+			tasks: [
+				{
+					id: "7106E7A1B10F0317"
+					item: { count: 1, id: "rngtech:titanium_furnace_chassis" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0318"
+					item: { count: 1, id: "rngtech:titanium_heat_core" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0319"
+					item: { count: 1, id: "rngtech:sparksteel_battery_cell" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0300"]
+			id: "7106E7A1B10F0320"
+			shape: "diamond"
+			tasks: [{
+				id: "7106E7A1B10F0321"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D26"]
+			id: "7106E7A1B10F0322"
+			optional: true
+			tasks: [
+				{
+					id: "7106E7A1B10F0323"
+					item: { count: 1, id: "rngtech:steel_resonance_calibrator_chassis" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0324"
+					item: { count: 1, id: "rngtech:steel_resonance_coil" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0325"
+					item: { count: 1, id: "rngtech:steel_control_board" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0326"
+					item: { count: 1, id: "rngtech:steel_stabilizer_matrix" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0327"
+					item: { count: 1, id: "rngtech:invar_battery_cell" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7106E7A1B10F0320"]
+			id: "7106E7A1B10F0328"
+			tasks: [
+				{
+					id: "7106E7A1B10F0329"
+					item: { count: 1, id: "rngtech:titanium_resonance_calibrator_chassis" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F032A"
+					item: { count: 1, id: "rngtech:titanium_resonance_coil" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F032B"
+					item: { count: 1, id: "rngtech:titanium_control_board" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F032C"
+					item: { count: 1, id: "rngtech:titanium_stabilizer_matrix" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F032D"
+					item: { count: 1, id: "rngtech:sparksteel_battery_cell" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D26"]
+			id: "5E1CA6E1D5C00500"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CBE85BDB005C3DD"
+				table_id: 543634075862178473L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "5E1CA6E1D5C00501"
+					item: { count: 1, id: "rngtech:silica_gel_dehumidifier" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5E1CA6E1D5C00502"
+					item: { count: 1, id: "rngtech:silica_gel_column_casing" }
+					type: "item"
+				}
+				{
+					id: "5E1CA6E1D5C00503"
+					item: { count: 1, id: "rngtech:silica_gel_beads" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D26"]
+			id: "7106E7A1B10F0100"
+			shape: "hexagon"
+			tasks: [{
+				id: "7106E7A1B10F0101"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7106E7A1B10F0100"]
+			id: "7106E7A1B10F0110"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "7106E7A1B10F0115"
+					item: {
+						count: 1
+						id: "rngtech:coal_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0116"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7106E7A1B10F0111"
+					item: { count: 1, id: "rngtech:coal_gasifier" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0112"
+					item: { count: 1, id: "rngtech:aluminum_heat_core" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0113"
+					item: { count: 1, id: "rngtech:coal_dust" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0114"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7106E7A1B10F0110"]
+			id: "7106E7A1B10F0120"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34EC1344F2A6BCE9"
+				table_id: 8259791482674322405L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "7106E7A1B10F0121"
+					item: { count: 1, id: "rngtech:syngas_combustor" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0123"
+					item: { count: 1, id: "rngtech:gasification_residue" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"37A6C9E1284B5D26"
+				"46A1F2C0DE100030"
+			]
+			id: "37A6C9E1284B5D27"
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E2E"
+					item: {
+						count: 1
+						id: "rngtech:plant_reagent"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "37A6C9E1284B5E2F"
+					item: {
+						count: 1
+						id: "rngtech:resin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F3E"
+					item: { count: 1, id: "rngtech:melter" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F3F"
+					item: { count: 1, id: "rngtech:lubricant_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D27"]
+			id: "37A6C9E1284B5D28"
+			optional: true
+			tasks: [{
+				id: "37A6C9E1284B5F40"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"37A6C9E1284B5D27"
+				"7106E7A1B10F0010"
+			]
+			id: "7106E7A1B10F0130"
+			tasks: [
+				{
+					id: "7106E7A1B10F0131"
+					item: { count: 1, id: "rngtech:methane_bucket" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0132"
+					item: { count: 1, id: "rngtech:algae_biomass" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0133"
+					item: { count: 1, id: "rngtech:organic_reagent" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7106E7A1B10F0100"
+				"7106E7A1B10F0130"
+			]
+			id: "7106E7A1B10F0140"
+			optional: true
+			rewards: [{
+				id: "7106E7A1B10F0146"
+				item: {
+					count: 1
+					id: "rngtech:hydrogen_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7106E7A1B10F0141"
+					item: { count: 1, id: "rngtech:steam_methane_reformer" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0142"
+					item: { count: 1, id: "rngtech:reforming_catalyst_bed" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0143"
+					item: { count: 1, id: "rngtech:methane_bucket" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0144"
+					item: { count: 1, id: "rngtech:hydrogen_bucket" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0145"
+					item: { count: 1, id: "rngtech:carbon_monoxide_bucket" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7106E7A1B10F0050"
+				"5E1CA6E1D5C00500"
+			]
+			id: "7106E7A1B10F0060"
+			optional: true
+			rewards: [
+				{
+					id: "7106E7A1B10F0065"
+					item: {
+						count: 1
+						id: "rngtech:nitrogen_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0066"
+					item: {
+						count: 1
+						id: "rngtech:hydrogen_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7106E7A1B10F0061"
+					item: { count: 1, id: "rngtech:steel_cavitation_rotor" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0062"
+					item: { count: 1, id: "rngtech:steel_collapse_nozzle" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0063"
+					item: { count: 1, id: "rngtech:cavitation_generator" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0064"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7106E7A1B10F0140"
+				"22A86431ABEC9DD3"
+			]
+			id: "7106E7A1B10F0070"
+			optional: true
+			rewards: [
+				{
+					id: "7106E7A1B10F0075"
+					item: {
+						count: 1
+						id: "rngtech:ammonia_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7106E7A1B10F0071"
+					item: { count: 1, id: "rngtech:ammonia_catalyst_bed" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0072"
+					item: { count: 1, id: "rngtech:ammonia_synthesizer" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0073"
+					item: { count: 1, id: "rngtech:fuel_cell_membrane" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0074"
+					item: { count: 1, id: "rngtech:ammonia_fuel_cell" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7106E7A1B10F0100"
+				"7106E7A1B10F0060"
+			]
+			id: "22A86431ABEC9DD3"
+			optional: true
+			tasks: [
+				{
+					id: "4AC04548C04EBFC1"
+					item: { count: 1, id: "rngtech:cavitation_generator" }
+					type: "item"
+				}
+				{
+					id: "649FDC4D1F3E74BB"
+					item: { count: 1, id: "rngtech:nitrogen_separation_nozzle" }
+					type: "item"
+				}
+				{
+					id: "68136EA8A6AD21C0"
+					item: { count: 1, id: "rngtech:nitrogen_extraction_rotor" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D27"]
+			id: "4CC5AA5185C3D06B"
+			tasks: [{
+				id: "4E52AACDD5992CB3"
+				item: { count: 1, id: "rngtech:battery_assembler" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0328"]
+			id: "17E4A9571BBF913F"
+			tasks: [{
+				id: "029E96261AB3BA5E"
+				item: { count: 1, id: "rngtech:calibrated_diamond_crystal" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+	]
+}

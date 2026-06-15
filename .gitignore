@@ -64,6 +64,10 @@ scratch/
 # Local-only release notes and follow-up planning (referenced from CLAUDE.md, not shipped)
 /RELEASE.md
 /TODO.md
+/update-notes-*.md
 
 # Tooling clone unrelated to the pack
 /stop-slop-main/
+
+# Incoming RNGTech quest export (merged into config/ftbquests, kept locally)
+rngtechquests/

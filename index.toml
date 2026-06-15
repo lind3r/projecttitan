@@ -1726,11 +1726,11 @@ hash = "997361ff0a555be5488f313e2038fd45a456b137a36105494fd86221d08dde87"
 
 [[files]]
 file = "config/brandon3055/contributors.json"
-hash = "080d39086783585775ec8888d93feb747291b3402ce44c0ba8a170f8aea0fd80"
+hash = "b753d7800424f1f3c3f3d05ec424445aa1aa4c8df444bab5e895792a65fe1162"
 
 [[files]]
 file = "config/brandon3055/contributors.json.etag"
-hash = "77a4d9392c85fdf0a85f9a9bd6d3cf84490be8f95e134165bbda13ac103cfced"
+hash = "0bdb272e2adc92d3eae04189d84b0c0d863cc67165fb784489a3b8bd588124c8"
 
 [[files]]
 file = "config/brandon3055/hud_settings.json"
@@ -1974,7 +1974,7 @@ hash = "d5d2955fed8fc9ca71cb550b1af8a6146822b7071d4a1fdcd3683acacb8c6749"
 
 [[files]]
 file = "config/forgeendertech/cached.dat"
-hash = "8248f666c47fb9318a1910885767a28b857f447c50ac503f87de68c7979e08e4"
+hash = "89fd6e2433dc72c916c231d5f8c99e7e27a4df72eed609b3fc7b66b465e5e080"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1982,7 +1982,7 @@ hash = "df97d93407a6babe2efd80d6d5a912b0bc5dbbf8de9ccb08be2880f731c30ec1"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
+hash = "aa76a8fcba4576238d645a3efde6d5ed996697ea7ce11ae6acc766828fefb2c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
@@ -2029,6 +2029,34 @@ file = "config/ftbquests/quests/chapters/other.snbt"
 hash = "3f3a5b7749805ae3ffe9ee73f478649b5a12e661d8432145af6815bc026fe2fc"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/rngtech.snbt"
+hash = "3a2fb771e216bfef0ace8a424a3e762971955ebe2c36d7563b7f5cf76954990f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/rngtech_logistics_transport.snbt"
+hash = "6dffe922a083fd228455e2ba5a509ac10c0ec97670f9e9500bd09851bb255d4f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/rngtech_refinement_affixes.snbt"
+hash = "666e3298232858567494b067f6fd1cce3f66d23070ba6dde75aa539df41f04a6"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/rngtech_stage_1_2.snbt"
+hash = "ab01c58f9306bac8363ad88dace64cfeea9124959ea74ace94482e87fb23bf67"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/rngtech_stage_3_4.snbt"
+hash = "c9c5b7a1dde5b6f93b9d815c0c0b18f635af53ddebfdd9204f9ccbbefa2da813"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/rngtech_stage_5_6.snbt"
+hash = "2688472e2b0609c122d49b81aabd89460ea22bb9da6d0f0f1b65445a0c998b32"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/rngtech_stage_7_8.snbt"
+hash = "021cbdded70e4cb5456a7696a383b96405a46944592428f5cde14c229302530c"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/the_titan_core.snbt"
 hash = "66ceda0e07fe97f16777809826dbd5b37b66b828f7aa8af792e3e6f39f42ba3c"
 
@@ -2038,11 +2066,23 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "d7835570ef11667915f2e47080a49e279912831c7308aff4438140f608615186"
+hash = "9cd04d98e0d642ff9a16817da8f93921c253e084b4fa0b10d0327b359dc382f2"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/078B604FCB901AA9.snbt"
+hash = "50e9d471f08affa1100c00262fe820d3ac7993b7ded8315eec4c95821e4bfc0c"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/1EEE9EFF1C6E4016.snbt"
 hash = "d7feb302c00d722a1b857322b5a1ee3d2b71bd0e03f832c7a2f6a90a6efd4d36"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/72A0AC975B999BE5.snbt"
+hash = "f3be03caf623089d0143f6bf8778592661839bbde56656b3a37806b3671f6ba8"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/7841F8CB0D198111.snbt"
+hash = "61743d9aaa3e9c15ed709de0a78463dcbd5a011c7fe7e3e10e3e6a08bff61147"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -2207,6 +2247,10 @@ hash = "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953"
 [[files]]
 file = "config/quark-common.toml"
 hash = "790e35eb99b167e3920c92f19350feb4d806182e3feb1c21adbcece4c88890d1"
+
+[[files]]
+file = "config/rngtech-common.toml"
+hash = "cf5178ca1be546277247cffe9f689db1ad19ad3c8802ce30cf0e29172428f3b8"
 
 [[files]]
 file = "config/simplemagnets-common.toml"
@@ -2829,6 +2873,11 @@ hash = "d6309b9f499fb43396ac6e448587e7015d6731dd08217fc5c9df2b3b4feccab2"
 metafile = true
 
 [[files]]
+file = "mods/rngtech.pw.toml"
+hash = "0107d3c47fb6ae9e9fe094559fc065dc62cade68c7519bdc842646d4a1fccbdd"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "b2c0bfd0e16564721b08ae7567c6c7b944471161bc4aeb880c826ef2e4723b4d"
 metafile = true
@@ -2972,3 +3021,55 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "edab1b281dd6feb4c4e45b679396daea0e0fbd3ca45c8c94f62750918d68cf13"
 metafile = true
+
+[[files]]
+file = "rngtechquests/chapter_groups.snbt"
+hash = "59740f005a83a163cbe86c2b3ba30a2f9e482e27603f4094ba29ae9f3559d1b9"
+
+[[files]]
+file = "rngtechquests/chapters/rngtech.snbt"
+hash = "3a2fb771e216bfef0ace8a424a3e762971955ebe2c36d7563b7f5cf76954990f"
+
+[[files]]
+file = "rngtechquests/chapters/rngtech_logistics_transport.snbt"
+hash = "6dffe922a083fd228455e2ba5a509ac10c0ec97670f9e9500bd09851bb255d4f"
+
+[[files]]
+file = "rngtechquests/chapters/rngtech_refinement_affixes.snbt"
+hash = "666e3298232858567494b067f6fd1cce3f66d23070ba6dde75aa539df41f04a6"
+
+[[files]]
+file = "rngtechquests/chapters/rngtech_stage_1_2.snbt"
+hash = "ab01c58f9306bac8363ad88dace64cfeea9124959ea74ace94482e87fb23bf67"
+
+[[files]]
+file = "rngtechquests/chapters/rngtech_stage_3_4.snbt"
+hash = "c9c5b7a1dde5b6f93b9d815c0c0b18f635af53ddebfdd9204f9ccbbefa2da813"
+
+[[files]]
+file = "rngtechquests/chapters/rngtech_stage_5_6.snbt"
+hash = "2688472e2b0609c122d49b81aabd89460ea22bb9da6d0f0f1b65445a0c998b32"
+
+[[files]]
+file = "rngtechquests/chapters/rngtech_stage_7_8.snbt"
+hash = "021cbdded70e4cb5456a7696a383b96405a46944592428f5cde14c229302530c"
+
+[[files]]
+file = "rngtechquests/data.snbt"
+hash = "d7dd511fa89cc9066374f537d8e9259d6caff8fe7db0a0a04db3af393100e0a4"
+
+[[files]]
+file = "rngtechquests/lang/en_us.snbt"
+hash = "f23f9dd80f3fe53d522cfbff1171a6b3bbd384d300d9272347a06db9570802f6"
+
+[[files]]
+file = "rngtechquests/reward_tables/078B604FCB901AA9.snbt"
+hash = "50e9d471f08affa1100c00262fe820d3ac7993b7ded8315eec4c95821e4bfc0c"
+
+[[files]]
+file = "rngtechquests/reward_tables/72A0AC975B999BE5.snbt"
+hash = "f3be03caf623089d0143f6bf8778592661839bbde56656b3a37806b3671f6ba8"
+
+[[files]]
+file = "rngtechquests/reward_tables/7841F8CB0D198111.snbt"
+hash = "61743d9aaa3e9c15ed709de0a78463dcbd5a011c7fe7e3e10e3e6a08bff61147"

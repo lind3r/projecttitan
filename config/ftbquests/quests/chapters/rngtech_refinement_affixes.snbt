@@ -1,0 +1,329 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rngtech_refinement_affixes"
+	group: "7106E7A1B10FA000"
+	icon: {
+		id: "rngtech:affix_forge"
+	}
+	id: "7106E7A1B10FA060"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37A6C9E1284B5D10"]
+			id: "37A6C9E1284B5D12"
+			tasks: [{
+				id: "37A6C9E1284B5F12"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D12"]
+			id: "37A6C9E1284B5D1F"
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E24"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "017D8E4C87F85B6B"
+					table_id: 543634075862178473L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "37A6C9E1284B5F2A"
+				item: { count: 1, id: "rngtech:affix_forge" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D1F"]
+			id: "5C1326D78226482C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D1EFFE267332EA3"
+				table_id: 8259791482674322405L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5439740E2B737EAC"
+				item: { count: 1, id: "rngtech:affix_lens_array" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C1326D78226482C"]
+			id: "5410F981F9D5914E"
+			tasks: [{
+				id: "624CE795CFF22311"
+				item: { count: 1, id: "rngtech:affix_modifier_socket" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5410F981F9D5914E"]
+			id: "12A0A2EF0429FF13"
+			tasks: [{
+				id: "1D602ABD5801B09F"
+				item: { count: 1, id: "rngtech:affix_resonance_matrix" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D1F"]
+			id: "72EA1D02D33FF39B"
+			optional: true
+			tasks: [{
+				id: "77C67B9B4E5F9C83"
+				item: { count: 1, id: "rngtech:affix_injector" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12A0A2EF0429FF13"]
+			id: "152F570B1A4F2B63"
+			optional: true
+			tasks: [{
+				id: "1490814CC184A213"
+				item: { count: 1, id: "rngtech:ascension_catalyst" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C1326D78226482C"]
+			id: "3B2B69FA1DBA2CCE"
+			tasks: [{
+				id: "101FB74FB4A6896F"
+				item: { count: 1, id: "rngtech:kinetic_modifier_lens" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C1326D78226482C"]
+			id: "36FD86C58309204A"
+			tasks: [{
+				id: "253762DF8D6419E2"
+				item: { count: 1, id: "rngtech:efficiency_modifier_lens" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12A0A2EF0429FF13"]
+			id: "5704E39094767FA2"
+			optional: true
+			tasks: [{
+				id: "2C98578590C67B67"
+				item: { count: 1, id: "rngtech:chaos_crystal" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12A0A2EF0429FF13"]
+			id: "20200D3111A76F09"
+			optional: true
+			tasks: [{
+				id: "139C85B313107DFC"
+				item: { count: 1, id: "rngtech:expansion_crystal" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12A0A2EF0429FF13"]
+			id: "4B285A35E920898A"
+			optional: true
+			tasks: [{
+				id: "7AC1A8BF36CCC17C"
+				item: { count: 1, id: "rngtech:transmutation_crystal" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12A0A2EF0429FF13"]
+			id: "3AA3B714F8C4EE77"
+			tasks: [{
+				id: "69E789C4838C219E"
+				item: { count: 1, id: "rngtech:resonance_crystal" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5410F981F9D5914E"]
+			id: "4B16F7B54131FB30"
+			optional: true
+			tasks: [{
+				id: "7BB41E60998032FD"
+				item: { count: 1, id: "rngtech:destabilization_crystal" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12A0A2EF0429FF13"]
+			id: "5AA63386A798DA28"
+			tasks: [{
+				id: "23514716434B4B59"
+				item: { count: 1, id: "rngtech:null_crystal" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12A0A2EF0429FF13"]
+			id: "05CD873FE8F814D1"
+			tasks: [{
+				id: "7EBB7F9002ECF19D"
+				item: { count: 1, id: "rngtech:ascension_matrix" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D1F"]
+			id: "39580D0D592ED993"
+			tasks: [{
+				id: "27EAEC74338BE7C6"
+				item: { count: 1, id: "rngtech:nullifier_coil" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12A0A2EF0429FF13"]
+			id: "7D07C6C36A40B121"
+			tasks: [{
+				id: "27154046123F9539"
+				item: { count: 1, id: "rngtech:affix_upgrade" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D1F"]
+			id: "6A3B46D12E418769"
+			optional: true
+			tasks: [{
+				id: "6DFE877C21D30EE1"
+				item: { count: 1, id: "rngtech:affix_modifier" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5410F981F9D5914E"]
+			id: "62AFD2FEB4686A8A"
+			tasks: [{
+				id: "1765DE0D5B238198"
+				item: { count: 1, id: "rngtech:stabilization_crystal" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5410F981F9D5914E"]
+			id: "053725AB57161D50"
+			tasks: [{
+				id: "6ADE6693EAFECA4A"
+				item: { count: 1, id: "rngtech:conservation_crystal" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C1326D78226482C"]
+			id: "1F1BF8747340F867"
+			tasks: [{
+				id: "7AE4DF0862EC4819"
+				item: { count: 1, id: "rngtech:power_modifier_lens" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C1326D78226482C"]
+			id: "4AD05360B50DFAE6"
+			tasks: [{
+				id: "059DB63EDD611ECA"
+				item: { count: 1, id: "rngtech:speed_modifier_lens" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C1326D78226482C"]
+			id: "0B2A8A7AB957B02D"
+			tasks: [{
+				id: "275B2408609F259C"
+				item: { count: 1, id: "rngtech:yield_modifier_lens" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C1326D78226482C"]
+			id: "5E554A3E956A8F68"
+			tasks: [{
+				id: "3B4FDB9F43447E79"
+				item: { count: 1, id: "rngtech:stability_modifier_lens" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C1326D78226482C"]
+			id: "51F687AFE8743543"
+			tasks: [{
+				id: "04411E9F60A258E7"
+				item: { count: 1, id: "rngtech:control_modifier_lens" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+	]
+}

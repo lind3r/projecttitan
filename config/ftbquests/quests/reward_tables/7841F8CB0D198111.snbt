@@ -1,0 +1,10 @@
+{
+	id: "7841F8CB0D198111"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "665C70AC5ACB247A", item: { count: 1, id: "rngtech:plate_mold" } }
+		{ id: "198A0CF5F1D369C5", item: { count: 1, id: "rngtech:casing_mold" } }
+		{ id: "528ADEC3E226F3D0", item: { count: 1, id: "rngtech:connector_mold" } }
+	]
+}

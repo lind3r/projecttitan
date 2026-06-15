@@ -1,0 +1,13 @@
+name = "RNGTech"
+filename = "rngtech-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae72cd6e3913ebf2290c98d25f1677cd3dc90ee0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8241879
+project-id = 1560481

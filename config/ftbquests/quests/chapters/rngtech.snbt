@@ -1,0 +1,1011 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rngtech"
+	group: "7106E7A1B10FA000"
+	icon: {
+		id: "rngtech:forming_hammer"
+	}
+	id: "37A6C9E1284B5D0F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "37A6C9E1284B5D10"
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E10"
+					item: {
+						count: 1
+						id: "minecraft:potato"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "37A6C9E1284B5E11"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "37A6C9E1284B5F10"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D10"]
+			id: "37A6C9E1284B5D11"
+			rewards: [{
+				id: "22128BD59F9835D5"
+				item: {
+					count: 1
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37A6C9E1284B5F11"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D3B"]
+			id: "37A6C9E1284B5D13"
+			rewards: [
+				{
+					count: 4
+					id: "37A6C9E1284B5E12"
+					item: {
+						count: 1
+						id: "rngtech:iron_plate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37A6C9E1284B5E13"
+					item: {
+						count: 1
+						id: "rngtech:copper_plate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37A6C9E1284B5F13"
+				item: { count: 1, id: "rngtech:forming_hammer" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D11"]
+			id: "37A6C9E1284B5D38"
+			shape: "hexagon"
+			tasks: [{
+				id: "37A6C9E1284B5F61"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D38"]
+			id: "37A6C9E1284B5D39"
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E47"
+					item: {
+						count: 1
+						id: "minecraft:flint"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37A6C9E1284B5E48"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37A6C9E1284B5F62"
+				item: { count: 1, id: "rngtech:tool_bench" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D39"]
+			id: "37A6C9E1284B5D3A"
+			rewards: [{
+				count: 2
+				id: "37A6C9E1284B5E49"
+				item: {
+					count: 1
+					id: "rngtech:affix_injector"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F63"
+					item: { count: 1, id: "rngtech:flint_pick_head" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F64"
+					item: { count: 1, id: "rngtech:wooden_tool_rod" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56BF8BBA48C36C74"]
+			id: "37A6C9E1284B5D3B"
+			rewards: [{
+				count: 10
+				id: "1CA2FF92BE206DF1"
+				item: {
+					count: 1
+					id: "rngtech:affix_injector"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F66"
+					item: { count: 1, id: "rngtech:flint_hammer_head" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F67"
+					item: { count: 1, id: "rngtech:flint_treefeller_head" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F68"
+					item: { count: 1, id: "rngtech:modular_hammer" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F69"
+					item: { count: 1, id: "rngtech:modular_treefeller" }
+					type: "item"
+				}
+				{
+					id: "58634593BA802470"
+					item: { count: 1, id: "rngtech:flint_digger_head" }
+					type: "item"
+				}
+				{
+					id: "6C168F1331497221"
+					item: { count: 1, id: "rngtech:modular_digger" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51085B8552CE2F6C"]
+			id: "37A6C9E1284B5D3C"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "37A6C9E1284B5E4D"
+				item: {
+					count: 1
+					id: "rngtech:affix_injector"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F6A"
+					item: { count: 1, id: "rngtech:flint_shovel_head" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F6B"
+					item: { count: 1, id: "rngtech:flint_axe_head" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F6C"
+					item: { count: 1, id: "rngtech:modular_shovel" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F6D"
+					item: { count: 1, id: "rngtech:modular_axe" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D3A"]
+			id: "74C2A8758BA6E314"
+			tasks: [{
+				id: "0AFF981C21101C57"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74C2A8758BA6E314"]
+			id: "51085B8552CE2F6C"
+			tasks: [{
+				id: "73CBA6206014E2E9"
+				item: { count: 1, id: "rngtech:modular_pick" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51085B8552CE2F6C"]
+			id: "56BF8BBA48C36C74"
+			tasks: [{
+				id: "35416012D93FD922"
+				item: { count: 1, id: "rngtech:tiny_anvil" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1003E61C2B6F8611"]
+			id: "23292B9220ECD802"
+			optional: true
+			tasks: [{
+				id: "464BB9C8D1FBF4BD"
+				item: { count: 1, id: "rngtech:iron_hammer_head" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1003E61C2B6F8611"]
+			id: "1E334083E55A238E"
+			optional: true
+			tasks: [{
+				id: "09782CA5C880856C"
+				item: { count: 1, id: "rngtech:iron_treefeller_head" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D13"]
+			id: "514C23AEB9AC2C85"
+			optional: true
+			tasks: [
+				{
+					count: 5L
+					id: "0690D329D5CFE277"
+					item: { count: 1, id: "rngtech:copper_plate" }
+					type: "item"
+				}
+				{
+					id: "57A610251CE668C9"
+					item: { count: 1, id: "rngtech:copper_gear" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D13"]
+			id: "1003E61C2B6F8611"
+			optional: true
+			tasks: [
+				{
+					count: 5L
+					id: "1B0FAED147A313E3"
+					item: { count: 1, id: "rngtech:iron_plate" }
+					type: "item"
+				}
+				{
+					id: "3BAD96D0E835FEE9"
+					item: { count: 1, id: "rngtech:iron_gear" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["514C23AEB9AC2C85"]
+			id: "0E5919BF7531E50C"
+			optional: true
+			tasks: [{
+				id: "006607EC36309100"
+				item: { count: 1, id: "rngtech:copper_hammer_head" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["514C23AEB9AC2C85"]
+			id: "66F69708A181776B"
+			optional: true
+			tasks: [{
+				id: "6DAE23F6A9F4AEDB"
+				item: { count: 1, id: "rngtech:copper_treefeller_head" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["514C23AEB9AC2C85"]
+			id: "47B98668D0EDA28C"
+			optional: true
+			tasks: [{
+				id: "13A37D03FA30BB9F"
+				item: { count: 1, id: "rngtech:copper_digger_head" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1003E61C2B6F8611"]
+			id: "57044CEFFD1F0CF0"
+			optional: true
+			tasks: [{
+				id: "0CFB4B684EE8FED8"
+				item: { count: 1, id: "rngtech:iron_digger_head" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D13"]
+			id: "3E0E5C8A95264360"
+			rewards: [{
+				count: 4
+				id: "28378F66452D2C42"
+				item: {
+					count: 1
+					id: "rngtech:affix_injector"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CDE4FBDB48248DA"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"51085B8552CE2F6C"
+				"37A6C9E1284B5D13"
+			]
+			id: "6E8257BAA2BB0FDB"
+			optional: true
+			tasks: [{
+				id: "742B7DFAE3FED332"
+				item: { count: 1, id: "rngtech:copper_pick_head" }
+				optional_task: true
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"51085B8552CE2F6C"
+				"37A6C9E1284B5D13"
+			]
+			id: "72A7C90BCF639C85"
+			optional: true
+			tasks: [{
+				id: "519000251A2EDF25"
+				item: { count: 1, id: "rngtech:iron_pick_head" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51085B8552CE2F6C"]
+			id: "7106E7A1B10F0200"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "7106E7A1B10F0201"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0200"]
+			id: "7106E7A1B10F0210"
+			optional: true
+			tasks: [{
+				id: "7106E7A1B10F0211"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0210"]
+			id: "7106E7A1B10F0212"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0214"
+				item: {
+					count: 1
+					id: "minecraft:raw_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0213"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0210"]
+			id: "7106E7A1B10F0215"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0217"
+				item: {
+					count: 1
+					id: "minecraft:raw_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0216"
+				item: { count: 1, id: "minecraft:raw_copper" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7106E7A1B10F0212"
+				"7106E7A1B10F0215"
+			]
+			dependency_requirement: "one_completed"
+			id: "7106E7A1B10F0220"
+			optional: true
+			tasks: [{
+				id: "7106E7A1B10F0221"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0220"]
+			id: "7106E7A1B10F0222"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0224"
+				item: {
+					count: 1
+					id: "rngtech:raw_tin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0223"
+				item: { count: 1, id: "rngtech:raw_tin" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7106E7A1B10F0220"]
+			id: "7106E7A1B10F0225"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0227"
+				item: {
+					count: 1
+					id: "rngtech:raw_zinc"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0226"
+				item: { count: 1, id: "rngtech:raw_zinc" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0220"]
+			id: "7106E7A1B10F0228"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F022A"
+				item: {
+					count: 1
+					id: "minecraft:raw_gold"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0229"
+				item: { count: 1, id: "minecraft:raw_gold" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"7106E7A1B10F0222"
+				"7106E7A1B10F0225"
+				"7106E7A1B10F0228"
+			]
+			dependency_requirement: "one_completed"
+			id: "7106E7A1B10F0230"
+			optional: true
+			tasks: [{
+				id: "7106E7A1B10F0231"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0230"]
+			id: "7106E7A1B10F0232"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0234"
+				item: {
+					count: 1
+					id: "rngtech:raw_nickel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0233"
+				item: { count: 1, id: "rngtech:raw_nickel" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7106E7A1B10F0230"]
+			id: "7106E7A1B10F0235"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0237"
+				item: {
+					count: 1
+					id: "rngtech:raw_lead"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0236"
+				item: { count: 1, id: "rngtech:raw_lead" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7106E7A1B10F0230"]
+			id: "7106E7A1B10F0238"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F023A"
+				item: {
+					count: 1
+					id: "rngtech:raw_silver"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0239"
+				item: { count: 1, id: "rngtech:raw_silver" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"7106E7A1B10F0232"
+				"7106E7A1B10F0235"
+				"7106E7A1B10F0238"
+			]
+			dependency_requirement: "one_completed"
+			id: "7106E7A1B10F0240"
+			optional: true
+			tasks: [{
+				id: "7106E7A1B10F0241"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0240"]
+			id: "7106E7A1B10F0242"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0244"
+				item: {
+					count: 1
+					id: "rngtech:raw_aluminum"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0243"
+				item: { count: 1, id: "rngtech:raw_aluminum" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0240"]
+			id: "7106E7A1B10F0245"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0247"
+				item: {
+					count: 1
+					id: "rngtech:raw_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0246"
+				item: { count: 1, id: "rngtech:raw_osmium" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0242"]
+			id: "7106E7A1B10F0250"
+			optional: true
+			tasks: [{
+				id: "7106E7A1B10F0251"
+				type: "checkmark"
+			}]
+			x: 25.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0250"]
+			id: "7106E7A1B10F0260"
+			optional: true
+			tasks: [{
+				id: "7106E7A1B10F0261"
+				type: "checkmark"
+			}]
+			x: 27.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0260"]
+			id: "7106E7A1B10F0262"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0264"
+				item: {
+					count: 1
+					id: "rngtech:raw_titanium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0263"
+				item: { count: 1, id: "rngtech:raw_titanium" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0262"]
+			id: "7106E7A1B10F0270"
+			optional: true
+			tasks: [{
+				id: "7106E7A1B10F0271"
+				type: "checkmark"
+			}]
+			x: 31.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0270"]
+			id: "7106E7A1B10F0272"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0274"
+				item: {
+					count: 1
+					id: "rngtech:raw_tungsten"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0273"
+				item: { count: 1, id: "rngtech:raw_tungsten" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0270"]
+			id: "7106E7A1B10F0275"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0277"
+				item: {
+					count: 1
+					id: "rngtech:raw_platinum"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0276"
+				item: { count: 1, id: "rngtech:raw_platinum" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7106E7A1B10F0272"
+				"7106E7A1B10F0275"
+			]
+			dependency_requirement: "one_completed"
+			id: "7106E7A1B10F0280"
+			optional: true
+			tasks: [{
+				id: "7106E7A1B10F0281"
+				type: "checkmark"
+			}]
+			x: 35.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0280"]
+			id: "7106E7A1B10F0290"
+			optional: true
+			tasks: [{
+				id: "7106E7A1B10F0291"
+				type: "checkmark"
+			}]
+			x: 37.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0290"]
+			id: "7106E7A1B10F0292"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7106E7A1B10F0294"
+				item: {
+					count: 1
+					id: "rngtech:raw_naquadah"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7106E7A1B10F0293"
+				item: { count: 1, id: "rngtech:raw_naquadah" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0240"]
+			id: "2C865B9D41D7EEBB"
+			tasks: [{
+				id: "15AE6121EF4C9879"
+				item: { count: 1, id: "rngtech:diamond_tip" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["74C2A8758BA6E314"]
+			id: "055FAC8A7D35E178"
+			tasks: [{
+				id: "07652CB1B5828F97"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"37A6C9E1284B5D3A"
+				"74C2A8758BA6E314"
+			]
+			dependency_requirement: "one_completed"
+			id: "6B295A9B5D422CB1"
+			tasks: [{
+				id: "3E395FC98DE7B1F4"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51085B8552CE2F6C"]
+			id: "09E6CC376427E6D3"
+			tasks: [
+				{
+					id: "02E510AEF3E41AD6"
+					item: { count: 1, id: "rngtech:crude_recycler" }
+					type: "item"
+				}
+				{
+					id: "76F6BE5CC1E5D685"
+					item: { count: 1, id: "rngtech:hand_crank" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"37A6C9E1284B5D39"
+				"37A6C9E1284B5D14"
+			]
+			id: "77BDE15168C209AE"
+			optional: true
+			tasks: [{
+				id: "79F49E44DD55DB56"
+				item: { count: 1, id: "rngtech:crude_energy_connector" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"77BDE15168C209AE"
+				"37A6C9E1284B5D13"
+			]
+			id: "10D59A7D9BDC28C1"
+			optional: true
+			tasks: [{
+				id: "7146B4E04E4599BC"
+				item: { count: 1, id: "rngtech:miners_companion" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["10D59A7D9BDC28C1"]
+			id: "510CAD7DC389C5A5"
+			optional: true
+			tasks: [{
+				id: "3692E876B4BF8167"
+				item: { count: 1, id: "rngtech:mining_lamp" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["10D59A7D9BDC28C1"]
+			id: "4256134BC1B890B1"
+			optional: true
+			tasks: [{
+				id: "524609123C10EFB1"
+				item: { count: 1, id: "rngtech:miners_companion_magnet" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10D59A7D9BDC28C1"]
+			id: "3A817746747CF255"
+			optional: true
+			tasks: [{
+				id: "1127BD0CAA2BDEDD"
+				item: { count: 1, id: "rngtech:flint_crush_head" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10D59A7D9BDC28C1"]
+			id: "492E007D03CA2C13"
+			optional: true
+			progression_mode: "flexible"
+			tasks: [{
+				id: "7FFCAC0782220056"
+				item: { count: 1, id: "rngtech:iron_recovery_filter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+	]
+}

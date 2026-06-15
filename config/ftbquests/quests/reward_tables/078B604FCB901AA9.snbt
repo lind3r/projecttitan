@@ -1,0 +1,31 @@
+{
+	id: "078B604FCB901AA9"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 3
+			id: "6AEB3A5F63B7C3E1"
+			item: {
+				count: 1
+				id: "rngtech:affix_injector"
+			}
+		}
+		{
+			count: 3
+			id: "6250953F88FD324C"
+			item: {
+				count: 1
+				id: "rngtech:nullifier_coil"
+			}
+		}
+		{
+			count: 3
+			id: "679DD1A110DF33AB"
+			item: {
+				count: 1
+				id: "rngtech:affix_modifier"
+			}
+		}
+	]
+}

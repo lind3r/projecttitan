@@ -1,0 +1,616 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rngtech_stage_7_8"
+	group: "7106E7A1B10FA000"
+	icon: {
+		id: "rngtech:vacuum_collapse_generator"
+	}
+	id: "7106E7A1B10FA040"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"37A6C9E1284B5D27"
+				"7106E7A1B10F0316"
+			]
+			id: "37A6C9E1284B5D2D"
+			shape: "hexagon"
+			tasks: [{
+				id: "37A6C9E1284B5F4F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D2D"]
+			id: "46A1F2C0DE100040"
+			rewards: [{
+				id: "46A1F2C0DE100042"
+				item: {
+					count: 1
+					id: "rngtech:elite_electric_circuit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46A1F2C0DE100041"
+				item: { count: 1, id: "rngtech:elite_electric_circuit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E106D356E9A0C94"]
+			id: "46A1F2C0DE100050"
+			rewards: [{
+				id: "46A1F2C0DE100052"
+				item: {
+					count: 1
+					id: "rngtech:exotic_machine_frame"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46A1F2C0DE100051"
+				item: { count: 1, id: "rngtech:exotic_machine_frame" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46A1F2C0DE100050"]
+			id: "46A1F2C0DE100070"
+			tasks: [{
+				id: "46A1F2C0DE100071"
+				item: { count: 1, id: "rngtech:exotic_affix_forge" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"37A6C9E1284B5D2D"
+				"46A1F2C0DE100060"
+			]
+			id: "7106E7A1B10F0400"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7106E7A1B10F0401"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0400"]
+			id: "7106E7A1B10F0402"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7106E7A1B10F0403"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0402"]
+			id: "7106E7A1B10F0404"
+			optional: true
+			tasks: [
+				{
+					id: "7106E7A1B10F0405"
+					item: { count: 1, id: "rngtech:exotic_crusher_chassis" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0406"
+					item: { count: 1, id: "rngtech:exotic_crush_head" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0407"
+					item: { count: 1, id: "rngtech:exotic_battery_cell" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7106E7A1B10F0400"]
+			id: "7106E7A1B10F0410"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7106E7A1B10F0411"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0410"]
+			id: "7106E7A1B10F0412"
+			optional: true
+			tasks: [
+				{
+					id: "7106E7A1B10F0413"
+					item: { count: 1, id: "rngtech:exotic_furnace_chassis" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0414"
+					item: { count: 1, id: "rngtech:titanium_heat_core" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0415"
+					item: { count: 1, id: "rngtech:exotic_battery_cell" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7106E7A1B10F0400"]
+			id: "7106E7A1B10F0420"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7106E7A1B10F0421"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7106E7A1B10F0420"]
+			id: "7106E7A1B10F0422"
+			optional: true
+			tasks: [
+				{
+					id: "7106E7A1B10F0423"
+					item: { count: 1, id: "rngtech:tungstensteel_resonance_calibrator_chassis" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0424"
+					item: { count: 1, id: "rngtech:tungstensteel_resonance_coil" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0425"
+					item: { count: 1, id: "rngtech:tungstensteel_control_board" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0426"
+					item: { count: 1, id: "rngtech:tungstensteel_stabilizer_matrix" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0427"
+					item: { count: 1, id: "rngtech:nullite_battery_cell" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7106E7A1B10F0420"]
+			id: "7106E7A1B10F0428"
+			optional: true
+			tasks: [
+				{
+					id: "7106E7A1B10F0429"
+					item: { count: 1, id: "rngtech:nullite_resonance_calibrator_chassis" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F042A"
+					item: { count: 1, id: "rngtech:nullite_resonance_coil" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F042B"
+					item: { count: 1, id: "rngtech:nullite_control_board" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F042C"
+					item: { count: 1, id: "rngtech:nullite_stabilizer_matrix" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F042D"
+					item: { count: 1, id: "rngtech:exotic_battery_cell" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46A1F2C0DE100050"]
+			id: "37A6C9E1284B5D2E"
+			rewards: [
+				{
+					id: "37A6C9E1284B5E38"
+					item: {
+						count: 1
+						id: "rngtech:elite_electric_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "37A6C9E1284B5E39"
+					item: {
+						count: 1
+						id: "rngtech:steel_plate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F50"
+					item: { count: 1, id: "rngtech:tungstensteel_crusher_chassis" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F51"
+					item: { count: 1, id: "rngtech:tungstensteel_furnace_chassis" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F52"
+					item: { count: 1, id: "rngtech:tungstensteel_crush_head" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D2E"]
+			id: "37A6C9E1284B5D2F"
+			rewards: [
+				{
+					id: "37A6C9E1284B5E3A"
+					item: {
+						count: 1
+						id: "rngtech:elite_electric_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "37A6C9E1284B5E3B"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F53"
+					item: { count: 1, id: "rngtech:nullite_battery_cell" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F54"
+					item: { count: 1, id: "rngtech:nullite_battery_chassis" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D2F"]
+			id: "37A6C9E1284B5D30"
+			rewards: [
+				{
+					id: "37A6C9E1284B5E3C"
+					item: {
+						count: 1
+						id: "rngtech:lubricant_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "37A6C9E1284B5E3D"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F55"
+					item: { count: 1, id: "rngtech:tungstensteel_fluid_pump" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F56"
+					item: { count: 1, id: "rngtech:tungstensteel_servo" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D30"]
+			id: "46A1F2C0DE100060"
+			rewards: [{
+				id: "46A1F2C0DE100062"
+				item: {
+					count: 1
+					id: "rngtech:ultimate_electric_circuit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46A1F2C0DE100061"
+				item: { count: 1, id: "rngtech:ultimate_electric_circuit" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7106E7A1B10F0090"]
+			id: "37A6C9E1284B5D31"
+			rewards: [{
+				id: "37A6C9E1284B5E3E"
+				item: {
+					count: 1
+					id: "rngtech:ultimate_electric_circuit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37A6C9E1284B5F57"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D30"]
+			id: "7106E7A1B10F0090"
+			rewards: [{
+				count: 12
+				id: "7106E7A1B10F0097"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7106E7A1B10F0091"
+					item: { count: 1, id: "rngtech:tungstensteel_void_chamber" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0092"
+					item: { count: 1, id: "rngtech:tungstensteel_collapse_nozzle" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0093"
+					item: { count: 1, id: "rngtech:tungstensteel_dimensional_stabilizer" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0094"
+					item: { count: 1, id: "rngtech:vacuum_collapse_generator" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0095"
+					item: { count: 1, id: "rngtech:void_catalyst" }
+					type: "item"
+				}
+				{
+					id: "7106E7A1B10F0096"
+					item: { count: 1, id: "rngtech:collapse_residue" }
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D2F"]
+			id: "6AD0EAA001CB1D16"
+			optional: true
+			rewards: [{
+				id: "5F24CB6F45A53231"
+				item: {
+					count: 1
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2698BC43448439F6"
+					item: { count: 1, id: "rngtech:exotic_battery_chassis" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "11F436A045BD85D9"
+					item: { count: 1, id: "rngtech:exotic_battery_cell" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			id: "53AF2FB3A673F2DB"
+			rewards: [
+				{
+					count: 2
+					id: "040ACDB934D55C32"
+					item: {
+						count: 1
+						id: "rngtech:advanced_electric_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "276F69128CB58FC0"
+					item: {
+						count: 1
+						id: "rngtech:resonance_crystal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "583124CEE3EB57D7"
+					item: { count: 1, id: "rngtech:titanium_resonance_calibrator_chassis" }
+					type: "item"
+				}
+				{
+					id: "05ABDB0766E0E424"
+					item: { count: 1, id: "rngtech:titanium_resonance_coil" }
+					type: "item"
+				}
+				{
+					id: "710FB955D36E811B"
+					item: { count: 1, id: "rngtech:titanium_control_board" }
+					type: "item"
+				}
+				{
+					id: "6C8D85424C29549D"
+					item: { count: 1, id: "rngtech:titanium_stabilizer_matrix" }
+					type: "item"
+				}
+				{
+					id: "6E290794179DDD52"
+					item: { count: 1, id: "rngtech:calibrated_structural_component" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["46A1F2C0DE100040"]
+			id: "034790AECE11EB3C"
+			tasks: [
+				{
+					id: "79D8CFC83881518B"
+					item: { count: 1, id: "rngtech:titanium_alloy_furnace_chassis" }
+					type: "item"
+				}
+				{
+					id: "2738173C69387EAC"
+					item: { count: 1, id: "rngtech:titanium_heat_core" }
+					type: "item"
+				}
+				{
+					id: "449951B315801708"
+					item: { count: 1, id: "rngtech:sparksteel_battery_cell" }
+					type: "item"
+				}
+				{
+					id: "752AC09B87E29959"
+					item: { count: 1, id: "rngtech:titanium_alloy_crucible" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["034790AECE11EB3C"]
+			id: "7C968747D63F427E"
+			tasks: [{
+				id: "2F1A96C798F8A31E"
+				item: { count: 1, id: "rngtech:nullite_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C968747D63F427E"]
+			dependency_requirement: "one_completed"
+			id: "2092E4A1CA217B5D"
+			optional: true
+			tasks: [{
+				id: "33C67EF697B28100"
+				item: { count: 1, id: "rngtech:nullite_servo" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["034790AECE11EB3C"]
+			id: "1E106D356E9A0C94"
+			tasks: [{
+				id: "751B10A1BEEB1B1D"
+				item: { count: 1, id: "rngtech:tungstensteel_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["034790AECE11EB3C"]
+			id: "58086D39EA1858C6"
+			tasks: [{
+				id: "3A530CB165BDCFB4"
+				item: { count: 1, id: "rngtech:aethergold_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58086D39EA1858C6"]
+			id: "01C84F033E61813D"
+			optional: true
+			tasks: [
+				{
+					id: "75096B11F456C24C"
+					item: { count: 1, id: "rngtech:aethergold_battery_chassis" }
+					type: "item"
+				}
+				{
+					id: "69CB5689BDC24A3E"
+					item: { count: 1, id: "rngtech:aethergold_battery_cell" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+	]
+}

@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rngtech_logistics_transport"
+	group: "7106E7A1B10FA000"
+	icon: {
+		id: "rngtech:universal_connector"
+	}
+	id: "7106E7A1B10FA050"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37A6C9E1284B5D19"]
+			id: "37A6C9E1284B5D1A"
+			rewards: [
+				{
+					count: 16
+					id: "37A6C9E1284B5E1E"
+					item: {
+						count: 1
+						id: "rngtech:cable"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37A6C9E1284B5E1F"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 12L
+					id: "37A6C9E1284B5F20"
+					item: { count: 1, id: "rngtech:cable" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F8F"
+					item: { count: 1, id: "rngtech:universal_connector" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D24"]
+			id: "37A6C9E1284B5D4A"
+			optional: true
+			rewards: [
+				{
+					count: 12
+					id: "37A6C9E1284B5E63"
+					item: {
+						count: 1
+						id: "rngtech:cable"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "37A6C9E1284B5E64"
+					item: {
+						count: 1
+						id: "rngtech:universal_connector"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F8A"
+					item: { count: 1, id: "rngtech:connector_mold" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F8B"
+					item: { count: 1, id: "rngtech:basic_energy_connector" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F8C"
+					item: { count: 1, id: "rngtech:basic_fluid_connector" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F8D"
+					item: { count: 1, id: "rngtech:basic_item_connector" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D27"]
+			id: "37A6C9E1284B5D45"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "37A6C9E1284B5E5D"
+				item: {
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3767870C479C140C"
+				item: { count: 1, id: "rngtech:tank_frame" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D45"]
+			id: "37A6C9E1284B5D46"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "37A6C9E1284B5E5E"
+				item: {
+					count: 1
+					id: "rngtech:bronze_plate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37A6C9E1284B5F80"
+				item: { count: 1, id: "rngtech:bronze_compressor_tank" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A5586EEBF6EC289"]
+			id: "37A6C9E1284B5D47"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DB734F444083BF5"
+				table_id: 543634075862178473L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F82"
+					item: { count: 1, id: "rngtech:steel_compressor_tank" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F83"
+					item: { count: 1, id: "rngtech:lead_battery_cell" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F84"
+					item: { count: 1, id: "rngtech:steel_servo" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"37A6C9E1284B5D1A"
+				"37A6C9E1284B5D4A"
+			]
+			id: "44B6B0AADE341E23"
+			tasks: [{
+				id: "347E91923C03252B"
+				item: { count: 1, id: "rngtech:configurator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D45"]
+			id: "6A5586EEBF6EC289"
+			tasks: [{
+				id: "2192686E16AD27A7"
+				item: { count: 1, id: "rngtech:pressure_tank_frame" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6A5586EEBF6EC289"]
+			id: "7881F937740ED4E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00A5FDEC3FCF090C"
+				table_id: 543634075862178473L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "10790CE917983081"
+				item: { count: 1, id: "rngtech:titanium_compressor_tank" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6A5586EEBF6EC289"]
+			id: "6D8585E478E2A8D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A9189D23F288399"
+				table_id: 543634075862178473L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "0C81F619E6422680"
+				item: { count: 1, id: "rngtech:tungstensteel_compressor_tank" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+	]
+}

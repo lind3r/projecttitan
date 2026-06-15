@@ -1,0 +1,63 @@
+{
+	id: "72A0AC975B999BE5"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 2
+			id: "027B096CCD7A3D27"
+			item: {
+				count: 1
+				id: "rngtech:kinetic_modifier_lens"
+			}
+		}
+		{
+			count: 2
+			id: "3DE4A7028D0C073C"
+			item: {
+				count: 1
+				id: "rngtech:efficiency_modifier_lens"
+			}
+		}
+		{
+			count: 2
+			id: "150ADD21BDE21F28"
+			item: {
+				count: 1
+				id: "rngtech:power_modifier_lens"
+			}
+		}
+		{
+			count: 2
+			id: "0BD88AD3B7DF82D0"
+			item: {
+				count: 1
+				id: "rngtech:speed_modifier_lens"
+			}
+		}
+		{
+			count: 2
+			id: "39BA374A0A897A55"
+			item: {
+				count: 1
+				id: "rngtech:yield_modifier_lens"
+			}
+		}
+		{
+			count: 2
+			id: "662FFB30FE199E62"
+			item: {
+				count: 1
+				id: "rngtech:stability_modifier_lens"
+			}
+		}
+		{
+			count: 2
+			id: "316AF762F41CFF55"
+			item: {
+				count: 1
+				id: "rngtech:control_modifier_lens"
+			}
+		}
+	]
+}

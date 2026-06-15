@@ -1,0 +1,478 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rngtech_stage_1_2"
+	group: "7106E7A1B10FA000"
+	icon: {
+		id: "rngtech:iron_crusher_chassis"
+	}
+	id: "7106E7A1B10FA010"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"37A6C9E1284B5D11"
+				"37A6C9E1284B5D16"
+			]
+			id: "37A6C9E1284B5D14"
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E14"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37A6C9E1284B5E15"
+					item: {
+						count: 1
+						id: "rngtech:copper_plate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37A6C9E1284B5F15"
+				item: { count: 1, id: "rngtech:iron_battery_cell" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D14"]
+			id: "37A6C9E1284B5D15"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E16"
+					item: {
+						count: 1
+						id: "minecraft:baked_potato"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37A6C9E1284B5E17"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F16"
+					item: { count: 1, id: "rngtech:potato_battery_cell" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F17"
+					item: { count: 1, id: "rngtech:wooden_battery_chassis" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F18"
+					item: { count: 1, id: "rngtech:wooden_crusher_chassis" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D13"]
+			id: "37A6C9E1284B5D16"
+			tasks: [{
+				id: "37A6C9E1284B5F19"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D16"]
+			id: "46A1F2C0DE100001"
+			rewards: [{
+				id: "46A1F2C0DE100003"
+				item: {
+					count: 1
+					id: "rngtech:machine_frame"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46A1F2C0DE100002"
+				item: { count: 1, id: "rngtech:machine_frame" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37A6C9E1284B5D14"
+				"46A1F2C0DE100001"
+			]
+			id: "37A6C9E1284B5D1C"
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E20"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "37A6C9E1284B5E21"
+					item: {
+						count: 1
+						id: "rngtech:iron_plate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F24"
+					item: { count: 1, id: "rngtech:crude_solid_fuel_burner" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F25"
+					item: { count: 1, id: "rngtech:iron_fuel_box" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F26"
+					item: { count: 1, id: "rngtech:iron_heat_core" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"37A6C9E1284B5D1C"
+				"37A6C9E1284B5D3E"
+			]
+			dependency_requirement: "one_completed"
+			id: "37A6C9E1284B5D17"
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E18"
+					item: {
+						count: 1
+						id: "rngtech:crushed_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37A6C9E1284B5E19"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F1A"
+					item: { count: 1, id: "rngtech:iron_crusher_chassis" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F1B"
+					item: { count: 1, id: "rngtech:iron_crush_head" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D17"]
+			id: "37A6C9E1284B5D4D"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E66"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37A6C9E1284B5E67"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "37A6C9E1284B5F92"
+					item: { count: 1, id: "rngtech:iron_dust" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "37A6C9E1284B5F93"
+					item: { count: 1, id: "rngtech:copper_dust" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D17"]
+			id: "37A6C9E1284B5D18"
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E1A"
+					item: {
+						count: 1
+						id: "rngtech:crushed_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "37A6C9E1284B5E1B"
+					item: {
+						count: 1
+						id: "rngtech:crushed_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "37A6C9E1284B5F1C"
+					item: { count: 1, id: "rngtech:crushed_iron" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "37A6C9E1284B5F1D"
+					item: { count: 1, id: "rngtech:crushed_copper" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D18"]
+			id: "37A6C9E1284B5D19"
+			rewards: [{
+				count: 64
+				id: "37A6C9E1284B5E1C"
+				item: {
+					count: 1
+					id: "minecraft:charcoal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37A6C9E1284B5F1E"
+				item: { count: 1, id: "rngtech:furnace" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D17"]
+			id: "1333C98733E8948C"
+			optional: true
+			tasks: [{
+				id: "2B505668D7F6A9D8"
+				item: { count: 1, id: "rngtech:copper_crusher_chassis" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D3E"]
+			id: "37A6C9E1284B5D3F"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E52"
+					item: {
+						count: 1
+						id: "rngtech:plant_reagent"
+					}
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5E53"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "37A6C9E1284B5F71"
+					item: { count: 1, id: "rngtech:wooden_composter" }
+					type: "item"
+				}
+				{
+					id: "37A6C9E1284B5F72"
+					item: { count: 1, id: "rngtech:composted_biomass" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D14"]
+			id: "37A6C9E1284B5D3E"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "37A6C9E1284B5E50"
+					item: {
+						count: 1
+						id: "rngtech:plant_reagent"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "37A6C9E1284B5E51"
+					item: {
+						count: 1
+						id: "minecraft:carrot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37A6C9E1284B5F6F"
+				item: { count: 1, id: "rngtech:bio_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D3E"]
+			id: "37A6C9E1284B5D40"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "37A6C9E1284B5E54"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "37A6C9E1284B5F73"
+				item: { count: 1, id: "rngtech:rich_biomass" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"23011878EBC32FC2"
+				"09EAFEBDB30A3137"
+			]
+			dependency_requirement: "one_completed"
+			id: "37A6C9E1284B5D37"
+			shape: "diamond"
+			tasks: [{
+				id: "37A6C9E1284B5F60"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D3E"]
+			id: "691503A12347F864"
+			optional: true
+			tasks: [{
+				id: "5BFDABF0F6D91F3B"
+				item: { count: 1, id: "rngtech:bio_chamber" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D19"]
+			id: "09EAFEBDB30A3137"
+			tasks: [
+				{
+					id: "0202BBB3E5B774A5"
+					item: { count: 1, id: "rngtech:copper_battery_chassis" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6B3FD6576E0A2CE0"
+					item: { count: 1, id: "rngtech:copper_battery_cell" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A6C9E1284B5D19"]
+			id: "23011878EBC32FC2"
+			tasks: [
+				{
+					id: "4A71769E1DB60DD0"
+					item: { count: 1, id: "rngtech:iron_battery_chassis" }
+					type: "item"
+				}
+				{
+					id: "28461C3C948BBCAC"
+					item: { count: 1, id: "rngtech:iron_battery_cell" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 2.0d
+		}
+	]
+}
