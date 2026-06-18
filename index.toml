@@ -2858,7 +2858,7 @@ metafile = true
 
 [[files]]
 file = "mods/rngtech.pw.toml"
-hash = "0107d3c47fb6ae9e9fe094559fc065dc62cade68c7519bdc842646d4a1fccbdd"
+hash = "c67e11cfd70a0c33d050db3067f163613303d934a5587b754aeb7830e020a4b6"
 metafile = true
 
 [[files]]
